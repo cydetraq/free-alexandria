@@ -30,15 +30,16 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository includes 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file.
+The downloadable catalog contains 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file. Recommendations for works not supplied here live separately in the curated reading lists.
 
 The catalog distinguishes local EPUB/PDF files from source links. Every local edition has adjacent provenance with its source and file checksums.
 
-## Browse or consume the catalog
+## Browse or consume the archive
 
 The repository is usable as a standalone catalog after cloning—no portal build, online service, or external catalog is required.
 
-- Browse the [readable catalog](docs/catalog.md) on GitHub or offline.
+- Browse the [downloadable catalog](docs/catalog.md) on GitHub or offline.
+- Browse [curated reading lists](docs/curated-reading.md) separately; those titles are recommendations, not supplied files.
 - Consume the committed [V1 JSON export](catalog/catalog.json) from scripts or other catalog tools.
 - Inspect source records and stored editions in [`catalog/`](catalog/) and [`content/`](content/).
 
@@ -51,12 +52,6 @@ python3 tools/build_profile.py profiles/free-alexandria-v1.json
 
 The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks. `--strict` is the release check: it verifies live Project Gutenberg download endpoints, Libby fallbacks, and every committed local file.
 
-To browse the entire 186-record catalog—including works that are source-linked but not included locally—build the catalog preview:
-
-```sh
-python3 tools/build_profile.py profiles/core-v1.json
-```
-
 To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild your local archive, run:
 
 ```sh
@@ -68,7 +63,7 @@ python3 tools/build_profile.py profiles/local/my-archive.json --edition-registry
 
 The result is a static portal with its selected EPUB/PDF files, local search data, provenance records, and checksums. Works without an exact stored Project Gutenberg edition remain available through their recorded source options and can be added with the same workflow.
 
-To make a personal, selectable catalog view, open a built catalog preview, choose individual records (or select all/none), and download its selection file. Convert it into a private profile with:
+To make a personal, selectable catalog view, open the built archive, choose individual records (or select all/none), and download its selection file. Convert it into a private profile with:
 
 ```sh
 python3 tools/create_profile_from_selection.py profiles/local-selection.example.json --output profiles/local/my-selection.json

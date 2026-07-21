@@ -9,7 +9,7 @@
     "name": {"type": "string"},
     "description": {"type": "string"},
     "curator": {"type": "object", "required": ["name"]},
-    "build_mode": {"enum": ["catalog-preview", "distribution"]},
+    "build_mode": {"const": "distribution"},
     "language_preferences": {"type": "array", "items": {"type": "string"}},
     "include_collections": {"type": "array", "items": {"type": "string"}},
     "include_record_ids": {"type": "array", "items": {"type": "string"}},

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a V1 offline catalog preview and a reproducible curation lockfile.
+"""Build a self-contained offline distribution and a reproducible curation lockfile.
 
 The catalog currently uses a deliberately small YAML subset. This parser reads only
 top-level records and fields emitted by this repository; it is not a general YAML parser.
@@ -188,6 +188,10 @@ def main() -> int:
     args = parser.parse_args()
 
     profile = json.loads(args.profile.read_text())
+    if profile.get("build_mode") != "distribution":
+        raise ValueError("Free Alexandria builds only downloadable distribution profiles")
+    if not profile["constraints"].get("require_local_files") or profile["constraints"].get("allow_link_only"):
+        raise ValueError("distribution profiles require local files and cannot include link-only records")
     records = select(profile, load_records())
     source_options = load_source_options()
     records = [{**record, "source_options": source_options.get(record["id"], []), "rights_guidance": rights_guidance(record, source_options.get(record["id"], []))} for record in records]
@@ -225,6 +229,11 @@ def main() -> int:
             destination = output / file["path"]
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / file["path"], destination)
+        provenance_path = edition.get("provenance_path")
+        if provenance_path:
+            destination = output / provenance_path
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(ROOT / provenance_path, destination)
     print(f"Built {profile['build_mode']} for {profile['id']}: {len(records)} records -> {output}")
     return 0
 

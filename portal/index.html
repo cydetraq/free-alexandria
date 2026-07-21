@@ -58,7 +58,7 @@
         <label>Search<input id="search" type="search" placeholder="Title, author, topic, or reason" autocomplete="off"></label>
         <label>Collection<select id="collection"><option value="">All collections</option></select></label>
         <label>Language<select id="language"><option value="">All languages</option></select></label>
-        <label>Availability<select id="availability"><option value="">All availability</option><option value="source-options">Source options</option><option value="link-only">Find, borrow, or buy</option><option value="published">Available on this device</option></select></label>
+        <label>Availability<select id="availability"><option value="">All included works</option><option value="published">Available on this device</option></select></label>
       </section>
       <button id="clear" type="button">Clear filters</button>
       <section class="selection" aria-label="Build a local selection">
@@ -83,20 +83,15 @@
         let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
-        const availabilityLabel = (record, edition) => edition ? 'EPUB + PDF included' : (record.source_options || []).length ? 'Source options available' : record.catalog_status === 'link-only' ? 'Find, borrow, or buy' : 'Cataloged reference';
-        const sourceActions = record => {
-          const options = record.source_options || [];
-          if (!options.length) return '';
-          return `<details><summary>Sources</summary><p class="meta">Exact edition sources appear first. When no local copy is included, Libby can help you find a borrowable edition through your library.</p><p class="actions">${options.map(option => `<a class="action secondary" target="_blank" rel="noopener" href="${esc(option.url)}">${esc(option.label)}</a>`).join(' ')}</p></details>`;
-        };
+        const availabilityLabel = () => 'EPUB + PDF included';
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';
           const collections = (record.collections || []).map(id => `<span class="badge">${esc(labels[id] || id)}</span>`).join('');
-          const statusClass = edition ? 'available' : record.catalog_status === 'link-only' ? 'link' : '';
+          const statusClass = 'available';
           const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
           const downloads = edition ? `<p class="actions">${edition.files.map(file => `<a class="action" download href="${encodeURI(file.path)}">Download ${esc(file.role.toUpperCase())}</a>`).join(' ')}</p>` : '';
           const guidance = record.rights_guidance ? `<details><summary>Availability guidance</summary><p>${esc((record.rights_guidance.evidence_notes || []).join(' '))}</p><p class="meta">This is research guidance, not a legal ruling. ${esc(record.rights_guidance.operator_question || '')}</p></details>` : '';
-          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record, edition)}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}${edition ? '' : sourceActions(record)}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details>${guidance}</article>`;
+          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel()}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details>${guidance}</article>`;
         };
         const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
         fetch('./manifest.json')
@@ -114,7 +109,7 @@
                 return (!needle || haystack.includes(needle)) &&
                   (!collection.value || (record.collections || []).includes(collection.value)) &&
                   (!language.value || record.original_language === language.value) &&
-                  (!availability.value || (availability.value === 'published' && edition) || record.catalog_status === availability.value || (availability.value === 'source-options' && !edition && record.catalog_status !== 'link-only'));
+                  (!availability.value || (availability.value === 'published' && edition));
               }).sort((a,b) => a.title.localeCompare(b.title));
               visible = filtered;
               document.querySelector('#selection-count').textContent = `${selected.size} selected`;

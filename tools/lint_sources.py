@@ -39,6 +39,11 @@ def main() -> int:
                 if not (ROOT / file["path"]).is_file():
                     errors.append(f"{work_id}: missing local {file.get('role', 'file')}")
 
+    exported_catalog = json.loads((CATALOG / "catalog.json").read_text())
+    exported_ids = {record["id"] for record in exported_catalog.get("records", [])}
+    if exported_ids != set(editions):
+        errors.append("catalog export does not exactly match the supplied local-edition registry")
+
     if errors:
         print("Source lint failed:", *errors, sep="\n")
         return 1

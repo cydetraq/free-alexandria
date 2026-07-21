@@ -12,22 +12,13 @@ from build_profile import CATALOG, ROOT, load_records, load_source_options
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
+CURATED_LIST_PATH = ROOT / "lists" / "curated-reading.json"
+CURATED_LIST_MARKDOWN_PATH = ROOT / "docs" / "curated-reading.md"
 
 
 def load_published_editions() -> dict[str, list[dict]]:
     """Return the committed local editions keyed by work ID."""
     return json.loads((CATALOG / "published-editions.json").read_text()).get("editions", {})
-
-
-def reader_availability(record: dict, options: list[dict], published_ids: set[str]) -> dict[str, str]:
-    """Short, reader-facing labels; internal workflow states stay out of the catalog UI."""
-    if record["id"] in published_ids:
-        return {"access": "Source recorded", "library": "EPUB + PDF included"}
-    if options:
-        return {"access": "Source link available", "library": "Not included locally"}
-    if record.get("catalog_status") == "link-only":
-        return {"access": "Find, borrow, or buy", "library": "Not included locally"}
-    return {"access": "Cataloged reference", "library": "Not included locally"}
 
 
 def rights_guidance(record: dict, options: list[dict]) -> dict:
@@ -58,32 +49,21 @@ def rights_guidance(record: dict, options: list[dict]) -> dict:
 
 
 def render_api() -> str:
-    source_documents = {
-        path.name: path.read_text()
-        for path in sorted(CATALOG.glob("*.yaml"))
-    }
-    source_documents["published-editions.json"] = (CATALOG / "published-editions.json").read_text()
-    source_documents["resolved-sources.json"] = (CATALOG / "resolved-sources.json").read_text()
     source_options = load_source_options()
-    published_ids = set(load_published_editions())
+    published_editions = load_published_editions()
     records = [
         {
             **record,
             "source_options": source_options.get(record["id"], []),
             "rights_guidance": rights_guidance(record, source_options.get(record["id"], [])),
-            "reader_availability": reader_availability(record, source_options.get(record["id"], []), published_ids),
         }
-        for record in load_records()
+        for record in load_records() if record["id"] in published_editions
     ]
     payload = {
         "format_version": 1,
-        "offline_notice": "This file is a complete metadata snapshot. It has no runtime dependency on external catalogs or URLs.",
-        "normalized_records_notice": "The records field is a convenient V1 index. source_documents retains the complete, authoritative source text, including nested translation and acquisition details.",
+        "offline_notice": "This file contains only works supplied by this repository as local EPUB/PDF editions. It has no runtime dependency on external catalogs or URLs.",
         "records": sorted(records, key=lambda item: item["id"]),
-        "sources": sorted(load_records([CATALOG / "sources.yaml"], skip=set()), key=lambda item: item["id"]),
-        "published_editions": json.loads((CATALOG / "published-editions.json").read_text()),
-        "jurisdictional_access": json.loads((CATALOG / "jurisdictional-access.json").read_text()),
-        "source_documents": source_documents,
+        "published_editions": {"format_version": 1, "editions": published_editions},
     }
     return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
 
@@ -135,11 +115,10 @@ def render_markdown(records: list[dict]) -> str:
     lines = [
         "# Catalog",
         "",
-        "This is a committed, readable snapshot of the current Free Alexandria metadata catalog. It is useful offline after cloning the repository; it does not imply that every listed work has a locally mirrored file yet.",
+        "This is the committed, readable Free Alexandria catalog. Every listed work is included locally as EPUB and PDF and remains usable offline after cloning the repository.",
         "",
-        f"**Records:** {len(records)}<br>",
+        f"**Included works:** {len(records)}<br>",
         "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>",
-        "**Source registry:** [`catalog/sources.yaml`](../catalog/sources.yaml)<br>",
         "**Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)",
         "",
     ]
@@ -160,17 +139,48 @@ def render_markdown(records: list[dict]) -> str:
         "## How to consume this catalog",
         "",
         "- Read this file for a GitHub-friendly inventory.",
-        "- Use `catalog/catalog.json` as the stable V1 API for scripts and other catalog tools. Its `source_documents` field retains the complete authoritative YAML text.",
-        "- Use the source YAML records for editorial detail, including translations and acquisition planning.",
-        "- Use a profile in `profiles/` to create an offline catalog preview from a clone.",
+        "- Use `catalog/catalog.json` as the stable V1 API for scripts and other catalog tools.",
+        "- Browse [`curated-reading.md`](curated-reading.md) for recommendations that are not supplied in this archive.",
         "",
     ])
+    return "\n".join(lines)
+
+
+def render_curated_list(records: list[dict]) -> str:
+    """Keep useful recommendations separate from the downloadable catalog."""
+    source_options = load_source_options()
+    entries = [
+        {
+            "id": record["id"], "title": record["title"], "author": record.get("author") or record.get("publisher"),
+            "original_year": record.get("original_year"), "collections": record.get("collections", []),
+            "description": record.get("description", ""), "why_included": record.get("why_included", ""),
+            "library_link": next((option["url"] for option in source_options.get(record["id"], []) if option.get("source_id") == "libby"), None),
+        }
+        for record in records
+    ]
+    return json.dumps({"format_version": 1, "notice": "Curated recommendations only. These works are not supplied by this repository.", "records": entries}, ensure_ascii=False, indent=2) + "\n"
+
+
+def render_curated_markdown(records: list[dict]) -> str:
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for record in records:
+        for collection in record.get("collections", ["other"]):
+            grouped[collection].append(record)
+    labels = {"banned-challenged": "Banned & Challenged Literature", "suppressed-knowledge": "Suppressed Knowledge", "preparedness": "Preparedness & Field Manuals", "essential-reading": "Essential Reading", "original-language": "Original-Language Reading", "essential-literature": "Essential Literature"}
+    source_options = load_source_options()
+    lines = ["# Curated reading lists", "", "These are recommendations retained for their relevance. They are not part of the downloadable Free Alexandria catalog because this repository does not currently supply their EPUB/PDF editions.", ""]
+    for collection in sorted(grouped, key=lambda value: labels.get(value, value)):
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Why it is on this list |", "| --- | --- | --- |"])
+        for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
+            lines.append(f"| {table_cell(record.get('title'))} | {table_cell(record.get('author') or record.get('publisher'))} | {table_cell(record.get('why_included'))} |")
+        lines.append("")
     return "\n".join(lines)
 
 
 def write_or_check(path: Path, content: str, check: bool) -> bool:
     if check:
         return path.exists() and path.read_text() == content
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content)
     return True
 
@@ -179,10 +189,15 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="fail if committed exports are stale")
     args = parser.parse_args()
-    records = load_records()
+    all_records = load_records()
+    published_ids = set(load_published_editions())
+    records = [record for record in all_records if record["id"] in published_ids]
+    curated_records = [record for record in all_records if record["id"] not in published_ids]
     api_ok = write_or_check(API_PATH, render_api(), args.check)
     markdown_ok = write_or_check(MARKDOWN_PATH, render_markdown(records), args.check)
-    if not api_ok or not markdown_ok:
+    curated_json_ok = write_or_check(CURATED_LIST_PATH, render_curated_list(curated_records), args.check)
+    curated_markdown_ok = write_or_check(CURATED_LIST_MARKDOWN_PATH, render_curated_markdown(curated_records), args.check)
+    if not api_ok or not markdown_ok or not curated_json_ok or not curated_markdown_ok:
         print("Catalog exports are stale. Run: python3 tools/export_catalog.py", file=sys.stderr)
         return 1
     print("Catalog exports are current." if args.check else "Catalog exports written.")

@@ -4,10 +4,9 @@ A curation profile is a small, reviewable JSON document that selects a versioned
 
 Profiles do not contain files, URLs that must work at runtime, or ad-hoc copies of catalog metadata. They reference local catalog record IDs and state their language and storage preferences.
 
-## Two build modes
+## Build rule
 
-- `catalog-preview` produces a local offline catalog and a lockfile, even when selected files have not yet been acquired. It is useful for review and planning.
-- `distribution` fails unless each selected work resolves through `catalog/published-editions.json` to a local edition with matching hashes, provenance, and a size within the profile limit. It then copies those verified files into the release.
+Every profile is a `distribution` profile. It fails unless each selected work resolves through `catalog/published-editions.json` to a local edition with matching hashes, provenance, and a size within the profile limit. It then copies those verified files into the release.
 
 ## Reproducibility
 
@@ -19,4 +18,4 @@ Future curation can publish profile files in a separate repository or registry. 
 
 ## Hard boundaries
 
-Profiles can choose among catalog records. They cannot turn an external link into a local file or omit required provenance.
+Profiles can choose among supplied catalog records. They cannot turn a recommendation into a local file or omit required provenance.

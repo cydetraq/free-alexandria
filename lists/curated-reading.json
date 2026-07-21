@@ -1,0 +1,1286 @@
+{
+  "format_version": 1,
+  "notice": "Curated recommendations only. These works are not supplied by this repository.",
+  "records": [
+    {
+      "id": "as-i-lay-dying",
+      "title": "As I Lay Dying",
+      "author": "William Faulkner",
+      "original_year": 1930,
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "description": "A poor Southern family transports its mother's body for burial.",
+      "why_included": "Challenged for language, sexuality, abortion, death, religion, and family dysfunction.",
+      "library_link": "https://libbyapp.com/search?query=As+I+Lay+Dying+William+Faulkner"
+    },
+    {
+      "id": "animal-farm",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "original_year": 1945,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A revolution against human masters turns into a new hierarchy of power.",
+      "why_included": "Essential fable of revolutionary ideals, controlled history, and oligarchy.",
+      "library_link": "https://libbyapp.com/search?query=Animal+Farm+George+Orwell"
+    },
+    {
+      "id": "brave-new-world",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "original_year": 1932,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A technocratic society uses conditioning, pleasure, and managed reproduction for control.",
+      "why_included": "Essential counterpoint to coercive models of authoritarianism.",
+      "library_link": "https://libbyapp.com/search?query=Brave+New+World+Aldous+Huxley"
+    },
+    {
+      "id": "fahrenheit-451",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "original_year": 1953,
+      "collections": [
+        "essential-reading",
+        "banned-challenged"
+      ],
+      "description": "A fireman begins preserving books in a culture organized around their destruction.",
+      "why_included": "Defining modern novel of censorship and anti-intellectualism.",
+      "library_link": "https://libbyapp.com/search?query=Fahrenheit+451+Ray+Bradbury"
+    },
+    {
+      "id": "the-handmaids-tale",
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "original_year": 1985,
+      "collections": [
+        "essential-reading",
+        "banned-challenged"
+      ],
+      "description": "A woman survives under a theocratic regime that controls reproduction and literacy.",
+      "why_included": "Essential fiction of religious authoritarianism and bodily autonomy.",
+      "library_link": "https://libbyapp.com/search?query=The+Handmaid%27s+Tale+Margaret+Atwood"
+    },
+    {
+      "id": "the-dispossessed",
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "original_year": 1974,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A physicist moves between rival societies organized around scarcity, capitalism, and anarchism.",
+      "why_included": "Nuanced exploration of freedom, bureaucracy, solidarity, and political systems.",
+      "library_link": "https://libbyapp.com/search?query=The+Dispossessed+Ursula+K.+Le+Guin"
+    },
+    {
+      "id": "darkness-at-noon",
+      "title": "Darkness at Noon",
+      "author": "Arthur Koestler",
+      "original_year": 1940,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "An old revolutionary is forced through the logic of ideological confession and purge.",
+      "why_included": "Essential novel of totalitarian confession and destruction of conscience.",
+      "library_link": "https://libbyapp.com/search?query=Darkness+at+Noon+Arthur+Koestler"
+    },
+    {
+      "id": "origins-of-totalitarianism",
+      "title": "The Origins of Totalitarianism",
+      "author": "Hannah Arendt",
+      "original_year": 1951,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A study of antisemitism, imperialism, and totalitarian political organization.",
+      "why_included": "Foundational framework for understanding totalitarian systems.",
+      "library_link": "https://libbyapp.com/search?query=The+Origins+of+Totalitarianism+Hannah+Arendt"
+    },
+    {
+      "id": "the-open-society-and-its-enemies",
+      "title": "The Open Society and Its Enemies",
+      "author": "Karl Popper",
+      "original_year": 1945,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A philosophical defense of critical inquiry against closed political systems.",
+      "why_included": "Major critique of historicism and authoritarian thought.",
+      "library_link": "https://libbyapp.com/search?query=The+Open+Society+and+Its+Enemies+Karl+Popper"
+    },
+    {
+      "id": "the-power-of-the-powerless",
+      "title": "The Power of the Powerless",
+      "author": "Václav Havel",
+      "original_year": 1978,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "An essay on ordinary conformity and dissent under ideological rule.",
+      "why_included": "Practical and humane account of resistance within authoritarian systems.",
+      "library_link": "https://libbyapp.com/search?query=The+Power+of+the+Powerless+V%C3%A1clav+Havel"
+    },
+    {
+      "id": "the-gulag-archipelago",
+      "title": "The Gulag Archipelago",
+      "author": "Aleksandr Solzhenitsyn",
+      "original_year": 1973,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "Documentary-literary history of Soviet forced labor and political repression.",
+      "why_included": "Landmark testimony about state terror and institutional denial.",
+      "library_link": "https://libbyapp.com/search?query=The+Gulag+Archipelago+Aleksandr+Solzhenitsyn"
+    },
+    {
+      "id": "seeing-like-a-state",
+      "title": "Seeing Like a State",
+      "author": "James C. Scott",
+      "original_year": 1998,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "An account of how centralized schemes simplify people and places, often disastrously.",
+      "why_included": "Essential critique of high-modernist administrative power.",
+      "library_link": "https://libbyapp.com/search?query=Seeing+Like+a+State+James+C.+Scott"
+    },
+    {
+      "id": "on-tyranny",
+      "title": "On Tyranny",
+      "author": "Timothy Snyder",
+      "original_year": 2017,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Short historical lessons about defending institutions and civic habits.",
+      "why_included": "Accessible starting point for recognizing democratic erosion.",
+      "library_link": "https://libbyapp.com/search?query=On+Tyranny+Timothy+Snyder"
+    },
+    {
+      "id": "thought-reform-and-the-psychology-of-totalism",
+      "title": "Thought Reform and the Psychology of Totalism",
+      "author": "Robert Jay Lifton",
+      "original_year": 1961,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A model of ideological re-education and coercive social environments.",
+      "why_included": "Foundational analysis of coercive persuasion.",
+      "library_link": "https://libbyapp.com/search?query=Thought+Reform+and+the+Psychology+of+Totalism+Robert+Jay+Lifton"
+    },
+    {
+      "id": "coercive-persuasion",
+      "title": "Coercive Persuasion",
+      "author": "Edgar H. Schein and colleagues",
+      "original_year": 1961,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Academic study of forced ideological and behavioral change.",
+      "why_included": "Important companion to practical propaganda and coercion material.",
+      "library_link": "https://libbyapp.com/search?query=Coercive+Persuasion+Edgar+H.+Schein+and+colleagues"
+    },
+    {
+      "id": "influence-cialdini",
+      "title": "Influence",
+      "author": "Robert Cialdini",
+      "original_year": 1984,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Popular account of recurring mechanisms of compliance and persuasion.",
+      "why_included": "Useful for recognizing manipulation in ordinary settings.",
+      "library_link": "https://libbyapp.com/search?query=Influence+Robert+Cialdini"
+    },
+    {
+      "id": "manufacturing-consent",
+      "title": "Manufacturing Consent",
+      "author": "Edward S. Herman and Noam Chomsky",
+      "original_year": 1988,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A structural model of media filtering and elite influence.",
+      "why_included": "Important framework for evaluating information systems and ownership.",
+      "library_link": "https://libbyapp.com/search?query=Manufacturing+Consent+Edward+S.+Herman+and+Noam+Chomsky"
+    },
+    {
+      "id": "the-true-believer",
+      "title": "The True Believer",
+      "author": "Eric Hoffer",
+      "original_year": 1951,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A study of mass movements and ideological commitment.",
+      "why_included": "Useful historical lens on identity, grievance, and collective belief.",
+      "library_link": "https://libbyapp.com/search?query=The+True+Believer+Eric+Hoffer"
+    },
+    {
+      "id": "applied-cryptography",
+      "title": "Applied Cryptography",
+      "author": "Bruce Schneier",
+      "original_year": 1994,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Broad reference on cryptographic concepts and protocols.",
+      "why_included": "Important historical and conceptual cryptography reference.",
+      "library_link": "https://libbyapp.com/search?query=Applied+Cryptography+Bruce+Schneier"
+    },
+    {
+      "id": "cryptography-engineering",
+      "title": "Cryptography Engineering",
+      "author": "Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno",
+      "original_year": 2010,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Practical guidance on designing and evaluating cryptographic systems.",
+      "why_included": "Strong bridge from historical ciphers to modern security concepts.",
+      "library_link": "https://libbyapp.com/search?query=Cryptography+Engineering+Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno"
+    },
+    {
+      "id": "permanent-record",
+      "title": "Permanent Record",
+      "author": "Edward Snowden",
+      "original_year": 2019,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Memoir of the modern surveillance state and the decisions behind public disclosure.",
+      "why_included": "First-person account relevant to privacy and state surveillance.",
+      "library_link": "https://libbyapp.com/search?query=Permanent+Record+Edward+Snowden"
+    },
+    {
+      "id": "data-and-goliath",
+      "title": "Data and Goliath",
+      "author": "Bruce Schneier",
+      "original_year": 2015,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "Examination of surveillance by governments and corporations.",
+      "why_included": "Accessible framework for understanding data collection and power.",
+      "library_link": "https://libbyapp.com/search?query=Data+and+Goliath+Bruce+Schneier"
+    },
+    {
+      "id": "weapons-of-math-destruction",
+      "title": "Weapons of Math Destruction",
+      "author": "Cathy O'Neil",
+      "original_year": 2016,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "How opaque models can reinforce institutional inequality and error.",
+      "why_included": "Important for understanding automated power and data literacy.",
+      "library_link": "https://libbyapp.com/search?query=Weapons+of+Math+Destruction+Cathy+O%27Neil"
+    },
+    {
+      "id": "the-demon-haunted-world",
+      "title": "The Demon-Haunted World",
+      "author": "Carl Sagan",
+      "original_year": 1995,
+      "collections": [
+        "essential-reading",
+        "suppressed-knowledge"
+      ],
+      "description": "A case for scientific skepticism and disciplined inquiry.",
+      "why_included": "Essential companion to propaganda analysis and evidence literacy.",
+      "library_link": "https://libbyapp.com/search?query=The+Demon-Haunted+World+Carl+Sagan"
+    },
+    {
+      "id": "the-satanic-verses",
+      "title": "The Satanic Verses",
+      "author": "Salman Rushdie",
+      "original_year": 1988,
+      "collections": [
+        "essential-reading",
+        "banned-challenged"
+      ],
+      "description": "A novel of migration, faith, identity, and contested religious narrative.",
+      "why_included": "One of the defining modern censorship controversies.",
+      "library_link": "https://libbyapp.com/search?query=The+Satanic+Verses+Salman+Rushdie"
+    },
+    {
+      "id": "nineteen-eighty-four",
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "original_year": 1949,
+      "collections": [
+        "essential-reading"
+      ],
+      "description": "A novel of surveillance, controlled language, manufactured reality, and political terror.",
+      "why_included": "Essential fiction for understanding authoritarian information control.",
+      "library_link": "https://libbyapp.com/search?query=Nineteen+Eighty-Four+George+Orwell"
+    },
+    {
+      "id": "the-rape-of-the-mind",
+      "title": "The Rape of the Mind",
+      "author": "Joost Meerloo",
+      "original_year": 1956,
+      "collections": [
+        "essential-reading"
+      ],
+      "description": "A study of coercive persuasion and totalitarian psychological control.",
+      "why_included": "A foundational reference for recognizing coercive ideological environments.",
+      "library_link": "https://libbyapp.com/search?query=The+Rape+of+the+Mind+Joost+Meerloo"
+    },
+    {
+      "id": "fm-21-76-survival",
+      "title": "Survival",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Survival"
+    },
+    {
+      "id": "fm-3-25-26-map-reading-and-land-navigation",
+      "title": "Map Reading and Land Navigation",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Map+Reading+and+Land+Navigation"
+    },
+    {
+      "id": "fm-5-125-rigging-techniques",
+      "title": "Rigging Techniques, Procedures and Applications",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Rigging+Techniques%2C+Procedures+and+Applications"
+    },
+    {
+      "id": "fm-4-25-11-first-aid",
+      "title": "First Aid",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=First+Aid"
+    },
+    {
+      "id": "fm-21-10-field-hygiene-and-sanitation",
+      "title": "Field Hygiene and Sanitation",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Field+Hygiene+and+Sanitation"
+    },
+    {
+      "id": "fm-21-11-first-aid-for-soldiers",
+      "title": "First Aid for Soldiers",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=First+Aid+for+Soldiers"
+    },
+    {
+      "id": "fm-21-26-map-reading",
+      "title": "Map Reading",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Map+Reading"
+    },
+    {
+      "id": "fm-21-22-survival-at-sea",
+      "title": "Survival at Sea",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Survival+at+Sea"
+    },
+    {
+      "id": "fm-21-15-clothing-and-equipment",
+      "title": "Care and Use of Individual Clothing and Equipment",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Care+and+Use+of+Individual+Clothing+and+Equipment"
+    },
+    {
+      "id": "fm-21-17-evasion-and-escape",
+      "title": "Evasion and Escape",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Evasion+and+Escape"
+    },
+    {
+      "id": "fm-5-34-engineer-field-data",
+      "title": "Engineer Field Data",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Engineer+Field+Data"
+    },
+    {
+      "id": "fm-5-428-concrete-and-masonry",
+      "title": "Concrete and Masonry",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Concrete+and+Masonry"
+    },
+    {
+      "id": "fm-21-75-survival",
+      "title": "Survival",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Survival"
+    },
+    {
+      "id": "fm-21-40-cbrn-defense",
+      "title": "Chemical, Biological, and Nuclear Defense",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Chemical%2C+Biological%2C+and+Nuclear+Defense"
+    },
+    {
+      "id": "tc-3-21-76-ranger-handbook",
+      "title": "Ranger Handbook",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Ranger+Handbook"
+    },
+    {
+      "id": "atp-4-44-water-support-operations",
+      "title": "Water Support Operations",
+      "author": "United States Army",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Water+Support+Operations"
+    },
+    {
+      "id": "eff-surveillance-self-defense",
+      "title": "Surveillance Self-Defense",
+      "author": "Electronic Frontier Foundation",
+      "original_year": null,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "Current guidance on threat modeling, private communications, metadata, and device security.",
+      "why_included": "",
+      "library_link": "https://libbyapp.com/search?query=Surveillance+Self-Defense"
+    },
+    {
+      "id": "free-culture",
+      "title": "Free Culture",
+      "author": "Lawrence Lessig",
+      "original_year": 2004,
+      "collections": [
+        "open-distribution",
+        "suppressed-knowledge"
+      ],
+      "description": "Argument about copyright, technology, creativity, and the commons.",
+      "why_included": "Directly relevant to preserving and sharing culture lawfully.",
+      "library_link": "https://libbyapp.com/search?query=Free+Culture+Lawrence+Lessig"
+    },
+    {
+      "id": "content-selected-essays",
+      "title": "Content",
+      "author": "Cory Doctorow",
+      "original_year": 2008,
+      "collections": [
+        "open-distribution",
+        "suppressed-knowledge"
+      ],
+      "description": "Essays on digital rights, creativity, copyright, and technological control.",
+      "why_included": "Strong companion to the archive's free-knowledge mission.",
+      "library_link": "https://libbyapp.com/search?query=Content+Cory+Doctorow"
+    },
+    {
+      "id": "cryptoparty-handbook",
+      "title": "CryptoParty Handbook",
+      "author": "CryptoParty contributors",
+      "original_year": 2012,
+      "collections": [
+        "open-distribution",
+        "suppressed-knowledge"
+      ],
+      "description": "Introductory computer and internet security guidance.",
+      "why_included": "Potentially useful offline privacy reference; license and technical currency both require review.",
+      "library_link": "https://libbyapp.com/search?query=CryptoParty+Handbook"
+    },
+    {
+      "id": "the-castle",
+      "title": "The Castle",
+      "author": "Franz Kafka",
+      "original_year": 1926,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A land surveyor struggles to obtain recognition from an inaccessible authority.",
+      "why_included": "A major novel of bureaucracy, exclusion, and opaque power.",
+      "library_link": "https://libbyapp.com/search?query=The+Castle+Franz+Kafka"
+    },
+    {
+      "id": "amerika",
+      "title": "Amerika",
+      "author": "Franz Kafka",
+      "original_year": 1927,
+      "collections": [
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "An unfinished novel of migration, exploitation, absurd institutions, and modern alienation.",
+      "why_included": "Preserves a major Kafka work in its source language pending edition review.",
+      "library_link": "https://libbyapp.com/search?query=Amerika+Franz+Kafka"
+    },
+    {
+      "id": "berlin-alexanderplatz",
+      "title": "Berlin Alexanderplatz",
+      "author": "Alfred Döblin",
+      "original_year": 1929,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "banned-challenged"
+      ],
+      "description": "A working-class man tries to remake his life in Weimar Berlin.",
+      "why_included": "Landmark city novel banned and burned by the Nazis.",
+      "library_link": "https://libbyapp.com/search?query=Berlin+Alexanderplatz+Alfred+D%C3%B6blin"
+    },
+    {
+      "id": "the-magic-mountain",
+      "title": "The Magic Mountain",
+      "author": "Thomas Mann",
+      "original_year": 1924,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "banned-challenged"
+      ],
+      "description": "A visitor to a Swiss sanatorium encounters competing visions of Europe, illness, time, and politics.",
+      "why_included": "One of the central modernist novels; Mann's works were banned and burned by the Nazis.",
+      "library_link": "https://libbyapp.com/search?query=The+Magic+Mountain+Thomas+Mann"
+    },
+    {
+      "id": "the-death-of-ivan-ilyich",
+      "title": "The Death of Ivan Ilyich",
+      "author": "Leo Tolstoy",
+      "original_year": 1886,
+      "collections": [
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "A successful official confronts illness, mortality, and the falseness of his social world.",
+      "why_included": "Canonical novella about death, meaning, and social conformity.",
+      "library_link": "https://libbyapp.com/search?query=The+Death+of+Ivan+Ilyich+Leo+Tolstoy"
+    },
+    {
+      "id": "hadji-murad",
+      "title": "Hadji Murad",
+      "author": "Leo Tolstoy",
+      "original_year": 1912,
+      "collections": [
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A Caucasian resistance leader is caught between Russian imperial power and local rivalries.",
+      "why_included": "Major anti-imperial and antiwar novella.",
+      "library_link": "https://libbyapp.com/search?query=Hadji+Murad+Leo+Tolstoy"
+    },
+    {
+      "id": "what-is-to-be-done-chernyshevsky",
+      "title": "What Is to Be Done?",
+      "author": "Nikolai Chernyshevsky",
+      "original_year": 1863,
+      "collections": [
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A politically influential novel of radical education, cooperative life, and social change.",
+      "why_included": "Repeatedly suppressed for revolutionary ideas and clandestine political influence.",
+      "library_link": "https://libbyapp.com/search?query=What+Is+to+Be+Done%3F+Nikolai+Chernyshevsky"
+    },
+    {
+      "id": "kokoro",
+      "title": "Kokoro",
+      "author": "Natsume Sōseki",
+      "original_year": 1914,
+      "collections": [
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "A novel of isolation, guilt, modernity, friendship, and suicide.",
+      "why_included": "One of Japan's central modern novels.",
+      "library_link": "https://libbyapp.com/search?query=Kokoro+Natsume+S%C5%8Dseki"
+    },
+    {
+      "id": "i-am-a-cat",
+      "title": "I Am a Cat",
+      "author": "Natsume Sōseki",
+      "original_year": 1905,
+      "collections": [
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "A cat satirizes class, education, and intellectual pretension in modernizing Japan.",
+      "why_included": "Canonical social satire with enduring cultural value.",
+      "library_link": "https://libbyapp.com/search?query=I+Am+a+Cat+Natsume+S%C5%8Dseki"
+    },
+    {
+      "id": "botchan",
+      "title": "Botchan",
+      "author": "Natsume Sōseki",
+      "original_year": 1906,
+      "collections": [
+        "original-language"
+      ],
+      "description": "An impulsive teacher confronts hypocrisy and hierarchy at a provincial school.",
+      "why_included": "Widely read Japanese classic about institutional authority.",
+      "library_link": "https://libbyapp.com/search?query=Botchan+Natsume+S%C5%8Dseki"
+    },
+    {
+      "id": "diary-of-a-madman-lu-xun",
+      "title": "Diary of a Madman",
+      "author": "Lu Xun",
+      "original_year": 1918,
+      "collections": [
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A narrator sees oppressive tradition as a system of cannibalism.",
+      "why_included": "Foundational modern Chinese story attacking conformist social authority.",
+      "library_link": "https://libbyapp.com/search?query=Diary+of+a+Madman+Lu+Xun"
+    },
+    {
+      "id": "the-true-story-of-ah-q",
+      "title": "The True Story of Ah Q",
+      "author": "Lu Xun",
+      "original_year": 1921,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A powerless rural man rationalizes humiliation amid social and political upheaval.",
+      "why_included": "Foundational political and social satire in modern Chinese literature.",
+      "library_link": "https://libbyapp.com/search?query=The+True+Story+of+Ah+Q+Lu+Xun"
+    },
+    {
+      "id": "rashomon",
+      "title": "Rashōmon",
+      "author": "Ryūnosuke Akutagawa",
+      "original_year": 1915,
+      "collections": [
+        "original-language"
+      ],
+      "description": "A servant confronts moral collapse and survival in a ruined Kyoto.",
+      "why_included": "Canonical short story of social disorder and ethical ambiguity.",
+      "library_link": "https://libbyapp.com/search?query=Rash%C5%8Dmon+Ry%C5%ABnosuke+Akutagawa"
+    },
+    {
+      "id": "in-a-grove",
+      "title": "In a Grove",
+      "author": "Ryūnosuke Akutagawa",
+      "original_year": 1922,
+      "collections": [
+        "original-language"
+      ],
+      "description": "Contradictory testimony makes the truth of a killing impossible to settle.",
+      "why_included": "Influential study of uncertain truth and institutional testimony.",
+      "library_link": "https://libbyapp.com/search?query=In+a+Grove+Ry%C5%ABnosuke+Akutagawa"
+    },
+    {
+      "id": "the-vortex",
+      "title": "The Vortex",
+      "author": "José Eustasio Rivera",
+      "original_year": 1924,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "Travelers enter a jungle economy built on rubber extraction, exploitation, and violence.",
+      "why_included": "Major Latin American indictment of colonial and labor abuse.",
+      "library_link": "https://libbyapp.com/search?query=The+Vortex+Jos%C3%A9+Eustasio+Rivera"
+    },
+    {
+      "id": "macunaima",
+      "title": "Macunaíma",
+      "author": "Mário de Andrade",
+      "original_year": 1928,
+      "collections": [
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "A mythic antihero crosses a Brazil of folklore, language play, race, and modernity.",
+      "why_included": "Foundational Brazilian modernist novel with challenging cultural and political themes.",
+      "library_link": "https://libbyapp.com/search?query=Macuna%C3%ADma+M%C3%A1rio+de+Andrade"
+    },
+    {
+      "id": "camp-lore-and-woodcraft",
+      "title": "Camp-Lore and Woodcraft",
+      "author": "D. C. Beard",
+      "original_year": 1920,
+      "collections": [
+        "preparedness",
+        "practical-library"
+      ],
+      "description": "Fire, knots, camps, tools, and outdoor construction.",
+      "why_included": "Broad practical source for fieldcraft and simple construction.",
+      "library_link": "https://libbyapp.com/search?query=Camp-Lore+and+Woodcraft+D.+C.+Beard"
+    },
+    {
+      "id": "the-boy-mechanic-volume-1",
+      "title": "The Boy Mechanic, Volume 1",
+      "author": "Popular Mechanics",
+      "original_year": 1913,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Historical repair, tool, mechanism, and workshop projects.",
+      "why_included": "Useful for improvisation and mechanical understanding; unsafe projects require modern review.",
+      "library_link": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+1"
+    },
+    {
+      "id": "the-boy-mechanic-volume-2",
+      "title": "The Boy Mechanic, Volume 2",
+      "author": "Popular Mechanics",
+      "original_year": 1915,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Historical home workshop projects and repair ideas.",
+      "why_included": "Companion volume for practical mechanics and improvisation.",
+      "library_link": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+2"
+    },
+    {
+      "id": "the-boy-mechanic-volume-3",
+      "title": "The Boy Mechanic, Volume 3",
+      "author": "Popular Mechanics",
+      "original_year": 1916,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Historical projects in mechanics, construction, and tools.",
+      "why_included": "Completes the early practical-mechanics set.",
+      "library_link": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+3"
+    },
+    {
+      "id": "handy-farm-devices-and-how-to-make-them",
+      "title": "Handy Farm Devices and How to Make Them",
+      "author": "Rolfe Cobleigh",
+      "original_year": 1909,
+      "collections": [
+        "preparedness",
+        "practical-library"
+      ],
+      "description": "Farm tools, storage devices, and small construction projects.",
+      "why_included": "Practical resourcefulness and repair ideas for low-resource situations.",
+      "library_link": "https://libbyapp.com/search?query=Handy+Farm+Devices+and+How+to+Make+Them+Rolfe+Cobleigh"
+    },
+    {
+      "id": "henleys-twentieth-century-formulas",
+      "title": "Henley's Twentieth Century Formulas, Recipes and Processes",
+      "author": "Norman W. Henley",
+      "original_year": 1907,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Historical materials, shop processes, and technical formulas.",
+      "why_included": "Useful reference history, but contains hazardous and obsolete procedures.",
+      "library_link": "https://libbyapp.com/search?query=Henley%27s+Twentieth+Century+Formulas%2C+Recipes+and+Processes"
+    },
+    {
+      "id": "preservation-of-food-in-the-home",
+      "title": "The Preservation of Food in the Home",
+      "author": "United States Department of Agriculture",
+      "original_year": 1918,
+      "collections": [
+        "preparedness",
+        "practical-library"
+      ],
+      "description": "Historical canning, drying, and food-storage guidance.",
+      "why_included": "Useful historical context only; current USDA processing guidance takes precedence.",
+      "library_link": "https://libbyapp.com/search?query=The+Preservation+of+Food+in+the+Home"
+    },
+    {
+      "id": "manual-of-gardening",
+      "title": "Manual of Gardening",
+      "author": "L. H. Bailey",
+      "original_year": 1910,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Home and market gardening methods.",
+      "why_included": "Broad gardening reference; pesticide advice must be treated as obsolete.",
+      "library_link": "https://libbyapp.com/search?query=Manual+of+Gardening+L.+H.+Bailey"
+    },
+    {
+      "id": "audels-carpenters-and-builders-guide",
+      "title": "Audel's Carpenters and Builders Guide",
+      "author": "Theo. Audel and Company",
+      "original_year": 1923,
+      "collections": [
+        "practical-library"
+      ],
+      "description": "Carpentry, construction, and building reference.",
+      "why_included": "Strong practical reference when an eligible early edition is selected.",
+      "library_link": "https://libbyapp.com/search?query=Audel%27s+Carpenters+and+Builders+Guide"
+    },
+    {
+      "id": "food-and-water-in-an-emergency",
+      "title": "Food and Water in an Emergency",
+      "author": "FEMA",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Household food storage, emergency water, and power-loss preparation.",
+      "why_included": "A concise federal reference for common disruptions.",
+      "library_link": "https://libbyapp.com/search?query=Food+and+Water+in+an+Emergency"
+    },
+    {
+      "id": "make-water-safe-during-an-emergency",
+      "title": "Make Water Safe During an Emergency",
+      "author": "Centers for Disease Control and Prevention",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Current guidance on boiling, disinfecting, and filtering emergency water.",
+      "why_included": "High-value life-safety guidance that must remain current and dated.",
+      "library_link": "https://libbyapp.com/search?query=Make+Water+Safe+During+an+Emergency"
+    },
+    {
+      "id": "finding-your-way-with-map-and-compass",
+      "title": "Finding Your Way with Map and Compass",
+      "author": "U.S. Geological Survey",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Map scales, contours, bearings, and compass use.",
+      "why_included": "Civilian navigation reference suitable for offline use.",
+      "library_link": "https://libbyapp.com/search?query=Finding+Your+Way+with+Map+and+Compass"
+    },
+    {
+      "id": "camping-and-woodcraft",
+      "title": "Camping and Woodcraft",
+      "author": "Horace Kephart",
+      "original_year": 1906,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Campcraft, shelters, tools, fire, and wilderness living.",
+      "why_included": "An enduring practical reference, with medical and conservation advice clearly marked as historical.",
+      "library_link": "https://libbyapp.com/search?query=Camping+and+Woodcraft+Horace+Kephart"
+    },
+    {
+      "id": "emergency-financial-first-aid-kit",
+      "title": "Emergency Financial First Aid Kit",
+      "author": "FEMA and Ready.gov",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Forms and guidance for documents, accounts, insurance, and disaster recovery.",
+      "why_included": "Practical household continuity reference that is often overlooked.",
+      "library_link": "https://libbyapp.com/search?query=Emergency+Financial+First+Aid+Kit"
+    },
+    {
+      "id": "use-safe-water-during-an-emergency",
+      "title": "Use Safe Water During an Emergency",
+      "author": "Centers for Disease Control and Prevention",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Safe water use after contamination or disrupted service.",
+      "why_included": "Current public-health companion to storage and treatment guidance.",
+      "library_link": "https://libbyapp.com/search?query=Use+Safe+Water+During+an+Emergency"
+    },
+    {
+      "id": "preventing-diarrheal-illness-after-a-disaster",
+      "title": "Preventing Diarrheal Illness After a Disaster",
+      "author": "Centers for Disease Control and Prevention",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Disaster sanitation, water, handwashing, and food-safety guidance.",
+      "why_included": "Current health guidance for a high-risk post-disaster problem.",
+      "library_link": "https://libbyapp.com/search?query=Preventing+Diarrheal+Illness+After+a+Disaster"
+    },
+    {
+      "id": "household-emergency-plan-and-supply-checklists",
+      "title": "Household Emergency Plan and Supply Checklists",
+      "author": "Ready.gov",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Family communication, evacuation, and supply-planning forms.",
+      "why_included": "Compact, actionable first-line preparedness material.",
+      "library_link": "https://libbyapp.com/search?query=Household+Emergency+Plan+and+Supply+Checklists"
+    },
+    {
+      "id": "wildfire-evacuation-materials",
+      "title": "Wildfire Evacuation Materials",
+      "author": "U.S. Fire Administration",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Go-bags, evacuation timing, and wildfire preparation guidance.",
+      "why_included": "Regionally critical planning material for fast-moving hazards.",
+      "library_link": "https://libbyapp.com/search?query=Wildfire+Evacuation+Materials"
+    },
+    {
+      "id": "flood-safety-and-cleanup-guides",
+      "title": "Flood Safety and Cleanup Guides",
+      "author": "FEMA and Centers for Disease Control and Prevention",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Flood evacuation, contamination, cleanup, and mold guidance.",
+      "why_included": "High-value, safety-critical disaster recovery reference.",
+      "library_link": "https://libbyapp.com/search?query=Flood+Safety+and+Cleanup+Guides"
+    },
+    {
+      "id": "power-outage-food-safety-guidance",
+      "title": "Power Outage Food Safety Guidance",
+      "author": "United States Department of Agriculture",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Handling refrigerated and frozen food during electrical outages.",
+      "why_included": "Current, actionable guidance that prevents avoidable illness.",
+      "library_link": "https://libbyapp.com/search?query=Power+Outage+Food+Safety+Guidance"
+    },
+    {
+      "id": "generator-safety-guidance",
+      "title": "Generator Safety Guidance",
+      "author": "Consumer Product Safety Commission and Centers for Disease Control and Prevention",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Carbon monoxide and safe generator-placement guidance.",
+      "why_included": "Critical hazard-prevention material for common emergency equipment.",
+      "library_link": "https://libbyapp.com/search?query=Generator+Safety+Guidance"
+    },
+    {
+      "id": "radiological-emergency-guides",
+      "title": "Radiological Emergency Guides",
+      "author": "FEMA, CDC, and EPA",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Official protective actions for radiological emergencies.",
+      "why_included": "Preserve current official guidance rather than historical speculation.",
+      "library_link": "https://libbyapp.com/search?query=Radiological+Emergency+Guides"
+    },
+    {
+      "id": "cert-basic-training",
+      "title": "Community Emergency Response Team Basic Training",
+      "author": "FEMA CERT",
+      "original_year": null,
+      "collections": [
+        "preparedness"
+      ],
+      "description": "Disaster preparedness, basic response, organization, and light rescue.",
+      "why_included": "Structured civilian training material for neighborhood-scale resilience.",
+      "library_link": "https://libbyapp.com/search?query=Community+Emergency+Response+Team+Basic+Training"
+    },
+    {
+      "id": "rights-of-man",
+      "title": "Rights of Man",
+      "author": "Thomas Paine",
+      "original_year": 1791,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "A defense of popular sovereignty and a critique of hereditary government.",
+      "why_included": "Provides a compact case for political rights independent of dynastic authority.",
+      "library_link": "https://libbyapp.com/search?query=Rights+of+Man+Thomas+Paine"
+    },
+    {
+      "id": "civil-disobedience",
+      "title": "Civil Disobedience",
+      "author": "Henry David Thoreau",
+      "original_year": 1849,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "An argument against cooperation with profoundly unjust government action.",
+      "why_included": "Defends individual conscience against coercive state power.",
+      "library_link": "https://libbyapp.com/search?query=Civil+Disobedience+Henry+David+Thoreau"
+    },
+    {
+      "id": "two-treatises-of-government",
+      "title": "Two Treatises of Government",
+      "author": "John Locke",
+      "original_year": 1689,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "A defense of natural rights, consent of the governed, and limits on political authority.",
+      "why_included": "Supplies an enduring argument for removing governments that violate public trust.",
+      "library_link": "https://libbyapp.com/search?query=Two+Treatises+of+Government+John+Locke"
+    },
+    {
+      "id": "capital-volume-i",
+      "title": "Capital, Volume I",
+      "author": "Karl Marx",
+      "original_year": 1867,
+      "collections": [
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "A critique of capital, labor, ownership, exploitation, and class domination.",
+      "why_included": "Repeatedly banned or restricted under anticommunist and authoritarian governments.",
+      "library_link": "https://libbyapp.com/search?query=Capital%2C+Volume+I+Karl+Marx"
+    },
+    {
+      "id": "the-age-of-reason",
+      "title": "The Age of Reason",
+      "author": "Thomas Paine",
+      "original_year": 1794,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "A critique of revealed religion and scriptural authority.",
+      "why_included": "Essential freethought text frequently condemned for its challenge to religious power.",
+      "library_link": "https://libbyapp.com/search?query=The+Age+of+Reason+Thomas+Paine"
+    },
+    {
+      "id": "why-i-am-an-agnostic",
+      "title": "Why I Am an Agnostic",
+      "author": "Robert G. Ingersoll",
+      "original_year": 1896,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "An accessible defense of agnosticism and intellectual freedom.",
+      "why_included": "Representative American freethought writing challenging clerical authority.",
+      "library_link": "https://libbyapp.com/search?query=Why+I+Am+an+Agnostic+Robert+G.+Ingersoll"
+    },
+    {
+      "id": "the-psychology-of-suggestion",
+      "title": "The Psychology of Suggestion",
+      "author": "Boris Sidis",
+      "original_year": 1898,
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "description": "Early study of suggestibility, imitation, hypnosis, and mental influence.",
+      "why_included": "Historical context for propaganda, persuasion, and coercive environments.",
+      "library_link": "https://libbyapp.com/search?query=The+Psychology+of+Suggestion+Boris+Sidis"
+    },
+    {
+      "id": "index-librorum-prohibitorum",
+      "title": "Index Librorum Prohibitorum",
+      "author": "Catholic Church",
+      "original_year": 1564,
+      "collections": [
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "Historical lists of publications prohibited by ecclesiastical authority.",
+      "why_included": "Primary evidence of a long-running institutional censorship system.",
+      "library_link": "https://libbyapp.com/search?query=Index+Librorum+Prohibitorum"
+    },
+    {
+      "id": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1866,
+      "collections": [
+        "banned-challenged",
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "An impoverished student commits murder while testing whether he stands beyond ordinary morality.",
+      "why_included": "A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy.",
+      "library_link": "https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky"
+    },
+    {
+      "id": "the-brothers-karamazov",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1880,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.",
+      "why_included": "Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications.",
+      "library_link": "https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky"
+    },
+    {
+      "id": "notes-from-underground",
+      "title": "Notes from Underground",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1864,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "An isolated narrator attacks rational utopianism while exposing resentment and self-destruction.",
+      "why_included": "A foundational existential work with political, religious, and anti-utopian significance.",
+      "library_link": "https://libbyapp.com/search?query=Notes+from+Underground+Fyodor+Dostoevsky"
+    },
+    {
+      "id": "demons",
+      "title": "Demons",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1872,
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "description": "Political radicals, manipulators, and idealists become entangled in conspiracy and murder.",
+      "why_included": "Important for revolutionary politics, terrorism, atheism, religion, and extremism.",
+      "library_link": "https://libbyapp.com/search?query=Demons+Fyodor+Dostoevsky"
+    },
+    {
+      "id": "dangerous-liaisons",
+      "title": "Dangerous Liaisons",
+      "author": "Pierre Choderlos de Laclos",
+      "original_year": 1782,
+      "collections": [
+        "banned-challenged",
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "Aristocratic libertines manipulate lovers and rivals through seduction and correspondence.",
+      "why_included": "Repeatedly restricted for sexual exploitation, adultery, and moral corruption.",
+      "library_link": "https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos"
+    },
+    {
+      "id": "emile",
+      "title": "Émile, or On Education",
+      "author": "Jean-Jacques Rousseau",
+      "original_year": 1762,
+      "collections": [
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "description": "A philosophical account of education, human development, nature, society, and belief.",
+      "why_included": "Burned and banned for its religious arguments and challenge to established authority.",
+      "library_link": "https://libbyapp.com/search?query=%C3%89mile%2C+or+On+Education+Jean-Jacques+Rousseau"
+    },
+    {
+      "id": "we",
+      "title": "We",
+      "author": "Yevgeny Zamyatin",
+      "original_year": 1921,
+      "collections": [
+        "suppressed-knowledge",
+        "essential-literature",
+        "original-language"
+      ],
+      "description": "A mathematician in a totalitarian glass city develops imagination, desire, and rebellion.",
+      "why_included": "Banned in the Soviet Union and foundational to dystopian fiction.",
+      "library_link": "https://libbyapp.com/search?query=We+Yevgeny+Zamyatin"
+    }
+  ]
+}
