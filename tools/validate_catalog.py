@@ -12,6 +12,7 @@ ID = re.compile(r"^- id: ([a-z0-9]+(?:-[a-z0-9]+)*)$")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--strict", action="store_true", help="also verify release-critical registries and editorial invariants")
+parser.add_argument("--strict-links", action="store_true", help="reject generic primary links for linked-only works")
 args = parser.parse_args()
 
 errors = []
@@ -34,6 +35,13 @@ if errors:
     print("Catalog validation failed:", *errors, sep="\n")
     sys.exit(1)
 print(f"Catalog validation passed: {len(seen)} records with unique IDs.")
+
+canonical_command = [sys.executable, str(ROOT / "tools" / "validate_canonical_lock.py")]
+if args.strict_links:
+    canonical_command.append("--strict-links")
+canonical_result = subprocess.run(canonical_command, cwd=ROOT)
+if canonical_result.returncode:
+    raise SystemExit(canonical_result.returncode)
 
 if args.strict:
     checks = [
