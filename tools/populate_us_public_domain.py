@@ -18,6 +18,7 @@ import subprocess
 import tempfile
 import urllib.parse
 import urllib.request
+import zipfile
 from pathlib import Path
 
 from build_profile import ROOT, load_records, load_source_options
@@ -47,6 +48,15 @@ def fetch(url: str, destination: Path | None = None) -> bytes:
     return b""
 
 
+def make_epub(text: Path, destination: Path, title: str, creator: str) -> None:
+    body = "\n".join(f"<p>{html.escape(line)}</p>" for line in text.read_text(errors="replace").splitlines() if line.strip())
+    with zipfile.ZipFile(destination, "w") as archive:
+        archive.writestr("mimetype", "application/epub+zip", compress_type=zipfile.ZIP_STORED)
+        archive.writestr("META-INF/container.xml", "<?xml version='1.0'?><container version='1.0' xmlns='urn:oasis:names:tc:opendocument:xmlns:container'><rootfiles><rootfile full-path='OEBPS/content.opf' media-type='application/oebps-package+xml'/></rootfiles></container>")
+        archive.writestr("OEBPS/content.xhtml", f"<?xml version='1.0' encoding='utf-8'?><html xmlns='http://www.w3.org/1999/xhtml'><head><title>{html.escape(title)}</title></head><body><h1>{html.escape(title)}</h1>{body}</body></html>")
+        archive.writestr("OEBPS/content.opf", f"<?xml version='1.0'?><package xmlns='http://www.idpf.org/2007/opf' version='3.0' unique-identifier='book'><metadata xmlns:dc='http://purl.org/dc/elements/1.1/'><dc:identifier id='book'>free-alexandria</dc:identifier><dc:title>{html.escape(title)}</dc:title><dc:creator>{html.escape(creator)}</dc:creator><dc:language>en</dc:language></metadata><manifest><item id='text' href='content.xhtml' media-type='application/xhtml+xml'/></manifest><spine><itemref idref='text'/></spine></package>")
+
+
 def resolve(record: dict) -> dict | None:
     query = urllib.parse.urlencode({"query": f"{record['title']} {record.get('author', '')}"})
     page = fetch(f"https://www.gutenberg.org/ebooks/search/?{query}").decode("utf-8", "replace")
@@ -65,15 +75,24 @@ def load_registry(path: Path) -> dict:
 
 def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
     item_id = source["item_id"]
-    edition_dir = root / "content" / "books" / record["id"] / f"en-source-{record['original_year']}--gutenberg-{item_id}"
+    edition_dir = root / "content" / "books" / record["id"] / f"en-source-{record.get('original_year', 'undated')}--gutenberg-{item_id}"
     epub = edition_dir / "book.epub"
     pdf = edition_dir / "book.pdf"
     provenance = edition_dir / "provenance.json"
     edition_dir.mkdir(parents=True, exist_ok=True)
-    fetch(f"https://www.gutenberg.org/ebooks/{item_id}.epub.images", epub)
     with tempfile.TemporaryDirectory(prefix="free-alexandria-") as temporary:
         text = Path(temporary) / f"pg{item_id}.txt"
-        fetch(f"https://www.gutenberg.org/cache/epub/{item_id}/pg{item_id}.txt", text)
+        text_url = f"https://www.gutenberg.org/cache/epub/{item_id}/pg{item_id}.txt"
+        try:
+            fetch(f"https://www.gutenberg.org/ebooks/{item_id}.epub.images", epub)
+        except Exception:
+            try:
+                fetch(f"https://www.gutenberg.org/ebooks/{item_id}.epub.noimages", epub)
+            except Exception:
+                fetch(text_url, text)
+                make_epub(text, epub, record["title"], record.get("author", record.get("publisher", "")))
+        if not text.exists():
+            fetch(text_url, text)
         with pdf.open("wb") as output:
             completed = subprocess.run(["/usr/sbin/cupsfilter", "-m", "application/pdf", str(text)], stdout=output, stderr=subprocess.PIPE, text=True)
         if completed.returncode:
@@ -83,7 +102,7 @@ def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
         {"role": "pdf", "path": str(pdf.relative_to(root)), "sha256": sha256(pdf), "bytes": pdf.stat().st_size},
     ]
     timestamp = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
-    edition_id = f"{record['id']}-en-source-{record['original_year']}-gutenberg-{item_id}"
+    edition_id = f"{record['id']}-en-source-{record.get('original_year', 'undated')}-gutenberg-{item_id}"
     provenance.write_text(json.dumps({
         "format_version": 1, "work_id": record["id"], "edition_id": edition_id,
         "source": {"name": "Project Gutenberg", "item_id": item_id, "edition_page": source["url"], "acquired_at": timestamp},
@@ -103,15 +122,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("selection", type=Path, nargs="?", help="Selection JSON exported from the offline portal")
     parser.add_argument("--all-catalog", action="store_true", help="Use every record in the catalog that has a stored exact Project Gutenberg source")
+    parser.add_argument("--work", action="append", help="Populate only this catalog work ID; may be repeated")
     parser.add_argument("--acquire", action="store_true", help="Download exact matches into this private archive")
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--registry", type=Path, default=ROOT / "catalog" / "local-editions.json")
     args = parser.parse_args()
     records = {record["id"]: record for record in load_records()}
     resolved_sources = load_source_options()
-    if not args.all_catalog and args.selection is None:
-        parser.error("provide a selection file or use --all-catalog")
-    wanted = set(records) if args.all_catalog else set(json.loads(args.selection.read_text()).get("selected_record_ids", []))
+    if not args.all_catalog and args.selection is None and not args.work:
+        parser.error("provide a selection file, --work, or use --all-catalog")
+    wanted = set(args.work) if args.work else (set(records) if args.all_catalog else set(json.loads(args.selection.read_text()).get("selected_record_ids", [])))
     for work_id in sorted(wanted):
         record = records.get(work_id)
         if not record:

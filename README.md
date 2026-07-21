@@ -32,7 +32,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution candidates, and external essential reading. The repository deliberately does not commit large book files. A local U.S.-reviewed sampler profile currently builds five acquired, hash-verified EPUB/PDF editions after the operator runs the documented acquisition workflow.
+The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository deliberately does not commit large book files. The included population and build tools create a self-contained local archive from the exact source links stored in the catalog, recording source, acquisition time, file hashes, and byte counts beside every acquired edition.
 
 Candidate rights labels are deliberately conservative. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
 
@@ -53,14 +53,16 @@ python3 tools/export_catalog.py --check
 python3 tools/build_profile.py profiles/core-v1.json
 ```
 
-The second command creates a self-contained full-catalog preview at `dist/core-v1/`. To acquire and build the first actual local distribution, run:
+The second command creates a self-contained full-catalog preview at `dist/core-v1/`. To acquire every catalog work with a stored exact Project Gutenberg edition and build a local offline archive, run:
 
 ```sh
-python3 tools/acquire_project_gutenberg.py --all-identified --acquire
-python3 tools/build_profile.py profiles/us-reviewed-sampler.json
+python3 tools/populate_from_gutenberg.py --all-catalog --acquire
+python3 tools/rebuild_local_registry.py
+python3 tools/create_profile_from_registry.py --registry catalog/local-editions.json --output profiles/local/my-archive.json
+python3 tools/build_profile.py profiles/local/my-archive.json --edition-registry catalog/local-editions.json
 ```
 
-That sampler contains five locally acquired, source-provenanced EPUB/PDF editions. A larger distribution is assembled from editions that have been locally acquired, documented, and hash-verified.
+The result is `dist/local-archive/`: a static portal with its selected EPUB/PDF files, local search data, provenance records, and checksums. Works without an exact stored Project Gutenberg edition remain available in the portal through their recorded source options, including an Internet Archive fallback, and can be added through the same per-edition workflow.
 
 To make a personal, selectable catalog view, open a built catalog preview, choose individual records (or select all/none), and download its selection file. Convert it into a private profile with:
 

@@ -4,10 +4,20 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import json
 from pathlib import Path
 
 from build_profile import ROOT
+
+
+def sha256(path: Path) -> str:
+    """Return the digest of the file that is actually on disk."""
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def main() -> int:
@@ -20,8 +30,14 @@ def main() -> int:
         source = item.get("source", {})
         files = []
         for file in item.get("files", []):
-            if (ROOT / file["path"]).is_file():
-                files.append({key: file[key] for key in ("role", "path", "sha256", "bytes")})
+            local_path = ROOT / file["path"]
+            if local_path.is_file():
+                files.append({
+                    "role": file.get("role", file.get("format")),
+                    "path": file["path"],
+                    "sha256": sha256(local_path),
+                    "bytes": local_path.stat().st_size,
+                })
         if not files:
             continue
         registry["editions"].setdefault(item["work_id"], []).append({
