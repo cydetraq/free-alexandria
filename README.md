@@ -4,9 +4,14 @@
 
 Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. Its first deployment target is **Pocket Alexandria**: a static captive-portal library served from removable storage.
 
+## Offline-first requirement
+
+The finished distribution must work without the internet, DNS, a library catalog, an app store, or a third-party service. The portal, search index, reader-facing descriptions, rights notes, source provenance, checksums, and all included content are local files. External links and identifiers are retained only for audit and future refreshes; the device must never need them at runtime.
+
 ## Principles
 
 - Preserve legal clarity alongside cultural and practical value.
+- Treat offline usefulness as the primary product requirement; no core feature may depend on a live service.
 - Keep the catalog as the source of truth; generate the portal and distribution manifest from it.
 - Prefer established bibliographic and source-native identifiers over title-derived names; local slugs are join keys, not canonical IDs.
 - Mirror only public-domain material, government publications suitable for redistribution, and works with explicit redistribution permission.

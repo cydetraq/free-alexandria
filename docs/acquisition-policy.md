@@ -8,6 +8,8 @@
 
 “Free to read” does not mean “free to redistribute.” Keep a source URL, date accessed, edition or version, rights basis, attribution requirements, local license or permission copy, and SHA-256 hashes with every downloaded artifact.
 
+The source URL is not a substitute for local documentation. Preserve enough human-readable provenance, rights evidence, and edition information beside the artifact for an offline user to understand what it is and why it is present.
+
 Use `catalog/edition-queue.yaml` to identify a candidate edition before downloading. Once acquired, create a sibling `provenance.json` in the edition directory defined by `docs/content-naming.md`.
 
 Follow `docs/identifier-policy.md`: keep the source-native identifier in the edition record and resolve established work-level identifiers before publication.
