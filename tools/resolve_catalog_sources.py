@@ -37,6 +37,8 @@ def resolve(record: dict) -> tuple[str, list[dict]]:
         creator = html.unescape(re.sub(r"<.*?>", "", creator)).strip()
         if normalize(title) == normalize(record["title"]) and (not surname or surname[0] in normalize(creator)):
             options.append({"source_id":"project-gutenberg","source_item_id":item_id,"source_url":f"https://www.gutenberg.org/ebooks/{item_id}","label":"Project Gutenberg","edition_title":title,"edition_creator":creator,"resolution_method":"exact-title-and-creator-match"})
+    archive_query = urllib.parse.urlencode({"query": f'title:("{record["title"]}") AND creator:("{author}")'})
+    options.append({"source_id":"internet-archive","source_item_id":None,"source_url":f"https://archive.org/search?{archive_query}","label":"Search Internet Archive","edition_title":record["title"],"edition_creator":author,"resolution_method":"fallback-title-and-creator-search"})
     return record["id"], options
 
 

@@ -54,6 +54,17 @@ python3 tools/build_profile.py profiles/local/my-archive.json --edition-registry
 
 The resulting `dist/local-archive/` directory contains the portal and every locally populated EPUB/PDF selected by that registry.
 
+## Add an ad-hoc source
+
+If a source is not already listed, add it directly to the work's stored catalog links:
+
+```sh
+python3 tools/add_source_link.py fm-21-76-survival 'https://example.gov/exact-manual.pdf' --label 'Agency PDF' --source-id agency
+python3 tools/export_catalog.py
+```
+
+Every work also receives an Internet Archive title-and-creator fallback link during source resolution. Exact sources appear first; the fallback is there when an exact link fails or no exact source has been catalogued yet.
+
 ## Do not acquire
 
 - Restricted or authentication-only government publications.

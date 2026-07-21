@@ -2,7 +2,7 @@
   "format_version": 1,
   "records": {
     "adventures-of-huckleberry-finn": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -30,11 +30,20 @@
           "edition_title": "Adventures of Huckleberry Finn",
           "edition_creator": "Mark Twain",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Adventures+of+Huckleberry+Finn%22%29+AND+creator%3A%28%22Mark+Twain%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "don-quixote": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -53,11 +62,20 @@
           "edition_title": "Don Quixote",
           "edition_creator": "Miguel de Cervantes Saavedra",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Don+Quixote%22%29+AND+creator%3A%28%22Miguel+de+Cervantes%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "ulysses": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -67,11 +85,20 @@
           "edition_title": "Ulysses",
           "edition_creator": "James Joyce",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Ulysses%22%29+AND+creator%3A%28%22James+Joyce%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Ulysses",
+          "edition_creator": "James Joyce",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-jungle": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -90,11 +117,20 @@
           "edition_title": "The Jungle",
           "edition_creator": "Upton Sinclair",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Jungle%22%29+AND+creator%3A%28%22Upton+Sinclair%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-trial": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -104,11 +140,20 @@
           "edition_title": "The Trial",
           "edition_creator": "Franz Kafka",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Trial%22%29+AND+creator%3A%28%22Franz+Kafka%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Trial",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "on-liberty": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -118,11 +163,20 @@
           "edition_title": "On Liberty",
           "edition_creator": "John Stuart Mill",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22On+Liberty%22%29+AND+creator%3A%28%22John+Stuart+Mill%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "On Liberty",
+          "edition_creator": "John Stuart Mill",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-great-gatsby": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -132,11 +186,20 @@
           "edition_title": "The Great Gatsby",
           "edition_creator": "F. Scott Fitzgerald",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Great+Gatsby%22%29+AND+creator%3A%28%22F.+Scott+Fitzgerald%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Great Gatsby",
+          "edition_creator": "F. Scott Fitzgerald",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "lady-chatterleys-lover": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -146,11 +209,20 @@
           "edition_title": "Lady Chatterley's lover",
           "edition_creator": "D. H. Lawrence",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Lady+Chatterley%27s+Lover%22%29+AND+creator%3A%28%22D.+H.+Lawrence%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Lady Chatterley's Lover",
+          "edition_creator": "D. H. Lawrence",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-awakening": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -160,11 +232,20 @@
           "edition_title": "The Awakening",
           "edition_creator": "Kate Chopin",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Awakening%22%29+AND+creator%3A%28%22Kate+Chopin%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Awakening",
+          "edition_creator": "Kate Chopin",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "leaves-of-grass": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -183,11 +264,20 @@
           "edition_title": "Leaves of Grass",
           "edition_creator": "Walt Whitman",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Leaves+of+Grass%22%29+AND+creator%3A%28%22Walt+Whitman%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "elmer-gantry": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -197,11 +287,20 @@
           "edition_title": "Elmer Gantry",
           "edition_creator": "Sinclair Lewis",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Elmer+Gantry%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Elmer Gantry",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "main-street": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -211,11 +310,20 @@
           "edition_title": "Main Street",
           "edition_creator": "Sinclair Lewis",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Main+Street%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Main Street",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "babbitt": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -225,11 +333,20 @@
           "edition_title": "Babbitt",
           "edition_creator": "Sinclair Lewis",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Babbitt%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Babbitt",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-sun-also-rises": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -239,15 +356,34 @@
           "edition_title": "The Sun Also Rises",
           "edition_creator": "Ernest Hemingway",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Sun+Also+Rises%22%29+AND+creator%3A%28%22Ernest+Hemingway%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Sun Also Rises",
+          "edition_creator": "Ernest Hemingway",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "as-i-lay-dying": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22As+I+Lay+Dying%22%29+AND+creator%3A%28%22William+Faulkner%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "As I Lay Dying",
+          "edition_creator": "William Faulkner",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-picture-of-dorian-gray": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -275,11 +411,20 @@
           "edition_title": "The Picture of Dorian Gray",
           "edition_creator": "Oscar Wilde",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Picture+of+Dorian+Gray%22%29+AND+creator%3A%28%22Oscar+Wilde%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "winesburg-ohio": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -289,11 +434,20 @@
           "edition_title": "Winesburg, Ohio",
           "edition_creator": "Sherwood Anderson",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Winesburg%2C+Ohio%22%29+AND+creator%3A%28%22Sherwood+Anderson%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Winesburg, Ohio",
+          "edition_creator": "Sherwood Anderson",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-call-of-the-wild": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -321,11 +475,20 @@
           "edition_title": "The call of the wild",
           "edition_creator": "Jack London",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Call+of+the+Wild%22%29+AND+creator%3A%28%22Jack+London%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Call of the Wild",
+          "edition_creator": "Jack London",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "uncle-toms-cabin": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -335,11 +498,20 @@
           "edition_title": "Uncle Tom's Cabin",
           "edition_creator": "Harriet Beecher Stowe",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Uncle+Tom%27s+Cabin%22%29+AND+creator%3A%28%22Harriet+Beecher+Stowe%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Uncle Tom's Cabin",
+          "edition_creator": "Harriet Beecher Stowe",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-scarlet-letter": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -358,11 +530,20 @@
           "edition_title": "The Scarlet Letter",
           "edition_creator": "Nathaniel Hawthorne",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Scarlet+Letter%22%29+AND+creator%3A%28%22Nathaniel+Hawthorne%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-adventures-of-tom-sawyer": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -381,11 +562,20 @@
           "edition_title": "The Adventures of Tom Sawyer",
           "edition_creator": "Mark Twain",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Adventures+of+Tom+Sawyer%22%29+AND+creator%3A%28%22Mark+Twain%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "dubliners": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -404,11 +594,20 @@
           "edition_title": "Dubliners",
           "edition_creator": "James Joyce",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dubliners%22%29+AND+creator%3A%28%22James+Joyce%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "a-portrait-of-the-artist-as-a-young-man": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -418,15 +617,34 @@
           "edition_title": "A Portrait of the Artist as a Young Man",
           "edition_creator": "James Joyce",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22A+Portrait+of+the+Artist+as+a+Young+Man%22%29+AND+creator%3A%28%22James+Joyce%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "A Portrait of the Artist as a Young Man",
+          "edition_creator": "James Joyce",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "frankenstein-1818": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Frankenstein%22%29+AND+creator%3A%28%22Mary+Shelley%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Frankenstein",
+          "edition_creator": "Mary Shelley",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "wuthering-heights": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -436,11 +654,20 @@
           "edition_title": "Wuthering Heights",
           "edition_creator": "Emily Brontë",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Wuthering+Heights%22%29+AND+creator%3A%28%22Emily+Bront%C3%AB%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Wuthering Heights",
+          "edition_creator": "Emily Brontë",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "jane-eyre": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -450,159 +677,538 @@
           "edition_title": "Jane Eyre",
           "edition_creator": "Charlotte Brontë",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Jane+Eyre%22%29+AND+creator%3A%28%22Charlotte+Bront%C3%AB%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Jane Eyre",
+          "edition_creator": "Charlotte Brontë",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "animal-farm": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Animal+Farm%22%29+AND+creator%3A%28%22George+Orwell%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Animal Farm",
+          "edition_creator": "George Orwell",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "brave-new-world": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Brave+New+World%22%29+AND+creator%3A%28%22Aldous+Huxley%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Brave New World",
+          "edition_creator": "Aldous Huxley",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fahrenheit-451": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Fahrenheit+451%22%29+AND+creator%3A%28%22Ray+Bradbury%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Fahrenheit 451",
+          "edition_creator": "Ray Bradbury",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-handmaids-tale": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Handmaid%27s+Tale%22%29+AND+creator%3A%28%22Margaret+Atwood%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Handmaid's Tale",
+          "edition_creator": "Margaret Atwood",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-dispossessed": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Dispossessed%22%29+AND+creator%3A%28%22Ursula+K.+Le+Guin%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Dispossessed",
+          "edition_creator": "Ursula K. Le Guin",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "darkness-at-noon": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Darkness+at+Noon%22%29+AND+creator%3A%28%22Arthur+Koestler%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Darkness at Noon",
+          "edition_creator": "Arthur Koestler",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "origins-of-totalitarianism": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Origins+of+Totalitarianism%22%29+AND+creator%3A%28%22Hannah+Arendt%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Origins of Totalitarianism",
+          "edition_creator": "Hannah Arendt",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-open-society-and-its-enemies": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Open+Society+and+Its+Enemies%22%29+AND+creator%3A%28%22Karl+Popper%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Open Society and Its Enemies",
+          "edition_creator": "Karl Popper",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-power-of-the-powerless": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Power+of+the+Powerless%22%29+AND+creator%3A%28%22V%C3%A1clav+Havel%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Power of the Powerless",
+          "edition_creator": "Václav Havel",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-gulag-archipelago": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Gulag+Archipelago%22%29+AND+creator%3A%28%22Aleksandr+Solzhenitsyn%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Gulag Archipelago",
+          "edition_creator": "Aleksandr Solzhenitsyn",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "seeing-like-a-state": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Seeing+Like+a+State%22%29+AND+creator%3A%28%22James+C.+Scott%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Seeing Like a State",
+          "edition_creator": "James C. Scott",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "on-tyranny": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22On+Tyranny%22%29+AND+creator%3A%28%22Timothy+Snyder%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "On Tyranny",
+          "edition_creator": "Timothy Snyder",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "thought-reform-and-the-psychology-of-totalism": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Thought+Reform+and+the+Psychology+of+Totalism%22%29+AND+creator%3A%28%22Robert+Jay+Lifton%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Thought Reform and the Psychology of Totalism",
+          "edition_creator": "Robert Jay Lifton",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "coercive-persuasion": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Coercive+Persuasion%22%29+AND+creator%3A%28%22Edgar+H.+Schein+and+colleagues%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Coercive Persuasion",
+          "edition_creator": "Edgar H. Schein and colleagues",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "influence-cialdini": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Influence%22%29+AND+creator%3A%28%22Robert+Cialdini%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Influence",
+          "edition_creator": "Robert Cialdini",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "manufacturing-consent": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Manufacturing+Consent%22%29+AND+creator%3A%28%22Edward+S.+Herman+and+Noam+Chomsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Manufacturing Consent",
+          "edition_creator": "Edward S. Herman and Noam Chomsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-true-believer": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+True+Believer%22%29+AND+creator%3A%28%22Eric+Hoffer%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The True Believer",
+          "edition_creator": "Eric Hoffer",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "applied-cryptography": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Applied+Cryptography%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Applied Cryptography",
+          "edition_creator": "Bruce Schneier",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "cryptography-engineering": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Cryptography+Engineering%22%29+AND+creator%3A%28%22Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Cryptography Engineering",
+          "edition_creator": "Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "permanent-record": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Permanent+Record%22%29+AND+creator%3A%28%22Edward+Snowden%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Permanent Record",
+          "edition_creator": "Edward Snowden",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "data-and-goliath": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Data+and+Goliath%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Data and Goliath",
+          "edition_creator": "Bruce Schneier",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "weapons-of-math-destruction": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Weapons+of+Math+Destruction%22%29+AND+creator%3A%28%22Cathy+O%27Neil%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Weapons of Math Destruction",
+          "edition_creator": "Cathy O'Neil",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-demon-haunted-world": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Demon-Haunted+World%22%29+AND+creator%3A%28%22Carl+Sagan%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Demon-Haunted World",
+          "edition_creator": "Carl Sagan",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-satanic-verses": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Satanic+Verses%22%29+AND+creator%3A%28%22Salman+Rushdie%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Satanic Verses",
+          "edition_creator": "Salman Rushdie",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "nineteen-eighty-four": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Nineteen+Eighty-Four%22%29+AND+creator%3A%28%22George+Orwell%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Nineteen Eighty-Four",
+          "edition_creator": "George Orwell",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-rape-of-the-mind": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Rape+of+the+Mind%22%29+AND+creator%3A%28%22Joost+Meerloo%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Rape of the Mind",
+          "edition_creator": "Joost Meerloo",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-76-survival": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Survival%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Survival",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-3-25-26-map-reading-and-land-navigation": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Map+Reading+and+Land+Navigation%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Map Reading and Land Navigation",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-5-125-rigging-techniques": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Rigging+Techniques%2C+Procedures+and+Applications%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Rigging Techniques, Procedures and Applications",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-4-25-11-first-aid": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22First+Aid%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "First Aid",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-10-field-hygiene-and-sanitation": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Field+Hygiene+and+Sanitation%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Field Hygiene and Sanitation",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-11-first-aid-for-soldiers": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22First+Aid+for+Soldiers%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "First Aid for Soldiers",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-26-map-reading": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Map+Reading%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Map Reading",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-22-survival-at-sea": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Survival+at+Sea%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Survival at Sea",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-15-clothing-and-equipment": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Care+and+Use+of+Individual+Clothing+and+Equipment%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Care and Use of Individual Clothing and Equipment",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-17-evasion-and-escape": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Evasion+and+Escape%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Evasion and Escape",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-5-34-engineer-field-data": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Engineer+Field+Data%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Engineer Field Data",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-5-426-carpentry": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -612,43 +1218,132 @@
           "edition_title": "Carpentry",
           "edition_creator": "Ira Samuel Griffith",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Carpentry%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Carpentry",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "fm-5-428-concrete-and-masonry": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Concrete+and+Masonry%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Concrete and Masonry",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-75-survival": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Survival%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Survival",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "fm-21-40-cbrn-defense": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Chemical%2C+Biological%2C+and+Nuclear+Defense%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Chemical, Biological, and Nuclear Defense",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "tc-3-21-76-ranger-handbook": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Ranger+Handbook%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Ranger Handbook",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "atp-4-44-water-support-operations": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Water+Support+Operations%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Water Support Operations",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "eff-surveillance-self-defense": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Surveillance+Self-Defense%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Surveillance Self-Defense",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "free-culture": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Free+Culture%22%29+AND+creator%3A%28%22Lawrence+Lessig%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Free Culture",
+          "edition_creator": "Lawrence Lessig",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "content-selected-essays": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Content%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Content",
+          "edition_creator": "Cory Doctorow",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "down-and-out-in-the-magic-kingdom": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -658,15 +1353,34 @@
           "edition_title": "Down and Out in the Magic Kingdom",
           "edition_creator": "Cory Doctorow",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Down+and+Out+in+the+Magic+Kingdom%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Down and Out in the Magic Kingdom",
+          "edition_creator": "Cory Doctorow",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "cryptoparty-handbook": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22CryptoParty+Handbook%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "CryptoParty Handbook",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-metamorphosis": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -676,27 +1390,76 @@
           "edition_title": "The Metamorphosis",
           "edition_creator": "Franz Kafka",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Metamorphosis%22%29+AND+creator%3A%28%22Franz+Kafka%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Metamorphosis",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-castle": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Castle%22%29+AND+creator%3A%28%22Franz+Kafka%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Castle",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "amerika": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Amerika%22%29+AND+creator%3A%28%22Franz+Kafka%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Amerika",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "berlin-alexanderplatz": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Berlin+Alexanderplatz%22%29+AND+creator%3A%28%22Alfred+D%C3%B6blin%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Berlin Alexanderplatz",
+          "edition_creator": "Alfred Döblin",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-magic-mountain": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Magic+Mountain%22%29+AND+creator%3A%28%22Thomas+Mann%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Magic Mountain",
+          "edition_creator": "Thomas Mann",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "siddhartha": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -706,11 +1469,20 @@
           "edition_title": "Siddhartha",
           "edition_creator": "Hermann Hesse",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Siddhartha%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Siddhartha",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "steppenwolf": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -720,11 +1492,20 @@
           "edition_title": "Steppenwolf",
           "edition_creator": "Hermann Hesse",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Steppenwolf%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Steppenwolf",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "swanns-way": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -734,15 +1515,34 @@
           "edition_title": "Swann's Way",
           "edition_creator": "Marcel Proust",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Swann%27s+Way%22%29+AND+creator%3A%28%22Marcel+Proust%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Swann's Way",
+          "edition_creator": "Marcel Proust",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-counterfeiters": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Counterfeiters%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Counterfeiters",
+          "edition_creator": "André Gide",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-immoralist": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -752,31 +1552,90 @@
           "edition_title": "The immoralist",
           "edition_creator": "André Gide",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Immoralist%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Immoralist",
+          "edition_creator": "André Gide",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "effi-briest": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Effi+Briest%22%29+AND+creator%3A%28%22Theodor+Fontane%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Effi Briest",
+          "edition_creator": "Theodor Fontane",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-death-of-ivan-ilyich": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Death+of+Ivan+Ilyich%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Death of Ivan Ilyich",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "hadji-murad": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Hadji+Murad%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Hadji Murad",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "what-is-to-be-done-chernyshevsky": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22What+Is+to+Be+Done%3F%22%29+AND+creator%3A%28%22Nikolai+Chernyshevsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "What Is to Be Done?",
+          "edition_creator": "Nikolai Chernyshevsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-mother-gorky": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Mother%22%29+AND+creator%3A%28%22Maxim+Gorky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Mother",
+          "edition_creator": "Maxim Gorky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "resurrection-tolstoy": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -786,59 +1645,188 @@
           "edition_title": "Resurrection",
           "edition_creator": "graf Leo Tolstoy",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Resurrection%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Resurrection",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "kokoro": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Kokoro%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Kokoro",
+          "edition_creator": "Natsume Sōseki",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "i-am-a-cat": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22I+Am+a+Cat%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "I Am a Cat",
+          "edition_creator": "Natsume Sōseki",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "botchan": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Botchan%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Botchan",
+          "edition_creator": "Natsume Sōseki",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "diary-of-a-madman-lu-xun": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Diary+of+a+Madman%22%29+AND+creator%3A%28%22Lu+Xun%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Diary of a Madman",
+          "edition_creator": "Lu Xun",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-true-story-of-ah-q": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+True+Story+of+Ah+Q%22%29+AND+creator%3A%28%22Lu+Xun%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The True Story of Ah Q",
+          "edition_creator": "Lu Xun",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "rashomon": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Rash%C5%8Dmon%22%29+AND+creator%3A%28%22Ry%C5%ABnosuke+Akutagawa%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Rashōmon",
+          "edition_creator": "Ryūnosuke Akutagawa",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "in-a-grove": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22In+a+Grove%22%29+AND+creator%3A%28%22Ry%C5%ABnosuke+Akutagawa%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "In a Grove",
+          "edition_creator": "Ryūnosuke Akutagawa",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "noli-me-tangere": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Noli+Me+Tangere%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Noli Me Tangere",
+          "edition_creator": "José Rizal",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "el-filibusterismo": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22El+Filibusterismo%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "El Filibusterismo",
+          "edition_creator": "José Rizal",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-underdogs": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Underdogs%22%29+AND+creator%3A%28%22Mariano+Azuela%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Underdogs",
+          "edition_creator": "Mariano Azuela",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-vortex": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Vortex%22%29+AND+creator%3A%28%22Jos%C3%A9+Eustasio+Rivera%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Vortex",
+          "edition_creator": "José Eustasio Rivera",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "macunaima": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Macuna%C3%ADma%22%29+AND+creator%3A%28%22M%C3%A1rio+de+Andrade%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Macunaíma",
+          "edition_creator": "Mário de Andrade",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "woodcraft-and-camping": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -848,43 +1836,132 @@
           "edition_title": "Woodcraft and Camping",
           "edition_creator": "George Washington Sears",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Woodcraft+and+Camping%22%29+AND+creator%3A%28%22George+Washington+Sears%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Woodcraft and Camping",
+          "edition_creator": "George Washington Sears",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "camp-lore-and-woodcraft": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Camp-Lore+and+Woodcraft%22%29+AND+creator%3A%28%22D.+C.+Beard%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Camp-Lore and Woodcraft",
+          "edition_creator": "D. C. Beard",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-boy-mechanic-volume-1": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+1%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Boy Mechanic, Volume 1",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-boy-mechanic-volume-2": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+2%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Boy Mechanic, Volume 2",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-boy-mechanic-volume-3": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+3%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Boy Mechanic, Volume 3",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "handy-farm-devices-and-how-to-make-them": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Handy+Farm+Devices+and+How+to+Make+Them%22%29+AND+creator%3A%28%22Rolfe+Cobleigh%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Handy Farm Devices and How to Make Them",
+          "edition_creator": "Rolfe Cobleigh",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "farm-mechanics": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Farm+Mechanics%22%29+AND+creator%3A%28%22Herbert+A.+Shearer%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Farm Mechanics",
+          "edition_creator": "Herbert A. Shearer",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "henleys-twentieth-century-formulas": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Henley%27s+Twentieth+Century+Formulas%2C+Recipes+and+Processes%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Henley's Twentieth Century Formulas, Recipes and Processes",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "preservation-of-food-in-the-home": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Preservation+of+Food+in+the+Home%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Preservation of Food in the Home",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "home-canning-of-fruits-and-vegetables": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -894,15 +1971,34 @@
           "edition_title": "Home Canning of Fruits and Vegetables",
           "edition_creator": "United States. Agricultural Research Service. Human Nutrition Research Division",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Home+Canning+of+Fruits+and+Vegetables%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Home Canning of Fruits and Vegetables",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-american-womans-home": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+American+Woman%27s+Home%22%29+AND+creator%3A%28%22Catharine+Beecher+and+Harriet+Beecher+Stowe%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The American Woman's Home",
+          "edition_creator": "Catharine Beecher and Harriet Beecher Stowe",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-first-book-of-farming": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -912,39 +2008,118 @@
           "edition_title": "The First Book of Farming",
           "edition_creator": "C. L. Goodrich",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+First+Book+of+Farming%22%29+AND+creator%3A%28%22Charles+L.+Goodrich%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The First Book of Farming",
+          "edition_creator": "Charles L. Goodrich",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "dry-farming": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dry-Farming%22%29+AND+creator%3A%28%22John+A.+Widtsoe%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dry-Farming",
+          "edition_creator": "John A. Widtsoe",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "manual-of-gardening": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Manual+of+Gardening%22%29+AND+creator%3A%28%22L.+H.+Bailey%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Manual of Gardening",
+          "edition_creator": "L. H. Bailey",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "audels-carpenters-and-builders-guide": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Audel%27s+Carpenters+and+Builders+Guide%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Audel's Carpenters and Builders Guide",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "food-and-water-in-an-emergency": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Food+and+Water+in+an+Emergency%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Food and Water in an Emergency",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "make-water-safe-during-an-emergency": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Make+Water+Safe+During+an+Emergency%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Make Water Safe During an Emergency",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "finding-your-way-with-map-and-compass": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Finding+Your+Way+with+Map+and+Compass%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Finding Your Way with Map and Compass",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "camping-and-woodcraft": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Camping+and+Woodcraft%22%29+AND+creator%3A%28%22Horace+Kephart%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Camping and Woodcraft",
+          "edition_creator": "Horace Kephart",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "shelters-shacks-and-shanties": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -954,51 +2129,160 @@
           "edition_title": "Shelters, Shacks and Shanties",
           "edition_creator": "Daniel Carter Beard",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Shelters%2C+Shacks+and+Shanties%22%29+AND+creator%3A%28%22D.+C.+Beard%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Shelters, Shacks and Shanties",
+          "edition_creator": "D. C. Beard",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "emergency-financial-first-aid-kit": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Emergency+Financial+First+Aid+Kit%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Emergency Financial First Aid Kit",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "use-safe-water-during-an-emergency": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Use+Safe+Water+During+an+Emergency%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Use Safe Water During an Emergency",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "preventing-diarrheal-illness-after-a-disaster": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Preventing+Diarrheal+Illness+After+a+Disaster%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Preventing Diarrheal Illness After a Disaster",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "household-emergency-plan-and-supply-checklists": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Household+Emergency+Plan+and+Supply+Checklists%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Household Emergency Plan and Supply Checklists",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "wildfire-evacuation-materials": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Wildfire+Evacuation+Materials%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Wildfire Evacuation Materials",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "flood-safety-and-cleanup-guides": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Flood+Safety+and+Cleanup+Guides%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Flood Safety and Cleanup Guides",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "power-outage-food-safety-guidance": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Power+Outage+Food+Safety+Guidance%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Power Outage Food Safety Guidance",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "generator-safety-guidance": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Generator+Safety+Guidance%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Generator Safety Guidance",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "radiological-emergency-guides": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Radiological+Emergency+Guides%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Radiological Emergency Guides",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "cert-basic-training": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Community+Emergency+Response+Team+Basic+Training%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Community Emergency Response Team Basic Training",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "areopagitica": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1008,11 +2292,20 @@
           "edition_title": "Areopagitica",
           "edition_creator": "John Milton",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Areopagitica%22%29+AND+creator%3A%28%22John+Milton%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Areopagitica",
+          "edition_creator": "John Milton",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "common-sense": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1031,27 +2324,76 @@
           "edition_title": "Common Sense",
           "edition_creator": "Thomas Paine",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Common+Sense%22%29+AND+creator%3A%28%22Thomas+Paine%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "rights-of-man": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Rights+of+Man%22%29+AND+creator%3A%28%22Thomas+Paine%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Rights of Man",
+          "edition_creator": "Thomas Paine",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "civil-disobedience": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Civil+Disobedience%22%29+AND+creator%3A%28%22Henry+David+Thoreau%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Civil Disobedience",
+          "edition_creator": "Henry David Thoreau",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "two-treatises-of-government": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Two+Treatises+of+Government%22%29+AND+creator%3A%28%22John+Locke%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Two Treatises of Government",
+          "edition_creator": "John Locke",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-social-contract": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Social+Contract%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Social Contract",
+          "edition_creator": "Jean-Jacques Rousseau",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-republic": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1070,11 +2412,20 @@
           "edition_title": "The Republic",
           "edition_creator": "Plato",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Republic%22%29+AND+creator%3A%28%22Plato%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "propaganda": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1084,11 +2435,20 @@
           "edition_title": "Propaganda",
           "edition_creator": "Edward L. Bernays",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Propaganda%22%29+AND+creator%3A%28%22Edward+Bernays%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Propaganda",
+          "edition_creator": "Edward Bernays",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "public-opinion": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1098,11 +2458,20 @@
           "edition_title": "Public opinion",
           "edition_creator": "Walter Lippmann",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Public+Opinion%22%29+AND+creator%3A%28%22Walter+Lippmann%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Public Opinion",
+          "edition_creator": "Walter Lippmann",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "manual-for-the-solution-of-military-ciphers": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1112,11 +2481,20 @@
           "edition_title": "Manual for the Solution of Military Ciphers",
           "edition_creator": "Parker Hitt",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Manual+for+the+Solution+of+Military+Ciphers%22%29+AND+creator%3A%28%22Parker+Hitt%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Manual for the Solution of Military Ciphers",
+          "edition_creator": "Parker Hitt",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "elementary-cryptanalysis": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1126,11 +2504,20 @@
           "edition_title": "Elementary cryptanalysis",
           "edition_creator": "Helen Fouché Gaines",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Elementary+Cryptanalysis%22%29+AND+creator%3A%28%22Helen+Fouch%C3%A9+Gaines%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Elementary Cryptanalysis",
+          "edition_creator": "Helen Fouché Gaines",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-federalist-papers": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1158,11 +2545,20 @@
           "edition_title": "The Federalist Papers",
           "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Federalist+Papers%22%29+AND+creator%3A%28%22Alexander+Hamilton%2C+James+Madison%2C+and+John+Jay%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-subjection-of-women": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1172,27 +2568,76 @@
           "edition_title": "The Subjection of Women",
           "edition_creator": "John Stuart Mill",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Subjection+of+Women%22%29+AND+creator%3A%28%22John+Stuart+Mill%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Subjection of Women",
+          "edition_creator": "John Stuart Mill",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "what-is-property": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22What+Is+Property%3F%22%29+AND+creator%3A%28%22Pierre-Joseph+Proudhon%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "What Is Property?",
+          "edition_creator": "Pierre-Joseph Proudhon",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "capital-volume-i": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Capital%2C+Volume+I%22%29+AND+creator%3A%28%22Karl+Marx%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Capital, Volume I",
+          "edition_creator": "Karl Marx",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "democracy-in-america": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Democracy+in+America%22%29+AND+creator%3A%28%22Alexis+de+Tocqueville%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Democracy in America",
+          "edition_creator": "Alexis de Tocqueville",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-age-of-reason": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Age+of+Reason%22%29+AND+creator%3A%28%22Thomas+Paine%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Age of Reason",
+          "edition_creator": "Thomas Paine",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "dialogues-concerning-natural-religion": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1202,11 +2647,20 @@
           "edition_title": "Dialogues Concerning Natural Religion",
           "edition_creator": "David Hume",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dialogues+Concerning+Natural+Religion%22%29+AND+creator%3A%28%22David+Hume%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dialogues Concerning Natural Religion",
+          "edition_creator": "David Hume",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-life-of-jesus-critically-examined": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1216,11 +2670,20 @@
           "edition_title": "The Life of Jesus Critically Examined",
           "edition_creator": "David Friedrich Strauss",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Life+of+Jesus+Critically+Examined%22%29+AND+creator%3A%28%22David+Friedrich+Strauss%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Life of Jesus Critically Examined",
+          "edition_creator": "David Friedrich Strauss",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-essence-of-christianity": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1230,23 +2693,62 @@
           "edition_title": "The Essence of Christianity",
           "edition_creator": "Ludwig Feuerbach",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Essence+of+Christianity%22%29+AND+creator%3A%28%22Ludwig+Feuerbach%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Essence of Christianity",
+          "edition_creator": "Ludwig Feuerbach",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "why-i-am-an-agnostic": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Why+I+Am+an+Agnostic%22%29+AND+creator%3A%28%22Robert+G.+Ingersoll%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Why I Am an Agnostic",
+          "edition_creator": "Robert G. Ingersoll",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-psychology-of-suggestion": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Psychology+of+Suggestion%22%29+AND+creator%3A%28%22Boris+Sidis%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Psychology of Suggestion",
+          "edition_creator": "Boris Sidis",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-crowd": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Crowd%22%29+AND+creator%3A%28%22Gustave+Le+Bon%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Crowd",
+          "edition_creator": "Gustave Le Bon",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "instincts-of-the-herd-in-peace-and-war": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1256,15 +2758,34 @@
           "edition_title": "Instincts of the Herd in Peace and War",
           "edition_creator": "W. Trotter",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Instincts+of+the+Herd+in+Peace+and+War%22%29+AND+creator%3A%28%22Wilfred+Trotter%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Instincts of the Herd in Peace and War",
+          "edition_creator": "Wilfred Trotter",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "index-librorum-prohibitorum": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Index+Librorum+Prohibitorum%22%29+AND+creator%3A%28%22%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Index Librorum Prohibitorum",
+          "edition_creator": "",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "madame-bovary": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1274,15 +2795,34 @@
           "edition_title": "Madame Bovary",
           "edition_creator": "Gustave Flaubert",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Madame+Bovary%22%29+AND+creator%3A%28%22Gustave+Flaubert%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Madame Bovary",
+          "edition_creator": "Gustave Flaubert",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "crime-and-punishment": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Crime+and+Punishment%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Crime and Punishment",
+          "edition_creator": "Fyodor Dostoevsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "anna-karenina": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1292,11 +2832,20 @@
           "edition_title": "Anna Karenina",
           "edition_creator": "graf Leo Tolstoy",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Anna+Karenina%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Anna Karenina",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "war-and-peace": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1306,15 +2855,34 @@
           "edition_title": "War and Peace",
           "edition_creator": "graf Leo Tolstoy",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22War+and+Peace%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "War and Peace",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-brothers-karamazov": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Brothers+Karamazov%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Brothers Karamazov",
+          "edition_creator": "Fyodor Dostoevsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "les-miserables": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1324,11 +2892,20 @@
           "edition_title": "Les Misérables",
           "edition_creator": "Victor Hugo",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Les+Mis%C3%A9rables%22%29+AND+creator%3A%28%22Victor+Hugo%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Les Misérables",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-divine-comedy": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1338,11 +2915,20 @@
           "edition_title": "The divine comedy",
           "edition_creator": "Dante Alighieri",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Divine+Comedy%22%29+AND+creator%3A%28%22Dante+Alighieri%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Divine Comedy",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-iliad": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1388,11 +2974,20 @@
           "edition_title": "The Iliad",
           "edition_creator": "Homer",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Iliad%22%29+AND+creator%3A%28%22Homer%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-odyssey": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1420,11 +3015,20 @@
           "edition_title": "The Odyssey",
           "edition_creator": "Homer",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Odyssey%22%29+AND+creator%3A%28%22Homer%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "fathers-and-sons": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1434,11 +3038,20 @@
           "edition_title": "Fathers and Sons",
           "edition_creator": "Ivan Sergeevich Turgenev",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Fathers+and+Sons%22%29+AND+creator%3A%28%22Ivan+Turgenev%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Fathers and Sons",
+          "edition_creator": "Ivan Turgenev",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "dead-souls": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1448,19 +3061,48 @@
           "edition_title": "Dead Souls",
           "edition_creator": "Nikolai Vasilevich Gogol",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dead+Souls%22%29+AND+creator%3A%28%22Nikolai+Gogol%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dead Souls",
+          "edition_creator": "Nikolai Gogol",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "notes-from-underground": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Notes+from+Underground%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Notes from Underground",
+          "edition_creator": "Fyodor Dostoevsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "demons": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Demons%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Demons",
+          "edition_creator": "Fyodor Dostoevsky",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-sorrows-of-young-werther": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1470,27 +3112,76 @@
           "edition_title": "The Sorrows of Young Werther",
           "edition_creator": "Johann Wolfgang von Goethe",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Sorrows+of+Young+Werther%22%29+AND+creator%3A%28%22Johann+Wolfgang+von+Goethe%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Sorrows of Young Werther",
+          "edition_creator": "Johann Wolfgang von Goethe",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "dangerous-liaisons": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dangerous+Liaisons%22%29+AND+creator%3A%28%22Pierre+Choderlos+de+Laclos%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dangerous Liaisons",
+          "edition_creator": "Pierre Choderlos de Laclos",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "tartuffe": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Tartuffe%22%29+AND+creator%3A%28%22Moli%C3%A8re%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Tartuffe",
+          "edition_creator": "Molière",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "emile": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22%C3%89mile%2C+or+On+Education%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Émile, or On Education",
+          "edition_creator": "Jean-Jacques Rousseau",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-theological-political-treatise": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Theological-Political+Treatise%22%29+AND+creator%3A%28%22Baruch+Spinoza%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Theological-Political Treatise",
+          "edition_creator": "Baruch Spinoza",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "the-count-of-monte-cristo": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1500,11 +3191,20 @@
           "edition_title": "The Count of Monte Cristo",
           "edition_creator": "Alexandre Dumas and Auguste Maquet",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Count+of+Monte+Cristo%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Count of Monte Cristo",
+          "edition_creator": "Alexandre Dumas",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-three-musketeers": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1514,11 +3214,20 @@
           "edition_title": "The three musketeers",
           "edition_creator": "Alexandre Dumas and Auguste Maquet",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Three+Musketeers%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Three Musketeers",
+          "edition_creator": "Alexandre Dumas",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "middlemarch": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1537,11 +3246,20 @@
           "edition_title": "Middlemarch",
           "edition_creator": "George Eliot",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Middlemarch%22%29+AND+creator%3A%28%22George+Eliot%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "germinal": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1551,19 +3269,48 @@
           "edition_title": "Germinal",
           "edition_creator": "Émile Zola",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Germinal%22%29+AND+creator%3A%28%22%C3%89mile+Zola%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Germinal",
+          "edition_creator": "Émile Zola",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-kreutzer-sonata": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Kreutzer+Sonata%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Kreutzer Sonata",
+          "edition_creator": "Leo Tolstoy",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "tess-of-the-durbervilles": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Tess+of+the+d%27Urbervilles%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Tess of the d'Urbervilles",
+          "edition_creator": "Thomas Hardy",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     },
     "jude-the-obscure": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1582,11 +3329,20 @@
           "edition_title": "Jude the Obscure",
           "edition_creator": "Thomas Hardy",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Jude+the+Obscure%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "dracula": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1623,11 +3379,20 @@
           "edition_title": "Dracula",
           "edition_creator": "Bram Stoker",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22Dracula%22%29+AND+creator%3A%28%22Bram+Stoker%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-turn-of-the-screw": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1646,11 +3411,20 @@
           "edition_title": "The Turn of the Screw",
           "edition_creator": "Henry James",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Turn+of+the+Screw%22%29+AND+creator%3A%28%22Henry+James%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "the-age-of-innocence": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "resolved_at": "2026-07-21T18:33:02+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1669,12 +3443,31 @@
           "edition_title": "The Age of Innocence",
           "edition_creator": "Edith Wharton",
           "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22The+Age+of+Innocence%22%29+AND+creator%3A%28%22Edith+Wharton%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "resolution_method": "fallback-title-and-creator-search"
         }
       ]
     },
     "we": {
-      "resolved_at": "2026-07-21T18:28:45+00:00",
-      "source_options": []
+      "resolved_at": "2026-07-21T18:33:02+00:00",
+      "source_options": [
+        {
+          "source_id": "internet-archive",
+          "source_item_id": null,
+          "source_url": "https://archive.org/search?query=title%3A%28%22We%22%29+AND+creator%3A%28%22Yevgeny+Zamyatin%22%29",
+          "label": "Search Internet Archive",
+          "edition_title": "We",
+          "edition_creator": "Yevgeny Zamyatin",
+          "resolution_method": "fallback-title-and-creator-search"
+        }
+      ]
     }
   }
 }
