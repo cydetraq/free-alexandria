@@ -13,13 +13,15 @@ content/books/<work-id>/<source-id>-<source-item-id>/
 
 ## Add a source already in the catalog
 
-The catalog keeps direct source links and a fallback. To acquire every work with a stored exact Project Gutenberg edition:
+The catalog retains exact source records and a library fallback for future acquisition. To acquire every work with a stored exact Project Gutenberg edition:
 
 ```sh
 python3 tools/populate_from_gutenberg.py --all-catalog --acquire
 python3 tools/rebuild_local_registry.py
 python3 tools/validate_catalog.py --strict
 ```
+
+This validates a clone entirely from local files. Run `python3 tools/lint_sources.py --online` separately when you intentionally want to test whether recorded remote Project Gutenberg endpoints are still live.
 
 Then create a build profile from the retrieved files and build it:
 
@@ -41,7 +43,7 @@ The person building an archive chooses what to download, keep, or distribute for
 
 ## Add a higher-quality facsimile PDF
 
-The standard Project Gutenberg PDF is a compact reading copy. When a public source provides a better scan below GitHub's 100 MB single-file limit, retain it as an additional `facsimile.pdf` edition rather than replacing the reading EPUB/PDF:
+The standard Project Gutenberg PDF is a compact reading copy. When a public source provides a better scan below GitHub's 100 MB single-file limit, retain it in its own source-native edition folder as `facsimile.pdf`, alongside its own provenance, rather than overwriting the reading EPUB/PDF:
 
 ```sh
 python3 tools/add_facsimile_pdf.py the-adventures-of-tom-sawyer \
@@ -52,7 +54,7 @@ python3 tools/add_facsimile_pdf.py the-adventures-of-tom-sawyer \
   --download-url 'https://archive.org/download/adventuresoftoms00twaiuoft/adventuresoftoms00twaiuoft.pdf'
 ```
 
-The build presents it as **Download Facsimile PDF**, copies its independent provenance, and keeps the compact EPUB/PDF as the default reading edition.
+The build presents the reviewed scan as the single **Download PDF**, copies its independent provenance, and keeps the compact generated PDF only as an internal fallback. If no reviewed scan exists, the reader sees that fallback explicitly as **Download Text PDF**.
 
 ## Optional jurisdiction notes
 

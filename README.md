@@ -14,7 +14,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 - Treat offline usefulness as the primary product requirement; no core feature may depend on a live service.
 - Keep the catalog as the source of truth; generate the portal and distribution manifest from it.
 - Prefer established bibliographic and source-native identifiers over title-derived names; local slugs are join keys, not canonical IDs.
-- Keep source links beside every catalog record, and provenance beside every stored edition.
+- Keep acquisition sources and provenance beside every stored edition; external URLs are audit metadata, not reader-facing local-download controls.
 - Preserve original-language texts alongside eligible English translations where possible.
 - Label historical medical, safety, and technical information clearly when current guidance should take precedence.
 - Keep the catalog usable for people making their own selections and local archives.
@@ -32,7 +32,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 The downloadable catalog contains 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file. Recommendations for works not supplied here live separately in the curated reading lists.
 
-The catalog distinguishes local EPUB/PDF files from source links. Every local edition has adjacent provenance with its source and file checksums.
+The catalog distinguishes reader-facing local EPUB/PDF files from acquisition metadata. Every local edition has adjacent provenance with its source and file checksums.
 
 ## Browse or consume the archive
 
@@ -50,7 +50,7 @@ python3 tools/validate_catalog.py --strict
 python3 tools/build_profile.py profiles/free-alexandria-v1.json
 ```
 
-The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks. `--strict` is the release check: it verifies live Project Gutenberg download endpoints, Libby fallbacks, and every committed local file.
+The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks. `--strict` is the offline release check: it verifies the taxonomy, selected files, provenance, reader metadata, local links, and checksums without contacting a live service. Run `python3 tools/lint_sources.py --online` separately when you deliberately want to test recorded Gutenberg source endpoints.
 
 To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild your local archive, run:
 
@@ -75,10 +75,13 @@ The profile is a wish list and build input, not a forced download list. See [add
 ## Collections
 
 1. Banned & Challenged Literature
-2. Suppressed Knowledge
-3. Preparedness & Field Manuals
-4. Essential Reading — External Links
-5. Original-Language Library
+2. Essential Literature
+3. Suppressed Knowledge
+4. Preparedness & Field Manuals
+5. Practical Library
+6. Original-Language Library
+7. Open-Distribution Library
+8. Essential Reading
 
 ## Curation-ready V1
 

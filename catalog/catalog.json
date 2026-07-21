@@ -607,7 +607,7 @@
       "rights_status": "open-license-review-required",
       "catalog_status": "source-linked",
       "description": "Novel of reputation systems, technological control, identity, and cultural ownership.",
-      "why_included": "Candidate author-released edition; verify attached license before mirroring.",
+      "why_included": "A novel of reputation systems, technological control, identity, and cultural ownership.",
       "tags": [
         "technology",
         "identity",
@@ -1162,6 +1162,9 @@
         "construction",
         "repair"
       ],
+      "description": "Tools, framing, roofing, and field construction.",
+      "why_included": "Tools, framing, roofing, and field construction.",
+      "original_language": "English",
       "download_files": [
         {
           "role": "epub",

@@ -1,5 +1,4 @@
-# Exceptional works retained in their source language when a strong, reusable English edition is
-# not yet established. They remain catalogued for offline translation and future edition review.
+# Exceptional works retained in their source language alongside any separately available translation.
 - id: the-metamorphosis
   title: The Metamorphosis
   original_title: Die Verwandlung
@@ -39,7 +38,7 @@
   catalog_status: source-linked
   english_availability: translation-review-required
   description: An unfinished novel of migration, exploitation, absurd institutions, and modern alienation.
-  why_included: Preserves a major Kafka work in its source language pending edition review.
+  why_included: A major Kafka novel about migration, exploitation, absurd institutions, and modern alienation.
   tags: [migration, bureaucracy, literary-canon, fiction]
 
 - id: berlin-alexanderplatz

@@ -26,6 +26,9 @@
       #library { display:grid; grid-template-columns:repeat(auto-fill,minmax(18rem,1fr)); gap:1rem; }
       article { display:flex; flex-direction:column; gap:.75rem; border:1px solid var(--line); border-radius:.65rem; padding:1.05rem; background:var(--panel); box-shadow:0 1px 0 rgba(255,255,255,.03) inset; }
       article h2 { margin:0; font-size:1.15rem; line-height:1.2; }
+      .cover { min-height:8.5rem; display:flex; flex-direction:column; justify-content:space-between; padding:1rem; border:1px solid #5c7668; border-radius:.42rem; background:linear-gradient(145deg,#2d5345,#172726); box-shadow:inset 0 0 0 4px rgba(255,255,255,.035); }
+      .cover span { color:#c8dec9; font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; }
+      .cover strong { font:700 1.08rem/1.15 Georgia,serif; letter-spacing:.01em; }
       article p { margin:0; }
       .creator, .meta { color:var(--muted); font-size:.92rem; }
       .badges { display:flex; flex-wrap:wrap; gap:.35rem; }
@@ -91,13 +94,14 @@
         let labels = {};
         const availabilityLabel = edition => edition && edition.files.some(file => file.role === 'text-pdf') ? 'EPUB + Text PDF included' : 'EPUB + PDF included';
         const card = (record, edition) => {
-          const creator = record.author || record.publisher || 'Creator not yet recorded';
+          const creator = record.author || record.publisher;
           const collections = (record.collections || []).map(id => `<span class="badge">${esc(labels[id] || id)}</span>`).join('');
           const statusClass = 'available';
           const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
+          const cover = `<div class="cover" aria-label="Typographic cover for ${esc(record.title)}"><span>${esc(record.original_year || '')}</span><strong>${esc(record.title)}</strong><span>${esc(creator)}</span></div>`;
           const downloads = edition ? `<p class="actions">${edition.files.map(file => `<a class="action" download href="${encodeURI(file.path)}">Download ${esc(fileLabel(file.role))}</a>`).join(' ')}</p>` : '';
           const guidance = record.rights_guidance ? `<details><summary>Availability guidance</summary><p>${esc((record.rights_guidance.evidence_notes || []).join(' '))}</p><p class="meta">This is research guidance, not a legal ruling. ${esc(record.rights_guidance.operator_question || '')}</p></details>` : '';
-          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(edition)}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details>${guidance}</article>`;
+          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label>${cover}<h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language)}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(edition)}</span>${collections}</div><p>${esc(record.description)}</p>${downloads}<details><summary>About this work</summary><p>${esc(record.why_included)}</p></details>${guidance}</article>`;
         };
         const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
         fetch('./manifest.json')

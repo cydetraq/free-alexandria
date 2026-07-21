@@ -11,7 +11,7 @@ CATALOG = ROOT / "catalog"
 ID = re.compile(r"^- id: ([a-z0-9]+(?:-[a-z0-9]+)*)$")
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--strict", action="store_true", help="also verify live source endpoints and committed local editions")
+parser.add_argument("--strict", action="store_true", help="also verify the complete committed local-edition registry")
 args = parser.parse_args()
 
 errors = []

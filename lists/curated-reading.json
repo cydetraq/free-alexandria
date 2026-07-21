@@ -362,8 +362,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Shelter, water, fire, signaling, navigation, weather, and survival psychology.",
+      "why_included": "Shelter, water, fire, signaling, navigation, weather, and survival psychology.",
       "library_link": "https://libbyapp.com/search?query=Survival"
     },
     {
@@ -374,8 +374,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Maps, compass bearings, coordinates, terrain association, and route planning.",
+      "why_included": "Maps, compass bearings, coordinates, terrain association, and route planning.",
       "library_link": "https://libbyapp.com/search?query=Map+Reading+and+Land+Navigation"
     },
     {
@@ -386,8 +386,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Rope, knots, slings, hoists, anchors, and mechanical advantage.",
+      "why_included": "Rope, knots, slings, hoists, anchors, and mechanical advantage.",
       "library_link": "https://libbyapp.com/search?query=Rigging+Techniques%2C+Procedures+and+Applications"
     },
     {
@@ -398,8 +398,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Bleeding, shock, wounds, fractures, burns, and environmental injuries.",
+      "why_included": "Bleeding, shock, wounds, fractures, burns, and environmental injuries.",
       "library_link": "https://libbyapp.com/search?query=First+Aid"
     },
     {
@@ -410,8 +410,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Waste disposal, camp hygiene, water, food sanitation, and disease prevention.",
+      "why_included": "Waste disposal, camp hygiene, water, food sanitation, and disease prevention.",
       "library_link": "https://libbyapp.com/search?query=Field+Hygiene+and+Sanitation"
     },
     {
@@ -422,8 +422,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Compact historical first-aid reference.",
+      "why_included": "Compact historical first-aid reference.",
       "library_link": "https://libbyapp.com/search?query=First+Aid+for+Soldiers"
     },
     {
@@ -434,8 +434,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Straightforward map-reading instruction.",
+      "why_included": "Straightforward map-reading instruction.",
       "library_link": "https://libbyapp.com/search?query=Map+Reading"
     },
     {
@@ -446,8 +446,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Flotation, exposure, water, signaling, and small-craft survival.",
+      "why_included": "Flotation, exposure, water, signaling, and small-craft survival.",
       "library_link": "https://libbyapp.com/search?query=Survival+at+Sea"
     },
     {
@@ -458,8 +458,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Clothing maintenance, load organization, weather protection, and field equipment.",
+      "why_included": "Clothing maintenance, load organization, weather protection, and field equipment.",
       "library_link": "https://libbyapp.com/search?query=Care+and+Use+of+Individual+Clothing+and+Equipment"
     },
     {
@@ -470,8 +470,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Concealment, movement, navigation, and improvised survival.",
+      "why_included": "Concealment, movement, navigation, and improvised survival.",
       "library_link": "https://libbyapp.com/search?query=Evasion+and+Escape"
     },
     {
@@ -482,8 +482,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Construction tables, materials, measurements, and engineering data.",
+      "why_included": "Construction tables, materials, measurements, and engineering data.",
       "library_link": "https://libbyapp.com/search?query=Engineer+Field+Data"
     },
     {
@@ -494,8 +494,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Basic concrete, masonry, and structural repair.",
+      "why_included": "Basic concrete, masonry, and structural repair.",
       "library_link": "https://libbyapp.com/search?query=Concrete+and+Masonry"
     },
     {
@@ -506,8 +506,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "General field survival and individual fieldcraft.",
+      "why_included": "General field survival and individual fieldcraft.",
       "library_link": "https://libbyapp.com/search?query=Survival"
     },
     {
@@ -518,8 +518,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Historical recognition and protective principles.",
+      "why_included": "Historical recognition and protective principles.",
       "library_link": "https://libbyapp.com/search?query=Chemical%2C+Biological%2C+and+Nuclear+Defense"
     },
     {
@@ -530,8 +530,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Navigation, knots, fieldcraft, communications, and planning.",
+      "why_included": "Navigation, knots, fieldcraft, communications, and planning.",
       "library_link": "https://libbyapp.com/search?query=Ranger+Handbook"
     },
     {
@@ -542,8 +542,8 @@
       "collections": [
         "preparedness"
       ],
-      "description": "",
-      "why_included": "",
+      "description": "Water logistics and support operations.",
+      "why_included": "Water logistics and support operations.",
       "library_link": "https://libbyapp.com/search?query=Water+Support+Operations"
     },
     {
@@ -555,7 +555,7 @@
         "suppressed-knowledge"
       ],
       "description": "Current guidance on threat modeling, private communications, metadata, and device security.",
-      "why_included": "",
+      "why_included": "A practical starting point for understanding privacy, safer communications, and surveillance-aware digital habits.",
       "library_link": "https://libbyapp.com/search?query=Surveillance+Self-Defense"
     },
     {
@@ -594,7 +594,7 @@
         "suppressed-knowledge"
       ],
       "description": "Introductory computer and internet security guidance.",
-      "why_included": "Potentially useful offline privacy reference; license and technical currency both require review.",
+      "why_included": "A practical introduction to privacy, encryption, and safer everyday computer use.",
       "library_link": "https://libbyapp.com/search?query=CryptoParty+Handbook"
     },
     {
@@ -621,7 +621,7 @@
         "original-language"
       ],
       "description": "An unfinished novel of migration, exploitation, absurd institutions, and modern alienation.",
-      "why_included": "Preserves a major Kafka work in its source language pending edition review.",
+      "why_included": "A major Kafka novel about migration, exploitation, absurd institutions, and modern alienation.",
       "library_link": "https://libbyapp.com/search?query=Amerika+Franz+Kafka"
     },
     {

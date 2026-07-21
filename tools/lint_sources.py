@@ -4,14 +4,13 @@ from __future__ import annotations
 
 import json
 import sys
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from build_profile import CATALOG, ROOT, load_collections, load_records, load_source_options, presentation_files
-from resolve_catalog_sources import has_downloadable_text
 
 
 def main() -> int:
+    online = "--online" in sys.argv[1:]
     errors: list[str] = []
     collection_ids = [item.get("id") for item in load_collections()]
     if len(collection_ids) != len(set(collection_ids)):
@@ -30,13 +29,17 @@ def main() -> int:
             if source.get("source_id") == "project-gutenberg":
                 gutenberg_sources.append((work_id, str(source["edition_id"])))
 
-    # Remote verification is intentionally concurrent: source linting is a routine
-    # release check, not a multi-minute serial crawl.
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        checks = pool.map(lambda item: (*item, has_downloadable_text(item[1])), gutenberg_sources)
-        for work_id, edition_id, available in checks:
-            if not available:
-                errors.append(f"{work_id}: Gutenberg {edition_id} has no live EPUB or text endpoint")
+    if online:
+        # A source-health check is deliberately opt-in. The ordinary release check
+        # must prove that a cloned archive is intact without requiring the internet.
+        from concurrent.futures import ThreadPoolExecutor
+        from resolve_catalog_sources import has_downloadable_text
+
+        with ThreadPoolExecutor(max_workers=12) as pool:
+            checks = pool.map(lambda item: (*item, has_downloadable_text(item[1])), gutenberg_sources)
+            for work_id, edition_id, available in checks:
+                if not available:
+                    errors.append(f"{work_id}: Gutenberg {edition_id} has no live EPUB or text endpoint")
 
     editions = json.loads((CATALOG / "published-editions.json").read_text()).get("editions", {})
     for work_id, work_editions in sorted(editions.items()):
@@ -76,6 +79,12 @@ def main() -> int:
         roles = [file.get("role") for file in record.get("download_files", [])]
         if roles.count("epub") != 1 or roles.count("pdf") + roles.count("text-pdf") != 1:
             errors.append(f"{record['id']}: API download_files is not a single EPUB/PDF pair")
+        for field in ("author", "publisher", "original_language", "description", "why_included"):
+            if field in {"author", "publisher"}:
+                if not (record.get("author") or record.get("publisher")):
+                    errors.append(f"{record['id']}: API lacks author or publisher")
+            elif not record.get(field):
+                errors.append(f"{record['id']}: API lacks reader-facing {field}")
     exported_collections = [item.get("id") for item in exported_catalog.get("collections", [])]
     if exported_collections != collection_ids:
         errors.append("catalog export does not preserve the canonical collection taxonomy")
@@ -83,7 +92,8 @@ def main() -> int:
     if errors:
         print("Source lint failed:", *errors, sep="\n")
         return 1
-    print(f"Source lint passed: {len(options)} records have Libby fallbacks; {len(editions)} works have verified local editions and one unambiguous EPUB/PDF pair.")
+    scope = "including live Project Gutenberg endpoints; " if online else ""
+    print(f"Source lint passed: {scope}{len(options)} records have Libby fallbacks; {len(editions)} works have verified local editions and one unambiguous EPUB/PDF pair.")
     return 0
 
 

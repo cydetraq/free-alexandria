@@ -93,6 +93,19 @@ def load_collections() -> list[dict]:
     return json.loads((CATALOG / "collections.json").read_text()).get("collections", [])
 
 
+def reader_metadata(record: dict) -> dict:
+    """Provide complete reader-facing text without exposing blank catalog fields."""
+    enriched = dict(record)
+    relevance = str(record.get("civilian_relevance") or "").strip()
+    if not enriched.get("description") and relevance:
+        enriched["description"] = relevance
+    if not enriched.get("why_included") and relevance:
+        enriched["why_included"] = relevance
+    if not enriched.get("original_language") and record.get("publisher") == "United States Army":
+        enriched["original_language"] = "English"
+    return enriched
+
+
 SOURCE_LABELS = {
     "project-gutenberg": "Project Gutenberg",
     "internet-archive": "Internet Archive",
@@ -259,7 +272,7 @@ def main() -> int:
         raise ValueError("Free Alexandria builds only downloadable distribution profiles")
     if not profile["constraints"].get("require_local_files") or profile["constraints"].get("allow_link_only"):
         raise ValueError("distribution profiles require local files and cannot include link-only records")
-    records = select(profile, load_records())
+    records = [reader_metadata(record) for record in select(profile, load_records())]
     editions = resolve_editions(profile, records, args.edition_registry)
     records = [{**record, "edition_sources": editions[record["id"]]["edition_sources"], "rights_guidance": rights_guidance(record, editions[record["id"]]["edition_sources"])} for record in records]
     output = args.output / profile["id"]

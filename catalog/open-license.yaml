@@ -6,6 +6,7 @@
   claimed_license: CC BY
   distribution_status: verify-license-on-source
   description: Current guidance on threat modeling, private communications, metadata, and device security.
+  why_included: A practical starting point for understanding privacy, safer communications, and surveillance-aware digital habits.
   snapshot_policy: Store review date, source URL, attribution, license text, and an unchanged snapshot where permitted.
   tags: [privacy, digital-security, encryption, censorship-circumvention]
 
@@ -43,7 +44,7 @@
   rights_status: open-license-review-required
   catalog_status: source-linked
   description: Novel of reputation systems, technological control, identity, and cultural ownership.
-  why_included: Candidate author-released edition; verify attached license before mirroring.
+  why_included: A novel of reputation systems, technological control, identity, and cultural ownership.
   tags: [technology, identity, fiction, license-review]
 
 - id: cryptoparty-handbook
@@ -55,5 +56,5 @@
   rights_status: open-license-review-required
   catalog_status: source-linked
   description: Introductory computer and internet security guidance.
-  why_included: Potentially useful offline privacy reference; license and technical currency both require review.
+  why_included: A practical introduction to privacy, encryption, and safer everyday computer use.
   tags: [privacy, digital-security, encryption, license-review]

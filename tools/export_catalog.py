@@ -8,7 +8,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, edition_sources, load_collections, load_records, load_source_options, presentation_files, rights_guidance
+from build_profile import CATALOG, ROOT, edition_sources, load_collections, load_records, load_source_options, presentation_files, reader_metadata, rights_guidance
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
@@ -25,7 +25,7 @@ def render_api() -> str:
     published_editions = load_published_editions()
     records = [
         {
-            **record,
+            **reader_metadata(record),
             "download_files": presentation_files(published_editions[record["id"]])[2],
             "edition_sources": edition_sources(published_editions[record["id"]]),
             "rights_guidance": rights_guidance(record, edition_sources(published_editions[record["id"]])),
@@ -117,7 +117,8 @@ def render_curated_list(records: list[dict]) -> str:
         {
             "id": record["id"], "title": record["title"], "author": record.get("author") or record.get("publisher"),
             "original_year": record.get("original_year"), "collections": record.get("collections", []),
-            "description": record.get("description", ""), "why_included": record.get("why_included", ""),
+            "description": record.get("description") or record.get("civilian_relevance", ""),
+            "why_included": record.get("why_included") or record.get("civilian_relevance", ""),
             "library_link": next((option["url"] for option in source_options.get(record["id"], []) if option.get("source_id") == "libby"), None),
         }
         for record in records
@@ -130,13 +131,18 @@ def render_curated_markdown(records: list[dict]) -> str:
     for record in records:
         for collection in record.get("collections", ["other"]):
             grouped[collection].append(record)
-    labels = {"banned-challenged": "Banned & Challenged Literature", "suppressed-knowledge": "Suppressed Knowledge", "preparedness": "Preparedness & Field Manuals", "essential-reading": "Essential Reading", "original-language": "Original-Language Reading", "essential-literature": "Essential Literature"}
+    collection_defs = load_collections()
+    labels = {item["id"]: item["name"] for item in collection_defs}
+    collection_order = [item["id"] for item in collection_defs]
     source_options = load_source_options()
     lines = ["# Curated reading lists", "", "These are recommendations retained for their relevance. They are not part of the downloadable Free Alexandria catalog because this repository does not currently supply their EPUB/PDF editions.", ""]
-    for collection in sorted(grouped, key=lambda value: labels.get(value, value)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Why it is on this list |", "| --- | --- | --- |"])
+    for collection in [item for item in collection_order if item in grouped] + sorted(set(grouped) - set(collection_order)):
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Why it is on this list | Find / borrow |", "| --- | --- | --- | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
-            lines.append(f"| {table_cell(record.get('title'))} | {table_cell(record.get('author') or record.get('publisher'))} | {table_cell(record.get('why_included'))} |")
+            library_url = next((option["url"] for option in source_options.get(record["id"], []) if option.get("source_id") == "libby"), None)
+            access = markdown_links([("Search in Libby", library_url)]) if library_url else "—"
+            why = record.get("why_included") or record.get("civilian_relevance")
+            lines.append(f"| {table_cell(record.get('title'))} | {table_cell(record.get('author') or record.get('publisher'))} | {table_cell(why)} | {access} |")
         lines.append("")
     return "\n".join(lines)
 
@@ -153,7 +159,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="fail if committed exports are stale")
     args = parser.parse_args()
-    all_records = load_records()
+    all_records = [reader_metadata(record) for record in load_records()]
     published_ids = set(load_published_editions())
     records = [record for record in all_records if record["id"] in published_ids]
     curated_records = [record for record in all_records if record["id"] not in published_ids]
