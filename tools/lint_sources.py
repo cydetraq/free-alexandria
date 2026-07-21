@@ -7,7 +7,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, load_source_options
+from build_profile import CATALOG, ROOT, load_source_options, presentation_files
 from resolve_catalog_sources import has_downloadable_text
 
 
@@ -38,6 +38,22 @@ def main() -> int:
             for file in edition.get("files", []):
                 if not (ROOT / file["path"]).is_file():
                     errors.append(f"{work_id}: missing local {file.get('role', 'file')}")
+        _, selected_editions, visible_files = presentation_files(work_editions)
+        visible_roles = [file.get("role") for file in visible_files]
+        if not selected_editions:
+            errors.append(f"{work_id}: has no selected reader edition")
+        if visible_roles.count("epub") != 1:
+            errors.append(f"{work_id}: reader view must provide exactly one EPUB")
+        if visible_roles.count("pdf") + visible_roles.count("text-pdf") != 1:
+            errors.append(f"{work_id}: reader view must provide exactly one PDF")
+        if "pdf" in visible_roles and "text-pdf" in visible_roles:
+            errors.append(f"{work_id}: reader view mixes a scan and text-PDF fallback")
+        has_facsimile = any(
+            file.get("role") == "facsimile-pdf"
+            for edition in selected_editions for file in edition.get("files", [])
+        )
+        if has_facsimile and "pdf" not in visible_roles:
+            errors.append(f"{work_id}: supplied facsimile was not selected as the reader PDF")
 
     exported_catalog = json.loads((CATALOG / "catalog.json").read_text())
     exported_ids = {record["id"] for record in exported_catalog.get("records", [])}
@@ -49,11 +65,14 @@ def main() -> int:
         sources = record.get("edition_sources", [])
         if not sources or not sources[0].get("primary"):
             errors.append(f"{record['id']}: catalog lacks a primary included-edition source")
+        roles = [file.get("role") for file in record.get("download_files", [])]
+        if roles.count("epub") != 1 or roles.count("pdf") + roles.count("text-pdf") != 1:
+            errors.append(f"{record['id']}: API download_files is not a single EPUB/PDF pair")
 
     if errors:
         print("Source lint failed:", *errors, sep="\n")
         return 1
-    print(f"Source lint passed: {len(options)} records have Libby fallbacks; {len(editions)} works have verified local editions.")
+    print(f"Source lint passed: {len(options)} records have Libby fallbacks; {len(editions)} works have verified local editions and one unambiguous EPUB/PDF pair.")
     return 0
 
 

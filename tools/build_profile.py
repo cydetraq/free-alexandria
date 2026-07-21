@@ -117,6 +117,31 @@ def edition_sources(editions: list[dict]) -> list[dict]:
     return sources
 
 
+def presentation_files(editions: list[dict], preferences: list[str] | None = None) -> tuple[dict | None, list[dict], list[dict]]:
+    """Choose one reader EPUB and one PDF for the user-facing archive.
+
+    A source-faithful facsimile wins the PDF slot. The generated text PDF remains
+    a clearly named fallback only when no scan has been supplied.
+    """
+    preferences = preferences or []
+    primary = next((item for language in preferences for item in editions if item["language"] == language), None)
+    primary = primary or (editions[0] if editions else None)
+    if not primary:
+        return None, [], []
+    facsimiles = [item for item in editions if item is not primary and any(file.get("role") == "facsimile-pdf" for file in item.get("files", []))]
+    epub = next((file for file in primary.get("files", []) if file.get("role") == "epub"), None)
+    text_pdf = next((file for file in primary.get("files", []) if file.get("role") == "pdf"), None)
+    scan = next((file for edition in facsimiles for file in edition.get("files", []) if file.get("role") == "facsimile-pdf"), None)
+    files = []
+    if epub:
+        files.append({**epub, "role": "epub"})
+    if scan:
+        files.append({**scan, "role": "pdf"})
+    elif text_pdf:
+        files.append({**text_pdf, "role": "text-pdf"})
+    return primary, [primary, *facsimiles], files
+
+
 def rights_guidance(record: dict, options: list[dict]) -> dict:
     """Reader-facing evidence signals; these are intentionally not legal conclusions."""
     year = record.get("original_year")
@@ -180,16 +205,13 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
     missing: list[str] = []
     for record in records:
         editions = registry.get(record["id"], [])
-        primary = next((item for language in preferences for item in editions if item["language"] == language), None)
-        primary = primary or (editions[0] if editions else None)
+        primary, selected_editions, files = presentation_files(editions, preferences)
         if not primary:
             missing.append(record["id"])
             continue
-        selected_editions = [primary, *[item for item in editions if item is not primary and any(file.get("role") == "facsimile-pdf" for file in item.get("files", []))]]
         rights_review = primary.get("rights_review", {})
         if not rights_review.get("basis") or not rights_review.get("reviewed_at"):
             raise ValueError(f"missing local eligibility evidence for {record['id']}")
-        files = []
         provenance_paths = []
         for edition in selected_editions:
             provenance_path = ROOT / edition.get("provenance_path", "")
@@ -204,7 +226,12 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
                     raise ValueError(f"size mismatch for {record['id']}: {file['path']}")
                 if digest(path) != file["sha256"]:
                     raise ValueError(f"checksum mismatch for {record['id']}: {file['path']}")
-                files.append(file)
+        for file in files:
+            path = ROOT / file["path"]
+            if not path.is_file():
+                raise ValueError(f"missing selected local file for {record['id']}: {file['path']}")
+            if path.stat().st_size != file["bytes"] or digest(path) != file["sha256"]:
+                raise ValueError(f"invalid selected local file for {record['id']}: {file['path']}")
         resolved[record["id"]] = {**primary, "files": files, "provenance_paths": provenance_paths, "source_editions": selected_editions, "edition_sources": edition_sources(selected_editions)}
     if missing:
         raise ValueError("distribution build requires local published editions for: " + ", ".join(missing))

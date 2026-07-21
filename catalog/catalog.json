@@ -23,6 +23,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub",
+          "sha256": "0258257fb62854b038ac33084d76897faf0edff2d2d9af0b9178cabbc329ac6d",
+          "bytes": 313451
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf",
+          "sha256": "26fa95ec3e43b2bfdf3e29802389a0b38b61e37e102dca9b412d7bbc782d2138",
+          "bytes": 442019
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -62,6 +76,20 @@
         "race",
         "censorship",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub",
+          "sha256": "678454ec13c9b04095d2aa9d7952e21ca60964cbb40859dc69882d8a65c3454b",
+          "bytes": 16021498
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf",
+          "sha256": "6839e3951afc696dad97a5afad1be59545dfe4161d8154b15f79be9522609836",
+          "bytes": 533379
+        }
       ],
       "edition_sources": [
         {
@@ -105,6 +133,20 @@
         "religion",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/anna-karenina/gutenberg-1399/book.epub",
+          "sha256": "9dbf58f05acb8d9ebb81d88b0eff9aedc2b78898246f2216403905cd23815db6",
+          "bytes": 1073087
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/anna-karenina/gutenberg-1399/book.pdf",
+          "sha256": "82581ec12e44156e13d6c89613e81cc5240031b8aedcb05884db7c52e6d79ddc",
+          "bytes": 1721403
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -144,6 +186,20 @@
         "censorship",
         "political-philosophy",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/areopagitica/gutenberg-608/book.epub",
+          "sha256": "027dd2da82085d307475375f34c9e234330e05fa8b3ae7dd8c71de2d7fbe3ff6",
+          "bytes": 113012
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/areopagitica/gutenberg-608/book.pdf",
+          "sha256": "41dea21b4cc2a349e9d552fa44d5c244be6a2ce8d43d174bb9346747dc9eb5a9",
+          "bytes": 119728
+        }
       ],
       "edition_sources": [
         {
@@ -185,6 +241,20 @@
         "class",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/babbitt/gutenberg-1156/book.epub",
+          "sha256": "cb3eddae03ae72bffee83f40a66778c21f67f43eb884ad85b880ed54e04e1ba6",
+          "bytes": 609658
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/babbitt/gutenberg-1156/book.pdf",
+          "sha256": "0a39028342b2d40f9a4d9da423cc4c14780079192028d29e77cbc8d733550f7b",
+          "bytes": 672989
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -224,6 +294,20 @@
         "political-philosophy",
         "rights",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/common-sense/gutenberg-147/book.epub",
+          "sha256": "d3cadb037f474de7bc820d573ae669c15fbba03e5a1aa16e2012d6fdec9b94bd",
+          "bytes": 309694
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/common-sense/gutenberg-147/book.pdf",
+          "sha256": "1827cfc84679e980e55643acd9f879dc9465425712c5647bb198d04c2b30787a",
+          "bytes": 147069
+        }
       ],
       "edition_sources": [
         {
@@ -267,6 +351,20 @@
         "serfdom",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/dead-souls/gutenberg-1081/book.epub",
+          "sha256": "6f592f5e9cf98993c9a2bf183c2c6ad1cc7e998e842fbc30c8429a01a0656f2a",
+          "bytes": 631669
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/dead-souls/gutenberg-1081/book.pdf",
+          "sha256": "574cef5e49902fefe7c69f20bd78d82838a1f1cc57462858b3de6ce582641299",
+          "bytes": 710667
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -308,6 +406,20 @@
         "politics",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/democracy-in-america/gutenberg-815/book.epub",
+          "sha256": "a55d98f3b1074cab23a6fd7e4fa8147ca0c0f658882c44aff2df980b303331ba",
+          "bytes": 543699
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/democracy-in-america/gutenberg-815/book.pdf",
+          "sha256": "c036e79356443ab726ec2c5d1b2ceaf6753d053b23043ea4b694405e99c89594",
+          "bytes": 912290
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -347,6 +459,20 @@
         "religion",
         "philosophy",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.epub",
+          "sha256": "5e9d056b02caf2edb3285787204b0a6a2855cc4bacbdb042479deb01760db3c2",
+          "bytes": 171892
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.pdf",
+          "sha256": "f19e98e2317dce60b88e04ee3c13d5d0df9f592e1e7760ebb2be7c0a5eeb984d",
+          "bytes": 204922
+        }
       ],
       "edition_sources": [
         {
@@ -391,6 +517,20 @@
         "freedom-of-thought",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/don-quixote/gutenberg-996/book.epub",
+          "sha256": "dba05369ff126f8ccbeb356d7f950550eab3bf5adc6c67b8be13d7465e6d1a6e",
+          "bytes": 45972722
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/don-quixote/gutenberg-996/book.pdf",
+          "sha256": "673e37538599798a026d25e6bf00ab68f73b2e7fcbbb55513f3deb8dbda04c78",
+          "bytes": 1950698
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -431,6 +571,20 @@
         "identity",
         "fiction",
         "license-review"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub",
+          "sha256": "da1c56ae7433d058e53de995ad3108f1a88521b2527a54f3c5d91d45907cf0c3",
+          "bytes": 223713
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf",
+          "sha256": "62fbcc6d17083bb132fcc97ea0d4ddfc1cb4b8080ee4dbb8aa27e5043dfa4f3a",
+          "bytes": 299002
+        }
       ],
       "edition_sources": [
         {
@@ -473,6 +627,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/dracula/gutenberg-345/book.epub",
+          "sha256": "d4f5ac027ac0fe1312cc8d57b61bc9f71618ec1c3768213e3792a657594ff18f",
+          "bytes": 601640
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/dracula/gutenberg-345/book.pdf",
+          "sha256": "b41784281b84790d735fcbf79d403f6ba3446f33af361f47d8f95ff94784425c",
+          "bytes": 740506
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -513,6 +681,20 @@
         "water",
         "agriculture",
         "historical-guidance"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/dry-farming/gutenberg-4924/book.epub",
+          "sha256": "bfe433e99669866ad52e697fed71ae51b66d81ea46f21d97cc3bea9becf0c506",
+          "bytes": 271380
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/dry-farming/gutenberg-4924/book.pdf",
+          "sha256": "e48a4d5e012a8de64ba8298592f72a485fb10a9005b57877b6a693c06af964ed",
+          "bytes": 396409
+        }
       ],
       "edition_sources": [
         {
@@ -555,6 +737,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/dubliners/gutenberg-2814/book.epub",
+          "sha256": "59ac6427b29427f6c95269ebb5b3da6aa0eb6277c9e492dbe34c8b2456a091b3",
+          "bytes": 331742
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/dubliners/gutenberg-2814/book.pdf",
+          "sha256": "aff26eb5e1af2a40ed403e214d8017ed2112933d54ae30bec946784c767969ef",
+          "bytes": 365252
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -596,6 +792,20 @@
         "gender",
         "literary-canon",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/effi-briest/gutenberg-5323/book.epub",
+          "sha256": "1185512de51e428c8d437a5be20d203e2dcd5a953f87afb366822de31f7c43b4",
+          "bytes": 323677
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/effi-briest/gutenberg-5323/book.pdf",
+          "sha256": "f5bc144f345f6e27c562152c7be7deba0780bf87bb37e055a56f45e20e0317cb",
+          "bytes": 548977
+        }
       ],
       "edition_sources": [
         {
@@ -640,6 +850,20 @@
         "philippines",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/el-filibusterismo/gutenberg-30903/book.epub",
+          "sha256": "63b7d483b4d93b573aad17dc05ac00767213dc4749ad9b6348242f5a61d9dd6d",
+          "bytes": 404059
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/el-filibusterismo/gutenberg-30903/book.pdf",
+          "sha256": "0e8c398bde953f3f4e01006dc0fd8f587bdb05e912ddbbbcd115f0016793facf",
+          "bytes": 588574
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -680,6 +904,20 @@
         "communications",
         "mathematics",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/elementary-cryptanalysis/gutenberg-75074/book.epub",
+          "sha256": "188aae989519cb1e9280f73f1a23a731cb8ba1f15454eef056cdbb1eb2e5e521",
+          "bytes": 672862
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/elementary-cryptanalysis/gutenberg-75074/book.pdf",
+          "sha256": "0d2fb7389def9947d6715b140a4aaef6b3a55a9d4056f953e9f7060e3e13b2bd",
+          "bytes": 695373
+        }
       ],
       "edition_sources": [
         {
@@ -722,6 +960,20 @@
         "censorship",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/elmer-gantry/gutenberg-72609/book.epub",
+          "sha256": "0d00066ac3c4ddcc0c1779e17f9d2f897037753ed2f1c062aa07b8d301cfeaaf",
+          "bytes": 506912
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/elmer-gantry/gutenberg-72609/book.pdf",
+          "sha256": "2073ddfbae081fab9a720b738af3c639bee584b918de739a11a52e862c7d6bcd",
+          "bytes": 832651
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -761,6 +1013,20 @@
         "repair",
         "mechanics",
         "historical-guidance"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/farm-mechanics/gutenberg-39791/book.epub",
+          "sha256": "b9a7ca0e908ffe50cc5e3041bbca886c8648aa36b9adb28887780b438bcccfbf",
+          "bytes": 2233028
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/farm-mechanics/gutenberg-39791/book.pdf",
+          "sha256": "c75c107cc79541b3faf8acfe6d07eb3df61ac2004f44935a14029f307139e5c2",
+          "bytes": 284166
+        }
       ],
       "edition_sources": [
         {
@@ -804,6 +1070,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/fathers-and-sons/gutenberg-47935/book.epub",
+          "sha256": "d20f69d092cf6cc23f20024ca753d0231545a59082ac55b7c77ee23b8555da1d",
+          "bytes": 384652
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/fathers-and-sons/gutenberg-47935/book.pdf",
+          "sha256": "5f2a9fb40f9973367ed34dfcdfe44ce00df993107175e712ae50c36b2653a735",
+          "bytes": 458477
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -839,6 +1119,20 @@
         "carpentry",
         "construction",
         "repair"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/fm-5-426-carpentry/gutenberg-70226/book.epub",
+          "sha256": "18ce2b4737a897276ac10b83abc01e415ee549c474cbf4392bebc84a84cf6f8f",
+          "bytes": 6383124
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/fm-5-426-carpentry/gutenberg-70226/book.pdf",
+          "sha256": "c92f4491be94e7eac6372f9fad41525711a8ed3de28745ad206639232faef7c4",
+          "bytes": 254439
+        }
       ],
       "edition_sources": [
         {
@@ -880,6 +1174,20 @@
         "science",
         "religion",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/frankenstein-1818/gutenberg-84/book.epub",
+          "sha256": "1ac83783a4fb85a1ac54d3aeb53e1aaf2f1124ffde9e6ce5109963d01d34db95",
+          "bytes": 473790
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/frankenstein-1818/gutenberg-84/book.pdf",
+          "sha256": "e2bd0e8a3f5ed1031c06b25bb82175a993aa099711a77aaa358b763a9f5e2666",
+          "bytes": 382452
+        }
       ],
       "edition_sources": [
         {
@@ -923,6 +1231,20 @@
         "class",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/germinal/gutenberg-56528/book.epub",
+          "sha256": "60938eb6a5d0d52ac69e3731fc4f31422fde75fd8bfb5925c2dcfce58f71f7a3",
+          "bytes": 485618
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/germinal/gutenberg-56528/book.pdf",
+          "sha256": "a0b0c05358072d746701c05a7a9d28c916c92a9d71b68415064e0ab093acb381",
+          "bytes": 899577
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -964,6 +1286,20 @@
         "safety-critical",
         "historical-guidance"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.epub",
+          "sha256": "36e328267a1573cb951bab99d7b8f809be0e058094841bbddfb87bae9080de6a",
+          "bytes": 1768061
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.pdf",
+          "sha256": "9380082897a63d315516788370304819fbf0b9540a9ea0370df2b722f762ee51",
+          "bytes": 117012
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1003,6 +1339,20 @@
         "conformity",
         "propaganda",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/instincts-of-the-herd-in-peace-and-war/gutenberg-53453/book.epub",
+          "sha256": "de9136eb81ed2987711e509af4d8b8e8149304292b1635ec09d54af53efea2e6",
+          "bytes": 340894
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/instincts-of-the-herd-in-peace-and-war/gutenberg-53453/book.pdf",
+          "sha256": "aaef8348355798c45700125de04373c0d029c3e5b7a1d645c0aa7c82d0b8d230",
+          "bytes": 420263
+        }
       ],
       "edition_sources": [
         {
@@ -1045,6 +1395,20 @@
         "religion",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/jane-eyre/gutenberg-1260/book.epub",
+          "sha256": "7c2fc9d15dec2114a89d1f4d00885e59186e6d8bfcf0e22296ce274cff6ff13d",
+          "bytes": 3088518
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/jane-eyre/gutenberg-1260/book.pdf",
+          "sha256": "ac3750a79d8c72d742860dd69ad21fb022763cafbf108be355fd6c84a9ccce34",
+          "bytes": 952406
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1085,6 +1449,20 @@
         "marriage",
         "religion",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/jude-the-obscure/gutenberg-153/book.epub",
+          "sha256": "68f7ed3db5d5cab7bceca2f6e04420d5ba17ff807115aa518f9f80e3f641b4f3",
+          "bytes": 640183
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/jude-the-obscure/gutenberg-153/book.pdf",
+          "sha256": "6e6ce7a5ee760c0eab0546c3b82bda283dd488f553f1fcf98842b31124befd59",
+          "bytes": 773063
+        }
       ],
       "edition_sources": [
         {
@@ -1127,6 +1505,20 @@
         "class",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/lady-chatterleys-lover/gutenberg-73144/book.epub",
+          "sha256": "a57fa1ca3f1ad25d3fea7ac5708a8e29cde201ca25d19b0b6e45aaa20cc82636",
+          "bytes": 424545
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf",
+          "sha256": "c5d302b8f83ebd1b93d059efbddce109323bde5ea7cdb5484507a1d0156edfc3",
+          "bytes": 618698
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1167,6 +1559,20 @@
         "sexuality",
         "free-expression",
         "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/leaves-of-grass/gutenberg-1322/book.epub",
+          "sha256": "e87d4fd3f4d219465d1d53ce3264b6ac5292a82006bb69bdb3eeafb8e6354563",
+          "bytes": 898963
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/leaves-of-grass/gutenberg-1322/book.pdf",
+          "sha256": "7be0936a9202e3cb8251f866cbb6f644dd776aa20b0febd9c0b5024bb5b1d9b0",
+          "bytes": 712992
+        }
       ],
       "edition_sources": [
         {
@@ -1210,6 +1616,20 @@
         "revolution",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/les-miserables/gutenberg-135/book.epub",
+          "sha256": "5e018d90df7b7e94a228a1085bc349bed297c1762060f39f11a98ccb31589f50",
+          "bytes": 10150365
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/les-miserables/gutenberg-135/book.pdf",
+          "sha256": "972f6bd4f2068af544bbf3d09e52924c11e32574a0e1c04996d0437f0f61a706",
+          "bytes": 2994834
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1252,6 +1672,20 @@
         "censorship",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/madame-bovary/gutenberg-2413/book.epub",
+          "sha256": "7e7590a4573df0cf0dd682078ab8f2101689f787cc31c15b2c4dffa3328f0322",
+          "bytes": 448195
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/madame-bovary/gutenberg-2413/book.pdf",
+          "sha256": "a11e404ac0817cffdfc2d17c5b05b7f6d9416a5313e9bcc1c2f0e63d0cc2b82f",
+          "bytes": 622149
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1290,6 +1724,20 @@
         "conformity",
         "social-criticism",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/main-street/gutenberg-543/book.epub",
+          "sha256": "0fab6c7bafb5992fd4d1a03aeba95a53104bcf903c61c73600a3a22ffde334ad",
+          "bytes": 515571
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/main-street/gutenberg-543/book.pdf",
+          "sha256": "5417fd7a5d3076c778c617882a92732d10da8cdfc6e59acf1cd58c57e0d3bf13",
+          "bytes": 890291
+        }
       ],
       "edition_sources": [
         {
@@ -1331,6 +1779,20 @@
         "mathematics",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.epub",
+          "sha256": "72ef561f355d8944cf0a100b2ff64d026b0ff84d3e6b5c5f05afe0837d747ffe",
+          "bytes": 197356
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.pdf",
+          "sha256": "728aa5ef6443960635c3f5e365e7d7dce637c645ea05966949978a05e863f9cc",
+          "bytes": 203529
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1371,6 +1833,20 @@
         "marriage",
         "religion",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/middlemarch/gutenberg-145/book.epub",
+          "sha256": "29a75b17f91356388adb995fb08e3c0db9bac1259b8da0d17db312c60fccecb8",
+          "bytes": 1072995
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/middlemarch/gutenberg-145/book.pdf",
+          "sha256": "d46d9b9bf196ae731e7f9d82883aa4f0199319f6139cecdddf6ed9295f1ce0e9",
+          "bytes": 1540878
+        }
       ],
       "edition_sources": [
         {
@@ -1416,6 +1892,20 @@
         "philippines",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/noli-me-tangere/gutenberg-21848/book.epub",
+          "sha256": "5f93bfb47ffd9808a9097987e854bc374816399c891377fde41b62cf2140ac0d",
+          "bytes": 522117
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/noli-me-tangere/gutenberg-21848/book.pdf",
+          "sha256": "ab215f5600b342fcf7933fc967150fc0cbe2112bb87b389a391c08f183111296",
+          "bytes": 777259
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1454,6 +1944,20 @@
         "political-philosophy",
         "censorship",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/on-liberty/gutenberg-34901/book.epub",
+          "sha256": "1fdab3f510d3ff0f409ac76f5921875bf8d54c9f8652bfd4998c7c6620bb7269",
+          "bytes": 196948
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/on-liberty/gutenberg-34901/book.pdf",
+          "sha256": "a30da7d86470e611449edeb9f937eaf69d342d299ebbf782524e4539b1cb130e",
+          "bytes": 271019
+        }
       ],
       "edition_sources": [
         {
@@ -1495,6 +1999,20 @@
         "psychology",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/propaganda/gutenberg-78634/book.epub",
+          "sha256": "7470a175eecb6aaf511791a30029ace0ba8e932eed1bc0a36b9d60193d8bb9bd",
+          "bytes": 360733
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/propaganda/gutenberg-78634/book.pdf",
+          "sha256": "6b994c884ef060906053db23d11c827a8bbab3832017efcee65a66dfe1b930ac",
+          "bytes": 204265
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1534,6 +2052,20 @@
         "media-literacy",
         "psychology",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/public-opinion/gutenberg-6456/book.epub",
+          "sha256": "e751e9c2eb3f0c795fb4945132b09465765cfcab4fe1afb47ca582490326efd2",
+          "bytes": 319019
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/public-opinion/gutenberg-6456/book.pdf",
+          "sha256": "f38e3dadfdea1bb9efb82d5de846aba589b0c98bbccb8c24eeb89d3d6594662f",
+          "bytes": 532387
+        }
       ],
       "edition_sources": [
         {
@@ -1577,6 +2109,20 @@
         "religion",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/resurrection-tolstoy/gutenberg-1938/book.epub",
+          "sha256": "dacb39e07091d42fced5f94bd5c9bae6f79dc92ed106ef7c0513bcab11d859c1",
+          "bytes": 493107
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/resurrection-tolstoy/gutenberg-1938/book.pdf",
+          "sha256": "2b68c2d648eaa7035395488c91bcadd2bd10ab256f1317714d0b6910ed0f015a",
+          "bytes": 866611
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1616,6 +2162,20 @@
         "construction",
         "fieldcraft",
         "historical-guidance"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/shelters-shacks-and-shanties/gutenberg-28255/book.epub",
+          "sha256": "2fcf3b994fcb723a28dafb7693694a02d1de769e78f6da552b007b6e6c39a90a",
+          "bytes": 15200644
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/shelters-shacks-and-shanties/gutenberg-28255/book.pdf",
+          "sha256": "6dfd21dff43aad76cd01da5a60016782972ce2f21f97ba2ddf0f77183ffbf1a7",
+          "bytes": 271515
+        }
       ],
       "edition_sources": [
         {
@@ -1660,6 +2220,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/siddhartha/gutenberg-2500/book.epub",
+          "sha256": "1cde1ba99c0fddb04b2e11b2b44ed227b42771387b6ece1bfbe55660ea85533f",
+          "bytes": 268391
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/siddhartha/gutenberg-2500/book.pdf",
+          "sha256": "db283f23b0ec671c0443eb99a65c9a03d644e63e2f89d61426a85c0d4a1b3af6",
+          "bytes": 210664
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1702,6 +2276,20 @@
         "sexuality",
         "alienation",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/steppenwolf/gutenberg-75756/book.epub",
+          "sha256": "6ba452acb3ceafa0e0c6b7850157d5e37f1f897ee1749714eab6d31fe49ddc1e",
+          "bytes": 409524
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/steppenwolf/gutenberg-75756/book.pdf",
+          "sha256": "43007947a1adbdd0091e9a834fcff1ec5d973700c337f953956fcf2ae9adaff8",
+          "bytes": 368743
+        }
       ],
       "edition_sources": [
         {
@@ -1746,6 +2334,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/swanns-way/gutenberg-7178/book.epub",
+          "sha256": "245ba442f5ed3de384a132b5fbe81d3bc0eec356102238543b4e45ebcd80ef18",
+          "bytes": 539693
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/swanns-way/gutenberg-7178/book.pdf",
+          "sha256": "65333ccca84a9d6e2717e26fd01b7b8c95387d3600471cb3eb1b67f6e225d0ff",
+          "bytes": 887695
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1789,6 +2391,20 @@
         "theater",
         "censorship"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/tartuffe/gutenberg-28488/book.epub",
+          "sha256": "3c1029f0168d3fe7ee3ad337f89c1b0aa7b74a3ec09d82979583124d08cbb500",
+          "bytes": 112190
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/tartuffe/gutenberg-28488/book.pdf",
+          "sha256": "dcdf1c1c7f2e97f63c6341e5bcfed89f5e3948789c47ad49f9c984fceb2e4f7d",
+          "bytes": 131595
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1830,6 +2446,20 @@
         "religion",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.epub",
+          "sha256": "e77363891689bfa6d718a3a5278b979116988dd62209faac65dfef87e519c0e5",
+          "bytes": 504034
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.pdf",
+          "sha256": "a3efcde9ba6f1ec504913c1011bbbabbe63de40940b6f4e48e502ad518ddf82e",
+          "bytes": 790400
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1868,6 +2498,20 @@
         "race",
         "childhood",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub",
+          "sha256": "8ac09cc08a0845ff5c314c6b560b7dcb27752db2765a8d75906263f6fd7802e5",
+          "bytes": 16672328
+        },
+        {
+          "role": "pdf",
+          "path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf",
+          "sha256": "b2bd91968268a5553dd80b7777052ae8f897f31cbd34076f0bd5164704ecd1da",
+          "bytes": 18610004
+        }
       ],
       "edition_sources": [
         {
@@ -1918,6 +2562,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-age-of-innocence/gutenberg-541/book.epub",
+          "sha256": "e6c449c331f93faaca84f7c204cfd62f170288b0502a9f858eb3972fa5c6db1e",
+          "bytes": 320057
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-age-of-innocence/gutenberg-541/book.pdf",
+          "sha256": "2c873a2a32630a07c803cd5b32f316016390bb7809500c3faa90a861746d91ec",
+          "bytes": 545668
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -1957,6 +2615,20 @@
         "sanitation",
         "historical-guidance",
         "domestic-skills"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-american-womans-home/gutenberg-6598/book.epub",
+          "sha256": "9bc9a9447837524eabb711c55d3ab8f4aa6080f732a0c670df4155c38769a2ff",
+          "bytes": 462023
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-american-womans-home/gutenberg-6598/book.pdf",
+          "sha256": "cbacb09d18e13257393bfee798880f1f5f21b165590e4697a7e900b511374f13",
+          "bytes": 748558
+        }
       ],
       "edition_sources": [
         {
@@ -1999,6 +2671,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-awakening/gutenberg-160/book.epub",
+          "sha256": "e7330397f6694081ebb6d1c8eccc2e04e76847c5ef749b63a846f427195bdba4",
+          "bytes": 244558
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-awakening/gutenberg-160/book.pdf",
+          "sha256": "b8b75ddc87db5e6e593549db87c6ab8f903413f9a5a5bed1c9ac80cde0938219",
+          "bytes": 352849
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2038,6 +2724,20 @@
         "wilderness",
         "politics",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-call-of-the-wild/gutenberg-215/book.epub",
+          "sha256": "58b2a690a54baa67cb0f26a65a920936ca1220b3116fd103a39df438fde7c5ed",
+          "bytes": 226982
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-call-of-the-wild/gutenberg-215/book.pdf",
+          "sha256": "24cd30ab7cf7ab8a2dfc659e9c18ae732cf7f8764f01d233dadfcc936468579a",
+          "bytes": 181723
+        }
       ],
       "edition_sources": [
         {
@@ -2080,6 +2780,20 @@
         "adventure",
         "literary-canon",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub",
+          "sha256": "0962b9499724ca8dfcc2af09ec61fdda5cb9d3d4583d20a8eab9fd29d688491b",
+          "bytes": 84582065
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf",
+          "sha256": "29773ed626dff8f817d4b2394e76cc2fae9d04b6c28fb49e5a4989fd52a793fb",
+          "bytes": 2485138
+        }
       ],
       "edition_sources": [
         {
@@ -2124,6 +2838,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-counterfeiters/gutenberg-76965/book.epub",
+          "sha256": "53f6cc5083055e0aa68b74fbb17886b8bd1ea0e606a3ec8111bb5ca30eaf4390",
+          "bytes": 653758
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-counterfeiters/gutenberg-76965/book.pdf",
+          "sha256": "90b4262e22fe92edfdde42c702f2c256305ba4dbfc97b610336ee7051df5317c",
+          "bytes": 632056
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2164,6 +2892,20 @@
         "propaganda",
         "history",
         "historical-guidance"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-crowd/gutenberg-445/book.epub",
+          "sha256": "5ff252beff21cfdb4f940391f36d3f52da6e417503ab39eacc4a89b6ab43e414",
+          "bytes": 214245
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-crowd/gutenberg-445/book.pdf",
+          "sha256": "d1991a817869b7e2285562d8e323e0de2f5ad4074150334410dea279a4fbb943",
+          "bytes": 316348
+        }
       ],
       "edition_sources": [
         {
@@ -2207,6 +2949,20 @@
         "religion",
         "politics"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-divine-comedy/gutenberg-8800/book.epub",
+          "sha256": "a3ec6bb4f749931fe965bff8e88a904bbcf29097f67db203ad571b017d8adbaf",
+          "bytes": 30686694
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-divine-comedy/gutenberg-8800/book.pdf",
+          "sha256": "e4926cea1b9bb6648fcced5b86bdd0c86874f096f9ba056bd709cb52411462a0",
+          "bytes": 644695
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2248,6 +3004,20 @@
         "freethought",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-essence-of-christianity/gutenberg-47025/book.epub",
+          "sha256": "d3ae499ece5e817ec5e46d5248e12c995f13f9e97b7b0b48de674dee3957643e",
+          "bytes": 519839
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-essence-of-christianity/gutenberg-47025/book.pdf",
+          "sha256": "2f449297d7bccdb1cbcab9174cd923236528a1fdb407f41015ef4563d31f1a62",
+          "bytes": 698222
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2288,6 +3058,20 @@
         "rights",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-federalist-papers/gutenberg-1404/book.epub",
+          "sha256": "47d531178b86d69fa8449007610a4432303d0716e1d008b0e65b56a5eab87cf3",
+          "bytes": 522348
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-federalist-papers/gutenberg-1404/book.pdf",
+          "sha256": "e05f0264b50cb74fdc9524c39273d665930e8ff7967525acaf07d4dd9067253f",
+          "bytes": 923787
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2327,6 +3111,20 @@
         "gardening",
         "agriculture",
         "historical-guidance"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-first-book-of-farming/gutenberg-16900/book.epub",
+          "sha256": "7d5224503c7db6a4ea87cf7e83989297aa57d0036424a29b95c7027165be02e6",
+          "bytes": 6590473
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-first-book-of-farming/gutenberg-16900/book.pdf",
+          "sha256": "d8bdba4ff2a3a448bc91c7c5d662c882ac08f93257a2a4f2f9484a7c8d2a4bf8",
+          "bytes": 363032
+        }
       ],
       "edition_sources": [
         {
@@ -2369,6 +3167,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-great-gatsby/gutenberg-64317/book.epub",
+          "sha256": "49ee33e572802607587b8711789cc84da8b9189902d997690ef65b19c04e0a36",
+          "bytes": 358092
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-great-gatsby/gutenberg-64317/book.pdf",
+          "sha256": "ac5ef8a61b56f9f584779b1a8f5fd66a183766b114a5ad0cdc11cff728f77744",
+          "bytes": 299495
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2410,6 +3222,20 @@
         "epic",
         "war",
         "poetry"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-iliad/gutenberg-6130/book.epub",
+          "sha256": "be88e9ecc6dddcb8f179a01aab757460ad53bc5ca97f785bb6d0df3bf0ccb392",
+          "bytes": 2088118
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-iliad/gutenberg-6130/book.pdf",
+          "sha256": "bc3459eec6e77b10aa714c2b7d284d555c356382635a6c0d5dcac62c98212fb7",
+          "bytes": 1099636
+        }
       ],
       "edition_sources": [
         {
@@ -2454,6 +3280,20 @@
         "colonialism",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-immoralist/gutenberg-78975/book.epub",
+          "sha256": "15fe1fdba64eaca58842d4afc1481619ad31222ee5bc194bd1214929f16fe30f",
+          "bytes": 392957
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-immoralist/gutenberg-78975/book.pdf",
+          "sha256": "a5c4781576b47cef41f0ffe140034a9928367fffe3d978fd8a3e79bc4eff84c4",
+          "bytes": 243707
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2493,6 +3333,20 @@
         "political-economy",
         "censorship",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-jungle/gutenberg-140/book.epub",
+          "sha256": "dfd818e07c8bc2cd9c6145004b74f7b76d3bf914ec86ef30520bbcc88c438706",
+          "bytes": 614525
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-jungle/gutenberg-140/book.pdf",
+          "sha256": "0ed8a873efd0bdf5aae3ab5dd2d79e73e4e481d8967778bfe3fc72d91d570d32",
+          "bytes": 687982
+        }
       ],
       "edition_sources": [
         {
@@ -2543,6 +3397,20 @@
         "censorship",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.epub",
+          "sha256": "8db0efcd8ec5a7688cb707f293f13b54b98d74981c57a25ca32567369e8b79a1",
+          "bytes": 459893
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.pdf",
+          "sha256": "e9a3da354c9dedc39ffe01284ba06e603ff6d5969de7456f8f7c8dee7977b797",
+          "bytes": 341891
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2584,6 +3452,20 @@
         "historical-criticism",
         "freethought",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.epub",
+          "sha256": "8068d8bd63deef1c660d001e76a7f0673f9fce8087804e158b6257d2af686ad3",
+          "bytes": 1784781
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf",
+          "sha256": "5e7c9c4c4d74606a813078cfd9a9d5ce0d4b60a1ba9b0bf5ee88c59b32f91c68",
+          "bytes": 2684750
+        }
       ],
       "edition_sources": [
         {
@@ -2629,6 +3511,20 @@
         "family",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-metamorphosis/gutenberg-5200/book.epub",
+          "sha256": "79c918215ea6acfb6860d48ff27134d85cae6ad467debe14c64ca709401fc5d9",
+          "bytes": 315278
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-metamorphosis/gutenberg-5200/book.pdf",
+          "sha256": "078d07bf847d24f252588c38f20bdf0988f83ac482e57a5a768cce1bb66592f1",
+          "bytes": 129549
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2670,6 +3566,20 @@
         "revolution",
         "politics",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-mother-gorky/gutenberg-3783/book.epub",
+          "sha256": "d667b0e6b216c8b89ae7d69604fca2b3119794c1c4962e8ed1f6fc5266d9e322",
+          "bytes": 2109745
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-mother-gorky/gutenberg-3783/book.pdf",
+          "sha256": "f42ca74cbe9873469ffba585713ba49841767489d1892dfaf7a2e616f23b4b26",
+          "bytes": 730248
+        }
       ],
       "edition_sources": [
         {
@@ -2713,6 +3623,20 @@
         "travel",
         "poetry"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-odyssey/gutenberg-1727/book.epub",
+          "sha256": "aa50e566da6ab36c360838ebbae1222030db73f214b7656ff2dc69dc0c3e0c3a",
+          "bytes": 446403
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-odyssey/gutenberg-1727/book.pdf",
+          "sha256": "222439136679b06c1fe4a78ca9649658563c903d7c458358465fed68b3d935e0",
+          "bytes": 605042
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2753,6 +3677,20 @@
         "sexuality",
         "censorship",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-picture-of-dorian-gray/gutenberg-174/book.epub",
+          "sha256": "ee80e49f911268dc7314f05ca02fbd256301566c7a5b6fc072ebc8f60f63d294",
+          "bytes": 460207
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-picture-of-dorian-gray/gutenberg-174/book.pdf",
+          "sha256": "1f7be358d6a9d1f943659655c76834c6743103e9396e99b4be0cb44027e93103",
+          "bytes": 409980
+        }
       ],
       "edition_sources": [
         {
@@ -2797,6 +3735,20 @@
         "education",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-republic/gutenberg-1497/book.epub",
+          "sha256": "838286fae6d0ac731d119e764918e1cb296d7f147f5bb48284e1b36334c384a9",
+          "bytes": 523799
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-republic/gutenberg-1497/book.pdf",
+          "sha256": "576c99d891c43cf14180aa7e3177bc604918fb59bbf11ccf1bb96cf4fd3afcc6",
+          "bytes": 1066775
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2835,6 +3787,20 @@
         "religion",
         "sexuality",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-scarlet-letter/gutenberg-25344/book.epub",
+          "sha256": "9fce7368b663ad075b67dc23690e018a31a2cc3044c31792c49d643f1579e7d5",
+          "bytes": 4533734
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-scarlet-letter/gutenberg-25344/book.pdf",
+          "sha256": "b0a32162a840eabe2fd7851a16423373c8077773da5de5beed1257e3a7c6ecdc",
+          "bytes": 446964
+        }
       ],
       "edition_sources": [
         {
@@ -2879,6 +3845,20 @@
         "political-philosophy",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-social-contract/gutenberg-46333/book.epub",
+          "sha256": "0ff7fa5048a32520754104428aa8673808e4b0414b95ba2e163da651763280cc",
+          "bytes": 520354
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-social-contract/gutenberg-46333/book.pdf",
+          "sha256": "9f90ca45945415b3e383544050f53a4fd52457617b7efb1683ab0c8ef8929fda",
+          "bytes": 613103
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2921,6 +3901,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-sorrows-of-young-werther/gutenberg-2527/book.epub",
+          "sha256": "1e3da5866c756bcc03266a5f79ef3f5c091381244bbbec5763a2b87b1d386898",
+          "bytes": 183408
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-sorrows-of-young-werther/gutenberg-2527/book.pdf",
+          "sha256": "602d9374e3dffab9eee799d6e4946618e40b225fc26d6f377615d79db42a0189",
+          "bytes": 230555
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -2960,6 +3954,20 @@
         "equality",
         "rights",
         "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-subjection-of-women/gutenberg-27083/book.epub",
+          "sha256": "ddc7ff967aa733d1986d4b7cf091f8cb14cba4b176dba348fd6363fe18033f01",
+          "bytes": 183453
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-subjection-of-women/gutenberg-27083/book.pdf",
+          "sha256": "07007b8e0980255dafb08d44c1e04ace6139ce8317f16c50d989868eb786091f",
+          "bytes": 232131
+        }
       ],
       "edition_sources": [
         {
@@ -3002,6 +4010,20 @@
         "sexuality",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-sun-also-rises/gutenberg-67138/book.epub",
+          "sha256": "d7d21de04c39206843b23c3adfd4ee2f29ed21b3e017782de6de0eefbef9462a",
+          "bytes": 336973
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-sun-also-rises/gutenberg-67138/book.pdf",
+          "sha256": "96f1bbf5a1ec10b2e28c77b65847e3ae280e8e2c5a050270edfaa9fd6cd0ee50",
+          "bytes": 396564
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3043,6 +4065,20 @@
         "philosophy",
         "censorship"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-theological-political-treatise/gutenberg-992/book.epub",
+          "sha256": "2bd3630e0a8af367b5ca994cdf7e65eb2d6ee98ea2793dadcb51aa1be0695cc7",
+          "bytes": 149760
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-theological-political-treatise/gutenberg-992/book.pdf",
+          "sha256": "344d0d50350d241ba54301811be93327e9b68a5535b5ce923890c03ee55c8a0d",
+          "bytes": 162794
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3083,6 +4119,20 @@
         "politics",
         "friendship",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-three-musketeers/gutenberg-1257/book.epub",
+          "sha256": "06cc3a5124960edd40f5cb8a700bbb0fcf7cac62264186a3e4facfd5aa860d60",
+          "bytes": 841530
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-three-musketeers/gutenberg-1257/book.pdf",
+          "sha256": "1034f1d09fe6a9c11f7d4e1a0547006c475500a20e547d706cccf135c27403e5",
+          "bytes": 1244638
+        }
       ],
       "edition_sources": [
         {
@@ -3127,6 +4177,20 @@
         "literary-canon",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-trial/gutenberg-7849/book.epub",
+          "sha256": "6961436f0d4ef61812e10734f46013c6452156747a073f1f205b058886f7d379",
+          "bytes": 238622
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-trial/gutenberg-7849/book.pdf",
+          "sha256": "6bf386d60d2fed322befe39698a18c7016274b9750e4e99f1e876eadf17fedf0",
+          "bytes": 372515
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3167,6 +4231,20 @@
         "psychology",
         "horror",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-turn-of-the-screw/gutenberg-209/book.epub",
+          "sha256": "e88c0c0e29af98f9b4fefcc395b6cf372988de334c90d54db85296a983c7e07e",
+          "bytes": 189301
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-turn-of-the-screw/gutenberg-209/book.pdf",
+          "sha256": "a1a393e2add4a33a61105e27fd1c54c63ced41865c0e5293aed539cd56716802",
+          "bytes": 237802
+        }
       ],
       "edition_sources": [
         {
@@ -3211,6 +4289,20 @@
         "war",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-underdogs/gutenberg-549/book.epub",
+          "sha256": "9acaf76e4c58755d44f697b9278c8b2835c3475de8e6246ad5339c64bf135108",
+          "bytes": 187635
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-underdogs/gutenberg-549/book.pdf",
+          "sha256": "66bac81f40f8f619030a2dc8237ae43c29f904556ab693be8f530f6079aec3b4",
+          "bytes": 241366
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3250,6 +4342,20 @@
         "obscenity",
         "modernism",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/ulysses/gutenberg-4300/book.epub",
+          "sha256": "f8b1a45f88fabea6c17024de93395ef537bec2bab6a17dadd5a886352a63039c",
+          "bytes": 1508312
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/ulysses/gutenberg-4300/book.pdf",
+          "sha256": "10c7219d8c56eaa84e218651d4c98f1d492d41f1ab8a6e2f629d269f8811c25e",
+          "bytes": 1438703
+        }
       ],
       "edition_sources": [
         {
@@ -3291,6 +4397,20 @@
         "slavery",
         "abolition",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/uncle-toms-cabin/gutenberg-203/book.epub",
+          "sha256": "9225da3d4fe9d3b812c6a30276c0917f0101fc25fe0181a64b82f4a8d8938f51",
+          "bytes": 1445989
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/uncle-toms-cabin/gutenberg-203/book.pdf",
+          "sha256": "fb9d313c443edfcf0fc91a5ce700c4dc9d54372b09d639b16b0458007cc64e04",
+          "bytes": 932845
+        }
       ],
       "edition_sources": [
         {
@@ -3334,6 +4454,20 @@
         "history",
         "fiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/war-and-peace/gutenberg-2600/book.epub",
+          "sha256": "6373e6e4ec9c76d891601c85ba100e39f3087887f963efb1ff80673bdb7c2616",
+          "bytes": 1858730
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/war-and-peace/gutenberg-2600/book.pdf",
+          "sha256": "b9a7e6bc9efd8d4fdafccf43bb0b9e97d25fc892bd5e73178f7f757a2441f83c",
+          "bytes": 2818500
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3376,6 +4510,20 @@
         "politics",
         "nonfiction"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/what-is-property/gutenberg-360/book.epub",
+          "sha256": "03f02f9b1f8eb11cba8878b0179334e345daf5512b3da6dfa17732bea513d1cc",
+          "bytes": 487711
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/what-is-property/gutenberg-360/book.pdf",
+          "sha256": "4147cf0684ed639d8079ebe8ec9d3e021e6fd7f14f233329ba7ebea0a65be67b",
+          "bytes": 783591
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3414,6 +4562,20 @@
         "sexuality",
         "small-town",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/winesburg-ohio/gutenberg-416/book.epub",
+          "sha256": "4b32fcdc06b25f1d7b2ae37174f3dc76c6a4db910963a6e208118facacb4f2ed",
+          "bytes": 279247
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/winesburg-ohio/gutenberg-416/book.pdf",
+          "sha256": "03dd8ac116e5860248686d3dd07005b9a4d5826013d275dfd4540900f1480b43",
+          "bytes": 352409
+        }
       ],
       "edition_sources": [
         {
@@ -3456,6 +4618,20 @@
         "survival",
         "historical-guidance"
       ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/woodcraft-and-camping/gutenberg-34607/book.epub",
+          "sha256": "ab5055acda5cb5025c5aa6976495056f37c41940a9c157c04edddbbd54092097",
+          "bytes": 663980
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/woodcraft-and-camping/gutenberg-34607/book.pdf",
+          "sha256": "ac1efa80e33798cf35a5ea6758cbed9d04f8f55aa7ffad5efc3cb4b5596295ec",
+          "bytes": 224830
+        }
+      ],
       "edition_sources": [
         {
           "source_id": "project-gutenberg",
@@ -3496,6 +4672,20 @@
         "class",
         "violence",
         "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/wuthering-heights/gutenberg-768/book.epub",
+          "sha256": "df48ab3719249211b9b455a8ff93dd09927d8f04a2d560b3583a7ac46f907838",
+          "bytes": 586967
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/wuthering-heights/gutenberg-768/book.pdf",
+          "sha256": "40eda6ea2655ac04dcdbde385a1da4184d3cc101cc1db79c726867bb8eefb005",
+          "bytes": 604208
+        }
       ],
       "edition_sources": [
         {

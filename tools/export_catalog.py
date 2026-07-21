@@ -5,10 +5,10 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from collections import Counter, defaultdict
+from collections import defaultdict
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, edition_sources, load_records, load_source_options, rights_guidance
+from build_profile import CATALOG, ROOT, edition_sources, load_records, load_source_options, presentation_files, rights_guidance
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
@@ -26,6 +26,7 @@ def render_api() -> str:
     records = [
         {
             **record,
+            "download_files": presentation_files(published_editions[record["id"]])[2],
             "edition_sources": edition_sources(published_editions[record["id"]]),
             "rights_guidance": rights_guidance(record, edition_sources(published_editions[record["id"]])),
         }
@@ -54,62 +55,41 @@ def local_file_links(editions: list[dict]) -> str:
     """Render usable relative EPUB/PDF links for GitHub and an offline clone."""
     links: list[tuple[str, str]] = []
     seen: set[tuple[str, str]] = set()
-    for edition in editions:
-        for file in edition.get("files", []):
-            raw_role = str(file.get("role", "file"))
-            role = {"facsimile-pdf": "Facsimile PDF"}.get(raw_role, raw_role.upper())
-            key = (role, file["path"])
-            if key not in seen:
-                seen.add(key)
-                links.append((role, "../" + file["path"]))
+    _, _, files = presentation_files(editions)
+    for file in files:
+        raw_role = str(file.get("role", "file"))
+        role = {"text-pdf": "Text PDF"}.get(raw_role, raw_role.upper())
+        key = (role, file["path"])
+        if key not in seen:
+            seen.add(key)
+            links.append((role, "../" + file["path"]))
     return markdown_links(links)
 
 
-def primary_source_link(editions: list[dict]) -> str:
-    sources = edition_sources(editions)
-    if not sources:
-        return "—"
-    source = sources[0]
-    return markdown_links([(source["label"], source["url"])])
-
-
 def render_markdown(records: list[dict]) -> str:
-    grouped: dict[str, list[dict]] = defaultdict(list)
-    for record in records:
-        for collection in record.get("collections", ["uncategorized"]):
-            grouped[collection].append(record)
-    labels = {
-        "banned-challenged": "Banned & Challenged Literature",
-        "suppressed-knowledge": "Suppressed Knowledge",
-        "preparedness": "Preparedness & Field Manuals",
-        "essential-reading": "Essential Reading — External Links",
-        "original-language": "Original-Language Library",
-        "essential-literature": "Essential Literature",
-    }
     published_editions = load_published_editions()
     lines = [
         "# Catalog",
         "",
-        "This is the committed, readable Free Alexandria catalog. Every listed work is included locally as EPUB and PDF and remains usable offline after cloning the repository.",
+        "This is the committed, readable Free Alexandria catalog. Every listed work is included locally and remains usable offline after cloning the repository. A supplied scan is used for the PDF whenever available; **Text PDF** means a compact generated fallback.",
         "",
         f"**Included works:** {len(records)}<br>",
         "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>",
         "**Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)",
         "",
+        "| Title | Author / publisher | Year | Local files |",
+        "| --- | --- | ---: | --- |",
     ]
-    for collection in sorted(grouped, key=lambda item: labels.get(item, item)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files | Primary edition source |", "| --- | --- | ---: | --- | --- |"])
-        for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
-            lines.append(
-                "| {title} | {creator} | {year} | {files} | {sources} |".format(
-                    title=table_cell(record.get("title")),
-                    creator=table_cell(record.get("author") or record.get("publisher")),
-                    year=table_cell(record.get("original_year")),
-                    files=local_file_links(published_editions.get(record["id"], [])),
-                    sources=primary_source_link(published_editions.get(record["id"], [])),
-                )
+    for record in sorted(records, key=lambda item: item.get("title", item["id"])):
+        lines.append(
+            "| {title} | {creator} | {year} | {files} |".format(
+                title=table_cell(record.get("title")),
+                creator=table_cell(record.get("author") or record.get("publisher")),
+                year=table_cell(record.get("original_year")),
+                files=local_file_links(published_editions.get(record["id"], [])),
             )
-        lines.append("")
+        )
+    lines.append("")
     lines.extend([
         "## How to consume this catalog",
         "",
