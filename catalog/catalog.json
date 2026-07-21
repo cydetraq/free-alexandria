@@ -1,0 +1,1171 @@
+{
+  "format_version": 1,
+  "offline_notice": "This file is a complete metadata snapshot. It has no runtime dependency on external catalogs or URLs.",
+  "normalized_records_notice": "The records field is a convenient V1 index. source_documents retains the complete, authoritative source text, including nested translation and acquisition details.",
+  "records": [
+    {
+      "id": "a-portrait-of-the-artist-as-a-young-man",
+      "catalog_file": "core-literature.yaml",
+      "title": "A Portrait of the Artist as a Young Man",
+      "author": "James Joyce",
+      "original_year": 1916,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A young man's artistic awakening amid religion and nationalism.",
+      "why_included": "Challenged for sexuality, profanity, religious criticism, and perceived obscenity.",
+      "tags": [
+        "modernism",
+        "religion",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "adventures-of-huckleberry-finn",
+      "catalog_file": "books.yaml",
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "original_year": 1884,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "description": "A Mississippi River journey in which Huck travels with Jim, an enslaved man seeking freedom.",
+      "why_included": "Frequently challenged for racial slurs, depictions of slavery, stereotypes, and disputes about how race is taught.",
+      "tags": [
+        "literary-canon",
+        "race",
+        "censorship",
+        "fiction"
+      ]
+    },
+    {
+      "id": "areopagitica",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Areopagitica",
+      "author": "John Milton",
+      "original_year": 1644,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A foundational argument against state licensing and prepublication censorship.",
+      "why_included": "Directly opposes systems that require official permission before publication.",
+      "tags": [
+        "free-expression",
+        "censorship",
+        "political-philosophy",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "as-i-lay-dying",
+      "catalog_file": "core-literature.yaml",
+      "title": "As I Lay Dying",
+      "author": "William Faulkner",
+      "original_year": 1930,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A poor Southern family transports its mother's body for burial.",
+      "why_included": "Challenged for language, sexuality, abortion, death, religion, and family dysfunction.",
+      "tags": [
+        "modernism",
+        "death",
+        "religion",
+        "fiction"
+      ]
+    },
+    {
+      "id": "babbitt",
+      "catalog_file": "core-literature.yaml",
+      "title": "Babbitt",
+      "author": "Sinclair Lewis",
+      "original_year": 1922,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A satirical portrait of business culture, conformity, and middle-class aspiration.",
+      "why_included": "Challenged for sexuality, alcohol, language, and criticism of civic and commercial values.",
+      "tags": [
+        "satire",
+        "conformity",
+        "class",
+        "fiction"
+      ]
+    },
+    {
+      "id": "camping-and-woodcraft",
+      "catalog_file": "preparedness.yaml",
+      "title": "Camping and Woodcraft",
+      "author": "Horace Kephart",
+      "original_year": 1906,
+      "original_language": "English",
+      "collections": [
+        "preparedness"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Campcraft, shelters, tools, fire, and wilderness living.",
+      "why_included": "An enduring practical reference, with medical and conservation advice clearly marked as historical.",
+      "tags": [
+        "survival",
+        "camping",
+        "fieldcraft",
+        "historical-guidance"
+      ]
+    },
+    {
+      "id": "civil-disobedience",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Civil Disobedience",
+      "author": "Henry David Thoreau",
+      "original_year": 1849,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An argument against cooperation with profoundly unjust government action.",
+      "why_included": "Defends individual conscience against coercive state power.",
+      "tags": [
+        "resistance",
+        "rights",
+        "political-philosophy",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "common-sense",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Common Sense",
+      "author": "Thomas Paine",
+      "original_year": 1776,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A direct argument that people may reject illegitimate political authority.",
+      "why_included": "Challenges hereditary rule and locates political authority in the people.",
+      "tags": [
+        "revolution",
+        "political-philosophy",
+        "rights",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "don-quixote",
+      "catalog_file": "books.yaml",
+      "title": "Don Quixote",
+      "original_title": "El ingenioso hidalgo don Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "original_year": 1605,
+      "original_language": "Spanish",
+      "collections": [
+        "banned-challenged",
+        "essential-literature",
+        "original-language"
+      ],
+      "rights_status": "public-domain-us",
+      "translations": "",
+      "description": "An aging reader of chivalric romances remakes himself as a knight and travels with Sancho Panza.",
+      "why_included": "A foundational modern novel whose satire of inherited narratives, institutions, and certainty has made it enduringly controversial.",
+      "tags": [
+        "literary-canon",
+        "satire",
+        "freedom-of-thought",
+        "fiction"
+      ]
+    },
+    {
+      "id": "dubliners",
+      "catalog_file": "core-literature.yaml",
+      "title": "Dubliners",
+      "author": "James Joyce",
+      "original_year": 1914,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Stories portraying paralysis, disappointment, and daily life in Dublin.",
+      "why_included": "Publication was obstructed over political references, sexuality, religion, and allegedly defamatory realism.",
+      "tags": [
+        "modernism",
+        "religion",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "eff-surveillance-self-defense",
+      "catalog_file": "open-license.yaml",
+      "title": "Surveillance Self-Defense",
+      "publisher": "Electronic Frontier Foundation",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "open-license",
+      "claimed_license": "CC BY",
+      "distribution_status": "verify-license-on-source",
+      "description": "Current guidance on threat modeling, private communications, metadata, and device security.",
+      "snapshot_policy": "Store review date, source URL, attribution, license text, and an unchanged snapshot where permitted.",
+      "tags": [
+        "privacy",
+        "digital-security",
+        "encryption",
+        "censorship-circumvention"
+      ]
+    },
+    {
+      "id": "elementary-cryptanalysis",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Elementary Cryptanalysis",
+      "author": "Helen Fouché Gaines",
+      "original_year": 1939,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "copyrighted-link-only",
+      "catalog_status": "link-only",
+      "description": "A substantial reference on solving classical ciphers.",
+      "why_included": "Important historical cryptanalysis reference, but not yet U.S. public domain.",
+      "tags": [
+        "cryptography",
+        "communications",
+        "mathematics",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "elmer-gantry",
+      "catalog_file": "core-literature.yaml",
+      "title": "Elmer Gantry",
+      "author": "Sinclair Lewis",
+      "original_year": 1927,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A charismatic opportunist builds a career through organized religion.",
+      "why_included": "Banned for profanity, sexual behavior, and its attack on religious hypocrisy.",
+      "tags": [
+        "religion",
+        "satire",
+        "censorship",
+        "fiction"
+      ]
+    },
+    {
+      "id": "finding-your-way-with-map-and-compass",
+      "catalog_file": "preparedness.yaml",
+      "title": "Finding Your Way with Map and Compass",
+      "publisher": "U.S. Geological Survey",
+      "collections": [
+        "preparedness"
+      ],
+      "rights_status": "verify-edition",
+      "catalog_status": "candidate",
+      "source_id": "usgs",
+      "description": "Map scales, contours, bearings, and compass use.",
+      "why_included": "Civilian navigation reference suitable for offline use.",
+      "tags": [
+        "navigation",
+        "maps",
+        "fieldcraft",
+        "government-guidance"
+      ]
+    },
+    {
+      "id": "fm-21-76-survival",
+      "catalog_file": "manuals.yaml",
+      "title": "Survival",
+      "publication_number": "FM 21-76",
+      "publisher": "United States Army",
+      "recommended_edition": "Most recent unrestricted edition; retain 1957 edition as historical context.",
+      "collections": [
+        "preparedness"
+      ],
+      "distribution_status": "verify-edition",
+      "civilian_relevance": "Shelter, water, fire, signaling, navigation, weather, and survival psychology.",
+      "safety_note": "Historical medical, food, and safety recommendations must be compared with current civilian guidance.",
+      "tags": [
+        "survival",
+        "navigation",
+        "water",
+        "fieldcraft"
+      ]
+    },
+    {
+      "id": "fm-3-25-26-map-reading-and-land-navigation",
+      "catalog_file": "manuals.yaml",
+      "title": "Map Reading and Land Navigation",
+      "publication_number": "FM 3-25.26",
+      "publisher": "United States Army",
+      "collections": [
+        "preparedness"
+      ],
+      "distribution_status": "verify-edition",
+      "civilian_relevance": "Maps, compass bearings, coordinates, terrain association, and route planning.",
+      "tags": [
+        "navigation",
+        "maps",
+        "fieldcraft"
+      ]
+    },
+    {
+      "id": "fm-5-125-rigging-techniques",
+      "catalog_file": "manuals.yaml",
+      "title": "Rigging Techniques, Procedures and Applications",
+      "publication_number": "FM 5-125",
+      "publisher": "United States Army",
+      "collections": [
+        "preparedness"
+      ],
+      "distribution_status": "verify-edition",
+      "civilian_relevance": "Rope, knots, slings, hoists, anchors, and mechanical advantage.",
+      "tags": [
+        "knots",
+        "rigging",
+        "construction",
+        "fieldcraft"
+      ]
+    },
+    {
+      "id": "food-and-water-in-an-emergency",
+      "catalog_file": "preparedness.yaml",
+      "title": "Food and Water in an Emergency",
+      "publisher": "FEMA",
+      "collections": [
+        "preparedness"
+      ],
+      "rights_status": "verify-edition",
+      "catalog_status": "candidate",
+      "source_id": "ready-gov",
+      "description": "Household food storage, emergency water, and power-loss preparation.",
+      "why_included": "A concise federal reference for common disruptions.",
+      "tags": [
+        "water",
+        "food",
+        "emergency-planning",
+        "government-guidance"
+      ]
+    },
+    {
+      "id": "frankenstein-1818",
+      "catalog_file": "core-literature.yaml",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "original_year": 1818,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A scientist creates life and abandons the being whose suffering he caused.",
+      "why_included": "Challenged for horror, violence, creation of life, suicide, religion, and perceived indecency.",
+      "tags": [
+        "gothic",
+        "science",
+        "religion",
+        "fiction"
+      ]
+    },
+    {
+      "id": "jane-eyre",
+      "catalog_file": "core-literature.yaml",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "original_year": 1847,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An orphaned governess seeks autonomy, love, moral equality, and economic independence.",
+      "why_included": "Attacked for female independence, sexuality, anger, and criticism of class and patriarchal authority.",
+      "tags": [
+        "gender",
+        "class",
+        "religion",
+        "fiction"
+      ]
+    },
+    {
+      "id": "lady-chatterleys-lover",
+      "catalog_file": "core-literature.yaml",
+      "title": "Lady Chatterley's Lover",
+      "author": "D. H. Lawrence",
+      "original_year": 1928,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A novel about class, marriage, intimacy, and an affair across social boundaries.",
+      "why_included": "Banned and prosecuted in several countries for explicit sexual language and adultery.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "class",
+        "fiction"
+      ]
+    },
+    {
+      "id": "leaves-of-grass",
+      "catalog_file": "core-literature.yaml",
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "original_year": 1855,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Poetry celebrating the body, democracy, nature, and identity.",
+      "why_included": "Suppressed for sensuality, same-sex themes, bodily imagery, and alleged obscenity.",
+      "tags": [
+        "poetry",
+        "sexuality",
+        "free-expression",
+        "literary-canon"
+      ]
+    },
+    {
+      "id": "main-street",
+      "catalog_file": "core-literature.yaml",
+      "title": "Main Street",
+      "author": "Sinclair Lewis",
+      "original_year": 1920,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An idealistic woman confronts conformity in a small Midwestern town.",
+      "why_included": "Locally banned or denounced for its unflattering portrayal of small-town America.",
+      "tags": [
+        "conformity",
+        "social-criticism",
+        "fiction"
+      ]
+    },
+    {
+      "id": "make-water-safe-during-an-emergency",
+      "catalog_file": "preparedness.yaml",
+      "title": "Make Water Safe During an Emergency",
+      "publisher": "Centers for Disease Control and Prevention",
+      "collections": [
+        "preparedness"
+      ],
+      "rights_status": "verify-edition",
+      "catalog_status": "candidate",
+      "source_id": "cdc",
+      "description": "Current guidance on boiling, disinfecting, and filtering emergency water.",
+      "why_included": "High-value life-safety guidance that must remain current and dated.",
+      "tags": [
+        "water",
+        "sanitation",
+        "health",
+        "government-guidance"
+      ]
+    },
+    {
+      "id": "manual-for-the-solution-of-military-ciphers",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Manual for the Solution of Military Ciphers",
+      "author": "Parker Hitt",
+      "original_year": 1916,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A systematic historical guide to analyzing substitution and transposition ciphers.",
+      "why_included": "Preserves a practical foundation in private communication and cryptanalysis.",
+      "tags": [
+        "cryptography",
+        "communications",
+        "mathematics",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "nineteen-eighty-four",
+      "catalog_file": "external-reading.yaml",
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "original_year": 1949,
+      "collections": [
+        "essential-reading"
+      ],
+      "rights_status": "copyrighted-link-only",
+      "description": "A novel of surveillance, controlled language, manufactured reality, and political terror.",
+      "why_included": "Essential fiction for understanding authoritarian information control.",
+      "link_policy": "Prefer rights-holder, publisher, author estate, or public-library locator.",
+      "tags": [
+        "authoritarianism",
+        "censorship",
+        "surveillance",
+        "fiction"
+      ]
+    },
+    {
+      "id": "on-liberty",
+      "catalog_file": "books.yaml",
+      "title": "On Liberty",
+      "author": "John Stuart Mill",
+      "original_year": 1859,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "description": "A defense of freedom of thought, expression, individuality, and limits on social coercion.",
+      "why_included": "Directly challenges political and social suppression of dissent.",
+      "tags": [
+        "free-expression",
+        "political-philosophy",
+        "censorship",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "propaganda",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Propaganda",
+      "author": "Edward Bernays",
+      "original_year": 1928,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An early account of organized opinion management, symbols, authority, and mass persuasion.",
+      "why_included": "Helps readers identify techniques that governments and institutions use to shape public belief.",
+      "tags": [
+        "propaganda",
+        "media-literacy",
+        "psychology",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "public-opinion",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Public Opinion",
+      "author": "Walter Lippmann",
+      "original_year": 1922,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An examination of stereotypes, media, expertise, and the construction of public belief.",
+      "why_included": "Gives readers tools for recognizing manufactured pictures of reality.",
+      "tags": [
+        "propaganda",
+        "media-literacy",
+        "psychology",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "rights-of-man",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Rights of Man",
+      "author": "Thomas Paine",
+      "original_year": 1791,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A defense of popular sovereignty and a critique of hereditary government.",
+      "why_included": "Provides a compact case for political rights independent of dynastic authority.",
+      "tags": [
+        "rights",
+        "political-philosophy",
+        "revolution",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "shelters-shacks-and-shanties",
+      "catalog_file": "preparedness.yaml",
+      "title": "Shelters, Shacks and Shanties",
+      "author": "D. C. Beard",
+      "original_year": 1914,
+      "original_language": "English",
+      "collections": [
+        "preparedness"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Improvised shelters and simple structures.",
+      "why_included": "Useful historic construction ideas; structural safety must be independently assessed.",
+      "tags": [
+        "shelter",
+        "construction",
+        "fieldcraft",
+        "historical-guidance"
+      ]
+    },
+    {
+      "id": "the-adventures-of-tom-sawyer",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "original_year": 1876,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A mischievous boy navigates childhood, danger, conscience, and small-town society.",
+      "why_included": "Challenged for racial language, disobedience, violence, and classroom suitability.",
+      "tags": [
+        "race",
+        "childhood",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-awakening",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Awakening",
+      "author": "Kate Chopin",
+      "original_year": 1899,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A woman questions marriage, motherhood, convention, and personal autonomy.",
+      "why_included": "Condemned and restricted for female sexuality, adultery, and rejection of prescribed gender roles.",
+      "tags": [
+        "literary-canon",
+        "gender",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-call-of-the-wild",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "original_year": 1903,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A domesticated dog is forced into brutal life during the Klondike Gold Rush.",
+      "why_included": "Banned or burned for violence, evolutionary themes, and the author's political associations.",
+      "tags": [
+        "wilderness",
+        "politics",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-great-gatsby",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "original_year": 1925,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A story of wealth, class, obsession, and self-invention in Jazz Age America.",
+      "why_included": "Challenged for language, sexuality, adultery, alcohol, and perceived moral content.",
+      "tags": [
+        "literary-canon",
+        "class",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-jungle",
+      "catalog_file": "books.yaml",
+      "title": "The Jungle",
+      "author": "Upton Sinclair",
+      "original_year": 1906,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "description": "An exposé-driven novel about immigrant labor and the meatpacking industry.",
+      "why_included": "Suppressed or attacked for socialist politics, labor criticism, and graphic industrial conditions.",
+      "tags": [
+        "labor",
+        "political-economy",
+        "censorship",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-picture-of-dorian-gray",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "original_year": 1890,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A man remains outwardly young while a portrait records his corruption.",
+      "why_included": "Censored for homoerotic implications, decadence, drug use, and alleged immorality.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "censorship",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-rape-of-the-mind",
+      "catalog_file": "external-reading.yaml",
+      "title": "The Rape of the Mind",
+      "author": "Joost Meerloo",
+      "original_year": 1956,
+      "collections": [
+        "essential-reading"
+      ],
+      "rights_status": "copyrighted-link-only",
+      "description": "A study of coercive persuasion and totalitarian psychological control.",
+      "why_included": "A foundational reference for recognizing coercive ideological environments.",
+      "link_policy": "Prefer rights-holder, publisher, author estate, or public-library locator.",
+      "tags": [
+        "propaganda",
+        "coercive-persuasion",
+        "psychology",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "the-republic",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "The Republic",
+      "original_title": "Politeia",
+      "author": "Plato",
+      "original_year": -380,
+      "original_language": "Ancient Greek",
+      "collections": [
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "translations": "",
+      "description": "A dialogue about justice, government, education, censorship, art, and the ideal state.",
+      "why_included": "Often restricted in ideological settings; it is also a crucial source on the logic of censorship itself.",
+      "tags": [
+        "political-philosophy",
+        "censorship",
+        "education",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "the-scarlet-letter",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "original_year": 1850,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A woman condemned for adultery lives under the judgment of a Puritan community.",
+      "why_included": "Challenged for adultery, sexuality, religious criticism, and perceived immorality.",
+      "tags": [
+        "religion",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-social-contract",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "The Social Contract",
+      "original_title": "Du contrat social",
+      "author": "Jean-Jacques Rousseau",
+      "original_year": 1762,
+      "original_language": "French",
+      "collections": [
+        "suppressed-knowledge",
+        "original-language"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "translations": "",
+      "description": "An argument that legitimate political authority arises from collective popular sovereignty.",
+      "why_included": "Banned and burned for republicanism and its challenge to established political authority.",
+      "tags": [
+        "rights",
+        "revolution",
+        "political-philosophy",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "the-sun-also-rises",
+      "catalog_file": "core-literature.yaml",
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "original_year": 1926,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Expatriates travel through France and Spain while confronting war trauma and disillusionment.",
+      "why_included": "Challenged for sexuality, alcohol, language, and unconventional relationships.",
+      "tags": [
+        "modernism",
+        "war",
+        "sexuality",
+        "fiction"
+      ]
+    },
+    {
+      "id": "the-trial",
+      "catalog_file": "books.yaml",
+      "title": "The Trial",
+      "original_title": "Der Process",
+      "author": "Franz Kafka",
+      "original_year": 1925,
+      "original_language": "German",
+      "collections": [
+        "suppressed-knowledge",
+        "original-language",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "english_translation_included": false,
+      "description": "A man is prosecuted by an inaccessible bureaucracy without being told his offense.",
+      "why_included": "A defining novel of arbitrary authority and institutional terror, suppressed under authoritarian regimes.",
+      "tags": [
+        "authoritarianism",
+        "bureaucracy",
+        "literary-canon",
+        "fiction"
+      ]
+    },
+    {
+      "id": "two-treatises-of-government",
+      "catalog_file": "suppressed-knowledge.yaml",
+      "title": "Two Treatises of Government",
+      "author": "John Locke",
+      "original_year": 1689,
+      "original_language": "English",
+      "collections": [
+        "suppressed-knowledge"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "A defense of natural rights, consent of the governed, and limits on political authority.",
+      "why_included": "Supplies an enduring argument for removing governments that violate public trust.",
+      "tags": [
+        "rights",
+        "constitutionalism",
+        "political-philosophy",
+        "nonfiction"
+      ]
+    },
+    {
+      "id": "ulysses",
+      "catalog_file": "books.yaml",
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "original_year": 1922,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "description": "An experimental novel tracing ordinary life in Dublin over a single day.",
+      "why_included": "Seized and suppressed as obscene before a landmark United States court decision permitted publication.",
+      "tags": [
+        "literary-canon",
+        "obscenity",
+        "modernism",
+        "fiction"
+      ]
+    },
+    {
+      "id": "uncle-toms-cabin",
+      "catalog_file": "core-literature.yaml",
+      "title": "Uncle Tom's Cabin",
+      "author": "Harriet Beecher Stowe",
+      "original_year": 1852,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "An antislavery novel depicting families separated and abused under slavery.",
+      "why_included": "Suppressed in the antebellum South for abolitionist content and later challenged over racial representation.",
+      "tags": [
+        "race",
+        "slavery",
+        "abolition",
+        "fiction"
+      ]
+    },
+    {
+      "id": "winesburg-ohio",
+      "catalog_file": "core-literature.yaml",
+      "title": "Winesburg, Ohio",
+      "author": "Sherwood Anderson",
+      "original_year": 1919,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Interconnected stories about isolation and frustrated lives in a small town.",
+      "why_included": "Removed from libraries for sexual themes and alleged obscenity.",
+      "tags": [
+        "sexuality",
+        "small-town",
+        "fiction"
+      ]
+    },
+    {
+      "id": "wuthering-heights",
+      "catalog_file": "core-literature.yaml",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "original_year": 1847,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "rights_status": "public-domain-us",
+      "catalog_status": "candidate",
+      "description": "Obsession and revenge shape two generations on the Yorkshire moors.",
+      "why_included": "Condemned and challenged for cruelty, abuse, violence, class conflict, and religious irreverence.",
+      "tags": [
+        "gothic",
+        "class",
+        "violence",
+        "fiction"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "army-publishing-directorate",
+      "catalog_file": "sources.yaml",
+      "name": "Army Publishing Directorate",
+      "source_type": "government-publisher",
+      "base_url": "https://armypubs.army.mil/",
+      "use_for": "Current unrestricted Army publications.",
+      "acquisition_note": "Exclude restricted or authentication-only publications."
+    },
+    {
+      "id": "cdc",
+      "catalog_file": "sources.yaml",
+      "name": "Centers for Disease Control and Prevention",
+      "source_type": "government-publisher",
+      "base_url": "https://www.cdc.gov/",
+      "use_for": "Current emergency water, sanitation, food-safety, and health guidance."
+    },
+    {
+      "id": "eff",
+      "catalog_file": "sources.yaml",
+      "name": "Electronic Frontier Foundation",
+      "source_type": "rights-holder",
+      "base_url": "https://www.eff.org/",
+      "use_for": "Explicitly licensed digital-security material.",
+      "acquisition_note": "Confirm the license on the exact work or module before download."
+    },
+    {
+      "id": "library-of-congress",
+      "catalog_file": "sources.yaml",
+      "name": "Library of Congress",
+      "source_type": "government-library",
+      "base_url": "https://www.loc.gov/",
+      "use_for": "Historical scans, U.S. Army field-manual inventory, and bibliographic verification."
+    },
+    {
+      "id": "project-gutenberg",
+      "catalog_file": "sources.yaml",
+      "name": "Project Gutenberg",
+      "source_type": "public-domain-text-repository",
+      "base_url": "https://www.gutenberg.org/",
+      "use_for": "Public-domain EPUB, HTML, and plain-text editions.",
+      "acquisition_note": "Record the exact ebook URL and retain no Project Gutenberg branding unless its terms permit it."
+    },
+    {
+      "id": "ready-gov",
+      "catalog_file": "sources.yaml",
+      "name": "Ready.gov",
+      "source_type": "government-publisher",
+      "base_url": "https://www.ready.gov/",
+      "use_for": "FEMA preparedness guides and planning material."
+    },
+    {
+      "id": "standard-ebooks",
+      "catalog_file": "sources.yaml",
+      "name": "Standard Ebooks",
+      "source_type": "public-domain-ebook-repository",
+      "base_url": "https://standardebooks.org/",
+      "use_for": "Carefully prepared public-domain ebooks.",
+      "acquisition_note": "Verify the edition page and any project-specific redistribution terms."
+    },
+    {
+      "id": "usgs",
+      "catalog_file": "sources.yaml",
+      "name": "U.S. Geological Survey",
+      "source_type": "government-publisher",
+      "base_url": "https://www.usgs.gov/",
+      "use_for": "Map, compass, topographic-map, and geographic-reference material."
+    }
+  ],
+  "edition_queue": [
+    {
+      "id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
+      "catalog_file": "edition-queue.yaml",
+      "work_id": "adventures-of-huckleberry-finn",
+      "source_item_id": "76",
+      "source_id": "project-gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/76",
+      "language": "English",
+      "edition_year": "1884",
+      "acquisition_status": "edition-identified",
+      "intended_paths": ""
+    },
+    {
+      "id": "don-quixote-en-ormsby-1885-gutenberg-996",
+      "catalog_file": "edition-queue.yaml",
+      "work_id": "don-quixote",
+      "source_item_id": "996",
+      "source_id": "project-gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/996",
+      "language": "English",
+      "translator": "John Ormsby",
+      "edition_year": "1885",
+      "acquisition_status": "edition-identified",
+      "intended_paths": ""
+    },
+    {
+      "id": "fm-21-76-en-fm-21-76-1957-library-of-congress-queue",
+      "catalog_file": "edition-queue.yaml",
+      "work_id": "fm-21-76-survival",
+      "source_item_id": "pending-loc-item-id",
+      "source_id": "library-of-congress",
+      "language": "English",
+      "edition_year": "1957",
+      "acquisition_status": "candidate",
+      "intended_paths": ""
+    },
+    {
+      "id": "the-jungle-en-original-1906-gutenberg-1400",
+      "catalog_file": "edition-queue.yaml",
+      "work_id": "the-jungle",
+      "source_item_id": "1400",
+      "source_id": "project-gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/1400",
+      "language": "English",
+      "edition_year": "1906",
+      "acquisition_status": "edition-identified",
+      "intended_paths": ""
+    },
+    {
+      "id": "ulysses-en-original-1922-gutenberg-4300",
+      "catalog_file": "edition-queue.yaml",
+      "work_id": "ulysses",
+      "source_item_id": "4300",
+      "source_id": "project-gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/4300",
+      "language": "English",
+      "edition_year": "1922",
+      "acquisition_status": "edition-identified",
+      "intended_paths": ""
+    }
+  ],
+  "published_editions": {
+    "format_version": 1,
+    "editions": {}
+  },
+  "source_documents": {
+    "books.yaml": "# Seed records. Paths are intentionally absent until a particular edition is verified.\n- id: adventures-of-huckleberry-finn\n  title: Adventures of Huckleberry Finn\n  author: Mark Twain\n  original_year: 1884\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  description: A Mississippi River journey in which Huck travels with Jim, an enslaved man seeking freedom.\n  why_included: Frequently challenged for racial slurs, depictions of slavery, stereotypes, and disputes about how race is taught.\n  tags: [literary-canon, race, censorship, fiction]\n\n- id: don-quixote\n  title: Don Quixote\n  original_title: El ingenioso hidalgo don Quijote de la Mancha\n  author: Miguel de Cervantes\n  original_year: 1605\n  original_language: Spanish\n  collections: [banned-challenged, essential-literature, original-language]\n  rights_status: public-domain-us\n  translations:\n    - language: English\n      translator: John Ormsby\n      translation_year: 1885\n      quality: recommended-pd-translation\n      rights_status: public-domain-us\n  description: An aging reader of chivalric romances remakes himself as a knight and travels with Sancho Panza.\n  why_included: A foundational modern novel whose satire of inherited narratives, institutions, and certainty has made it enduringly controversial.\n  tags: [literary-canon, satire, freedom-of-thought, fiction]\n\n- id: ulysses\n  title: Ulysses\n  author: James Joyce\n  original_year: 1922\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  description: An experimental novel tracing ordinary life in Dublin over a single day.\n  why_included: Seized and suppressed as obscene before a landmark United States court decision permitted publication.\n  tags: [literary-canon, obscenity, modernism, fiction]\n\n- id: the-jungle\n  title: The Jungle\n  author: Upton Sinclair\n  original_year: 1906\n  original_language: English\n  collections: [banned-challenged, suppressed-knowledge]\n  rights_status: public-domain-us\n  description: An exposé-driven novel about immigrant labor and the meatpacking industry.\n  why_included: Suppressed or attacked for socialist politics, labor criticism, and graphic industrial conditions.\n  tags: [labor, political-economy, censorship, fiction]\n\n- id: the-trial\n  title: The Trial\n  original_title: Der Process\n  author: Franz Kafka\n  original_year: 1925\n  original_language: German\n  collections: [suppressed-knowledge, original-language, essential-literature]\n  rights_status: public-domain-us\n  english_translation_included: false\n  description: A man is prosecuted by an inaccessible bureaucracy without being told his offense.\n  why_included: A defining novel of arbitrary authority and institutional terror, suppressed under authoritarian regimes.\n  tags: [authoritarianism, bureaucracy, literary-canon, fiction]\n\n- id: on-liberty\n  title: On Liberty\n  author: John Stuart Mill\n  original_year: 1859\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  description: A defense of freedom of thought, expression, individuality, and limits on social coercion.\n  why_included: Directly challenges political and social suppression of dissent.\n  tags: [free-expression, political-philosophy, censorship, nonfiction]\n",
+    "core-literature.yaml": "# Core public-domain or edition-verification candidates. No local files are implied.\n- id: the-great-gatsby\n  title: The Great Gatsby\n  author: F. Scott Fitzgerald\n  original_year: 1925\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A story of wealth, class, obsession, and self-invention in Jazz Age America.\n  why_included: Challenged for language, sexuality, adultery, alcohol, and perceived moral content.\n  tags: [literary-canon, class, sexuality, fiction]\n\n- id: lady-chatterleys-lover\n  title: Lady Chatterley's Lover\n  author: D. H. Lawrence\n  original_year: 1928\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A novel about class, marriage, intimacy, and an affair across social boundaries.\n  why_included: Banned and prosecuted in several countries for explicit sexual language and adultery.\n  tags: [literary-canon, sexuality, class, fiction]\n\n- id: the-awakening\n  title: The Awakening\n  author: Kate Chopin\n  original_year: 1899\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A woman questions marriage, motherhood, convention, and personal autonomy.\n  why_included: Condemned and restricted for female sexuality, adultery, and rejection of prescribed gender roles.\n  tags: [literary-canon, gender, sexuality, fiction]\n\n- id: leaves-of-grass\n  title: Leaves of Grass\n  author: Walt Whitman\n  original_year: 1855\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Poetry celebrating the body, democracy, nature, and identity.\n  why_included: Suppressed for sensuality, same-sex themes, bodily imagery, and alleged obscenity.\n  tags: [poetry, sexuality, free-expression, literary-canon]\n\n- id: elmer-gantry\n  title: Elmer Gantry\n  author: Sinclair Lewis\n  original_year: 1927\n  original_language: English\n  collections: [banned-challenged, suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A charismatic opportunist builds a career through organized religion.\n  why_included: Banned for profanity, sexual behavior, and its attack on religious hypocrisy.\n  tags: [religion, satire, censorship, fiction]\n\n- id: main-street\n  title: Main Street\n  author: Sinclair Lewis\n  original_year: 1920\n  original_language: English\n  collections: [banned-challenged]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An idealistic woman confronts conformity in a small Midwestern town.\n  why_included: Locally banned or denounced for its unflattering portrayal of small-town America.\n  tags: [conformity, social-criticism, fiction]\n\n- id: babbitt\n  title: Babbitt\n  author: Sinclair Lewis\n  original_year: 1922\n  original_language: English\n  collections: [banned-challenged]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A satirical portrait of business culture, conformity, and middle-class aspiration.\n  why_included: Challenged for sexuality, alcohol, language, and criticism of civic and commercial values.\n  tags: [satire, conformity, class, fiction]\n\n- id: the-sun-also-rises\n  title: The Sun Also Rises\n  author: Ernest Hemingway\n  original_year: 1926\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Expatriates travel through France and Spain while confronting war trauma and disillusionment.\n  why_included: Challenged for sexuality, alcohol, language, and unconventional relationships.\n  tags: [modernism, war, sexuality, fiction]\n\n- id: as-i-lay-dying\n  title: As I Lay Dying\n  author: William Faulkner\n  original_year: 1930\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A poor Southern family transports its mother's body for burial.\n  why_included: Challenged for language, sexuality, abortion, death, religion, and family dysfunction.\n  tags: [modernism, death, religion, fiction]\n\n- id: the-picture-of-dorian-gray\n  title: The Picture of Dorian Gray\n  author: Oscar Wilde\n  original_year: 1890\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A man remains outwardly young while a portrait records his corruption.\n  why_included: Censored for homoerotic implications, decadence, drug use, and alleged immorality.\n  tags: [literary-canon, sexuality, censorship, fiction]\n\n- id: winesburg-ohio\n  title: Winesburg, Ohio\n  author: Sherwood Anderson\n  original_year: 1919\n  original_language: English\n  collections: [banned-challenged]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Interconnected stories about isolation and frustrated lives in a small town.\n  why_included: Removed from libraries for sexual themes and alleged obscenity.\n  tags: [sexuality, small-town, fiction]\n\n- id: the-call-of-the-wild\n  title: The Call of the Wild\n  author: Jack London\n  original_year: 1903\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A domesticated dog is forced into brutal life during the Klondike Gold Rush.\n  why_included: Banned or burned for violence, evolutionary themes, and the author's political associations.\n  tags: [wilderness, politics, fiction]\n\n- id: uncle-toms-cabin\n  title: Uncle Tom's Cabin\n  author: Harriet Beecher Stowe\n  original_year: 1852\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An antislavery novel depicting families separated and abused under slavery.\n  why_included: Suppressed in the antebellum South for abolitionist content and later challenged over racial representation.\n  tags: [race, slavery, abolition, fiction]\n\n- id: the-scarlet-letter\n  title: The Scarlet Letter\n  author: Nathaniel Hawthorne\n  original_year: 1850\n  original_language: English\n  collections: [banned-challenged]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A woman condemned for adultery lives under the judgment of a Puritan community.\n  why_included: Challenged for adultery, sexuality, religious criticism, and perceived immorality.\n  tags: [religion, sexuality, fiction]\n\n- id: the-adventures-of-tom-sawyer\n  title: The Adventures of Tom Sawyer\n  author: Mark Twain\n  original_year: 1876\n  original_language: English\n  collections: [banned-challenged]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A mischievous boy navigates childhood, danger, conscience, and small-town society.\n  why_included: Challenged for racial language, disobedience, violence, and classroom suitability.\n  tags: [race, childhood, fiction]\n\n- id: dubliners\n  title: Dubliners\n  author: James Joyce\n  original_year: 1914\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Stories portraying paralysis, disappointment, and daily life in Dublin.\n  why_included: Publication was obstructed over political references, sexuality, religion, and allegedly defamatory realism.\n  tags: [modernism, religion, sexuality, fiction]\n\n- id: a-portrait-of-the-artist-as-a-young-man\n  title: A Portrait of the Artist as a Young Man\n  author: James Joyce\n  original_year: 1916\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A young man's artistic awakening amid religion and nationalism.\n  why_included: Challenged for sexuality, profanity, religious criticism, and perceived obscenity.\n  tags: [modernism, religion, sexuality, fiction]\n\n- id: frankenstein-1818\n  title: Frankenstein\n  author: Mary Shelley\n  original_year: 1818\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A scientist creates life and abandons the being whose suffering he caused.\n  why_included: Challenged for horror, violence, creation of life, suicide, religion, and perceived indecency.\n  tags: [gothic, science, religion, fiction]\n\n- id: wuthering-heights\n  title: Wuthering Heights\n  author: Emily Brontë\n  original_year: 1847\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Obsession and revenge shape two generations on the Yorkshire moors.\n  why_included: Condemned and challenged for cruelty, abuse, violence, class conflict, and religious irreverence.\n  tags: [gothic, class, violence, fiction]\n\n- id: jane-eyre\n  title: Jane Eyre\n  author: Charlotte Brontë\n  original_year: 1847\n  original_language: English\n  collections: [banned-challenged, essential-literature]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An orphaned governess seeks autonomy, love, moral equality, and economic independence.\n  why_included: Attacked for female independence, sexuality, anger, and criticism of class and patriarchal authority.\n  tags: [gender, class, religion, fiction]\n",
+    "edition-queue.yaml": "# This is an acquisition queue, not a claim that a file has been downloaded.\n- id: adventures-of-huckleberry-finn-en-original-1884-gutenberg-76\n  work_id: adventures-of-huckleberry-finn\n  source_item_id: '76'\n  source_id: project-gutenberg\n  source_url: https://www.gutenberg.org/ebooks/76\n  language: English\n  edition_year: 1884\n  acquisition_status: edition-identified\n  intended_paths:\n    epub: content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.epub\n    pdf: content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.pdf\n\n- id: don-quixote-en-ormsby-1885-gutenberg-996\n  work_id: don-quixote\n  source_item_id: '996'\n  source_id: project-gutenberg\n  source_url: https://www.gutenberg.org/ebooks/996\n  language: English\n  translator: John Ormsby\n  edition_year: 1885\n  acquisition_status: edition-identified\n  intended_paths:\n    epub: content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.epub\n    pdf: content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.pdf\n\n- id: ulysses-en-original-1922-gutenberg-4300\n  work_id: ulysses\n  source_item_id: '4300'\n  source_id: project-gutenberg\n  source_url: https://www.gutenberg.org/ebooks/4300\n  language: English\n  edition_year: 1922\n  acquisition_status: edition-identified\n  intended_paths:\n    epub: content/books/ulysses/en-original-1922--gutenberg-4300/book.epub\n    pdf: content/books/ulysses/en-original-1922--gutenberg-4300/book.pdf\n\n- id: the-jungle-en-original-1906-gutenberg-1400\n  work_id: the-jungle\n  source_item_id: '1400'\n  source_id: project-gutenberg\n  source_url: https://www.gutenberg.org/ebooks/1400\n  language: English\n  edition_year: 1906\n  acquisition_status: edition-identified\n  intended_paths:\n    epub: content/books/the-jungle/en-original-1906--gutenberg-1400/book.epub\n    pdf: content/books/the-jungle/en-original-1906--gutenberg-1400/book.pdf\n\n- id: fm-21-76-en-fm-21-76-1957-library-of-congress-queue\n  work_id: fm-21-76-survival\n  source_item_id: pending-loc-item-id\n  source_id: library-of-congress\n  language: English\n  edition_year: 1957\n  acquisition_status: candidate\n  intended_paths:\n    pdf: content/manuals/fm-21-76-survival/en-1957--loc-pending-item-id/manual.pdf\n",
+    "external-reading.yaml": "- id: nineteen-eighty-four\n  title: Nineteen Eighty-Four\n  author: George Orwell\n  original_year: 1949\n  collections: [essential-reading]\n  rights_status: copyrighted-link-only\n  description: A novel of surveillance, controlled language, manufactured reality, and political terror.\n  why_included: Essential fiction for understanding authoritarian information control.\n  link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.\n  tags: [authoritarianism, censorship, surveillance, fiction]\n\n- id: the-rape-of-the-mind\n  title: The Rape of the Mind\n  author: Joost Meerloo\n  original_year: 1956\n  collections: [essential-reading]\n  rights_status: copyrighted-link-only\n  description: A study of coercive persuasion and totalitarian psychological control.\n  why_included: A foundational reference for recognizing coercive ideological environments.\n  link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.\n  tags: [propaganda, coercive-persuasion, psychology, nonfiction]\n",
+    "manuals.yaml": "- id: fm-21-76-survival\n  title: Survival\n  publication_number: FM 21-76\n  publisher: United States Army\n  recommended_edition: Most recent unrestricted edition; retain 1957 edition as historical context.\n  collections: [preparedness]\n  distribution_status: verify-edition\n  civilian_relevance: Shelter, water, fire, signaling, navigation, weather, and survival psychology.\n  safety_note: Historical medical, food, and safety recommendations must be compared with current civilian guidance.\n  tags: [survival, navigation, water, fieldcraft]\n\n- id: fm-3-25-26-map-reading-and-land-navigation\n  title: Map Reading and Land Navigation\n  publication_number: FM 3-25.26\n  publisher: United States Army\n  collections: [preparedness]\n  distribution_status: verify-edition\n  civilian_relevance: Maps, compass bearings, coordinates, terrain association, and route planning.\n  tags: [navigation, maps, fieldcraft]\n\n- id: fm-5-125-rigging-techniques\n  title: Rigging Techniques, Procedures and Applications\n  publication_number: FM 5-125\n  publisher: United States Army\n  collections: [preparedness]\n  distribution_status: verify-edition\n  civilian_relevance: Rope, knots, slings, hoists, anchors, and mechanical advantage.\n  tags: [knots, rigging, construction, fieldcraft]\n",
+    "open-license.yaml": "- id: eff-surveillance-self-defense\n  title: Surveillance Self-Defense\n  publisher: Electronic Frontier Foundation\n  collections: [suppressed-knowledge]\n  rights_status: open-license\n  claimed_license: CC BY\n  distribution_status: verify-license-on-source\n  description: Current guidance on threat modeling, private communications, metadata, and device security.\n  snapshot_policy: Store review date, source URL, attribution, license text, and an unchanged snapshot where permitted.\n  tags: [privacy, digital-security, encryption, censorship-circumvention]\n",
+    "preparedness.yaml": "- id: food-and-water-in-an-emergency\n  title: Food and Water in an Emergency\n  publisher: FEMA\n  collections: [preparedness]\n  rights_status: verify-edition\n  catalog_status: candidate\n  source_id: ready-gov\n  description: Household food storage, emergency water, and power-loss preparation.\n  why_included: A concise federal reference for common disruptions.\n  tags: [water, food, emergency-planning, government-guidance]\n\n- id: make-water-safe-during-an-emergency\n  title: Make Water Safe During an Emergency\n  publisher: Centers for Disease Control and Prevention\n  collections: [preparedness]\n  rights_status: verify-edition\n  catalog_status: candidate\n  source_id: cdc\n  description: Current guidance on boiling, disinfecting, and filtering emergency water.\n  why_included: High-value life-safety guidance that must remain current and dated.\n  tags: [water, sanitation, health, government-guidance]\n\n- id: finding-your-way-with-map-and-compass\n  title: Finding Your Way with Map and Compass\n  publisher: U.S. Geological Survey\n  collections: [preparedness]\n  rights_status: verify-edition\n  catalog_status: candidate\n  source_id: usgs\n  description: Map scales, contours, bearings, and compass use.\n  why_included: Civilian navigation reference suitable for offline use.\n  tags: [navigation, maps, fieldcraft, government-guidance]\n\n- id: camping-and-woodcraft\n  title: Camping and Woodcraft\n  author: Horace Kephart\n  original_year: 1906\n  original_language: English\n  collections: [preparedness]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Campcraft, shelters, tools, fire, and wilderness living.\n  why_included: An enduring practical reference, with medical and conservation advice clearly marked as historical.\n  tags: [survival, camping, fieldcraft, historical-guidance]\n\n- id: shelters-shacks-and-shanties\n  title: Shelters, Shacks and Shanties\n  author: D. C. Beard\n  original_year: 1914\n  original_language: English\n  collections: [preparedness]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: Improvised shelters and simple structures.\n  why_included: Useful historic construction ideas; structural safety must be independently assessed.\n  tags: [shelter, construction, fieldcraft, historical-guidance]\n",
+    "sources.yaml": "- id: project-gutenberg\n  name: Project Gutenberg\n  source_type: public-domain-text-repository\n  base_url: https://www.gutenberg.org/\n  use_for: Public-domain EPUB, HTML, and plain-text editions.\n  acquisition_note: Record the exact ebook URL and retain no Project Gutenberg branding unless its terms permit it.\n\n- id: standard-ebooks\n  name: Standard Ebooks\n  source_type: public-domain-ebook-repository\n  base_url: https://standardebooks.org/\n  use_for: Carefully prepared public-domain ebooks.\n  acquisition_note: Verify the edition page and any project-specific redistribution terms.\n\n- id: library-of-congress\n  name: Library of Congress\n  source_type: government-library\n  base_url: https://www.loc.gov/\n  use_for: Historical scans, U.S. Army field-manual inventory, and bibliographic verification.\n\n- id: army-publishing-directorate\n  name: Army Publishing Directorate\n  source_type: government-publisher\n  base_url: https://armypubs.army.mil/\n  use_for: Current unrestricted Army publications.\n  acquisition_note: Exclude restricted or authentication-only publications.\n\n- id: ready-gov\n  name: Ready.gov\n  source_type: government-publisher\n  base_url: https://www.ready.gov/\n  use_for: FEMA preparedness guides and planning material.\n\n- id: cdc\n  name: Centers for Disease Control and Prevention\n  source_type: government-publisher\n  base_url: https://www.cdc.gov/\n  use_for: Current emergency water, sanitation, food-safety, and health guidance.\n\n- id: usgs\n  name: U.S. Geological Survey\n  source_type: government-publisher\n  base_url: https://www.usgs.gov/\n  use_for: Map, compass, topographic-map, and geographic-reference material.\n\n- id: eff\n  name: Electronic Frontier Foundation\n  source_type: rights-holder\n  base_url: https://www.eff.org/\n  use_for: Explicitly licensed digital-security material.\n  acquisition_note: Confirm the license on the exact work or module before download.\n",
+    "suppressed-knowledge.yaml": "- id: areopagitica\n  title: Areopagitica\n  author: John Milton\n  original_year: 1644\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A foundational argument against state licensing and prepublication censorship.\n  why_included: Directly opposes systems that require official permission before publication.\n  tags: [free-expression, censorship, political-philosophy, nonfiction]\n\n- id: common-sense\n  title: Common Sense\n  author: Thomas Paine\n  original_year: 1776\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A direct argument that people may reject illegitimate political authority.\n  why_included: Challenges hereditary rule and locates political authority in the people.\n  tags: [revolution, political-philosophy, rights, nonfiction]\n\n- id: rights-of-man\n  title: Rights of Man\n  author: Thomas Paine\n  original_year: 1791\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A defense of popular sovereignty and a critique of hereditary government.\n  why_included: Provides a compact case for political rights independent of dynastic authority.\n  tags: [rights, political-philosophy, revolution, nonfiction]\n\n- id: civil-disobedience\n  title: Civil Disobedience\n  author: Henry David Thoreau\n  original_year: 1849\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An argument against cooperation with profoundly unjust government action.\n  why_included: Defends individual conscience against coercive state power.\n  tags: [resistance, rights, political-philosophy, nonfiction]\n\n- id: two-treatises-of-government\n  title: Two Treatises of Government\n  author: John Locke\n  original_year: 1689\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A defense of natural rights, consent of the governed, and limits on political authority.\n  why_included: Supplies an enduring argument for removing governments that violate public trust.\n  tags: [rights, constitutionalism, political-philosophy, nonfiction]\n\n- id: the-social-contract\n  title: The Social Contract\n  original_title: Du contrat social\n  author: Jean-Jacques Rousseau\n  original_year: 1762\n  original_language: French\n  collections: [suppressed-knowledge, original-language]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  translations:\n    - language: English\n      translator: G. D. H. Cole\n      translation_year: 1913\n      quality: recommended-pd-translation\n      rights_status: public-domain-us\n  description: An argument that legitimate political authority arises from collective popular sovereignty.\n  why_included: Banned and burned for republicanism and its challenge to established political authority.\n  tags: [rights, revolution, political-philosophy, nonfiction]\n\n- id: the-republic\n  title: The Republic\n  original_title: Politeia\n  author: Plato\n  original_year: -380\n  original_language: Ancient Greek\n  collections: [suppressed-knowledge, original-language]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  translations:\n    - language: English\n      translator: Benjamin Jowett\n      translation_year: 1871\n      quality: serviceable-pd-translation\n      rights_status: public-domain-us\n  description: A dialogue about justice, government, education, censorship, art, and the ideal state.\n  why_included: Often restricted in ideological settings; it is also a crucial source on the logic of censorship itself.\n  tags: [political-philosophy, censorship, education, nonfiction]\n\n- id: propaganda\n  title: Propaganda\n  author: Edward Bernays\n  original_year: 1928\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An early account of organized opinion management, symbols, authority, and mass persuasion.\n  why_included: Helps readers identify techniques that governments and institutions use to shape public belief.\n  tags: [propaganda, media-literacy, psychology, nonfiction]\n\n- id: public-opinion\n  title: Public Opinion\n  author: Walter Lippmann\n  original_year: 1922\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: An examination of stereotypes, media, expertise, and the construction of public belief.\n  why_included: Gives readers tools for recognizing manufactured pictures of reality.\n  tags: [propaganda, media-literacy, psychology, nonfiction]\n\n- id: manual-for-the-solution-of-military-ciphers\n  title: Manual for the Solution of Military Ciphers\n  author: Parker Hitt\n  original_year: 1916\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: public-domain-us\n  catalog_status: candidate\n  description: A systematic historical guide to analyzing substitution and transposition ciphers.\n  why_included: Preserves a practical foundation in private communication and cryptanalysis.\n  tags: [cryptography, communications, mathematics, nonfiction]\n\n- id: elementary-cryptanalysis\n  title: Elementary Cryptanalysis\n  author: Helen Fouché Gaines\n  original_year: 1939\n  original_language: English\n  collections: [suppressed-knowledge]\n  rights_status: copyrighted-link-only\n  catalog_status: link-only\n  description: A substantial reference on solving classical ciphers.\n  why_included: Important historical cryptanalysis reference, but not yet U.S. public domain.\n  tags: [cryptography, communications, mathematics, nonfiction]\n",
+    "tags.yaml": "- authoritarianism\n- censorship\n- coercive-persuasion\n- construction\n- digital-security\n- encryption\n- essential-literature\n- fiction\n- fieldcraft\n- free-expression\n- labor\n- literary-canon\n- navigation\n- nonfiction\n- political-philosophy\n- preparedness\n- propaganda\n- satire\n- survival\n",
+    "published-editions.json": "{\n  \"format_version\": 1,\n  \"editions\": {}\n}\n"
+  }
+}

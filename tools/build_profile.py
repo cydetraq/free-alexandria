@@ -38,10 +38,12 @@ def scalar(value: str):
     return value.strip("'\"")
 
 
-def load_records() -> list[dict]:
+def load_records(paths: list[Path] | None = None, skip: set[str] | None = None) -> list[dict]:
     records: list[dict] = []
-    for path in sorted(CATALOG.glob("*.yaml")):
-        if path.name in SKIP:
+    paths = paths or sorted(CATALOG.glob("*.yaml"))
+    skip = SKIP if skip is None else skip
+    for path in paths:
+        if path.name in skip:
             continue
         current: dict | None = None
         for line in path.read_text().splitlines():

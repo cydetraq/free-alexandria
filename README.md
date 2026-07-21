@@ -33,10 +33,19 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 This initial commit establishes the structure, policy, schema, and seed catalog. It contains no books, manuals, covers, or downloaded content.
 
+## Browse or consume the catalog
+
+The repository is usable as a standalone catalog after cloning—no portal build, online service, or external catalog is required.
+
+- Browse the [readable catalog](docs/catalog.md) on GitHub or offline.
+- Consume the committed [V1 JSON export](catalog/catalog.json) from scripts or other catalog tools.
+- Inspect source records, source repositories, candidate editions, and publication status in [`catalog/`](catalog/).
+
 ## Quick start
 
 ```sh
 python3 tools/validate_catalog.py
+python3 tools/export_catalog.py --check
 python3 tools/build_profile.py profiles/core-v1.json
 ```
 
