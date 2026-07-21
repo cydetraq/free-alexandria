@@ -54,3 +54,103 @@
   description: Improvised shelters and simple structures.
   why_included: Useful historic construction ideas; structural safety must be independently assessed.
   tags: [shelter, construction, fieldcraft, historical-guidance]
+
+- id: emergency-financial-first-aid-kit
+  title: Emergency Financial First Aid Kit
+  publisher: FEMA and Ready.gov
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Forms and guidance for documents, accounts, insurance, and disaster recovery.
+  why_included: Practical household continuity reference that is often overlooked.
+  tags: [emergency-planning, finance, documents, government-guidance]
+
+- id: use-safe-water-during-an-emergency
+  title: Use Safe Water During an Emergency
+  publisher: Centers for Disease Control and Prevention
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Safe water use after contamination or disrupted service.
+  why_included: Current public-health companion to storage and treatment guidance.
+  tags: [water, sanitation, health, government-guidance]
+
+- id: preventing-diarrheal-illness-after-a-disaster
+  title: Preventing Diarrheal Illness After a Disaster
+  publisher: Centers for Disease Control and Prevention
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Disaster sanitation, water, handwashing, and food-safety guidance.
+  why_included: Current health guidance for a high-risk post-disaster problem.
+  tags: [sanitation, health, water, government-guidance]
+
+- id: household-emergency-plan-and-supply-checklists
+  title: Household Emergency Plan and Supply Checklists
+  publisher: Ready.gov
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Family communication, evacuation, and supply-planning forms.
+  why_included: Compact, actionable first-line preparedness material.
+  tags: [emergency-planning, evacuation, household, government-guidance]
+
+- id: wildfire-evacuation-materials
+  title: Wildfire Evacuation Materials
+  publisher: U.S. Fire Administration
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Go-bags, evacuation timing, and wildfire preparation guidance.
+  why_included: Regionally critical planning material for fast-moving hazards.
+  tags: [wildfire, evacuation, emergency-planning, government-guidance]
+
+- id: flood-safety-and-cleanup-guides
+  title: Flood Safety and Cleanup Guides
+  publisher: FEMA and Centers for Disease Control and Prevention
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Flood evacuation, contamination, cleanup, and mold guidance.
+  why_included: High-value, safety-critical disaster recovery reference.
+  tags: [flood, cleanup, health, government-guidance]
+
+- id: power-outage-food-safety-guidance
+  title: Power Outage Food Safety Guidance
+  publisher: United States Department of Agriculture
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Handling refrigerated and frozen food during electrical outages.
+  why_included: Current, actionable guidance that prevents avoidable illness.
+  tags: [food, power-outage, safety-critical, government-guidance]
+
+- id: generator-safety-guidance
+  title: Generator Safety Guidance
+  publisher: Consumer Product Safety Commission and Centers for Disease Control and Prevention
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Carbon monoxide and safe generator-placement guidance.
+  why_included: Critical hazard-prevention material for common emergency equipment.
+  tags: [power, carbon-monoxide, safety-critical, government-guidance]
+
+- id: radiological-emergency-guides
+  title: Radiological Emergency Guides
+  publisher: FEMA, CDC, and EPA
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Official protective actions for radiological emergencies.
+  why_included: Preserve current official guidance rather than historical speculation.
+  tags: [radiological, emergency-planning, safety-critical, government-guidance]
+
+- id: cert-basic-training
+  title: Community Emergency Response Team Basic Training
+  publisher: FEMA CERT
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  description: Disaster preparedness, basic response, organization, and light rescue.
+  why_included: Structured civilian training material for neighborhood-scale resilience.
+  tags: [cert, disaster-response, community, government-guidance]

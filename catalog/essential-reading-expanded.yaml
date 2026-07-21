@@ -1,0 +1,289 @@
+# Important contemporary or jurisdiction-dependent works. This file is a lawful discovery layer,
+# not a local mirror list. Records stay link-only until a particular edition is cleared.
+- id: animal-farm
+  title: Animal Farm
+  author: George Orwell
+  original_year: 1945
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A revolution against human masters turns into a new hierarchy of power.
+  why_included: Essential fable of revolutionary ideals, controlled history, and oligarchy.
+  tags: [authoritarianism, propaganda, fiction, external-link]
+
+- id: brave-new-world
+  title: Brave New World
+  author: Aldous Huxley
+  original_year: 1932
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A technocratic society uses conditioning, pleasure, and managed reproduction for control.
+  why_included: Essential counterpoint to coercive models of authoritarianism.
+  tags: [authoritarianism, propaganda, fiction, external-link]
+
+- id: fahrenheit-451
+  title: Fahrenheit 451
+  author: Ray Bradbury
+  original_year: 1953
+  original_language: English
+  collections: [essential-reading, banned-challenged]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A fireman begins preserving books in a culture organized around their destruction.
+  why_included: Defining modern novel of censorship and anti-intellectualism.
+  tags: [censorship, books, fiction, external-link]
+
+- id: the-handmaids-tale
+  title: The Handmaid's Tale
+  author: Margaret Atwood
+  original_year: 1985
+  original_language: English
+  collections: [essential-reading, banned-challenged]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A woman survives under a theocratic regime that controls reproduction and literacy.
+  why_included: Essential fiction of religious authoritarianism and bodily autonomy.
+  tags: [authoritarianism, religion, gender, external-link]
+
+- id: the-dispossessed
+  title: The Dispossessed
+  author: Ursula K. Le Guin
+  original_year: 1974
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A physicist moves between rival societies organized around scarcity, capitalism, and anarchism.
+  why_included: Nuanced exploration of freedom, bureaucracy, solidarity, and political systems.
+  tags: [politics, anarchism, fiction, external-link]
+
+- id: darkness-at-noon
+  title: Darkness at Noon
+  author: Arthur Koestler
+  original_year: 1940
+  original_language: German
+  collections: [essential-reading, suppressed-knowledge, original-language]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: An old revolutionary is forced through the logic of ideological confession and purge.
+  why_included: Essential novel of totalitarian confession and destruction of conscience.
+  tags: [totalitarianism, politics, fiction, external-link]
+
+- id: origins-of-totalitarianism
+  title: The Origins of Totalitarianism
+  author: Hannah Arendt
+  original_year: 1951
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A study of antisemitism, imperialism, and totalitarian political organization.
+  why_included: Foundational framework for understanding totalitarian systems.
+  tags: [totalitarianism, history, politics, external-link]
+
+- id: the-open-society-and-its-enemies
+  title: The Open Society and Its Enemies
+  author: Karl Popper
+  original_year: 1945
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A philosophical defense of critical inquiry against closed political systems.
+  why_included: Major critique of historicism and authoritarian thought.
+  tags: [political-philosophy, free-expression, external-link]
+
+- id: the-power-of-the-powerless
+  title: The Power of the Powerless
+  author: Václav Havel
+  original_year: 1978
+  original_language: Czech
+  collections: [essential-reading, suppressed-knowledge, original-language]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: An essay on ordinary conformity and dissent under ideological rule.
+  why_included: Practical and humane account of resistance within authoritarian systems.
+  tags: [resistance, authoritarianism, politics, external-link]
+
+- id: the-gulag-archipelago
+  title: The Gulag Archipelago
+  author: Aleksandr Solzhenitsyn
+  original_year: 1973
+  original_language: Russian
+  collections: [essential-reading, suppressed-knowledge, original-language]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Documentary-literary history of Soviet forced labor and political repression.
+  why_included: Landmark testimony about state terror and institutional denial.
+  tags: [prisons, history, totalitarianism, external-link]
+
+- id: seeing-like-a-state
+  title: Seeing Like a State
+  author: James C. Scott
+  original_year: 1998
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: An account of how centralized schemes simplify people and places, often disastrously.
+  why_included: Essential critique of high-modernist administrative power.
+  tags: [state-power, planning, politics, external-link]
+
+- id: on-tyranny
+  title: On Tyranny
+  author: Timothy Snyder
+  original_year: 2017
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Short historical lessons about defending institutions and civic habits.
+  why_included: Accessible starting point for recognizing democratic erosion.
+  tags: [authoritarianism, civics, external-link]
+
+- id: thought-reform-and-the-psychology-of-totalism
+  title: Thought Reform and the Psychology of Totalism
+  author: Robert Jay Lifton
+  original_year: 1961
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A model of ideological re-education and coercive social environments.
+  why_included: Foundational analysis of coercive persuasion.
+  tags: [coercion, propaganda, psychology, external-link]
+
+- id: coercive-persuasion
+  title: Coercive Persuasion
+  author: Edgar H. Schein and colleagues
+  original_year: 1961
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Academic study of forced ideological and behavioral change.
+  why_included: Important companion to practical propaganda and coercion material.
+  tags: [coercion, psychology, propaganda, external-link]
+
+- id: influence-cialdini
+  title: Influence
+  author: Robert Cialdini
+  original_year: 1984
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Popular account of recurring mechanisms of compliance and persuasion.
+  why_included: Useful for recognizing manipulation in ordinary settings.
+  tags: [persuasion, psychology, media-literacy, external-link]
+
+- id: manufacturing-consent
+  title: Manufacturing Consent
+  author: Edward S. Herman and Noam Chomsky
+  original_year: 1988
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A structural model of media filtering and elite influence.
+  why_included: Important framework for evaluating information systems and ownership.
+  tags: [media-literacy, propaganda, politics, external-link]
+
+- id: the-true-believer
+  title: The True Believer
+  author: Eric Hoffer
+  original_year: 1951
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: renewal-review-required
+  catalog_status: link-only
+  description: A study of mass movements and ideological commitment.
+  why_included: Useful historical lens on identity, grievance, and collective belief.
+  tags: [psychology, ideology, politics, external-link]
+
+- id: applied-cryptography
+  title: Applied Cryptography
+  author: Bruce Schneier
+  original_year: 1994
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Broad reference on cryptographic concepts and protocols.
+  why_included: Important historical and conceptual cryptography reference.
+  tags: [cryptography, privacy, security, external-link]
+
+- id: cryptography-engineering
+  title: Cryptography Engineering
+  author: Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno
+  original_year: 2010
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Practical guidance on designing and evaluating cryptographic systems.
+  why_included: Strong bridge from historical ciphers to modern security concepts.
+  tags: [cryptography, security, engineering, external-link]
+
+- id: permanent-record
+  title: Permanent Record
+  author: Edward Snowden
+  original_year: 2019
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Memoir of the modern surveillance state and the decisions behind public disclosure.
+  why_included: First-person account relevant to privacy and state surveillance.
+  tags: [surveillance, privacy, memoir, external-link]
+
+- id: data-and-goliath
+  title: Data and Goliath
+  author: Bruce Schneier
+  original_year: 2015
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: Examination of surveillance by governments and corporations.
+  why_included: Accessible framework for understanding data collection and power.
+  tags: [surveillance, privacy, technology, external-link]
+
+- id: weapons-of-math-destruction
+  title: Weapons of Math Destruction
+  author: Cathy O'Neil
+  original_year: 2016
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: How opaque models can reinforce institutional inequality and error.
+  why_included: Important for understanding automated power and data literacy.
+  tags: [algorithms, statistics, power, external-link]
+
+- id: the-demon-haunted-world
+  title: The Demon-Haunted World
+  author: Carl Sagan
+  original_year: 1995
+  original_language: English
+  collections: [essential-reading, suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A case for scientific skepticism and disciplined inquiry.
+  why_included: Essential companion to propaganda analysis and evidence literacy.
+  tags: [science, skepticism, media-literacy, external-link]
+
+- id: the-satanic-verses
+  title: The Satanic Verses
+  author: Salman Rushdie
+  original_year: 1988
+  original_language: English
+  collections: [essential-reading, banned-challenged]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A novel of migration, faith, identity, and contested religious narrative.
+  why_included: One of the defining modern censorship controversies.
+  tags: [censorship, religion, fiction, external-link]

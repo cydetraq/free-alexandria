@@ -1,0 +1,374 @@
+# Exceptional works retained in their source language when a strong, reusable English edition is
+# not yet established. They remain catalogued for offline translation and future edition review.
+- id: the-metamorphosis
+  title: The Metamorphosis
+  original_title: Die Verwandlung
+  author: Franz Kafka
+  original_year: 1915
+  original_language: German
+  collections: [essential-literature, original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A traveling salesman wakes transformed into an enormous insect.
+  why_included: A defining modern short novel about alienation, family cruelty, and dehumanization.
+  tags: [literary-canon, alienation, family, fiction]
+
+- id: the-castle
+  title: The Castle
+  original_title: Das Schloss
+  author: Franz Kafka
+  original_year: 1926
+  original_language: German
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A land surveyor struggles to obtain recognition from an inaccessible authority.
+  why_included: A major novel of bureaucracy, exclusion, and opaque power.
+  tags: [literary-canon, bureaucracy, authority, fiction]
+
+- id: amerika
+  title: Amerika
+  alternate_title: The Missing Person
+  author: Franz Kafka
+  original_year: 1927
+  original_language: German
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: An unfinished novel of migration, exploitation, absurd institutions, and modern alienation.
+  why_included: Preserves a major Kafka work in its source language pending edition review.
+  tags: [migration, bureaucracy, literary-canon, fiction]
+
+- id: berlin-alexanderplatz
+  title: Berlin Alexanderplatz
+  author: Alfred Döblin
+  original_year: 1929
+  original_language: German
+  collections: [essential-literature, original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A working-class man tries to remake his life in Weimar Berlin.
+  why_included: Landmark city novel banned and burned by the Nazis.
+  tags: [nazism, urban-life, literary-canon, fiction]
+
+- id: the-magic-mountain
+  title: The Magic Mountain
+  original_title: Der Zauberberg
+  author: Thomas Mann
+  original_year: 1924
+  original_language: German
+  collections: [essential-literature, original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A visitor to a Swiss sanatorium encounters competing visions of Europe, illness, time, and politics.
+  why_included: One of the central modernist novels; Mann's works were banned and burned by the Nazis.
+  tags: [literary-canon, politics, modernism, fiction]
+
+- id: siddhartha
+  title: Siddhartha
+  author: Hermann Hesse
+  original_year: 1922
+  original_language: German
+  collections: [essential-literature, original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A young man rejects inherited doctrine and seeks spiritual understanding through experience.
+  why_included: Influential novel of spiritual inquiry, sexuality, renunciation, and religious pluralism.
+  tags: [spirituality, religion, literary-canon, fiction]
+
+- id: steppenwolf
+  title: Steppenwolf
+  author: Hermann Hesse
+  original_year: 1927
+  original_language: German
+  collections: [essential-literature, original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A divided intellectual confronts alienation, sexuality, conformity, and identity.
+  why_included: Challenged for drugs and sexual content; a major novel of modern alienation.
+  tags: [psychology, sexuality, alienation, fiction]
+
+- id: swanns-way
+  title: Swann's Way
+  original_title: Du côté de chez Swann
+  author: Marcel Proust
+  original_year: 1913
+  original_language: French
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: Memory, desire, art, and social life unfold through a narrator's recollections.
+  why_included: Opening volume of a novel cycle routinely placed among the greatest works of modern literature.
+  tags: [memory, modernism, literary-canon, fiction]
+
+- id: the-counterfeiters
+  title: The Counterfeiters
+  original_title: Les Faux-monnayeurs
+  author: André Gide
+  original_year: 1925
+  original_language: French
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A modernist novel about sexuality, authenticity, exploitation, and artistic creation.
+  why_included: Important for its challenge to conventional morality and social authority.
+  tags: [sexuality, modernism, literary-canon, fiction]
+
+- id: the-immoralist
+  title: The Immoralist
+  original_title: L'Immoraliste
+  author: André Gide
+  original_year: 1902
+  original_language: French
+  collections: [original-language, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A man abandons conventional morality after illness and travel.
+  why_included: Historically controversial for sexuality, same-sex desire, colonialism, and rejection of convention.
+  tags: [sexuality, morality, colonialism, fiction]
+
+- id: effi-briest
+  title: Effi Briest
+  author: Theodor Fontane
+  original_year: 1895
+  original_language: German
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A young woman is trapped by marriage, adultery, and coercive social convention.
+  why_included: Major German realist novel about gender, punishment, and social authority.
+  tags: [marriage, gender, literary-canon, fiction]
+
+- id: the-death-of-ivan-ilyich
+  title: The Death of Ivan Ilyich
+  author: Leo Tolstoy
+  original_year: 1886
+  original_language: Russian
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A successful official confronts illness, mortality, and the falseness of his social world.
+  why_included: Canonical novella about death, meaning, and social conformity.
+  tags: [mortality, philosophy, literary-canon, fiction]
+
+- id: hadji-murad
+  title: Hadji Murad
+  author: Leo Tolstoy
+  original_year: 1912
+  original_language: Russian
+  collections: [original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A Caucasian resistance leader is caught between Russian imperial power and local rivalries.
+  why_included: Major anti-imperial and antiwar novella.
+  tags: [war, empire, resistance, fiction]
+
+- id: what-is-to-be-done-chernyshevsky
+  title: What Is to Be Done?
+  author: Nikolai Chernyshevsky
+  original_year: 1863
+  original_language: Russian
+  collections: [original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A politically influential novel of radical education, cooperative life, and social change.
+  why_included: Repeatedly suppressed for revolutionary ideas and clandestine political influence.
+  tags: [revolution, politics, censorship, fiction]
+
+- id: the-mother-gorky
+  title: The Mother
+  author: Maxim Gorky
+  original_year: 1906
+  original_language: Russian
+  collections: [original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A factory worker's mother becomes involved in labor and revolutionary organizing.
+  why_included: Extensively banned, promoted, or controlled according to regime ideology.
+  tags: [labor, revolution, politics, fiction]
+
+- id: resurrection-tolstoy
+  title: Resurrection
+  author: Leo Tolstoy
+  original_year: 1899
+  original_language: Russian
+  collections: [original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A nobleman confronts the harm he caused while following a woman through the Russian legal system.
+  why_included: Critiques courts, prisons, property, church authority, and institutional hypocrisy.
+  tags: [law, prisons, religion, fiction]
+
+- id: kokoro
+  title: Kokoro
+  author: Natsume Sōseki
+  original_year: 1914
+  original_language: Japanese
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A novel of isolation, guilt, modernity, friendship, and suicide.
+  why_included: One of Japan's central modern novels.
+  tags: [japan, psychology, literary-canon, fiction]
+
+- id: i-am-a-cat
+  title: I Am a Cat
+  author: Natsume Sōseki
+  original_year: 1905
+  original_language: Japanese
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A cat satirizes class, education, and intellectual pretension in modernizing Japan.
+  why_included: Canonical social satire with enduring cultural value.
+  tags: [satire, japan, education, fiction]
+
+- id: botchan
+  title: Botchan
+  author: Natsume Sōseki
+  original_year: 1906
+  original_language: Japanese
+  collections: [original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: An impulsive teacher confronts hypocrisy and hierarchy at a provincial school.
+  why_included: Widely read Japanese classic about institutional authority.
+  tags: [japan, education, satire, fiction]
+
+- id: diary-of-a-madman-lu-xun
+  title: Diary of a Madman
+  author: Lu Xun
+  original_year: 1918
+  original_language: Chinese
+  collections: [original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A narrator sees oppressive tradition as a system of cannibalism.
+  why_included: Foundational modern Chinese story attacking conformist social authority.
+  tags: [china, social-criticism, authority, fiction]
+
+- id: the-true-story-of-ah-q
+  title: The True Story of Ah Q
+  author: Lu Xun
+  original_year: 1921
+  original_language: Chinese
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A powerless rural man rationalizes humiliation amid social and political upheaval.
+  why_included: Foundational political and social satire in modern Chinese literature.
+  tags: [china, satire, politics, fiction]
+
+- id: rashomon
+  title: Rashōmon
+  author: Ryūnosuke Akutagawa
+  original_year: 1915
+  original_language: Japanese
+  collections: [original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A servant confronts moral collapse and survival in a ruined Kyoto.
+  why_included: Canonical short story of social disorder and ethical ambiguity.
+  tags: [japan, morality, short-fiction, fiction]
+
+- id: in-a-grove
+  title: In a Grove
+  author: Ryūnosuke Akutagawa
+  original_year: 1922
+  original_language: Japanese
+  collections: [original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: Contradictory testimony makes the truth of a killing impossible to settle.
+  why_included: Influential study of uncertain truth and institutional testimony.
+  tags: [japan, truth, law, short-fiction]
+
+- id: noli-me-tangere
+  title: Noli Me Tangere
+  author: José Rizal
+  original_year: 1887
+  original_language: Spanish
+  collections: [essential-literature, original-language, banned-challenged, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A reform-minded Filipino returns under Spanish colonial rule and confronts clerical abuse and repression.
+  why_included: Banned by Spanish colonial authorities and central to Philippine anticolonial history.
+  tags: [colonialism, censorship, philippines, fiction]
+
+- id: el-filibusterismo
+  title: El Filibusterismo
+  author: José Rizal
+  original_year: 1891
+  original_language: Spanish
+  collections: [original-language, banned-challenged, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A darker sequel confronting colonial power, clerical abuse, and failed reform.
+  why_included: Essential anticolonial fiction once restricted by colonial authorities.
+  tags: [colonialism, resistance, philippines, fiction]
+
+- id: the-underdogs
+  title: The Underdogs
+  original_title: Los de abajo
+  author: Mariano Azuela
+  original_year: 1915
+  original_language: Spanish
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: Fighters and civilians are swept through the Mexican Revolution.
+  why_included: Foundational novel of the Mexican Revolution.
+  tags: [mexico, revolution, war, fiction]
+
+- id: the-vortex
+  title: The Vortex
+  original_title: La vorágine
+  author: José Eustasio Rivera
+  original_year: 1924
+  original_language: Spanish
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: Travelers enter a jungle economy built on rubber extraction, exploitation, and violence.
+  why_included: Major Latin American indictment of colonial and labor abuse.
+  tags: [labor, colonialism, latin-america, fiction]
+
+- id: macunaima
+  title: Macunaíma
+  author: Mário de Andrade
+  original_year: 1928
+  original_language: Portuguese
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: translation-review-required
+  description: A mythic antihero crosses a Brazil of folklore, language play, race, and modernity.
+  why_included: Foundational Brazilian modernist novel with challenging cultural and political themes.
+  tags: [brazil, modernism, identity, fiction]

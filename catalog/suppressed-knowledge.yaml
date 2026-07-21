@@ -144,3 +144,174 @@
   description: A substantial reference on solving classical ciphers.
   why_included: Important historical cryptanalysis reference; a public-domain U.S. source edition has been identified for acquisition review.
   tags: [cryptography, communications, mathematics, nonfiction]
+
+- id: the-federalist-papers
+  title: The Federalist Papers
+  author: Alexander Hamilton, James Madison, and John Jay
+  original_year: 1787
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Essays on divided power, representation, faction, and constitutional government.
+  why_included: A primary-source reference on checks and balances and concentrated authority.
+  tags: [constitutionalism, civics, rights, nonfiction]
+
+- id: the-subjection-of-women
+  title: The Subjection of Women
+  author: John Stuart Mill
+  original_year: 1869
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An argument against the legal and social subordination of women.
+  why_included: Direct challenge to gender hierarchy and coercive custom.
+  tags: [gender, equality, rights, nonfiction]
+
+- id: what-is-property
+  title: What Is Property?
+  original_title: Qu'est-ce que la propriété?
+  author: Pierre-Joseph Proudhon
+  original_year: 1840
+  original_language: French
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A critique of conventional property rights and their relationship to power.
+  why_included: Politically controversial challenge to ownership, hierarchy, and the state.
+  tags: [economics, property, politics, nonfiction]
+
+- id: capital-volume-i
+  title: Capital, Volume I
+  author: Karl Marx
+  original_year: 1867
+  original_language: German
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: A critique of capital, labor, ownership, exploitation, and class domination.
+  why_included: Repeatedly banned or restricted under anticommunist and authoritarian governments.
+  tags: [economics, labor, politics, nonfiction]
+
+- id: democracy-in-america
+  title: Democracy in America
+  author: Alexis de Tocqueville
+  original_year: 1835
+  original_language: French
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An examination of democracy, civic associations, conformity, majority power, and soft despotism.
+  why_included: Major analysis of democratic strengths and vulnerabilities.
+  tags: [democracy, civics, politics, nonfiction]
+
+- id: the-age-of-reason
+  title: The Age of Reason
+  author: Thomas Paine
+  original_year: 1794
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A critique of revealed religion and scriptural authority.
+  why_included: Essential freethought text frequently condemned for its challenge to religious power.
+  tags: [freethought, religion, skepticism, nonfiction]
+
+- id: dialogues-concerning-natural-religion
+  title: Dialogues Concerning Natural Religion
+  author: David Hume
+  original_year: 1779
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Philosophical dialogue examining arguments about God, design, and religious belief.
+  why_included: Durable model of rigorous skepticism about religious authority.
+  tags: [freethought, religion, philosophy, nonfiction]
+
+- id: the-life-of-jesus-critically-examined
+  title: The Life of Jesus Critically Examined
+  author: David Friedrich Strauss
+  original_year: 1835
+  original_language: German
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  english_availability: edition-review-required
+  description: Historical criticism of Gospel narratives and their interpretation.
+  why_included: Significant challenge to orthodox scriptural authority.
+  tags: [religion, historical-criticism, freethought, nonfiction]
+
+- id: the-essence-of-christianity
+  title: The Essence of Christianity
+  author: Ludwig Feuerbach
+  original_year: 1841
+  original_language: German
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Interprets religion as a projection of human qualities and needs.
+  why_included: Influential critique of theological authority and religious anthropology.
+  tags: [religion, philosophy, freethought, nonfiction]
+
+- id: why-i-am-an-agnostic
+  title: Why I Am an Agnostic
+  author: Robert G. Ingersoll
+  original_year: 1896
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An accessible defense of agnosticism and intellectual freedom.
+  why_included: Representative American freethought writing challenging clerical authority.
+  tags: [agnosticism, freethought, religion, nonfiction]
+
+- id: the-psychology-of-suggestion
+  title: The Psychology of Suggestion
+  author: Boris Sidis
+  original_year: 1898
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Early study of suggestibility, imitation, hypnosis, and mental influence.
+  why_included: Historical context for propaganda, persuasion, and coercive environments.
+  tags: [psychology, persuasion, propaganda, historical-guidance]
+
+- id: the-crowd
+  title: The Crowd
+  author: Gustave Le Bon
+  original_year: 1895
+  original_language: French
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An influential early account of crowd psychology, leadership, and collective belief.
+  why_included: Useful historically for recognizing theories used to influence mass audiences.
+  tags: [psychology, propaganda, history, historical-guidance]
+
+- id: instincts-of-the-herd-in-peace-and-war
+  title: Instincts of the Herd in Peace and War
+  author: Wilfred Trotter
+  original_year: 1916
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A study of conformity, group identity, and social pressure.
+  why_included: Helps frame herd behavior and ideological belonging.
+  tags: [psychology, conformity, propaganda, nonfiction]
+
+- id: index-librorum-prohibitorum
+  title: Index Librorum Prohibitorum
+  publisher: Catholic Church
+  original_year: 1564
+  original_language: Latin
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Historical lists of publications prohibited by ecclesiastical authority.
+  why_included: Primary evidence of a long-running institutional censorship system.
+  tags: [censorship, religion, history, primary-source]

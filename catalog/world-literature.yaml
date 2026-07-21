@@ -1,0 +1,352 @@
+# Broad canon and censorship inventory. Each pre-1931 label refers to the underlying work;
+# a particular English translation or scan still needs edition-specific review.
+- id: madame-bovary
+  title: Madame Bovary
+  author: Gustave Flaubert
+  original_year: 1857
+  original_language: French
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A provincial woman seeks escape from marriage and convention through romance, consumption, and fantasy.
+  why_included: Flaubert was prosecuted for obscenity and offenses against public morality.
+  tags: [literary-canon, sexuality, censorship, fiction]
+
+- id: crime-and-punishment
+  title: Crime and Punishment
+  original_title: Prestupleniye i nakazaniye
+  author: Fyodor Dostoevsky
+  original_year: 1866
+  original_language: Russian
+  collections: [banned-challenged, essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An impoverished student commits murder while testing whether he stands beyond ordinary morality.
+  why_included: A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy.
+  tags: [literary-canon, crime, philosophy, fiction]
+
+- id: anna-karenina
+  title: Anna Karenina
+  author: Leo Tolstoy
+  original_year: 1877
+  original_language: Russian
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Interlocking stories of marriage, adultery, family, faith, and social judgment in imperial Russia.
+  why_included: Frequently ranked among the greatest novels and controversial for sexuality, suicide, religion, and social convention.
+  tags: [literary-canon, marriage, religion, fiction]
+
+- id: war-and-peace
+  title: War and Peace
+  author: Leo Tolstoy
+  original_year: 1869
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Families experience love, war, social upheaval, and historical change during the Napoleonic invasion of Russia.
+  why_included: A perennial top-ranked novel with political, religious, pacifist, and historical significance.
+  tags: [literary-canon, war, history, fiction]
+
+- id: the-brothers-karamazov
+  title: The Brothers Karamazov
+  author: Fyodor Dostoevsky
+  original_year: 1880
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.
+  why_included: Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications.
+  tags: [literary-canon, religion, philosophy, fiction]
+
+- id: les-miserables
+  title: Les Misérables
+  author: Victor Hugo
+  original_year: 1862
+  original_language: French
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An ex-convict's pursuit of redemption unfolds amid poverty, revolution, law, and social injustice.
+  why_included: Restricted or condemned for revolutionary politics, anticlericalism, and criticism of social institutions.
+  tags: [literary-canon, law, revolution, fiction]
+
+- id: the-divine-comedy
+  title: The Divine Comedy
+  author: Dante Alighieri
+  original_year: 1321
+  original_language: Italian
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A journey through Hell, Purgatory, and Paradise combining theology, politics, poetry, and personal judgment.
+  why_included: A foundational work subject to religious objection, bowdlerization, and political controversy.
+  tags: [literary-canon, poetry, religion, politics]
+
+- id: the-iliad
+  title: The Iliad
+  author: Homer
+  original_year: -750
+  original_language: Ancient Greek
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An epic of rage, honor, mortality, and warfare during the Trojan War.
+  why_included: Foundational literature challenged for violence, sexuality, pagan religion, and classroom suitability.
+  tags: [literary-canon, epic, war, poetry]
+
+- id: the-odyssey
+  title: The Odyssey
+  author: Homer
+  original_year: -700
+  original_language: Ancient Greek
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Odysseus struggles to return home through war, temptation, monsters, and divine interference.
+  why_included: Enduring canonical work challenged for violence, sexuality, paganism, and depictions of slavery.
+  tags: [literary-canon, epic, travel, poetry]
+
+- id: fathers-and-sons
+  title: Fathers and Sons
+  author: Ivan Turgenev
+  original_year: 1862
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A young nihilist confronts family, tradition, love, and the limits of radical detachment.
+  why_included: Politically controversial for nihilism, generational rebellion, and revolutionary associations.
+  tags: [politics, family, literary-canon, fiction]
+
+- id: dead-souls
+  title: Dead Souls
+  author: Nikolai Gogol
+  original_year: 1842
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A confidence man purchases the legal identities of dead serfs in a satire of bureaucracy and corruption.
+  why_included: Censored before publication and later politically managed for its attacks on Russian society.
+  tags: [satire, bureaucracy, serfdom, fiction]
+
+- id: notes-from-underground
+  title: Notes from Underground
+  author: Fyodor Dostoevsky
+  original_year: 1864
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An isolated narrator attacks rational utopianism while exposing resentment and self-destruction.
+  why_included: A foundational existential work with political, religious, and anti-utopian significance.
+  tags: [philosophy, psychology, politics, fiction]
+
+- id: demons
+  title: Demons
+  original_title: Besy
+  author: Fyodor Dostoevsky
+  original_year: 1872
+  original_language: Russian
+  collections: [essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Political radicals, manipulators, and idealists become entangled in conspiracy and murder.
+  why_included: Important for revolutionary politics, terrorism, atheism, religion, and extremism.
+  tags: [politics, extremism, religion, fiction]
+
+- id: the-sorrows-of-young-werther
+  title: The Sorrows of Young Werther
+  author: Johann Wolfgang von Goethe
+  original_year: 1774
+  original_language: German
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A sensitive young man becomes consumed by impossible love and despair.
+  why_included: Banned in several places amid fears that its treatment of suicide would encourage imitation.
+  tags: [suicide, romance, literary-canon, fiction]
+
+- id: dangerous-liaisons
+  title: Dangerous Liaisons
+  author: Pierre Choderlos de Laclos
+  original_year: 1782
+  original_language: French
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Aristocratic libertines manipulate lovers and rivals through seduction and correspondence.
+  why_included: Repeatedly restricted for sexual exploitation, adultery, and moral corruption.
+  tags: [sexuality, letters, aristocracy, fiction]
+
+- id: tartuffe
+  title: Tartuffe
+  author: Molière
+  original_year: 1664
+  original_language: French
+  collections: [banned-challenged, essential-literature, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A religious impostor gains control over a wealthy household through false piety.
+  why_included: Banned from public performance after religious authorities objected to its attack on hypocrisy.
+  tags: [religion, satire, theater, censorship]
+
+- id: emile
+  title: Émile, or On Education
+  author: Jean-Jacques Rousseau
+  original_year: 1762
+  original_language: French
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A philosophical account of education, human development, nature, society, and belief.
+  why_included: Burned and banned for its religious arguments and challenge to established authority.
+  tags: [education, religion, political-philosophy, nonfiction]
+
+- id: the-theological-political-treatise
+  title: Theological-Political Treatise
+  author: Baruch Spinoza
+  original_year: 1670
+  original_language: Latin
+  collections: [suppressed-knowledge, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: An argument for freedom of thought, historical reading of scripture, and limits on religious authority.
+  why_included: Formally banned and denounced for biblical criticism and defense of free expression.
+  tags: [free-expression, religion, philosophy, censorship]
+
+- id: the-count-of-monte-cristo
+  title: The Count of Monte Cristo
+  author: Alexandre Dumas
+  original_year: 1844
+  original_language: French
+  collections: [banned-challenged, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A falsely imprisoned man acquires wealth and remakes himself as an instrument of revenge.
+  why_included: Frequently abridged or sanitized for violence, sexuality, drugs, suicide, and political material.
+  tags: [revenge, adventure, literary-canon, fiction]
+
+- id: the-three-musketeers
+  title: The Three Musketeers
+  author: Alexandre Dumas
+  original_year: 1844
+  original_language: French
+  collections: [essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Four companions navigate warfare, court politics, romance, betrayal, and intrigue.
+  why_included: Often abridged for sexuality, adultery, violence, and political intrigue.
+  tags: [adventure, politics, friendship, fiction]
+
+- id: middlemarch
+  title: Middlemarch
+  author: George Eliot
+  original_year: 1871
+  original_language: English
+  collections: [essential-literature, banned-challenged]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Interconnected lives expose ambition, marriage, medicine, politics, money, and social limitation.
+  why_included: Major English novel criticized for adultery, religious doubt, gender roles, and social criticism.
+  tags: [literary-canon, marriage, religion, fiction]
+
+- id: germinal
+  title: Germinal
+  author: Émile Zola
+  original_year: 1885
+  original_language: French
+  collections: [banned-challenged, original-language, suppressed-knowledge]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Coal miners confront exploitation, hunger, political division, and violent labor conflict.
+  why_included: Restricted for socialism, labor militancy, sexuality, violence, and attacks on industrial capitalism.
+  tags: [labor, socialism, class, fiction]
+
+- id: the-kreutzer-sonata
+  title: The Kreutzer Sonata
+  author: Leo Tolstoy
+  original_year: 1890
+  original_language: Russian
+  collections: [banned-challenged, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A jealous husband recounts a marriage destroyed by sexuality, resentment, and murder.
+  why_included: Banned in Russia and acted against by U.S. postal authorities as allegedly obscene.
+  tags: [marriage, sexuality, censorship, fiction]
+
+- id: tess-of-the-durbervilles
+  title: Tess of the d'Urbervilles
+  author: Thomas Hardy
+  original_year: 1891
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A rural woman suffers exploitation and punishment under class and sexual double standards.
+  why_included: Censored by publishers for rape, sexuality, illegitimacy, religion, and criticism of Victorian morality.
+  tags: [gender, class, religion, fiction]
+
+- id: jude-the-obscure
+  title: Jude the Obscure
+  author: Thomas Hardy
+  original_year: 1895
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A working-class scholar's ambitions and unconventional relationship collide with marriage law and social judgment.
+  why_included: Denounced and burned for sexuality, religion, marriage, suicide, and social criticism.
+  tags: [class, marriage, religion, fiction]
+
+- id: dracula
+  title: Dracula
+  author: Bram Stoker
+  original_year: 1897
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A group confronts an invasive vampire whose power mixes sexuality, blood, disease, and supernatural terror.
+  why_included: Challenged for sexuality, violence, occult material, blood, and religious objections.
+  tags: [gothic, horror, sexuality, fiction]
+
+- id: the-turn-of-the-screw
+  title: The Turn of the Screw
+  author: Henry James
+  original_year: 1898
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A governess believes two children are influenced by ghosts, though her reliability remains uncertain.
+  why_included: Challenged for sexuality, child endangerment, psychological disturbance, and supernatural content.
+  tags: [gothic, psychology, horror, fiction]
+
+- id: the-age-of-innocence
+  title: The Age of Innocence
+  author: Edith Wharton
+  original_year: 1920
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: Desire and duty conflict within elite nineteenth-century New York society.
+  why_included: Challenged for adultery, sexuality, and criticism of marriage and social conformity.
+  tags: [marriage, class, literary-canon, fiction]
+
+- id: we
+  title: We
+  original_title: My
+  author: Yevgeny Zamyatin
+  original_year: 1921
+  original_language: Russian
+  collections: [suppressed-knowledge, essential-literature, original-language]
+  rights_status: pre-1931-work-candidate
+  catalog_status: candidate
+  description: A mathematician in a totalitarian glass city develops imagination, desire, and rebellion.
+  why_included: Banned in the Soviet Union and foundational to dystopian fiction.
+  tags: [authoritarianism, dystopia, surveillance, fiction]

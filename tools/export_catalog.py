@@ -58,9 +58,9 @@ def render_markdown(records: list[dict]) -> str:
         "",
         "This is a committed, readable snapshot of the current Free Alexandria metadata catalog. It is useful offline after cloning the repository; it does not imply that every listed work has a locally mirrored file yet.",
         "",
-        f"**Records:** {len(records)}  ",
-        "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)  ",
-        "**Source registry:** [`catalog/sources.yaml`](../catalog/sources.yaml)  ",
+        f"**Records:** {len(records)}<br>",
+        "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>",
+        "**Source registry:** [`catalog/sources.yaml`](../catalog/sources.yaml)<br>",
         "**Edition acquisition queue:** [`catalog/edition-queue.yaml`](../catalog/edition-queue.yaml)",
         "",
     ]

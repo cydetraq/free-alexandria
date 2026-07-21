@@ -8,3 +8,52 @@
   description: Current guidance on threat modeling, private communications, metadata, and device security.
   snapshot_policy: Store review date, source URL, attribution, license text, and an unchanged snapshot where permitted.
   tags: [privacy, digital-security, encryption, censorship-circumvention]
+
+- id: free-culture
+  title: Free Culture
+  author: Lawrence Lessig
+  original_year: 2004
+  original_language: English
+  collections: [open-distribution, suppressed-knowledge]
+  rights_status: open-license-review-required
+  catalog_status: candidate
+  description: Argument about copyright, technology, creativity, and the commons.
+  why_included: Directly relevant to preserving and sharing culture lawfully.
+  tags: [copyright, free-culture, technology, nonfiction]
+
+- id: content-selected-essays
+  title: Content
+  subtitle: Selected Essays on Technology, Creativity, Copyright, and the Future of the Future
+  author: Cory Doctorow
+  original_year: 2008
+  original_language: English
+  collections: [open-distribution, suppressed-knowledge]
+  rights_status: open-license-review-required
+  catalog_status: candidate
+  description: Essays on digital rights, creativity, copyright, and technological control.
+  why_included: Strong companion to the archive's free-knowledge mission.
+  tags: [copyright, technology, free-culture, nonfiction]
+
+- id: down-and-out-in-the-magic-kingdom
+  title: Down and Out in the Magic Kingdom
+  author: Cory Doctorow
+  original_year: 2003
+  original_language: English
+  collections: [open-distribution, essential-reading]
+  rights_status: open-license-review-required
+  catalog_status: candidate
+  description: Novel of reputation systems, technological control, identity, and cultural ownership.
+  why_included: Candidate author-released edition; verify attached license before mirroring.
+  tags: [technology, identity, fiction, license-review]
+
+- id: cryptoparty-handbook
+  title: CryptoParty Handbook
+  publisher: CryptoParty contributors
+  original_year: 2012
+  original_language: English
+  collections: [open-distribution, suppressed-knowledge]
+  rights_status: open-license-review-required
+  catalog_status: candidate
+  description: Introductory computer and internet security guidance.
+  why_included: Potentially useful offline privacy reference; license and technical currency both require review.
+  tags: [privacy, digital-security, encryption, license-review]

@@ -26,3 +26,145 @@
   distribution_status: verify-edition
   civilian_relevance: Rope, knots, slings, hoists, anchors, and mechanical advantage.
   tags: [knots, rigging, construction, fieldcraft]
+
+- id: fm-4-25-11-first-aid
+  title: First Aid
+  publication_number: FM 4-25.11
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Bleeding, shock, wounds, fractures, burns, and environmental injuries.
+  safety_note: Pair with current civilian first-aid guidance and local emergency protocols.
+  tags: [first-aid, health, safety-critical]
+
+- id: fm-21-10-field-hygiene-and-sanitation
+  title: Field Hygiene and Sanitation
+  publication_number: FM 21-10
+  publisher: United States Army
+  recommended_edition: 1957 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Waste disposal, camp hygiene, water, food sanitation, and disease prevention.
+  safety_note: Historical; current public-health recommendations take precedence.
+  tags: [sanitation, water, health, historical-guidance]
+
+- id: fm-21-11-first-aid-for-soldiers
+  title: First Aid for Soldiers
+  publication_number: FM 21-11
+  publisher: United States Army
+  recommended_edition: 1943 or 1954 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Compact historical first-aid reference.
+  safety_note: Historical; do not use as a substitute for current medical guidance.
+  tags: [first-aid, health, historical-guidance]
+
+- id: fm-21-26-map-reading
+  title: Map Reading
+  publication_number: FM 21-26
+  publisher: United States Army
+  recommended_edition: 1960 or 1965 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Straightforward map-reading instruction.
+  tags: [navigation, maps, historical-guidance]
+
+- id: fm-21-22-survival-at-sea
+  title: Survival at Sea
+  publication_number: FM 21-22
+  publisher: United States Army
+  recommended_edition: 1950 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Flotation, exposure, water, signaling, and small-craft survival.
+  safety_note: Equipment information is historical.
+  tags: [water, survival, signaling, historical-guidance]
+
+- id: fm-21-15-clothing-and-equipment
+  title: Care and Use of Individual Clothing and Equipment
+  publication_number: FM 21-15
+  publisher: United States Army
+  recommended_edition: 1961 or 1966 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Clothing maintenance, load organization, weather protection, and field equipment.
+  tags: [equipment, clothing, fieldcraft, historical-guidance]
+
+- id: fm-21-17-evasion-and-escape
+  title: Evasion and Escape
+  publication_number: FM 21-17
+  publisher: United States Army
+  recommended_edition: 1965 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Concealment, movement, navigation, and improvised survival.
+  safety_note: Civilian relevance is secondary; retain as historical fieldcraft.
+  tags: [navigation, survival, historical-guidance]
+
+- id: fm-5-34-engineer-field-data
+  title: Engineer Field Data
+  publication_number: FM 5-34
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Construction tables, materials, measurements, and engineering data.
+  tags: [construction, engineering, repair]
+
+- id: fm-5-426-carpentry
+  title: Carpentry
+  publication_number: FM 5-426
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Tools, framing, roofing, and field construction.
+  tags: [carpentry, construction, repair]
+
+- id: fm-5-428-concrete-and-masonry
+  title: Concrete and Masonry
+  publication_number: FM 5-428
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Basic concrete, masonry, and structural repair.
+  tags: [construction, masonry, repair]
+
+- id: fm-21-75-survival
+  title: Survival
+  publication_number: FM 21-75
+  publisher: United States Army
+  recommended_edition: October 1957 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: General field survival and individual fieldcraft.
+  safety_note: Historical equipment and health advice require context.
+  tags: [survival, fieldcraft, historical-guidance]
+
+- id: fm-21-40-cbrn-defense
+  title: Chemical, Biological, and Nuclear Defense
+  publication_number: FM 21-40
+  publisher: United States Army
+  recommended_edition: 1966 historical edition.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Historical recognition and protective principles.
+  safety_note: Preserve only alongside current official CBRN guidance.
+  tags: [cbrn, safety-critical, historical-guidance]
+
+- id: tc-3-21-76-ranger-handbook
+  title: Ranger Handbook
+  publication_number: TC 3-21.76
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Navigation, knots, fieldcraft, communications, and planning.
+  safety_note: Selectively civilian-relevant; do not treat as general medical authority.
+  tags: [navigation, fieldcraft, knots, communications]
+
+- id: atp-4-44-water-support-operations
+  title: Water Support Operations
+  publication_number: ATP 4-44
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Water logistics and support operations.
+  tags: [water, logistics, infrastructure]
