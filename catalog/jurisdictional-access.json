@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "jurisdictions": {
+    "US": {
+      "name": "United States",
+      "default_policy": "Use only locally verified editions in published-editions.json."
+    },
+    "CA": {
+      "name": "Canada",
+      "default_policy": "Confirm that an edition is lawful for use in Canada before downloading or redistributing it."
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "default_policy": "Confirm the particular edition contains no protected additions before downloading or redistributing it."
+    },
+    "MX": {
+      "name": "Mexico",
+      "default_policy": "Confirm the applicable Mexican term and the edition's rights before downloading or redistributing it."
+    }
+  },
+  "access": [
+    {
+      "work_id": "nineteen-eighty-four",
+      "jurisdictions": {
+        "US": {
+          "status": "copyrighted-link-only",
+          "note": "Renewal registration R641953; no local U.S. mirror before 2045 without permission."
+        },
+        "CA": {
+          "status": "public-domain-source-available",
+          "source_name": "Project Gutenberg Canada",
+          "source_url": "https://gutenberg.ca/ebooks/orwellg-nineteeneightyfour/orwellg-nineteeneightyfour-00-e.html",
+          "source_item_id": "PGC-949",
+          "note": "The source identifies the work as Canadian public domain and directs users outside Canada to check their own law."
+        },
+        "GB": {
+          "status": "public-domain-review-required",
+          "term_basis": "Known-author literary works generally run for 70 years after the author's death; Orwell died in 1950.",
+          "note": "Use a source and edition cleared for UK distribution; do not assume a Canadian host's terms apply in the UK."
+        },
+        "MX": {
+          "status": "likely-copyrighted",
+          "term_basis": "Mexico's general term is the author's life plus 100 years.",
+          "note": "Do not add a local mirror without a specific Mexican rights review or permission."
+        }
+      }
+    }
+  ]
+}

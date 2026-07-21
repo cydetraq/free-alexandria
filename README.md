@@ -42,6 +42,7 @@ The repository is usable as a standalone catalog after cloning—no portal build
 - Browse the [readable catalog](docs/catalog.md) on GitHub or offline.
 - Consume the committed [V1 JSON export](catalog/catalog.json) from scripts or other catalog tools.
 - Inspect source records, source repositories, candidate editions, and publication status in [`catalog/`](catalog/).
+- Generate jurisdictional acquisition plans with the guidance in [docs/jurisdictional-access.md](docs/jurisdictional-access.md).
 
 ## Quick start
 

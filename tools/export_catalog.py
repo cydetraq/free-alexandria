@@ -28,6 +28,7 @@ def render_api() -> str:
         "sources": sorted(load_records([CATALOG / "sources.yaml"], skip=set()), key=lambda item: item["id"]),
         "edition_queue": sorted(load_records([CATALOG / "edition-queue.yaml"], skip=set()), key=lambda item: item["id"]),
         "published_editions": json.loads((CATALOG / "published-editions.json").read_text()),
+        "jurisdictional_access": json.loads((CATALOG / "jurisdictional-access.json").read_text()),
         "source_documents": source_documents,
     }
     return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
