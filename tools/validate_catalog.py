@@ -11,7 +11,7 @@ CATALOG = ROOT / "catalog"
 ID = re.compile(r"^- id: ([a-z0-9]+(?:-[a-z0-9]+)*)$")
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--strict", action="store_true", help="also verify the complete committed local-edition registry")
+parser.add_argument("--strict", action="store_true", help="also verify release-critical registries and editorial invariants")
 args = parser.parse_args()
 
 errors = []
@@ -34,5 +34,13 @@ if errors:
     print("Catalog validation failed:", *errors, sep="\n")
     sys.exit(1)
 print(f"Catalog validation passed: {len(seen)} records with unique IDs.")
+
 if args.strict:
-    raise SystemExit(subprocess.run([sys.executable, str(ROOT / "tools" / "lint_sources.py")], cwd=ROOT).returncode)
+    checks = [
+        ROOT / "tools" / "validate_curated_reading.py",
+        ROOT / "tools" / "lint_sources.py",
+    ]
+    for check in checks:
+        result = subprocess.run([sys.executable, str(check)], cwd=ROOT)
+        if result.returncode:
+            raise SystemExit(result.returncode)
