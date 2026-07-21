@@ -34,6 +34,26 @@ python3 tools/acquire_project_gutenberg.py --all-identified --acquire
 
 The importer writes a human-readable edition directory, a canonical Gutenberg EPUB, a searchable PDF derived from Gutenberg's UTF-8 text, and a sibling `provenance.json` that records source URLs, the retrieval time, hashes, and byte counts. It never publishes files to Git or silently changes `published-editions.json`. The source and rights notes are evidence for the operator, not a repository-wide authorization.
 
+## Populate a personal archive from a selection
+
+Export a selection from the catalog portal, then use the population tool to resolve the selected titles against exact Project Gutenberg results:
+
+```sh
+python3 tools/populate_from_gutenberg.py free-alexandria-selection.json
+python3 tools/populate_from_gutenberg.py free-alexandria-selection.json --acquire
+```
+
+Plan mode prints every exact edition it found and explicitly skips only ambiguous or unmatched records. Acquisition mode creates EPUB/PDF/provenance directories and writes `catalog/local-editions.json` for the archive owner's private build. It never silently substitutes a near-title match or makes a jurisdictional decision for the operator.
+
+Turn the populated local registry into an actual static distribution:
+
+```sh
+python3 tools/create_profile_from_registry.py --registry catalog/local-editions.json --output profiles/local/my-archive.json
+python3 tools/build_profile.py profiles/local/my-archive.json --edition-registry catalog/local-editions.json
+```
+
+The resulting `dist/local-archive/` directory contains the portal and every locally populated EPUB/PDF selected by that registry.
+
 ## Do not acquire
 
 - Restricted or authentication-only government publications.

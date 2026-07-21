@@ -19,3 +19,6 @@ search-index.json
 .venv/
 __pycache__/
 .DS_Store
+
+# Personal archive state created by the population tools
+catalog/local-editions.json

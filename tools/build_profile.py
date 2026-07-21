@@ -65,33 +65,40 @@ def load_records(paths: list[Path] | None = None, skip: set[str] | None = None) 
 
 
 def load_source_options() -> dict[str, list[dict]]:
-    """Read exact, edition-level source URLs from the acquisition queue.
+    """Read exact edition-level source URLs resolved into catalog data."""
+    path = CATALOG / "resolved-sources.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text())
+    return {
+        work_id: [
+            {"label": option["label"], "url": option["source_url"], "edition_id": option["source_item_id"]}
+            for option in entry.get("source_options", [])
+        ]
+        for work_id, entry in data.get("records", {}).items()
+    }
 
-    This deliberately emits no guessed search links: a portal card receives a source
-    action only when the catalog has an explicit source URL for that work.
-    """
-    queue = CATALOG / "edition-queue.yaml"
-    options: dict[str, list[dict]] = {}
-    current: dict | None = None
-    for raw in queue.read_text().splitlines():
-        if raw.startswith("- id: "):
-            if current and current.get("work_id") and current.get("source_url"):
-                options.setdefault(current["work_id"], []).append({
-                    "label": current.get("source_id", "source").replace("-", " ").title(),
-                    "url": current["source_url"],
-                    "edition_id": current["id"],
-                })
-            current = {"id": raw.split(": ", 1)[1]}
-        elif current is not None and raw.startswith("  ") and not raw.startswith("    ") and ": " in raw:
-            key, value = raw.strip().split(": ", 1)
-            current[key] = value.strip("'\"")
-    if current and current.get("work_id") and current.get("source_url"):
-        options.setdefault(current["work_id"], []).append({
-            "label": current.get("source_id", "source").replace("-", " ").title(),
-            "url": current["source_url"],
-            "edition_id": current["id"],
-        })
-    return options
+
+def rights_guidance(record: dict, options: list[dict]) -> dict:
+    """Reader-facing evidence signals; these are intentionally not legal conclusions."""
+    year = record.get("original_year")
+    language = record.get("original_language")
+    notes = []
+    if options:
+        notes.append("An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.")
+    if isinstance(year, int) and year <= 1930 and language == "English":
+        signal = "strong-us-public-domain-signal"
+        notes.append("The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ.")
+    elif isinstance(year, int) and 1931 <= year <= 1963:
+        signal = "us-renewal-research-needed"
+        notes.append("For U.S. use, publication and renewal facts for the specific work and edition can matter.")
+    elif language and language != "English":
+        signal = "translation-and-jurisdiction-review-needed"
+        notes.append("The original work and any English translation are separate editions; jurisdiction and translator details matter.")
+    else:
+        signal = "edition-and-jurisdiction-review-needed"
+        notes.append("Use the recorded edition and source facts to assess your own intended use.")
+    return {"not_a_legal_ruling": True, "signal": signal, "evidence_notes": notes, "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"}
 
 
 def revision() -> str:
@@ -128,8 +135,8 @@ def digest(path: Path) -> str:
     return hasher.hexdigest()
 
 
-def resolve_editions(profile: dict, records: list[dict]) -> dict[str, dict]:
-    registry = json.loads((CATALOG / "published-editions.json").read_text()).get("editions", {})
+def resolve_editions(profile: dict, records: list[dict], registry_path: Path = CATALOG / "published-editions.json") -> dict[str, dict]:
+    registry = json.loads(registry_path.read_text()).get("editions", {})
     preferences = profile.get("language_preferences", [])
     resolved: dict[str, dict] = {}
     missing: list[str] = []
@@ -168,13 +175,14 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("profile", type=Path)
     parser.add_argument("--output", type=Path, default=ROOT / "dist")
+    parser.add_argument("--edition-registry", type=Path, default=CATALOG / "published-editions.json", help="Edition registry for a private distribution build")
     args = parser.parse_args()
 
     profile = json.loads(args.profile.read_text())
     records = select(profile, load_records())
     source_options = load_source_options()
-    records = [{**record, "source_options": source_options.get(record["id"], [])} for record in records]
-    editions = resolve_editions(profile, records) if profile["build_mode"] == "distribution" else {}
+    records = [{**record, "source_options": source_options.get(record["id"], []), "rights_guidance": rights_guidance(record, source_options.get(record["id"], []))} for record in records]
+    editions = resolve_editions(profile, records, args.edition_registry) if profile["build_mode"] == "distribution" else {}
     output = args.output / profile["id"]
     if output.exists():
         raise FileExistsError(

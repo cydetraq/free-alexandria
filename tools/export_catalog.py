@@ -8,10 +8,37 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, load_records
+from build_profile import CATALOG, ROOT, load_records, load_source_options
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
+
+
+def rights_guidance(record: dict, options: list[dict]) -> dict:
+    """Evidence-oriented guidance, never a legal conclusion or permission grant."""
+    year = record.get("original_year")
+    language = record.get("original_language")
+    notes: list[str] = []
+    if options:
+        notes.append("An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.")
+    if isinstance(year, int) and year <= 1930 and language == "English":
+        signal = "strong-us-public-domain-signal"
+        notes.append("The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ.")
+    elif isinstance(year, int) and 1931 <= year <= 1963:
+        signal = "us-renewal-research-needed"
+        notes.append("For U.S. use, publication and renewal facts for the specific work and edition can matter.")
+    elif language and language != "English":
+        signal = "translation-and-jurisdiction-review-needed"
+        notes.append("The original work and any English translation are separate editions; jurisdiction and translator details matter.")
+    else:
+        signal = "edition-and-jurisdiction-review-needed"
+        notes.append("Use the recorded edition and source facts to assess your own intended use.")
+    return {
+        "not_a_legal_ruling": True,
+        "signal": signal,
+        "evidence_notes": notes,
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+    }
 
 
 def render_api() -> str:
@@ -20,11 +47,21 @@ def render_api() -> str:
         for path in sorted(CATALOG.glob("*.yaml"))
     }
     source_documents["published-editions.json"] = (CATALOG / "published-editions.json").read_text()
+    source_documents["resolved-sources.json"] = (CATALOG / "resolved-sources.json").read_text()
+    source_options = load_source_options()
+    records = [
+        {
+            **record,
+            "source_options": source_options.get(record["id"], []),
+            "rights_guidance": rights_guidance(record, source_options.get(record["id"], [])),
+        }
+        for record in load_records()
+    ]
     payload = {
         "format_version": 1,
         "offline_notice": "This file is a complete metadata snapshot. It has no runtime dependency on external catalogs or URLs.",
         "normalized_records_notice": "The records field is a convenient V1 index. source_documents retains the complete, authoritative source text, including nested translation and acquisition details.",
-        "records": sorted(load_records(), key=lambda item: item["id"]),
+        "records": sorted(records, key=lambda item: item["id"]),
         "sources": sorted(load_records([CATALOG / "sources.yaml"], skip=set()), key=lambda item: item["id"]),
         "edition_queue": sorted(load_records([CATALOG / "edition-queue.yaml"], skip=set()), key=lambda item: item["id"]),
         "published_editions": json.loads((CATALOG / "published-editions.json").read_text()),

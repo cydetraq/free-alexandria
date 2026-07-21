@@ -14,6 +14,7 @@ def main() -> int:
     parser.add_argument("selection", type=Path, help="JSON downloaded from the offline portal")
     parser.add_argument("--output", type=Path, required=True, help="Private profile JSON to create")
     parser.add_argument("--name", default="My Free Alexandria Selection")
+    parser.add_argument("--distribution", action="store_true", help="Create a file-requiring profile for selected local editions")
     args = parser.parse_args()
     selection = json.loads(args.selection.read_text())
     ids = selection.get("selected_record_ids")
@@ -30,16 +31,16 @@ def main() -> int:
         "name": args.name,
         "description": "Private selection created locally from the Free Alexandria offline portal.",
         "curator": {"name": "Local operator"},
-        "build_mode": "catalog-preview",
+        "build_mode": "distribution" if args.distribution else "catalog-preview",
         "language_preferences": [],
         "include_record_ids": sorted(set(ids)),
         "exclude_record_ids": [],
-        "constraints": {"require_local_files": False, "allow_link_only": True},
-        "notes": "This profile selects metadata only. The local operator decides whether and how to acquire any individual work."
+        "constraints": {"require_local_files": args.distribution, "allow_link_only": not args.distribution},
+        "notes": "This profile selects metadata only. The local operator decides whether and how to acquire any individual work." if not args.distribution else "This profile builds only selected editions present in the supplied local edition registry."
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(profile, indent=2) + "\n")
-    print(f"Wrote {args.output}: {len(profile['include_record_ids'])} selected records.")
+    print(f"Wrote {args.output}: {len(profile['include_record_ids'])} selected records ({profile['build_mode']}).")
     return 0
 
 

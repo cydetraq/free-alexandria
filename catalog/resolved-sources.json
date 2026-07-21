@@ -1,0 +1,1680 @@
+{
+  "format_version": 1,
+  "records": {
+    "adventures-of-huckleberry-finn": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "76",
+          "source_url": "https://www.gutenberg.org/ebooks/76",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "19640",
+          "source_url": "https://www.gutenberg.org/ebooks/19640",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "9007",
+          "source_url": "https://www.gutenberg.org/ebooks/9007",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "don-quixote": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "996",
+          "source_url": "https://www.gutenberg.org/ebooks/996",
+          "label": "Project Gutenberg",
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes Saavedra",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7094",
+          "source_url": "https://www.gutenberg.org/ebooks/7094",
+          "label": "Project Gutenberg",
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes Saavedra",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "ulysses": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4300",
+          "source_url": "https://www.gutenberg.org/ebooks/4300",
+          "label": "Project Gutenberg",
+          "edition_title": "Ulysses",
+          "edition_creator": "James Joyce",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-jungle": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "140",
+          "source_url": "https://www.gutenberg.org/ebooks/140",
+          "label": "Project Gutenberg",
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6556",
+          "source_url": "https://www.gutenberg.org/ebooks/6556",
+          "label": "Project Gutenberg",
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-trial": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7849",
+          "source_url": "https://www.gutenberg.org/ebooks/7849",
+          "label": "Project Gutenberg",
+          "edition_title": "The Trial",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "on-liberty": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "34901",
+          "source_url": "https://www.gutenberg.org/ebooks/34901",
+          "label": "Project Gutenberg",
+          "edition_title": "On Liberty",
+          "edition_creator": "John Stuart Mill",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-great-gatsby": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "64317",
+          "source_url": "https://www.gutenberg.org/ebooks/64317",
+          "label": "Project Gutenberg",
+          "edition_title": "The Great Gatsby",
+          "edition_creator": "F. Scott Fitzgerald",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "lady-chatterleys-lover": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "73144",
+          "source_url": "https://www.gutenberg.org/ebooks/73144",
+          "label": "Project Gutenberg",
+          "edition_title": "Lady Chatterley's lover",
+          "edition_creator": "D. H. Lawrence",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-awakening": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "23724",
+          "source_url": "https://www.gutenberg.org/ebooks/23724",
+          "label": "Project Gutenberg",
+          "edition_title": "The Awakening",
+          "edition_creator": "Kate Chopin",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "leaves-of-grass": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1322",
+          "source_url": "https://www.gutenberg.org/ebooks/1322",
+          "label": "Project Gutenberg",
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "23979",
+          "source_url": "https://www.gutenberg.org/ebooks/23979",
+          "label": "Project Gutenberg",
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "elmer-gantry": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "72609",
+          "source_url": "https://www.gutenberg.org/ebooks/72609",
+          "label": "Project Gutenberg",
+          "edition_title": "Elmer Gantry",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "main-street": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "543",
+          "source_url": "https://www.gutenberg.org/ebooks/543",
+          "label": "Project Gutenberg",
+          "edition_title": "Main Street",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "babbitt": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1156",
+          "source_url": "https://www.gutenberg.org/ebooks/1156",
+          "label": "Project Gutenberg",
+          "edition_title": "Babbitt",
+          "edition_creator": "Sinclair Lewis",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-sun-also-rises": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "67138",
+          "source_url": "https://www.gutenberg.org/ebooks/67138",
+          "label": "Project Gutenberg",
+          "edition_title": "The Sun Also Rises",
+          "edition_creator": "Ernest Hemingway",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "as-i-lay-dying": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-picture-of-dorian-gray": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "174",
+          "source_url": "https://www.gutenberg.org/ebooks/174",
+          "label": "Project Gutenberg",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4078",
+          "source_url": "https://www.gutenberg.org/ebooks/4078",
+          "label": "Project Gutenberg",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "26740",
+          "source_url": "https://www.gutenberg.org/ebooks/26740",
+          "label": "Project Gutenberg",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "winesburg-ohio": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "22949",
+          "source_url": "https://www.gutenberg.org/ebooks/22949",
+          "label": "Project Gutenberg",
+          "edition_title": "Winesburg, Ohio",
+          "edition_creator": "Sherwood Anderson",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-call-of-the-wild": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "215",
+          "source_url": "https://www.gutenberg.org/ebooks/215",
+          "label": "Project Gutenberg",
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "19678",
+          "source_url": "https://www.gutenberg.org/ebooks/19678",
+          "label": "Project Gutenberg",
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "9115",
+          "source_url": "https://www.gutenberg.org/ebooks/9115",
+          "label": "Project Gutenberg",
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "uncle-toms-cabin": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "203",
+          "source_url": "https://www.gutenberg.org/ebooks/203",
+          "label": "Project Gutenberg",
+          "edition_title": "Uncle Tom's Cabin",
+          "edition_creator": "Harriet Beecher Stowe",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-scarlet-letter": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "25344",
+          "source_url": "https://www.gutenberg.org/ebooks/25344",
+          "label": "Project Gutenberg",
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "33",
+          "source_url": "https://www.gutenberg.org/ebooks/33",
+          "label": "Project Gutenberg",
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-adventures-of-tom-sawyer": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "26203",
+          "source_url": "https://www.gutenberg.org/ebooks/26203",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "9038",
+          "source_url": "https://www.gutenberg.org/ebooks/9038",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "dubliners": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2814",
+          "source_url": "https://www.gutenberg.org/ebooks/2814",
+          "label": "Project Gutenberg",
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7872",
+          "source_url": "https://www.gutenberg.org/ebooks/7872",
+          "label": "Project Gutenberg",
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "a-portrait-of-the-artist-as-a-young-man": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4217",
+          "source_url": "https://www.gutenberg.org/ebooks/4217",
+          "label": "Project Gutenberg",
+          "edition_title": "A Portrait of the Artist as a Young Man",
+          "edition_creator": "James Joyce",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "frankenstein-1818": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "wuthering-heights": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "768",
+          "source_url": "https://www.gutenberg.org/ebooks/768",
+          "label": "Project Gutenberg",
+          "edition_title": "Wuthering Heights",
+          "edition_creator": "Emily Brontë",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "jane-eyre": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "23077",
+          "source_url": "https://www.gutenberg.org/ebooks/23077",
+          "label": "Project Gutenberg",
+          "edition_title": "Jane Eyre",
+          "edition_creator": "Charlotte Brontë",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "animal-farm": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "brave-new-world": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fahrenheit-451": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-handmaids-tale": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-dispossessed": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "darkness-at-noon": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "origins-of-totalitarianism": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-open-society-and-its-enemies": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-power-of-the-powerless": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-gulag-archipelago": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "seeing-like-a-state": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "on-tyranny": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "thought-reform-and-the-psychology-of-totalism": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "coercive-persuasion": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "influence-cialdini": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "manufacturing-consent": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-true-believer": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "applied-cryptography": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "cryptography-engineering": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "permanent-record": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "data-and-goliath": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "weapons-of-math-destruction": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-demon-haunted-world": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-satanic-verses": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "nineteen-eighty-four": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-rape-of-the-mind": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-76-survival": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-3-25-26-map-reading-and-land-navigation": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-5-125-rigging-techniques": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-4-25-11-first-aid": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-10-field-hygiene-and-sanitation": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-11-first-aid-for-soldiers": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-26-map-reading": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-22-survival-at-sea": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-15-clothing-and-equipment": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-17-evasion-and-escape": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-5-34-engineer-field-data": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-5-426-carpentry": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "70226",
+          "source_url": "https://www.gutenberg.org/ebooks/70226",
+          "label": "Project Gutenberg",
+          "edition_title": "Carpentry",
+          "edition_creator": "Ira Samuel Griffith",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "fm-5-428-concrete-and-masonry": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-75-survival": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "fm-21-40-cbrn-defense": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "tc-3-21-76-ranger-handbook": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "atp-4-44-water-support-operations": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "eff-surveillance-self-defense": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "free-culture": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "content-selected-essays": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "down-and-out-in-the-magic-kingdom": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8086",
+          "source_url": "https://www.gutenberg.org/ebooks/8086",
+          "label": "Project Gutenberg",
+          "edition_title": "Down and Out in the Magic Kingdom",
+          "edition_creator": "Cory Doctorow",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "cryptoparty-handbook": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-metamorphosis": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "26298",
+          "source_url": "https://www.gutenberg.org/ebooks/26298",
+          "label": "Project Gutenberg",
+          "edition_title": "The Metamorphosis",
+          "edition_creator": "Franz Kafka",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-castle": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "amerika": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "berlin-alexanderplatz": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-magic-mountain": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "siddhartha": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2500",
+          "source_url": "https://www.gutenberg.org/ebooks/2500",
+          "label": "Project Gutenberg",
+          "edition_title": "Siddhartha",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "steppenwolf": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "75756",
+          "source_url": "https://www.gutenberg.org/ebooks/75756",
+          "label": "Project Gutenberg",
+          "edition_title": "Steppenwolf",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "swanns-way": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7178",
+          "source_url": "https://www.gutenberg.org/ebooks/7178",
+          "label": "Project Gutenberg",
+          "edition_title": "Swann's Way",
+          "edition_creator": "Marcel Proust",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-counterfeiters": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-immoralist": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "78975",
+          "source_url": "https://www.gutenberg.org/ebooks/78975",
+          "label": "Project Gutenberg",
+          "edition_title": "The immoralist",
+          "edition_creator": "André Gide",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "effi-briest": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-death-of-ivan-ilyich": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "hadji-murad": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "what-is-to-be-done-chernyshevsky": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-mother-gorky": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "resurrection-tolstoy": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1938",
+          "source_url": "https://www.gutenberg.org/ebooks/1938",
+          "label": "Project Gutenberg",
+          "edition_title": "Resurrection",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "kokoro": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "i-am-a-cat": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "botchan": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "diary-of-a-madman-lu-xun": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-true-story-of-ah-q": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "rashomon": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "in-a-grove": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "noli-me-tangere": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "el-filibusterismo": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-underdogs": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-vortex": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "macunaima": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "woodcraft-and-camping": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "34607",
+          "source_url": "https://www.gutenberg.org/ebooks/34607",
+          "label": "Project Gutenberg",
+          "edition_title": "Woodcraft and Camping",
+          "edition_creator": "George Washington Sears",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "camp-lore-and-woodcraft": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-boy-mechanic-volume-1": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-boy-mechanic-volume-2": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-boy-mechanic-volume-3": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "handy-farm-devices-and-how-to-make-them": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "farm-mechanics": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "henleys-twentieth-century-formulas": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "preservation-of-food-in-the-home": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "home-canning-of-fruits-and-vegetables": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "66136",
+          "source_url": "https://www.gutenberg.org/ebooks/66136",
+          "label": "Project Gutenberg",
+          "edition_title": "Home Canning of Fruits and Vegetables",
+          "edition_creator": "United States. Agricultural Research Service. Human Nutrition Research Division",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-american-womans-home": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-first-book-of-farming": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "16900",
+          "source_url": "https://www.gutenberg.org/ebooks/16900",
+          "label": "Project Gutenberg",
+          "edition_title": "The First Book of Farming",
+          "edition_creator": "C. L. Goodrich",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "dry-farming": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "manual-of-gardening": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "audels-carpenters-and-builders-guide": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "food-and-water-in-an-emergency": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "make-water-safe-during-an-emergency": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "finding-your-way-with-map-and-compass": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "camping-and-woodcraft": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "shelters-shacks-and-shanties": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "28255",
+          "source_url": "https://www.gutenberg.org/ebooks/28255",
+          "label": "Project Gutenberg",
+          "edition_title": "Shelters, Shacks and Shanties",
+          "edition_creator": "Daniel Carter Beard",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "emergency-financial-first-aid-kit": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "use-safe-water-during-an-emergency": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "preventing-diarrheal-illness-after-a-disaster": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "household-emergency-plan-and-supply-checklists": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "wildfire-evacuation-materials": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "flood-safety-and-cleanup-guides": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "power-outage-food-safety-guidance": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "generator-safety-guidance": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "radiological-emergency-guides": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "cert-basic-training": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "areopagitica": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "608",
+          "source_url": "https://www.gutenberg.org/ebooks/608",
+          "label": "Project Gutenberg",
+          "edition_title": "Areopagitica",
+          "edition_creator": "John Milton",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "common-sense": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "147",
+          "source_url": "https://www.gutenberg.org/ebooks/147",
+          "label": "Project Gutenberg",
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "3755",
+          "source_url": "https://www.gutenberg.org/ebooks/3755",
+          "label": "Project Gutenberg",
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "rights-of-man": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "civil-disobedience": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "two-treatises-of-government": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-social-contract": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-republic": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1497",
+          "source_url": "https://www.gutenberg.org/ebooks/1497",
+          "label": "Project Gutenberg",
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "150",
+          "source_url": "https://www.gutenberg.org/ebooks/150",
+          "label": "Project Gutenberg",
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "propaganda": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "78634",
+          "source_url": "https://www.gutenberg.org/ebooks/78634",
+          "label": "Project Gutenberg",
+          "edition_title": "Propaganda",
+          "edition_creator": "Edward L. Bernays",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "public-opinion": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6456",
+          "source_url": "https://www.gutenberg.org/ebooks/6456",
+          "label": "Project Gutenberg",
+          "edition_title": "Public opinion",
+          "edition_creator": "Walter Lippmann",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "manual-for-the-solution-of-military-ciphers": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48871",
+          "source_url": "https://www.gutenberg.org/ebooks/48871",
+          "label": "Project Gutenberg",
+          "edition_title": "Manual for the Solution of Military Ciphers",
+          "edition_creator": "Parker Hitt",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "elementary-cryptanalysis": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "75074",
+          "source_url": "https://www.gutenberg.org/ebooks/75074",
+          "label": "Project Gutenberg",
+          "edition_title": "Elementary cryptanalysis",
+          "edition_creator": "Helen Fouché Gaines",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-federalist-papers": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "22788",
+          "source_url": "https://www.gutenberg.org/ebooks/22788",
+          "label": "Project Gutenberg",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1404",
+          "source_url": "https://www.gutenberg.org/ebooks/1404",
+          "label": "Project Gutenberg",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "18",
+          "source_url": "https://www.gutenberg.org/ebooks/18",
+          "label": "Project Gutenberg",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-subjection-of-women": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "27083",
+          "source_url": "https://www.gutenberg.org/ebooks/27083",
+          "label": "Project Gutenberg",
+          "edition_title": "The Subjection of Women",
+          "edition_creator": "John Stuart Mill",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "what-is-property": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "capital-volume-i": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "democracy-in-america": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-age-of-reason": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "dialogues-concerning-natural-religion": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4583",
+          "source_url": "https://www.gutenberg.org/ebooks/4583",
+          "label": "Project Gutenberg",
+          "edition_title": "Dialogues Concerning Natural Religion",
+          "edition_creator": "David Hume",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-life-of-jesus-critically-examined": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "64037",
+          "source_url": "https://www.gutenberg.org/ebooks/64037",
+          "label": "Project Gutenberg",
+          "edition_title": "The Life of Jesus Critically Examined",
+          "edition_creator": "David Friedrich Strauss",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-essence-of-christianity": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "47025",
+          "source_url": "https://www.gutenberg.org/ebooks/47025",
+          "label": "Project Gutenberg",
+          "edition_title": "The Essence of Christianity",
+          "edition_creator": "Ludwig Feuerbach",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "why-i-am-an-agnostic": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-psychology-of-suggestion": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-crowd": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "instincts-of-the-herd-in-peace-and-war": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "53453",
+          "source_url": "https://www.gutenberg.org/ebooks/53453",
+          "label": "Project Gutenberg",
+          "edition_title": "Instincts of the Herd in Peace and War",
+          "edition_creator": "W. Trotter",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "index-librorum-prohibitorum": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "madame-bovary": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2413",
+          "source_url": "https://www.gutenberg.org/ebooks/2413",
+          "label": "Project Gutenberg",
+          "edition_title": "Madame Bovary",
+          "edition_creator": "Gustave Flaubert",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "crime-and-punishment": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "anna-karenina": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1399",
+          "source_url": "https://www.gutenberg.org/ebooks/1399",
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "war-and-peace": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2600",
+          "source_url": "https://www.gutenberg.org/ebooks/2600",
+          "label": "Project Gutenberg",
+          "edition_title": "War and Peace",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-brothers-karamazov": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "les-miserables": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "135",
+          "source_url": "https://www.gutenberg.org/ebooks/135",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-divine-comedy": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8800",
+          "source_url": "https://www.gutenberg.org/ebooks/8800",
+          "label": "Project Gutenberg",
+          "edition_title": "The divine comedy",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-iliad": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6130",
+          "source_url": "https://www.gutenberg.org/ebooks/6130",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2199",
+          "source_url": "https://www.gutenberg.org/ebooks/2199",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "3059",
+          "source_url": "https://www.gutenberg.org/ebooks/3059",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "22382",
+          "source_url": "https://www.gutenberg.org/ebooks/22382",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6150",
+          "source_url": "https://www.gutenberg.org/ebooks/6150",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-odyssey": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1727",
+          "source_url": "https://www.gutenberg.org/ebooks/1727",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "3160",
+          "source_url": "https://www.gutenberg.org/ebooks/3160",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "28797",
+          "source_url": "https://www.gutenberg.org/ebooks/28797",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "fathers-and-sons": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "47935",
+          "source_url": "https://www.gutenberg.org/ebooks/47935",
+          "label": "Project Gutenberg",
+          "edition_title": "Fathers and Sons",
+          "edition_creator": "Ivan Sergeevich Turgenev",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "dead-souls": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1081",
+          "source_url": "https://www.gutenberg.org/ebooks/1081",
+          "label": "Project Gutenberg",
+          "edition_title": "Dead Souls",
+          "edition_creator": "Nikolai Vasilevich Gogol",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "notes-from-underground": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "demons": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-sorrows-of-young-werther": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2527",
+          "source_url": "https://www.gutenberg.org/ebooks/2527",
+          "label": "Project Gutenberg",
+          "edition_title": "The Sorrows of Young Werther",
+          "edition_creator": "Johann Wolfgang von Goethe",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "dangerous-liaisons": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "tartuffe": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "emile": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-theological-political-treatise": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "the-count-of-monte-cristo": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1184",
+          "source_url": "https://www.gutenberg.org/ebooks/1184",
+          "label": "Project Gutenberg",
+          "edition_title": "The Count of Monte Cristo",
+          "edition_creator": "Alexandre Dumas and Auguste Maquet",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-three-musketeers": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1257",
+          "source_url": "https://www.gutenberg.org/ebooks/1257",
+          "label": "Project Gutenberg",
+          "edition_title": "The three musketeers",
+          "edition_creator": "Alexandre Dumas and Auguste Maquet",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "middlemarch": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "145",
+          "source_url": "https://www.gutenberg.org/ebooks/145",
+          "label": "Project Gutenberg",
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8227",
+          "source_url": "https://www.gutenberg.org/ebooks/8227",
+          "label": "Project Gutenberg",
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "germinal": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "56528",
+          "source_url": "https://www.gutenberg.org/ebooks/56528",
+          "label": "Project Gutenberg",
+          "edition_title": "Germinal",
+          "edition_creator": "Émile Zola",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-kreutzer-sonata": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "tess-of-the-durbervilles": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    },
+    "jude-the-obscure": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "153",
+          "source_url": "https://www.gutenberg.org/ebooks/153",
+          "label": "Project Gutenberg",
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "9421",
+          "source_url": "https://www.gutenberg.org/ebooks/9421",
+          "label": "Project Gutenberg",
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "dracula": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "345",
+          "source_url": "https://www.gutenberg.org/ebooks/345",
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "45839",
+          "source_url": "https://www.gutenberg.org/ebooks/45839",
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "19797",
+          "source_url": "https://www.gutenberg.org/ebooks/19797",
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6534",
+          "source_url": "https://www.gutenberg.org/ebooks/6534",
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-turn-of-the-screw": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "209",
+          "source_url": "https://www.gutenberg.org/ebooks/209",
+          "label": "Project Gutenberg",
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "26285",
+          "source_url": "https://www.gutenberg.org/ebooks/26285",
+          "label": "Project Gutenberg",
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "the-age-of-innocence": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "541",
+          "source_url": "https://www.gutenberg.org/ebooks/541",
+          "label": "Project Gutenberg",
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8958",
+          "source_url": "https://www.gutenberg.org/ebooks/8958",
+          "label": "Project Gutenberg",
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "resolution_method": "exact-title-and-creator-match"
+        }
+      ]
+    },
+    "we": {
+      "resolved_at": "2026-07-21T18:28:45+00:00",
+      "source_options": []
+    }
+  }
+}

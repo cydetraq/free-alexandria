@@ -22,7 +22,7 @@
               "type": "object",
               "required": ["status", "basis", "reviewed_at"],
               "properties": {
-                "status": {"enum": ["public-domain-us", "open-license", "permission-granted", "government-work-us"]},
+                "status": {"enum": ["public-domain-us", "open-license", "permission-granted", "government-work-us", "operator-selected"]},
                 "basis": {"type": "string"},
                 "reviewed_at": {"type": "string", "format": "date"},
                 "evidence_url": {"type": "string", "format": "uri"}
