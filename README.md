@@ -2,7 +2,7 @@
 
 > A portable archive of human knowledge.
 
-Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. Its first deployment target is **Pocket Alexandria**: a static captive-portal library served from removable storage.
+Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or any simple local web server.
 
 ## Offline-first requirement
 
@@ -49,10 +49,10 @@ The repository is usable as a standalone catalog after cloning—no portal build
 
 ```sh
 python3 tools/validate_catalog.py
-python3 tools/build_profile.py profiles/pocket-alexandria-v1.json
+python3 tools/build_profile.py profiles/free-alexandria-v1.json
 ```
 
-The second command creates `dist/pocket-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks.
+The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks.
 
 To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild your local archive, run:
 

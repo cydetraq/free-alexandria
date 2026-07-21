@@ -1,8 +1,8 @@
 {
   "$schema": "../metadata/curation-profile.schema.json",
   "format_version": 1,
-  "id": "pocket-alexandria-v1",
-  "name": "Pocket Alexandria v1",
+  "id": "free-alexandria-v1",
+  "name": "Free Alexandria v1",
   "description": "The first self-contained Free Alexandria offline library release.",
   "curator": {
     "name": "Free Alexandria"
