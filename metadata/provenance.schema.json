@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Free Alexandria acquired-edition provenance",
+  "type": "object",
+  "required": ["work_record_id", "source_id", "source_item_id", "source_url", "retrieved_at", "rights_status", "files"],
+  "properties": {
+    "work_record_id": {"type": "string"},
+    "work_identifiers": {"type": "array", "items": {"type": "object"}},
+    "source_id": {"type": "string"},
+    "source_item_id": {"type": "string"},
+    "source_url": {"type": "string", "format": "uri"},
+    "retrieved_at": {"type": "string", "format": "date"},
+    "rights_status": {"type": "string"},
+    "rights_evidence_url": {"type": "string", "format": "uri"},
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    }
+  }
+}

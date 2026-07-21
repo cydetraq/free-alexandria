@@ -1,9 +1,9 @@
 # Architecture
 
-The catalog is the source of truth. A build process will validate catalog records and generate a static portal, offline search index, checksum manifest, and deployment tree.
+The catalog is the source of truth. Stable work records are separate from edition-specific acquisition records. A build process will validate both and generate a static portal, offline search index, checksum manifest, and deployment tree.
 
 ```text
-catalog records + verified local artifacts
+work records + edition queue + verified local artifacts
                 │
                 ├── validation
                 ├── static portal

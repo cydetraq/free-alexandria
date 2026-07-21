@@ -1,0 +1,56 @@
+- id: food-and-water-in-an-emergency
+  title: Food and Water in an Emergency
+  publisher: FEMA
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  source_id: ready-gov
+  description: Household food storage, emergency water, and power-loss preparation.
+  why_included: A concise federal reference for common disruptions.
+  tags: [water, food, emergency-planning, government-guidance]
+
+- id: make-water-safe-during-an-emergency
+  title: Make Water Safe During an Emergency
+  publisher: Centers for Disease Control and Prevention
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  source_id: cdc
+  description: Current guidance on boiling, disinfecting, and filtering emergency water.
+  why_included: High-value life-safety guidance that must remain current and dated.
+  tags: [water, sanitation, health, government-guidance]
+
+- id: finding-your-way-with-map-and-compass
+  title: Finding Your Way with Map and Compass
+  publisher: U.S. Geological Survey
+  collections: [preparedness]
+  rights_status: verify-edition
+  catalog_status: candidate
+  source_id: usgs
+  description: Map scales, contours, bearings, and compass use.
+  why_included: Civilian navigation reference suitable for offline use.
+  tags: [navigation, maps, fieldcraft, government-guidance]
+
+- id: camping-and-woodcraft
+  title: Camping and Woodcraft
+  author: Horace Kephart
+  original_year: 1906
+  original_language: English
+  collections: [preparedness]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Campcraft, shelters, tools, fire, and wilderness living.
+  why_included: An enduring practical reference, with medical and conservation advice clearly marked as historical.
+  tags: [survival, camping, fieldcraft, historical-guidance]
+
+- id: shelters-shacks-and-shanties
+  title: Shelters, Shacks and Shanties
+  author: D. C. Beard
+  original_year: 1914
+  original_language: English
+  collections: [preparedness]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Improvised shelters and simple structures.
+  why_included: Useful historic construction ideas; structural safety must be independently assessed.
+  tags: [shelter, construction, fieldcraft, historical-guidance]

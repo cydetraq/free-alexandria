@@ -1,0 +1,145 @@
+- id: areopagitica
+  title: Areopagitica
+  author: John Milton
+  original_year: 1644
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A foundational argument against state licensing and prepublication censorship.
+  why_included: Directly opposes systems that require official permission before publication.
+  tags: [free-expression, censorship, political-philosophy, nonfiction]
+
+- id: common-sense
+  title: Common Sense
+  author: Thomas Paine
+  original_year: 1776
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A direct argument that people may reject illegitimate political authority.
+  why_included: Challenges hereditary rule and locates political authority in the people.
+  tags: [revolution, political-philosophy, rights, nonfiction]
+
+- id: rights-of-man
+  title: Rights of Man
+  author: Thomas Paine
+  original_year: 1791
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A defense of popular sovereignty and a critique of hereditary government.
+  why_included: Provides a compact case for political rights independent of dynastic authority.
+  tags: [rights, political-philosophy, revolution, nonfiction]
+
+- id: civil-disobedience
+  title: Civil Disobedience
+  author: Henry David Thoreau
+  original_year: 1849
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An argument against cooperation with profoundly unjust government action.
+  why_included: Defends individual conscience against coercive state power.
+  tags: [resistance, rights, political-philosophy, nonfiction]
+
+- id: two-treatises-of-government
+  title: Two Treatises of Government
+  author: John Locke
+  original_year: 1689
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A defense of natural rights, consent of the governed, and limits on political authority.
+  why_included: Supplies an enduring argument for removing governments that violate public trust.
+  tags: [rights, constitutionalism, political-philosophy, nonfiction]
+
+- id: the-social-contract
+  title: The Social Contract
+  original_title: Du contrat social
+  author: Jean-Jacques Rousseau
+  original_year: 1762
+  original_language: French
+  collections: [suppressed-knowledge, original-language]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  translations:
+    - language: English
+      translator: G. D. H. Cole
+      translation_year: 1913
+      quality: recommended-pd-translation
+      rights_status: public-domain-us
+  description: An argument that legitimate political authority arises from collective popular sovereignty.
+  why_included: Banned and burned for republicanism and its challenge to established political authority.
+  tags: [rights, revolution, political-philosophy, nonfiction]
+
+- id: the-republic
+  title: The Republic
+  original_title: Politeia
+  author: Plato
+  original_year: -380
+  original_language: Ancient Greek
+  collections: [suppressed-knowledge, original-language]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  translations:
+    - language: English
+      translator: Benjamin Jowett
+      translation_year: 1871
+      quality: serviceable-pd-translation
+      rights_status: public-domain-us
+  description: A dialogue about justice, government, education, censorship, art, and the ideal state.
+  why_included: Often restricted in ideological settings; it is also a crucial source on the logic of censorship itself.
+  tags: [political-philosophy, censorship, education, nonfiction]
+
+- id: propaganda
+  title: Propaganda
+  author: Edward Bernays
+  original_year: 1928
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An early account of organized opinion management, symbols, authority, and mass persuasion.
+  why_included: Helps readers identify techniques that governments and institutions use to shape public belief.
+  tags: [propaganda, media-literacy, psychology, nonfiction]
+
+- id: public-opinion
+  title: Public Opinion
+  author: Walter Lippmann
+  original_year: 1922
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An examination of stereotypes, media, expertise, and the construction of public belief.
+  why_included: Gives readers tools for recognizing manufactured pictures of reality.
+  tags: [propaganda, media-literacy, psychology, nonfiction]
+
+- id: manual-for-the-solution-of-military-ciphers
+  title: Manual for the Solution of Military Ciphers
+  author: Parker Hitt
+  original_year: 1916
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A systematic historical guide to analyzing substitution and transposition ciphers.
+  why_included: Preserves a practical foundation in private communication and cryptanalysis.
+  tags: [cryptography, communications, mathematics, nonfiction]
+
+- id: elementary-cryptanalysis
+  title: Elementary Cryptanalysis
+  author: Helen Fouché Gaines
+  original_year: 1939
+  original_language: English
+  collections: [suppressed-knowledge]
+  rights_status: copyrighted-link-only
+  catalog_status: link-only
+  description: A substantial reference on solving classical ciphers.
+  why_included: Important historical cryptanalysis reference, but not yet U.S. public domain.
+  tags: [cryptography, communications, mathematics, nonfiction]

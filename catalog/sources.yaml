@@ -1,0 +1,51 @@
+- id: project-gutenberg
+  name: Project Gutenberg
+  source_type: public-domain-text-repository
+  base_url: https://www.gutenberg.org/
+  use_for: Public-domain EPUB, HTML, and plain-text editions.
+  acquisition_note: Record the exact ebook URL and retain no Project Gutenberg branding unless its terms permit it.
+
+- id: standard-ebooks
+  name: Standard Ebooks
+  source_type: public-domain-ebook-repository
+  base_url: https://standardebooks.org/
+  use_for: Carefully prepared public-domain ebooks.
+  acquisition_note: Verify the edition page and any project-specific redistribution terms.
+
+- id: library-of-congress
+  name: Library of Congress
+  source_type: government-library
+  base_url: https://www.loc.gov/
+  use_for: Historical scans, U.S. Army field-manual inventory, and bibliographic verification.
+
+- id: army-publishing-directorate
+  name: Army Publishing Directorate
+  source_type: government-publisher
+  base_url: https://armypubs.army.mil/
+  use_for: Current unrestricted Army publications.
+  acquisition_note: Exclude restricted or authentication-only publications.
+
+- id: ready-gov
+  name: Ready.gov
+  source_type: government-publisher
+  base_url: https://www.ready.gov/
+  use_for: FEMA preparedness guides and planning material.
+
+- id: cdc
+  name: Centers for Disease Control and Prevention
+  source_type: government-publisher
+  base_url: https://www.cdc.gov/
+  use_for: Current emergency water, sanitation, food-safety, and health guidance.
+
+- id: usgs
+  name: U.S. Geological Survey
+  source_type: government-publisher
+  base_url: https://www.usgs.gov/
+  use_for: Map, compass, topographic-map, and geographic-reference material.
+
+- id: eff
+  name: Electronic Frontier Foundation
+  source_type: rights-holder
+  base_url: https://www.eff.org/
+  use_for: Explicitly licensed digital-security material.
+  acquisition_note: Confirm the license on the exact work or module before download.

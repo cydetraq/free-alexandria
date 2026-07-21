@@ -8,6 +8,7 @@ Free Alexandria is a catalog-first offline library for public-domain and openly 
 
 - Preserve legal clarity alongside cultural and practical value.
 - Keep the catalog as the source of truth; generate the portal and distribution manifest from it.
+- Prefer established bibliographic and source-native identifiers over title-derived names; local slugs are join keys, not canonical IDs.
 - Mirror only public-domain material, government publications suitable for redistribution, and works with explicit redistribution permission.
 - Link to important copyrighted works rather than copying them.
 - Preserve original-language texts alongside eligible English translations where possible.

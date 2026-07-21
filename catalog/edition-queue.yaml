@@ -1,0 +1,59 @@
+# This is an acquisition queue, not a claim that a file has been downloaded.
+- id: adventures-of-huckleberry-finn-en-original-1884-gutenberg-76
+  work_id: adventures-of-huckleberry-finn
+  source_item_id: '76'
+  source_id: project-gutenberg
+  source_url: https://www.gutenberg.org/ebooks/76
+  language: English
+  edition_year: 1884
+  acquisition_status: edition-identified
+  intended_paths:
+    epub: content/books/project-gutenberg/76/book.epub
+    pdf: content/books/project-gutenberg/76/book.pdf
+
+- id: don-quixote-en-ormsby-1885-gutenberg-996
+  work_id: don-quixote
+  source_item_id: '996'
+  source_id: project-gutenberg
+  source_url: https://www.gutenberg.org/ebooks/996
+  language: English
+  translator: John Ormsby
+  edition_year: 1885
+  acquisition_status: edition-identified
+  intended_paths:
+    epub: content/books/project-gutenberg/996/book.epub
+    pdf: content/books/project-gutenberg/996/book.pdf
+
+- id: ulysses-en-original-1922-gutenberg-4300
+  work_id: ulysses
+  source_item_id: '4300'
+  source_id: project-gutenberg
+  source_url: https://www.gutenberg.org/ebooks/4300
+  language: English
+  edition_year: 1922
+  acquisition_status: edition-identified
+  intended_paths:
+    epub: content/books/project-gutenberg/4300/book.epub
+    pdf: content/books/project-gutenberg/4300/book.pdf
+
+- id: the-jungle-en-original-1906-gutenberg-1400
+  work_id: the-jungle
+  source_item_id: '1400'
+  source_id: project-gutenberg
+  source_url: https://www.gutenberg.org/ebooks/1400
+  language: English
+  edition_year: 1906
+  acquisition_status: edition-identified
+  intended_paths:
+    epub: content/books/project-gutenberg/1400/book.epub
+    pdf: content/books/project-gutenberg/1400/book.pdf
+
+- id: fm-21-76-en-fm-21-76-1957-library-of-congress-queue
+  work_id: fm-21-76-survival
+  source_item_id: pending-loc-item-id
+  source_id: library-of-congress
+  language: English
+  edition_year: 1957
+  acquisition_status: candidate
+  intended_paths:
+    pdf: content/manuals/library-of-congress/pending-loc-item-id/manual.pdf

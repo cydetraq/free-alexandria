@@ -1,0 +1,240 @@
+# Core public-domain or edition-verification candidates. No local files are implied.
+- id: the-great-gatsby
+  title: The Great Gatsby
+  author: F. Scott Fitzgerald
+  original_year: 1925
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A story of wealth, class, obsession, and self-invention in Jazz Age America.
+  why_included: Challenged for language, sexuality, adultery, alcohol, and perceived moral content.
+  tags: [literary-canon, class, sexuality, fiction]
+
+- id: lady-chatterleys-lover
+  title: Lady Chatterley's Lover
+  author: D. H. Lawrence
+  original_year: 1928
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A novel about class, marriage, intimacy, and an affair across social boundaries.
+  why_included: Banned and prosecuted in several countries for explicit sexual language and adultery.
+  tags: [literary-canon, sexuality, class, fiction]
+
+- id: the-awakening
+  title: The Awakening
+  author: Kate Chopin
+  original_year: 1899
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A woman questions marriage, motherhood, convention, and personal autonomy.
+  why_included: Condemned and restricted for female sexuality, adultery, and rejection of prescribed gender roles.
+  tags: [literary-canon, gender, sexuality, fiction]
+
+- id: leaves-of-grass
+  title: Leaves of Grass
+  author: Walt Whitman
+  original_year: 1855
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Poetry celebrating the body, democracy, nature, and identity.
+  why_included: Suppressed for sensuality, same-sex themes, bodily imagery, and alleged obscenity.
+  tags: [poetry, sexuality, free-expression, literary-canon]
+
+- id: elmer-gantry
+  title: Elmer Gantry
+  author: Sinclair Lewis
+  original_year: 1927
+  original_language: English
+  collections: [banned-challenged, suppressed-knowledge]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A charismatic opportunist builds a career through organized religion.
+  why_included: Banned for profanity, sexual behavior, and its attack on religious hypocrisy.
+  tags: [religion, satire, censorship, fiction]
+
+- id: main-street
+  title: Main Street
+  author: Sinclair Lewis
+  original_year: 1920
+  original_language: English
+  collections: [banned-challenged]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An idealistic woman confronts conformity in a small Midwestern town.
+  why_included: Locally banned or denounced for its unflattering portrayal of small-town America.
+  tags: [conformity, social-criticism, fiction]
+
+- id: babbitt
+  title: Babbitt
+  author: Sinclair Lewis
+  original_year: 1922
+  original_language: English
+  collections: [banned-challenged]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A satirical portrait of business culture, conformity, and middle-class aspiration.
+  why_included: Challenged for sexuality, alcohol, language, and criticism of civic and commercial values.
+  tags: [satire, conformity, class, fiction]
+
+- id: the-sun-also-rises
+  title: The Sun Also Rises
+  author: Ernest Hemingway
+  original_year: 1926
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Expatriates travel through France and Spain while confronting war trauma and disillusionment.
+  why_included: Challenged for sexuality, alcohol, language, and unconventional relationships.
+  tags: [modernism, war, sexuality, fiction]
+
+- id: as-i-lay-dying
+  title: As I Lay Dying
+  author: William Faulkner
+  original_year: 1930
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A poor Southern family transports its mother's body for burial.
+  why_included: Challenged for language, sexuality, abortion, death, religion, and family dysfunction.
+  tags: [modernism, death, religion, fiction]
+
+- id: the-picture-of-dorian-gray
+  title: The Picture of Dorian Gray
+  author: Oscar Wilde
+  original_year: 1890
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A man remains outwardly young while a portrait records his corruption.
+  why_included: Censored for homoerotic implications, decadence, drug use, and alleged immorality.
+  tags: [literary-canon, sexuality, censorship, fiction]
+
+- id: winesburg-ohio
+  title: Winesburg, Ohio
+  author: Sherwood Anderson
+  original_year: 1919
+  original_language: English
+  collections: [banned-challenged]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Interconnected stories about isolation and frustrated lives in a small town.
+  why_included: Removed from libraries for sexual themes and alleged obscenity.
+  tags: [sexuality, small-town, fiction]
+
+- id: the-call-of-the-wild
+  title: The Call of the Wild
+  author: Jack London
+  original_year: 1903
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A domesticated dog is forced into brutal life during the Klondike Gold Rush.
+  why_included: Banned or burned for violence, evolutionary themes, and the author's political associations.
+  tags: [wilderness, politics, fiction]
+
+- id: uncle-toms-cabin
+  title: Uncle Tom's Cabin
+  author: Harriet Beecher Stowe
+  original_year: 1852
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An antislavery novel depicting families separated and abused under slavery.
+  why_included: Suppressed in the antebellum South for abolitionist content and later challenged over racial representation.
+  tags: [race, slavery, abolition, fiction]
+
+- id: the-scarlet-letter
+  title: The Scarlet Letter
+  author: Nathaniel Hawthorne
+  original_year: 1850
+  original_language: English
+  collections: [banned-challenged]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A woman condemned for adultery lives under the judgment of a Puritan community.
+  why_included: Challenged for adultery, sexuality, religious criticism, and perceived immorality.
+  tags: [religion, sexuality, fiction]
+
+- id: the-adventures-of-tom-sawyer
+  title: The Adventures of Tom Sawyer
+  author: Mark Twain
+  original_year: 1876
+  original_language: English
+  collections: [banned-challenged]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A mischievous boy navigates childhood, danger, conscience, and small-town society.
+  why_included: Challenged for racial language, disobedience, violence, and classroom suitability.
+  tags: [race, childhood, fiction]
+
+- id: dubliners
+  title: Dubliners
+  author: James Joyce
+  original_year: 1914
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Stories portraying paralysis, disappointment, and daily life in Dublin.
+  why_included: Publication was obstructed over political references, sexuality, religion, and allegedly defamatory realism.
+  tags: [modernism, religion, sexuality, fiction]
+
+- id: a-portrait-of-the-artist-as-a-young-man
+  title: A Portrait of the Artist as a Young Man
+  author: James Joyce
+  original_year: 1916
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A young man's artistic awakening amid religion and nationalism.
+  why_included: Challenged for sexuality, profanity, religious criticism, and perceived obscenity.
+  tags: [modernism, religion, sexuality, fiction]
+
+- id: frankenstein-1818
+  title: Frankenstein
+  author: Mary Shelley
+  original_year: 1818
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: A scientist creates life and abandons the being whose suffering he caused.
+  why_included: Challenged for horror, violence, creation of life, suicide, religion, and perceived indecency.
+  tags: [gothic, science, religion, fiction]
+
+- id: wuthering-heights
+  title: Wuthering Heights
+  author: Emily Brontë
+  original_year: 1847
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: Obsession and revenge shape two generations on the Yorkshire moors.
+  why_included: Condemned and challenged for cruelty, abuse, violence, class conflict, and religious irreverence.
+  tags: [gothic, class, violence, fiction]
+
+- id: jane-eyre
+  title: Jane Eyre
+  author: Charlotte Brontë
+  original_year: 1847
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  rights_status: public-domain-us
+  catalog_status: candidate
+  description: An orphaned governess seeks autonomy, love, moral equality, and economic independence.
+  why_included: Attacked for female independence, sexuality, anger, and criticism of class and patriarchal authority.
+  tags: [gender, class, religion, fiction]
