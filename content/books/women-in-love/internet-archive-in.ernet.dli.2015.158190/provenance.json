@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "women-in-love",
+  "edition_id": "women-in-love-english-facsimile-internet-archive-in.ernet.dli.2015.158190",
+  "source": {
+    "name": "Internet Archive / Digital Library of India",
+    "item_id": "in.ernet.dli.2015.158190",
+    "edition_page": "https://archive.org/details/in.ernet.dli.2015.158190",
+    "download_url": "https://archive.org/download/in.ernet.dli.2015.158190/2015.158190.Women-In-Love.pdf",
+    "acquired_at": "2026-07-21T22:07:20+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/women-in-love/internet-archive-in.ernet.dli.2015.158190/facsimile.pdf",
+      "sha256": "54a830246b7970ec414382968d838e45455adb47d873907ee4236ccca13d33b6",
+      "bytes": 64234204
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

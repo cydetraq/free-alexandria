@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "moby-dick",
+  "edition_id": "moby-dick-english-facsimile-internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville",
+  "source": {
+    "name": "Internet Archive",
+    "item_id": "ost-english-moby-dick-or-the-whale-by-herman-melville",
+    "edition_page": "https://archive.org/details/ost-english-moby-dick-or-the-whale-by-herman-melville",
+    "download_url": "https://archive.org/download/ost-english-moby-dick-or-the-whale-by-herman-melville/Moby%20Dick%3B%20Or%20the%20Whale%2C%20by%20Herman%20Melville.pdf",
+    "acquired_at": "2026-07-21T22:03:48+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/moby-dick/internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville/facsimile.pdf",
+      "sha256": "02d83a29454434c3363e0814eedee69612b00714e27fdad25aacb87e6e8656c9",
+      "bytes": 5859954
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

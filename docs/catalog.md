@@ -14,7 +14,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
-| A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [Text PDF](../content/books/a-tale-of-two-cities/gutenberg-98/book.pdf) |
+| A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [PDF](../content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf) |
 | A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [Text PDF](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf) |
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
@@ -29,7 +29,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Elmer Gantry | Sinclair Lewis | 1927 | [EPUB](../content/books/elmer-gantry/gutenberg-72609/book.epub) · [Text PDF](../content/books/elmer-gantry/gutenberg-72609/book.pdf) |
 | Frankenstein | Mary Shelley | 1818 | [EPUB](../content/books/frankenstein-1818/gutenberg-84/book.epub) · [Text PDF](../content/books/frankenstein-1818/gutenberg-84/book.pdf) |
 | Germinal | Émile Zola | 1885 | [EPUB](../content/books/germinal/gutenberg-56528/book.epub) · [Text PDF](../content/books/germinal/gutenberg-56528/book.pdf) |
-| Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [Text PDF](../content/books/great-expectations/gutenberg-1400/book.pdf) |
+| Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [PDF](../content/books/great-expectations/internet-archive-ost-english-greatexpectation1890dick_bw/facsimile.pdf) |
 | Gulliver's Travels | Jonathan Swift | 1726 | [EPUB](../content/books/gullivers-travels/gutenberg-829/book.epub) · [Text PDF](../content/books/gullivers-travels/gutenberg-829/book.pdf) |
 | Hamlet | William Shakespeare | 1603 | [EPUB](../content/books/hamlet/gutenberg-1524/book.epub) · [Text PDF](../content/books/hamlet/gutenberg-1524/book.pdf) |
 | Jane Eyre | Charlotte Brontë | 1847 | [EPUB](../content/books/jane-eyre/gutenberg-1260/book.epub) · [Text PDF](../content/books/jane-eyre/gutenberg-1260/book.pdf) |
@@ -40,7 +40,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Madame Bovary | Gustave Flaubert | 1857 | [EPUB](../content/books/madame-bovary/gutenberg-2413/book.epub) · [Text PDF](../content/books/madame-bovary/gutenberg-2413/book.pdf) |
 | Main Street | Sinclair Lewis | 1920 | [EPUB](../content/books/main-street/gutenberg-543/book.epub) · [Text PDF](../content/books/main-street/gutenberg-543/book.pdf) |
 | Middlemarch | George Eliot | 1871 | [EPUB](../content/books/middlemarch/gutenberg-145/book.epub) · [Text PDF](../content/books/middlemarch/gutenberg-145/book.pdf) |
-| Moby-Dick | Herman Melville | 1851 | [EPUB](../content/books/moby-dick/gutenberg-2701/book.epub) · [Text PDF](../content/books/moby-dick/gutenberg-2701/book.pdf) |
+| Moby-Dick | Herman Melville | 1851 | [EPUB](../content/books/moby-dick/gutenberg-2701/book.epub) · [PDF](../content/books/moby-dick/internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville/facsimile.pdf) |
 | Moll Flanders | Daniel Defoe | 1722 | [EPUB](../content/books/moll-flanders/gutenberg-370/book.epub) · [Text PDF](../content/books/moll-flanders/gutenberg-370/book.pdf) |
 | Noli Me Tangere | José Rizal | 1887 | [EPUB](../content/books/noli-me-tangere/gutenberg-21848/book.epub) · [Text PDF](../content/books/noli-me-tangere/gutenberg-21848/book.pdf) |
 | Paradise Lost | John Milton | 1667 | [EPUB](../content/books/paradise-lost/gutenberg-26/book.epub) · [Text PDF](../content/books/paradise-lost/gutenberg-26/book.pdf) |
@@ -60,7 +60,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | The Canterbury Tales | Geoffrey Chaucer | 1400 | [EPUB](../content/books/the-canterbury-tales/gutenberg-2383/book.epub) · [Text PDF](../content/books/the-canterbury-tales/gutenberg-2383/book.pdf) |
 | The Communist Manifesto | Karl Marx and Friedrich Engels | 1848 | [EPUB](../content/books/the-communist-manifesto/gutenberg-61/book.epub) · [Text PDF](../content/books/the-communist-manifesto/gutenberg-61/book.pdf) |
 | The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [Text PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) |
-| The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [Text PDF](../content/books/the-decameron/gutenberg-23700/book.pdf) |
+| The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [PDF](../content/books/the-decameron/internet-archive-ost-english-the_decameron/facsimile.pdf) |
 | The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [Text PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) |
 | The Great Gatsby | F. Scott Fitzgerald | 1925 | [EPUB](../content/books/the-great-gatsby/gutenberg-64317/book.epub) · [Text PDF](../content/books/the-great-gatsby/gutenberg-64317/book.pdf) |
 | The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [Text PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) |
@@ -87,7 +87,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
 | We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
 | Winesburg, Ohio | Sherwood Anderson | 1919 | [EPUB](../content/books/winesburg-ohio/gutenberg-416/book.epub) · [Text PDF](../content/books/winesburg-ohio/gutenberg-416/book.pdf) |
-| Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [Text PDF](../content/books/women-in-love/gutenberg-4240/book.pdf) |
+| Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [PDF](../content/books/women-in-love/internet-archive-in.ernet.dli.2015.158190/facsimile.pdf) |
 | Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [Text PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) |
 
 ## Essential Literature
@@ -97,7 +97,7 @@ High-impact works selected for literary and historical importance.
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
-| A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [Text PDF](../content/books/a-tale-of-two-cities/gutenberg-98/book.pdf) |
+| A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [PDF](../content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf) |
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
 | Candide | Voltaire | 1759 | [EPUB](../content/books/candide/gutenberg-19942/book.epub) · [Text PDF](../content/books/candide/gutenberg-19942/book.pdf) |
@@ -109,7 +109,7 @@ High-impact works selected for literary and historical importance.
 | Effi Briest | Theodor Fontane | 1895 | [EPUB](../content/books/effi-briest/gutenberg-5323/book.epub) · [Text PDF](../content/books/effi-briest/gutenberg-5323/book.pdf) |
 | Fathers and Sons | Ivan Turgenev | 1862 | [EPUB](../content/books/fathers-and-sons/gutenberg-47935/book.epub) · [Text PDF](../content/books/fathers-and-sons/gutenberg-47935/book.pdf) |
 | Frankenstein | Mary Shelley | 1818 | [EPUB](../content/books/frankenstein-1818/gutenberg-84/book.epub) · [Text PDF](../content/books/frankenstein-1818/gutenberg-84/book.pdf) |
-| Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [Text PDF](../content/books/great-expectations/gutenberg-1400/book.pdf) |
+| Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [PDF](../content/books/great-expectations/internet-archive-ost-english-greatexpectation1890dick_bw/facsimile.pdf) |
 | Gulliver's Travels | Jonathan Swift | 1726 | [EPUB](../content/books/gullivers-travels/gutenberg-829/book.epub) · [Text PDF](../content/books/gullivers-travels/gutenberg-829/book.pdf) |
 | Hamlet | William Shakespeare | 1603 | [EPUB](../content/books/hamlet/gutenberg-1524/book.epub) · [Text PDF](../content/books/hamlet/gutenberg-1524/book.pdf) |
 | Jane Eyre | Charlotte Brontë | 1847 | [EPUB](../content/books/jane-eyre/gutenberg-1260/book.epub) · [Text PDF](../content/books/jane-eyre/gutenberg-1260/book.pdf) |
@@ -120,7 +120,7 @@ High-impact works selected for literary and historical importance.
 | Lysistrata | Aristophanes | -411 | [EPUB](../content/books/lysistrata/gutenberg-7700/book.epub) · [Text PDF](../content/books/lysistrata/gutenberg-7700/book.pdf) |
 | Madame Bovary | Gustave Flaubert | 1857 | [EPUB](../content/books/madame-bovary/gutenberg-2413/book.epub) · [Text PDF](../content/books/madame-bovary/gutenberg-2413/book.pdf) |
 | Middlemarch | George Eliot | 1871 | [EPUB](../content/books/middlemarch/gutenberg-145/book.epub) · [Text PDF](../content/books/middlemarch/gutenberg-145/book.pdf) |
-| Moby-Dick | Herman Melville | 1851 | [EPUB](../content/books/moby-dick/gutenberg-2701/book.epub) · [Text PDF](../content/books/moby-dick/gutenberg-2701/book.pdf) |
+| Moby-Dick | Herman Melville | 1851 | [EPUB](../content/books/moby-dick/gutenberg-2701/book.epub) · [PDF](../content/books/moby-dick/internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville/facsimile.pdf) |
 | Moll Flanders | Daniel Defoe | 1722 | [EPUB](../content/books/moll-flanders/gutenberg-370/book.epub) · [Text PDF](../content/books/moll-flanders/gutenberg-370/book.pdf) |
 | Noli Me Tangere | José Rizal | 1887 | [EPUB](../content/books/noli-me-tangere/gutenberg-21848/book.epub) · [Text PDF](../content/books/noli-me-tangere/gutenberg-21848/book.pdf) |
 | Paradise Lost | John Milton | 1667 | [EPUB](../content/books/paradise-lost/gutenberg-26/book.epub) · [Text PDF](../content/books/paradise-lost/gutenberg-26/book.pdf) |
@@ -139,7 +139,7 @@ High-impact works selected for literary and historical importance.
 | The Canterbury Tales | Geoffrey Chaucer | 1400 | [EPUB](../content/books/the-canterbury-tales/gutenberg-2383/book.epub) · [Text PDF](../content/books/the-canterbury-tales/gutenberg-2383/book.pdf) |
 | The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [Text PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) |
 | The Counterfeiters | André Gide | 1925 | [EPUB](../content/books/the-counterfeiters/gutenberg-76965/book.epub) · [Text PDF](../content/books/the-counterfeiters/gutenberg-76965/book.pdf) |
-| The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [Text PDF](../content/books/the-decameron/gutenberg-23700/book.pdf) |
+| The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [PDF](../content/books/the-decameron/internet-archive-ost-english-the_decameron/facsimile.pdf) |
 | The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [Text PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) |
 | The Great Gatsby | F. Scott Fitzgerald | 1925 | [EPUB](../content/books/the-great-gatsby/gutenberg-64317/book.epub) · [Text PDF](../content/books/the-great-gatsby/gutenberg-64317/book.pdf) |
 | The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [Text PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) |
@@ -159,7 +159,7 @@ High-impact works selected for literary and historical importance.
 | Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | [EPUB](../content/books/uncle-toms-cabin/gutenberg-203/book.epub) · [Text PDF](../content/books/uncle-toms-cabin/gutenberg-203/book.pdf) |
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
 | We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
-| Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [Text PDF](../content/books/women-in-love/gutenberg-4240/book.pdf) |
+| Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [PDF](../content/books/women-in-love/internet-archive-in.ernet.dli.2015.158190/facsimile.pdf) |
 | Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [Text PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) |
 
 ## Suppressed Knowledge

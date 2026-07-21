@@ -57,6 +57,27 @@
             "bytes": 700104
           }
         ]
+      },
+      {
+        "edition_id": "a-tale-of-two-cities-english-facsimile-internet-archive-in.ernet.dli.2015.225252",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "in.ernet.dli.2015.225252",
+        "provenance_path": "content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/in.ernet.dli.2015.225252"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf",
+            "sha256": "8e501cd02e6cbc2570c02063594a2ef2edd097b05f943d177e03cf60138c5607",
+            "bytes": 39882305
+          }
+        ]
       }
     ],
     "a-vindication-of-the-rights-of-woman": [
@@ -811,6 +832,27 @@
             "bytes": 903196
           }
         ]
+      },
+      {
+        "edition_id": "great-expectations-english-facsimile-internet-archive-ost-english-greatexpectation1890dick_bw",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "ost-english-greatexpectation1890dick_bw",
+        "provenance_path": "content/books/great-expectations/internet-archive-ost-english-greatexpectation1890dick_bw/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/ost-english-greatexpectation1890dick_bw"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/great-expectations/internet-archive-ost-english-greatexpectation1890dick_bw/facsimile.pdf",
+            "sha256": "64f6d7e41f9ae3d26492719c5c5085e8d8fbaae58bef3c0969af13cc7f69f310",
+            "bytes": 24305514
+          }
+        ]
       }
     ],
     "gullivers-travels": [
@@ -1244,6 +1286,27 @@
             "path": "content/books/moby-dick/gutenberg-2701/book.pdf",
             "sha256": "4fd662aa00d543bf625961e33d1bac727faf29271c721d048cfa3f6894b560d7",
             "bytes": 1068020
+          }
+        ]
+      },
+      {
+        "edition_id": "moby-dick-english-facsimile-internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "ost-english-moby-dick-or-the-whale-by-herman-melville",
+        "provenance_path": "content/books/moby-dick/internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/ost-english-moby-dick-or-the-whale-by-herman-melville"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/moby-dick/internet-archive-ost-english-moby-dick-or-the-whale-by-herman-melville/facsimile.pdf",
+            "sha256": "02d83a29454434c3363e0814eedee69612b00714e27fdad25aacb87e6e8656c9",
+            "bytes": 5859954
           }
         ]
       }
@@ -2077,6 +2140,27 @@
             "path": "content/books/the-decameron/gutenberg-23700/book.pdf",
             "sha256": "feb51ed1478ff8af3c9fb1110cee38def7897925d65383559d19cda0ed72d8db",
             "bytes": 1391653
+          }
+        ]
+      },
+      {
+        "edition_id": "the-decameron-english-facsimile-internet-archive-ost-english-the_decameron",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "ost-english-the_decameron",
+        "provenance_path": "content/books/the-decameron/internet-archive-ost-english-the_decameron/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/ost-english-the_decameron"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/the-decameron/internet-archive-ost-english-the_decameron/facsimile.pdf",
+            "sha256": "13bb3842477cf83a1671579c6cfeb486260b3e3394ff0efc11e8839935924d27",
+            "bytes": 10544860
           }
         ]
       }
@@ -3206,6 +3290,27 @@
             "path": "content/books/women-in-love/gutenberg-4240/book.pdf",
             "sha256": "cedd2f79008f28cdd235600e2333e0e2de7b69d0f5f57d9c5da25a91c087fbd6",
             "bytes": 969548
+          }
+        ]
+      },
+      {
+        "edition_id": "women-in-love-english-facsimile-internet-archive-in.ernet.dli.2015.158190",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "in.ernet.dli.2015.158190",
+        "provenance_path": "content/books/women-in-love/internet-archive-in.ernet.dli.2015.158190/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/in.ernet.dli.2015.158190"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/women-in-love/internet-archive-in.ernet.dli.2015.158190/facsimile.pdf",
+            "sha256": "54a830246b7970ec414382968d838e45455adb47d873907ee4236ccca13d33b6",
+            "bytes": 64234204
           }
         ]
       }

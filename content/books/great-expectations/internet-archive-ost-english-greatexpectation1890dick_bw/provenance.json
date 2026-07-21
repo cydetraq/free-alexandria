@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "great-expectations",
+  "edition_id": "great-expectations-english-facsimile-internet-archive-ost-english-greatexpectation1890dick_bw",
+  "source": {
+    "name": "Internet Archive",
+    "item_id": "ost-english-greatexpectation1890dick_bw",
+    "edition_page": "https://archive.org/details/ost-english-greatexpectation1890dick_bw",
+    "download_url": "https://archive.org/download/ost-english-greatexpectation1890dick_bw/greatexpectation1890dick_bw.pdf",
+    "acquired_at": "2026-07-21T22:05:58+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/great-expectations/internet-archive-ost-english-greatexpectation1890dick_bw/facsimile.pdf",
+      "sha256": "64f6d7e41f9ae3d26492719c5c5085e8d8fbaae58bef3c0969af13cc7f69f310",
+      "bytes": 24305514
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

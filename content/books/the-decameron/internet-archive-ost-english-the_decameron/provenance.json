@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "the-decameron",
+  "edition_id": "the-decameron-english-facsimile-internet-archive-ost-english-the_decameron",
+  "source": {
+    "name": "Internet Archive",
+    "item_id": "ost-english-the_decameron",
+    "edition_page": "https://archive.org/details/ost-english-the_decameron",
+    "download_url": "https://archive.org/download/ost-english-the_decameron/The_Decameron.pdf",
+    "acquired_at": "2026-07-21T22:06:37+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/the-decameron/internet-archive-ost-english-the_decameron/facsimile.pdf",
+      "sha256": "13bb3842477cf83a1671579c6cfeb486260b3e3394ff0efc11e8839935924d27",
+      "bytes": 10544860
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

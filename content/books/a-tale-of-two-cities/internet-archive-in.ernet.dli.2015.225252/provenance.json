@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "a-tale-of-two-cities",
+  "edition_id": "a-tale-of-two-cities-english-facsimile-internet-archive-in.ernet.dli.2015.225252",
+  "source": {
+    "name": "Internet Archive / Digital Library of India",
+    "item_id": "in.ernet.dli.2015.225252",
+    "edition_page": "https://archive.org/details/in.ernet.dli.2015.225252",
+    "download_url": "https://archive.org/download/in.ernet.dli.2015.225252/2015.225252.A-Tale.pdf",
+    "acquired_at": "2026-07-21T22:05:27+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf",
+      "sha256": "8e501cd02e6cbc2570c02063594a2ef2edd097b05f943d177e03cf60138c5607",
+      "bytes": 39882305
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

@@ -12,6 +12,8 @@ import datetime as dt
 import hashlib
 import json
 import shutil
+import subprocess
+import sys
 import urllib.request
 from pathlib import Path
 
@@ -73,6 +75,7 @@ def main() -> int:
     editions = registry.setdefault("editions", {}).setdefault(args.work_id, [])
     registry["editions"][args.work_id] = [item for item in editions if item.get("edition_id") != edition_id] + [edition]
     args.registry.write_text(json.dumps(registry, indent=2) + "\n")
+    subprocess.run([sys.executable, str(ROOT / "tools" / "export_catalog.py")], cwd=ROOT, check=True)
     print(f"ADDED {record['title']} facsimile: {args.source_name} {args.source_item_id} ({file['bytes']} bytes)")
     return 0
 
