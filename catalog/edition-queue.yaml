@@ -8,8 +8,8 @@
   edition_year: 1884
   acquisition_status: edition-identified
   intended_paths:
-    epub: content/books/project-gutenberg/76/book.epub
-    pdf: content/books/project-gutenberg/76/book.pdf
+    epub: content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.epub
+    pdf: content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.pdf
 
 - id: don-quixote-en-ormsby-1885-gutenberg-996
   work_id: don-quixote
@@ -21,8 +21,8 @@
   edition_year: 1885
   acquisition_status: edition-identified
   intended_paths:
-    epub: content/books/project-gutenberg/996/book.epub
-    pdf: content/books/project-gutenberg/996/book.pdf
+    epub: content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.epub
+    pdf: content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.pdf
 
 - id: ulysses-en-original-1922-gutenberg-4300
   work_id: ulysses
@@ -33,8 +33,8 @@
   edition_year: 1922
   acquisition_status: edition-identified
   intended_paths:
-    epub: content/books/project-gutenberg/4300/book.epub
-    pdf: content/books/project-gutenberg/4300/book.pdf
+    epub: content/books/ulysses/en-original-1922--gutenberg-4300/book.epub
+    pdf: content/books/ulysses/en-original-1922--gutenberg-4300/book.pdf
 
 - id: the-jungle-en-original-1906-gutenberg-1400
   work_id: the-jungle
@@ -45,8 +45,8 @@
   edition_year: 1906
   acquisition_status: edition-identified
   intended_paths:
-    epub: content/books/project-gutenberg/1400/book.epub
-    pdf: content/books/project-gutenberg/1400/book.pdf
+    epub: content/books/the-jungle/en-original-1906--gutenberg-1400/book.epub
+    pdf: content/books/the-jungle/en-original-1906--gutenberg-1400/book.pdf
 
 - id: fm-21-76-en-fm-21-76-1957-library-of-congress-queue
   work_id: fm-21-76-survival
@@ -56,4 +56,4 @@
   edition_year: 1957
   acquisition_status: candidate
   intended_paths:
-    pdf: content/manuals/library-of-congress/pending-loc-item-id/manual.pdf
+    pdf: content/manuals/fm-21-76-survival/en-1957--loc-pending-item-id/manual.pdf

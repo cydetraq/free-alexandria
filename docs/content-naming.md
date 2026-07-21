@@ -2,23 +2,22 @@
 
 ## Decision
 
-Use a local **record ID** only as a catalog key, retain all applicable external identifiers, and use the source-native identifier for acquired-file paths. Do not encode mutable claims such as “best,” “final,” or “latest” in a filename, and do not overwrite an acquired edition merely because a better copy becomes available.
+Use a local **record ID** as the human-readable work folder, retain all applicable external identifiers, and include the source-native identifier in the edition folder. Do not encode mutable claims such as “best,” “final,” or “latest” in a filename, and do not overwrite an acquired edition merely because a better copy becomes available.
 
 ```text
 content/
   books/
-    project-gutenberg/
-      996/
+    don-quixote/
+      en-ormsby-1885--gutenberg-996/
         book.epub
         book.pdf
         provenance.json
-    internet-archive/
-      donquixote01cerv/
+      es-original-1605--internet-archive-donquixote01cerv/
         book.epub
         provenance.json
 ```
 
-`don-quixote` remains a local record ID; it is not a claimed global identifier. `project-gutenberg/996` is the canonical source location for that acquired Gutenberg edition. File roles are deliberately short and predictable: `book.epub`, `book.pdf`, `source.txt`, `cover.webp`, and `provenance.json`.
+`don-quixote` remains a local record ID; it is not a claimed global identifier. `gutenberg-996` is the source-native identity for that acquired Gutenberg edition. File roles are deliberately short and predictable: `book.epub`, `book.pdf`, `source.txt`, `cover.webp`, and `provenance.json`.
 
 ## Why this is preferable
 
@@ -31,10 +30,11 @@ content/
 
 - **Catalog record ID:** lowercase kebab case, stable within this repository: `the-great-gatsby`. It is a join key, not an external authority ID.
 - **Work identifiers:** use external authority IDs where available, with a scheme label: Wikidata QID, Open Library work ID, Library of Congress work/authority ID, or another established bibliographic identifier.
+- **Edition directory:** `{language}-{translator-or-original}-{edition-year}--{source-slug}-{source-item}`. Example: `en-ormsby-1885--gutenberg-996`.
 - **Edition identifiers:** use the source's native immutable ID: Project Gutenberg ebook number, Internet Archive identifier, Library of Congress item ID, HathiTrust identifier, or a publisher's stable record ID.
 - **Manual identifiers:** preserve publication number, date/revision, and an institutional record identifier. A field-manual number alone is not unique.
 
-Use a local accession number only when the source lacks a stable identifier. Avoid URLs in filenames.
+Use a local accession number only when the source lacks a stable identifier. Avoid URLs in filenames. The combination of the readable edition description and source-native suffix is intended to be browsable on a card without opening the catalog.
 
 ## Required provenance
 

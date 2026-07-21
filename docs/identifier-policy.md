@@ -18,16 +18,16 @@ ISBNs identify particular published manifestations and are useful when present, 
 
 ## Filesystem rule
 
-File paths are source-native, never title-derived:
+File paths are human-browsable and include the source-native edition ID:
 
 ```text
-content/books/project-gutenberg/76/book.epub
-content/books/internet-archive/{identifier}/book.pdf
-content/manuals/library-of-congress/{item-id}/manual.pdf
-content/documents/ready-gov/{publication-id}/guide.pdf
+content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.epub
+content/books/don-quixote/es-original-1605--internet-archive-{identifier}/book.pdf
+content/manuals/fm-21-76-survival/en-1957--loc-{item-id}/manual.pdf
+content/documents/food-and-water-in-an-emergency/en-current--ready-gov-{publication-id}/guide.pdf
 ```
 
-The work record links to these locations via an edition record. This prevents false identity claims, provides a clear re-download path, and allows multiple copies of the same work to coexist.
+The work record links to these locations via an edition record. This preserves a clear re-download path, keeps direct browsing pleasant, and allows multiple copies of the same work to coexist.
 
 ## Local IDs
 
