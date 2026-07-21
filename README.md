@@ -2,11 +2,11 @@
 
 > A portable archive of human knowledge.
 
-Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or any simple local web server.
+Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or a simple local web server.
 
 ## Offline-first requirement
 
-The finished distribution must work without the internet, DNS, a library catalog, an app store, or a third-party service. The portal, search index, reader-facing descriptions, rights notes, source provenance, checksums, and all included content are local files. External links and identifiers are retained only for audit and future refreshes; the device must never need them at runtime.
+The finished distribution must work without the internet, DNS, a library catalog, an app store, or a third-party service. The portal, search index, reader-facing descriptions, rights notes, source provenance, checksums, and all included content must be local files. External links and identifiers are retained only for audit, acquisition, and future refreshes; the device must never need them at runtime.
 
 ## Principles
 
@@ -14,45 +14,56 @@ The finished distribution must work without the internet, DNS, a library catalog
 - Treat offline usefulness as the primary product requirement; no core feature may depend on a live service.
 - Keep the catalog as the source of truth; generate the portal and distribution manifest from it.
 - Prefer established bibliographic and source-native identifiers over title-derived names; local slugs are join keys, not canonical IDs.
-- Keep acquisition sources and provenance beside every stored edition; external URLs are audit metadata, not reader-facing local-download controls.
+- Keep acquisition sources and provenance beside every stored edition; external URLs are audit metadata, not substitutes for required local content.
 - Preserve original-language texts alongside eligible English translations where possible.
 - Label historical medical, safety, and technical information clearly when current guidance should take precedence.
 - Keep the catalog usable for people making their own selections and local archives.
 
 ## Repository layout
 
-- `catalog/` — catalog records, collection definitions, and tags.
-- `metadata/` — the curation-profile contract.
+- `catalog/` — catalog records, collection definitions, tags, and published-edition registry.
+- `metadata/` — curation and metadata contracts.
 - `content/` — committed EPUB/PDF editions and their provenance.
 - `portal/` — static offline site source.
-- `tools/` — validation and build tooling.
-- `docs/` — the readable catalog plus build, content, and curation guidance.
+- `profiles/` — build selections and capacity policy.
+- `tools/` — validation, acquisition, audit, and build tooling.
+- `docs/` — readable catalogs plus build, content, curation, and device guidance.
 
-## Status
+## Current status
 
-The downloadable catalog is currently a **381 MB bootstrap**: 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file. Recommendations for works not supplied here live separately in the curated reading lists. It is not the intended 32 GB Pocket Alexandria device edition; that edition will use roughly 28 GB of usable capacity for source-faithful scans, practical manuals, and other high-value offline references.
+This repository is a **bootstrap archive**, not yet a completed Pocket Alexandria device edition.
 
-The catalog distinguishes reader-facing local EPUB/PDF files from acquisition metadata. Every local edition has adjacent provenance with its source and file checksums.
+The generated local catalog currently reports **111 included works**. The corpus has strong public-domain literary coverage, stored EPUB/PDF editions, provenance, checksums, local search, and profile-driven builds. It does not yet satisfy the full original requirements because the locally mirrored preparedness corpus, verified open-distribution corpus, stored cover thumbnails, multilingual reader presentation, and ESP32 captive-portal device implementation remain incomplete.
+
+The authoritative release contract is [`docs/original-requirements.md`](docs/original-requirements.md). A release must not be described or tagged as a completed device edition until the original-requirements audit passes.
 
 ## Browse or consume the archive
 
-The repository is usable as a standalone catalog after cloning—no portal build, online service, or external catalog is required.
+The repository is usable as a standalone literary bootstrap after cloning—no portal build, online service, or external catalog is required for the locally supplied editions.
 
 - Browse the [downloadable catalog](docs/catalog.md) on GitHub or offline.
 - Browse [curated reading lists](docs/curated-reading.md) separately; those titles are recommendations, not supplied files.
 - Consume the committed [V1 JSON export](catalog/catalog.json) from scripts or other catalog tools.
 - Inspect source records and stored editions in [`catalog/`](catalog/) and [`content/`](content/).
 
-## Quick start
+## Validation and release audit
 
 ```sh
 python3 tools/validate_catalog.py --strict
+python3 tools/audit_original_requirements.py
+```
+
+The first command validates current catalog integrity. The second is intentionally stricter: it checks the repository against the original requested outcome and must fail while any required section is missing.
+
+## Build the current bootstrap
+
+```sh
 python3 tools/build_profile.py profiles/free-alexandria-v1.json
 ```
 
-The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks. `--strict` is the offline release check: it verifies the taxonomy, selected files, provenance, reader metadata, local links, and checksums without contacting a live service. Run `python3 tools/lint_sources.py --online` separately when you deliberately want to test recorded Gutenberg source endpoints.
+This creates `dist/free-alexandria-v1/`, a self-contained static archive containing the editions selected by that profile, search data, local download links, provenance, and recorded source metadata. Passing this build alone does not establish that the original 32 GB captive-portal specification has been completed.
 
-To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild your local archive, run:
+To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild a local archive:
 
 ```sh
 python3 tools/populate_from_gutenberg.py --all-catalog --acquire
@@ -61,16 +72,14 @@ python3 tools/create_profile_from_registry.py --registry catalog/local-editions.
 python3 tools/build_profile.py profiles/local/my-archive.json --edition-registry catalog/local-editions.json
 ```
 
-The result is a static portal with its selected EPUB/PDF files, local search data, provenance records, and checksums. Works without an exact stored Project Gutenberg edition remain available through their recorded source options and can be added with the same workflow.
-
-To make a personal, selectable catalog view, open the built archive, choose individual records (or select all/none), and download its selection file. Convert it into a private profile with:
+To make a personal selectable catalog view, open the built archive, choose records, and download its selection file. Convert it into a private profile with:
 
 ```sh
 python3 tools/create_profile_from_selection.py profiles/local-selection.example.json --output profiles/local/my-selection.json
 python3 tools/build_profile.py profiles/local/my-selection.json
 ```
 
-The profile is a wish list and build input, not a forced download list. See [adding content](docs/adding-content.md) for the acquisition workflow.
+See [adding content](docs/adding-content.md) for the acquisition workflow.
 
 ## Collections
 

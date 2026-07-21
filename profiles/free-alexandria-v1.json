@@ -8,6 +8,7 @@
     "name": "Free Alexandria"
   },
   "build_mode": "distribution",
+  "maximum_bytes": 28000000000,
   "language_preferences": [],
   "include_record_ids": [
     "a-portrait-of-the-artist-as-a-young-man",
@@ -99,7 +100,8 @@
   "exclude_record_ids": [],
   "constraints": {
     "require_local_files": true,
-    "allow_link_only": false
+    "allow_link_only": false,
+    "reserve_bytes": 1800000000
   },
-  "notes": "Includes every source-provenanced EPUB/PDF edition currently committed to this repository. The 32 GB device edition has a roughly 28 GB usable-content target."
+  "notes": "Includes every source-provenanced EPUB/PDF edition currently committed to this repository. The profile caps content at 28,000,000,000 bytes, leaving approximately 1.8 GB on a nominal 32 GB card for FAT32 overhead, firmware support files, future metadata growth, and operational reserve."
 }
