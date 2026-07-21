@@ -83,7 +83,7 @@
         let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
-        const availabilityLabel = (record, edition) => edition ? 'Available on this device' : record.catalog_status === 'link-only' ? 'Find, borrow, or buy' : 'Add to your library list';
+        const availabilityLabel = (record, edition) => edition ? 'EPUB + PDF included' : (record.source_options || []).length ? 'Source options available' : record.catalog_status === 'link-only' ? 'Find, borrow, or buy' : 'Cataloged reference';
         const sourceActions = record => {
           const options = record.source_options || [];
           if (!options.length) return '';

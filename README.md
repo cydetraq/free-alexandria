@@ -34,7 +34,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository deliberately does not commit large book files. The included population and build tools create a self-contained local archive from the exact source links stored in the catalog, recording source, acquisition time, file hashes, and byte counts beside every acquired edition.
 
-Candidate rights labels are deliberately conservative. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
+Availability labels identify whether this repository includes a local EPUB/PDF copy or records a source link. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
 
 ## Browse or consume the catalog
 

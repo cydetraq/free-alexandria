@@ -14,6 +14,23 @@ API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
 
 
+def load_published_ids() -> set[str]:
+    """Return work IDs with a committed local edition in this repository."""
+    registry = json.loads((CATALOG / "published-editions.json").read_text())
+    return {work_id for work_id, editions in registry.get("editions", {}).items() if editions}
+
+
+def reader_availability(record: dict, options: list[dict], published_ids: set[str]) -> dict[str, str]:
+    """Short, reader-facing labels; internal workflow states stay out of the catalog UI."""
+    if record["id"] in published_ids:
+        return {"access": "Source recorded", "library": "EPUB + PDF included"}
+    if options:
+        return {"access": "Source link available", "library": "Not included locally"}
+    if record.get("catalog_status") == "link-only":
+        return {"access": "Find, borrow, or buy", "library": "Not included locally"}
+    return {"access": "Cataloged reference", "library": "Not included locally"}
+
+
 def rights_guidance(record: dict, options: list[dict]) -> dict:
     """Evidence-oriented guidance, never a legal conclusion or permission grant."""
     year = record.get("original_year")
@@ -49,11 +66,13 @@ def render_api() -> str:
     source_documents["published-editions.json"] = (CATALOG / "published-editions.json").read_text()
     source_documents["resolved-sources.json"] = (CATALOG / "resolved-sources.json").read_text()
     source_options = load_source_options()
+    published_ids = load_published_ids()
     records = [
         {
             **record,
             "source_options": source_options.get(record["id"], []),
             "rights_guidance": rights_guidance(record, source_options.get(record["id"], [])),
+            "reader_availability": reader_availability(record, source_options.get(record["id"], []), published_ids),
         }
         for record in load_records()
     ]
@@ -90,6 +109,8 @@ def render_markdown(records: list[dict]) -> str:
         "original-language": "Original-Language Library",
         "essential-literature": "Essential Literature",
     }
+    source_options = load_source_options()
+    published_ids = load_published_ids()
     lines = [
         "# Catalog",
         "",
@@ -102,15 +123,16 @@ def render_markdown(records: list[dict]) -> str:
         "",
     ]
     for collection in sorted(grouped, key=lambda item: labels.get(item, item)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Rights | Status |", "| --- | --- | ---: | --- | --- |"])
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Access | Library copy |", "| --- | --- | ---: | --- | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
+            availability = reader_availability(record, source_options.get(record["id"], []), published_ids)
             lines.append(
-                "| {title} | {creator} | {year} | {rights} | {status} |".format(
+                "| {title} | {creator} | {year} | {access} | {library} |".format(
                     title=table_cell(record.get("title")),
                     creator=table_cell(record.get("author") or record.get("publisher")),
                     year=table_cell(record.get("original_year")),
-                    rights=table_cell(record.get("rights_status")),
-                    status=table_cell(record.get("catalog_status", "candidate")),
+                    access=table_cell(availability["access"]),
+                    library=table_cell(availability["library"]),
                 )
             )
         lines.append("")
