@@ -1,0 +1,13 @@
+{
+  "format_version": 1,
+  "canonical_path": "docs/curated-reading.md",
+  "git_blob_sha1": "049048815c36366a58df21713955fed5d3547e84",
+  "policy": {
+    "membership_changes_require_lock_update": true,
+    "generic_search_may_not_be_primary_link": true,
+    "forbidden_primary_link_hosts": [
+      "libbyapp.com"
+    ]
+  },
+  "note": "This lock makes changes to the canonical reading-list document explicit. Update it only as part of a deliberate editorial change recorded in the PKB."
+}
