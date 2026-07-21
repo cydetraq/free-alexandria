@@ -9,7 +9,7 @@
     "original_year": {"type": "integer", "minimum": -3000, "maximum": 2100},
     "collections": {"type": "array", "minItems": 1, "items": {"type": "string"}},
     "catalog_status": {"type": "string", "enum": ["candidate", "edition-identified", "acquired", "verified", "published", "link-only"]},
-    "rights_status": {"type": "string", "enum": ["public-domain-us", "open-license", "permission-granted", "copyrighted-link-only", "verify-edition"]},
+    "rights_status": {"type": "string", "enum": ["pre-1931-work-candidate", "edition-review-required", "open-license", "permission-granted", "copyrighted-link-only", "verify-edition"]},
     "tags": {"type": "array", "items": {"type": "string"}},
     "preferred_edition_id": {"type": "string"}
   }

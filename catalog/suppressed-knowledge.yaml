@@ -4,7 +4,7 @@
   original_year: 1644
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: A foundational argument against state licensing and prepublication censorship.
   why_included: Directly opposes systems that require official permission before publication.
@@ -16,7 +16,7 @@
   original_year: 1776
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: A direct argument that people may reject illegitimate political authority.
   why_included: Challenges hereditary rule and locates political authority in the people.
@@ -28,7 +28,7 @@
   original_year: 1791
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: A defense of popular sovereignty and a critique of hereditary government.
   why_included: Provides a compact case for political rights independent of dynastic authority.
@@ -40,7 +40,7 @@
   original_year: 1849
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: An argument against cooperation with profoundly unjust government action.
   why_included: Defends individual conscience against coercive state power.
@@ -52,7 +52,7 @@
   original_year: 1689
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: A defense of natural rights, consent of the governed, and limits on political authority.
   why_included: Supplies an enduring argument for removing governments that violate public trust.
@@ -65,14 +65,14 @@
   original_year: 1762
   original_language: French
   collections: [suppressed-knowledge, original-language]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   translations:
     - language: English
       translator: G. D. H. Cole
       translation_year: 1913
       quality: recommended-pd-translation
-      rights_status: public-domain-us
+      rights_status: pre-1931-work-candidate
   description: An argument that legitimate political authority arises from collective popular sovereignty.
   why_included: Banned and burned for republicanism and its challenge to established political authority.
   tags: [rights, revolution, political-philosophy, nonfiction]
@@ -84,14 +84,14 @@
   original_year: -380
   original_language: Ancient Greek
   collections: [suppressed-knowledge, original-language]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   translations:
     - language: English
       translator: Benjamin Jowett
       translation_year: 1871
       quality: serviceable-pd-translation
-      rights_status: public-domain-us
+      rights_status: pre-1931-work-candidate
   description: A dialogue about justice, government, education, censorship, art, and the ideal state.
   why_included: Often restricted in ideological settings; it is also a crucial source on the logic of censorship itself.
   tags: [political-philosophy, censorship, education, nonfiction]
@@ -102,7 +102,7 @@
   original_year: 1928
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: An early account of organized opinion management, symbols, authority, and mass persuasion.
   why_included: Helps readers identify techniques that governments and institutions use to shape public belief.
@@ -114,7 +114,7 @@
   original_year: 1922
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: An examination of stereotypes, media, expertise, and the construction of public belief.
   why_included: Gives readers tools for recognizing manufactured pictures of reality.
@@ -126,7 +126,7 @@
   original_year: 1916
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: public-domain-us
+  rights_status: pre-1931-work-candidate
   catalog_status: candidate
   description: A systematic historical guide to analyzing substitution and transposition ciphers.
   why_included: Preserves a practical foundation in private communication and cryptanalysis.

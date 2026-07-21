@@ -33,6 +33,8 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 This initial commit establishes the structure, policy, schema, and seed catalog. It contains no books, manuals, covers, or downloaded content.
 
+Candidate rights labels are deliberately conservative. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
+
 ## Browse or consume the catalog
 
 The repository is usable as a standalone catalog after cloning—no portal build, online service, or external catalog is required.

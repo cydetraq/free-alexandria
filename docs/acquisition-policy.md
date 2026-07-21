@@ -14,6 +14,8 @@ Use `catalog/edition-queue.yaml` to identify a candidate edition before download
 
 Follow `docs/identifier-policy.md`: keep the source-native identifier in the edition record and resolve established work-level identifiers before publication.
 
+Follow `docs/copyright-review.md` before classifying an edition as public domain, government work, openly licensed, or permission-granted.
+
 After verification, add the edition to `catalog/published-editions.json`. A distribution build reads only this registry; an acquisition-queue record alone can never place a file in an offline release.
 
 ## Do not acquire

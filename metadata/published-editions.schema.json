@@ -11,12 +11,23 @@
         "type": "array",
         "items": {
           "type": "object",
-          "required": ["edition_id", "language", "source_id", "source_item_id", "files"],
+          "required": ["edition_id", "language", "source_id", "source_item_id", "provenance_path", "rights_review", "files"],
           "properties": {
             "edition_id": {"type": "string"},
             "language": {"type": "string"},
             "source_id": {"type": "string"},
             "source_item_id": {"type": "string"},
+            "provenance_path": {"type": "string"},
+            "rights_review": {
+              "type": "object",
+              "required": ["status", "basis", "reviewed_at"],
+              "properties": {
+                "status": {"enum": ["public-domain-us", "open-license", "permission-granted", "government-work-us"]},
+                "basis": {"type": "string"},
+                "reviewed_at": {"type": "string", "format": "date"},
+                "evidence_url": {"type": "string", "format": "uri"}
+              }
+            },
             "files": {
               "type": "array",
               "minItems": 1,

@@ -32,6 +32,13 @@ if queue_path.exists():
         if match and match.group(1) not in work_ids:
             errors.append(f"{queue_path}:{number}: unknown work_id '{match.group(1)}'")
 
+for path in sorted(CATALOG.glob("*.yaml")):
+    for number, line in enumerate(path.read_text().splitlines(), 1):
+        if line.strip() == "rights_status: public-domain-us":
+            errors.append(
+                f"{path}:{number}: public-domain-us is edition-only; use a candidate or review status in source records"
+            )
+
 if errors:
     print("Catalog validation failed:", *errors, sep="\n")
     sys.exit(1)
