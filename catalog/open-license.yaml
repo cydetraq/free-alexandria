@@ -15,7 +15,7 @@
   author: Lawrence Lessig
   original_year: 2004
   original_language: English
-  collections: [open-distribution, suppressed-knowledge]
+  collections: [open-distribution]
   rights_status: open-license-review-required
   catalog_status: source-linked
   description: Argument about copyright, technology, creativity, and the commons.
@@ -40,9 +40,11 @@
   author: Cory Doctorow
   original_year: 2003
   original_language: English
-  collections: [open-distribution, essential-reading]
-  rights_status: open-license-review-required
-  catalog_status: source-linked
+  collections: [open-distribution, suppressed-knowledge]
+  rights_status: open-license
+  distribution_license: CC BY-NC-ND 1.0
+  distribution_terms: Unchanged noncommercial redistribution with attribution; retain the copyright and license notices included in the edition.
+  catalog_status: locally-supplied
   description: Novel of reputation systems, technological control, identity, and cultural ownership.
   why_included: A novel of reputation systems, technological control, identity, and cultural ownership.
   tags: [technology, identity, fiction, license-review]

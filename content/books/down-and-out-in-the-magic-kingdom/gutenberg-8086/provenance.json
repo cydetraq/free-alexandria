@@ -8,6 +8,12 @@
     "edition_page": "https://www.gutenberg.org/ebooks/8086",
     "acquired_at": "2026-07-21T18:38:02+00:00"
   },
+  "license": {
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivs 1.0",
+    "identifier": "CC BY-NC-ND 1.0",
+    "terms": "Unchanged noncommercial redistribution with attribution. The copyright and license notices are retained in the supplied EPUB and PDF.",
+    "evidence": "The Project Gutenberg edition identifies Copyright © 2003 Cory Doctorow and links to the CC BY-NC-ND 1.0 license."
+  },
   "files": [
     {
       "role": "epub",

@@ -270,8 +270,8 @@
         "source_item_id": "8086",
         "provenance_path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/provenance.json",
         "rights_review": {
-          "status": "operator-selected",
-          "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+          "status": "explicit-open-license",
+          "basis": "The stored edition identifies Cory Doctorow's CC BY-NC-ND 1.0 license. It permits unchanged, attributed, noncommercial redistribution; its copyright and license notices remain inside the supplied edition.",
           "reviewed_at": "2026-07-21",
           "evidence_url": "https://www.gutenberg.org/ebooks/8086"
         },

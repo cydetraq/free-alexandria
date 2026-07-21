@@ -115,6 +115,7 @@ A work can appear in more than one collection because the collections are separa
 | Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [Text PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) |
 | Democracy in America | Alexis de Tocqueville | 1835 | [EPUB](../content/books/democracy-in-america/gutenberg-815/book.epub) · [Text PDF](../content/books/democracy-in-america/gutenberg-815/book.pdf) |
 | Dialogues Concerning Natural Religion | David Hume | 1779 | [EPUB](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.epub) · [Text PDF](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.pdf) |
+| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | [EPUB](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub) · [Text PDF](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf) |
 | El Filibusterismo | José Rizal | 1891 | [EPUB](../content/books/el-filibusterismo/gutenberg-30903/book.epub) · [Text PDF](../content/books/el-filibusterismo/gutenberg-30903/book.pdf) |
 | Elementary Cryptanalysis | Helen Fouché Gaines | 1939 | [EPUB](../content/books/elementary-cryptanalysis/gutenberg-75074/book.epub) · [Text PDF](../content/books/elementary-cryptanalysis/gutenberg-75074/book.pdf) |
 | Elmer Gantry | Sinclair Lewis | 1927 | [EPUB](../content/books/elmer-gantry/gutenberg-72609/book.epub) · [Text PDF](../content/books/elmer-gantry/gutenberg-72609/book.pdf) |
@@ -207,12 +208,6 @@ A work can appear in more than one collection because the collections are separa
 | What Is Property? | Pierre-Joseph Proudhon | 1840 | [EPUB](../content/books/what-is-property/gutenberg-360/book.epub) · [Text PDF](../content/books/what-is-property/gutenberg-360/book.pdf) |
 
 ## Open-Distribution Library
-
-| Title | Author / publisher | Year | Local files |
-| --- | --- | ---: | --- |
-| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | [EPUB](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub) · [Text PDF](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf) |
-
-## Essential Reading
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
