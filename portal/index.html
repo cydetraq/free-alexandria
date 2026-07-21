@@ -85,9 +85,9 @@
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
         const availabilityLabel = (record, edition) => edition ? 'Available on this device' : record.catalog_status === 'link-only' ? 'Find, borrow, or buy' : 'Add to your library list';
         const sourceActions = record => {
-          const query = encodeURIComponent([record.title, record.author || record.publisher || ''].filter(Boolean).join(' '));
-          const direct = record.source_url ? `<a class="action" target="_blank" rel="noopener" href="${esc(record.source_url)}">Open source</a>` : '';
-          return `<details><summary>Find or get a copy</summary><p class="meta">When you have internet access, use the sources that work for you.</p><p class="actions">${direct}<a class="action" target="_blank" rel="noopener" href="https://openlibrary.org/search?q=${query}">Find at libraries</a><a class="action secondary" target="_blank" rel="noopener" href="https://archive.org/advancedsearch.php?q=${query}">Search Archive.org</a><a class="action secondary" target="_blank" rel="noopener" href="https://www.amazon.com/s?k=${query}">Find to buy</a></p></details>`;
+          const options = record.source_options || [];
+          if (!options.length) return '';
+          return `<details><summary>Source editions</summary><p class="meta">These are exact edition records saved in this catalog. They require internet access.</p><p class="actions">${options.map(option => `<a class="action secondary" target="_blank" rel="noopener" href="${esc(option.url)}">${esc(option.label)} edition</a>`).join(' ')}</p></details>`;
         };
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';

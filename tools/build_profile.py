@@ -64,6 +64,36 @@ def load_records(paths: list[Path] | None = None, skip: set[str] | None = None) 
     return records
 
 
+def load_source_options() -> dict[str, list[dict]]:
+    """Read exact, edition-level source URLs from the acquisition queue.
+
+    This deliberately emits no guessed search links: a portal card receives a source
+    action only when the catalog has an explicit source URL for that work.
+    """
+    queue = CATALOG / "edition-queue.yaml"
+    options: dict[str, list[dict]] = {}
+    current: dict | None = None
+    for raw in queue.read_text().splitlines():
+        if raw.startswith("- id: "):
+            if current and current.get("work_id") and current.get("source_url"):
+                options.setdefault(current["work_id"], []).append({
+                    "label": current.get("source_id", "source").replace("-", " ").title(),
+                    "url": current["source_url"],
+                    "edition_id": current["id"],
+                })
+            current = {"id": raw.split(": ", 1)[1]}
+        elif current is not None and raw.startswith("  ") and not raw.startswith("    ") and ": " in raw:
+            key, value = raw.strip().split(": ", 1)
+            current[key] = value.strip("'\"")
+    if current and current.get("work_id") and current.get("source_url"):
+        options.setdefault(current["work_id"], []).append({
+            "label": current.get("source_id", "source").replace("-", " ").title(),
+            "url": current["source_url"],
+            "edition_id": current["id"],
+        })
+    return options
+
+
 def revision() -> str:
     try:
         return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
@@ -142,6 +172,8 @@ def main() -> int:
 
     profile = json.loads(args.profile.read_text())
     records = select(profile, load_records())
+    source_options = load_source_options()
+    records = [{**record, "source_options": source_options.get(record["id"], [])} for record in records]
     editions = resolve_editions(profile, records) if profile["build_mode"] == "distribution" else {}
     output = args.output / profile["id"]
     if output.exists():
