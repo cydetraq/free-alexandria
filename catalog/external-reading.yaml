@@ -1,0 +1,21 @@
+- id: nineteen-eighty-four
+  title: Nineteen Eighty-Four
+  author: George Orwell
+  original_year: 1949
+  collections: [essential-reading]
+  rights_status: copyrighted-link-only
+  description: A novel of surveillance, controlled language, manufactured reality, and political terror.
+  why_included: Essential fiction for understanding authoritarian information control.
+  link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.
+  tags: [authoritarianism, censorship, surveillance, fiction]
+
+- id: the-rape-of-the-mind
+  title: The Rape of the Mind
+  author: Joost Meerloo
+  original_year: 1956
+  collections: [essential-reading]
+  rights_status: copyrighted-link-only
+  description: A study of coercive persuasion and totalitarian psychological control.
+  why_included: A foundational reference for recognizing coercive ideological environments.
+  link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.
+  tags: [propaganda, coercive-persuasion, psychology, nonfiction]

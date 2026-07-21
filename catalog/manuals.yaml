@@ -1,0 +1,28 @@
+- id: fm-21-76-survival
+  title: Survival
+  publication_number: FM 21-76
+  publisher: United States Army
+  recommended_edition: Most recent unrestricted edition; retain 1957 edition as historical context.
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Shelter, water, fire, signaling, navigation, weather, and survival psychology.
+  safety_note: Historical medical, food, and safety recommendations must be compared with current civilian guidance.
+  tags: [survival, navigation, water, fieldcraft]
+
+- id: fm-3-25-26-map-reading-and-land-navigation
+  title: Map Reading and Land Navigation
+  publication_number: FM 3-25.26
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Maps, compass bearings, coordinates, terrain association, and route planning.
+  tags: [navigation, maps, fieldcraft]
+
+- id: fm-5-125-rigging-techniques
+  title: Rigging Techniques, Procedures and Applications
+  publication_number: FM 5-125
+  publisher: United States Army
+  collections: [preparedness]
+  distribution_status: verify-edition
+  civilian_relevance: Rope, knots, slings, hoists, anchors, and mechanical advantage.
+  tags: [knots, rigging, construction, fieldcraft]

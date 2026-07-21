@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Free Alexandria catalog record",
+  "type": "object",
+  "required": ["id", "title", "collections"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 1},
+    "original_year": {"type": "integer", "minimum": -3000, "maximum": 2100},
+    "collections": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "rights_status": {"type": "string", "enum": ["public-domain-us", "open-license", "permission-granted", "copyrighted-link-only", "verify-edition"]},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

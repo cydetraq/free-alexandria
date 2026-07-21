@@ -1,0 +1,10 @@
+- id: eff-surveillance-self-defense
+  title: Surveillance Self-Defense
+  publisher: Electronic Frontier Foundation
+  collections: [suppressed-knowledge]
+  rights_status: open-license
+  claimed_license: CC BY
+  distribution_status: verify-license-on-source
+  description: Current guidance on threat modeling, private communications, metadata, and device security.
+  snapshot_policy: Store review date, source URL, attribution, license text, and an unchanged snapshot where permitted.
+  tags: [privacy, digital-security, encryption, censorship-circumvention]

@@ -1,0 +1,12 @@
+rights_status:
+  public-domain-us: Local files may be mirrored after edition verification.
+  open-license: Local files may be mirrored only with the license and attribution record.
+  permission-granted: Local files may be mirrored only with retained written permission.
+  copyrighted-link-only: Catalog entry may link to legitimate sources but has no local work file.
+  verify-edition: Candidate requires source, edition, and distribution review.
+
+translation_quality:
+  recommended-pd-translation: Strong public-domain translation suitable as default.
+  serviceable-pd-translation: Readable and complete but dated or superseded.
+  historical-translation: Preserve with clear warning about archaic, abridged, or censored text.
+  original-language-only: No acceptable distributable English translation selected.
