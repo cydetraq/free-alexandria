@@ -7,7 +7,7 @@ Profiles do not contain files, URLs that must work at runtime, or ad-hoc copies 
 ## Two build modes
 
 - `catalog-preview` produces a local offline catalog and a lockfile, even when selected files have not yet been acquired. It is useful for review and planning.
-- `distribution` fails unless each selected work resolves to a local, verified, rights-cleared edition with hashes. It creates a release suitable for offline use.
+- `distribution` fails unless each selected work resolves through `catalog/published-editions.json` to a local, verified, rights-cleared edition with matching hashes and a size within the profile limit. It then copies those verified files into the release.
 
 ## Reproducibility
 
