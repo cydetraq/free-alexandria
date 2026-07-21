@@ -1796,6 +1796,35 @@
           }
         ]
       }
+    ],
+    "the-adventures-of-tom-sawyer": [
+      {
+        "edition_id": "the-adventures-of-tom-sawyer-en-source-1876-gutenberg-74",
+        "language": "English",
+        "source_id": "project-gutenberg",
+        "source_item_id": "74",
+        "provenance_path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://www.gutenberg.org/ebooks/74"
+        },
+        "files": [
+          {
+            "role": "epub",
+            "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub",
+            "sha256": "8ac09cc08a0845ff5c314c6b560b7dcb27752db2765a8d75906263f6fd7802e5",
+            "bytes": 16672328
+          },
+          {
+            "role": "pdf",
+            "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.pdf",
+            "sha256": "b5cde11c0b2f4d8a1f9514a7364a77e9509754a53d619abdff2d3879be045937",
+            "bytes": 397627
+          }
+        ]
+      }
     ]
   }
 }

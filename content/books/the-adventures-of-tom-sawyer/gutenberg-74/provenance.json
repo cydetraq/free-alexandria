@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-adventures-of-tom-sawyer",
+  "edition_id": "the-adventures-of-tom-sawyer-en-source-1876-gutenberg-74",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "74",
+    "edition_page": "https://www.gutenberg.org/ebooks/74",
+    "acquired_at": "2026-07-21T19:32:59+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub",
+      "sha256": "8ac09cc08a0845ff5c314c6b560b7dcb27752db2765a8d75906263f6fd7802e5",
+      "bytes": 16672328
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.pdf",
+      "sha256": "b5cde11c0b2f4d8a1f9514a7364a77e9509754a53d619abdff2d3879be045937",
+      "bytes": 397627
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

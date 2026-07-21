@@ -14,6 +14,7 @@ import urllib.request
 from build_profile import CATALOG, load_records
 
 OUT = CATALOG / "resolved-sources.json"
+OVERRIDES = CATALOG / "source-overrides.json"
 RESULT = re.compile(r'<li class="booklink">.*?href="/ebooks/(\d+)".*?<span class="title">(.*?)</span>.*?<span class="subtitle">(.*?)</span>.*?</li>', re.S)
 
 
@@ -21,24 +22,33 @@ def normalize(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
 
 
+def libby_fallback(record: dict, author: str) -> dict:
+    """Return the library handoff retained even when source resolution is offline."""
+    search_terms = " ".join(part for part in (record["title"], author) if part)
+    libby_query = urllib.parse.urlencode({"query": search_terms})
+    return {"source_id":"libby","source_item_id":None,"source_url":f"https://libbyapp.com/search?{libby_query}","label":"Search in Libby","edition_title":record["title"],"edition_creator":author,"search_terms":search_terms,"resolution_method":"library-search-fallback"}
+
+
 def resolve(record: dict) -> tuple[str, list[dict]]:
     author = record.get("author", "")
+    overrides = json.loads(OVERRIDES.read_text()).get("records", {}).get(record["id"], []) if OVERRIDES.exists() else []
     query = urllib.parse.urlencode({"query": f"{record['title']} {author}"})
     request = urllib.request.Request(f"https://www.gutenberg.org/ebooks/search/?{query}", headers={"User-Agent": "FreeAlexandria/1.0 catalog resolver"})
     try:
         with urllib.request.urlopen(request, timeout=45) as response:
             page = response.read().decode("utf-8", "replace")
     except Exception:
-        return record["id"], []
+        return record["id"], [*overrides, libby_fallback(record, author)]
     surname = normalize(author).split(" ")[-1:]
-    options = []
+    options = list(overrides)
     for item_id, title, creator in RESULT.findall(page):
         title = html.unescape(re.sub(r"<.*?>", "", title)).strip()
         creator = html.unescape(re.sub(r"<.*?>", "", creator)).strip()
         if normalize(title) == normalize(record["title"]) and (not surname or surname[0] in normalize(creator)):
-            options.append({"source_id":"project-gutenberg","source_item_id":item_id,"source_url":f"https://www.gutenberg.org/ebooks/{item_id}","label":"Project Gutenberg","edition_title":title,"edition_creator":creator,"resolution_method":"exact-title-and-creator-match"})
-    archive_query = urllib.parse.urlencode({"query": f'title:("{record["title"]}") AND creator:("{author}")'})
-    options.append({"source_id":"internet-archive","source_item_id":None,"source_url":f"https://archive.org/search?{archive_query}","label":"Search Internet Archive","edition_title":record["title"],"edition_creator":author,"resolution_method":"fallback-title-and-creator-search"})
+            option = {"source_id":"project-gutenberg","source_item_id":item_id,"source_url":f"https://www.gutenberg.org/ebooks/{item_id}","label":"Project Gutenberg","edition_title":title,"edition_creator":creator,"resolution_method":"exact-title-and-creator-match"}
+            if not any(existing.get("source_id") == option["source_id"] and existing.get("source_item_id") == option["source_item_id"] for existing in options):
+                options.append(option)
+    options.append(libby_fallback(record, author))
     return record["id"], options
 
 

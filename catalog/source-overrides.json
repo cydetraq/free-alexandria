@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "records": {
+    "the-adventures-of-tom-sawyer": [
+      {
+        "source_id": "project-gutenberg",
+        "source_item_id": "74",
+        "source_url": "https://www.gutenberg.org/ebooks/74",
+        "label": "Project Gutenberg",
+        "edition_title": "The Adventures of Tom Sawyer",
+        "edition_creator": "Mark Twain",
+        "resolution_method": "curator-verified-canonical-edition"
+      }
+    ]
+  }
+}

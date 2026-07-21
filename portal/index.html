@@ -87,7 +87,7 @@
         const sourceActions = record => {
           const options = record.source_options || [];
           if (!options.length) return '';
-          return `<details><summary>Sources</summary><p class="meta">Exact editions appear first. Internet Archive is a fallback when a source is unavailable.</p><p class="actions">${options.map(option => `<a class="action secondary" target="_blank" rel="noopener" href="${esc(option.url)}">${esc(option.label)}</a>`).join(' ')}</p></details>`;
+          return `<details><summary>Sources</summary><p class="meta">Exact edition sources appear first. When no local copy is included, Libby can help you find a borrowable edition through your library.</p><p class="actions">${options.map(option => `<a class="action secondary" target="_blank" rel="noopener" href="${esc(option.url)}">${esc(option.label)}</a>`).join(' ')}</p></details>`;
         };
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';
