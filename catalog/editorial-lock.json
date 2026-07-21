@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "editorial_revision": "bootstrap-2026-07-21",
+  "purpose": "Freeze the current editorial membership while the canonical master list is reconstructed in the PKB. Acquisition and generated-output scripts must not silently change these inputs.",
+  "locked_files": [
+    {
+      "path": "catalog/catalog.json",
+      "git_blob_sha1": "0cd6dbb018eb324f4e912ad51a78515a92e2b6b5",
+      "record_count": 111,
+      "role": "locally supplied works"
+    },
+    {
+      "path": "docs/curated-reading.md",
+      "git_blob_sha1": "049048815c36366a58df21713955fed5d3547e84",
+      "role": "approved but not locally supplied recommendations"
+    }
+  ],
+  "change_rule": "An editorial change must deliberately update this lock in the same reviewed change. Acquisition, build, normalization, and export scripts may not update it automatically."
+}
