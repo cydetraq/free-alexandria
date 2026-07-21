@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free structural checks, with optional live source linting."""
+"""Dependency-free structural checks, with strict editorial and release validation."""
 import argparse
 from pathlib import Path
 import re
@@ -39,6 +39,7 @@ if args.strict:
     checks = [
         ROOT / "tools" / "validate_curated_reading.py",
         ROOT / "tools" / "lint_sources.py",
+        ROOT / "tools" / "audit_original_requirements.py",
     ]
     for check in checks:
         result = subprocess.run([sys.executable, str(check)], cwd=ROOT)
