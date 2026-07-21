@@ -72,7 +72,16 @@ def load_source_options() -> dict[str, list[dict]]:
     data = json.loads(path.read_text())
     return {
         work_id: [
-            {"label": option["label"], "url": option["source_url"], "edition_id": option["source_item_id"]}
+            {
+                "source_id": option["source_id"],
+                "edition_id": option["source_item_id"],
+                "url": option["source_url"],
+                "label": option["label"],
+                "edition_title": option.get("edition_title"),
+                "edition_creator": option.get("edition_creator"),
+                "search_terms": option.get("search_terms"),
+                "resolution_method": option.get("resolution_method"),
+            }
             for option in entry.get("source_options", [])
         ]
         for work_id, entry in data.get("records", {}).items()

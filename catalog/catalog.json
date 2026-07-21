@@ -26,14 +26,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "4217",
           "url": "https://www.gutenberg.org/ebooks/4217",
-          "edition_id": "4217"
+          "label": "Project Gutenberg",
+          "edition_title": "A Portrait of the Artist as a Young Man",
+          "edition_creator": "James Joyce",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=A+Portrait+of+the+Artist+as+a+Young+Man+James+Joyce",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "A Portrait of the Artist as a Young Man",
+          "edition_creator": "James Joyce",
+          "search_terms": "A Portrait of the Artist as a Young Man James Joyce",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -72,24 +82,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "76",
           "url": "https://www.gutenberg.org/ebooks/76",
-          "edition_id": "76"
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "19640",
           "url": "https://www.gutenberg.org/ebooks/19640",
-          "edition_id": "19640"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/9007",
-          "edition_id": "9007"
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "9007",
+          "url": "https://www.gutenberg.org/ebooks/9007",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Adventures+of+Huckleberry+Finn+Mark+Twain",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_creator": "Mark Twain",
+          "search_terms": "Adventures of Huckleberry Finn Mark Twain",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -131,9 +161,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Amerika+Franz+Kafka",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Amerika",
+          "edition_creator": "Franz Kafka",
+          "search_terms": "Amerika Franz Kafka",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -173,9 +208,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Animal+Farm+George+Orwell",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Animal Farm",
+          "edition_creator": "George Orwell",
+          "search_terms": "Animal Farm George Orwell",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -216,14 +256,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1399",
           "url": "https://www.gutenberg.org/ebooks/1399",
-          "edition_id": "1399"
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina",
+          "edition_creator": "graf Leo Tolstoy",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Anna+Karenina+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Anna Karenina",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "Anna Karenina Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -263,9 +313,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Applied+Cryptography+Bruce+Schneier",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Applied Cryptography",
+          "edition_creator": "Bruce Schneier",
+          "search_terms": "Applied Cryptography Bruce Schneier",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -304,14 +359,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "608",
           "url": "https://www.gutenberg.org/ebooks/608",
-          "edition_id": "608"
+          "label": "Project Gutenberg",
+          "edition_title": "Areopagitica",
+          "edition_creator": "John Milton",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Areopagitica+John+Milton",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Areopagitica",
+          "edition_creator": "John Milton",
+          "search_terms": "Areopagitica John Milton",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -351,9 +416,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=As+I+Lay+Dying+William+Faulkner",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "As I Lay Dying",
+          "edition_creator": "William Faulkner",
+          "search_terms": "As I Lay Dying William Faulkner",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -388,9 +458,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Water+Support+Operations",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Water Support Operations",
+          "edition_creator": "",
+          "search_terms": "Water Support Operations",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -429,9 +504,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Audel%27s+Carpenters+and+Builders+Guide",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Audel's Carpenters and Builders Guide",
+          "edition_creator": "",
+          "search_terms": "Audel's Carpenters and Builders Guide",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -470,14 +550,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1156",
           "url": "https://www.gutenberg.org/ebooks/1156",
-          "edition_id": "1156"
+          "label": "Project Gutenberg",
+          "edition_title": "Babbitt",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Babbitt+Sinclair+Lewis",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Babbitt",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": "Babbitt Sinclair Lewis",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -519,9 +609,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Berlin+Alexanderplatz+Alfred+D%C3%B6blin",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Berlin Alexanderplatz",
+          "edition_creator": "Alfred Döblin",
+          "search_terms": "Berlin Alexanderplatz Alfred Döblin",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -561,9 +656,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Botchan+Natsume+S%C5%8Dseki",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Botchan",
+          "edition_creator": "Natsume Sōseki",
+          "search_terms": "Botchan Natsume Sōseki",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -603,9 +703,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Brave+New+World+Aldous+Huxley",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Brave New World",
+          "edition_creator": "Aldous Huxley",
+          "search_terms": "Brave New World Aldous Huxley",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -645,9 +750,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Camp-Lore+and+Woodcraft+D.+C.+Beard",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Camp-Lore and Woodcraft",
+          "edition_creator": "D. C. Beard",
+          "search_terms": "Camp-Lore and Woodcraft D. C. Beard",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -686,9 +796,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Camping+and+Woodcraft+Horace+Kephart",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Camping and Woodcraft",
+          "edition_creator": "Horace Kephart",
+          "search_terms": "Camping and Woodcraft Horace Kephart",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -729,9 +844,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Capital%2C+Volume+I+Karl+Marx",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Capital, Volume I",
+          "edition_creator": "Karl Marx",
+          "search_terms": "Capital, Volume I Karl Marx",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -768,9 +888,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Community+Emergency+Response+Team+Basic+Training",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Community Emergency Response Team Basic Training",
+          "edition_creator": "",
+          "search_terms": "Community Emergency Response Team Basic Training",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -809,9 +934,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Civil+Disobedience+Henry+David+Thoreau",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Civil Disobedience",
+          "edition_creator": "Henry David Thoreau",
+          "search_terms": "Civil Disobedience Henry David Thoreau",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -851,9 +981,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Coercive+Persuasion+Edgar+H.+Schein+and+colleagues",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Coercive Persuasion",
+          "edition_creator": "Edgar H. Schein and colleagues",
+          "search_terms": "Coercive Persuasion Edgar H. Schein and colleagues",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -892,19 +1027,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "147",
           "url": "https://www.gutenberg.org/ebooks/147",
-          "edition_id": "147"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/3755",
-          "edition_id": "3755"
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "3755",
+          "url": "https://www.gutenberg.org/ebooks/3755",
+          "label": "Project Gutenberg",
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Common+Sense+Thomas+Paine",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Common Sense",
+          "edition_creator": "Thomas Paine",
+          "search_terms": "Common Sense Thomas Paine",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -945,9 +1095,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Content+Cory+Doctorow",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Content",
+          "edition_creator": "Cory Doctorow",
+          "search_terms": "Content Cory Doctorow",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -990,9 +1145,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Crime and Punishment",
+          "edition_creator": "Fyodor Dostoevsky",
+          "search_terms": "Crime and Punishment Fyodor Dostoevsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1032,9 +1192,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Cryptography+Engineering+Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Cryptography Engineering",
+          "edition_creator": "Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno",
+          "search_terms": "Cryptography Engineering Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1074,9 +1239,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=CryptoParty+Handbook",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "CryptoParty Handbook",
+          "edition_creator": "",
+          "search_terms": "CryptoParty Handbook",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1117,9 +1287,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dangerous Liaisons",
+          "edition_creator": "Pierre Choderlos de Laclos",
+          "search_terms": "Dangerous Liaisons Pierre Choderlos de Laclos",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1160,9 +1335,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Darkness+at+Noon+Arthur+Koestler",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Darkness at Noon",
+          "edition_creator": "Arthur Koestler",
+          "search_terms": "Darkness at Noon Arthur Koestler",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1202,9 +1382,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Data+and+Goliath+Bruce+Schneier",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Data and Goliath",
+          "edition_creator": "Bruce Schneier",
+          "search_terms": "Data and Goliath Bruce Schneier",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1245,14 +1430,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1081",
           "url": "https://www.gutenberg.org/ebooks/1081",
-          "edition_id": "1081"
+          "label": "Project Gutenberg",
+          "edition_title": "Dead Souls",
+          "edition_creator": "Nikolai Vasilevich Gogol",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dead+Souls+Nikolai+Gogol",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dead Souls",
+          "edition_creator": "Nikolai Gogol",
+          "search_terms": "Dead Souls Nikolai Gogol",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1292,9 +1487,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Democracy+in+America+Alexis+de+Tocqueville",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Democracy in America",
+          "edition_creator": "Alexis de Tocqueville",
+          "search_terms": "Democracy in America Alexis de Tocqueville",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1336,9 +1536,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Demons+Fyodor+Dostoevsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Demons",
+          "edition_creator": "Fyodor Dostoevsky",
+          "search_terms": "Demons Fyodor Dostoevsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1377,14 +1582,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "4583",
           "url": "https://www.gutenberg.org/ebooks/4583",
-          "edition_id": "4583"
+          "label": "Project Gutenberg",
+          "edition_title": "Dialogues Concerning Natural Religion",
+          "edition_creator": "David Hume",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dialogues+Concerning+Natural+Religion+David+Hume",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dialogues Concerning Natural Religion",
+          "edition_creator": "David Hume",
+          "search_terms": "Dialogues Concerning Natural Religion David Hume",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1425,9 +1640,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Diary+of+a+Madman+Lu+Xun",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Diary of a Madman",
+          "edition_creator": "Lu Xun",
+          "search_terms": "Diary of a Madman Lu Xun",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1469,19 +1689,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "996",
           "url": "https://www.gutenberg.org/ebooks/996",
-          "edition_id": "996"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/7094",
-          "edition_id": "7094"
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes Saavedra",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "7094",
+          "url": "https://www.gutenberg.org/ebooks/7094",
+          "label": "Project Gutenberg",
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes Saavedra",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Don+Quixote+Miguel+de+Cervantes",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Don Quixote",
+          "edition_creator": "Miguel de Cervantes",
+          "search_terms": "Don Quixote Miguel de Cervantes",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1521,14 +1756,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "8086",
           "url": "https://www.gutenberg.org/ebooks/8086",
-          "edition_id": "8086"
+          "label": "Project Gutenberg",
+          "edition_title": "Down and Out in the Magic Kingdom",
+          "edition_creator": "Cory Doctorow",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Down+and+Out+in+the+Magic+Kingdom+Cory+Doctorow",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Down and Out in the Magic Kingdom",
+          "edition_creator": "Cory Doctorow",
+          "search_terms": "Down and Out in the Magic Kingdom Cory Doctorow",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1568,29 +1813,54 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "345",
           "url": "https://www.gutenberg.org/ebooks/345",
-          "edition_id": "345"
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "45839",
           "url": "https://www.gutenberg.org/ebooks/45839",
-          "edition_id": "45839"
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "19797",
           "url": "https://www.gutenberg.org/ebooks/19797",
-          "edition_id": "19797"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/6534",
-          "edition_id": "6534"
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "6534",
+          "url": "https://www.gutenberg.org/ebooks/6534",
+          "label": "Project Gutenberg",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dracula+Bram+Stoker",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dracula",
+          "edition_creator": "Bram Stoker",
+          "search_terms": "Dracula Bram Stoker",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1630,9 +1900,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dry-Farming+John+A.+Widtsoe",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dry-Farming",
+          "edition_creator": "John A. Widtsoe",
+          "search_terms": "Dry-Farming John A. Widtsoe",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1672,19 +1947,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2814",
           "url": "https://www.gutenberg.org/ebooks/2814",
-          "edition_id": "2814"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/7872",
-          "edition_id": "7872"
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "7872",
+          "url": "https://www.gutenberg.org/ebooks/7872",
+          "label": "Project Gutenberg",
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Dubliners+James+Joyce",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Dubliners",
+          "edition_creator": "James Joyce",
+          "search_terms": "Dubliners James Joyce",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1722,9 +2012,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Surveillance+Self-Defense",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Surveillance Self-Defense",
+          "edition_creator": "",
+          "search_terms": "Surveillance Self-Defense",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1765,9 +2060,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Effi+Briest+Theodor+Fontane",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Effi Briest",
+          "edition_creator": "Theodor Fontane",
+          "search_terms": "Effi Briest Theodor Fontane",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1809,9 +2109,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=El+Filibusterismo+Jos%C3%A9+Rizal",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "El Filibusterismo",
+          "edition_creator": "José Rizal",
+          "search_terms": "El Filibusterismo José Rizal",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1851,14 +2156,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "75074",
           "url": "https://www.gutenberg.org/ebooks/75074",
-          "edition_id": "75074"
+          "label": "Project Gutenberg",
+          "edition_title": "Elementary cryptanalysis",
+          "edition_creator": "Helen Fouché Gaines",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Elementary+Cryptanalysis+Helen+Fouch%C3%A9+Gaines",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Elementary Cryptanalysis",
+          "edition_creator": "Helen Fouché Gaines",
+          "search_terms": "Elementary Cryptanalysis Helen Fouché Gaines",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1898,14 +2213,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "72609",
           "url": "https://www.gutenberg.org/ebooks/72609",
-          "edition_id": "72609"
+          "label": "Project Gutenberg",
+          "edition_title": "Elmer Gantry",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Elmer+Gantry+Sinclair+Lewis",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Elmer Gantry",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": "Elmer Gantry Sinclair Lewis",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1942,9 +2267,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Emergency+Financial+First+Aid+Kit",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Emergency Financial First Aid Kit",
+          "edition_creator": "",
+          "search_terms": "Emergency Financial First Aid Kit",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -1984,9 +2314,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=%C3%89mile%2C+or+On+Education+Jean-Jacques+Rousseau",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Émile, or On Education",
+          "edition_creator": "Jean-Jacques Rousseau",
+          "search_terms": "Émile, or On Education Jean-Jacques Rousseau",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2026,9 +2361,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Fahrenheit+451+Ray+Bradbury",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Fahrenheit 451",
+          "edition_creator": "Ray Bradbury",
+          "search_terms": "Fahrenheit 451 Ray Bradbury",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2067,9 +2407,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Farm+Mechanics+Herbert+A.+Shearer",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Farm Mechanics",
+          "edition_creator": "Herbert A. Shearer",
+          "search_terms": "Farm Mechanics Herbert A. Shearer",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2110,14 +2455,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "47935",
           "url": "https://www.gutenberg.org/ebooks/47935",
-          "edition_id": "47935"
+          "label": "Project Gutenberg",
+          "edition_title": "Fathers and Sons",
+          "edition_creator": "Ivan Sergeevich Turgenev",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Fathers+and+Sons+Ivan+Turgenev",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Fathers and Sons",
+          "edition_creator": "Ivan Turgenev",
+          "search_terms": "Fathers and Sons Ivan Turgenev",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2155,9 +2510,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Finding+Your+Way+with+Map+and+Compass",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Finding Your Way with Map and Compass",
+          "edition_creator": "",
+          "search_terms": "Finding Your Way with Map and Compass",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2194,9 +2554,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Flood+Safety+and+Cleanup+Guides",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Flood Safety and Cleanup Guides",
+          "edition_creator": "",
+          "search_terms": "Flood Safety and Cleanup Guides",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2234,9 +2599,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Field+Hygiene+and+Sanitation",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Field Hygiene and Sanitation",
+          "edition_creator": "",
+          "search_terms": "Field Hygiene and Sanitation",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2273,9 +2643,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=First+Aid+for+Soldiers",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "First Aid for Soldiers",
+          "edition_creator": "",
+          "search_terms": "First Aid for Soldiers",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2312,9 +2687,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Care+and+Use+of+Individual+Clothing+and+Equipment",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Care and Use of Individual Clothing and Equipment",
+          "edition_creator": "",
+          "search_terms": "Care and Use of Individual Clothing and Equipment",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2351,9 +2731,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Evasion+and+Escape",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Evasion and Escape",
+          "edition_creator": "",
+          "search_terms": "Evasion and Escape",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2391,9 +2776,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Survival+at+Sea",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Survival at Sea",
+          "edition_creator": "",
+          "search_terms": "Survival at Sea",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2429,9 +2819,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Map+Reading",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Map Reading",
+          "edition_creator": "",
+          "search_terms": "Map Reading",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2468,9 +2863,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Chemical%2C+Biological%2C+and+Nuclear+Defense",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Chemical, Biological, and Nuclear Defense",
+          "edition_creator": "",
+          "search_terms": "Chemical, Biological, and Nuclear Defense",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2507,9 +2907,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Survival",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Survival",
+          "edition_creator": "",
+          "search_terms": "Survival",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2547,9 +2952,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Survival",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Survival",
+          "edition_creator": "",
+          "search_terms": "Survival",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2584,9 +2994,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Map+Reading+and+Land+Navigation",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Map Reading and Land Navigation",
+          "edition_creator": "",
+          "search_terms": "Map Reading and Land Navigation",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2622,9 +3037,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=First+Aid",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "First Aid",
+          "edition_creator": "",
+          "search_terms": "First Aid",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2660,9 +3080,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Rigging+Techniques%2C+Procedures+and+Applications",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Rigging Techniques, Procedures and Applications",
+          "edition_creator": "",
+          "search_terms": "Rigging Techniques, Procedures and Applications",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2697,9 +3122,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Engineer+Field+Data",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Engineer Field Data",
+          "edition_creator": "",
+          "search_terms": "Engineer Field Data",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2734,14 +3164,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "70226",
           "url": "https://www.gutenberg.org/ebooks/70226",
-          "edition_id": "70226"
+          "label": "Project Gutenberg",
+          "edition_title": "Carpentry",
+          "edition_creator": "Ira Samuel Griffith",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Carpentry",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Carpentry",
+          "edition_creator": "",
+          "search_terms": "Carpentry",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2776,9 +3216,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Concrete+and+Masonry",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Concrete and Masonry",
+          "edition_creator": "",
+          "search_terms": "Concrete and Masonry",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2816,9 +3261,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Food+and+Water+in+an+Emergency",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Food and Water in an Emergency",
+          "edition_creator": "",
+          "search_terms": "Food and Water in an Emergency",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2858,9 +3308,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Frankenstein+Mary+Shelley",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Frankenstein",
+          "edition_creator": "Mary Shelley",
+          "search_terms": "Frankenstein Mary Shelley",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2900,9 +3355,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Free+Culture+Lawrence+Lessig",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Free Culture",
+          "edition_creator": "Lawrence Lessig",
+          "search_terms": "Free Culture Lawrence Lessig",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2939,9 +3399,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Generator+Safety+Guidance",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Generator Safety Guidance",
+          "edition_creator": "",
+          "search_terms": "Generator Safety Guidance",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -2982,14 +3447,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "56528",
           "url": "https://www.gutenberg.org/ebooks/56528",
-          "edition_id": "56528"
+          "label": "Project Gutenberg",
+          "edition_title": "Germinal",
+          "edition_creator": "Émile Zola",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Germinal+%C3%89mile+Zola",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Germinal",
+          "edition_creator": "Émile Zola",
+          "search_terms": "Germinal Émile Zola",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3030,9 +3505,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Hadji+Murad+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Hadji Murad",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "Hadji Murad Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3072,9 +3552,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Handy+Farm+Devices+and+How+to+Make+Them+Rolfe+Cobleigh",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Handy Farm Devices and How to Make Them",
+          "edition_creator": "Rolfe Cobleigh",
+          "search_terms": "Handy Farm Devices and How to Make Them Rolfe Cobleigh",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3113,9 +3598,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Henley%27s+Twentieth+Century+Formulas%2C+Recipes+and+Processes",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Henley's Twentieth Century Formulas, Recipes and Processes",
+          "edition_creator": "",
+          "search_terms": "Henley's Twentieth Century Formulas, Recipes and Processes",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3155,14 +3645,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "66136",
           "url": "https://www.gutenberg.org/ebooks/66136",
-          "edition_id": "66136"
+          "label": "Project Gutenberg",
+          "edition_title": "Home Canning of Fruits and Vegetables",
+          "edition_creator": "United States. Agricultural Research Service. Human Nutrition Research Division",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Home+Canning+of+Fruits+and+Vegetables",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Home Canning of Fruits and Vegetables",
+          "edition_creator": "",
+          "search_terms": "Home Canning of Fruits and Vegetables",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3199,9 +3699,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Household+Emergency+Plan+and+Supply+Checklists",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Household Emergency Plan and Supply Checklists",
+          "edition_creator": "",
+          "search_terms": "Household Emergency Plan and Supply Checklists",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3242,9 +3747,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=I+Am+a+Cat+Natsume+S%C5%8Dseki",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "I Am a Cat",
+          "edition_creator": "Natsume Sōseki",
+          "search_terms": "I Am a Cat Natsume Sōseki",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3284,9 +3794,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=In+a+Grove+Ry%C5%ABnosuke+Akutagawa",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "In a Grove",
+          "edition_creator": "Ryūnosuke Akutagawa",
+          "search_terms": "In a Grove Ryūnosuke Akutagawa",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3326,9 +3841,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Index+Librorum+Prohibitorum",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Index Librorum Prohibitorum",
+          "edition_creator": "",
+          "search_terms": "Index Librorum Prohibitorum",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3368,9 +3888,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Influence+Robert+Cialdini",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Influence",
+          "edition_creator": "Robert Cialdini",
+          "search_terms": "Influence Robert Cialdini",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3409,14 +3934,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "53453",
           "url": "https://www.gutenberg.org/ebooks/53453",
-          "edition_id": "53453"
+          "label": "Project Gutenberg",
+          "edition_title": "Instincts of the Herd in Peace and War",
+          "edition_creator": "W. Trotter",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Instincts+of+the+Herd+in+Peace+and+War+Wilfred+Trotter",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Instincts of the Herd in Peace and War",
+          "edition_creator": "Wilfred Trotter",
+          "search_terms": "Instincts of the Herd in Peace and War Wilfred Trotter",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3456,14 +3991,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "23077",
           "url": "https://www.gutenberg.org/ebooks/23077",
-          "edition_id": "23077"
+          "label": "Project Gutenberg",
+          "edition_title": "Jane Eyre",
+          "edition_creator": "Charlotte Brontë",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Jane+Eyre+Charlotte+Bront%C3%AB",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Jane Eyre",
+          "edition_creator": "Charlotte Brontë",
+          "search_terms": "Jane Eyre Charlotte Brontë",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3503,19 +4048,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "153",
           "url": "https://www.gutenberg.org/ebooks/153",
-          "edition_id": "153"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/9421",
-          "edition_id": "9421"
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "9421",
+          "url": "https://www.gutenberg.org/ebooks/9421",
+          "label": "Project Gutenberg",
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Jude+the+Obscure+Thomas+Hardy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Jude the Obscure",
+          "edition_creator": "Thomas Hardy",
+          "search_terms": "Jude the Obscure Thomas Hardy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3556,9 +4116,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Kokoro+Natsume+S%C5%8Dseki",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Kokoro",
+          "edition_creator": "Natsume Sōseki",
+          "search_terms": "Kokoro Natsume Sōseki",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3598,14 +4163,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "73144",
           "url": "https://www.gutenberg.org/ebooks/73144",
-          "edition_id": "73144"
+          "label": "Project Gutenberg",
+          "edition_title": "Lady Chatterley's lover",
+          "edition_creator": "D. H. Lawrence",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Lady+Chatterley%27s+Lover+D.+H.+Lawrence",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Lady Chatterley's Lover",
+          "edition_creator": "D. H. Lawrence",
+          "search_terms": "Lady Chatterley's Lover D. H. Lawrence",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3645,19 +4220,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1322",
           "url": "https://www.gutenberg.org/ebooks/1322",
-          "edition_id": "1322"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/23979",
-          "edition_id": "23979"
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "23979",
+          "url": "https://www.gutenberg.org/ebooks/23979",
+          "label": "Project Gutenberg",
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Leaves+of+Grass+Walt+Whitman",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Leaves of Grass",
+          "edition_creator": "Walt Whitman",
+          "search_terms": "Leaves of Grass Walt Whitman",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3698,14 +4288,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "135",
           "url": "https://www.gutenberg.org/ebooks/135",
-          "edition_id": "135"
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables",
+          "edition_creator": "Victor Hugo",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Les+Mis%C3%A9rables+Victor+Hugo",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Les Misérables",
+          "edition_creator": "Victor Hugo",
+          "search_terms": "Les Misérables Victor Hugo",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3746,9 +4346,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Macuna%C3%ADma+M%C3%A1rio+de+Andrade",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Macunaíma",
+          "edition_creator": "Mário de Andrade",
+          "search_terms": "Macunaíma Mário de Andrade",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3789,14 +4394,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2413",
           "url": "https://www.gutenberg.org/ebooks/2413",
-          "edition_id": "2413"
+          "label": "Project Gutenberg",
+          "edition_title": "Madame Bovary",
+          "edition_creator": "Gustave Flaubert",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Madame+Bovary+Gustave+Flaubert",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Madame Bovary",
+          "edition_creator": "Gustave Flaubert",
+          "search_terms": "Madame Bovary Gustave Flaubert",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3834,14 +4449,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "543",
           "url": "https://www.gutenberg.org/ebooks/543",
-          "edition_id": "543"
+          "label": "Project Gutenberg",
+          "edition_title": "Main Street",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Main+Street+Sinclair+Lewis",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Main Street",
+          "edition_creator": "Sinclair Lewis",
+          "search_terms": "Main Street Sinclair Lewis",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3879,9 +4504,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Make+Water+Safe+During+an+Emergency",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Make Water Safe During an Emergency",
+          "edition_creator": "",
+          "search_terms": "Make Water Safe During an Emergency",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3920,14 +4550,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "48871",
           "url": "https://www.gutenberg.org/ebooks/48871",
-          "edition_id": "48871"
+          "label": "Project Gutenberg",
+          "edition_title": "Manual for the Solution of Military Ciphers",
+          "edition_creator": "Parker Hitt",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Manual+for+the+Solution+of+Military+Ciphers+Parker+Hitt",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Manual for the Solution of Military Ciphers",
+          "edition_creator": "Parker Hitt",
+          "search_terms": "Manual for the Solution of Military Ciphers Parker Hitt",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -3966,9 +4606,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Manual+of+Gardening+L.+H.+Bailey",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Manual of Gardening",
+          "edition_creator": "L. H. Bailey",
+          "search_terms": "Manual of Gardening L. H. Bailey",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4008,9 +4653,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Manufacturing+Consent+Edward+S.+Herman+and+Noam+Chomsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Manufacturing Consent",
+          "edition_creator": "Edward S. Herman and Noam Chomsky",
+          "search_terms": "Manufacturing Consent Edward S. Herman and Noam Chomsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4050,19 +4700,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "145",
           "url": "https://www.gutenberg.org/ebooks/145",
-          "edition_id": "145"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/8227",
-          "edition_id": "8227"
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "8227",
+          "url": "https://www.gutenberg.org/ebooks/8227",
+          "label": "Project Gutenberg",
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Middlemarch+George+Eliot",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Middlemarch",
+          "edition_creator": "George Eliot",
+          "search_terms": "Middlemarch George Eliot",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4103,9 +4768,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Nineteen+Eighty-Four+George+Orwell",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Nineteen Eighty-Four",
+          "edition_creator": "George Orwell",
+          "search_terms": "Nineteen Eighty-Four George Orwell",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4148,9 +4818,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Noli+Me+Tangere+Jos%C3%A9+Rizal",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Noli Me Tangere",
+          "edition_creator": "José Rizal",
+          "search_terms": "Noli Me Tangere José Rizal",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4191,9 +4866,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Notes+from+Underground+Fyodor+Dostoevsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Notes from Underground",
+          "edition_creator": "Fyodor Dostoevsky",
+          "search_terms": "Notes from Underground Fyodor Dostoevsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4231,14 +4911,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "34901",
           "url": "https://www.gutenberg.org/ebooks/34901",
-          "edition_id": "34901"
+          "label": "Project Gutenberg",
+          "edition_title": "On Liberty",
+          "edition_creator": "John Stuart Mill",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=On+Liberty+John+Stuart+Mill",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "On Liberty",
+          "edition_creator": "John Stuart Mill",
+          "search_terms": "On Liberty John Stuart Mill",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4277,9 +4967,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=On+Tyranny+Timothy+Snyder",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "On Tyranny",
+          "edition_creator": "Timothy Snyder",
+          "search_terms": "On Tyranny Timothy Snyder",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4319,9 +5014,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Origins+of+Totalitarianism+Hannah+Arendt",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Origins of Totalitarianism",
+          "edition_creator": "Hannah Arendt",
+          "search_terms": "The Origins of Totalitarianism Hannah Arendt",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4361,9 +5061,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Permanent+Record+Edward+Snowden",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Permanent Record",
+          "edition_creator": "Edward Snowden",
+          "search_terms": "Permanent Record Edward Snowden",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4400,9 +5105,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Power+Outage+Food+Safety+Guidance",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Power Outage Food Safety Guidance",
+          "edition_creator": "",
+          "search_terms": "Power Outage Food Safety Guidance",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4442,9 +5152,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Preservation+of+Food+in+the+Home",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Preservation of Food in the Home",
+          "edition_creator": "",
+          "search_terms": "The Preservation of Food in the Home",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4481,9 +5196,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Preventing+Diarrheal+Illness+After+a+Disaster",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Preventing Diarrheal Illness After a Disaster",
+          "edition_creator": "",
+          "search_terms": "Preventing Diarrheal Illness After a Disaster",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4522,14 +5242,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "78634",
           "url": "https://www.gutenberg.org/ebooks/78634",
-          "edition_id": "78634"
+          "label": "Project Gutenberg",
+          "edition_title": "Propaganda",
+          "edition_creator": "Edward L. Bernays",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Propaganda+Edward+Bernays",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Propaganda",
+          "edition_creator": "Edward Bernays",
+          "search_terms": "Propaganda Edward Bernays",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4568,14 +5298,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "6456",
           "url": "https://www.gutenberg.org/ebooks/6456",
-          "edition_id": "6456"
+          "label": "Project Gutenberg",
+          "edition_title": "Public opinion",
+          "edition_creator": "Walter Lippmann",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Public+Opinion+Walter+Lippmann",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Public Opinion",
+          "edition_creator": "Walter Lippmann",
+          "search_terms": "Public Opinion Walter Lippmann",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4612,9 +5352,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Radiological+Emergency+Guides",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Radiological Emergency Guides",
+          "edition_creator": "",
+          "search_terms": "Radiological Emergency Guides",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4654,9 +5399,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Rash%C5%8Dmon+Ry%C5%ABnosuke+Akutagawa",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Rashōmon",
+          "edition_creator": "Ryūnosuke Akutagawa",
+          "search_terms": "Rashōmon Ryūnosuke Akutagawa",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4697,14 +5447,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1938",
           "url": "https://www.gutenberg.org/ebooks/1938",
-          "edition_id": "1938"
+          "label": "Project Gutenberg",
+          "edition_title": "Resurrection",
+          "edition_creator": "graf Leo Tolstoy",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Resurrection+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Resurrection",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "Resurrection Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4743,9 +5503,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Rights+of+Man+Thomas+Paine",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Rights of Man",
+          "edition_creator": "Thomas Paine",
+          "search_terms": "Rights of Man Thomas Paine",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4785,9 +5550,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Seeing+Like+a+State+James+C.+Scott",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Seeing Like a State",
+          "edition_creator": "James C. Scott",
+          "search_terms": "Seeing Like a State James C. Scott",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4826,14 +5596,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "28255",
           "url": "https://www.gutenberg.org/ebooks/28255",
-          "edition_id": "28255"
+          "label": "Project Gutenberg",
+          "edition_title": "Shelters, Shacks and Shanties",
+          "edition_creator": "Daniel Carter Beard",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Shelters%2C+Shacks+and+Shanties+D.+C.+Beard",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Shelters, Shacks and Shanties",
+          "edition_creator": "D. C. Beard",
+          "search_terms": "Shelters, Shacks and Shanties D. C. Beard",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4875,14 +5655,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2500",
           "url": "https://www.gutenberg.org/ebooks/2500",
-          "edition_id": "2500"
+          "label": "Project Gutenberg",
+          "edition_title": "Siddhartha",
+          "edition_creator": "Hermann Hesse",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Siddhartha+Hermann+Hesse",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Siddhartha",
+          "edition_creator": "Hermann Hesse",
+          "search_terms": "Siddhartha Hermann Hesse",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4924,14 +5714,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "75756",
           "url": "https://www.gutenberg.org/ebooks/75756",
-          "edition_id": "75756"
+          "label": "Project Gutenberg",
+          "edition_title": "Steppenwolf",
+          "edition_creator": "Hermann Hesse",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Steppenwolf+Hermann+Hesse",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Steppenwolf",
+          "edition_creator": "Hermann Hesse",
+          "search_terms": "Steppenwolf Hermann Hesse",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -4973,14 +5773,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "7178",
           "url": "https://www.gutenberg.org/ebooks/7178",
-          "edition_id": "7178"
+          "label": "Project Gutenberg",
+          "edition_title": "Swann's Way",
+          "edition_creator": "Marcel Proust",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Swann%27s+Way+Marcel+Proust",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Swann's Way",
+          "edition_creator": "Marcel Proust",
+          "search_terms": "Swann's Way Marcel Proust",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5022,9 +5832,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Tartuffe+Moli%C3%A8re",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Tartuffe",
+          "edition_creator": "Molière",
+          "search_terms": "Tartuffe Molière",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5061,9 +5876,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Ranger+Handbook",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Ranger Handbook",
+          "edition_creator": "",
+          "search_terms": "Ranger Handbook",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5103,9 +5923,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Tess+of+the+d%27Urbervilles+Thomas+Hardy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Tess of the d'Urbervilles",
+          "edition_creator": "Thomas Hardy",
+          "search_terms": "Tess of the d'Urbervilles Thomas Hardy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5143,24 +5968,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "74",
           "url": "https://www.gutenberg.org/ebooks/74",
-          "edition_id": "74"
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "curator-verified-canonical-edition"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "26203",
           "url": "https://www.gutenberg.org/ebooks/26203",
-          "edition_id": "26203"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/9038",
-          "edition_id": "9038"
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "9038",
+          "url": "https://www.gutenberg.org/ebooks/9038",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Adventures+of+Tom+Sawyer+Mark+Twain",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_creator": "Mark Twain",
+          "search_terms": "The Adventures of Tom Sawyer Mark Twain",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5200,19 +6045,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "541",
           "url": "https://www.gutenberg.org/ebooks/541",
-          "edition_id": "541"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/8958",
-          "edition_id": "8958"
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "8958",
+          "url": "https://www.gutenberg.org/ebooks/8958",
+          "label": "Project Gutenberg",
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Age+of+Innocence+Edith+Wharton",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Age of Innocence",
+          "edition_creator": "Edith Wharton",
+          "search_terms": "The Age of Innocence Edith Wharton",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5251,9 +6111,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Age+of+Reason+Thomas+Paine",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Age of Reason",
+          "edition_creator": "Thomas Paine",
+          "search_terms": "The Age of Reason Thomas Paine",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5292,9 +6157,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+American+Woman%27s+Home+Catharine+Beecher+and+Harriet+Beecher+Stowe",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The American Woman's Home",
+          "edition_creator": "Catharine Beecher and Harriet Beecher Stowe",
+          "search_terms": "The American Woman's Home Catharine Beecher and Harriet Beecher Stowe",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5334,14 +6204,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "23724",
           "url": "https://www.gutenberg.org/ebooks/23724",
-          "edition_id": "23724"
+          "label": "Project Gutenberg",
+          "edition_title": "The Awakening",
+          "edition_creator": "Kate Chopin",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Awakening+Kate+Chopin",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Awakening",
+          "edition_creator": "Kate Chopin",
+          "search_terms": "The Awakening Kate Chopin",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5380,9 +6260,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+1",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Boy Mechanic, Volume 1",
+          "edition_creator": "",
+          "search_terms": "The Boy Mechanic, Volume 1",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5421,9 +6306,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+2",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Boy Mechanic, Volume 2",
+          "edition_creator": "",
+          "search_terms": "The Boy Mechanic, Volume 2",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5462,9 +6352,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Boy+Mechanic%2C+Volume+3",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Boy Mechanic, Volume 3",
+          "edition_creator": "",
+          "search_terms": "The Boy Mechanic, Volume 3",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5505,9 +6400,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Brothers Karamazov",
+          "edition_creator": "Fyodor Dostoevsky",
+          "search_terms": "The Brothers Karamazov Fyodor Dostoevsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5546,24 +6446,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "215",
           "url": "https://www.gutenberg.org/ebooks/215",
-          "edition_id": "215"
+          "label": "Project Gutenberg",
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "19678",
           "url": "https://www.gutenberg.org/ebooks/19678",
-          "edition_id": "19678"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/9115",
-          "edition_id": "9115"
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "9115",
+          "url": "https://www.gutenberg.org/ebooks/9115",
+          "label": "Project Gutenberg",
+          "edition_title": "The call of the wild",
+          "edition_creator": "Jack London",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Call+of+the+Wild+Jack+London",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Call of the Wild",
+          "edition_creator": "Jack London",
+          "search_terms": "The Call of the Wild Jack London",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5606,9 +6526,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Castle+Franz+Kafka",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Castle",
+          "edition_creator": "Franz Kafka",
+          "search_terms": "The Castle Franz Kafka",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5649,14 +6574,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1184",
           "url": "https://www.gutenberg.org/ebooks/1184",
-          "edition_id": "1184"
+          "label": "Project Gutenberg",
+          "edition_title": "The Count of Monte Cristo",
+          "edition_creator": "Alexandre Dumas and Auguste Maquet",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Count+of+Monte+Cristo+Alexandre+Dumas",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Count of Monte Cristo",
+          "edition_creator": "Alexandre Dumas",
+          "search_terms": "The Count of Monte Cristo Alexandre Dumas",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5698,9 +6633,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Counterfeiters+Andr%C3%A9+Gide",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Counterfeiters",
+          "edition_creator": "André Gide",
+          "search_terms": "The Counterfeiters André Gide",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5740,9 +6680,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Crowd+Gustave+Le+Bon",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Crowd",
+          "edition_creator": "Gustave Le Bon",
+          "search_terms": "The Crowd Gustave Le Bon",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5783,9 +6728,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Death+of+Ivan+Ilyich+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Death of Ivan Ilyich",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "The Death of Ivan Ilyich Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5825,9 +6775,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Demon-Haunted+World+Carl+Sagan",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Demon-Haunted World",
+          "edition_creator": "Carl Sagan",
+          "search_terms": "The Demon-Haunted World Carl Sagan",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5867,9 +6822,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Dispossessed+Ursula+K.+Le+Guin",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Dispossessed",
+          "edition_creator": "Ursula K. Le Guin",
+          "search_terms": "The Dispossessed Ursula K. Le Guin",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5910,14 +6870,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "8800",
           "url": "https://www.gutenberg.org/ebooks/8800",
-          "edition_id": "8800"
+          "label": "Project Gutenberg",
+          "edition_title": "The divine comedy",
+          "edition_creator": "Dante Alighieri",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Divine+Comedy+Dante+Alighieri",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Divine Comedy",
+          "edition_creator": "Dante Alighieri",
+          "search_terms": "The Divine Comedy Dante Alighieri",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -5957,14 +6927,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "47025",
           "url": "https://www.gutenberg.org/ebooks/47025",
-          "edition_id": "47025"
+          "label": "Project Gutenberg",
+          "edition_title": "The Essence of Christianity",
+          "edition_creator": "Ludwig Feuerbach",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Essence+of+Christianity+Ludwig+Feuerbach",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Essence of Christianity",
+          "edition_creator": "Ludwig Feuerbach",
+          "search_terms": "The Essence of Christianity Ludwig Feuerbach",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6003,24 +6983,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "22788",
           "url": "https://www.gutenberg.org/ebooks/22788",
-          "edition_id": "22788"
+          "label": "Project Gutenberg",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1404",
           "url": "https://www.gutenberg.org/ebooks/1404",
-          "edition_id": "1404"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/18",
-          "edition_id": "18"
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "18",
+          "url": "https://www.gutenberg.org/ebooks/18",
+          "label": "Project Gutenberg",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Federalist+Papers+Alexander+Hamilton%2C+James+Madison%2C+and+John+Jay",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Federalist Papers",
+          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
+          "search_terms": "The Federalist Papers Alexander Hamilton, James Madison, and John Jay",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6059,14 +7059,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "16900",
           "url": "https://www.gutenberg.org/ebooks/16900",
-          "edition_id": "16900"
+          "label": "Project Gutenberg",
+          "edition_title": "The First Book of Farming",
+          "edition_creator": "C. L. Goodrich",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+First+Book+of+Farming+Charles+L.+Goodrich",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The First Book of Farming",
+          "edition_creator": "Charles L. Goodrich",
+          "search_terms": "The First Book of Farming Charles L. Goodrich",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6106,14 +7116,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "64317",
           "url": "https://www.gutenberg.org/ebooks/64317",
-          "edition_id": "64317"
+          "label": "Project Gutenberg",
+          "edition_title": "The Great Gatsby",
+          "edition_creator": "F. Scott Fitzgerald",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Great+Gatsby+F.+Scott+Fitzgerald",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Great Gatsby",
+          "edition_creator": "F. Scott Fitzgerald",
+          "search_terms": "The Great Gatsby F. Scott Fitzgerald",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6154,9 +7174,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Gulag+Archipelago+Aleksandr+Solzhenitsyn",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Gulag Archipelago",
+          "edition_creator": "Aleksandr Solzhenitsyn",
+          "search_terms": "The Gulag Archipelago Aleksandr Solzhenitsyn",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6196,9 +7221,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Handmaid%27s+Tale+Margaret+Atwood",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Handmaid's Tale",
+          "edition_creator": "Margaret Atwood",
+          "search_terms": "The Handmaid's Tale Margaret Atwood",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6239,34 +7269,64 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "6130",
           "url": "https://www.gutenberg.org/ebooks/6130",
-          "edition_id": "6130"
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2199",
           "url": "https://www.gutenberg.org/ebooks/2199",
-          "edition_id": "2199"
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "3059",
           "url": "https://www.gutenberg.org/ebooks/3059",
-          "edition_id": "3059"
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "22382",
           "url": "https://www.gutenberg.org/ebooks/22382",
-          "edition_id": "22382"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/6150",
-          "edition_id": "6150"
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "6150",
+          "url": "https://www.gutenberg.org/ebooks/6150",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Iliad+Homer",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "search_terms": "The Iliad Homer",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6308,14 +7368,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "78975",
           "url": "https://www.gutenberg.org/ebooks/78975",
-          "edition_id": "78975"
+          "label": "Project Gutenberg",
+          "edition_title": "The immoralist",
+          "edition_creator": "André Gide",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Immoralist+Andr%C3%A9+Gide",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Immoralist",
+          "edition_creator": "André Gide",
+          "search_terms": "The Immoralist André Gide",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6354,19 +7424,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "140",
           "url": "https://www.gutenberg.org/ebooks/140",
-          "edition_id": "140"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/6556",
-          "edition_id": "6556"
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "6556",
+          "url": "https://www.gutenberg.org/ebooks/6556",
+          "label": "Project Gutenberg",
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Jungle+Upton+Sinclair",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Jungle",
+          "edition_creator": "Upton Sinclair",
+          "search_terms": "The Jungle Upton Sinclair",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6406,9 +7491,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Kreutzer+Sonata+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Kreutzer Sonata",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "The Kreutzer Sonata Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6449,14 +7539,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "64037",
           "url": "https://www.gutenberg.org/ebooks/64037",
-          "edition_id": "64037"
+          "label": "Project Gutenberg",
+          "edition_title": "The Life of Jesus Critically Examined",
+          "edition_creator": "David Friedrich Strauss",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Life+of+Jesus+Critically+Examined+David+Friedrich+Strauss",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Life of Jesus Critically Examined",
+          "edition_creator": "David Friedrich Strauss",
+          "search_terms": "The Life of Jesus Critically Examined David Friedrich Strauss",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6499,9 +7599,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Magic+Mountain+Thomas+Mann",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Magic Mountain",
+          "edition_creator": "Thomas Mann",
+          "search_terms": "The Magic Mountain Thomas Mann",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6544,14 +7649,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "26298",
           "url": "https://www.gutenberg.org/ebooks/26298",
-          "edition_id": "26298"
+          "label": "Project Gutenberg",
+          "edition_title": "The Metamorphosis",
+          "edition_creator": "Franz Kafka",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Metamorphosis+Franz+Kafka",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Metamorphosis",
+          "edition_creator": "Franz Kafka",
+          "search_terms": "The Metamorphosis Franz Kafka",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6592,9 +7707,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Mother+Maxim+Gorky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Mother",
+          "edition_creator": "Maxim Gorky",
+          "search_terms": "The Mother Maxim Gorky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6635,24 +7755,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1727",
           "url": "https://www.gutenberg.org/ebooks/1727",
-          "edition_id": "1727"
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "3160",
           "url": "https://www.gutenberg.org/ebooks/3160",
-          "edition_id": "3160"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/28797",
-          "edition_id": "28797"
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "28797",
+          "url": "https://www.gutenberg.org/ebooks/28797",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Odyssey+Homer",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Odyssey",
+          "edition_creator": "Homer",
+          "search_terms": "The Odyssey Homer",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6691,9 +7831,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Open+Society+and+Its+Enemies+Karl+Popper",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Open Society and Its Enemies",
+          "edition_creator": "Karl Popper",
+          "search_terms": "The Open Society and Its Enemies Karl Popper",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6733,24 +7878,44 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "174",
           "url": "https://www.gutenberg.org/ebooks/174",
-          "edition_id": "174"
+          "label": "Project Gutenberg",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "4078",
           "url": "https://www.gutenberg.org/ebooks/4078",
-          "edition_id": "4078"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/26740",
-          "edition_id": "26740"
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "26740",
+          "url": "https://www.gutenberg.org/ebooks/26740",
+          "label": "Project Gutenberg",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Picture+of+Dorian+Gray+Oscar+Wilde",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Picture of Dorian Gray",
+          "edition_creator": "Oscar Wilde",
+          "search_terms": "The Picture of Dorian Gray Oscar Wilde",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6791,9 +7956,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Power+of+the+Powerless+V%C3%A1clav+Havel",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Power of the Powerless",
+          "edition_creator": "Václav Havel",
+          "search_terms": "The Power of the Powerless Václav Havel",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6832,9 +8002,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Psychology+of+Suggestion+Boris+Sidis",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Psychology of Suggestion",
+          "edition_creator": "Boris Sidis",
+          "search_terms": "The Psychology of Suggestion Boris Sidis",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6874,9 +8049,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Rape+of+the+Mind+Joost+Meerloo",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Rape of the Mind",
+          "edition_creator": "Joost Meerloo",
+          "search_terms": "The Rape of the Mind Joost Meerloo",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6918,19 +8098,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1497",
           "url": "https://www.gutenberg.org/ebooks/1497",
-          "edition_id": "1497"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/150",
-          "edition_id": "150"
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "150",
+          "url": "https://www.gutenberg.org/ebooks/150",
+          "label": "Project Gutenberg",
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Republic+Plato",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Republic",
+          "edition_creator": "Plato",
+          "search_terms": "The Republic Plato",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -6970,9 +8165,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Satanic+Verses+Salman+Rushdie",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Satanic Verses",
+          "edition_creator": "Salman Rushdie",
+          "search_terms": "The Satanic Verses Salman Rushdie",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7010,19 +8210,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "25344",
           "url": "https://www.gutenberg.org/ebooks/25344",
-          "edition_id": "25344"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/33",
-          "edition_id": "33"
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "33",
+          "url": "https://www.gutenberg.org/ebooks/33",
+          "label": "Project Gutenberg",
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Scarlet+Letter+Nathaniel+Hawthorne",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Scarlet Letter",
+          "edition_creator": "Nathaniel Hawthorne",
+          "search_terms": "The Scarlet Letter Nathaniel Hawthorne",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7064,9 +8279,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Social+Contract+Jean-Jacques+Rousseau",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Social Contract",
+          "edition_creator": "Jean-Jacques Rousseau",
+          "search_terms": "The Social Contract Jean-Jacques Rousseau",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7107,14 +8327,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2527",
           "url": "https://www.gutenberg.org/ebooks/2527",
-          "edition_id": "2527"
+          "label": "Project Gutenberg",
+          "edition_title": "The Sorrows of Young Werther",
+          "edition_creator": "Johann Wolfgang von Goethe",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Sorrows+of+Young+Werther+Johann+Wolfgang+von+Goethe",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Sorrows of Young Werther",
+          "edition_creator": "Johann Wolfgang von Goethe",
+          "search_terms": "The Sorrows of Young Werther Johann Wolfgang von Goethe",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7153,14 +8383,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "27083",
           "url": "https://www.gutenberg.org/ebooks/27083",
-          "edition_id": "27083"
+          "label": "Project Gutenberg",
+          "edition_title": "The Subjection of Women",
+          "edition_creator": "John Stuart Mill",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Subjection+of+Women+John+Stuart+Mill",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Subjection of Women",
+          "edition_creator": "John Stuart Mill",
+          "search_terms": "The Subjection of Women John Stuart Mill",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7200,14 +8440,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "67138",
           "url": "https://www.gutenberg.org/ebooks/67138",
-          "edition_id": "67138"
+          "label": "Project Gutenberg",
+          "edition_title": "The Sun Also Rises",
+          "edition_creator": "Ernest Hemingway",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Sun+Also+Rises+Ernest+Hemingway",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Sun Also Rises",
+          "edition_creator": "Ernest Hemingway",
+          "search_terms": "The Sun Also Rises Ernest Hemingway",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7247,9 +8497,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Theological-Political+Treatise+Baruch+Spinoza",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Theological-Political Treatise",
+          "edition_creator": "Baruch Spinoza",
+          "search_terms": "Theological-Political Treatise Baruch Spinoza",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7289,14 +8544,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "1257",
           "url": "https://www.gutenberg.org/ebooks/1257",
-          "edition_id": "1257"
+          "label": "Project Gutenberg",
+          "edition_title": "The three musketeers",
+          "edition_creator": "Alexandre Dumas and Auguste Maquet",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Three+Musketeers+Alexandre+Dumas",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Three Musketeers",
+          "edition_creator": "Alexandre Dumas",
+          "search_terms": "The Three Musketeers Alexandre Dumas",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7338,14 +8603,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "7849",
           "url": "https://www.gutenberg.org/ebooks/7849",
-          "edition_id": "7849"
+          "label": "Project Gutenberg",
+          "edition_title": "The Trial",
+          "edition_creator": "Franz Kafka",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Trial+Franz+Kafka",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Trial",
+          "edition_creator": "Franz Kafka",
+          "search_terms": "The Trial Franz Kafka",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7385,9 +8660,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+True+Believer+Eric+Hoffer",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The True Believer",
+          "edition_creator": "Eric Hoffer",
+          "search_terms": "The True Believer Eric Hoffer",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7429,9 +8709,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+True+Story+of+Ah+Q+Lu+Xun",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The True Story of Ah Q",
+          "edition_creator": "Lu Xun",
+          "search_terms": "The True Story of Ah Q Lu Xun",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7471,19 +8756,34 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "209",
           "url": "https://www.gutenberg.org/ebooks/209",
-          "edition_id": "209"
-        },
-        {
           "label": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/26285",
-          "edition_id": "26285"
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "project-gutenberg",
+          "edition_id": "26285",
+          "url": "https://www.gutenberg.org/ebooks/26285",
+          "label": "Project Gutenberg",
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Turn+of+the+Screw+Henry+James",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Turn of the Screw",
+          "edition_creator": "Henry James",
+          "search_terms": "The Turn of the Screw Henry James",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7525,9 +8825,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Underdogs+Mariano+Azuela",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Underdogs",
+          "edition_creator": "Mariano Azuela",
+          "search_terms": "The Underdogs Mariano Azuela",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7570,9 +8875,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=The+Vortex+Jos%C3%A9+Eustasio+Rivera",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "The Vortex",
+          "edition_creator": "José Eustasio Rivera",
+          "search_terms": "The Vortex José Eustasio Rivera",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7612,9 +8922,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Thought+Reform+and+the+Psychology+of+Totalism+Robert+Jay+Lifton",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Thought Reform and the Psychology of Totalism",
+          "edition_creator": "Robert Jay Lifton",
+          "search_terms": "Thought Reform and the Psychology of Totalism Robert Jay Lifton",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7653,9 +8968,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Two+Treatises+of+Government+John+Locke",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Two Treatises of Government",
+          "edition_creator": "John Locke",
+          "search_terms": "Two Treatises of Government John Locke",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7694,14 +9014,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "4300",
           "url": "https://www.gutenberg.org/ebooks/4300",
-          "edition_id": "4300"
+          "label": "Project Gutenberg",
+          "edition_title": "Ulysses",
+          "edition_creator": "James Joyce",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Ulysses+James+Joyce",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Ulysses",
+          "edition_creator": "James Joyce",
+          "search_terms": "Ulysses James Joyce",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7741,14 +9071,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "203",
           "url": "https://www.gutenberg.org/ebooks/203",
-          "edition_id": "203"
+          "label": "Project Gutenberg",
+          "edition_title": "Uncle Tom's Cabin",
+          "edition_creator": "Harriet Beecher Stowe",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Uncle+Tom%27s+Cabin+Harriet+Beecher+Stowe",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Uncle Tom's Cabin",
+          "edition_creator": "Harriet Beecher Stowe",
+          "search_terms": "Uncle Tom's Cabin Harriet Beecher Stowe",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7785,9 +9125,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Use+Safe+Water+During+an+Emergency",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Use Safe Water During an Emergency",
+          "edition_creator": "",
+          "search_terms": "Use Safe Water During an Emergency",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7828,14 +9173,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "2600",
           "url": "https://www.gutenberg.org/ebooks/2600",
-          "edition_id": "2600"
+          "label": "Project Gutenberg",
+          "edition_title": "War and Peace",
+          "edition_creator": "graf Leo Tolstoy",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=War+and+Peace+Leo+Tolstoy",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "War and Peace",
+          "edition_creator": "Leo Tolstoy",
+          "search_terms": "War and Peace Leo Tolstoy",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7877,9 +9232,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=We+Yevgeny+Zamyatin",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "We",
+          "edition_creator": "Yevgeny Zamyatin",
+          "search_terms": "We Yevgeny Zamyatin",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7919,9 +9279,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Weapons+of+Math+Destruction+Cathy+O%27Neil",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Weapons of Math Destruction",
+          "edition_creator": "Cathy O'Neil",
+          "search_terms": "Weapons of Math Destruction Cathy O'Neil",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -7962,9 +9327,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=What+Is+Property%3F+Pierre-Joseph+Proudhon",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "What Is Property?",
+          "edition_creator": "Pierre-Joseph Proudhon",
+          "search_terms": "What Is Property? Pierre-Joseph Proudhon",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8005,9 +9375,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=What+Is+to+Be+Done%3F+Nikolai+Chernyshevsky",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "What Is to Be Done?",
+          "edition_creator": "Nikolai Chernyshevsky",
+          "search_terms": "What Is to Be Done? Nikolai Chernyshevsky",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8046,9 +9421,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Why+I+Am+an+Agnostic+Robert+G.+Ingersoll",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Why I Am an Agnostic",
+          "edition_creator": "Robert G. Ingersoll",
+          "search_terms": "Why I Am an Agnostic Robert G. Ingersoll",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8085,9 +9465,14 @@
       ],
       "source_options": [
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Wildfire+Evacuation+Materials",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Wildfire Evacuation Materials",
+          "edition_creator": "",
+          "search_terms": "Wildfire Evacuation Materials",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8125,14 +9510,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "22949",
           "url": "https://www.gutenberg.org/ebooks/22949",
-          "edition_id": "22949"
+          "label": "Project Gutenberg",
+          "edition_title": "Winesburg, Ohio",
+          "edition_creator": "Sherwood Anderson",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Winesburg%2C+Ohio+Sherwood+Anderson",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Winesburg, Ohio",
+          "edition_creator": "Sherwood Anderson",
+          "search_terms": "Winesburg, Ohio Sherwood Anderson",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8172,14 +9567,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "34607",
           "url": "https://www.gutenberg.org/ebooks/34607",
-          "edition_id": "34607"
+          "label": "Project Gutenberg",
+          "edition_title": "Woodcraft and Camping",
+          "edition_creator": "George Washington Sears",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Woodcraft+and+Camping+George+Washington+Sears",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Woodcraft and Camping",
+          "edition_creator": "George Washington Sears",
+          "search_terms": "Woodcraft and Camping George Washington Sears",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
@@ -8219,14 +9624,24 @@
       ],
       "source_options": [
         {
-          "label": "Project Gutenberg",
+          "source_id": "project-gutenberg",
+          "edition_id": "768",
           "url": "https://www.gutenberg.org/ebooks/768",
-          "edition_id": "768"
+          "label": "Project Gutenberg",
+          "edition_title": "Wuthering Heights",
+          "edition_creator": "Emily Brontë",
+          "search_terms": null,
+          "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "label": "Search in Libby",
+          "source_id": "libby",
+          "edition_id": null,
           "url": "https://libbyapp.com/search?query=Wuthering+Heights+Emily+Bront%C3%AB",
-          "edition_id": null
+          "label": "Search in Libby",
+          "edition_title": "Wuthering Heights",
+          "edition_creator": "Emily Brontë",
+          "search_terms": "Wuthering Heights Emily Brontë",
+          "resolution_method": "library-search-fallback"
         }
       ],
       "rights_guidance": {
