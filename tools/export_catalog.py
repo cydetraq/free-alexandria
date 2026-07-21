@@ -84,7 +84,8 @@ def local_file_links(editions: list[dict]) -> str:
     seen: set[tuple[str, str]] = set()
     for edition in editions:
         for file in edition.get("files", []):
-            role = str(file.get("role", "file")).upper()
+            raw_role = str(file.get("role", "file"))
+            role = {"facsimile-pdf": "Facsimile PDF"}.get(raw_role, raw_role.upper())
             key = (role, file["path"])
             if key not in seen:
                 seen.add(key)

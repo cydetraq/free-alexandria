@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "work_id": "the-adventures-of-tom-sawyer",
+  "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
+  "source": {
+    "name": "Internet Archive",
+    "item_id": "adventuresoftoms00twaiuoft",
+    "edition_page": "https://archive.org/details/adventuresoftoms00twaiuoft",
+    "download_url": "https://archive.org/download/adventuresoftoms00twaiuoft/adventuresoftoms00twaiuoft.pdf",
+    "acquired_at": "2026-07-21T19:55:58+00:00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf",
+      "sha256": "b2bd91968268a5553dd80b7777052ae8f897f31cbd34076f0bd5164704ecd1da",
+      "bytes": 18610004
+    }
+  ],
+  "operator_note": "Source-faithful PDF scan retained as an optional facsimile alongside the compact reading edition."
+}

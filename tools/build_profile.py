@@ -151,26 +151,32 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
     missing: list[str] = []
     for record in records:
         editions = registry.get(record["id"], [])
-        edition = next((item for language in preferences for item in editions if item["language"] == language), None)
-        edition = edition or (editions[0] if editions else None)
-        if not edition:
+        primary = next((item for language in preferences for item in editions if item["language"] == language), None)
+        primary = primary or (editions[0] if editions else None)
+        if not primary:
             missing.append(record["id"])
             continue
-        rights_review = edition.get("rights_review", {})
+        selected_editions = [primary, *[item for item in editions if item is not primary and any(file.get("role") == "facsimile-pdf" for file in item.get("files", []))]]
+        rights_review = primary.get("rights_review", {})
         if not rights_review.get("basis") or not rights_review.get("reviewed_at"):
             raise ValueError(f"missing local eligibility evidence for {record['id']}")
-        provenance_path = ROOT / edition.get("provenance_path", "")
-        if not provenance_path.is_file():
-            raise ValueError(f"missing local provenance record for {record['id']}: {edition.get('provenance_path')}")
-        for file in edition["files"]:
-            path = ROOT / file["path"]
-            if not path.is_file():
-                raise ValueError(f"missing local file for {record['id']}: {file['path']}")
-            if path.stat().st_size != file["bytes"]:
-                raise ValueError(f"size mismatch for {record['id']}: {file['path']}")
-            if digest(path) != file["sha256"]:
-                raise ValueError(f"checksum mismatch for {record['id']}: {file['path']}")
-        resolved[record["id"]] = edition
+        files = []
+        provenance_paths = []
+        for edition in selected_editions:
+            provenance_path = ROOT / edition.get("provenance_path", "")
+            if not provenance_path.is_file():
+                raise ValueError(f"missing local provenance record for {record['id']}: {edition.get('provenance_path')}")
+            provenance_paths.append(edition["provenance_path"])
+            for file in edition["files"]:
+                path = ROOT / file["path"]
+                if not path.is_file():
+                    raise ValueError(f"missing local file for {record['id']}: {file['path']}")
+                if path.stat().st_size != file["bytes"]:
+                    raise ValueError(f"size mismatch for {record['id']}: {file['path']}")
+                if digest(path) != file["sha256"]:
+                    raise ValueError(f"checksum mismatch for {record['id']}: {file['path']}")
+                files.append(file)
+        resolved[record["id"]] = {**primary, "files": files, "provenance_paths": provenance_paths, "source_editions": selected_editions}
     if missing:
         raise ValueError("distribution build requires local published editions for: " + ", ".join(missing))
     total_bytes = sum(file["bytes"] for edition in resolved.values() for file in edition["files"])
@@ -229,8 +235,9 @@ def main() -> int:
             destination = output / file["path"]
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / file["path"], destination)
-        provenance_path = edition.get("provenance_path")
-        if provenance_path:
+        for provenance_path in edition.get("provenance_paths", [edition.get("provenance_path")]):
+            if not provenance_path:
+                continue
             destination = output / provenance_path
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / provenance_path, destination)

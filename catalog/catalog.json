@@ -7248,6 +7248,27 @@
               "bytes": 397627
             }
           ]
+        },
+        {
+          "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
+          "language": "English",
+          "source_id": "internet-archive",
+          "source_item_id": "adventuresoftoms00twaiuoft",
+          "provenance_path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://archive.org/details/adventuresoftoms00twaiuoft"
+          },
+          "files": [
+            {
+              "role": "facsimile-pdf",
+              "path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf",
+              "sha256": "b2bd91968268a5553dd80b7777052ae8f897f31cbd34076f0bd5164704ecd1da",
+              "bytes": 18610004
+            }
+          ]
         }
       ],
       "democracy-in-america": [

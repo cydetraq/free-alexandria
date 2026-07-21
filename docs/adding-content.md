@@ -39,6 +39,21 @@ python3 tools/export_catalog.py
 
 The person building an archive chooses what to download, keep, or distribute for their own location and use. Free Alexandria preserves source and edition facts; it does not replace that decision.
 
+## Add a higher-quality facsimile PDF
+
+The standard Project Gutenberg PDF is a compact reading copy. When a public source provides a better scan below GitHub's 100 MB single-file limit, retain it as an additional `facsimile.pdf` edition rather than replacing the reading EPUB/PDF:
+
+```sh
+python3 tools/add_facsimile_pdf.py the-adventures-of-tom-sawyer \
+  --source-id internet-archive \
+  --source-item-id adventuresoftoms00twaiuoft \
+  --source-name 'Internet Archive' \
+  --edition-page 'https://archive.org/details/adventuresoftoms00twaiuoft' \
+  --download-url 'https://archive.org/download/adventuresoftoms00twaiuoft/adventuresoftoms00twaiuoft.pdf'
+```
+
+The build presents it as **Download Facsimile PDF**, copies its independent provenance, and keeps the compact EPUB/PDF as the default reading edition.
+
 ## Optional jurisdiction notes
 
 `catalog/jurisdictional-access.json` contains the repository's limited, source-linked jurisdiction notes. Generate a local reference file for selected works with:

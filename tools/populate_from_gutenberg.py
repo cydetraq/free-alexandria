@@ -115,12 +115,14 @@ def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
         "files": files,
         "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
     }, indent=2) + "\n")
-    registry["editions"][record["id"]] = [{
+    edition = {
         "edition_id": edition_id, "language": "English", "source_id": "project-gutenberg", "source_item_id": item_id,
         "provenance_path": str(provenance.relative_to(root)),
         "rights_review": {"status": "operator-selected", "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.", "reviewed_at": dt.date.today().isoformat(), "evidence_url": source["url"]},
         "files": files
-    }]
+    }
+    existing = registry["editions"].setdefault(record["id"], [])
+    registry["editions"][record["id"]] = [item for item in existing if item.get("edition_id") != edition_id] + [edition]
     print(f"ACQUIRED {record['title']} — Gutenberg {item_id}")
 
 
