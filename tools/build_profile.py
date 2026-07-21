@@ -88,13 +88,42 @@ def load_source_options() -> dict[str, list[dict]]:
     }
 
 
+SOURCE_LABELS = {
+    "project-gutenberg": "Project Gutenberg",
+    "internet-archive": "Internet Archive",
+    "library-of-congress": "Library of Congress",
+    "standard-ebooks": "Standard Ebooks",
+}
+
+
+def edition_sources(editions: list[dict]) -> list[dict]:
+    """Return only the sources for editions actually included in an archive."""
+    sources: list[dict] = []
+    seen: set[str] = set()
+    for edition in editions:
+        url = edition.get("rights_review", {}).get("evidence_url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        source_id = edition.get("source_id", "source")
+        sources.append({
+            "source_id": source_id,
+            "source_item_id": edition.get("source_item_id"),
+            "label": SOURCE_LABELS.get(source_id, source_id.replace("-", " ").title()),
+            "url": url,
+            "edition_id": edition.get("edition_id"),
+            "primary": not sources,
+        })
+    return sources
+
+
 def rights_guidance(record: dict, options: list[dict]) -> dict:
     """Reader-facing evidence signals; these are intentionally not legal conclusions."""
     year = record.get("original_year")
     language = record.get("original_language")
     notes = []
     if options:
-        notes.append("An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.")
+        notes.append("The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.")
     if isinstance(year, int) and year <= 1930 and language == "English":
         signal = "strong-us-public-domain-signal"
         notes.append("The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ.")
@@ -176,7 +205,7 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
                 if digest(path) != file["sha256"]:
                     raise ValueError(f"checksum mismatch for {record['id']}: {file['path']}")
                 files.append(file)
-        resolved[record["id"]] = {**primary, "files": files, "provenance_paths": provenance_paths, "source_editions": selected_editions}
+        resolved[record["id"]] = {**primary, "files": files, "provenance_paths": provenance_paths, "source_editions": selected_editions, "edition_sources": edition_sources(selected_editions)}
     if missing:
         raise ValueError("distribution build requires local published editions for: " + ", ".join(missing))
     total_bytes = sum(file["bytes"] for edition in resolved.values() for file in edition["files"])
@@ -199,9 +228,8 @@ def main() -> int:
     if not profile["constraints"].get("require_local_files") or profile["constraints"].get("allow_link_only"):
         raise ValueError("distribution profiles require local files and cannot include link-only records")
     records = select(profile, load_records())
-    source_options = load_source_options()
-    records = [{**record, "source_options": source_options.get(record["id"], []), "rights_guidance": rights_guidance(record, source_options.get(record["id"], []))} for record in records]
-    editions = resolve_editions(profile, records, args.edition_registry) if profile["build_mode"] == "distribution" else {}
+    editions = resolve_editions(profile, records, args.edition_registry)
+    records = [{**record, "edition_sources": editions[record["id"]]["edition_sources"], "rights_guidance": rights_guidance(record, editions[record["id"]]["edition_sources"])} for record in records]
     output = args.output / profile["id"]
     if output.exists():
         raise FileExistsError(

@@ -85,6 +85,11 @@
         const fileLabel = role => role === 'facsimile-pdf' ? 'Facsimile PDF' : String(role || 'file').toUpperCase();
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
         const availabilityLabel = () => 'EPUB + PDF included';
+        const editionSources = edition => {
+          const sources = edition && edition.edition_sources || [];
+          if (!sources.length) return '';
+          return `<details><summary>Edition source${sources.length === 1 ? '' : 's'}</summary><p class="actions">${sources.map(source => `<a class="action secondary" target="_blank" rel="noopener" href="${esc(source.url)}">${esc(source.label)}</a>`).join(' ')}</p></details>`;
+        };
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';
           const collections = (record.collections || []).map(id => `<span class="badge">${esc(labels[id] || id)}</span>`).join('');
@@ -92,7 +97,7 @@
           const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
           const downloads = edition ? `<p class="actions">${edition.files.map(file => `<a class="action" download href="${encodeURI(file.path)}">Download ${esc(fileLabel(file.role))}</a>`).join(' ')}</p>` : '';
           const guidance = record.rights_guidance ? `<details><summary>Availability guidance</summary><p>${esc((record.rights_guidance.evidence_notes || []).join(' '))}</p><p class="meta">This is research guidance, not a legal ruling. ${esc(record.rights_guidance.operator_question || '')}</p></details>` : '';
-          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel()}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details>${guidance}</article>`;
+          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel()}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}${editionSources(edition)}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details>${guidance}</article>`;
         };
         const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
         fetch('./manifest.json')

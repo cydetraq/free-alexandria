@@ -23,33 +23,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "4217",
-          "url": "https://www.gutenberg.org/ebooks/4217",
+          "source_item_id": "4217",
           "label": "Project Gutenberg",
-          "edition_title": "A Portrait of the Artist as a Young Man",
-          "edition_creator": "James Joyce",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=A+Portrait+of+the+Artist+as+a+Young+Man+James+Joyce",
-          "label": "Search in Libby",
-          "edition_title": "A Portrait of the Artist as a Young Man",
-          "edition_creator": "James Joyce",
-          "search_terms": "A Portrait of the Artist as a Young Man James Joyce",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/4217",
+          "edition_id": "a-portrait-of-the-artist-as-a-young-man-en-source-1916-gutenberg-4217",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -75,123 +63,21 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "76",
+          "source_item_id": "76",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/76",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "19640",
-          "url": "https://www.gutenberg.org/ebooks/19640",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7100",
-          "url": "https://www.gutenberg.org/ebooks/7100",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 01 to 05",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7106",
-          "url": "https://www.gutenberg.org/ebooks/7106",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 31 to 35",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7101",
-          "url": "https://www.gutenberg.org/ebooks/7101",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 06 to 10",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7102",
-          "url": "https://www.gutenberg.org/ebooks/7102",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 11 to 15",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7107",
-          "url": "https://www.gutenberg.org/ebooks/7107",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 36 to the Last",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7104",
-          "url": "https://www.gutenberg.org/ebooks/7104",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 21 to 25",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7105",
-          "url": "https://www.gutenberg.org/ebooks/7105",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 26 to 30",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7103",
-          "url": "https://www.gutenberg.org/ebooks/7103",
-          "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn, Chapters 16 to 20",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Adventures+of+Huckleberry+Finn+Mark+Twain",
-          "label": "Search in Libby",
-          "edition_title": "Adventures of Huckleberry Finn",
-          "edition_creator": "Mark Twain",
-          "search_terms": "Adventures of Huckleberry Finn Mark Twain",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -219,73 +105,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1399",
+          "source_item_id": "1399",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/1399",
-          "label": "Project Gutenberg",
-          "edition_title": "Anna Karenina",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "44956",
-          "url": "https://www.gutenberg.org/ebooks/44956",
-          "label": "Project Gutenberg",
-          "edition_title": "Anna Karenina, 1. Band (German)",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "44957",
-          "url": "https://www.gutenberg.org/ebooks/44957",
-          "label": "Project Gutenberg",
-          "edition_title": "Anna Karenina, 2. Band (German)",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "13214",
-          "url": "https://www.gutenberg.org/ebooks/13214",
-          "label": "Project Gutenberg",
-          "edition_title": "Anna Karenina (Dutch)",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "49487",
-          "url": "https://www.gutenberg.org/ebooks/49487",
-          "label": "Project Gutenberg",
-          "edition_title": "Anna Karenina (Finnish)",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Anna+Karenina+Leo+Tolstoy",
-          "label": "Search in Libby",
-          "edition_title": "Anna Karenina",
-          "edition_creator": "Leo Tolstoy",
-          "search_terms": "Anna Karenina Leo Tolstoy",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "anna-karenina-en-source-1877-gutenberg-1399",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -311,33 +145,21 @@
         "political-philosophy",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "608",
-          "url": "https://www.gutenberg.org/ebooks/608",
+          "source_item_id": "608",
           "label": "Project Gutenberg",
-          "edition_title": "Areopagitica",
-          "edition_creator": "John Milton",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Areopagitica+John+Milton",
-          "label": "Search in Libby",
-          "edition_title": "Areopagitica",
-          "edition_creator": "John Milton",
-          "search_terms": "Areopagitica John Milton",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/608",
+          "edition_id": "areopagitica-en-source-1644-gutenberg-608",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -363,33 +185,21 @@
         "class",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1156",
-          "url": "https://www.gutenberg.org/ebooks/1156",
+          "source_item_id": "1156",
           "label": "Project Gutenberg",
-          "edition_title": "Babbitt",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Babbitt+Sinclair+Lewis",
-          "label": "Search in Libby",
-          "edition_title": "Babbitt",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": "Babbitt Sinclair Lewis",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1156",
+          "edition_id": "babbitt-en-source-1922-gutenberg-1156",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -415,43 +225,21 @@
         "rights",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "147",
+          "source_item_id": "147",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/147",
-          "label": "Project Gutenberg",
-          "edition_title": "Common Sense",
-          "edition_creator": "Thomas Paine",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "3755",
-          "url": "https://www.gutenberg.org/ebooks/3755",
-          "label": "Project Gutenberg",
-          "edition_title": "Common Sense",
-          "edition_creator": "Thomas Paine",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Common+Sense+Thomas+Paine",
-          "label": "Search in Libby",
-          "edition_title": "Common Sense",
-          "edition_creator": "Thomas Paine",
-          "search_terms": "Common Sense Thomas Paine",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "common-sense-en-source-1776-gutenberg-147",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -479,33 +267,21 @@
         "serfdom",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1081",
-          "url": "https://www.gutenberg.org/ebooks/1081",
+          "source_item_id": "1081",
           "label": "Project Gutenberg",
-          "edition_title": "Dead Souls",
-          "edition_creator": "Nikolai Vasilevich Gogol",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Dead+Souls+Nikolai+Gogol",
-          "label": "Search in Libby",
-          "edition_title": "Dead Souls",
-          "edition_creator": "Nikolai Gogol",
-          "search_terms": "Dead Souls Nikolai Gogol",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1081",
+          "edition_id": "dead-souls-en-source-1842-gutenberg-1081",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -532,43 +308,21 @@
         "politics",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "815",
+          "source_item_id": "815",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/815",
-          "label": "Project Gutenberg",
-          "edition_title": "Democracy in America — Volume 1",
-          "edition_creator": "Alexis de Tocqueville",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "816",
-          "url": "https://www.gutenberg.org/ebooks/816",
-          "label": "Project Gutenberg",
-          "edition_title": "Democracy in America — Volume 2",
-          "edition_creator": "Alexis de Tocqueville",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Democracy+in+America+Alexis+de+Tocqueville",
-          "label": "Search in Libby",
-          "edition_title": "Democracy in America",
-          "edition_creator": "Alexis de Tocqueville",
-          "search_terms": "Democracy in America Alexis de Tocqueville",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "democracy-in-america-en-source-1835-gutenberg-815",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -594,33 +348,21 @@
         "philosophy",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "4583",
-          "url": "https://www.gutenberg.org/ebooks/4583",
+          "source_item_id": "4583",
           "label": "Project Gutenberg",
-          "edition_title": "Dialogues Concerning Natural Religion",
-          "edition_creator": "David Hume",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Dialogues+Concerning+Natural+Religion+David+Hume",
-          "label": "Search in Libby",
-          "edition_title": "Dialogues Concerning Natural Religion",
-          "edition_creator": "David Hume",
-          "search_terms": "Dialogues Concerning Natural Religion David Hume",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/4583",
+          "edition_id": "dialogues-concerning-natural-religion-en-source-1779-gutenberg-4583",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -649,53 +391,21 @@
         "freedom-of-thought",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "996",
+          "source_item_id": "996",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/996",
-          "label": "Project Gutenberg",
-          "edition_title": "Don Quixote",
-          "edition_creator": "Miguel de Cervantes Saavedra",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "28842",
-          "url": "https://www.gutenberg.org/ebooks/28842",
-          "label": "Project Gutenberg",
-          "edition_title": "Don Quixote, Volume 1",
-          "edition_creator": "Miguel de Cervantes Saavedra",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "55106",
-          "url": "https://www.gutenberg.org/ebooks/55106",
-          "label": "Project Gutenberg",
-          "edition_title": "Don Quixote of the Mancha, Retold by Judge Parry",
-          "edition_creator": "Miguel de Cervantes Saavedra and Sir Edward Abbott Parry",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Don+Quixote+Miguel+de+Cervantes",
-          "label": "Search in Libby",
-          "edition_title": "Don Quixote",
-          "edition_creator": "Miguel de Cervantes",
-          "search_terms": "Don Quixote Miguel de Cervantes",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "don-quixote-en-ormsby-1885-gutenberg-996",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -722,33 +432,21 @@
         "fiction",
         "license-review"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "8086",
-          "url": "https://www.gutenberg.org/ebooks/8086",
+          "source_item_id": "8086",
           "label": "Project Gutenberg",
-          "edition_title": "Down and Out in the Magic Kingdom",
-          "edition_creator": "Cory Doctorow",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Down+and+Out+in+the+Magic+Kingdom+Cory+Doctorow",
-          "label": "Search in Libby",
-          "edition_title": "Down and Out in the Magic Kingdom",
-          "edition_creator": "Cory Doctorow",
-          "search_terms": "Down and Out in the Magic Kingdom Cory Doctorow",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/8086",
+          "edition_id": "down-and-out-in-the-magic-kingdom-en-source-2003-gutenberg-8086",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "edition-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "Use the recorded edition and source facts to assess your own intended use."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -775,63 +473,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "345",
+          "source_item_id": "345",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/345",
-          "label": "Project Gutenberg",
-          "edition_title": "Dracula",
-          "edition_creator": "Bram Stoker",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "45839",
-          "url": "https://www.gutenberg.org/ebooks/45839",
-          "label": "Project Gutenberg",
-          "edition_title": "Dracula",
-          "edition_creator": "Bram Stoker",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "19797",
-          "url": "https://www.gutenberg.org/ebooks/19797",
-          "label": "Project Gutenberg",
-          "edition_title": "Dracula",
-          "edition_creator": "Bram Stoker",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "10150",
-          "url": "https://www.gutenberg.org/ebooks/10150",
-          "label": "Project Gutenberg",
-          "edition_title": "Dracula's Guest",
-          "edition_creator": "Bram Stoker",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Dracula+Bram+Stoker",
-          "label": "Search in Libby",
-          "edition_title": "Dracula",
-          "edition_creator": "Bram Stoker",
-          "search_terms": "Dracula Bram Stoker",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "dracula-en-source-1897-gutenberg-345",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -858,33 +514,21 @@
         "agriculture",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "4924",
-          "url": "https://www.gutenberg.org/ebooks/4924",
+          "source_item_id": "4924",
           "label": "Project Gutenberg",
-          "edition_title": "Dry-Farming : A System of Agriculture for Countries under a Low Rainfall",
-          "edition_creator": "John Andreas Widtsoe",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Dry-Farming+John+A.+Widtsoe",
-          "label": "Search in Libby",
-          "edition_title": "Dry-Farming",
-          "edition_creator": "John A. Widtsoe",
-          "search_terms": "Dry-Farming John A. Widtsoe",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/4924",
+          "edition_id": "dry-farming-en-source-1911-gutenberg-4924",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -911,33 +555,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "2814",
-          "url": "https://www.gutenberg.org/ebooks/2814",
+          "source_item_id": "2814",
           "label": "Project Gutenberg",
-          "edition_title": "Dubliners",
-          "edition_creator": "James Joyce",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Dubliners+James+Joyce",
-          "label": "Search in Libby",
-          "edition_title": "Dubliners",
-          "edition_creator": "James Joyce",
-          "search_terms": "Dubliners James Joyce",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/2814",
+          "edition_id": "dubliners-en-source-1914-gutenberg-2814",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -965,33 +597,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "5323",
-          "url": "https://www.gutenberg.org/ebooks/5323",
+          "source_item_id": "5323",
           "label": "Project Gutenberg",
-          "edition_title": "Effi Briest (German)",
-          "edition_creator": "Theodor Fontane",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Effi+Briest+Theodor+Fontane",
-          "label": "Search in Libby",
-          "edition_title": "Effi Briest",
-          "edition_creator": "Theodor Fontane",
-          "search_terms": "Effi Briest Theodor Fontane",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/5323",
+          "edition_id": "effi-briest-en-source-1895-gutenberg-5323",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1020,33 +640,21 @@
         "philippines",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "30903",
-          "url": "https://www.gutenberg.org/ebooks/30903",
+          "source_item_id": "30903",
           "label": "Project Gutenberg",
-          "edition_title": "El Filibusterismo (Continuación del Noli me tángere) (Spanish)",
-          "edition_creator": "José Rizal",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=El+Filibusterismo+Jos%C3%A9+Rizal",
-          "label": "Search in Libby",
-          "edition_title": "El Filibusterismo",
-          "edition_creator": "José Rizal",
-          "search_terms": "El Filibusterismo José Rizal",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/30903",
+          "edition_id": "el-filibusterismo-en-source-1891-gutenberg-30903",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1073,33 +681,21 @@
         "mathematics",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "75074",
-          "url": "https://www.gutenberg.org/ebooks/75074",
+          "source_item_id": "75074",
           "label": "Project Gutenberg",
-          "edition_title": "Elementary cryptanalysis",
-          "edition_creator": "Helen Fouché Gaines",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Elementary+Cryptanalysis+Helen+Fouch%C3%A9+Gaines",
-          "label": "Search in Libby",
-          "edition_title": "Elementary Cryptanalysis",
-          "edition_creator": "Helen Fouché Gaines",
-          "search_terms": "Elementary Cryptanalysis Helen Fouché Gaines",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/75074",
+          "edition_id": "elementary-cryptanalysis-en-original-1939-gutenberg-75074",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "us-renewal-research-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "For U.S. use, publication and renewal facts for the specific work and edition can matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1126,33 +722,21 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "72609",
-          "url": "https://www.gutenberg.org/ebooks/72609",
+          "source_item_id": "72609",
           "label": "Project Gutenberg",
-          "edition_title": "Elmer Gantry",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Elmer+Gantry+Sinclair+Lewis",
-          "label": "Search in Libby",
-          "edition_title": "Elmer Gantry",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": "Elmer Gantry Sinclair Lewis",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/72609",
+          "edition_id": "elmer-gantry-en-source-1927-gutenberg-72609",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1178,33 +762,21 @@
         "mechanics",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "39791",
-          "url": "https://www.gutenberg.org/ebooks/39791",
+          "source_item_id": "39791",
           "label": "Project Gutenberg",
-          "edition_title": "Farm Mechanics: Machinery and Its Use to Save Hand Labor on the Farm.",
-          "edition_creator": "Herbert A. Shearer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Farm+Mechanics+Herbert+A.+Shearer",
-          "label": "Search in Libby",
-          "edition_title": "Farm Mechanics",
-          "edition_creator": "Herbert A. Shearer",
-          "search_terms": "Farm Mechanics Herbert A. Shearer",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/39791",
+          "edition_id": "farm-mechanics-en-source-1918-gutenberg-39791",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1232,33 +804,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "47935",
-          "url": "https://www.gutenberg.org/ebooks/47935",
+          "source_item_id": "47935",
           "label": "Project Gutenberg",
-          "edition_title": "Fathers and Sons",
-          "edition_creator": "Ivan Sergeevich Turgenev",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Fathers+and+Sons+Ivan+Turgenev",
-          "label": "Search in Libby",
-          "edition_title": "Fathers and Sons",
-          "edition_creator": "Ivan Turgenev",
-          "search_terms": "Fathers and Sons Ivan Turgenev",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/47935",
+          "edition_id": "fathers-and-sons-en-source-1862-gutenberg-47935",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1280,53 +840,21 @@
         "construction",
         "repair"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "20763",
-          "url": "https://www.gutenberg.org/ebooks/20763",
+          "source_item_id": "70226",
           "label": "Project Gutenberg",
-          "edition_title": "Carpentry for Boys",
-          "edition_creator": "James Slough Zerbe",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "43574",
-          "url": "https://www.gutenberg.org/ebooks/43574",
-          "label": "Project Gutenberg",
-          "edition_title": "Carpentry and Woodwork",
-          "edition_creator": "Edwin W. Foster",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "70226",
           "url": "https://www.gutenberg.org/ebooks/70226",
-          "label": "Project Gutenberg",
-          "edition_title": "Carpentry",
-          "edition_creator": "Ira Samuel Griffith",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Carpentry",
-          "label": "Search in Libby",
-          "edition_title": "Carpentry",
-          "edition_creator": "",
-          "search_terms": "Carpentry",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "fm-5-426-carpentry-en-source-undated-gutenberg-70226",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "edition-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "Use the recorded edition and source facts to assess your own intended use."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1353,53 +881,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "84",
+          "source_item_id": "84",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/84",
-          "label": "Project Gutenberg",
-          "edition_title": "Frankenstein; or, the modern prometheus",
-          "edition_creator": "Mary Wollstonecraft Shelley",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "41445",
-          "url": "https://www.gutenberg.org/ebooks/41445",
-          "label": "Project Gutenberg",
-          "edition_title": "Frankenstein; Or, The Modern Prometheus",
-          "edition_creator": "Mary Wollstonecraft Shelley",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "42324",
-          "url": "https://www.gutenberg.org/ebooks/42324",
-          "label": "Project Gutenberg",
-          "edition_title": "Frankenstein; Or, The Modern Prometheus",
-          "edition_creator": "Mary Wollstonecraft Shelley",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Frankenstein+Mary+Shelley",
-          "label": "Search in Libby",
-          "edition_title": "Frankenstein",
-          "edition_creator": "Mary Shelley",
-          "search_terms": "Frankenstein Mary Shelley",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "frankenstein-1818-en-source-1818-gutenberg-84",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1427,43 +923,21 @@
         "class",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "56528",
+          "source_item_id": "56528",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/56528",
-          "label": "Project Gutenberg",
-          "edition_title": "Germinal",
-          "edition_creator": "Émile Zola",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "5711",
-          "url": "https://www.gutenberg.org/ebooks/5711",
-          "label": "Project Gutenberg",
-          "edition_title": "Germinal (French)",
-          "edition_creator": "Émile Zola",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Germinal+%C3%89mile+Zola",
-          "label": "Search in Libby",
-          "edition_title": "Germinal",
-          "edition_creator": "Émile Zola",
-          "search_terms": "Germinal Émile Zola",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "germinal-en-source-1885-gutenberg-56528",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1490,33 +964,21 @@
         "safety-critical",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "66136",
-          "url": "https://www.gutenberg.org/ebooks/66136",
+          "source_item_id": "66136",
           "label": "Project Gutenberg",
-          "edition_title": "Home Canning of Fruits and Vegetables",
-          "edition_creator": "United States. Agricultural Research Service. Human Nutrition Research Division",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Home+Canning+of+Fruits+and+Vegetables",
-          "label": "Search in Libby",
-          "edition_title": "Home Canning of Fruits and Vegetables",
-          "edition_creator": "",
-          "search_terms": "Home Canning of Fruits and Vegetables",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/66136",
+          "edition_id": "home-canning-of-fruits-and-vegetables-en-source-1924-gutenberg-66136",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1542,33 +1004,21 @@
         "propaganda",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "53453",
-          "url": "https://www.gutenberg.org/ebooks/53453",
+          "source_item_id": "53453",
           "label": "Project Gutenberg",
-          "edition_title": "Instincts of the Herd in Peace and War",
-          "edition_creator": "W. Trotter",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Instincts+of+the+Herd+in+Peace+and+War+Wilfred+Trotter",
-          "label": "Search in Libby",
-          "edition_title": "Instincts of the Herd in Peace and War",
-          "edition_creator": "Wilfred Trotter",
-          "search_terms": "Instincts of the Herd in Peace and War Wilfred Trotter",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/53453",
+          "edition_id": "instincts-of-the-herd-in-peace-and-war-en-source-1916-gutenberg-53453",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1595,33 +1045,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1260",
-          "url": "https://www.gutenberg.org/ebooks/1260",
+          "source_item_id": "1260",
           "label": "Project Gutenberg",
-          "edition_title": "Jane Eyre: An Autobiography",
-          "edition_creator": "Charlotte Brontë",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Jane+Eyre+Charlotte+Bront%C3%AB",
-          "label": "Search in Libby",
-          "edition_title": "Jane Eyre",
-          "edition_creator": "Charlotte Brontë",
-          "search_terms": "Jane Eyre Charlotte Brontë",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1260",
+          "edition_id": "jane-eyre-en-source-1847-gutenberg-1260",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1648,33 +1086,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "153",
-          "url": "https://www.gutenberg.org/ebooks/153",
+          "source_item_id": "153",
           "label": "Project Gutenberg",
-          "edition_title": "Jude the Obscure",
-          "edition_creator": "Thomas Hardy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Jude+the+Obscure+Thomas+Hardy",
-          "label": "Search in Libby",
-          "edition_title": "Jude the Obscure",
-          "edition_creator": "Thomas Hardy",
-          "search_terms": "Jude the Obscure Thomas Hardy",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/153",
+          "edition_id": "jude-the-obscure-en-source-1895-gutenberg-153",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1701,33 +1127,21 @@
         "class",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "73144",
-          "url": "https://www.gutenberg.org/ebooks/73144",
+          "source_item_id": "73144",
           "label": "Project Gutenberg",
-          "edition_title": "Lady Chatterley's lover",
-          "edition_creator": "D. H. Lawrence",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Lady+Chatterley%27s+Lover+D.+H.+Lawrence",
-          "label": "Search in Libby",
-          "edition_title": "Lady Chatterley's Lover",
-          "edition_creator": "D. H. Lawrence",
-          "search_terms": "Lady Chatterley's Lover D. H. Lawrence",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/73144",
+          "edition_id": "lady-chatterleys-lover-en-source-1928-gutenberg-73144",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1754,33 +1168,21 @@
         "free-expression",
         "literary-canon"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1322",
-          "url": "https://www.gutenberg.org/ebooks/1322",
+          "source_item_id": "1322",
           "label": "Project Gutenberg",
-          "edition_title": "Leaves of Grass",
-          "edition_creator": "Walt Whitman",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Leaves+of+Grass+Walt+Whitman",
-          "label": "Search in Libby",
-          "edition_title": "Leaves of Grass",
-          "edition_creator": "Walt Whitman",
-          "search_terms": "Leaves of Grass Walt Whitman",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1322",
+          "edition_id": "leaves-of-grass-en-source-1855-gutenberg-1322",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1808,133 +1210,21 @@
         "revolution",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "135",
+          "source_item_id": "135",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/135",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "17519",
-          "url": "https://www.gutenberg.org/ebooks/17519",
-          "label": "Project Gutenberg",
-          "edition_title": "Les misérables Tome V: Jean Valjean (French)",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "17489",
-          "url": "https://www.gutenberg.org/ebooks/17489",
-          "label": "Project Gutenberg",
-          "edition_title": "Les misérables Tome I: Fantine (French)",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "17518",
-          "url": "https://www.gutenberg.org/ebooks/17518",
-          "label": "Project Gutenberg",
-          "edition_title": "Les misérables Tome IV: L'idylle rue Plumet et l'épopée rue Saint-Denis (French)",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "17494",
-          "url": "https://www.gutenberg.org/ebooks/17494",
-          "label": "Project Gutenberg",
-          "edition_title": "Les misérables Tome III: Marius (French)",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "48731",
-          "url": "https://www.gutenberg.org/ebooks/48731",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables, v. 1/5: Fantine",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "48735",
-          "url": "https://www.gutenberg.org/ebooks/48735",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables, v. 5/5: Jean Valjean",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "48734",
-          "url": "https://www.gutenberg.org/ebooks/48734",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables, v. 4/5: The Idyll and the Epic",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "48733",
-          "url": "https://www.gutenberg.org/ebooks/48733",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables, v. 3/5: Marius",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "17493",
-          "url": "https://www.gutenberg.org/ebooks/17493",
-          "label": "Project Gutenberg",
-          "edition_title": "Les misérables Tome II: Cosette (French)",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "48732",
-          "url": "https://www.gutenberg.org/ebooks/48732",
-          "label": "Project Gutenberg",
-          "edition_title": "Les Misérables, v. 2/5: Cosette",
-          "edition_creator": "Victor Hugo",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Les+Mis%C3%A9rables+Victor+Hugo",
-          "label": "Search in Libby",
-          "edition_title": "Les Misérables",
-          "edition_creator": "Victor Hugo",
-          "search_terms": "Les Misérables Victor Hugo",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "les-miserables-en-source-1862-gutenberg-135",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -1962,53 +1252,21 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "27575",
-          "url": "https://www.gutenberg.org/ebooks/27575",
+          "source_item_id": "2413",
           "label": "Project Gutenberg",
-          "edition_title": "Madame Bovary: A Tale of Provincial Life, Vol. 1 (of 2)",
-          "edition_creator": "Gustave Flaubert",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "2413",
           "url": "https://www.gutenberg.org/ebooks/2413",
-          "label": "Project Gutenberg",
-          "edition_title": "Madame Bovary",
-          "edition_creator": "Gustave Flaubert",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "14155",
-          "url": "https://www.gutenberg.org/ebooks/14155",
-          "label": "Project Gutenberg",
-          "edition_title": "Madame Bovary (French)",
-          "edition_creator": "Gustave Flaubert",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Madame+Bovary+Gustave+Flaubert",
-          "label": "Search in Libby",
-          "edition_title": "Madame Bovary",
-          "edition_creator": "Gustave Flaubert",
-          "search_terms": "Madame Bovary Gustave Flaubert",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "madame-bovary-en-source-1857-gutenberg-2413",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2033,33 +1291,21 @@
         "social-criticism",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "543",
-          "url": "https://www.gutenberg.org/ebooks/543",
+          "source_item_id": "543",
           "label": "Project Gutenberg",
-          "edition_title": "Main Street",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Main+Street+Sinclair+Lewis",
-          "label": "Search in Libby",
-          "edition_title": "Main Street",
-          "edition_creator": "Sinclair Lewis",
-          "search_terms": "Main Street Sinclair Lewis",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/543",
+          "edition_id": "main-street-en-source-1920-gutenberg-543",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2085,33 +1331,21 @@
         "mathematics",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "48871",
-          "url": "https://www.gutenberg.org/ebooks/48871",
+          "source_item_id": "48871",
           "label": "Project Gutenberg",
-          "edition_title": "Manual for the Solution of Military Ciphers",
-          "edition_creator": "Parker Hitt",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Manual+for+the+Solution+of+Military+Ciphers+Parker+Hitt",
-          "label": "Search in Libby",
-          "edition_title": "Manual for the Solution of Military Ciphers",
-          "edition_creator": "Parker Hitt",
-          "search_terms": "Manual for the Solution of Military Ciphers Parker Hitt",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/48871",
+          "edition_id": "manual-for-the-solution-of-military-ciphers-en-source-1916-gutenberg-48871",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2138,33 +1372,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "145",
-          "url": "https://www.gutenberg.org/ebooks/145",
+          "source_item_id": "145",
           "label": "Project Gutenberg",
-          "edition_title": "Middlemarch",
-          "edition_creator": "George Eliot",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Middlemarch+George+Eliot",
-          "label": "Search in Libby",
-          "edition_title": "Middlemarch",
-          "edition_creator": "George Eliot",
-          "search_terms": "Middlemarch George Eliot",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/145",
+          "edition_id": "middlemarch-en-source-1871-gutenberg-145",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2194,43 +1416,21 @@
         "philippines",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "21848",
+          "source_item_id": "21848",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/21848",
-          "label": "Project Gutenberg",
-          "edition_title": "Noli me tangere: Filippijnsche roman (Dutch)",
-          "edition_creator": "José Rizal",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "20228",
-          "url": "https://www.gutenberg.org/ebooks/20228",
-          "label": "Project Gutenberg",
-          "edition_title": "Noli Me Tangere (Tagalog)",
-          "edition_creator": "José Rizal",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Noli+Me+Tangere+Jos%C3%A9+Rizal",
-          "label": "Search in Libby",
-          "edition_title": "Noli Me Tangere",
-          "edition_creator": "José Rizal",
-          "search_terms": "Noli Me Tangere José Rizal",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "noli-me-tangere-en-source-1887-gutenberg-21848",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2255,33 +1455,21 @@
         "censorship",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "34901",
-          "url": "https://www.gutenberg.org/ebooks/34901",
+          "source_item_id": "34901",
           "label": "Project Gutenberg",
-          "edition_title": "On Liberty",
-          "edition_creator": "John Stuart Mill",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=On+Liberty+John+Stuart+Mill",
-          "label": "Search in Libby",
-          "edition_title": "On Liberty",
-          "edition_creator": "John Stuart Mill",
-          "search_terms": "On Liberty John Stuart Mill",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/34901",
+          "edition_id": "on-liberty-en-source-1859-gutenberg-34901",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2307,33 +1495,21 @@
         "psychology",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "78634",
-          "url": "https://www.gutenberg.org/ebooks/78634",
+          "source_item_id": "78634",
           "label": "Project Gutenberg",
-          "edition_title": "Propaganda",
-          "edition_creator": "Edward L. Bernays",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Propaganda+Edward+Bernays",
-          "label": "Search in Libby",
-          "edition_title": "Propaganda",
-          "edition_creator": "Edward Bernays",
-          "search_terms": "Propaganda Edward Bernays",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/78634",
+          "edition_id": "propaganda-en-source-1928-gutenberg-78634",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2359,33 +1535,21 @@
         "psychology",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "6456",
-          "url": "https://www.gutenberg.org/ebooks/6456",
+          "source_item_id": "6456",
           "label": "Project Gutenberg",
-          "edition_title": "Public opinion",
-          "edition_creator": "Walter Lippmann",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Public+Opinion+Walter+Lippmann",
-          "label": "Search in Libby",
-          "edition_title": "Public Opinion",
-          "edition_creator": "Walter Lippmann",
-          "search_terms": "Public Opinion Walter Lippmann",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/6456",
+          "edition_id": "public-opinion-en-source-1922-gutenberg-6456",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2413,33 +1577,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1938",
-          "url": "https://www.gutenberg.org/ebooks/1938",
+          "source_item_id": "1938",
           "label": "Project Gutenberg",
-          "edition_title": "Resurrection",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Resurrection+Leo+Tolstoy",
-          "label": "Search in Libby",
-          "edition_title": "Resurrection",
-          "edition_creator": "Leo Tolstoy",
-          "search_terms": "Resurrection Leo Tolstoy",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1938",
+          "edition_id": "resurrection-tolstoy-en-source-1899-gutenberg-1938",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2465,33 +1617,21 @@
         "fieldcraft",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "28255",
-          "url": "https://www.gutenberg.org/ebooks/28255",
+          "source_item_id": "28255",
           "label": "Project Gutenberg",
-          "edition_title": "Shelters, Shacks and Shanties",
-          "edition_creator": "Daniel Carter Beard",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Shelters%2C+Shacks+and+Shanties+D.+C.+Beard",
-          "label": "Search in Libby",
-          "edition_title": "Shelters, Shacks and Shanties",
-          "edition_creator": "D. C. Beard",
-          "search_terms": "Shelters, Shacks and Shanties D. C. Beard",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/28255",
+          "edition_id": "shelters-shacks-and-shanties-en-source-1914-gutenberg-28255",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2520,53 +1660,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "2500",
+          "source_item_id": "2500",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/2500",
-          "label": "Project Gutenberg",
-          "edition_title": "Siddhartha",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "2499",
-          "url": "https://www.gutenberg.org/ebooks/2499",
-          "label": "Project Gutenberg",
-          "edition_title": "Siddhartha: eine indische Dichtung (German)",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "58344",
-          "url": "https://www.gutenberg.org/ebooks/58344",
-          "label": "Project Gutenberg",
-          "edition_title": "Siddhartha: A Poem of India",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Siddhartha+Hermann+Hesse",
-          "label": "Search in Libby",
-          "edition_title": "Siddhartha",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": "Siddhartha Hermann Hesse",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "siddhartha-en-source-1922-gutenberg-2500",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2595,33 +1703,21 @@
         "alienation",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "75756",
-          "url": "https://www.gutenberg.org/ebooks/75756",
+          "source_item_id": "75756",
           "label": "Project Gutenberg",
-          "edition_title": "Steppenwolf",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Steppenwolf+Hermann+Hesse",
-          "label": "Search in Libby",
-          "edition_title": "Steppenwolf",
-          "edition_creator": "Hermann Hesse",
-          "search_terms": "Steppenwolf Hermann Hesse",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/75756",
+          "edition_id": "steppenwolf-en-source-1927-gutenberg-75756",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2650,33 +1746,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "7178",
-          "url": "https://www.gutenberg.org/ebooks/7178",
+          "source_item_id": "7178",
           "label": "Project Gutenberg",
-          "edition_title": "Swann's Way",
-          "edition_creator": "Marcel Proust",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Swann%27s+Way+Marcel+Proust",
-          "label": "Search in Libby",
-          "edition_title": "Swann's Way",
-          "edition_creator": "Marcel Proust",
-          "search_terms": "Swann's Way Marcel Proust",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/7178",
+          "edition_id": "swanns-way-en-source-1913-gutenberg-7178",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2705,53 +1789,21 @@
         "theater",
         "censorship"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "28488",
+          "source_item_id": "28488",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/28488",
-          "label": "Project Gutenberg",
-          "edition_title": "Tartuffe; Or, The Hypocrite",
-          "edition_creator": "Molière",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "2027",
-          "url": "https://www.gutenberg.org/ebooks/2027",
-          "label": "Project Gutenberg",
-          "edition_title": "Tartuffe; Or, The Hypocrite",
-          "edition_creator": "Molière",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "52807",
-          "url": "https://www.gutenberg.org/ebooks/52807",
-          "label": "Project Gutenberg",
-          "edition_title": "Tartuffe: Viisinäytöksinen huvinäytelmä (Finnish)",
-          "edition_creator": "Molière",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Tartuffe+Moli%C3%A8re",
-          "label": "Search in Libby",
-          "edition_title": "Tartuffe",
-          "edition_creator": "Molière",
-          "search_terms": "Tartuffe Molière",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "tartuffe-en-source-1664-gutenberg-28488",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2778,33 +1830,21 @@
         "religion",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "110",
-          "url": "https://www.gutenberg.org/ebooks/110",
+          "source_item_id": "110",
           "label": "Project Gutenberg",
-          "edition_title": "Tess of the d'Urbervilles: A Pure Woman",
-          "edition_creator": "Thomas Hardy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Tess+of+the+d%27Urbervilles+Thomas+Hardy",
-          "label": "Search in Libby",
-          "edition_title": "Tess of the d'Urbervilles",
-          "edition_creator": "Thomas Hardy",
-          "search_terms": "Tess of the d'Urbervilles Thomas Hardy",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/110",
+          "edition_id": "tess-of-the-durbervilles-en-source-1891-gutenberg-110",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2829,113 +1869,29 @@
         "childhood",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "74",
+          "source_item_id": "74",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/74",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "curator-verified-canonical-edition"
+          "edition_id": "the-adventures-of-tom-sawyer-en-source-1876-gutenberg-74",
+          "primary": true
         },
         {
-          "source_id": "project-gutenberg",
-          "edition_id": "7193",
-          "url": "https://www.gutenberg.org/ebooks/7193",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 1.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7195",
-          "url": "https://www.gutenberg.org/ebooks/7195",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 3.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7194",
-          "url": "https://www.gutenberg.org/ebooks/7194",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 2.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7196",
-          "url": "https://www.gutenberg.org/ebooks/7196",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 4.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7200",
-          "url": "https://www.gutenberg.org/ebooks/7200",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 8.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7197",
-          "url": "https://www.gutenberg.org/ebooks/7197",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 5.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7199",
-          "url": "https://www.gutenberg.org/ebooks/7199",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 7.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "7198",
-          "url": "https://www.gutenberg.org/ebooks/7198",
-          "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer, Part 6.",
-          "edition_creator": "Mark Twain",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Adventures+of+Tom+Sawyer+Mark+Twain",
-          "label": "Search in Libby",
-          "edition_title": "The Adventures of Tom Sawyer",
-          "edition_creator": "Mark Twain",
-          "search_terms": "The Adventures of Tom Sawyer Mark Twain",
-          "resolution_method": "library-search-fallback"
+          "source_id": "internet-archive",
+          "source_item_id": "adventuresoftoms00twaiuoft",
+          "label": "Internet Archive",
+          "url": "https://archive.org/details/adventuresoftoms00twaiuoft",
+          "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
+          "primary": false
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -2962,43 +1918,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "26458",
-          "url": "https://www.gutenberg.org/ebooks/26458",
+          "source_item_id": "541",
           "label": "Project Gutenberg",
-          "edition_title": "Age of Innocence",
-          "edition_creator": "Edith Wharton",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "541",
           "url": "https://www.gutenberg.org/ebooks/541",
-          "label": "Project Gutenberg",
-          "edition_title": "The Age of Innocence",
-          "edition_creator": "Edith Wharton",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Age+of+Innocence+Edith+Wharton",
-          "label": "Search in Libby",
-          "edition_title": "The Age of Innocence",
-          "edition_creator": "Edith Wharton",
-          "search_terms": "The Age of Innocence Edith Wharton",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-age-of-innocence-en-source-1920-gutenberg-541",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3024,33 +1958,21 @@
         "historical-guidance",
         "domestic-skills"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "6598",
-          "url": "https://www.gutenberg.org/ebooks/6598",
+          "source_item_id": "6598",
           "label": "Project Gutenberg",
-          "edition_title": "American Woman's Home: Or, Principles of Domestic Science;",
-          "edition_creator": "Harriet Beecher Stowe and Catharine Esther Beecher",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+American+Woman%27s+Home+Catharine+Beecher+and+Harriet+Beecher+Stowe",
-          "label": "Search in Libby",
-          "edition_title": "The American Woman's Home",
-          "edition_creator": "Catharine Beecher and Harriet Beecher Stowe",
-          "search_terms": "The American Woman's Home Catharine Beecher and Harriet Beecher Stowe",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/6598",
+          "edition_id": "the-american-womans-home-en-source-1869-gutenberg-6598",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3077,33 +1999,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "160",
-          "url": "https://www.gutenberg.org/ebooks/160",
+          "source_item_id": "160",
           "label": "Project Gutenberg",
-          "edition_title": "The Awakening, and Selected Short Stories",
-          "edition_creator": "Kate Chopin",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Awakening+Kate+Chopin",
-          "label": "Search in Libby",
-          "edition_title": "The Awakening",
-          "edition_creator": "Kate Chopin",
-          "search_terms": "The Awakening Kate Chopin",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/160",
+          "edition_id": "the-awakening-en-source-1899-gutenberg-160",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3129,43 +2039,21 @@
         "politics",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "215",
+          "source_item_id": "215",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/215",
-          "label": "Project Gutenberg",
-          "edition_title": "The call of the wild",
-          "edition_creator": "Jack London",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "19678",
-          "url": "https://www.gutenberg.org/ebooks/19678",
-          "label": "Project Gutenberg",
-          "edition_title": "The call of the wild",
-          "edition_creator": "Jack London",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Call+of+the+Wild+Jack+London",
-          "label": "Search in Libby",
-          "edition_title": "The Call of the Wild",
-          "edition_creator": "Jack London",
-          "search_terms": "The Call of the Wild Jack London",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-call-of-the-wild-en-source-1903-gutenberg-215",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3193,33 +2081,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1184",
-          "url": "https://www.gutenberg.org/ebooks/1184",
+          "source_item_id": "1184",
           "label": "Project Gutenberg",
-          "edition_title": "The Count of Monte Cristo",
-          "edition_creator": "Alexandre Dumas and Auguste Maquet",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Count+of+Monte+Cristo+Alexandre+Dumas",
-          "label": "Search in Libby",
-          "edition_title": "The Count of Monte Cristo",
-          "edition_creator": "Alexandre Dumas",
-          "search_terms": "The Count of Monte Cristo Alexandre Dumas",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1184",
+          "edition_id": "the-count-of-monte-cristo-en-source-1844-gutenberg-1184",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3248,33 +2124,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "76965",
-          "url": "https://www.gutenberg.org/ebooks/76965",
+          "source_item_id": "76965",
           "label": "Project Gutenberg",
-          "edition_title": "The counterfeiters :  (Les faux-monnayeurs)",
-          "edition_creator": "André Gide",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Counterfeiters+Andr%C3%A9+Gide",
-          "label": "Search in Libby",
-          "edition_title": "The Counterfeiters",
-          "edition_creator": "André Gide",
-          "search_terms": "The Counterfeiters André Gide",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/76965",
+          "edition_id": "the-counterfeiters-en-source-1925-gutenberg-76965",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3301,33 +2165,21 @@
         "history",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "445",
-          "url": "https://www.gutenberg.org/ebooks/445",
+          "source_item_id": "445",
           "label": "Project Gutenberg",
-          "edition_title": "The crowd :  A study of the popular mind",
-          "edition_creator": "Gustave Le Bon",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Crowd+Gustave+Le+Bon",
-          "label": "Search in Libby",
-          "edition_title": "The Crowd",
-          "edition_creator": "Gustave Le Bon",
-          "search_terms": "The Crowd Gustave Le Bon",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/445",
+          "edition_id": "the-crowd-en-source-1895-gutenberg-445",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3355,243 +2207,21 @@
         "religion",
         "politics"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1001",
-          "url": "https://www.gutenberg.org/ebooks/1001",
+          "source_item_id": "8800",
           "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Longfellow's Translation, Hell",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "41537",
-          "url": "https://www.gutenberg.org/ebooks/41537",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy of Dante Alighieri: The Inferno",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8800",
           "url": "https://www.gutenberg.org/ebooks/8800",
-          "label": "Project Gutenberg",
-          "edition_title": "The divine comedy",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1004",
-          "url": "https://www.gutenberg.org/ebooks/1004",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Longfellow's Translation, Complete",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1003",
-          "url": "https://www.gutenberg.org/ebooks/1003",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Longfellow's Translation, Paradise",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8795",
-          "url": "https://www.gutenberg.org/ebooks/8795",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Purgatory, Complete",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1002",
-          "url": "https://www.gutenberg.org/ebooks/1002",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Longfellow's Translation, Purgatory",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1008",
-          "url": "https://www.gutenberg.org/ebooks/1008",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Cary's Translation, Complete",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8799",
-          "url": "https://www.gutenberg.org/ebooks/8799",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Complete",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1996",
-          "url": "https://www.gutenberg.org/ebooks/1996",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy, Volume 2, Purgatory",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1995",
-          "url": "https://www.gutenberg.org/ebooks/1995",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy, Volume 1, Hell",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8788",
-          "url": "https://www.gutenberg.org/ebooks/8788",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 10",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1005",
-          "url": "https://www.gutenberg.org/ebooks/1005",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Cary's Translation, Hell",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1006",
-          "url": "https://www.gutenberg.org/ebooks/1006",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Cary's Translation, Purgatory",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8779",
-          "url": "https://www.gutenberg.org/ebooks/8779",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 01",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1007",
-          "url": "https://www.gutenberg.org/ebooks/1007",
-          "label": "Project Gutenberg",
-          "edition_title": "Divine Comedy, Cary's Translation, Paradise",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1997",
-          "url": "https://www.gutenberg.org/ebooks/1997",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy, Volume 3, Paradise",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8798",
-          "url": "https://www.gutenberg.org/ebooks/8798",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Volume 3",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8780",
-          "url": "https://www.gutenberg.org/ebooks/8780",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 02",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8796",
-          "url": "https://www.gutenberg.org/ebooks/8796",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Volume 1",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8785",
-          "url": "https://www.gutenberg.org/ebooks/8785",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 07",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "8786",
-          "url": "https://www.gutenberg.org/ebooks/8786",
-          "label": "Project Gutenberg",
-          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 08",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Divine+Comedy+Dante+Alighieri",
-          "label": "Search in Libby",
-          "edition_title": "The Divine Comedy",
-          "edition_creator": "Dante Alighieri",
-          "search_terms": "The Divine Comedy Dante Alighieri",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-divine-comedy-en-source-1321-gutenberg-8800",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3618,33 +2248,21 @@
         "freethought",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "47025",
-          "url": "https://www.gutenberg.org/ebooks/47025",
+          "source_item_id": "47025",
           "label": "Project Gutenberg",
-          "edition_title": "The Essence of Christianity",
-          "edition_creator": "Ludwig Feuerbach",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Essence+of+Christianity+Ludwig+Feuerbach",
-          "label": "Search in Libby",
-          "edition_title": "The Essence of Christianity",
-          "edition_creator": "Ludwig Feuerbach",
-          "search_terms": "The Essence of Christianity Ludwig Feuerbach",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/47025",
+          "edition_id": "the-essence-of-christianity-en-source-1841-gutenberg-47025",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3670,43 +2288,21 @@
         "rights",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1404",
+          "source_item_id": "1404",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/1404",
-          "label": "Project Gutenberg",
-          "edition_title": "The Federalist Papers",
-          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "18",
-          "url": "https://www.gutenberg.org/ebooks/18",
-          "label": "Project Gutenberg",
-          "edition_title": "The Federalist Papers",
-          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Federalist+Papers+Alexander+Hamilton%2C+James+Madison%2C+and+John+Jay",
-          "label": "Search in Libby",
-          "edition_title": "The Federalist Papers",
-          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
-          "search_terms": "The Federalist Papers Alexander Hamilton, James Madison, and John Jay",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-federalist-papers-en-source-1787-gutenberg-1404",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3732,33 +2328,21 @@
         "agriculture",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "16900",
-          "url": "https://www.gutenberg.org/ebooks/16900",
+          "source_item_id": "16900",
           "label": "Project Gutenberg",
-          "edition_title": "The First Book of Farming",
-          "edition_creator": "C. L. Goodrich",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+First+Book+of+Farming+Charles+L.+Goodrich",
-          "label": "Search in Libby",
-          "edition_title": "The First Book of Farming",
-          "edition_creator": "Charles L. Goodrich",
-          "search_terms": "The First Book of Farming Charles L. Goodrich",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/16900",
+          "edition_id": "the-first-book-of-farming-en-source-1905-gutenberg-16900",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3785,33 +2369,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "64317",
-          "url": "https://www.gutenberg.org/ebooks/64317",
+          "source_item_id": "64317",
           "label": "Project Gutenberg",
-          "edition_title": "The Great Gatsby",
-          "edition_creator": "F. Scott Fitzgerald",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Great+Gatsby+F.+Scott+Fitzgerald",
-          "label": "Search in Libby",
-          "edition_title": "The Great Gatsby",
-          "edition_creator": "F. Scott Fitzgerald",
-          "search_terms": "The Great Gatsby F. Scott Fitzgerald",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/64317",
+          "edition_id": "the-great-gatsby-en-source-1925-gutenberg-64317",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3839,83 +2411,21 @@
         "war",
         "poetry"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "6130",
+          "source_item_id": "6130",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/6130",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "2199",
-          "url": "https://www.gutenberg.org/ebooks/2199",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "3059",
-          "url": "https://www.gutenberg.org/ebooks/3059",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "16452",
-          "url": "https://www.gutenberg.org/ebooks/16452",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad of Homer",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "22382",
-          "url": "https://www.gutenberg.org/ebooks/22382",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "6150",
-          "url": "https://www.gutenberg.org/ebooks/6150",
-          "label": "Project Gutenberg",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Iliad+Homer",
-          "label": "Search in Libby",
-          "edition_title": "The Iliad",
-          "edition_creator": "Homer",
-          "search_terms": "The Iliad Homer",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-iliad-en-source--750-gutenberg-6130",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3944,33 +2454,21 @@
         "colonialism",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "78975",
-          "url": "https://www.gutenberg.org/ebooks/78975",
+          "source_item_id": "78975",
           "label": "Project Gutenberg",
-          "edition_title": "The immoralist",
-          "edition_creator": "André Gide",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Immoralist+Andr%C3%A9+Gide",
-          "label": "Search in Libby",
-          "edition_title": "The Immoralist",
-          "edition_creator": "André Gide",
-          "search_terms": "The Immoralist André Gide",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/78975",
+          "edition_id": "the-immoralist-en-source-1902-gutenberg-78975",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -3996,33 +2494,29 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "140",
-          "url": "https://www.gutenberg.org/ebooks/140",
+          "source_item_id": "140",
           "label": "Project Gutenberg",
-          "edition_title": "The Jungle",
-          "edition_creator": "Upton Sinclair",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
+          "url": "https://www.gutenberg.org/ebooks/140",
+          "edition_id": "the-jungle-en-source-1906-gutenberg-140",
+          "primary": true
         },
         {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Jungle+Upton+Sinclair",
-          "label": "Search in Libby",
-          "edition_title": "The Jungle",
-          "edition_creator": "Upton Sinclair",
-          "search_terms": "The Jungle Upton Sinclair",
-          "resolution_method": "library-search-fallback"
+          "source_id": "project-gutenberg",
+          "source_item_id": "1400",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1400",
+          "edition_id": "the-jungle-en-original-1906-gutenberg-1400",
+          "primary": false
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4049,33 +2543,21 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "689",
-          "url": "https://www.gutenberg.org/ebooks/689",
+          "source_item_id": "689",
           "label": "Project Gutenberg",
-          "edition_title": "The Kreutzer Sonata and Other Stories",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Kreutzer+Sonata+Leo+Tolstoy",
-          "label": "Search in Libby",
-          "edition_title": "The Kreutzer Sonata",
-          "edition_creator": "Leo Tolstoy",
-          "search_terms": "The Kreutzer Sonata Leo Tolstoy",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/689",
+          "edition_id": "the-kreutzer-sonata-en-source-1890-gutenberg-689",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4103,33 +2585,21 @@
         "freethought",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "64037",
-          "url": "https://www.gutenberg.org/ebooks/64037",
+          "source_item_id": "64037",
           "label": "Project Gutenberg",
-          "edition_title": "The Life of Jesus Critically Examined",
-          "edition_creator": "David Friedrich Strauss",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Life+of+Jesus+Critically+Examined+David+Friedrich+Strauss",
-          "label": "Search in Libby",
-          "edition_title": "The Life of Jesus Critically Examined",
-          "edition_creator": "David Friedrich Strauss",
-          "search_terms": "The Life of Jesus Critically Examined David Friedrich Strauss",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/64037",
+          "edition_id": "the-life-of-jesus-critically-examined-en-source-1835-gutenberg-64037",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4159,33 +2629,21 @@
         "family",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "5200",
-          "url": "https://www.gutenberg.org/ebooks/5200",
+          "source_item_id": "5200",
           "label": "Project Gutenberg",
-          "edition_title": "Metamorphosis",
-          "edition_creator": "Franz Kafka",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Metamorphosis+Franz+Kafka",
-          "label": "Search in Libby",
-          "edition_title": "The Metamorphosis",
-          "edition_creator": "Franz Kafka",
-          "search_terms": "The Metamorphosis Franz Kafka",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/5200",
+          "edition_id": "the-metamorphosis-en-source-1915-gutenberg-5200",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4213,33 +2671,21 @@
         "politics",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "3783",
-          "url": "https://www.gutenberg.org/ebooks/3783",
+          "source_item_id": "3783",
           "label": "Project Gutenberg",
-          "edition_title": "Mother",
-          "edition_creator": "Maksim Gorky",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Mother+Maxim+Gorky",
-          "label": "Search in Libby",
-          "edition_title": "The Mother",
-          "edition_creator": "Maxim Gorky",
-          "search_terms": "The Mother Maxim Gorky",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/3783",
+          "edition_id": "the-mother-gorky-en-source-1906-gutenberg-3783",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4267,73 +2713,21 @@
         "travel",
         "poetry"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1727",
+          "source_item_id": "1727",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/1727",
-          "label": "Project Gutenberg",
-          "edition_title": "The Odyssey",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "3160",
-          "url": "https://www.gutenberg.org/ebooks/3160",
-          "label": "Project Gutenberg",
-          "edition_title": "The Odyssey",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "28797",
-          "url": "https://www.gutenberg.org/ebooks/28797",
-          "label": "Project Gutenberg",
-          "edition_title": "The Odyssey",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1728",
-          "url": "https://www.gutenberg.org/ebooks/1728",
-          "label": "Project Gutenberg",
-          "edition_title": "The Odyssey of Homer",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "24269",
-          "url": "https://www.gutenberg.org/ebooks/24269",
-          "label": "Project Gutenberg",
-          "edition_title": "The Odyssey of Homer",
-          "edition_creator": "Homer",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Odyssey+Homer",
-          "label": "Search in Libby",
-          "edition_title": "The Odyssey",
-          "edition_creator": "Homer",
-          "search_terms": "The Odyssey Homer",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-odyssey-en-source--700-gutenberg-1727",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4360,53 +2754,21 @@
         "censorship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "174",
+          "source_item_id": "174",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/174",
-          "label": "Project Gutenberg",
-          "edition_title": "The Picture of Dorian Gray",
-          "edition_creator": "Oscar Wilde",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "4078",
-          "url": "https://www.gutenberg.org/ebooks/4078",
-          "label": "Project Gutenberg",
-          "edition_title": "The Picture of Dorian Gray",
-          "edition_creator": "Oscar Wilde",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "26740",
-          "url": "https://www.gutenberg.org/ebooks/26740",
-          "label": "Project Gutenberg",
-          "edition_title": "The Picture of Dorian Gray",
-          "edition_creator": "Oscar Wilde",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Picture+of+Dorian+Gray+Oscar+Wilde",
-          "label": "Search in Libby",
-          "edition_title": "The Picture of Dorian Gray",
-          "edition_creator": "Oscar Wilde",
-          "search_terms": "The Picture of Dorian Gray Oscar Wilde",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-picture-of-dorian-gray-en-source-1890-gutenberg-174",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4435,53 +2797,21 @@
         "education",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "55201",
-          "url": "https://www.gutenberg.org/ebooks/55201",
+          "source_item_id": "1497",
           "label": "Project Gutenberg",
-          "edition_title": "The Republic of Plato",
-          "edition_creator": "Plato",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "1497",
           "url": "https://www.gutenberg.org/ebooks/1497",
-          "label": "Project Gutenberg",
-          "edition_title": "The Republic",
-          "edition_creator": "Plato",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "150",
-          "url": "https://www.gutenberg.org/ebooks/150",
-          "label": "Project Gutenberg",
-          "edition_title": "The Republic",
-          "edition_creator": "Plato",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Republic+Plato",
-          "label": "Search in Libby",
-          "edition_title": "The Republic",
-          "edition_creator": "Plato",
-          "search_terms": "The Republic Plato",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-republic-en-source--380-gutenberg-1497",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4506,43 +2836,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "25344",
+          "source_item_id": "25344",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/25344",
-          "label": "Project Gutenberg",
-          "edition_title": "The Scarlet Letter",
-          "edition_creator": "Nathaniel Hawthorne",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "33",
-          "url": "https://www.gutenberg.org/ebooks/33",
-          "label": "Project Gutenberg",
-          "edition_title": "The Scarlet Letter",
-          "edition_creator": "Nathaniel Hawthorne",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Scarlet+Letter+Nathaniel+Hawthorne",
-          "label": "Search in Libby",
-          "edition_title": "The Scarlet Letter",
-          "edition_creator": "Nathaniel Hawthorne",
-          "search_terms": "The Scarlet Letter Nathaniel Hawthorne",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-scarlet-letter-en-source-1850-gutenberg-25344",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4571,33 +2879,21 @@
         "political-philosophy",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "46333",
-          "url": "https://www.gutenberg.org/ebooks/46333",
+          "source_item_id": "46333",
           "label": "Project Gutenberg",
-          "edition_title": "The social contract & discourses",
-          "edition_creator": "Jean-Jacques Rousseau",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Social+Contract+Jean-Jacques+Rousseau",
-          "label": "Search in Libby",
-          "edition_title": "The Social Contract",
-          "edition_creator": "Jean-Jacques Rousseau",
-          "search_terms": "The Social Contract Jean-Jacques Rousseau",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/46333",
+          "edition_id": "the-social-contract-en-source-1762-gutenberg-46333",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4625,33 +2921,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "2527",
-          "url": "https://www.gutenberg.org/ebooks/2527",
+          "source_item_id": "2527",
           "label": "Project Gutenberg",
-          "edition_title": "The Sorrows of Young Werther",
-          "edition_creator": "Johann Wolfgang von Goethe",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Sorrows+of+Young+Werther+Johann+Wolfgang+von+Goethe",
-          "label": "Search in Libby",
-          "edition_title": "The Sorrows of Young Werther",
-          "edition_creator": "Johann Wolfgang von Goethe",
-          "search_terms": "The Sorrows of Young Werther Johann Wolfgang von Goethe",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/2527",
+          "edition_id": "the-sorrows-of-young-werther-en-source-1774-gutenberg-2527",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4677,33 +2961,21 @@
         "rights",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "27083",
-          "url": "https://www.gutenberg.org/ebooks/27083",
+          "source_item_id": "27083",
           "label": "Project Gutenberg",
-          "edition_title": "The Subjection of Women",
-          "edition_creator": "John Stuart Mill",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Subjection+of+Women+John+Stuart+Mill",
-          "label": "Search in Libby",
-          "edition_title": "The Subjection of Women",
-          "edition_creator": "John Stuart Mill",
-          "search_terms": "The Subjection of Women John Stuart Mill",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/27083",
+          "edition_id": "the-subjection-of-women-en-source-1869-gutenberg-27083",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4730,33 +3002,21 @@
         "sexuality",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "67138",
-          "url": "https://www.gutenberg.org/ebooks/67138",
+          "source_item_id": "67138",
           "label": "Project Gutenberg",
-          "edition_title": "The Sun Also Rises",
-          "edition_creator": "Ernest Hemingway",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Sun+Also+Rises+Ernest+Hemingway",
-          "label": "Search in Libby",
-          "edition_title": "The Sun Also Rises",
-          "edition_creator": "Ernest Hemingway",
-          "search_terms": "The Sun Also Rises Ernest Hemingway",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/67138",
+          "edition_id": "the-sun-also-rises-en-source-1926-gutenberg-67138",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4783,43 +3043,21 @@
         "philosophy",
         "censorship"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "992",
+          "source_item_id": "992",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/992",
-          "label": "Project Gutenberg",
-          "edition_title": "A Theological-Political Treatise [Part IV]",
-          "edition_creator": "Benedictus de Spinoza",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "991",
-          "url": "https://www.gutenberg.org/ebooks/991",
-          "label": "Project Gutenberg",
-          "edition_title": "A Theological-Political Treatise [Part III]",
-          "edition_creator": "Benedictus de Spinoza",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Theological-Political+Treatise+Baruch+Spinoza",
-          "label": "Search in Libby",
-          "edition_title": "Theological-Political Treatise",
-          "edition_creator": "Baruch Spinoza",
-          "search_terms": "Theological-Political Treatise Baruch Spinoza",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "the-theological-political-treatise-en-source-1670-gutenberg-992",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4846,33 +3084,21 @@
         "friendship",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "1257",
-          "url": "https://www.gutenberg.org/ebooks/1257",
+          "source_item_id": "1257",
           "label": "Project Gutenberg",
-          "edition_title": "The three musketeers",
-          "edition_creator": "Alexandre Dumas and Auguste Maquet",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Three+Musketeers+Alexandre+Dumas",
-          "label": "Search in Libby",
-          "edition_title": "The Three Musketeers",
-          "edition_creator": "Alexandre Dumas",
-          "search_terms": "The Three Musketeers Alexandre Dumas",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/1257",
+          "edition_id": "the-three-musketeers-en-source-1844-gutenberg-1257",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4901,33 +3127,21 @@
         "literary-canon",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "7849",
-          "url": "https://www.gutenberg.org/ebooks/7849",
+          "source_item_id": "7849",
           "label": "Project Gutenberg",
-          "edition_title": "The Trial",
-          "edition_creator": "Franz Kafka",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Trial+Franz+Kafka",
-          "label": "Search in Libby",
-          "edition_title": "The Trial",
-          "edition_creator": "Franz Kafka",
-          "search_terms": "The Trial Franz Kafka",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/7849",
+          "edition_id": "the-trial-en-source-1925-gutenberg-7849",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -4954,33 +3168,21 @@
         "horror",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "209",
-          "url": "https://www.gutenberg.org/ebooks/209",
+          "source_item_id": "209",
           "label": "Project Gutenberg",
-          "edition_title": "The Turn of the Screw",
-          "edition_creator": "Henry James",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Turn+of+the+Screw+Henry+James",
-          "label": "Search in Libby",
-          "edition_title": "The Turn of the Screw",
-          "edition_creator": "Henry James",
-          "search_terms": "The Turn of the Screw Henry James",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/209",
+          "edition_id": "the-turn-of-the-screw-en-source-1898-gutenberg-209",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5009,33 +3211,21 @@
         "war",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "549",
-          "url": "https://www.gutenberg.org/ebooks/549",
+          "source_item_id": "549",
           "label": "Project Gutenberg",
-          "edition_title": "The Underdogs: A Novel of the Mexican Revolution",
-          "edition_creator": "Mariano Azuela",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=The+Underdogs+Mariano+Azuela",
-          "label": "Search in Libby",
-          "edition_title": "The Underdogs",
-          "edition_creator": "Mariano Azuela",
-          "search_terms": "The Underdogs Mariano Azuela",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/549",
+          "edition_id": "the-underdogs-en-source-1915-gutenberg-549",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5061,33 +3251,21 @@
         "modernism",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "4300",
-          "url": "https://www.gutenberg.org/ebooks/4300",
+          "source_item_id": "4300",
           "label": "Project Gutenberg",
-          "edition_title": "Ulysses",
-          "edition_creator": "James Joyce",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Ulysses+James+Joyce",
-          "label": "Search in Libby",
-          "edition_title": "Ulysses",
-          "edition_creator": "James Joyce",
-          "search_terms": "Ulysses James Joyce",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/4300",
+          "edition_id": "ulysses-en-original-1922-gutenberg-4300",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5114,33 +3292,21 @@
         "abolition",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "203",
-          "url": "https://www.gutenberg.org/ebooks/203",
+          "source_item_id": "203",
           "label": "Project Gutenberg",
-          "edition_title": "Uncle Tom's Cabin",
-          "edition_creator": "Harriet Beecher Stowe",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Uncle+Tom%27s+Cabin+Harriet+Beecher+Stowe",
-          "label": "Search in Libby",
-          "edition_title": "Uncle Tom's Cabin",
-          "edition_creator": "Harriet Beecher Stowe",
-          "search_terms": "Uncle Tom's Cabin Harriet Beecher Stowe",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/203",
+          "edition_id": "uncle-toms-cabin-en-source-1852-gutenberg-203",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5168,43 +3334,21 @@
         "history",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "2600",
+          "source_item_id": "2600",
+          "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/2600",
-          "label": "Project Gutenberg",
-          "edition_title": "War and Peace",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "edition_id": "28920",
-          "url": "https://www.gutenberg.org/ebooks/28920",
-          "label": "Project Gutenberg",
-          "edition_title": "War and Peace, Book 01: 1805",
-          "edition_creator": "graf Leo Tolstoy",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=War+and+Peace+Leo+Tolstoy",
-          "label": "Search in Libby",
-          "edition_title": "War and Peace",
-          "edition_creator": "Leo Tolstoy",
-          "search_terms": "War and Peace Leo Tolstoy",
-          "resolution_method": "library-search-fallback"
+          "edition_id": "war-and-peace-en-source-1869-gutenberg-2600",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5232,33 +3376,21 @@
         "politics",
         "nonfiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "360",
-          "url": "https://www.gutenberg.org/ebooks/360",
+          "source_item_id": "360",
           "label": "Project Gutenberg",
-          "edition_title": "What is Property? An Inquiry into the Principle of Right and of Government",
-          "edition_creator": "P.-J. Proudhon",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=What+Is+Property%3F+Pierre-Joseph+Proudhon",
-          "label": "Search in Libby",
-          "edition_title": "What Is Property?",
-          "edition_creator": "Pierre-Joseph Proudhon",
-          "search_terms": "What Is Property? Pierre-Joseph Proudhon",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/360",
+          "edition_id": "what-is-property-en-source-1840-gutenberg-360",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "translation-and-jurisdiction-review-needed",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5283,33 +3415,21 @@
         "small-town",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "416",
-          "url": "https://www.gutenberg.org/ebooks/416",
+          "source_item_id": "416",
           "label": "Project Gutenberg",
-          "edition_title": "Winesburg, Ohio: A Group of Tales of Ohio Small Town Life",
-          "edition_creator": "Sherwood Anderson",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Winesburg%2C+Ohio+Sherwood+Anderson",
-          "label": "Search in Libby",
-          "edition_title": "Winesburg, Ohio",
-          "edition_creator": "Sherwood Anderson",
-          "search_terms": "Winesburg, Ohio Sherwood Anderson",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/416",
+          "edition_id": "winesburg-ohio-en-source-1919-gutenberg-416",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5336,33 +3456,21 @@
         "survival",
         "historical-guidance"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "34607",
-          "url": "https://www.gutenberg.org/ebooks/34607",
+          "source_item_id": "34607",
           "label": "Project Gutenberg",
-          "edition_title": "Woodcraft and Camping",
-          "edition_creator": "George Washington Sears",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Woodcraft+and+Camping+George+Washington+Sears",
-          "label": "Search in Libby",
-          "edition_title": "Woodcraft and Camping",
-          "edition_creator": "George Washington Sears",
-          "search_terms": "Woodcraft and Camping George Washington Sears",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/34607",
+          "edition_id": "woodcraft-and-camping-en-source-1884-gutenberg-34607",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
@@ -5389,33 +3497,21 @@
         "violence",
         "fiction"
       ],
-      "source_options": [
+      "edition_sources": [
         {
           "source_id": "project-gutenberg",
-          "edition_id": "768",
-          "url": "https://www.gutenberg.org/ebooks/768",
+          "source_item_id": "768",
           "label": "Project Gutenberg",
-          "edition_title": "Wuthering Heights",
-          "edition_creator": "Emily Brontë",
-          "search_terms": null,
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "libby",
-          "edition_id": null,
-          "url": "https://libbyapp.com/search?query=Wuthering+Heights+Emily+Bront%C3%AB",
-          "label": "Search in Libby",
-          "edition_title": "Wuthering Heights",
-          "edition_creator": "Emily Brontë",
-          "search_terms": "Wuthering Heights Emily Brontë",
-          "resolution_method": "library-search-fallback"
+          "url": "https://www.gutenberg.org/ebooks/768",
+          "edition_id": "wuthering-heights-en-source-1847-gutenberg-768",
+          "primary": true
         }
       ],
       "rights_guidance": {
         "not_a_legal_ruling": true,
         "signal": "strong-us-public-domain-signal",
         "evidence_notes": [
-          "An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.",
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"

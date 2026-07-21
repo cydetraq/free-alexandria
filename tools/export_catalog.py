@@ -8,7 +8,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, load_records, load_source_options
+from build_profile import CATALOG, ROOT, edition_sources, load_records, load_source_options, rights_guidance
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
@@ -21,41 +21,13 @@ def load_published_editions() -> dict[str, list[dict]]:
     return json.loads((CATALOG / "published-editions.json").read_text()).get("editions", {})
 
 
-def rights_guidance(record: dict, options: list[dict]) -> dict:
-    """Evidence-oriented guidance, never a legal conclusion or permission grant."""
-    year = record.get("original_year")
-    language = record.get("original_language")
-    notes: list[str] = []
-    if options:
-        notes.append("An exact edition source is recorded in this catalog; inspect that source's own rights statement before use.")
-    if isinstance(year, int) and year <= 1930 and language == "English":
-        signal = "strong-us-public-domain-signal"
-        notes.append("The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ.")
-    elif isinstance(year, int) and 1931 <= year <= 1963:
-        signal = "us-renewal-research-needed"
-        notes.append("For U.S. use, publication and renewal facts for the specific work and edition can matter.")
-    elif language and language != "English":
-        signal = "translation-and-jurisdiction-review-needed"
-        notes.append("The original work and any English translation are separate editions; jurisdiction and translator details matter.")
-    else:
-        signal = "edition-and-jurisdiction-review-needed"
-        notes.append("Use the recorded edition and source facts to assess your own intended use.")
-    return {
-        "not_a_legal_ruling": True,
-        "signal": signal,
-        "evidence_notes": notes,
-        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
-    }
-
-
 def render_api() -> str:
-    source_options = load_source_options()
     published_editions = load_published_editions()
     records = [
         {
             **record,
-            "source_options": source_options.get(record["id"], []),
-            "rights_guidance": rights_guidance(record, source_options.get(record["id"], [])),
+            "edition_sources": edition_sources(published_editions[record["id"]]),
+            "rights_guidance": rights_guidance(record, edition_sources(published_editions[record["id"]])),
         }
         for record in load_records() if record["id"] in published_editions
     ]
@@ -93,8 +65,12 @@ def local_file_links(editions: list[dict]) -> str:
     return markdown_links(links)
 
 
-def source_links(options: list[dict]) -> str:
-    return markdown_links([(option["label"], option["url"]) for option in options])
+def primary_source_link(editions: list[dict]) -> str:
+    sources = edition_sources(editions)
+    if not sources:
+        return "—"
+    source = sources[0]
+    return markdown_links([(source["label"], source["url"])])
 
 
 def render_markdown(records: list[dict]) -> str:
@@ -110,9 +86,7 @@ def render_markdown(records: list[dict]) -> str:
         "original-language": "Original-Language Library",
         "essential-literature": "Essential Literature",
     }
-    source_options = load_source_options()
     published_editions = load_published_editions()
-    published_ids = set(published_editions)
     lines = [
         "# Catalog",
         "",
@@ -124,7 +98,7 @@ def render_markdown(records: list[dict]) -> str:
         "",
     ]
     for collection in sorted(grouped, key=lambda item: labels.get(item, item)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files | Sources |", "| --- | --- | ---: | --- | --- |"])
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files | Primary edition source |", "| --- | --- | ---: | --- | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
             lines.append(
                 "| {title} | {creator} | {year} | {files} | {sources} |".format(
@@ -132,7 +106,7 @@ def render_markdown(records: list[dict]) -> str:
                     creator=table_cell(record.get("author") or record.get("publisher")),
                     year=table_cell(record.get("original_year")),
                     files=local_file_links(published_editions.get(record["id"], [])),
-                    sources=source_links(source_options.get(record["id"], [])),
+                    sources=primary_source_link(published_editions.get(record["id"], [])),
                 )
             )
         lines.append("")

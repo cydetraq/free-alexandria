@@ -43,6 +43,12 @@ def main() -> int:
     exported_ids = {record["id"] for record in exported_catalog.get("records", [])}
     if exported_ids != set(editions):
         errors.append("catalog export does not exactly match the supplied local-edition registry")
+    for record in exported_catalog.get("records", []):
+        if "source_options" in record:
+            errors.append(f"{record['id']}: catalog exposes resolver search results instead of included-edition sources")
+        sources = record.get("edition_sources", [])
+        if not sources or not sources[0].get("primary"):
+            errors.append(f"{record['id']}: catalog lacks a primary included-edition source")
 
     if errors:
         print("Source lint failed:", *errors, sep="\n")
