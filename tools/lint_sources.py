@@ -7,12 +7,20 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, load_source_options, presentation_files
+from build_profile import CATALOG, ROOT, load_collections, load_records, load_source_options, presentation_files
 from resolve_catalog_sources import has_downloadable_text
 
 
 def main() -> int:
     errors: list[str] = []
+    collection_ids = [item.get("id") for item in load_collections()]
+    if len(collection_ids) != len(set(collection_ids)):
+        errors.append("collection taxonomy has duplicate IDs")
+    defined_collections = set(collection_ids)
+    for record in load_records():
+        missing_collections = set(record.get("collections", [])) - defined_collections
+        if missing_collections:
+            errors.append(f"{record['id']}: undefined collection IDs: {', '.join(sorted(missing_collections))}")
     options = load_source_options()
     gutenberg_sources: list[tuple[str, str]] = []
     for work_id, sources in sorted(options.items()):
@@ -68,6 +76,9 @@ def main() -> int:
         roles = [file.get("role") for file in record.get("download_files", [])]
         if roles.count("epub") != 1 or roles.count("pdf") + roles.count("text-pdf") != 1:
             errors.append(f"{record['id']}: API download_files is not a single EPUB/PDF pair")
+    exported_collections = [item.get("id") for item in exported_catalog.get("collections", [])]
+    if exported_collections != collection_ids:
+        errors.append("catalog export does not preserve the canonical collection taxonomy")
 
     if errors:
         print("Source lint failed:", *errors, sep="\n")

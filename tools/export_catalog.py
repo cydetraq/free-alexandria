@@ -8,7 +8,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from build_profile import CATALOG, ROOT, edition_sources, load_records, load_source_options, presentation_files, rights_guidance
+from build_profile import CATALOG, ROOT, edition_sources, load_collections, load_records, load_source_options, presentation_files, rights_guidance
 
 API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
@@ -35,6 +35,7 @@ def render_api() -> str:
     payload = {
         "format_version": 1,
         "offline_notice": "This file contains only works supplied by this repository as local EPUB/PDF editions. It has no runtime dependency on external catalogs or URLs.",
+        "collections": load_collections(),
         "records": sorted(records, key=lambda item: item["id"]),
         "published_editions": {"format_version": 1, "editions": published_editions},
     }
@@ -67,29 +68,37 @@ def local_file_links(editions: list[dict]) -> str:
 
 
 def render_markdown(records: list[dict]) -> str:
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for record in records:
+        for collection in record.get("collections", ["uncategorized"]):
+            grouped[collection].append(record)
+    collection_defs = load_collections()
+    labels = {item["id"]: item["name"] for item in collection_defs}
+    collection_order = [item["id"] for item in collection_defs]
     published_editions = load_published_editions()
     lines = [
         "# Catalog",
         "",
         "This is the committed, readable Free Alexandria catalog. Every listed work is included locally and remains usable offline after cloning the repository. A supplied scan is used for the PDF whenever available; **Text PDF** means a compact generated fallback.",
+        "A work can appear in more than one collection because the collections are separate ways to browse the same local edition, not duplicate files.",
         "",
         f"**Included works:** {len(records)}<br>",
         "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>",
         "**Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)",
         "",
-        "| Title | Author / publisher | Year | Local files |",
-        "| --- | --- | ---: | --- |",
     ]
-    for record in sorted(records, key=lambda item: item.get("title", item["id"])):
-        lines.append(
-            "| {title} | {creator} | {year} | {files} |".format(
-                title=table_cell(record.get("title")),
-                creator=table_cell(record.get("author") or record.get("publisher")),
-                year=table_cell(record.get("original_year")),
-                files=local_file_links(published_editions.get(record["id"], [])),
+    for collection in [item for item in collection_order if item in grouped] + sorted(set(grouped) - set(collection_order)):
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files |", "| --- | --- | ---: | --- |"])
+        for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
+            lines.append(
+                "| {title} | {creator} | {year} | {files} |".format(
+                    title=table_cell(record.get("title")),
+                    creator=table_cell(record.get("author") or record.get("publisher")),
+                    year=table_cell(record.get("original_year")),
+                    files=local_file_links(published_editions.get(record["id"], [])),
+                )
             )
-        )
-    lines.append("")
+        lines.append("")
     lines.extend([
         "## How to consume this catalog",
         "",

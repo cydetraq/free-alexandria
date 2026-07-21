@@ -16,6 +16,9 @@
       main { max-width:78rem; margin:auto; padding:1.25rem; }
       .notice { border-left:4px solid var(--accent); background:var(--panel); padding:.9rem 1rem; color:var(--muted); border-radius:0 .35rem .35rem 0; }
       .controls { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:.75rem; margin:1.25rem 0; }
+      .collection-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
+      .collection-nav button { width:auto; min-height:auto; padding:.35rem .6rem; background:#182324; color:var(--muted); font-size:.86rem; }
+      .collection-nav button.active { background:#284735; color:var(--ink); border-color:#497f55; }
       input, select, button { width:100%; min-height:2.7rem; border:1px solid var(--line); border-radius:.4rem; background:#101617; color:var(--ink); padding:.55rem .7rem; font:inherit; }
       button { cursor:pointer; background:#23452d; font-weight:650; }
       button:hover { background:#2d5939; }
@@ -54,6 +57,7 @@
     <main>
       <p class="notice"><span class="offline">Your library, your list.</span> Every card in this offline catalog has exactly one selected EPUB and one selected PDF. Where a source-faithful scan is available it is the PDF; otherwise the compact fallback is labeled <strong>Text PDF</strong>.</p>
       <noscript><p class="notice">This catalog needs JavaScript enabled to search and filter the local manifest.</p></noscript>
+      <nav id="collection-nav" class="collection-nav" aria-label="Browse collections"></nav>
       <section class="controls" aria-label="Catalog filters">
         <label>Search<input id="search" type="search" placeholder="Title, author, topic, or reason" autocomplete="off"></label>
         <label>Collection<select id="collection"><option value="">All collections</option></select></label>
@@ -79,11 +83,12 @@
         const collection = document.querySelector('#collection');
         const language = document.querySelector('#language');
         const availability = document.querySelector('#availability');
+        const collectionNav = document.querySelector('#collection-nav');
         const selected = new Set();
         let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const fileLabel = role => role === 'text-pdf' ? 'Text PDF' : String(role || 'file').toUpperCase();
-        const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
+        let labels = {};
         const availabilityLabel = edition => edition && edition.files.some(file => file.role === 'text-pdf') ? 'EPUB + Text PDF included' : 'EPUB + PDF included';
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';
@@ -99,6 +104,7 @@
           .then(response => response.ok ? response.json() : Promise.reject(new Error('manifest missing')))
           .then(manifest => {
             const records = manifest.records || [];
+            labels = Object.fromEntries((manifest.collections || []).map(item => [item.id, item.name]));
             document.title = `${manifest.profile.name} — Free Alexandria`;
             fill(collection, [...new Set(records.flatMap(record => record.collections || []))], value => labels[value] || value);
             fill(language, [...new Set(records.map(record => record.original_language).filter(Boolean))]);
@@ -116,7 +122,15 @@
               document.querySelector('#selection-count').textContent = `${selected.size} selected`;
               summary.textContent = `${filtered.length} of ${records.length} catalog records available offline in ${manifest.profile.name}.`;
               library.innerHTML = filtered.length ? filtered.map(record => card(record, manifest.editions && manifest.editions[record.id])).join('') : '<p class="empty">No records match these filters.</p>';
+              collectionNav.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.collection === collection.value));
             };
+            collectionNav.innerHTML = ['<button type="button" class="active" data-collection="">All collections</button>', ...(manifest.collections || []).map(item => `<button type="button" data-collection="${esc(item.id)}">${esc(item.name)}</button>`)].join('');
+            collectionNav.addEventListener('click', event => {
+              const button = event.target.closest('button[data-collection]');
+              if (!button) return;
+              collection.value = button.dataset.collection;
+              render();
+            });
             [search, collection, language, availability].forEach(control => control.addEventListener(control === search ? 'input' : 'change', render));
             document.querySelector('#clear').addEventListener('click', () => { search.value = ''; collection.value = ''; language.value = ''; availability.value = ''; render(); });
             library.addEventListener('change', event => {

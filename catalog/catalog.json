@@ -1,6 +1,48 @@
 {
   "format_version": 1,
   "offline_notice": "This file contains only works supplied by this repository as local EPUB/PDF editions. It has no runtime dependency on external catalogs or URLs.",
+  "collections": [
+    {
+      "id": "banned-challenged",
+      "name": "Banned & Challenged Literature",
+      "description": "Literature with a documented history of suppression, prohibition, removal, or challenge."
+    },
+    {
+      "id": "essential-literature",
+      "name": "Essential Literature",
+      "description": "High-impact works selected for literary and historical importance."
+    },
+    {
+      "id": "suppressed-knowledge",
+      "name": "Suppressed Knowledge",
+      "description": "Works on freedom of thought, authority, propaganda, private communication, and independent inquiry."
+    },
+    {
+      "id": "preparedness",
+      "name": "Preparedness & Field Manuals",
+      "description": "Fieldcraft, repair, food, shelter, navigation, and other practical continuity references."
+    },
+    {
+      "id": "practical-library",
+      "name": "Practical Library",
+      "description": "Public-domain practical references for household, workshop, farm, and outdoor use."
+    },
+    {
+      "id": "original-language",
+      "name": "Original-Language Library",
+      "description": "Works retained with their source-language editions alongside available translations."
+    },
+    {
+      "id": "open-distribution",
+      "name": "Open-Distribution Library",
+      "description": "Copyrighted works included under an explicit redistribution license or permission."
+    },
+    {
+      "id": "essential-reading",
+      "name": "Essential Reading",
+      "description": "A thematic reading list. A work may also be locally included under a compatible distribution basis."
+    }
+  ],
   "records": [
     {
       "id": "a-portrait-of-the-artist-as-a-young-man",

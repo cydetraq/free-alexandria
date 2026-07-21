@@ -88,6 +88,11 @@ def load_source_options() -> dict[str, list[dict]]:
     }
 
 
+def load_collections() -> list[dict]:
+    """Return the canonical, ordered collection taxonomy for every export."""
+    return json.loads((CATALOG / "collections.json").read_text()).get("collections", [])
+
+
 SOURCE_LABELS = {
     "project-gutenberg": "Project Gutenberg",
     "internet-archive": "Internet Archive",
@@ -270,6 +275,7 @@ def main() -> int:
         "profile": {"id": profile["id"], "name": profile["name"], "curator": profile["curator"]},
         "build_mode": profile["build_mode"],
         "offline_notice": "This manifest is self-contained. External source URLs are not required at runtime.",
+        "collections": load_collections(),
         "records": records,
     }
     if editions:
