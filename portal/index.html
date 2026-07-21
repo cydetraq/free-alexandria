@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free Alexandria</title>
+  </head>
+  <body>
+    <main>
+      <h1>Free Alexandria</h1>
+      <p id="status">Loading the local catalog…</p>
+      <section id="library" aria-live="polite"></section>
+    </main>
+    <script>
+      fetch('./manifest.json')
+        .then(response => response.ok ? response.json() : Promise.reject(response.status))
+        .then(manifest => {
+          document.title = manifest.profile.name + ' — Free Alexandria';
+          document.querySelector('#status').textContent =
+            `${manifest.profile.name}: ${manifest.records.length} catalog records available offline.`;
+          document.querySelector('#library').innerHTML = manifest.records.map(record =>
+            `<article><h2>${record.title}</h2><p>${record.author || record.publisher || ''}</p><p>${record.description || ''}</p></article>`
+          ).join('');
+        })
+        .catch(() => document.querySelector('#status').textContent =
+          'No local manifest was found. Build or copy an offline profile into this folder.');
+    </script>
+  </body>
+</html>

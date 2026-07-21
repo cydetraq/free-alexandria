@@ -1,0 +1,36 @@
+{
+  "$schema": "../metadata/curation-profile.schema.json",
+  "format_version": 1,
+  "id": "core-v1",
+  "name": "Free Alexandria Core V1",
+  "description": "A compact starter profile for the first reviewed offline release.",
+  "curator": {
+    "name": "Free Alexandria"
+  },
+  "build_mode": "catalog-preview",
+  "language_preferences": ["English"],
+  "include_record_ids": [
+    "adventures-of-huckleberry-finn",
+    "don-quixote",
+    "ulysses",
+    "the-jungle",
+    "on-liberty",
+    "areopagitica",
+    "common-sense",
+    "civil-disobedience",
+    "manual-for-the-solution-of-military-ciphers",
+    "fm-21-76-survival",
+    "fm-3-25-26-map-reading-and-land-navigation",
+    "food-and-water-in-an-emergency",
+    "make-water-safe-during-an-emergency",
+    "finding-your-way-with-map-and-compass",
+    "camping-and-woodcraft"
+  ],
+  "exclude_record_ids": [],
+  "constraints": {
+    "require_local_files": true,
+    "allow_link_only": false,
+    "max_total_bytes": 4294967296
+  },
+  "notes": "This preview can be built today. A distribution build will become valid only after its selected editions are locally acquired, hashed, and marked published."
+}

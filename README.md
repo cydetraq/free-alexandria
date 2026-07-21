@@ -37,7 +37,10 @@ This initial commit establishes the structure, policy, schema, and seed catalog.
 
 ```sh
 python3 tools/validate_catalog.py
+python3 tools/build_profile.py profiles/core-v1.json
 ```
+
+The second command creates a self-contained catalog preview at `dist/core-v1/`. A production distribution build will additionally require locally acquired, rights-cleared files and their hashes.
 
 ## Collections
 
@@ -46,6 +49,10 @@ python3 tools/validate_catalog.py
 3. Preparedness & Field Manuals
 4. Essential Reading — External Links
 5. Original-Language Library
+
+## Curation-ready V1
+
+Profiles in `profiles/` select a particular view of the shared catalog. They are intentionally separate from source records so a future open-curation workflow can distribute new profiles without rearchitecting the archive. See [docs/curation-profiles.md](docs/curation-profiles.md).
 
 ## License
 

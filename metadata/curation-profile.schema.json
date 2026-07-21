@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Free Alexandria curation profile",
+  "type": "object",
+  "required": ["format_version", "id", "name", "curator", "build_mode", "language_preferences", "constraints"],
+  "properties": {
+    "format_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "curator": {"type": "object", "required": ["name"]},
+    "build_mode": {"enum": ["catalog-preview", "distribution"]},
+    "language_preferences": {"type": "array", "items": {"type": "string"}},
+    "include_collections": {"type": "array", "items": {"type": "string"}},
+    "include_record_ids": {"type": "array", "items": {"type": "string"}},
+    "exclude_record_ids": {"type": "array", "items": {"type": "string"}},
+    "constraints": {
+      "type": "object",
+      "required": ["require_local_files", "allow_link_only"],
+      "properties": {
+        "require_local_files": {"type": "boolean"},
+        "allow_link_only": {"type": "boolean"},
+        "max_total_bytes": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}

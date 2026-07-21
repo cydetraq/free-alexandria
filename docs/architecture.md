@@ -18,3 +18,7 @@ work records + edition queue + verified local artifacts
 The deployed `dist/` directory is self-contained. It includes rendered catalog metadata, full-text files, cover assets, a local search index, provenance and license records, and checksums. A live source catalog is never consulted to render a card, search, open a text, verify an included file, or explain its rights status.
 
 External URLs are useful acquisition metadata, but they are not runtime dependencies. The portal should make this explicit when a title is intentionally link-only: that card is a bibliography record and cannot promise availability while offline.
+
+## Curation boundary
+
+The shared catalog contains facts, rights constraints, local editions, and provenance. A profile contains editorial preferences and selection rules. The build lockfile binds a profile to the exact catalog revision and editions used in one offline release. This keeps later open curation additive: profiles can change without changing the catalog model or previously built distributions.
