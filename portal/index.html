@@ -6,30 +6,30 @@
     <meta name="color-scheme" content="dark light">
     <title>Free Alexandria</title>
     <style>
-      :root { color-scheme: dark; --bg:#101416; --panel:#182023; --ink:#f1f4f1; --muted:#b5c2bd; --line:#35423e; --accent:#a5d6a7; --warn:#ffcc80; --link:#9bd6ff; }
+      :root { color-scheme: dark; --bg:#0d1112; --panel:#151d1e; --panel-raised:#1b2627; --ink:#f2f5f2; --muted:#acbbb5; --line:#344543; --accent:#b3dfab; --warn:#ffd18c; --link:#a7d9ff; }
       * { box-sizing:border-box; }
       body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
       a { color:var(--link); }
-      header { padding:2.5rem max(1.25rem, calc((100vw - 78rem)/2)); border-bottom:1px solid var(--line); background:linear-gradient(120deg,#182720,#101416); }
+      header { padding:3.25rem max(1.25rem, calc((100vw - 78rem)/2)); border-bottom:1px solid var(--line); background:radial-gradient(circle at 80% 10%,#294738 0,transparent 27rem),linear-gradient(120deg,#15211d,#0d1112); }
       h1 { margin:0; font-size:clamp(2rem,5vw,3.5rem); letter-spacing:-.04em; }
       header p { max-width:55rem; color:var(--muted); margin:.6rem 0 0; }
       main { max-width:78rem; margin:auto; padding:1.25rem; }
-      .notice { border-left:4px solid var(--accent); background:var(--panel); padding:.8rem 1rem; color:var(--muted); }
+      .notice { border-left:4px solid var(--accent); background:var(--panel); padding:.9rem 1rem; color:var(--muted); border-radius:0 .35rem .35rem 0; }
       .controls { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:.75rem; margin:1.25rem 0; }
-      input, select, button { width:100%; min-height:2.7rem; border:1px solid var(--line); border-radius:.35rem; background:#101617; color:var(--ink); padding:.55rem .7rem; font:inherit; }
-      button { cursor:pointer; background:#23452d; }
+      input, select, button { width:100%; min-height:2.7rem; border:1px solid var(--line); border-radius:.4rem; background:#101617; color:var(--ink); padding:.55rem .7rem; font:inherit; }
+      button { cursor:pointer; background:#23452d; font-weight:650; }
       button:hover { background:#2d5939; }
       #result-summary { color:var(--muted); margin:1rem 0; }
       #library { display:grid; grid-template-columns:repeat(auto-fill,minmax(18rem,1fr)); gap:1rem; }
-      article { display:flex; flex-direction:column; gap:.7rem; border:1px solid var(--line); border-radius:.5rem; padding:1rem; background:var(--panel); }
+      article { display:flex; flex-direction:column; gap:.75rem; border:1px solid var(--line); border-radius:.65rem; padding:1.05rem; background:var(--panel); box-shadow:0 1px 0 rgba(255,255,255,.03) inset; }
       article h2 { margin:0; font-size:1.15rem; line-height:1.2; }
       article p { margin:0; }
       .creator, .meta { color:var(--muted); font-size:.92rem; }
       .badges { display:flex; flex-wrap:wrap; gap:.35rem; }
-      .badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:.13rem .48rem; font-size:.76rem; color:var(--muted); }
+      .badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:.16rem .52rem; font-size:.76rem; color:var(--muted); text-decoration:none; }
       .badge.available { border-color:#497f55; color:var(--accent); }
       .badge.link { border-color:#7b6943; color:var(--warn); }
-      details { margin-top:auto; border-top:1px solid var(--line); padding-top:.6rem; }
+      details { margin-top:auto; border-top:1px solid var(--line); padding-top:.7rem; }
       summary { cursor:pointer; color:var(--link); }
       .empty { grid-column:1/-1; border:1px dashed var(--line); color:var(--muted); padding:2rem; text-align:center; }
       .offline { color:var(--accent); font-weight:600; }
@@ -38,6 +38,10 @@
       .selection-count { color:var(--accent); font-weight:600; }
       .pick { display:flex; gap:.45rem; align-items:center; color:var(--muted); font-size:.85rem; }
       .pick input { width:1.1rem; min-height:1.1rem; accent-color:#75b77d; }
+      .actions { display:flex; flex-wrap:wrap; gap:.45rem; }
+      .action { display:inline-block; border:1px solid #476a5a; border-radius:.35rem; padding:.38rem .55rem; color:var(--ink); text-decoration:none; font-size:.84rem; background:#1b3027; }
+      .action:hover { background:#284735; }
+      .action.secondary { border-color:#4a6170; background:#19282e; }
       @media (max-width: 720px) { .controls { grid-template-columns:1fr; } header { padding:1.75rem 1.25rem; } }
       @media print { body { background:white; color:black; } header, article { background:white; } .controls, .notice { display:none; } #library { display:block; } article { break-inside:avoid; margin:0 0 1rem; border-color:#aaa; } }
     </style>
@@ -48,13 +52,13 @@
       <p>A portable archive of human knowledge. This catalog is designed to remain useful without the internet, DNS, a library catalog, or a third-party account.</p>
     </header>
     <main>
-      <p class="notice"><span class="offline">Offline catalog.</span> Records describe what belongs in an archive. A card marked “local file available” is usable from this device; “find or borrow” means this profile intentionally includes only its bibliographic record.</p>
+      <p class="notice"><span class="offline">Your library, your list.</span> Browse works, add any of them to your own selection, and choose later whether to download, borrow, buy, or skip them. This catalog works offline; source links are available whenever you are online.</p>
       <noscript><p class="notice">This catalog needs JavaScript enabled to search and filter the local manifest.</p></noscript>
       <section class="controls" aria-label="Catalog filters">
         <label>Search<input id="search" type="search" placeholder="Title, author, topic, or reason" autocomplete="off"></label>
         <label>Collection<select id="collection"><option value="">All collections</option></select></label>
         <label>Language<select id="language"><option value="">All languages</option></select></label>
-        <label>Availability<select id="availability"><option value="">All availability</option><option value="candidate">Candidate / review</option><option value="link-only">Find or borrow</option><option value="published">Local file available</option></select></label>
+        <label>Availability<select id="availability"><option value="">All availability</option><option value="source-options">Source options</option><option value="link-only">Find, borrow, or buy</option><option value="published">Available on this device</option></select></label>
       </section>
       <button id="clear" type="button">Clear filters</button>
       <section class="selection" aria-label="Build a local selection">
@@ -79,14 +83,19 @@
         let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
-        const availabilityLabel = (record, edition) => edition ? 'Local file available' : record.catalog_status === 'link-only' ? 'Find or borrow' : 'Edition / rights review';
+        const availabilityLabel = (record, edition) => edition ? 'Available on this device' : record.catalog_status === 'link-only' ? 'Find, borrow, or buy' : 'Add to your library list';
+        const sourceActions = record => {
+          const query = encodeURIComponent([record.title, record.author || record.publisher || ''].filter(Boolean).join(' '));
+          const direct = record.source_url ? `<a class="action" target="_blank" rel="noopener" href="${esc(record.source_url)}">Open source</a>` : '';
+          return `<details><summary>Find or get a copy</summary><p class="meta">When you have internet access, use the sources that work for you.</p><p class="actions">${direct}<a class="action" target="_blank" rel="noopener" href="https://openlibrary.org/search?q=${query}">Find at libraries</a><a class="action secondary" target="_blank" rel="noopener" href="https://archive.org/advancedsearch.php?q=${query}">Search Archive.org</a><a class="action secondary" target="_blank" rel="noopener" href="https://www.amazon.com/s?k=${query}">Find to buy</a></p></details>`;
+        };
         const card = (record, edition) => {
           const creator = record.author || record.publisher || 'Creator not yet recorded';
           const collections = (record.collections || []).map(id => `<span class="badge">${esc(labels[id] || id)}</span>`).join('');
           const statusClass = edition ? 'available' : record.catalog_status === 'link-only' ? 'link' : '';
           const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
-          const downloads = edition ? `<p class="downloads">${edition.files.map(file => `<a class="badge available" download href="${encodeURI(file.path)}">Download ${esc(file.role.toUpperCase())}</a>`).join(' ')}</p>` : '';
-          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Include in my local selection</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record, edition)}</span>${collections}</div><p>${esc(record.description || 'Description pending editorial review.')}</p>${downloads}<details><summary>Why this belongs here</summary><p>${esc(record.why_included || 'Editorial rationale pending.')}</p><p class="meta">Rights / acquisition status: ${esc(record.rights_status || 'research note')}</p></details></article>`;
+          const downloads = edition ? `<p class="actions">${edition.files.map(file => `<a class="action" download href="${encodeURI(file.path)}">Download ${esc(file.role.toUpperCase())}</a>`).join(' ')}</p>` : '';
+          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Add to my list</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record, edition)}</span>${collections}</div><p>${esc(record.description || '')}</p>${downloads}${edition ? '' : sourceActions(record)}<details><summary>About this work</summary><p>${esc(record.why_included || 'Selected for this library.')}</p></details></article>`;
         };
         const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
         fetch('./manifest.json')
@@ -104,7 +113,7 @@
                 return (!needle || haystack.includes(needle)) &&
                   (!collection.value || (record.collections || []).includes(collection.value)) &&
                   (!language.value || record.original_language === language.value) &&
-                  (!availability.value || (availability.value === 'published' && edition) || record.catalog_status === availability.value || (availability.value === 'candidate' && !edition && !['link-only','published'].includes(record.catalog_status)));
+                  (!availability.value || (availability.value === 'published' && edition) || record.catalog_status === availability.value || (availability.value === 'source-options' && !edition && record.catalog_status !== 'link-only'));
               }).sort((a,b) => a.title.localeCompare(b.title));
               visible = filtered;
               document.querySelector('#selection-count').textContent = `${selected.size} selected`;
