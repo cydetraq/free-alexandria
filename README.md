@@ -30,7 +30,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-The downloadable catalog contains 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file. Recommendations for works not supplied here live separately in the curated reading lists.
+The downloadable catalog is currently a **381 MB bootstrap**: 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file. Recommendations for works not supplied here live separately in the curated reading lists. It is not the intended 32 GB Pocket Alexandria device edition; that edition will use roughly 28 GB of usable capacity for source-faithful scans, practical manuals, and other high-value offline references.
 
 The catalog distinguishes reader-facing local EPUB/PDF files from acquisition metadata. Every local edition has adjacent provenance with its source and file checksums.
 

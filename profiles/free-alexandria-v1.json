@@ -2,8 +2,8 @@
   "$schema": "../metadata/curation-profile.schema.json",
   "format_version": 1,
   "id": "free-alexandria-v1",
-  "name": "Free Alexandria v1",
-  "description": "The first self-contained Free Alexandria offline library release.",
+  "name": "Free Alexandria bootstrap",
+  "description": "A validated starter collection, not the intended 32 GB Pocket Alexandria device edition.",
   "curator": {
     "name": "Free Alexandria"
   },
@@ -101,5 +101,5 @@
     "require_local_files": true,
     "allow_link_only": false
   },
-  "notes": "Includes every source-provenanced EPUB/PDF edition committed to this repository."
+  "notes": "Includes every source-provenanced EPUB/PDF edition currently committed to this repository. The 32 GB device edition has a roughly 28 GB usable-content target."
 }
