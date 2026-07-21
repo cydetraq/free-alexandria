@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-great-gatsby",
+  "edition_id": "the-great-gatsby-en-source-1925-gutenberg-64317",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "64317",
+    "edition_page": "https://www.gutenberg.org/ebooks/64317",
+    "acquired_at": "2026-07-21T18:42:47+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-great-gatsby/en-source-1925--gutenberg-64317/book.epub",
+      "sha256": "49ee33e572802607587b8711789cc84da8b9189902d997690ef65b19c04e0a36",
+      "bytes": 358092
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-great-gatsby/en-source-1925--gutenberg-64317/book.pdf",
+      "sha256": "ac5ef8a61b56f9f584779b1a8f5fd66a183766b114a5ad0cdc11cff728f77744",
+      "bytes": 299495
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

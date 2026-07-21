@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "swanns-way",
+  "edition_id": "swanns-way-en-source-1913-gutenberg-7178",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "7178",
+    "edition_page": "https://www.gutenberg.org/ebooks/7178",
+    "acquired_at": "2026-07-21T18:40:41+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/swanns-way/en-source-1913--gutenberg-7178/book.epub",
+      "sha256": "245ba442f5ed3de384a132b5fbe81d3bc0eec356102238543b4e45ebcd80ef18",
+      "bytes": 539693
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/swanns-way/en-source-1913--gutenberg-7178/book.pdf",
+      "sha256": "65333ccca84a9d6e2717e26fd01b7b8c95387d3600471cb3eb1b67f6e225d0ff",
+      "bytes": 887695
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

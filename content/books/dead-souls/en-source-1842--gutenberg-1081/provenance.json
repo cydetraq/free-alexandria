@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "dead-souls",
+  "edition_id": "dead-souls-en-source-1842-gutenberg-1081",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1081",
+    "edition_page": "https://www.gutenberg.org/ebooks/1081",
+    "acquired_at": "2026-07-21T18:39:24+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/dead-souls/en-source-1842--gutenberg-1081/book.epub",
+      "sha256": "6f592f5e9cf98993c9a2bf183c2c6ad1cc7e998e842fbc30c8429a01a0656f2a",
+      "bytes": 631669
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/dead-souls/en-source-1842--gutenberg-1081/book.pdf",
+      "sha256": "574cef5e49902fefe7c69f20bd78d82838a1f1cc57462858b3de6ce582641299",
+      "bytes": 710667
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

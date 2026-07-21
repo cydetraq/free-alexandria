@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "common-sense",
+  "edition_id": "common-sense-en-source-1776-gutenberg-147",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "147",
+    "edition_page": "https://www.gutenberg.org/ebooks/147",
+    "acquired_at": "2026-07-21T18:39:19+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/common-sense/en-source-1776--gutenberg-147/book.epub",
+      "sha256": "d3cadb037f474de7bc820d573ae669c15fbba03e5a1aa16e2012d6fdec9b94bd",
+      "bytes": 309694
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/common-sense/en-source-1776--gutenberg-147/book.pdf",
+      "sha256": "1827cfc84679e980e55643acd9f879dc9465425712c5647bb198d04c2b30787a",
+      "bytes": 147069
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

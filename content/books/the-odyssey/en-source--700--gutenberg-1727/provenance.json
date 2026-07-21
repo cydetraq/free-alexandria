@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-odyssey",
+  "edition_id": "the-odyssey-en-source--700-gutenberg-1727",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1727",
+    "edition_page": "https://www.gutenberg.org/ebooks/1727",
+    "acquired_at": "2026-07-21T18:43:04+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-odyssey/en-source--700--gutenberg-1727/book.epub",
+      "sha256": "aa50e566da6ab36c360838ebbae1222030db73f214b7656ff2dc69dc0c3e0c3a",
+      "bytes": 446403
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-odyssey/en-source--700--gutenberg-1727/book.pdf",
+      "sha256": "222439136679b06c1fe4a78ca9649658563c903d7c458358465fed68b3d935e0",
+      "bytes": 605042
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

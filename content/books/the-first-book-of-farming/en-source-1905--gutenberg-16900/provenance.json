@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-first-book-of-farming",
+  "edition_id": "the-first-book-of-farming-en-source-1905-gutenberg-16900",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "16900",
+    "edition_page": "https://www.gutenberg.org/ebooks/16900",
+    "acquired_at": "2026-07-21T18:42:44+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-first-book-of-farming/en-source-1905--gutenberg-16900/book.epub",
+      "sha256": "7d5224503c7db6a4ea87cf7e83989297aa57d0036424a29b95c7027165be02e6",
+      "bytes": 6590473
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-first-book-of-farming/en-source-1905--gutenberg-16900/book.pdf",
+      "sha256": "d8bdba4ff2a3a448bc91c7c5d662c882ac08f93257a2a4f2f9484a7c8d2a4bf8",
+      "bytes": 363032
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

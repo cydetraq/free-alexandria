@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-republic",
+  "edition_id": "the-republic-en-source--380-gutenberg-1497",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1497",
+    "edition_page": "https://www.gutenberg.org/ebooks/1497",
+    "acquired_at": "2026-07-21T18:43:10+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-republic/en-source--380--gutenberg-1497/book.epub",
+      "sha256": "838286fae6d0ac731d119e764918e1cb296d7f147f5bb48284e1b36334c384a9",
+      "bytes": 523799
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-republic/en-source--380--gutenberg-1497/book.pdf",
+      "sha256": "576c99d891c43cf14180aa7e3177bc604918fb59bbf11ccf1bb96cf4fd3afcc6",
+      "bytes": 1066775
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

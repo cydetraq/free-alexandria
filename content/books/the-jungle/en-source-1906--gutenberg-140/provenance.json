@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-jungle",
+  "edition_id": "the-jungle-en-source-1906-gutenberg-140",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "140",
+    "edition_page": "https://www.gutenberg.org/ebooks/140",
+    "acquired_at": "2026-07-21T18:42:56+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-jungle/en-source-1906--gutenberg-140/book.epub",
+      "sha256": "dfd818e07c8bc2cd9c6145004b74f7b76d3bf914ec86ef30520bbcc88c438706",
+      "bytes": 614525
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-jungle/en-source-1906--gutenberg-140/book.pdf",
+      "sha256": "0ed8a873efd0bdf5aae3ab5dd2d79e73e4e481d8967778bfe3fc72d91d570d32",
+      "bytes": 687982
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

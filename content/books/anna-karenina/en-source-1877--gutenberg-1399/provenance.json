@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "anna-karenina",
+  "edition_id": "anna-karenina-en-source-1877-gutenberg-1399",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1399",
+    "edition_page": "https://www.gutenberg.org/ebooks/1399",
+    "acquired_at": "2026-07-21T18:40:00+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/anna-karenina/en-source-1877--gutenberg-1399/book.epub",
+      "sha256": "9dbf58f05acb8d9ebb81d88b0eff9aedc2b78898246f2216403905cd23815db6",
+      "bytes": 1073087
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/anna-karenina/en-source-1877--gutenberg-1399/book.pdf",
+      "sha256": "82581ec12e44156e13d6c89613e81cc5240031b8aedcb05884db7c52e6d79ddc",
+      "bytes": 1721403
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

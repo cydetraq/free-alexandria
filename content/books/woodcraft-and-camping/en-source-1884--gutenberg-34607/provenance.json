@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "woodcraft-and-camping",
+  "edition_id": "woodcraft-and-camping-en-source-1884-gutenberg-34607",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "34607",
+    "edition_page": "https://www.gutenberg.org/ebooks/34607",
+    "acquired_at": "2026-07-21T18:43:45+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/woodcraft-and-camping/en-source-1884--gutenberg-34607/book.epub",
+      "sha256": "ab5055acda5cb5025c5aa6976495056f37c41940a9c157c04edddbbd54092097",
+      "bytes": 663980
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/woodcraft-and-camping/en-source-1884--gutenberg-34607/book.pdf",
+      "sha256": "ac1efa80e33798cf35a5ea6758cbed9d04f8f55aa7ffad5efc3cb4b5596295ec",
+      "bytes": 224830
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "jude-the-obscure",
+  "edition_id": "jude-the-obscure-en-source-1895-gutenberg-153",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "153",
+    "edition_page": "https://www.gutenberg.org/ebooks/153",
+    "acquired_at": "2026-07-21T18:38:42+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/jude-the-obscure/en-source-1895--gutenberg-153/book.epub",
+      "sha256": "68f7ed3db5d5cab7bceca2f6e04420d5ba17ff807115aa518f9f80e3f641b4f3",
+      "bytes": 640183
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/jude-the-obscure/en-source-1895--gutenberg-153/book.pdf",
+      "sha256": "6e6ce7a5ee760c0eab0546c3b82bda283dd488f553f1fcf98842b31124befd59",
+      "bytes": 773063
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

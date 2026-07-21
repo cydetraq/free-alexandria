@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-sorrows-of-young-werther",
+  "edition_id": "the-sorrows-of-young-werther-en-source-1774-gutenberg-2527",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2527",
+    "edition_page": "https://www.gutenberg.org/ebooks/2527",
+    "acquired_at": "2026-07-21T18:43:16+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-sorrows-of-young-werther/en-source-1774--gutenberg-2527/book.epub",
+      "sha256": "1e3da5866c756bcc03266a5f79ef3f5c091381244bbbec5763a2b87b1d386898",
+      "bytes": 183408
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-sorrows-of-young-werther/en-source-1774--gutenberg-2527/book.pdf",
+      "sha256": "602d9374e3dffab9eee799d6e4946618e40b225fc26d6f377615d79db42a0189",
+      "bytes": 230555
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

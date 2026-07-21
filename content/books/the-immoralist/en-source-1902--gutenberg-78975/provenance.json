@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-immoralist",
+  "edition_id": "the-immoralist-en-source-1902-gutenberg-78975",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "78975",
+    "edition_page": "https://www.gutenberg.org/ebooks/78975",
+    "acquired_at": "2026-07-21T18:42:53+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-immoralist/en-source-1902--gutenberg-78975/book.epub",
+      "sha256": "15fe1fdba64eaca58842d4afc1481619ad31222ee5bc194bd1214929f16fe30f",
+      "bytes": 392957
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-immoralist/en-source-1902--gutenberg-78975/book.pdf",
+      "sha256": "a5c4781576b47cef41f0ffe140034a9928367fffe3d978fd8a3e79bc4eff84c4",
+      "bytes": 243707
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-count-of-monte-cristo",
+  "edition_id": "the-count-of-monte-cristo-en-source-1844-gutenberg-1184",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1184",
+    "edition_page": "https://www.gutenberg.org/ebooks/1184",
+    "acquired_at": "2026-07-21T18:42:31+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-count-of-monte-cristo/en-source-1844--gutenberg-1184/book.epub",
+      "sha256": "0962b9499724ca8dfcc2af09ec61fdda5cb9d3d4583d20a8eab9fd29d688491b",
+      "bytes": 84582065
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-count-of-monte-cristo/en-source-1844--gutenberg-1184/book.pdf",
+      "sha256": "29773ed626dff8f817d4b2394e76cc2fae9d04b6c28fb49e5a4989fd52a793fb",
+      "bytes": 2485138
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

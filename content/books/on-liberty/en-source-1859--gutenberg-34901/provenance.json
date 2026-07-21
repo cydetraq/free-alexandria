@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "on-liberty",
+  "edition_id": "on-liberty-en-source-1859-gutenberg-34901",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "34901",
+    "edition_page": "https://www.gutenberg.org/ebooks/34901",
+    "acquired_at": "2026-07-21T18:39:46+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/on-liberty/en-source-1859--gutenberg-34901/book.epub",
+      "sha256": "1fdab3f510d3ff0f409ac76f5921875bf8d54c9f8652bfd4998c7c6620bb7269",
+      "bytes": 196948
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/on-liberty/en-source-1859--gutenberg-34901/book.pdf",
+      "sha256": "a30da7d86470e611449edeb9f937eaf69d342d299ebbf782524e4539b1cb130e",
+      "bytes": 271019
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

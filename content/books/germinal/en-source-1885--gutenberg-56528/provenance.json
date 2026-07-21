@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "germinal",
+  "edition_id": "germinal-en-source-1885-gutenberg-56528",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "56528",
+    "edition_page": "https://www.gutenberg.org/ebooks/56528",
+    "acquired_at": "2026-07-21T18:38:28+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/germinal/en-source-1885--gutenberg-56528/book.epub",
+      "sha256": "60938eb6a5d0d52ac69e3731fc4f31422fde75fd8bfb5925c2dcfce58f71f7a3",
+      "bytes": 485618
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/germinal/en-source-1885--gutenberg-56528/book.pdf",
+      "sha256": "a0b0c05358072d746701c05a7a9d28c916c92a9d71b68415064e0ab093acb381",
+      "bytes": 899577
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

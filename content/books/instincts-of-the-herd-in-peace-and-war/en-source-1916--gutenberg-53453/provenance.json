@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "instincts-of-the-herd-in-peace-and-war",
+  "edition_id": "instincts-of-the-herd-in-peace-and-war-en-source-1916-gutenberg-53453",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "53453",
+    "edition_page": "https://www.gutenberg.org/ebooks/53453",
+    "acquired_at": "2026-07-21T18:38:36+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/instincts-of-the-herd-in-peace-and-war/en-source-1916--gutenberg-53453/book.epub",
+      "sha256": "de9136eb81ed2987711e509af4d8b8e8149304292b1635ec09d54af53efea2e6",
+      "bytes": 340894
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/instincts-of-the-herd-in-peace-and-war/en-source-1916--gutenberg-53453/book.pdf",
+      "sha256": "aaef8348355798c45700125de04373c0d029c3e5b7a1d645c0aa7c82d0b8d230",
+      "bytes": 420263
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

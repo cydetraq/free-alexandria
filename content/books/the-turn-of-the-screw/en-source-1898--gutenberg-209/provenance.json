@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-turn-of-the-screw",
+  "edition_id": "the-turn-of-the-screw-en-source-1898-gutenberg-209",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "209",
+    "edition_page": "https://www.gutenberg.org/ebooks/209",
+    "acquired_at": "2026-07-21T18:43:29+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-turn-of-the-screw/en-source-1898--gutenberg-209/book.epub",
+      "sha256": "e88c0c0e29af98f9b4fefcc395b6cf372988de334c90d54db85296a983c7e07e",
+      "bytes": 189301
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-turn-of-the-screw/en-source-1898--gutenberg-209/book.pdf",
+      "sha256": "a1a393e2add4a33a61105e27fd1c54c63ced41865c0e5293aed539cd56716802",
+      "bytes": 237802
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

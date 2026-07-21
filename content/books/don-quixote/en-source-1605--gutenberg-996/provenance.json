@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "don-quixote",
+  "edition_id": "don-quixote-en-source-1605-gutenberg-996",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "996",
+    "edition_page": "https://www.gutenberg.org/ebooks/996",
+    "acquired_at": "2026-07-21T18:51:29+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/don-quixote/en-source-1605--gutenberg-996/book.epub",
+      "sha256": "dba05369ff126f8ccbeb356d7f950550eab3bf5adc6c67b8be13d7465e6d1a6e",
+      "bytes": 45972722
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/don-quixote/en-source-1605--gutenberg-996/book.pdf",
+      "sha256": "b74f67f6acaed87719a982ee76e9652109a239143f3656aea389d659e1058766",
+      "bytes": 1950698
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

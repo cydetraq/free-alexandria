@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "dialogues-concerning-natural-religion",
+  "edition_id": "dialogues-concerning-natural-religion-en-source-1779-gutenberg-4583",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "4583",
+    "edition_page": "https://www.gutenberg.org/ebooks/4583",
+    "acquired_at": "2026-07-21T18:39:27+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/dialogues-concerning-natural-religion/en-source-1779--gutenberg-4583/book.epub",
+      "sha256": "5e9d056b02caf2edb3285787204b0a6a2855cc4bacbdb042479deb01760db3c2",
+      "bytes": 171892
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/dialogues-concerning-natural-religion/en-source-1779--gutenberg-4583/book.pdf",
+      "sha256": "f19e98e2317dce60b88e04ee3c13d5d0df9f592e1e7760ebb2be7c0a5eeb984d",
+      "bytes": 204922
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "ulysses",
+  "edition_id": "ulysses-en-source-1922-gutenberg-4300",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "4300",
+    "edition_page": "https://www.gutenberg.org/ebooks/4300",
+    "acquired_at": "2026-07-21T18:43:33+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/ulysses/en-source-1922--gutenberg-4300/book.epub",
+      "sha256": "f8b1a45f88fabea6c17024de93395ef537bec2bab6a17dadd5a886352a63039c",
+      "bytes": 1508312
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/ulysses/en-source-1922--gutenberg-4300/book.pdf",
+      "sha256": "d2f4740afad524f60346bc77b651b04387d0a6156ba05f986f1f56bb4c3b0f45",
+      "bytes": 1438703
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "wuthering-heights",
+  "edition_id": "wuthering-heights-en-source-1847-gutenberg-768",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "768",
+    "edition_page": "https://www.gutenberg.org/ebooks/768",
+    "acquired_at": "2026-07-21T18:43:48+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/wuthering-heights/en-source-1847--gutenberg-768/book.epub",
+      "sha256": "df48ab3719249211b9b455a8ff93dd09927d8f04a2d560b3583a7ac46f907838",
+      "bytes": 586967
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/wuthering-heights/en-source-1847--gutenberg-768/book.pdf",
+      "sha256": "40eda6ea2655ac04dcdbde385a1da4184d3cc101cc1db79c726867bb8eefb005",
+      "bytes": 604208
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -45,6 +45,8 @@ def fetch(url: str, destination: Path | None = None) -> bytes:
             return response.read()
         with destination.open("wb") as output:
             shutil.copyfileobj(response, output)
+    if destination.stat().st_size == 0:
+        raise RuntimeError(f"empty response from {url}")
     return b""
 
 
@@ -85,9 +87,13 @@ def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
         text_url = f"https://www.gutenberg.org/cache/epub/{item_id}/pg{item_id}.txt"
         try:
             fetch(f"https://www.gutenberg.org/ebooks/{item_id}.epub.images", epub)
+            if not zipfile.is_zipfile(epub):
+                raise RuntimeError("source did not return an EPUB file")
         except Exception:
             try:
                 fetch(f"https://www.gutenberg.org/ebooks/{item_id}.epub.noimages", epub)
+                if not zipfile.is_zipfile(epub):
+                    raise RuntimeError("source did not return an EPUB file")
             except Exception:
                 fetch(text_url, text)
                 make_epub(text, epub, record["title"], record.get("author", record.get("publisher", "")))

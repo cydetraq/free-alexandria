@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-call-of-the-wild",
+  "edition_id": "the-call-of-the-wild-en-source-1903-gutenberg-215",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "215",
+    "edition_page": "https://www.gutenberg.org/ebooks/215",
+    "acquired_at": "2026-07-21T18:40:49+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-call-of-the-wild/en-source-1903--gutenberg-215/book.epub",
+      "sha256": "58b2a690a54baa67cb0f26a65a920936ca1220b3116fd103a39df438fde7c5ed",
+      "bytes": 226982
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-call-of-the-wild/en-source-1903--gutenberg-215/book.pdf",
+      "sha256": "24cd30ab7cf7ab8a2dfc659e9c18ae732cf7f8764f01d233dadfcc936468579a",
+      "bytes": 181723
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

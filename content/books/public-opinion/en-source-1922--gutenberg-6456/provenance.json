@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "public-opinion",
+  "edition_id": "public-opinion-en-source-1922-gutenberg-6456",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "6456",
+    "edition_page": "https://www.gutenberg.org/ebooks/6456",
+    "acquired_at": "2026-07-21T18:39:53+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/public-opinion/en-source-1922--gutenberg-6456/book.epub",
+      "sha256": "e751e9c2eb3f0c795fb4945132b09465765cfcab4fe1afb47ca582490326efd2",
+      "bytes": 319019
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/public-opinion/en-source-1922--gutenberg-6456/book.pdf",
+      "sha256": "f38e3dadfdea1bb9efb82d5de846aba589b0c98bbccb8c24eeb89d3d6594662f",
+      "bytes": 532387
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

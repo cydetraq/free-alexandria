@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "propaganda",
+  "edition_id": "propaganda-en-source-1928-gutenberg-78634",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "78634",
+    "edition_page": "https://www.gutenberg.org/ebooks/78634",
+    "acquired_at": "2026-07-21T18:39:49+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/propaganda/en-source-1928--gutenberg-78634/book.epub",
+      "sha256": "7470a175eecb6aaf511791a30029ace0ba8e932eed1bc0a36b9d60193d8bb9bd",
+      "bytes": 360733
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/propaganda/en-source-1928--gutenberg-78634/book.pdf",
+      "sha256": "6b994c884ef060906053db23d11c827a8bbab3832017efcee65a66dfe1b930ac",
+      "bytes": 204265
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

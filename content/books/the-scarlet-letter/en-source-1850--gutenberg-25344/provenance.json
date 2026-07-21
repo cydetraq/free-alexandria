@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-scarlet-letter",
+  "edition_id": "the-scarlet-letter-en-source-1850-gutenberg-25344",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "25344",
+    "edition_page": "https://www.gutenberg.org/ebooks/25344",
+    "acquired_at": "2026-07-21T18:43:14+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-scarlet-letter/en-source-1850--gutenberg-25344/book.epub",
+      "sha256": "9fce7368b663ad075b67dc23690e018a31a2cc3044c31792c49d643f1579e7d5",
+      "bytes": 4533734
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-scarlet-letter/en-source-1850--gutenberg-25344/book.pdf",
+      "sha256": "b0a32162a840eabe2fd7851a16423373c8077773da5de5beed1257e3a7c6ecdc",
+      "bytes": 446964
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}
