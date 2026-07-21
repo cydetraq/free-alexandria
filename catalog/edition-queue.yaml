@@ -57,3 +57,15 @@
   acquisition_status: candidate
   intended_paths:
     pdf: content/manuals/fm-21-76-survival/en-1957--loc-pending-item-id/manual.pdf
+
+- id: elementary-cryptanalysis-en-original-1939-gutenberg-75074
+  work_id: elementary-cryptanalysis
+  source_id: project-gutenberg
+  source_item_id: '75074'
+  source_url: https://www.gutenberg.org/ebooks/75074
+  language: English
+  edition_year: 1939
+  acquisition_status: edition-identified
+  rights_assessment: Source identifies this edition as public domain in the USA; acquire and preserve the source evidence before publication.
+  intended_paths:
+    epub: content/books/elementary-cryptanalysis/en-original-1939--gutenberg-75074/book.epub

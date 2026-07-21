@@ -138,8 +138,9 @@
   original_year: 1939
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: copyrighted-link-only
-  catalog_status: link-only
+  rights_status: edition-review-required
+  catalog_status: candidate
+  source_rights_assessment: Project Gutenberg identifies its ebook 75074 as public domain in the United States; review the acquired file and provenance before publication.
   description: A substantial reference on solving classical ciphers.
-  why_included: Important historical cryptanalysis reference, but not yet U.S. public domain.
+  why_included: Important historical cryptanalysis reference; a public-domain U.S. source edition has been identified for acquisition review.
   tags: [cryptography, communications, mathematics, nonfiction]

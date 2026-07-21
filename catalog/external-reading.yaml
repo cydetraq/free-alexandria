@@ -4,6 +4,9 @@
   original_year: 1949
   collections: [essential-reading]
   rights_status: copyrighted-link-only
+  catalog_status: link-only
+  availability: external-link-only
+  rights_determination: U.S. renewal registration R641953; do not mirror in the United States before January 1, 2045.
   description: A novel of surveillance, controlled language, manufactured reality, and political terror.
   why_included: Essential fiction for understanding authoritarian information control.
   link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.
@@ -14,7 +17,9 @@
   author: Joost Meerloo
   original_year: 1956
   collections: [essential-reading]
-  rights_status: copyrighted-link-only
+  rights_status: renewal-review-required
+  catalog_status: candidate
+  availability: external-link-pending-rights-review
   description: A study of coercive persuasion and totalitarian psychological control.
   why_included: A foundational reference for recognizing coercive ideological environments.
   link_policy: Prefer rights-holder, publisher, author estate, or public-library locator.

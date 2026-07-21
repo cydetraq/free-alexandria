@@ -1,0 +1,16 @@
+- id: elementary-cryptanalysis-us-edition-assessment
+  work_id: elementary-cryptanalysis
+  determination: source-identified-public-domain-us
+  source_id: project-gutenberg
+  source_item_id: '75074'
+  source_url: https://www.gutenberg.org/ebooks/75074
+  evidence: The source page identifies the edition as public domain in the USA and identifies the 1939 original publication.
+  remaining_gate: Acquire the exact source file, record its hash and local provenance, then complete the edition review.
+
+- id: nineteen-eighty-four-us-rights-determination
+  work_id: nineteen-eighty-four
+  determination: copyrighted-link-only-us
+  renewal_registration: R641953
+  public_domain_date_us: '2045-01-01'
+  evidence: The renewal record is identified in public copyright references; the title remains a legitimate external-link recommendation only for U.S. distributions.
+  remaining_gate: Do not mirror any U.S.-distributed English edition before the stated date without permission from the rights holder.

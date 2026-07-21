@@ -7,6 +7,7 @@ This directory is independently useful after cloning the repository.
 - The YAML files remain the editorial source records.
 - [`sources.yaml`](sources.yaml) identifies the repositories and agencies from which future local artifacts may be acquired.
 - [`edition-queue.yaml`](edition-queue.yaml) identifies specific candidate editions; it does not claim that those files have been downloaded.
+- [`rights-review-queue.yaml`](rights-review-queue.yaml) preserves titles whose U.S. status may turn on renewal, foreign-publication, or restoration research; they are candidates, not exclusions.
 - [`published-editions.json`](published-editions.json) is the only registry a distribution build uses to include real local files.
 
 Refresh the exports after changing catalog records:

@@ -13,7 +13,7 @@ errors = []
 seen = set()
 work_ids = set()
 for path in sorted(CATALOG.glob("*.yaml")):
-    if path.name in {"tags.yaml", "sources.yaml", "edition-queue.yaml"}:
+    if path.name in {"tags.yaml", "sources.yaml", "edition-queue.yaml", "rights-review-queue.yaml", "rights-determinations.yaml"}:
         continue
     for number, line in enumerate(path.read_text().splitlines(), 1):
         match = ID.match(line)

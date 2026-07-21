@@ -63,8 +63,8 @@ This is a committed, readable snapshot of the current Free Alexandria metadata c
 
 | Title | Author / publisher | Year | Rights | Status |
 | --- | --- | ---: | --- | --- |
-| Nineteen Eighty-Four | George Orwell | 1949 | copyrighted-link-only | candidate |
-| The Rape of the Mind | Joost Meerloo | 1956 | copyrighted-link-only | candidate |
+| Nineteen Eighty-Four | George Orwell | 1949 | copyrighted-link-only | link-only |
+| The Rape of the Mind | Joost Meerloo | 1956 | renewal-review-required | candidate |
 
 ## Original-Language Library
 
@@ -95,7 +95,7 @@ This is a committed, readable snapshot of the current Free Alexandria metadata c
 | Areopagitica | John Milton | 1644 | pre-1931-work-candidate | candidate |
 | Civil Disobedience | Henry David Thoreau | 1849 | pre-1931-work-candidate | candidate |
 | Common Sense | Thomas Paine | 1776 | pre-1931-work-candidate | candidate |
-| Elementary Cryptanalysis | Helen Fouché Gaines | 1939 | copyrighted-link-only | link-only |
+| Elementary Cryptanalysis | Helen Fouché Gaines | 1939 | edition-review-required | candidate |
 | Elmer Gantry | Sinclair Lewis | 1927 | pre-1931-work-candidate | candidate |
 | Manual for the Solution of Military Ciphers | Parker Hitt | 1916 | pre-1931-work-candidate | candidate |
 | On Liberty | John Stuart Mill | 1859 | pre-1931-work-candidate | candidate |

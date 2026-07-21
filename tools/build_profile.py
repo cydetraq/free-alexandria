@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog"
-SKIP = {"tags.yaml", "sources.yaml", "edition-queue.yaml"}
+SKIP = {"tags.yaml", "sources.yaml", "edition-queue.yaml", "rights-review-queue.yaml", "rights-determinations.yaml"}
 RECORD_START = re.compile(r"^- id: (?P<id>[a-z0-9]+(?:-[a-z0-9]+)*)$")
 FIELD = re.compile(r"^  (?P<key>[a-z_]+): ?(?P<value>.*)$")
 LIST = re.compile(r"^\[(.*)\]$")
