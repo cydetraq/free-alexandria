@@ -3,27 +3,102 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
     <title>Free Alexandria</title>
+    <style>
+      :root { color-scheme: dark; --bg:#101416; --panel:#182023; --ink:#f1f4f1; --muted:#b5c2bd; --line:#35423e; --accent:#a5d6a7; --warn:#ffcc80; --link:#9bd6ff; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+      a { color:var(--link); }
+      header { padding:2.5rem max(1.25rem, calc((100vw - 78rem)/2)); border-bottom:1px solid var(--line); background:linear-gradient(120deg,#182720,#101416); }
+      h1 { margin:0; font-size:clamp(2rem,5vw,3.5rem); letter-spacing:-.04em; }
+      header p { max-width:55rem; color:var(--muted); margin:.6rem 0 0; }
+      main { max-width:78rem; margin:auto; padding:1.25rem; }
+      .notice { border-left:4px solid var(--accent); background:var(--panel); padding:.8rem 1rem; color:var(--muted); }
+      .controls { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:.75rem; margin:1.25rem 0; }
+      input, select, button { width:100%; min-height:2.7rem; border:1px solid var(--line); border-radius:.35rem; background:#101617; color:var(--ink); padding:.55rem .7rem; font:inherit; }
+      button { cursor:pointer; background:#23452d; }
+      button:hover { background:#2d5939; }
+      #result-summary { color:var(--muted); margin:1rem 0; }
+      #library { display:grid; grid-template-columns:repeat(auto-fill,minmax(18rem,1fr)); gap:1rem; }
+      article { display:flex; flex-direction:column; gap:.7rem; border:1px solid var(--line); border-radius:.5rem; padding:1rem; background:var(--panel); }
+      article h2 { margin:0; font-size:1.15rem; line-height:1.2; }
+      article p { margin:0; }
+      .creator, .meta { color:var(--muted); font-size:.92rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:.35rem; }
+      .badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:.13rem .48rem; font-size:.76rem; color:var(--muted); }
+      .badge.available { border-color:#497f55; color:var(--accent); }
+      .badge.link { border-color:#7b6943; color:var(--warn); }
+      details { margin-top:auto; border-top:1px solid var(--line); padding-top:.6rem; }
+      summary { cursor:pointer; color:var(--link); }
+      .empty { grid-column:1/-1; border:1px dashed var(--line); color:var(--muted); padding:2rem; text-align:center; }
+      .offline { color:var(--accent); font-weight:600; }
+      @media (max-width: 720px) { .controls { grid-template-columns:1fr; } header { padding:1.75rem 1.25rem; } }
+      @media print { body { background:white; color:black; } header, article { background:white; } .controls, .notice { display:none; } #library { display:block; } article { break-inside:avoid; margin:0 0 1rem; border-color:#aaa; } }
+    </style>
   </head>
   <body>
-    <main>
+    <header>
       <h1>Free Alexandria</h1>
-      <p id="status">Loading the local catalog…</p>
+      <p>A portable archive of human knowledge. This catalog is designed to remain useful without the internet, DNS, a library catalog, or a third-party account.</p>
+    </header>
+    <main>
+      <p class="notice"><span class="offline">Offline catalog.</span> Records describe what belongs in an archive. A card marked “local file available” is usable from this device; “find or borrow” means this profile intentionally includes only its bibliographic record.</p>
+      <noscript><p class="notice">This catalog needs JavaScript enabled to search and filter the local manifest.</p></noscript>
+      <section class="controls" aria-label="Catalog filters">
+        <label>Search<input id="search" type="search" placeholder="Title, author, topic, or reason" autocomplete="off"></label>
+        <label>Collection<select id="collection"><option value="">All collections</option></select></label>
+        <label>Language<select id="language"><option value="">All languages</option></select></label>
+        <label>Availability<select id="availability"><option value="">All availability</option><option value="candidate">Candidate / review</option><option value="link-only">Find or borrow</option><option value="published">Local file available</option></select></label>
+      </section>
+      <button id="clear" type="button">Clear filters</button>
+      <p id="result-summary" role="status">Loading the local catalog…</p>
       <section id="library" aria-live="polite"></section>
     </main>
     <script>
-      fetch('./manifest.json')
-        .then(response => response.ok ? response.json() : Promise.reject(response.status))
-        .then(manifest => {
-          document.title = manifest.profile.name + ' — Free Alexandria';
-          document.querySelector('#status').textContent =
-            `${manifest.profile.name}: ${manifest.records.length} catalog records available offline.`;
-          document.querySelector('#library').innerHTML = manifest.records.map(record =>
-            `<article><h2>${record.title}</h2><p>${record.author || record.publisher || ''}</p><p>${record.description || ''}</p></article>`
-          ).join('');
-        })
-        .catch(() => document.querySelector('#status').textContent =
-          'No local manifest was found. Build or copy an offline profile into this folder.');
+      (() => {
+        const library = document.querySelector('#library');
+        const summary = document.querySelector('#result-summary');
+        const search = document.querySelector('#search');
+        const collection = document.querySelector('#collection');
+        const language = document.querySelector('#language');
+        const availability = document.querySelector('#availability');
+        const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+        const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
+        const availabilityLabel = record => record.catalog_status === 'published' ? 'Local file available' : record.catalog_status === 'link-only' ? 'Find or borrow' : 'Edition / rights review';
+        const card = record => {
+          const creator = record.author || record.publisher || 'Creator not yet recorded';
+          const collections = (record.collections || []).map(id => `<span class="badge">${esc(labels[id] || id)}</span>`).join('');
+          const statusClass = record.catalog_status === 'published' ? 'available' : record.catalog_status === 'link-only' ? 'link' : '';
+          const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
+          return `<article><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record)}</span>${collections}</div><p>${esc(record.description || 'Description pending editorial review.')}</p><details><summary>Why this belongs here</summary><p>${esc(record.why_included || 'Editorial rationale pending.')}</p><p class="meta">Rights / acquisition status: ${esc(record.rights_status || 'review required')}</p></details></article>`;
+        };
+        const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
+        fetch('./manifest.json')
+          .then(response => response.ok ? response.json() : Promise.reject(new Error('manifest missing')))
+          .then(manifest => {
+            const records = manifest.records || [];
+            document.title = `${manifest.profile.name} — Free Alexandria`;
+            fill(collection, [...new Set(records.flatMap(record => record.collections || []))], value => labels[value] || value);
+            fill(language, [...new Set(records.map(record => record.original_language).filter(Boolean))]);
+            const render = () => {
+              const needle = search.value.trim().toLocaleLowerCase();
+              const filtered = records.filter(record => {
+                const haystack = [record.title, record.original_title, record.author, record.publisher, record.description, record.why_included, ...(record.tags || [])].join(' ').toLocaleLowerCase();
+                return (!needle || haystack.includes(needle)) &&
+                  (!collection.value || (record.collections || []).includes(collection.value)) &&
+                  (!language.value || record.original_language === language.value) &&
+                  (!availability.value || record.catalog_status === availability.value || (availability.value === 'candidate' && !['link-only','published'].includes(record.catalog_status)));
+              }).sort((a,b) => a.title.localeCompare(b.title));
+              summary.textContent = `${filtered.length} of ${records.length} catalog records available offline in ${manifest.profile.name}.`;
+              library.innerHTML = filtered.length ? filtered.map(card).join('') : '<p class="empty">No records match these filters.</p>';
+            };
+            [search, collection, language, availability].forEach(control => control.addEventListener(control === search ? 'input' : 'change', render));
+            document.querySelector('#clear').addEventListener('click', () => { search.value = ''; collection.value = ''; language.value = ''; availability.value = ''; render(); });
+            render();
+          })
+          .catch(() => { summary.textContent = 'No local manifest was found. Build or copy an offline profile into this folder.'; });
+      })();
     </script>
   </body>
 </html>

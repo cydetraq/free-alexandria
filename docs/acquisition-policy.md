@@ -18,6 +18,22 @@ Follow `docs/copyright-review.md` before classifying an edition as public domain
 
 After verification, add the edition to `catalog/published-editions.json`. A distribution build reads only this registry; an acquisition-queue record alone can never place a file in an offline release.
 
+## Initial Project Gutenberg importer
+
+For the explicitly reviewed Project Gutenberg records in the queue, run a local plan first:
+
+```sh
+python3 tools/acquire_project_gutenberg.py --all-approved
+```
+
+When the operator has confirmed that download and local archival are lawful in their jurisdiction, use:
+
+```sh
+python3 tools/acquire_project_gutenberg.py --all-approved --acquire
+```
+
+The importer writes a human-readable edition directory, a canonical Gutenberg EPUB, a searchable PDF derived from Gutenberg's UTF-8 text, and a sibling `provenance.json` that records source URLs, the retrieval time, hashes, and byte counts. It never publishes files to Git or silently changes `published-editions.json`; an editorial rights review is still required before adding a file to a distribution profile.
+
 ## Do not acquire
 
 - Restricted or authentication-only government publications.

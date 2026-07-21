@@ -1,4 +1,40 @@
 {
   "format_version": 1,
-  "editions": {}
+  "editions": {
+    "adventures-of-huckleberry-finn": [{
+      "edition_id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
+      "language": "English", "source_id": "project-gutenberg", "source_item_id": "76",
+      "provenance_path": "content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/provenance.json",
+      "rights_review": {"status":"public-domain-us","basis":"Original U.S. work published in 1884; Project Gutenberg edition 76.","reviewed_at":"2026-07-21","evidence_url":"https://www.gutenberg.org/ebooks/76"},
+      "files": [{"role":"epub","path":"content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.epub","sha256":"678454ec13c9b04095d2aa9d7952e21ca60964cbb40859dc69882d8a65c3454b","bytes":16021498},{"role":"pdf","path":"content/books/adventures-of-huckleberry-finn/en-original-1884--gutenberg-76/book.pdf","sha256":"6839e3951afc696dad97a5afad1be59545dfe4161d8154b15f79be9522609836","bytes":533379}]
+    }],
+    "don-quixote": [{
+      "edition_id": "don-quixote-en-ormsby-1885-gutenberg-996",
+      "language": "English", "source_id": "project-gutenberg", "source_item_id": "996",
+      "provenance_path": "content/books/don-quixote/en-ormsby-1885--gutenberg-996/provenance.json",
+      "rights_review": {"status":"public-domain-us","basis":"Cervantes original and John Ormsby's 1885 English translation are public-domain candidates; Project Gutenberg edition 996.","reviewed_at":"2026-07-21","evidence_url":"https://www.gutenberg.org/ebooks/996"},
+      "files": [{"role":"epub","path":"content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.epub","sha256":"dba05369ff126f8ccbeb356d7f950550eab3bf5adc6c67b8be13d7465e6d1a6e","bytes":45972722},{"role":"pdf","path":"content/books/don-quixote/en-ormsby-1885--gutenberg-996/book.pdf","sha256":"673e37538599798a026d25e6bf00ab68f73b2e7fcbbb55513f3deb8dbda04c78","bytes":1950698}]
+    }],
+    "ulysses": [{
+      "edition_id": "ulysses-en-original-1922-gutenberg-4300",
+      "language": "English", "source_id": "project-gutenberg", "source_item_id": "4300",
+      "provenance_path": "content/books/ulysses/en-original-1922--gutenberg-4300/provenance.json",
+      "rights_review": {"status":"public-domain-us","basis":"Original U.S. work published in 1922; Project Gutenberg edition 4300.","reviewed_at":"2026-07-21","evidence_url":"https://www.gutenberg.org/ebooks/4300"},
+      "files": [{"role":"epub","path":"content/books/ulysses/en-original-1922--gutenberg-4300/book.epub","sha256":"f8b1a45f88fabea6c17024de93395ef537bec2bab6a17dadd5a886352a63039c","bytes":1508312},{"role":"pdf","path":"content/books/ulysses/en-original-1922--gutenberg-4300/book.pdf","sha256":"10c7219d8c56eaa84e218651d4c98f1d492d41f1ab8a6e2f629d269f8811c25e","bytes":1438703}]
+    }],
+    "the-jungle": [{
+      "edition_id": "the-jungle-en-original-1906-gutenberg-1400",
+      "language": "English", "source_id": "project-gutenberg", "source_item_id": "1400",
+      "provenance_path": "content/books/the-jungle/en-original-1906--gutenberg-1400/provenance.json",
+      "rights_review": {"status":"public-domain-us","basis":"Original U.S. work published in 1906; Project Gutenberg edition 1400.","reviewed_at":"2026-07-21","evidence_url":"https://www.gutenberg.org/ebooks/1400"},
+      "files": [{"role":"epub","path":"content/books/the-jungle/en-original-1906--gutenberg-1400/book.epub","sha256":"595340bb1acc70848ab2fb32b07372c213f47a15715f8e12d0a5fa87e6237735","bytes":14380282},{"role":"pdf","path":"content/books/the-jungle/en-original-1906--gutenberg-1400/book.pdf","sha256":"0651dbeb107f06a5119fb9c64ef19e474e4fcb455b0589dbe94d05fd59123439","bytes":903196}]
+    }],
+    "elementary-cryptanalysis": [{
+      "edition_id": "elementary-cryptanalysis-en-original-1939-gutenberg-75074",
+      "language": "English", "source_id": "project-gutenberg", "source_item_id": "75074",
+      "provenance_path": "content/books/elementary-cryptanalysis/en-original-1939--gutenberg-75074/provenance.json",
+      "rights_review": {"status":"public-domain-us","basis":"Project Gutenberg identifies ebook 75074 as public domain in the USA; exact source edition retained.","reviewed_at":"2026-07-21","evidence_url":"https://www.gutenberg.org/ebooks/75074"},
+      "files": [{"role":"epub","path":"content/books/elementary-cryptanalysis/en-original-1939--gutenberg-75074/book.epub","sha256":"188aae989519cb1e9280f73f1a23a731cb8ba1f15454eef056cdbb1eb2e5e521","bytes":672862},{"role":"pdf","path":"content/books/elementary-cryptanalysis/en-original-1939--gutenberg-75074/book.pdf","sha256":"0d2fb7389def9947d6715b140a4aaef6b3a55a9d4056f953e9f7060e3e13b2bd","bytes":695373}]
+    }]
+  }
 }

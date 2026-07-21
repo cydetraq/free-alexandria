@@ -31,7 +31,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-This initial commit establishes the structure, policy, schema, and seed catalog. It contains no books, manuals, covers, or downloaded content.
+The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution candidates, and external essential reading. The repository deliberately does not commit large book files. A local U.S.-reviewed sampler profile currently builds five acquired, hash-verified EPUB/PDF editions after the operator runs the documented acquisition workflow.
 
 Candidate rights labels are deliberately conservative. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
 
@@ -52,7 +52,14 @@ python3 tools/export_catalog.py --check
 python3 tools/build_profile.py profiles/core-v1.json
 ```
 
-The second command creates a self-contained catalog preview at `dist/core-v1/`. A production distribution build will additionally require locally acquired, rights-cleared files and their hashes.
+The second command creates a self-contained full-catalog preview at `dist/core-v1/`. To acquire and build the first actual local distribution, run:
+
+```sh
+python3 tools/acquire_project_gutenberg.py --all-approved --acquire
+python3 tools/build_profile.py profiles/us-reviewed-sampler.json
+```
+
+That sampler contains five locally acquired, source-provenanced EPUB/PDF editions. A larger distribution is assembled only from editions that have been locally acquired, rights-reviewed, and hash-verified.
 
 ## Collections
 
