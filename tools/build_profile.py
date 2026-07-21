@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog"
-SKIP = {"tags.yaml", "sources.yaml", "edition-queue.yaml", "rights-review-queue.yaml", "rights-determinations.yaml"}
+SKIP = {"tags.yaml", "sources.yaml"}
 RECORD_START = re.compile(r"^- id: (?P<id>[a-z0-9]+(?:-[a-z0-9]+)*)$")
 FIELD = re.compile(r"^  (?P<key>[a-z_]+): ?(?P<value>.*)$")
 LIST = re.compile(r"^\[(.*)\]$")
@@ -141,19 +141,19 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
     resolved: dict[str, dict] = {}
     missing: list[str] = []
     for record in records:
-        candidates = registry.get(record["id"], [])
-        candidate = next((item for language in preferences for item in candidates if item["language"] == language), None)
-        candidate = candidate or (candidates[0] if candidates else None)
-        if not candidate:
+        editions = registry.get(record["id"], [])
+        edition = next((item for language in preferences for item in editions if item["language"] == language), None)
+        edition = edition or (editions[0] if editions else None)
+        if not edition:
             missing.append(record["id"])
             continue
-        rights_review = candidate.get("rights_review", {})
+        rights_review = edition.get("rights_review", {})
         if not rights_review.get("basis") or not rights_review.get("reviewed_at"):
             raise ValueError(f"missing local eligibility evidence for {record['id']}")
-        provenance_path = ROOT / candidate.get("provenance_path", "")
+        provenance_path = ROOT / edition.get("provenance_path", "")
         if not provenance_path.is_file():
-            raise ValueError(f"missing local provenance record for {record['id']}: {candidate.get('provenance_path')}")
-        for file in candidate["files"]:
+            raise ValueError(f"missing local provenance record for {record['id']}: {edition.get('provenance_path')}")
+        for file in edition["files"]:
             path = ROOT / file["path"]
             if not path.is_file():
                 raise ValueError(f"missing local file for {record['id']}: {file['path']}")
@@ -161,7 +161,7 @@ def resolve_editions(profile: dict, records: list[dict], registry_path: Path = C
                 raise ValueError(f"size mismatch for {record['id']}: {file['path']}")
             if digest(path) != file["sha256"]:
                 raise ValueError(f"checksum mismatch for {record['id']}: {file['path']}")
-        resolved[record["id"]] = candidate
+        resolved[record["id"]] = edition
     if missing:
         raise ValueError("distribution build requires local published editions for: " + ", ".join(missing))
     total_bytes = sum(file["bytes"] for edition in resolved.values() for file in edition["files"])

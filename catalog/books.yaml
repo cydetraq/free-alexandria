@@ -5,7 +5,7 @@
   original_year: 1884
   original_language: English
   collections: [banned-challenged, essential-literature]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   description: A Mississippi River journey in which Huck travels with Jim, an enslaved man seeking freedom.
   why_included: Frequently challenged for racial slurs, depictions of slavery, stereotypes, and disputes about how race is taught.
   tags: [literary-canon, race, censorship, fiction]
@@ -17,13 +17,13 @@
   original_year: 1605
   original_language: Spanish
   collections: [banned-challenged, essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   translations:
     - language: English
       translator: John Ormsby
       translation_year: 1885
       quality: recommended-pd-translation
-      rights_status: pre-1931-work-candidate
+      rights_status: historical-work
   description: An aging reader of chivalric romances remakes himself as a knight and travels with Sancho Panza.
   why_included: A foundational modern novel whose satire of inherited narratives, institutions, and certainty has made it enduringly controversial.
   tags: [literary-canon, satire, freedom-of-thought, fiction]
@@ -34,7 +34,7 @@
   original_year: 1922
   original_language: English
   collections: [banned-challenged, essential-literature]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   description: An experimental novel tracing ordinary life in Dublin over a single day.
   why_included: Seized and suppressed as obscene before a landmark United States court decision permitted publication.
   tags: [literary-canon, obscenity, modernism, fiction]
@@ -45,7 +45,7 @@
   original_year: 1906
   original_language: English
   collections: [banned-challenged, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   description: An exposé-driven novel about immigrant labor and the meatpacking industry.
   why_included: Suppressed or attacked for socialist politics, labor criticism, and graphic industrial conditions.
   tags: [labor, political-economy, censorship, fiction]
@@ -57,7 +57,7 @@
   original_year: 1925
   original_language: German
   collections: [suppressed-knowledge, original-language, essential-literature]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   english_translation_included: false
   description: A man is prosecuted by an inaccessible bureaucracy without being told his offense.
   why_included: A defining novel of arbitrary authority and institutional terror, suppressed under authoritarian regimes.
@@ -69,7 +69,7 @@
   original_year: 1859
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
+  rights_status: historical-work
   description: A defense of freedom of thought, expression, individuality, and limits on social coercion.
   why_included: Directly challenges political and social suppression of dissent.
   tags: [free-expression, political-philosophy, censorship, nonfiction]

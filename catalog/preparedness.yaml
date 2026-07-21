@@ -3,7 +3,7 @@
   publisher: FEMA
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   source_id: ready-gov
   description: Household food storage, emergency water, and power-loss preparation.
   why_included: A concise federal reference for common disruptions.
@@ -14,7 +14,7 @@
   publisher: Centers for Disease Control and Prevention
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   source_id: cdc
   description: Current guidance on boiling, disinfecting, and filtering emergency water.
   why_included: High-value life-safety guidance that must remain current and dated.
@@ -25,7 +25,7 @@
   publisher: U.S. Geological Survey
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   source_id: usgs
   description: Map scales, contours, bearings, and compass use.
   why_included: Civilian navigation reference suitable for offline use.
@@ -37,8 +37,8 @@
   original_year: 1906
   original_language: English
   collections: [preparedness]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Campcraft, shelters, tools, fire, and wilderness living.
   why_included: An enduring practical reference, with medical and conservation advice clearly marked as historical.
   tags: [survival, camping, fieldcraft, historical-guidance]
@@ -49,8 +49,8 @@
   original_year: 1914
   original_language: English
   collections: [preparedness]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Improvised shelters and simple structures.
   why_included: Useful historic construction ideas; structural safety must be independently assessed.
   tags: [shelter, construction, fieldcraft, historical-guidance]
@@ -60,7 +60,7 @@
   publisher: FEMA and Ready.gov
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Forms and guidance for documents, accounts, insurance, and disaster recovery.
   why_included: Practical household continuity reference that is often overlooked.
   tags: [emergency-planning, finance, documents, government-guidance]
@@ -70,7 +70,7 @@
   publisher: Centers for Disease Control and Prevention
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Safe water use after contamination or disrupted service.
   why_included: Current public-health companion to storage and treatment guidance.
   tags: [water, sanitation, health, government-guidance]
@@ -80,7 +80,7 @@
   publisher: Centers for Disease Control and Prevention
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Disaster sanitation, water, handwashing, and food-safety guidance.
   why_included: Current health guidance for a high-risk post-disaster problem.
   tags: [sanitation, health, water, government-guidance]
@@ -90,7 +90,7 @@
   publisher: Ready.gov
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Family communication, evacuation, and supply-planning forms.
   why_included: Compact, actionable first-line preparedness material.
   tags: [emergency-planning, evacuation, household, government-guidance]
@@ -100,7 +100,7 @@
   publisher: U.S. Fire Administration
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Go-bags, evacuation timing, and wildfire preparation guidance.
   why_included: Regionally critical planning material for fast-moving hazards.
   tags: [wildfire, evacuation, emergency-planning, government-guidance]
@@ -110,7 +110,7 @@
   publisher: FEMA and Centers for Disease Control and Prevention
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Flood evacuation, contamination, cleanup, and mold guidance.
   why_included: High-value, safety-critical disaster recovery reference.
   tags: [flood, cleanup, health, government-guidance]
@@ -120,7 +120,7 @@
   publisher: United States Department of Agriculture
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Handling refrigerated and frozen food during electrical outages.
   why_included: Current, actionable guidance that prevents avoidable illness.
   tags: [food, power-outage, safety-critical, government-guidance]
@@ -130,7 +130,7 @@
   publisher: Consumer Product Safety Commission and Centers for Disease Control and Prevention
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Carbon monoxide and safe generator-placement guidance.
   why_included: Critical hazard-prevention material for common emergency equipment.
   tags: [power, carbon-monoxide, safety-critical, government-guidance]
@@ -140,7 +140,7 @@
   publisher: FEMA, CDC, and EPA
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Official protective actions for radiological emergencies.
   why_included: Preserve current official guidance rather than historical speculation.
   tags: [radiological, emergency-planning, safety-critical, government-guidance]
@@ -150,7 +150,7 @@
   publisher: FEMA CERT
   collections: [preparedness]
   rights_status: verify-edition
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Disaster preparedness, basic response, organization, and light rescue.
   why_included: Structured civilian training material for neighborhood-scale resilience.
   tags: [cert, disaster-response, community, government-guidance]

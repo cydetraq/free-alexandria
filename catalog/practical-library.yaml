@@ -6,8 +6,8 @@
   original_year: 1884
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Lightweight camping, shelter, cooking, and canoe travel.
   why_included: Foundational fieldcraft reference with durable practical insight.
   tags: [camping, fieldcraft, survival, historical-guidance]
@@ -18,8 +18,8 @@
   original_year: 1920
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Fire, knots, camps, tools, and outdoor construction.
   why_included: Broad practical source for fieldcraft and simple construction.
   tags: [camping, knots, construction, historical-guidance]
@@ -30,8 +30,8 @@
   original_year: 1913
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical repair, tool, mechanism, and workshop projects.
   why_included: Useful for improvisation and mechanical understanding; unsafe projects require modern review.
   tags: [repair, workshop, mechanics, historical-guidance]
@@ -42,8 +42,8 @@
   original_year: 1915
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical home workshop projects and repair ideas.
   why_included: Companion volume for practical mechanics and improvisation.
   tags: [repair, workshop, mechanics, historical-guidance]
@@ -54,8 +54,8 @@
   original_year: 1916
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical projects in mechanics, construction, and tools.
   why_included: Completes the early practical-mechanics set.
   tags: [repair, workshop, mechanics, historical-guidance]
@@ -66,8 +66,8 @@
   original_year: 1909
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Farm tools, storage devices, and small construction projects.
   why_included: Practical resourcefulness and repair ideas for low-resource situations.
   tags: [farming, repair, construction, historical-guidance]
@@ -78,8 +78,8 @@
   original_year: 1918
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Tools, repairs, farm structures, and machinery.
   why_included: Broad historical reference for agricultural maintenance.
   tags: [farming, repair, mechanics, historical-guidance]
@@ -90,8 +90,8 @@
   original_year: 1907
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical materials, shop processes, and technical formulas.
   why_included: Useful reference history, but contains hazardous and obsolete procedures.
   tags: [chemistry, workshop, hazardous-materials, historical-guidance]
@@ -102,8 +102,8 @@
   original_year: 1918
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical canning, drying, and food-storage guidance.
   why_included: Useful historical context only; current USDA processing guidance takes precedence.
   tags: [food, canning, safety-critical, historical-guidance]
@@ -114,8 +114,8 @@
   original_year: 1924
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical home food-preservation methods.
   why_included: Preserve as a historical source, never as current processing authority.
   tags: [food, canning, safety-critical, historical-guidance]
@@ -126,8 +126,8 @@
   original_year: 1869
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Household systems, sanitation, domestic organization, and home design.
   why_included: Documents practical household resilience alongside historical assumptions.
   tags: [household, sanitation, historical-guidance, domestic-skills]
@@ -138,8 +138,8 @@
   original_year: 1905
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Soil, crops, and basic agriculture.
   why_included: Accessible foundation for gardening and farming, with regional and historical limits.
   tags: [farming, gardening, agriculture, historical-guidance]
@@ -150,8 +150,8 @@
   original_year: 1911
   original_language: English
   collections: [preparedness, practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Agriculture in low-rainfall climates.
   why_included: Useful historical perspective on water-limited cultivation.
   tags: [farming, water, agriculture, historical-guidance]
@@ -162,8 +162,8 @@
   original_year: 1910
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Home and market gardening methods.
   why_included: Broad gardening reference; pesticide advice must be treated as obsolete.
   tags: [gardening, agriculture, safety-critical, historical-guidance]
@@ -174,8 +174,8 @@
   original_year: 1923
   original_language: English
   collections: [practical-library]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Carpentry, construction, and building reference.
   why_included: Strong practical reference when an eligible early edition is selected.
   tags: [carpentry, construction, repair, historical-guidance]

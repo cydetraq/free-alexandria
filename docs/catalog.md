@@ -5,7 +5,7 @@ This is a committed, readable snapshot of the current Free Alexandria metadata c
 **Records:** 186<br>
 **Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>
 **Source registry:** [`catalog/sources.yaml`](../catalog/sources.yaml)<br>
-**Edition acquisition queue:** [`catalog/edition-queue.yaml`](../catalog/edition-queue.yaml)
+**Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)
 
 ## Banned & Challenged Literature
 

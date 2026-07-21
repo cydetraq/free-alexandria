@@ -81,7 +81,6 @@ def render_api() -> str:
         "normalized_records_notice": "The records field is a convenient V1 index. source_documents retains the complete, authoritative source text, including nested translation and acquisition details.",
         "records": sorted(records, key=lambda item: item["id"]),
         "sources": sorted(load_records([CATALOG / "sources.yaml"], skip=set()), key=lambda item: item["id"]),
-        "edition_queue": sorted(load_records([CATALOG / "edition-queue.yaml"], skip=set()), key=lambda item: item["id"]),
         "published_editions": json.loads((CATALOG / "published-editions.json").read_text()),
         "jurisdictional_access": json.loads((CATALOG / "jurisdictional-access.json").read_text()),
         "source_documents": source_documents,
@@ -141,7 +140,7 @@ def render_markdown(records: list[dict]) -> str:
         f"**Records:** {len(records)}<br>",
         "**Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>",
         "**Source registry:** [`catalog/sources.yaml`](../catalog/sources.yaml)<br>",
-        "**Edition acquisition queue:** [`catalog/edition-queue.yaml`](../catalog/edition-queue.yaml)",
+        "**Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)",
         "",
     ]
     for collection in sorted(grouped, key=lambda item: labels.get(item, item)):

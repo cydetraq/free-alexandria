@@ -16,7 +16,7 @@
   original_language: English
   collections: [open-distribution, suppressed-knowledge]
   rights_status: open-license-review-required
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Argument about copyright, technology, creativity, and the commons.
   why_included: Directly relevant to preserving and sharing culture lawfully.
   tags: [copyright, free-culture, technology, nonfiction]
@@ -29,7 +29,7 @@
   original_language: English
   collections: [open-distribution, suppressed-knowledge]
   rights_status: open-license-review-required
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Essays on digital rights, creativity, copyright, and technological control.
   why_included: Strong companion to the archive's free-knowledge mission.
   tags: [copyright, technology, free-culture, nonfiction]
@@ -41,7 +41,7 @@
   original_language: English
   collections: [open-distribution, essential-reading]
   rights_status: open-license-review-required
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Novel of reputation systems, technological control, identity, and cultural ownership.
   why_included: Candidate author-released edition; verify attached license before mirroring.
   tags: [technology, identity, fiction, license-review]
@@ -53,7 +53,7 @@
   original_language: English
   collections: [open-distribution, suppressed-knowledge]
   rights_status: open-license-review-required
-  catalog_status: candidate
+  catalog_status: source-linked
   description: Introductory computer and internet security guidance.
   why_included: Potentially useful offline privacy reference; license and technical currency both require review.
   tags: [privacy, digital-security, encryption, license-review]

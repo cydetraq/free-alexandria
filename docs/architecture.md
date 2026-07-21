@@ -3,7 +3,7 @@
 The catalog is the source of truth. Stable work records are separate from edition-specific acquisition records. A build process will validate both and generate a static portal, offline search index, checksum manifest, and deployment tree.
 
 ```text
-work records + edition queue + verified local artifacts
+work records + source links + verified local artifacts
                 │
                 ├── validation
                 ├── static portal
@@ -11,7 +11,7 @@ work records + edition queue + verified local artifacts
                 └── distribution manifest
 ```
 
-`dist/` is a generated deployment directory and must not be committed. An ESP32-S3 captive portal can serve that directory from a microSD card.
+`dist/` is a generated deployment directory and must not be committed. It can be served from removable storage or any simple local web server.
 
 ## Offline runtime contract
 
@@ -21,4 +21,4 @@ External URLs are useful acquisition metadata, but they are not runtime dependen
 
 ## Curation boundary
 
-The shared catalog contains facts, rights constraints, local editions, and provenance. A profile contains editorial preferences and selection rules. The build lockfile binds a profile to the exact catalog revision and editions used in one offline release. This keeps later open curation additive: profiles can change without changing the catalog model or previously built distributions.
+The shared catalog contains work records, direct source links, local editions, and provenance. A profile contains editorial preferences and selection rules. The build lockfile binds a profile to the exact catalog revision and editions used in one offline release. This keeps later open curation additive: profiles can change without changing the catalog model or previously built distributions.

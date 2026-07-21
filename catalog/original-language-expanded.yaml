@@ -7,8 +7,8 @@
   original_year: 1915
   original_language: German
   collections: [essential-literature, original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A traveling salesman wakes transformed into an enormous insect.
   why_included: A defining modern short novel about alienation, family cruelty, and dehumanization.
@@ -21,8 +21,8 @@
   original_year: 1926
   original_language: German
   collections: [essential-literature, original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A land surveyor struggles to obtain recognition from an inaccessible authority.
   why_included: A major novel of bureaucracy, exclusion, and opaque power.
@@ -35,8 +35,8 @@
   original_year: 1927
   original_language: German
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: An unfinished novel of migration, exploitation, absurd institutions, and modern alienation.
   why_included: Preserves a major Kafka work in its source language pending edition review.
@@ -48,8 +48,8 @@
   original_year: 1929
   original_language: German
   collections: [essential-literature, original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A working-class man tries to remake his life in Weimar Berlin.
   why_included: Landmark city novel banned and burned by the Nazis.
@@ -62,8 +62,8 @@
   original_year: 1924
   original_language: German
   collections: [essential-literature, original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A visitor to a Swiss sanatorium encounters competing visions of Europe, illness, time, and politics.
   why_included: One of the central modernist novels; Mann's works were banned and burned by the Nazis.
@@ -75,8 +75,8 @@
   original_year: 1922
   original_language: German
   collections: [essential-literature, original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A young man rejects inherited doctrine and seeks spiritual understanding through experience.
   why_included: Influential novel of spiritual inquiry, sexuality, renunciation, and religious pluralism.
@@ -88,8 +88,8 @@
   original_year: 1927
   original_language: German
   collections: [essential-literature, original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A divided intellectual confronts alienation, sexuality, conformity, and identity.
   why_included: Challenged for drugs and sexual content; a major novel of modern alienation.
@@ -102,8 +102,8 @@
   original_year: 1913
   original_language: French
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: Memory, desire, art, and social life unfold through a narrator's recollections.
   why_included: Opening volume of a novel cycle routinely placed among the greatest works of modern literature.
@@ -116,8 +116,8 @@
   original_year: 1925
   original_language: French
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A modernist novel about sexuality, authenticity, exploitation, and artistic creation.
   why_included: Important for its challenge to conventional morality and social authority.
@@ -130,8 +130,8 @@
   original_year: 1902
   original_language: French
   collections: [original-language, banned-challenged]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A man abandons conventional morality after illness and travel.
   why_included: Historically controversial for sexuality, same-sex desire, colonialism, and rejection of convention.
@@ -143,8 +143,8 @@
   original_year: 1895
   original_language: German
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A young woman is trapped by marriage, adultery, and coercive social convention.
   why_included: Major German realist novel about gender, punishment, and social authority.
@@ -156,8 +156,8 @@
   original_year: 1886
   original_language: Russian
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A successful official confronts illness, mortality, and the falseness of his social world.
   why_included: Canonical novella about death, meaning, and social conformity.
@@ -169,8 +169,8 @@
   original_year: 1912
   original_language: Russian
   collections: [original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A Caucasian resistance leader is caught between Russian imperial power and local rivalries.
   why_included: Major anti-imperial and antiwar novella.
@@ -182,8 +182,8 @@
   original_year: 1863
   original_language: Russian
   collections: [original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A politically influential novel of radical education, cooperative life, and social change.
   why_included: Repeatedly suppressed for revolutionary ideas and clandestine political influence.
@@ -195,8 +195,8 @@
   original_year: 1906
   original_language: Russian
   collections: [original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A factory worker's mother becomes involved in labor and revolutionary organizing.
   why_included: Extensively banned, promoted, or controlled according to regime ideology.
@@ -208,8 +208,8 @@
   original_year: 1899
   original_language: Russian
   collections: [original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A nobleman confronts the harm he caused while following a woman through the Russian legal system.
   why_included: Critiques courts, prisons, property, church authority, and institutional hypocrisy.
@@ -221,8 +221,8 @@
   original_year: 1914
   original_language: Japanese
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A novel of isolation, guilt, modernity, friendship, and suicide.
   why_included: One of Japan's central modern novels.
@@ -234,8 +234,8 @@
   original_year: 1905
   original_language: Japanese
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A cat satirizes class, education, and intellectual pretension in modernizing Japan.
   why_included: Canonical social satire with enduring cultural value.
@@ -247,8 +247,8 @@
   original_year: 1906
   original_language: Japanese
   collections: [original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: An impulsive teacher confronts hypocrisy and hierarchy at a provincial school.
   why_included: Widely read Japanese classic about institutional authority.
@@ -260,8 +260,8 @@
   original_year: 1918
   original_language: Chinese
   collections: [original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A narrator sees oppressive tradition as a system of cannibalism.
   why_included: Foundational modern Chinese story attacking conformist social authority.
@@ -273,8 +273,8 @@
   original_year: 1921
   original_language: Chinese
   collections: [essential-literature, original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A powerless rural man rationalizes humiliation amid social and political upheaval.
   why_included: Foundational political and social satire in modern Chinese literature.
@@ -286,8 +286,8 @@
   original_year: 1915
   original_language: Japanese
   collections: [original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A servant confronts moral collapse and survival in a ruined Kyoto.
   why_included: Canonical short story of social disorder and ethical ambiguity.
@@ -299,8 +299,8 @@
   original_year: 1922
   original_language: Japanese
   collections: [original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: Contradictory testimony makes the truth of a killing impossible to settle.
   why_included: Influential study of uncertain truth and institutional testimony.
@@ -312,8 +312,8 @@
   original_year: 1887
   original_language: Spanish
   collections: [essential-literature, original-language, banned-challenged, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A reform-minded Filipino returns under Spanish colonial rule and confronts clerical abuse and repression.
   why_included: Banned by Spanish colonial authorities and central to Philippine anticolonial history.
@@ -325,8 +325,8 @@
   original_year: 1891
   original_language: Spanish
   collections: [original-language, banned-challenged, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A darker sequel confronting colonial power, clerical abuse, and failed reform.
   why_included: Essential anticolonial fiction once restricted by colonial authorities.
@@ -339,8 +339,8 @@
   original_year: 1915
   original_language: Spanish
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: Fighters and civilians are swept through the Mexican Revolution.
   why_included: Foundational novel of the Mexican Revolution.
@@ -353,8 +353,8 @@
   original_year: 1924
   original_language: Spanish
   collections: [essential-literature, original-language, suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: Travelers enter a jungle economy built on rubber extraction, exploitation, and violence.
   why_included: Major Latin American indictment of colonial and labor abuse.
@@ -366,8 +366,8 @@
   original_year: 1928
   original_language: Portuguese
   collections: [essential-literature, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: translation-review-required
   description: A mythic antihero crosses a Brazil of folklore, language play, race, and modernity.
   why_included: Foundational Brazilian modernist novel with challenging cultural and political themes.

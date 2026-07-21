@@ -4,8 +4,8 @@
   original_year: 1644
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A foundational argument against state licensing and prepublication censorship.
   why_included: Directly opposes systems that require official permission before publication.
   tags: [free-expression, censorship, political-philosophy, nonfiction]
@@ -16,8 +16,8 @@
   original_year: 1776
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A direct argument that people may reject illegitimate political authority.
   why_included: Challenges hereditary rule and locates political authority in the people.
   tags: [revolution, political-philosophy, rights, nonfiction]
@@ -28,8 +28,8 @@
   original_year: 1791
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A defense of popular sovereignty and a critique of hereditary government.
   why_included: Provides a compact case for political rights independent of dynastic authority.
   tags: [rights, political-philosophy, revolution, nonfiction]
@@ -40,8 +40,8 @@
   original_year: 1849
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An argument against cooperation with profoundly unjust government action.
   why_included: Defends individual conscience against coercive state power.
   tags: [resistance, rights, political-philosophy, nonfiction]
@@ -52,8 +52,8 @@
   original_year: 1689
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A defense of natural rights, consent of the governed, and limits on political authority.
   why_included: Supplies an enduring argument for removing governments that violate public trust.
   tags: [rights, constitutionalism, political-philosophy, nonfiction]
@@ -65,14 +65,14 @@
   original_year: 1762
   original_language: French
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   translations:
     - language: English
       translator: G. D. H. Cole
       translation_year: 1913
       quality: recommended-pd-translation
-      rights_status: pre-1931-work-candidate
+      rights_status: historical-work
   description: An argument that legitimate political authority arises from collective popular sovereignty.
   why_included: Banned and burned for republicanism and its challenge to established political authority.
   tags: [rights, revolution, political-philosophy, nonfiction]
@@ -84,14 +84,14 @@
   original_year: -380
   original_language: Ancient Greek
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   translations:
     - language: English
       translator: Benjamin Jowett
       translation_year: 1871
       quality: serviceable-pd-translation
-      rights_status: pre-1931-work-candidate
+      rights_status: historical-work
   description: A dialogue about justice, government, education, censorship, art, and the ideal state.
   why_included: Often restricted in ideological settings; it is also a crucial source on the logic of censorship itself.
   tags: [political-philosophy, censorship, education, nonfiction]
@@ -102,8 +102,8 @@
   original_year: 1928
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An early account of organized opinion management, symbols, authority, and mass persuasion.
   why_included: Helps readers identify techniques that governments and institutions use to shape public belief.
   tags: [propaganda, media-literacy, psychology, nonfiction]
@@ -114,8 +114,8 @@
   original_year: 1922
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An examination of stereotypes, media, expertise, and the construction of public belief.
   why_included: Gives readers tools for recognizing manufactured pictures of reality.
   tags: [propaganda, media-literacy, psychology, nonfiction]
@@ -126,8 +126,8 @@
   original_year: 1916
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A systematic historical guide to analyzing substitution and transposition ciphers.
   why_included: Preserves a practical foundation in private communication and cryptanalysis.
   tags: [cryptography, communications, mathematics, nonfiction]
@@ -139,7 +139,7 @@
   original_language: English
   collections: [suppressed-knowledge]
   rights_status: edition-review-required
-  catalog_status: candidate
+  catalog_status: source-linked
   source_rights_assessment: Project Gutenberg identifies its ebook 75074 as public domain in the United States; review the acquired file and provenance before publication.
   description: A substantial reference on solving classical ciphers.
   why_included: Important historical cryptanalysis reference; a public-domain U.S. source edition has been identified for acquisition review.
@@ -151,8 +151,8 @@
   original_year: 1787
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Essays on divided power, representation, faction, and constitutional government.
   why_included: A primary-source reference on checks and balances and concentrated authority.
   tags: [constitutionalism, civics, rights, nonfiction]
@@ -163,8 +163,8 @@
   original_year: 1869
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An argument against the legal and social subordination of women.
   why_included: Direct challenge to gender hierarchy and coercive custom.
   tags: [gender, equality, rights, nonfiction]
@@ -176,8 +176,8 @@
   original_year: 1840
   original_language: French
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A critique of conventional property rights and their relationship to power.
   why_included: Politically controversial challenge to ownership, hierarchy, and the state.
   tags: [economics, property, politics, nonfiction]
@@ -188,8 +188,8 @@
   original_year: 1867
   original_language: German
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: A critique of capital, labor, ownership, exploitation, and class domination.
   why_included: Repeatedly banned or restricted under anticommunist and authoritarian governments.
@@ -201,8 +201,8 @@
   original_year: 1835
   original_language: French
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An examination of democracy, civic associations, conformity, majority power, and soft despotism.
   why_included: Major analysis of democratic strengths and vulnerabilities.
   tags: [democracy, civics, politics, nonfiction]
@@ -213,8 +213,8 @@
   original_year: 1794
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A critique of revealed religion and scriptural authority.
   why_included: Essential freethought text frequently condemned for its challenge to religious power.
   tags: [freethought, religion, skepticism, nonfiction]
@@ -225,8 +225,8 @@
   original_year: 1779
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Philosophical dialogue examining arguments about God, design, and religious belief.
   why_included: Durable model of rigorous skepticism about religious authority.
   tags: [freethought, religion, philosophy, nonfiction]
@@ -237,8 +237,8 @@
   original_year: 1835
   original_language: German
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   english_availability: edition-review-required
   description: Historical criticism of Gospel narratives and their interpretation.
   why_included: Significant challenge to orthodox scriptural authority.
@@ -250,8 +250,8 @@
   original_year: 1841
   original_language: German
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Interprets religion as a projection of human qualities and needs.
   why_included: Influential critique of theological authority and religious anthropology.
   tags: [religion, philosophy, freethought, nonfiction]
@@ -262,8 +262,8 @@
   original_year: 1896
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An accessible defense of agnosticism and intellectual freedom.
   why_included: Representative American freethought writing challenging clerical authority.
   tags: [agnosticism, freethought, religion, nonfiction]
@@ -274,8 +274,8 @@
   original_year: 1898
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Early study of suggestibility, imitation, hypnosis, and mental influence.
   why_included: Historical context for propaganda, persuasion, and coercive environments.
   tags: [psychology, persuasion, propaganda, historical-guidance]
@@ -286,8 +286,8 @@
   original_year: 1895
   original_language: French
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: An influential early account of crowd psychology, leadership, and collective belief.
   why_included: Useful historically for recognizing theories used to influence mass audiences.
   tags: [psychology, propaganda, history, historical-guidance]
@@ -298,8 +298,8 @@
   original_year: 1916
   original_language: English
   collections: [suppressed-knowledge]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: A study of conformity, group identity, and social pressure.
   why_included: Helps frame herd behavior and ideological belonging.
   tags: [psychology, conformity, propaganda, nonfiction]
@@ -310,8 +310,8 @@
   original_year: 1564
   original_language: Latin
   collections: [suppressed-knowledge, original-language]
-  rights_status: pre-1931-work-candidate
-  catalog_status: candidate
+  rights_status: historical-work
+  catalog_status: source-linked
   description: Historical lists of publications prohibited by ecclesiastical authority.
   why_included: Primary evidence of a long-running institutional censorship system.
   tags: [censorship, religion, history, primary-source]
