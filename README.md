@@ -32,7 +32,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository deliberately does not commit large book files. The included population and build tools create a self-contained local archive from the exact source links stored in the catalog, recording source, acquisition time, file hashes, and byte counts beside every acquired edition.
+The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository includes 61 retrieved works (62 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file.
 
 Availability labels identify whether this repository includes a local EPUB/PDF copy or records a source link. They do not authorize copying a source edition; see [the edition-specific copyright review policy](docs/copyright-review.md).
 
@@ -49,11 +49,12 @@ The repository is usable as a standalone catalog after cloning—no portal build
 
 ```sh
 python3 tools/validate_catalog.py
-python3 tools/export_catalog.py --check
-python3 tools/build_profile.py profiles/core-v1.json
+python3 tools/build_profile.py profiles/pocket-alexandria-v1.json
 ```
 
-The second command creates a self-contained full-catalog preview at `dist/core-v1/`. To acquire every catalog work with a stored exact Project Gutenberg edition and build a local offline archive, run:
+The second command creates `dist/pocket-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks.
+
+To acquire additional catalog works with a stored exact Project Gutenberg edition and rebuild your local archive, run:
 
 ```sh
 python3 tools/populate_from_gutenberg.py --all-catalog --acquire

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "shelters-shacks-and-shanties",
+  "edition_id": "shelters-shacks-and-shanties-en-source-1914-gutenberg-28255",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "28255",
+    "edition_page": "https://www.gutenberg.org/ebooks/28255",
+    "acquired_at": "2026-07-21T18:40:29+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/shelters-shacks-and-shanties/gutenberg-28255/book.epub",
+      "sha256": "2fcf3b994fcb723a28dafb7693694a02d1de769e78f6da552b007b6e6c39a90a",
+      "bytes": 15200644
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/shelters-shacks-and-shanties/gutenberg-28255/book.pdf",
+      "sha256": "6dfd21dff43aad76cd01da5a60016782972ce2f21f97ba2ddf0f77183ffbf1a7",
+      "bytes": 271515
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

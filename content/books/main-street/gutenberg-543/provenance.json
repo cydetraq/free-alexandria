@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "main-street",
+  "edition_id": "main-street-en-source-1920-gutenberg-543",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "543",
+    "edition_page": "https://www.gutenberg.org/ebooks/543",
+    "acquired_at": "2026-07-21T18:39:32+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/main-street/gutenberg-543/book.epub",
+      "sha256": "0fab6c7bafb5992fd4d1a03aeba95a53104bcf903c61c73600a3a22ffde334ad",
+      "bytes": 515571
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/main-street/gutenberg-543/book.pdf",
+      "sha256": "5417fd7a5d3076c778c617882a92732d10da8cdfc6e59acf1cd58c57e0d3bf13",
+      "bytes": 890291
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

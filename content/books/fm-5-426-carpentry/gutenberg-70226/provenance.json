@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "fm-5-426-carpentry",
+  "edition_id": "fm-5-426-carpentry-en-source-undated-gutenberg-70226",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "70226",
+    "edition_page": "https://www.gutenberg.org/ebooks/70226",
+    "acquired_at": "2026-07-21T18:44:43+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/fm-5-426-carpentry/gutenberg-70226/book.epub",
+      "sha256": "18ce2b4737a897276ac10b83abc01e415ee549c474cbf4392bebc84a84cf6f8f",
+      "bytes": 6383124
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/fm-5-426-carpentry/gutenberg-70226/book.pdf",
+      "sha256": "c92f4491be94e7eac6372f9fad41525711a8ed3de28745ad206639232faef7c4",
+      "bytes": 254439
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-age-of-innocence",
+  "edition_id": "the-age-of-innocence-en-source-1920-gutenberg-541",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "541",
+    "edition_page": "https://www.gutenberg.org/ebooks/541",
+    "acquired_at": "2026-07-21T18:40:46+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-age-of-innocence/gutenberg-541/book.epub",
+      "sha256": "e6c449c331f93faaca84f7c204cfd62f170288b0502a9f858eb3972fa5c6db1e",
+      "bytes": 320057
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-age-of-innocence/gutenberg-541/book.pdf",
+      "sha256": "2c873a2a32630a07c803cd5b32f316016390bb7809500c3faa90a861746d91ec",
+      "bytes": 545668
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

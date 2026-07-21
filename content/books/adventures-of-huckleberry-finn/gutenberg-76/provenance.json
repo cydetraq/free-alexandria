@@ -1,0 +1,29 @@
+{
+  "format_version": 1,
+  "work_id": "adventures-of-huckleberry-finn",
+  "edition_id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "76",
+    "edition_page": "https://www.gutenberg.org/ebooks/76",
+    "epub_url": "https://www.gutenberg.org/ebooks/76.epub.images",
+    "text_url_used_for_pdf": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+    "acquired_at": "2026-07-21T17:55:52+00:00"
+  },
+  "files": [
+    {
+      "path": "content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub",
+      "bytes": 16021498,
+      "sha256": "678454ec13c9b04095d2aa9d7952e21ca60964cbb40859dc69882d8a65c3454b",
+      "format": "epub"
+    },
+    {
+      "path": "content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf",
+      "bytes": 533379,
+      "sha256": "6839e3951afc696dad97a5afad1be59545dfe4161d8154b15f79be9522609836",
+      "format": "pdf",
+      "derived_from": "https://www.gutenberg.org/cache/epub/76/pg76.txt"
+    }
+  ],
+  "rights_note": "This acquisition tool is limited to explicitly reviewed Project Gutenberg queue records. Confirm the edition's rights statement and preserve any required source notice before publishing a distribution."
+}

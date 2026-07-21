@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "dracula",
+  "edition_id": "dracula-en-source-1897-gutenberg-345",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "345",
+    "edition_page": "https://www.gutenberg.org/ebooks/345",
+    "acquired_at": "2026-07-21T18:38:07+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/dracula/gutenberg-345/book.epub",
+      "sha256": "d4f5ac027ac0fe1312cc8d57b61bc9f71618ec1c3768213e3792a657594ff18f",
+      "bytes": 601640
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/dracula/gutenberg-345/book.pdf",
+      "sha256": "b41784281b84790d735fcbf79d403f6ba3446f33af361f47d8f95ff94784425c",
+      "bytes": 740506
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

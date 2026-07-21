@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "down-and-out-in-the-magic-kingdom",
+  "edition_id": "down-and-out-in-the-magic-kingdom-en-source-2003-gutenberg-8086",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "8086",
+    "edition_page": "https://www.gutenberg.org/ebooks/8086",
+    "acquired_at": "2026-07-21T18:38:02+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub",
+      "sha256": "da1c56ae7433d058e53de995ad3108f1a88521b2527a54f3c5d91d45907cf0c3",
+      "bytes": 223713
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf",
+      "sha256": "62fbcc6d17083bb132fcc97ea0d4ddfc1cb4b8080ee4dbb8aa27e5043dfa4f3a",
+      "bytes": 299002
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

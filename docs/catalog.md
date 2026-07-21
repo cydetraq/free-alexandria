@@ -9,383 +9,383 @@ This is a committed, readable snapshot of the current Free Alexandria metadata c
 
 ## Banned & Challenged Literature
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| A Portrait of the Artist as a Young Man | James Joyce | 1916 | Source recorded | EPUB + PDF included |
-| Adventures of Huckleberry Finn | Mark Twain | 1884 | Source recorded | EPUB + PDF included |
-| Anna Karenina | Leo Tolstoy | 1877 | Source recorded | EPUB + PDF included |
-| As I Lay Dying | William Faulkner | 1930 | Source link available | Not included locally |
-| Babbitt | Sinclair Lewis | 1922 | Source recorded | EPUB + PDF included |
-| Berlin Alexanderplatz | Alfred Döblin | 1929 | Source link available | Not included locally |
-| Crime and Punishment | Fyodor Dostoevsky | 1866 | Source link available | Not included locally |
-| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | Source link available | Not included locally |
-| Don Quixote | Miguel de Cervantes | 1605 | Source recorded | EPUB + PDF included |
-| Dracula | Bram Stoker | 1897 | Source recorded | EPUB + PDF included |
-| Dubliners | James Joyce | 1914 | Source recorded | EPUB + PDF included |
-| El Filibusterismo | José Rizal | 1891 | Source link available | Not included locally |
-| Elmer Gantry | Sinclair Lewis | 1927 | Source recorded | EPUB + PDF included |
-| Fahrenheit 451 | Ray Bradbury | 1953 | Source link available | Not included locally |
-| Frankenstein | Mary Shelley | 1818 | Source link available | Not included locally |
-| Germinal | Émile Zola | 1885 | Source recorded | EPUB + PDF included |
-| Jane Eyre | Charlotte Brontë | 1847 | Source link available | Not included locally |
-| Jude the Obscure | Thomas Hardy | 1895 | Source recorded | EPUB + PDF included |
-| Lady Chatterley's Lover | D. H. Lawrence | 1928 | Source recorded | EPUB + PDF included |
-| Leaves of Grass | Walt Whitman | 1855 | Source recorded | EPUB + PDF included |
-| Madame Bovary | Gustave Flaubert | 1857 | Source recorded | EPUB + PDF included |
-| Main Street | Sinclair Lewis | 1920 | Source recorded | EPUB + PDF included |
-| Middlemarch | George Eliot | 1871 | Source recorded | EPUB + PDF included |
-| Noli Me Tangere | José Rizal | 1887 | Source link available | Not included locally |
-| Siddhartha | Hermann Hesse | 1922 | Source recorded | EPUB + PDF included |
-| Steppenwolf | Hermann Hesse | 1927 | Source recorded | EPUB + PDF included |
-| Tartuffe | Molière | 1664 | Source link available | Not included locally |
-| Tess of the d'Urbervilles | Thomas Hardy | 1891 | Source link available | Not included locally |
-| The Adventures of Tom Sawyer | Mark Twain | 1876 | Source link available | Not included locally |
-| The Age of Innocence | Edith Wharton | 1920 | Source recorded | EPUB + PDF included |
-| The Awakening | Kate Chopin | 1899 | Source link available | Not included locally |
-| The Call of the Wild | Jack London | 1903 | Source recorded | EPUB + PDF included |
-| The Count of Monte Cristo | Alexandre Dumas | 1844 | Source recorded | EPUB + PDF included |
-| The Divine Comedy | Dante Alighieri | 1321 | Source recorded | EPUB + PDF included |
-| The Great Gatsby | F. Scott Fitzgerald | 1925 | Source recorded | EPUB + PDF included |
-| The Handmaid's Tale | Margaret Atwood | 1985 | Source link available | Not included locally |
-| The Iliad | Homer | -750 | Source recorded | EPUB + PDF included |
-| The Immoralist | André Gide | 1902 | Source recorded | EPUB + PDF included |
-| The Jungle | Upton Sinclair | 1906 | Source recorded | EPUB + PDF included |
-| The Kreutzer Sonata | Leo Tolstoy | 1890 | Source link available | Not included locally |
-| The Magic Mountain | Thomas Mann | 1924 | Source link available | Not included locally |
-| The Metamorphosis | Franz Kafka | 1915 | Source link available | Not included locally |
-| The Odyssey | Homer | -700 | Source recorded | EPUB + PDF included |
-| The Picture of Dorian Gray | Oscar Wilde | 1890 | Source recorded | EPUB + PDF included |
-| The Satanic Verses | Salman Rushdie | 1988 | Source link available | Not included locally |
-| The Scarlet Letter | Nathaniel Hawthorne | 1850 | Source recorded | EPUB + PDF included |
-| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | Source recorded | EPUB + PDF included |
-| The Sun Also Rises | Ernest Hemingway | 1926 | Source recorded | EPUB + PDF included |
-| The Turn of the Screw | Henry James | 1898 | Source recorded | EPUB + PDF included |
-| Ulysses | James Joyce | 1922 | Source recorded | EPUB + PDF included |
-| Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | Source recorded | EPUB + PDF included |
-| Winesburg, Ohio | Sherwood Anderson | 1919 | Source link available | Not included locally |
-| Wuthering Heights | Emily Brontë | 1847 | Source recorded | EPUB + PDF included |
+| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/4217) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22A+Portrait+of+the+Artist+as+a+Young+Man%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/76) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19640) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9007) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Adventures+of+Huckleberry+Finn%22%29+AND+creator%3A%28%22Mark+Twain%22%29) |
+| Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1399) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Anna+Karenina%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| As I Lay Dying | William Faulkner | 1930 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22As+I+Lay+Dying%22%29+AND+creator%3A%28%22William+Faulkner%22%29) |
+| Babbitt | Sinclair Lewis | 1922 | [EPUB](../content/books/babbitt/gutenberg-1156/book.epub) · [PDF](../content/books/babbitt/gutenberg-1156/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1156) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Babbitt%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29) |
+| Berlin Alexanderplatz | Alfred Döblin | 1929 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Berlin+Alexanderplatz%22%29+AND+creator%3A%28%22Alfred+D%C3%B6blin%22%29) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Crime+and+Punishment%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dangerous+Liaisons%22%29+AND+creator%3A%28%22Pierre+Choderlos+de+Laclos%22%29) |
+| Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [PDF](../content/books/don-quixote/gutenberg-996/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/996) · [Project Gutenberg](https://www.gutenberg.org/ebooks/7094) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Don+Quixote%22%29+AND+creator%3A%28%22Miguel+de+Cervantes%22%29) |
+| Dracula | Bram Stoker | 1897 | [EPUB](../content/books/dracula/gutenberg-345/book.epub) · [PDF](../content/books/dracula/gutenberg-345/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/345) · [Project Gutenberg](https://www.gutenberg.org/ebooks/45839) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19797) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6534) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dracula%22%29+AND+creator%3A%28%22Bram+Stoker%22%29) |
+| Dubliners | James Joyce | 1914 | [EPUB](../content/books/dubliners/gutenberg-2814/book.epub) · [PDF](../content/books/dubliners/gutenberg-2814/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2814) · [Project Gutenberg](https://www.gutenberg.org/ebooks/7872) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dubliners%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| El Filibusterismo | José Rizal | 1891 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22El+Filibusterismo%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Elmer Gantry | Sinclair Lewis | 1927 | [EPUB](../content/books/elmer-gantry/gutenberg-72609/book.epub) · [PDF](../content/books/elmer-gantry/gutenberg-72609/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/72609) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Elmer+Gantry%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29) |
+| Fahrenheit 451 | Ray Bradbury | 1953 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Fahrenheit+451%22%29+AND+creator%3A%28%22Ray+Bradbury%22%29) |
+| Frankenstein | Mary Shelley | 1818 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Frankenstein%22%29+AND+creator%3A%28%22Mary+Shelley%22%29) |
+| Germinal | Émile Zola | 1885 | [EPUB](../content/books/germinal/gutenberg-56528/book.epub) · [PDF](../content/books/germinal/gutenberg-56528/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/56528) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Germinal%22%29+AND+creator%3A%28%22%C3%89mile+Zola%22%29) |
+| Jane Eyre | Charlotte Brontë | 1847 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/23077) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Jane+Eyre%22%29+AND+creator%3A%28%22Charlotte+Bront%C3%AB%22%29) |
+| Jude the Obscure | Thomas Hardy | 1895 | [EPUB](../content/books/jude-the-obscure/gutenberg-153/book.epub) · [PDF](../content/books/jude-the-obscure/gutenberg-153/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/153) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9421) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Jude+the+Obscure%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29) |
+| Lady Chatterley's Lover | D. H. Lawrence | 1928 | [EPUB](../content/books/lady-chatterleys-lover/gutenberg-73144/book.epub) · [PDF](../content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/73144) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Lady+Chatterley%27s+Lover%22%29+AND+creator%3A%28%22D.+H.+Lawrence%22%29) |
+| Leaves of Grass | Walt Whitman | 1855 | [EPUB](../content/books/leaves-of-grass/gutenberg-1322/book.epub) · [PDF](../content/books/leaves-of-grass/gutenberg-1322/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1322) · [Project Gutenberg](https://www.gutenberg.org/ebooks/23979) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Leaves+of+Grass%22%29+AND+creator%3A%28%22Walt+Whitman%22%29) |
+| Madame Bovary | Gustave Flaubert | 1857 | [EPUB](../content/books/madame-bovary/gutenberg-2413/book.epub) · [PDF](../content/books/madame-bovary/gutenberg-2413/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2413) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Madame+Bovary%22%29+AND+creator%3A%28%22Gustave+Flaubert%22%29) |
+| Main Street | Sinclair Lewis | 1920 | [EPUB](../content/books/main-street/gutenberg-543/book.epub) · [PDF](../content/books/main-street/gutenberg-543/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/543) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Main+Street%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29) |
+| Middlemarch | George Eliot | 1871 | [EPUB](../content/books/middlemarch/gutenberg-145/book.epub) · [PDF](../content/books/middlemarch/gutenberg-145/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/145) · [Project Gutenberg](https://www.gutenberg.org/ebooks/8227) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Middlemarch%22%29+AND+creator%3A%28%22George+Eliot%22%29) |
+| Noli Me Tangere | José Rizal | 1887 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Noli+Me+Tangere%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Siddhartha | Hermann Hesse | 1922 | [EPUB](../content/books/siddhartha/gutenberg-2500/book.epub) · [PDF](../content/books/siddhartha/gutenberg-2500/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2500) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Siddhartha%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/75756) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Steppenwolf%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Tartuffe | Molière | 1664 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tartuffe%22%29+AND+creator%3A%28%22Moli%C3%A8re%22%29) |
+| Tess of the d'Urbervilles | Thomas Hardy | 1891 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tess+of+the+d%27Urbervilles%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29) |
+| The Adventures of Tom Sawyer | Mark Twain | 1876 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/26203) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9038) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Adventures+of+Tom+Sawyer%22%29+AND+creator%3A%28%22Mark+Twain%22%29) |
+| The Age of Innocence | Edith Wharton | 1920 | [EPUB](../content/books/the-age-of-innocence/gutenberg-541/book.epub) · [PDF](../content/books/the-age-of-innocence/gutenberg-541/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/541) · [Project Gutenberg](https://www.gutenberg.org/ebooks/8958) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Age+of+Innocence%22%29+AND+creator%3A%28%22Edith+Wharton%22%29) |
+| The Awakening | Kate Chopin | 1899 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/23724) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Awakening%22%29+AND+creator%3A%28%22Kate+Chopin%22%29) |
+| The Call of the Wild | Jack London | 1903 | [EPUB](../content/books/the-call-of-the-wild/gutenberg-215/book.epub) · [PDF](../content/books/the-call-of-the-wild/gutenberg-215/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/215) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19678) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9115) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Call+of+the+Wild%22%29+AND+creator%3A%28%22Jack+London%22%29) |
+| The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1184) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Count+of+Monte+Cristo%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29) |
+| The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/8800) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Divine+Comedy%22%29+AND+creator%3A%28%22Dante+Alighieri%22%29) |
+| The Great Gatsby | F. Scott Fitzgerald | 1925 | [EPUB](../content/books/the-great-gatsby/gutenberg-64317/book.epub) · [PDF](../content/books/the-great-gatsby/gutenberg-64317/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/64317) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Great+Gatsby%22%29+AND+creator%3A%28%22F.+Scott+Fitzgerald%22%29) |
+| The Handmaid's Tale | Margaret Atwood | 1985 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Handmaid%27s+Tale%22%29+AND+creator%3A%28%22Margaret+Atwood%22%29) |
+| The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/6130) · [Project Gutenberg](https://www.gutenberg.org/ebooks/2199) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3059) · [Project Gutenberg](https://www.gutenberg.org/ebooks/22382) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6150) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Iliad%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Immoralist | André Gide | 1902 | [EPUB](../content/books/the-immoralist/gutenberg-78975/book.epub) · [PDF](../content/books/the-immoralist/gutenberg-78975/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/78975) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Immoralist%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29) |
+| The Jungle | Upton Sinclair | 1906 | [EPUB](../content/books/the-jungle/gutenberg-140/book.epub) · [PDF](../content/books/the-jungle/gutenberg-140/book.pdf) · [EPUB](../content/books/the-jungle/gutenberg-1400/book.epub) · [PDF](../content/books/the-jungle/gutenberg-1400/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/140) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6556) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Jungle%22%29+AND+creator%3A%28%22Upton+Sinclair%22%29) |
+| The Kreutzer Sonata | Leo Tolstoy | 1890 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Kreutzer+Sonata%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| The Magic Mountain | Thomas Mann | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Magic+Mountain%22%29+AND+creator%3A%28%22Thomas+Mann%22%29) |
+| The Metamorphosis | Franz Kafka | 1915 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/26298) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Metamorphosis%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Odyssey | Homer | -700 | [EPUB](../content/books/the-odyssey/gutenberg-1727/book.epub) · [PDF](../content/books/the-odyssey/gutenberg-1727/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1727) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3160) · [Project Gutenberg](https://www.gutenberg.org/ebooks/28797) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Odyssey%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Picture of Dorian Gray | Oscar Wilde | 1890 | [EPUB](../content/books/the-picture-of-dorian-gray/gutenberg-174/book.epub) · [PDF](../content/books/the-picture-of-dorian-gray/gutenberg-174/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/174) · [Project Gutenberg](https://www.gutenberg.org/ebooks/4078) · [Project Gutenberg](https://www.gutenberg.org/ebooks/26740) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Picture+of+Dorian+Gray%22%29+AND+creator%3A%28%22Oscar+Wilde%22%29) |
+| The Satanic Verses | Salman Rushdie | 1988 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Satanic+Verses%22%29+AND+creator%3A%28%22Salman+Rushdie%22%29) |
+| The Scarlet Letter | Nathaniel Hawthorne | 1850 | [EPUB](../content/books/the-scarlet-letter/gutenberg-25344/book.epub) · [PDF](../content/books/the-scarlet-letter/gutenberg-25344/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/25344) · [Project Gutenberg](https://www.gutenberg.org/ebooks/33) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Scarlet+Letter%22%29+AND+creator%3A%28%22Nathaniel+Hawthorne%22%29) |
+| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | [EPUB](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.epub) · [PDF](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2527) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Sorrows+of+Young+Werther%22%29+AND+creator%3A%28%22Johann+Wolfgang+von+Goethe%22%29) |
+| The Sun Also Rises | Ernest Hemingway | 1926 | [EPUB](../content/books/the-sun-also-rises/gutenberg-67138/book.epub) · [PDF](../content/books/the-sun-also-rises/gutenberg-67138/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/67138) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Sun+Also+Rises%22%29+AND+creator%3A%28%22Ernest+Hemingway%22%29) |
+| The Turn of the Screw | Henry James | 1898 | [EPUB](../content/books/the-turn-of-the-screw/gutenberg-209/book.epub) · [PDF](../content/books/the-turn-of-the-screw/gutenberg-209/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/209) · [Project Gutenberg](https://www.gutenberg.org/ebooks/26285) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Turn+of+the+Screw%22%29+AND+creator%3A%28%22Henry+James%22%29) |
+| Ulysses | James Joyce | 1922 | [EPUB](../content/books/ulysses/gutenberg-4300/book.epub) · [PDF](../content/books/ulysses/gutenberg-4300/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/4300) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Ulysses%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | [EPUB](../content/books/uncle-toms-cabin/gutenberg-203/book.epub) · [PDF](../content/books/uncle-toms-cabin/gutenberg-203/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/203) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Uncle+Tom%27s+Cabin%22%29+AND+creator%3A%28%22Harriet+Beecher+Stowe%22%29) |
+| Winesburg, Ohio | Sherwood Anderson | 1919 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/22949) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Winesburg%2C+Ohio%22%29+AND+creator%3A%28%22Sherwood+Anderson%22%29) |
+| Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/768) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Wuthering+Heights%22%29+AND+creator%3A%28%22Emily+Bront%C3%AB%22%29) |
 
 ## Essential Literature
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| A Portrait of the Artist as a Young Man | James Joyce | 1916 | Source recorded | EPUB + PDF included |
-| Adventures of Huckleberry Finn | Mark Twain | 1884 | Source recorded | EPUB + PDF included |
-| Amerika | Franz Kafka | 1927 | Source link available | Not included locally |
-| Anna Karenina | Leo Tolstoy | 1877 | Source recorded | EPUB + PDF included |
-| As I Lay Dying | William Faulkner | 1930 | Source link available | Not included locally |
-| Berlin Alexanderplatz | Alfred Döblin | 1929 | Source link available | Not included locally |
-| Crime and Punishment | Fyodor Dostoevsky | 1866 | Source link available | Not included locally |
-| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | Source link available | Not included locally |
-| Dead Souls | Nikolai Gogol | 1842 | Source recorded | EPUB + PDF included |
-| Demons | Fyodor Dostoevsky | 1872 | Source link available | Not included locally |
-| Don Quixote | Miguel de Cervantes | 1605 | Source recorded | EPUB + PDF included |
-| Dracula | Bram Stoker | 1897 | Source recorded | EPUB + PDF included |
-| Dubliners | James Joyce | 1914 | Source recorded | EPUB + PDF included |
-| Effi Briest | Theodor Fontane | 1895 | Source link available | Not included locally |
-| Fathers and Sons | Ivan Turgenev | 1862 | Source recorded | EPUB + PDF included |
-| Frankenstein | Mary Shelley | 1818 | Source link available | Not included locally |
-| I Am a Cat | Natsume Sōseki | 1905 | Source link available | Not included locally |
-| Jane Eyre | Charlotte Brontë | 1847 | Source link available | Not included locally |
-| Jude the Obscure | Thomas Hardy | 1895 | Source recorded | EPUB + PDF included |
-| Kokoro | Natsume Sōseki | 1914 | Source link available | Not included locally |
-| Lady Chatterley's Lover | D. H. Lawrence | 1928 | Source recorded | EPUB + PDF included |
-| Leaves of Grass | Walt Whitman | 1855 | Source recorded | EPUB + PDF included |
-| Les Misérables | Victor Hugo | 1862 | Source recorded | EPUB + PDF included |
-| Macunaíma | Mário de Andrade | 1928 | Source link available | Not included locally |
-| Madame Bovary | Gustave Flaubert | 1857 | Source recorded | EPUB + PDF included |
-| Middlemarch | George Eliot | 1871 | Source recorded | EPUB + PDF included |
-| Noli Me Tangere | José Rizal | 1887 | Source link available | Not included locally |
-| Notes from Underground | Fyodor Dostoevsky | 1864 | Source link available | Not included locally |
-| Siddhartha | Hermann Hesse | 1922 | Source recorded | EPUB + PDF included |
-| Steppenwolf | Hermann Hesse | 1927 | Source recorded | EPUB + PDF included |
-| Swann's Way | Marcel Proust | 1913 | Source recorded | EPUB + PDF included |
-| Tartuffe | Molière | 1664 | Source link available | Not included locally |
-| Tess of the d'Urbervilles | Thomas Hardy | 1891 | Source link available | Not included locally |
-| The Age of Innocence | Edith Wharton | 1920 | Source recorded | EPUB + PDF included |
-| The Awakening | Kate Chopin | 1899 | Source link available | Not included locally |
-| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | Source link available | Not included locally |
-| The Call of the Wild | Jack London | 1903 | Source recorded | EPUB + PDF included |
-| The Castle | Franz Kafka | 1926 | Source link available | Not included locally |
-| The Count of Monte Cristo | Alexandre Dumas | 1844 | Source recorded | EPUB + PDF included |
-| The Counterfeiters | André Gide | 1925 | Source link available | Not included locally |
-| The Death of Ivan Ilyich | Leo Tolstoy | 1886 | Source link available | Not included locally |
-| The Divine Comedy | Dante Alighieri | 1321 | Source recorded | EPUB + PDF included |
-| The Great Gatsby | F. Scott Fitzgerald | 1925 | Source recorded | EPUB + PDF included |
-| The Iliad | Homer | -750 | Source recorded | EPUB + PDF included |
-| The Magic Mountain | Thomas Mann | 1924 | Source link available | Not included locally |
-| The Metamorphosis | Franz Kafka | 1915 | Source link available | Not included locally |
-| The Odyssey | Homer | -700 | Source recorded | EPUB + PDF included |
-| The Picture of Dorian Gray | Oscar Wilde | 1890 | Source recorded | EPUB + PDF included |
-| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | Source recorded | EPUB + PDF included |
-| The Sun Also Rises | Ernest Hemingway | 1926 | Source recorded | EPUB + PDF included |
-| The Three Musketeers | Alexandre Dumas | 1844 | Source recorded | EPUB + PDF included |
-| The Trial | Franz Kafka | 1925 | Source recorded | EPUB + PDF included |
-| The True Story of Ah Q | Lu Xun | 1921 | Source link available | Not included locally |
-| The Turn of the Screw | Henry James | 1898 | Source recorded | EPUB + PDF included |
-| The Underdogs | Mariano Azuela | 1915 | Source link available | Not included locally |
-| The Vortex | José Eustasio Rivera | 1924 | Source link available | Not included locally |
-| Ulysses | James Joyce | 1922 | Source recorded | EPUB + PDF included |
-| Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | Source recorded | EPUB + PDF included |
-| War and Peace | Leo Tolstoy | 1869 | Source recorded | EPUB + PDF included |
-| We | Yevgeny Zamyatin | 1921 | Source link available | Not included locally |
-| Wuthering Heights | Emily Brontë | 1847 | Source recorded | EPUB + PDF included |
+| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/4217) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22A+Portrait+of+the+Artist+as+a+Young+Man%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/76) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19640) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9007) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Adventures+of+Huckleberry+Finn%22%29+AND+creator%3A%28%22Mark+Twain%22%29) |
+| Amerika | Franz Kafka | 1927 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Amerika%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1399) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Anna+Karenina%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| As I Lay Dying | William Faulkner | 1930 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22As+I+Lay+Dying%22%29+AND+creator%3A%28%22William+Faulkner%22%29) |
+| Berlin Alexanderplatz | Alfred Döblin | 1929 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Berlin+Alexanderplatz%22%29+AND+creator%3A%28%22Alfred+D%C3%B6blin%22%29) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Crime+and+Punishment%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dangerous+Liaisons%22%29+AND+creator%3A%28%22Pierre+Choderlos+de+Laclos%22%29) |
+| Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1081) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dead+Souls%22%29+AND+creator%3A%28%22Nikolai+Gogol%22%29) |
+| Demons | Fyodor Dostoevsky | 1872 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Demons%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [PDF](../content/books/don-quixote/gutenberg-996/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/996) · [Project Gutenberg](https://www.gutenberg.org/ebooks/7094) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Don+Quixote%22%29+AND+creator%3A%28%22Miguel+de+Cervantes%22%29) |
+| Dracula | Bram Stoker | 1897 | [EPUB](../content/books/dracula/gutenberg-345/book.epub) · [PDF](../content/books/dracula/gutenberg-345/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/345) · [Project Gutenberg](https://www.gutenberg.org/ebooks/45839) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19797) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6534) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dracula%22%29+AND+creator%3A%28%22Bram+Stoker%22%29) |
+| Dubliners | James Joyce | 1914 | [EPUB](../content/books/dubliners/gutenberg-2814/book.epub) · [PDF](../content/books/dubliners/gutenberg-2814/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2814) · [Project Gutenberg](https://www.gutenberg.org/ebooks/7872) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dubliners%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| Effi Briest | Theodor Fontane | 1895 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Effi+Briest%22%29+AND+creator%3A%28%22Theodor+Fontane%22%29) |
+| Fathers and Sons | Ivan Turgenev | 1862 | [EPUB](../content/books/fathers-and-sons/gutenberg-47935/book.epub) · [PDF](../content/books/fathers-and-sons/gutenberg-47935/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/47935) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Fathers+and+Sons%22%29+AND+creator%3A%28%22Ivan+Turgenev%22%29) |
+| Frankenstein | Mary Shelley | 1818 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Frankenstein%22%29+AND+creator%3A%28%22Mary+Shelley%22%29) |
+| I Am a Cat | Natsume Sōseki | 1905 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22I+Am+a+Cat%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29) |
+| Jane Eyre | Charlotte Brontë | 1847 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/23077) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Jane+Eyre%22%29+AND+creator%3A%28%22Charlotte+Bront%C3%AB%22%29) |
+| Jude the Obscure | Thomas Hardy | 1895 | [EPUB](../content/books/jude-the-obscure/gutenberg-153/book.epub) · [PDF](../content/books/jude-the-obscure/gutenberg-153/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/153) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9421) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Jude+the+Obscure%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29) |
+| Kokoro | Natsume Sōseki | 1914 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Kokoro%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29) |
+| Lady Chatterley's Lover | D. H. Lawrence | 1928 | [EPUB](../content/books/lady-chatterleys-lover/gutenberg-73144/book.epub) · [PDF](../content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/73144) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Lady+Chatterley%27s+Lover%22%29+AND+creator%3A%28%22D.+H.+Lawrence%22%29) |
+| Leaves of Grass | Walt Whitman | 1855 | [EPUB](../content/books/leaves-of-grass/gutenberg-1322/book.epub) · [PDF](../content/books/leaves-of-grass/gutenberg-1322/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1322) · [Project Gutenberg](https://www.gutenberg.org/ebooks/23979) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Leaves+of+Grass%22%29+AND+creator%3A%28%22Walt+Whitman%22%29) |
+| Les Misérables | Victor Hugo | 1862 | [EPUB](../content/books/les-miserables/gutenberg-135/book.epub) · [PDF](../content/books/les-miserables/gutenberg-135/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/135) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Les+Mis%C3%A9rables%22%29+AND+creator%3A%28%22Victor+Hugo%22%29) |
+| Macunaíma | Mário de Andrade | 1928 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Macuna%C3%ADma%22%29+AND+creator%3A%28%22M%C3%A1rio+de+Andrade%22%29) |
+| Madame Bovary | Gustave Flaubert | 1857 | [EPUB](../content/books/madame-bovary/gutenberg-2413/book.epub) · [PDF](../content/books/madame-bovary/gutenberg-2413/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2413) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Madame+Bovary%22%29+AND+creator%3A%28%22Gustave+Flaubert%22%29) |
+| Middlemarch | George Eliot | 1871 | [EPUB](../content/books/middlemarch/gutenberg-145/book.epub) · [PDF](../content/books/middlemarch/gutenberg-145/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/145) · [Project Gutenberg](https://www.gutenberg.org/ebooks/8227) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Middlemarch%22%29+AND+creator%3A%28%22George+Eliot%22%29) |
+| Noli Me Tangere | José Rizal | 1887 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Noli+Me+Tangere%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Notes from Underground | Fyodor Dostoevsky | 1864 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Notes+from+Underground%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Siddhartha | Hermann Hesse | 1922 | [EPUB](../content/books/siddhartha/gutenberg-2500/book.epub) · [PDF](../content/books/siddhartha/gutenberg-2500/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2500) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Siddhartha%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/75756) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Steppenwolf%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Swann's Way | Marcel Proust | 1913 | [EPUB](../content/books/swanns-way/gutenberg-7178/book.epub) · [PDF](../content/books/swanns-way/gutenberg-7178/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/7178) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Swann%27s+Way%22%29+AND+creator%3A%28%22Marcel+Proust%22%29) |
+| Tartuffe | Molière | 1664 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tartuffe%22%29+AND+creator%3A%28%22Moli%C3%A8re%22%29) |
+| Tess of the d'Urbervilles | Thomas Hardy | 1891 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tess+of+the+d%27Urbervilles%22%29+AND+creator%3A%28%22Thomas+Hardy%22%29) |
+| The Age of Innocence | Edith Wharton | 1920 | [EPUB](../content/books/the-age-of-innocence/gutenberg-541/book.epub) · [PDF](../content/books/the-age-of-innocence/gutenberg-541/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/541) · [Project Gutenberg](https://www.gutenberg.org/ebooks/8958) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Age+of+Innocence%22%29+AND+creator%3A%28%22Edith+Wharton%22%29) |
+| The Awakening | Kate Chopin | 1899 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/23724) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Awakening%22%29+AND+creator%3A%28%22Kate+Chopin%22%29) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Brothers+Karamazov%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| The Call of the Wild | Jack London | 1903 | [EPUB](../content/books/the-call-of-the-wild/gutenberg-215/book.epub) · [PDF](../content/books/the-call-of-the-wild/gutenberg-215/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/215) · [Project Gutenberg](https://www.gutenberg.org/ebooks/19678) · [Project Gutenberg](https://www.gutenberg.org/ebooks/9115) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Call+of+the+Wild%22%29+AND+creator%3A%28%22Jack+London%22%29) |
+| The Castle | Franz Kafka | 1926 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Castle%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1184) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Count+of+Monte+Cristo%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29) |
+| The Counterfeiters | André Gide | 1925 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Counterfeiters%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29) |
+| The Death of Ivan Ilyich | Leo Tolstoy | 1886 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Death+of+Ivan+Ilyich%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/8800) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Divine+Comedy%22%29+AND+creator%3A%28%22Dante+Alighieri%22%29) |
+| The Great Gatsby | F. Scott Fitzgerald | 1925 | [EPUB](../content/books/the-great-gatsby/gutenberg-64317/book.epub) · [PDF](../content/books/the-great-gatsby/gutenberg-64317/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/64317) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Great+Gatsby%22%29+AND+creator%3A%28%22F.+Scott+Fitzgerald%22%29) |
+| The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/6130) · [Project Gutenberg](https://www.gutenberg.org/ebooks/2199) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3059) · [Project Gutenberg](https://www.gutenberg.org/ebooks/22382) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6150) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Iliad%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Magic Mountain | Thomas Mann | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Magic+Mountain%22%29+AND+creator%3A%28%22Thomas+Mann%22%29) |
+| The Metamorphosis | Franz Kafka | 1915 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/26298) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Metamorphosis%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Odyssey | Homer | -700 | [EPUB](../content/books/the-odyssey/gutenberg-1727/book.epub) · [PDF](../content/books/the-odyssey/gutenberg-1727/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1727) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3160) · [Project Gutenberg](https://www.gutenberg.org/ebooks/28797) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Odyssey%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Picture of Dorian Gray | Oscar Wilde | 1890 | [EPUB](../content/books/the-picture-of-dorian-gray/gutenberg-174/book.epub) · [PDF](../content/books/the-picture-of-dorian-gray/gutenberg-174/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/174) · [Project Gutenberg](https://www.gutenberg.org/ebooks/4078) · [Project Gutenberg](https://www.gutenberg.org/ebooks/26740) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Picture+of+Dorian+Gray%22%29+AND+creator%3A%28%22Oscar+Wilde%22%29) |
+| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | [EPUB](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.epub) · [PDF](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2527) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Sorrows+of+Young+Werther%22%29+AND+creator%3A%28%22Johann+Wolfgang+von+Goethe%22%29) |
+| The Sun Also Rises | Ernest Hemingway | 1926 | [EPUB](../content/books/the-sun-also-rises/gutenberg-67138/book.epub) · [PDF](../content/books/the-sun-also-rises/gutenberg-67138/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/67138) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Sun+Also+Rises%22%29+AND+creator%3A%28%22Ernest+Hemingway%22%29) |
+| The Three Musketeers | Alexandre Dumas | 1844 | [EPUB](../content/books/the-three-musketeers/gutenberg-1257/book.epub) · [PDF](../content/books/the-three-musketeers/gutenberg-1257/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1257) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Three+Musketeers%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29) |
+| The Trial | Franz Kafka | 1925 | [EPUB](../content/books/the-trial/gutenberg-7849/book.epub) · [PDF](../content/books/the-trial/gutenberg-7849/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/7849) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Trial%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The True Story of Ah Q | Lu Xun | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+True+Story+of+Ah+Q%22%29+AND+creator%3A%28%22Lu+Xun%22%29) |
+| The Turn of the Screw | Henry James | 1898 | [EPUB](../content/books/the-turn-of-the-screw/gutenberg-209/book.epub) · [PDF](../content/books/the-turn-of-the-screw/gutenberg-209/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/209) · [Project Gutenberg](https://www.gutenberg.org/ebooks/26285) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Turn+of+the+Screw%22%29+AND+creator%3A%28%22Henry+James%22%29) |
+| The Underdogs | Mariano Azuela | 1915 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Underdogs%22%29+AND+creator%3A%28%22Mariano+Azuela%22%29) |
+| The Vortex | José Eustasio Rivera | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Vortex%22%29+AND+creator%3A%28%22Jos%C3%A9+Eustasio+Rivera%22%29) |
+| Ulysses | James Joyce | 1922 | [EPUB](../content/books/ulysses/gutenberg-4300/book.epub) · [PDF](../content/books/ulysses/gutenberg-4300/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/4300) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Ulysses%22%29+AND+creator%3A%28%22James+Joyce%22%29) |
+| Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | [EPUB](../content/books/uncle-toms-cabin/gutenberg-203/book.epub) · [PDF](../content/books/uncle-toms-cabin/gutenberg-203/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/203) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Uncle+Tom%27s+Cabin%22%29+AND+creator%3A%28%22Harriet+Beecher+Stowe%22%29) |
+| War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2600) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22War+and+Peace%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| We | Yevgeny Zamyatin | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22We%22%29+AND+creator%3A%28%22Yevgeny+Zamyatin%22%29) |
+| Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/768) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Wuthering+Heights%22%29+AND+creator%3A%28%22Emily+Bront%C3%AB%22%29) |
 
 ## Essential Reading — External Links
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Animal Farm | George Orwell | 1945 | Source link available | Not included locally |
-| Applied Cryptography | Bruce Schneier | 1994 | Source link available | Not included locally |
-| Brave New World | Aldous Huxley | 1932 | Source link available | Not included locally |
-| Coercive Persuasion | Edgar H. Schein and colleagues | 1961 | Source link available | Not included locally |
-| Cryptography Engineering | Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno | 2010 | Source link available | Not included locally |
-| Darkness at Noon | Arthur Koestler | 1940 | Source link available | Not included locally |
-| Data and Goliath | Bruce Schneier | 2015 | Source link available | Not included locally |
-| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | Source recorded | EPUB + PDF included |
-| Fahrenheit 451 | Ray Bradbury | 1953 | Source link available | Not included locally |
-| Influence | Robert Cialdini | 1984 | Source link available | Not included locally |
-| Manufacturing Consent | Edward S. Herman and Noam Chomsky | 1988 | Source link available | Not included locally |
-| Nineteen Eighty-Four | George Orwell | 1949 | Source link available | Not included locally |
-| On Tyranny | Timothy Snyder | 2017 | Source link available | Not included locally |
-| Permanent Record | Edward Snowden | 2019 | Source link available | Not included locally |
-| Seeing Like a State | James C. Scott | 1998 | Source link available | Not included locally |
-| The Demon-Haunted World | Carl Sagan | 1995 | Source link available | Not included locally |
-| The Dispossessed | Ursula K. Le Guin | 1974 | Source link available | Not included locally |
-| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | Source link available | Not included locally |
-| The Handmaid's Tale | Margaret Atwood | 1985 | Source link available | Not included locally |
-| The Open Society and Its Enemies | Karl Popper | 1945 | Source link available | Not included locally |
-| The Origins of Totalitarianism | Hannah Arendt | 1951 | Source link available | Not included locally |
-| The Power of the Powerless | Václav Havel | 1978 | Source link available | Not included locally |
-| The Rape of the Mind | Joost Meerloo | 1956 | Source link available | Not included locally |
-| The Satanic Verses | Salman Rushdie | 1988 | Source link available | Not included locally |
-| The True Believer | Eric Hoffer | 1951 | Source link available | Not included locally |
-| Thought Reform and the Psychology of Totalism | Robert Jay Lifton | 1961 | Source link available | Not included locally |
-| Weapons of Math Destruction | Cathy O'Neil | 2016 | Source link available | Not included locally |
+| Animal Farm | George Orwell | 1945 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Animal+Farm%22%29+AND+creator%3A%28%22George+Orwell%22%29) |
+| Applied Cryptography | Bruce Schneier | 1994 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Applied+Cryptography%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29) |
+| Brave New World | Aldous Huxley | 1932 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Brave+New+World%22%29+AND+creator%3A%28%22Aldous+Huxley%22%29) |
+| Coercive Persuasion | Edgar H. Schein and colleagues | 1961 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Coercive+Persuasion%22%29+AND+creator%3A%28%22Edgar+H.+Schein+and+colleagues%22%29) |
+| Cryptography Engineering | Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno | 2010 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Cryptography+Engineering%22%29+AND+creator%3A%28%22Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno%22%29) |
+| Darkness at Noon | Arthur Koestler | 1940 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Darkness+at+Noon%22%29+AND+creator%3A%28%22Arthur+Koestler%22%29) |
+| Data and Goliath | Bruce Schneier | 2015 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Data+and+Goliath%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29) |
+| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | [EPUB](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub) · [PDF](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/8086) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Down+and+Out+in+the+Magic+Kingdom%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29) |
+| Fahrenheit 451 | Ray Bradbury | 1953 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Fahrenheit+451%22%29+AND+creator%3A%28%22Ray+Bradbury%22%29) |
+| Influence | Robert Cialdini | 1984 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Influence%22%29+AND+creator%3A%28%22Robert+Cialdini%22%29) |
+| Manufacturing Consent | Edward S. Herman and Noam Chomsky | 1988 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Manufacturing+Consent%22%29+AND+creator%3A%28%22Edward+S.+Herman+and+Noam+Chomsky%22%29) |
+| Nineteen Eighty-Four | George Orwell | 1949 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Nineteen+Eighty-Four%22%29+AND+creator%3A%28%22George+Orwell%22%29) |
+| On Tyranny | Timothy Snyder | 2017 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22On+Tyranny%22%29+AND+creator%3A%28%22Timothy+Snyder%22%29) |
+| Permanent Record | Edward Snowden | 2019 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Permanent+Record%22%29+AND+creator%3A%28%22Edward+Snowden%22%29) |
+| Seeing Like a State | James C. Scott | 1998 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Seeing+Like+a+State%22%29+AND+creator%3A%28%22James+C.+Scott%22%29) |
+| The Demon-Haunted World | Carl Sagan | 1995 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Demon-Haunted+World%22%29+AND+creator%3A%28%22Carl+Sagan%22%29) |
+| The Dispossessed | Ursula K. Le Guin | 1974 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Dispossessed%22%29+AND+creator%3A%28%22Ursula+K.+Le+Guin%22%29) |
+| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Gulag+Archipelago%22%29+AND+creator%3A%28%22Aleksandr+Solzhenitsyn%22%29) |
+| The Handmaid's Tale | Margaret Atwood | 1985 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Handmaid%27s+Tale%22%29+AND+creator%3A%28%22Margaret+Atwood%22%29) |
+| The Open Society and Its Enemies | Karl Popper | 1945 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Open+Society+and+Its+Enemies%22%29+AND+creator%3A%28%22Karl+Popper%22%29) |
+| The Origins of Totalitarianism | Hannah Arendt | 1951 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Origins+of+Totalitarianism%22%29+AND+creator%3A%28%22Hannah+Arendt%22%29) |
+| The Power of the Powerless | Václav Havel | 1978 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Power+of+the+Powerless%22%29+AND+creator%3A%28%22V%C3%A1clav+Havel%22%29) |
+| The Rape of the Mind | Joost Meerloo | 1956 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Rape+of+the+Mind%22%29+AND+creator%3A%28%22Joost+Meerloo%22%29) |
+| The Satanic Verses | Salman Rushdie | 1988 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Satanic+Verses%22%29+AND+creator%3A%28%22Salman+Rushdie%22%29) |
+| The True Believer | Eric Hoffer | 1951 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+True+Believer%22%29+AND+creator%3A%28%22Eric+Hoffer%22%29) |
+| Thought Reform and the Psychology of Totalism | Robert Jay Lifton | 1961 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Thought+Reform+and+the+Psychology+of+Totalism%22%29+AND+creator%3A%28%22Robert+Jay+Lifton%22%29) |
+| Weapons of Math Destruction | Cathy O'Neil | 2016 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Weapons+of+Math+Destruction%22%29+AND+creator%3A%28%22Cathy+O%27Neil%22%29) |
 
 ## Original-Language Library
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Amerika | Franz Kafka | 1927 | Source link available | Not included locally |
-| Anna Karenina | Leo Tolstoy | 1877 | Source recorded | EPUB + PDF included |
-| Berlin Alexanderplatz | Alfred Döblin | 1929 | Source link available | Not included locally |
-| Botchan | Natsume Sōseki | 1906 | Source link available | Not included locally |
-| Capital, Volume I | Karl Marx | 1867 | Source link available | Not included locally |
-| Crime and Punishment | Fyodor Dostoevsky | 1866 | Source link available | Not included locally |
-| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | Source link available | Not included locally |
-| Darkness at Noon | Arthur Koestler | 1940 | Source link available | Not included locally |
-| Dead Souls | Nikolai Gogol | 1842 | Source recorded | EPUB + PDF included |
-| Democracy in America | Alexis de Tocqueville | 1835 | Source link available | Not included locally |
-| Demons | Fyodor Dostoevsky | 1872 | Source link available | Not included locally |
-| Diary of a Madman | Lu Xun | 1918 | Source link available | Not included locally |
-| Don Quixote | Miguel de Cervantes | 1605 | Source recorded | EPUB + PDF included |
-| Effi Briest | Theodor Fontane | 1895 | Source link available | Not included locally |
-| El Filibusterismo | José Rizal | 1891 | Source link available | Not included locally |
-| Fathers and Sons | Ivan Turgenev | 1862 | Source recorded | EPUB + PDF included |
-| Germinal | Émile Zola | 1885 | Source recorded | EPUB + PDF included |
-| Hadji Murad | Leo Tolstoy | 1912 | Source link available | Not included locally |
-| I Am a Cat | Natsume Sōseki | 1905 | Source link available | Not included locally |
-| In a Grove | Ryūnosuke Akutagawa | 1922 | Source link available | Not included locally |
-| Index Librorum Prohibitorum | Catholic Church | 1564 | Source link available | Not included locally |
-| Kokoro | Natsume Sōseki | 1914 | Source link available | Not included locally |
-| Les Misérables | Victor Hugo | 1862 | Source recorded | EPUB + PDF included |
-| Macunaíma | Mário de Andrade | 1928 | Source link available | Not included locally |
-| Madame Bovary | Gustave Flaubert | 1857 | Source recorded | EPUB + PDF included |
-| Noli Me Tangere | José Rizal | 1887 | Source link available | Not included locally |
-| Notes from Underground | Fyodor Dostoevsky | 1864 | Source link available | Not included locally |
-| Rashōmon | Ryūnosuke Akutagawa | 1915 | Source link available | Not included locally |
-| Resurrection | Leo Tolstoy | 1899 | Source recorded | EPUB + PDF included |
-| Siddhartha | Hermann Hesse | 1922 | Source recorded | EPUB + PDF included |
-| Steppenwolf | Hermann Hesse | 1927 | Source recorded | EPUB + PDF included |
-| Swann's Way | Marcel Proust | 1913 | Source recorded | EPUB + PDF included |
-| Tartuffe | Molière | 1664 | Source link available | Not included locally |
-| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | Source link available | Not included locally |
-| The Castle | Franz Kafka | 1926 | Source link available | Not included locally |
-| The Count of Monte Cristo | Alexandre Dumas | 1844 | Source recorded | EPUB + PDF included |
-| The Counterfeiters | André Gide | 1925 | Source link available | Not included locally |
-| The Crowd | Gustave Le Bon | 1895 | Source link available | Not included locally |
-| The Death of Ivan Ilyich | Leo Tolstoy | 1886 | Source link available | Not included locally |
-| The Divine Comedy | Dante Alighieri | 1321 | Source recorded | EPUB + PDF included |
-| The Essence of Christianity | Ludwig Feuerbach | 1841 | Source recorded | EPUB + PDF included |
-| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | Source link available | Not included locally |
-| The Iliad | Homer | -750 | Source recorded | EPUB + PDF included |
-| The Immoralist | André Gide | 1902 | Source recorded | EPUB + PDF included |
-| The Kreutzer Sonata | Leo Tolstoy | 1890 | Source link available | Not included locally |
-| The Life of Jesus Critically Examined | David Friedrich Strauss | 1835 | Source recorded | EPUB + PDF included |
-| The Magic Mountain | Thomas Mann | 1924 | Source link available | Not included locally |
-| The Metamorphosis | Franz Kafka | 1915 | Source link available | Not included locally |
-| The Mother | Maxim Gorky | 1906 | Source link available | Not included locally |
-| The Odyssey | Homer | -700 | Source recorded | EPUB + PDF included |
-| The Power of the Powerless | Václav Havel | 1978 | Source link available | Not included locally |
-| The Republic | Plato | -380 | Source recorded | EPUB + PDF included |
-| The Social Contract | Jean-Jacques Rousseau | 1762 | Source link available | Not included locally |
-| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | Source recorded | EPUB + PDF included |
-| The Three Musketeers | Alexandre Dumas | 1844 | Source recorded | EPUB + PDF included |
-| The Trial | Franz Kafka | 1925 | Source recorded | EPUB + PDF included |
-| The True Story of Ah Q | Lu Xun | 1921 | Source link available | Not included locally |
-| The Underdogs | Mariano Azuela | 1915 | Source link available | Not included locally |
-| The Vortex | José Eustasio Rivera | 1924 | Source link available | Not included locally |
-| Theological-Political Treatise | Baruch Spinoza | 1670 | Source link available | Not included locally |
-| War and Peace | Leo Tolstoy | 1869 | Source recorded | EPUB + PDF included |
-| We | Yevgeny Zamyatin | 1921 | Source link available | Not included locally |
-| What Is Property? | Pierre-Joseph Proudhon | 1840 | Source link available | Not included locally |
-| What Is to Be Done? | Nikolai Chernyshevsky | 1863 | Source link available | Not included locally |
-| Émile, or On Education | Jean-Jacques Rousseau | 1762 | Source link available | Not included locally |
+| Amerika | Franz Kafka | 1927 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Amerika%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1399) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Anna+Karenina%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| Berlin Alexanderplatz | Alfred Döblin | 1929 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Berlin+Alexanderplatz%22%29+AND+creator%3A%28%22Alfred+D%C3%B6blin%22%29) |
+| Botchan | Natsume Sōseki | 1906 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Botchan%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29) |
+| Capital, Volume I | Karl Marx | 1867 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Capital%2C+Volume+I%22%29+AND+creator%3A%28%22Karl+Marx%22%29) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Crime+and+Punishment%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Dangerous Liaisons | Pierre Choderlos de Laclos | 1782 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dangerous+Liaisons%22%29+AND+creator%3A%28%22Pierre+Choderlos+de+Laclos%22%29) |
+| Darkness at Noon | Arthur Koestler | 1940 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Darkness+at+Noon%22%29+AND+creator%3A%28%22Arthur+Koestler%22%29) |
+| Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1081) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dead+Souls%22%29+AND+creator%3A%28%22Nikolai+Gogol%22%29) |
+| Democracy in America | Alexis de Tocqueville | 1835 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Democracy+in+America%22%29+AND+creator%3A%28%22Alexis+de+Tocqueville%22%29) |
+| Demons | Fyodor Dostoevsky | 1872 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Demons%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Diary of a Madman | Lu Xun | 1918 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Diary+of+a+Madman%22%29+AND+creator%3A%28%22Lu+Xun%22%29) |
+| Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [PDF](../content/books/don-quixote/gutenberg-996/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/996) · [Project Gutenberg](https://www.gutenberg.org/ebooks/7094) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Don+Quixote%22%29+AND+creator%3A%28%22Miguel+de+Cervantes%22%29) |
+| Effi Briest | Theodor Fontane | 1895 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Effi+Briest%22%29+AND+creator%3A%28%22Theodor+Fontane%22%29) |
+| El Filibusterismo | José Rizal | 1891 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22El+Filibusterismo%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Fathers and Sons | Ivan Turgenev | 1862 | [EPUB](../content/books/fathers-and-sons/gutenberg-47935/book.epub) · [PDF](../content/books/fathers-and-sons/gutenberg-47935/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/47935) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Fathers+and+Sons%22%29+AND+creator%3A%28%22Ivan+Turgenev%22%29) |
+| Germinal | Émile Zola | 1885 | [EPUB](../content/books/germinal/gutenberg-56528/book.epub) · [PDF](../content/books/germinal/gutenberg-56528/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/56528) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Germinal%22%29+AND+creator%3A%28%22%C3%89mile+Zola%22%29) |
+| Hadji Murad | Leo Tolstoy | 1912 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Hadji+Murad%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| I Am a Cat | Natsume Sōseki | 1905 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22I+Am+a+Cat%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29) |
+| In a Grove | Ryūnosuke Akutagawa | 1922 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22In+a+Grove%22%29+AND+creator%3A%28%22Ry%C5%ABnosuke+Akutagawa%22%29) |
+| Index Librorum Prohibitorum | Catholic Church | 1564 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Index+Librorum+Prohibitorum%22%29+AND+creator%3A%28%22%22%29) |
+| Kokoro | Natsume Sōseki | 1914 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Kokoro%22%29+AND+creator%3A%28%22Natsume+S%C5%8Dseki%22%29) |
+| Les Misérables | Victor Hugo | 1862 | [EPUB](../content/books/les-miserables/gutenberg-135/book.epub) · [PDF](../content/books/les-miserables/gutenberg-135/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/135) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Les+Mis%C3%A9rables%22%29+AND+creator%3A%28%22Victor+Hugo%22%29) |
+| Macunaíma | Mário de Andrade | 1928 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Macuna%C3%ADma%22%29+AND+creator%3A%28%22M%C3%A1rio+de+Andrade%22%29) |
+| Madame Bovary | Gustave Flaubert | 1857 | [EPUB](../content/books/madame-bovary/gutenberg-2413/book.epub) · [PDF](../content/books/madame-bovary/gutenberg-2413/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2413) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Madame+Bovary%22%29+AND+creator%3A%28%22Gustave+Flaubert%22%29) |
+| Noli Me Tangere | José Rizal | 1887 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Noli+Me+Tangere%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Notes from Underground | Fyodor Dostoevsky | 1864 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Notes+from+Underground%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Rashōmon | Ryūnosuke Akutagawa | 1915 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Rash%C5%8Dmon%22%29+AND+creator%3A%28%22Ry%C5%ABnosuke+Akutagawa%22%29) |
+| Resurrection | Leo Tolstoy | 1899 | [EPUB](../content/books/resurrection-tolstoy/gutenberg-1938/book.epub) · [PDF](../content/books/resurrection-tolstoy/gutenberg-1938/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1938) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Resurrection%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| Siddhartha | Hermann Hesse | 1922 | [EPUB](../content/books/siddhartha/gutenberg-2500/book.epub) · [PDF](../content/books/siddhartha/gutenberg-2500/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2500) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Siddhartha%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/75756) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Steppenwolf%22%29+AND+creator%3A%28%22Hermann+Hesse%22%29) |
+| Swann's Way | Marcel Proust | 1913 | [EPUB](../content/books/swanns-way/gutenberg-7178/book.epub) · [PDF](../content/books/swanns-way/gutenberg-7178/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/7178) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Swann%27s+Way%22%29+AND+creator%3A%28%22Marcel+Proust%22%29) |
+| Tartuffe | Molière | 1664 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tartuffe%22%29+AND+creator%3A%28%22Moli%C3%A8re%22%29) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Brothers+Karamazov%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| The Castle | Franz Kafka | 1926 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Castle%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1184) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Count+of+Monte+Cristo%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29) |
+| The Counterfeiters | André Gide | 1925 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Counterfeiters%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29) |
+| The Crowd | Gustave Le Bon | 1895 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Crowd%22%29+AND+creator%3A%28%22Gustave+Le+Bon%22%29) |
+| The Death of Ivan Ilyich | Leo Tolstoy | 1886 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Death+of+Ivan+Ilyich%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/8800) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Divine+Comedy%22%29+AND+creator%3A%28%22Dante+Alighieri%22%29) |
+| The Essence of Christianity | Ludwig Feuerbach | 1841 | [EPUB](../content/books/the-essence-of-christianity/gutenberg-47025/book.epub) · [PDF](../content/books/the-essence-of-christianity/gutenberg-47025/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/47025) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Essence+of+Christianity%22%29+AND+creator%3A%28%22Ludwig+Feuerbach%22%29) |
+| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Gulag+Archipelago%22%29+AND+creator%3A%28%22Aleksandr+Solzhenitsyn%22%29) |
+| The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/6130) · [Project Gutenberg](https://www.gutenberg.org/ebooks/2199) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3059) · [Project Gutenberg](https://www.gutenberg.org/ebooks/22382) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6150) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Iliad%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Immoralist | André Gide | 1902 | [EPUB](../content/books/the-immoralist/gutenberg-78975/book.epub) · [PDF](../content/books/the-immoralist/gutenberg-78975/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/78975) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Immoralist%22%29+AND+creator%3A%28%22Andr%C3%A9+Gide%22%29) |
+| The Kreutzer Sonata | Leo Tolstoy | 1890 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Kreutzer+Sonata%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| The Life of Jesus Critically Examined | David Friedrich Strauss | 1835 | [EPUB](../content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.epub) · [PDF](../content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/64037) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Life+of+Jesus+Critically+Examined%22%29+AND+creator%3A%28%22David+Friedrich+Strauss%22%29) |
+| The Magic Mountain | Thomas Mann | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Magic+Mountain%22%29+AND+creator%3A%28%22Thomas+Mann%22%29) |
+| The Metamorphosis | Franz Kafka | 1915 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/26298) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Metamorphosis%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Mother | Maxim Gorky | 1906 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Mother%22%29+AND+creator%3A%28%22Maxim+Gorky%22%29) |
+| The Odyssey | Homer | -700 | [EPUB](../content/books/the-odyssey/gutenberg-1727/book.epub) · [PDF](../content/books/the-odyssey/gutenberg-1727/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1727) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3160) · [Project Gutenberg](https://www.gutenberg.org/ebooks/28797) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Odyssey%22%29+AND+creator%3A%28%22Homer%22%29) |
+| The Power of the Powerless | Václav Havel | 1978 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Power+of+the+Powerless%22%29+AND+creator%3A%28%22V%C3%A1clav+Havel%22%29) |
+| The Republic | Plato | -380 | [EPUB](../content/books/the-republic/gutenberg-1497/book.epub) · [PDF](../content/books/the-republic/gutenberg-1497/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1497) · [Project Gutenberg](https://www.gutenberg.org/ebooks/150) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Republic%22%29+AND+creator%3A%28%22Plato%22%29) |
+| The Social Contract | Jean-Jacques Rousseau | 1762 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Social+Contract%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29) |
+| The Sorrows of Young Werther | Johann Wolfgang von Goethe | 1774 | [EPUB](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.epub) · [PDF](../content/books/the-sorrows-of-young-werther/gutenberg-2527/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2527) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Sorrows+of+Young+Werther%22%29+AND+creator%3A%28%22Johann+Wolfgang+von+Goethe%22%29) |
+| The Three Musketeers | Alexandre Dumas | 1844 | [EPUB](../content/books/the-three-musketeers/gutenberg-1257/book.epub) · [PDF](../content/books/the-three-musketeers/gutenberg-1257/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1257) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Three+Musketeers%22%29+AND+creator%3A%28%22Alexandre+Dumas%22%29) |
+| The Trial | Franz Kafka | 1925 | [EPUB](../content/books/the-trial/gutenberg-7849/book.epub) · [PDF](../content/books/the-trial/gutenberg-7849/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/7849) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Trial%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The True Story of Ah Q | Lu Xun | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+True+Story+of+Ah+Q%22%29+AND+creator%3A%28%22Lu+Xun%22%29) |
+| The Underdogs | Mariano Azuela | 1915 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Underdogs%22%29+AND+creator%3A%28%22Mariano+Azuela%22%29) |
+| The Vortex | José Eustasio Rivera | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Vortex%22%29+AND+creator%3A%28%22Jos%C3%A9+Eustasio+Rivera%22%29) |
+| Theological-Political Treatise | Baruch Spinoza | 1670 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Theological-Political+Treatise%22%29+AND+creator%3A%28%22Baruch+Spinoza%22%29) |
+| War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2600) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22War+and+Peace%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| We | Yevgeny Zamyatin | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22We%22%29+AND+creator%3A%28%22Yevgeny+Zamyatin%22%29) |
+| What Is Property? | Pierre-Joseph Proudhon | 1840 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22What+Is+Property%3F%22%29+AND+creator%3A%28%22Pierre-Joseph+Proudhon%22%29) |
+| What Is to Be Done? | Nikolai Chernyshevsky | 1863 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22What+Is+to+Be+Done%3F%22%29+AND+creator%3A%28%22Nikolai+Chernyshevsky%22%29) |
+| Émile, or On Education | Jean-Jacques Rousseau | 1762 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22%C3%89mile%2C+or+On+Education%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29) |
 
 ## Preparedness & Field Manuals
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Camp-Lore and Woodcraft | D. C. Beard | 1920 | Source link available | Not included locally |
-| Camping and Woodcraft | Horace Kephart | 1906 | Source link available | Not included locally |
-| Care and Use of Individual Clothing and Equipment | United States Army |  | Source link available | Not included locally |
-| Carpentry | United States Army |  | Source recorded | EPUB + PDF included |
-| Chemical, Biological, and Nuclear Defense | United States Army |  | Source link available | Not included locally |
-| Community Emergency Response Team Basic Training | FEMA CERT |  | Source link available | Not included locally |
-| Concrete and Masonry | United States Army |  | Source link available | Not included locally |
-| Dry-Farming | John A. Widtsoe | 1911 | Source link available | Not included locally |
-| Emergency Financial First Aid Kit | FEMA and Ready.gov |  | Source link available | Not included locally |
-| Engineer Field Data | United States Army |  | Source link available | Not included locally |
-| Evasion and Escape | United States Army |  | Source link available | Not included locally |
-| Field Hygiene and Sanitation | United States Army |  | Source link available | Not included locally |
-| Finding Your Way with Map and Compass | U.S. Geological Survey |  | Source link available | Not included locally |
-| First Aid | United States Army |  | Source link available | Not included locally |
-| First Aid for Soldiers | United States Army |  | Source link available | Not included locally |
-| Flood Safety and Cleanup Guides | FEMA and Centers for Disease Control and Prevention |  | Source link available | Not included locally |
-| Food and Water in an Emergency | FEMA |  | Source link available | Not included locally |
-| Generator Safety Guidance | Consumer Product Safety Commission and Centers for Disease Control and Prevention |  | Source link available | Not included locally |
-| Handy Farm Devices and How to Make Them | Rolfe Cobleigh | 1909 | Source link available | Not included locally |
-| Home Canning of Fruits and Vegetables | United States Department of Agriculture | 1924 | Source recorded | EPUB + PDF included |
-| Household Emergency Plan and Supply Checklists | Ready.gov |  | Source link available | Not included locally |
-| Make Water Safe During an Emergency | Centers for Disease Control and Prevention |  | Source link available | Not included locally |
-| Map Reading | United States Army |  | Source link available | Not included locally |
-| Map Reading and Land Navigation | United States Army |  | Source link available | Not included locally |
-| Power Outage Food Safety Guidance | United States Department of Agriculture |  | Source link available | Not included locally |
-| Preventing Diarrheal Illness After a Disaster | Centers for Disease Control and Prevention |  | Source link available | Not included locally |
-| Radiological Emergency Guides | FEMA, CDC, and EPA |  | Source link available | Not included locally |
-| Ranger Handbook | United States Army |  | Source link available | Not included locally |
-| Rigging Techniques, Procedures and Applications | United States Army |  | Source link available | Not included locally |
-| Shelters, Shacks and Shanties | D. C. Beard | 1914 | Source recorded | EPUB + PDF included |
-| Survival | United States Army |  | Source link available | Not included locally |
-| Survival | United States Army |  | Source link available | Not included locally |
-| Survival at Sea | United States Army |  | Source link available | Not included locally |
-| The Preservation of Food in the Home | United States Department of Agriculture | 1918 | Source link available | Not included locally |
-| Use Safe Water During an Emergency | Centers for Disease Control and Prevention |  | Source link available | Not included locally |
-| Water Support Operations | United States Army |  | Source link available | Not included locally |
-| Wildfire Evacuation Materials | U.S. Fire Administration |  | Source link available | Not included locally |
-| Woodcraft and Camping | George Washington Sears | 1884 | Source recorded | EPUB + PDF included |
+| Camp-Lore and Woodcraft | D. C. Beard | 1920 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Camp-Lore+and+Woodcraft%22%29+AND+creator%3A%28%22D.+C.+Beard%22%29) |
+| Camping and Woodcraft | Horace Kephart | 1906 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Camping+and+Woodcraft%22%29+AND+creator%3A%28%22Horace+Kephart%22%29) |
+| Care and Use of Individual Clothing and Equipment | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Care+and+Use+of+Individual+Clothing+and+Equipment%22%29+AND+creator%3A%28%22%22%29) |
+| Carpentry | United States Army |  | [EPUB](../content/books/fm-5-426-carpentry/gutenberg-70226/book.epub) · [PDF](../content/books/fm-5-426-carpentry/gutenberg-70226/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/70226) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Carpentry%22%29+AND+creator%3A%28%22%22%29) |
+| Chemical, Biological, and Nuclear Defense | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Chemical%2C+Biological%2C+and+Nuclear+Defense%22%29+AND+creator%3A%28%22%22%29) |
+| Community Emergency Response Team Basic Training | FEMA CERT |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Community+Emergency+Response+Team+Basic+Training%22%29+AND+creator%3A%28%22%22%29) |
+| Concrete and Masonry | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Concrete+and+Masonry%22%29+AND+creator%3A%28%22%22%29) |
+| Dry-Farming | John A. Widtsoe | 1911 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dry-Farming%22%29+AND+creator%3A%28%22John+A.+Widtsoe%22%29) |
+| Emergency Financial First Aid Kit | FEMA and Ready.gov |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Emergency+Financial+First+Aid+Kit%22%29+AND+creator%3A%28%22%22%29) |
+| Engineer Field Data | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Engineer+Field+Data%22%29+AND+creator%3A%28%22%22%29) |
+| Evasion and Escape | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Evasion+and+Escape%22%29+AND+creator%3A%28%22%22%29) |
+| Field Hygiene and Sanitation | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Field+Hygiene+and+Sanitation%22%29+AND+creator%3A%28%22%22%29) |
+| Finding Your Way with Map and Compass | U.S. Geological Survey |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Finding+Your+Way+with+Map+and+Compass%22%29+AND+creator%3A%28%22%22%29) |
+| First Aid | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22First+Aid%22%29+AND+creator%3A%28%22%22%29) |
+| First Aid for Soldiers | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22First+Aid+for+Soldiers%22%29+AND+creator%3A%28%22%22%29) |
+| Flood Safety and Cleanup Guides | FEMA and Centers for Disease Control and Prevention |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Flood+Safety+and+Cleanup+Guides%22%29+AND+creator%3A%28%22%22%29) |
+| Food and Water in an Emergency | FEMA |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Food+and+Water+in+an+Emergency%22%29+AND+creator%3A%28%22%22%29) |
+| Generator Safety Guidance | Consumer Product Safety Commission and Centers for Disease Control and Prevention |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Generator+Safety+Guidance%22%29+AND+creator%3A%28%22%22%29) |
+| Handy Farm Devices and How to Make Them | Rolfe Cobleigh | 1909 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Handy+Farm+Devices+and+How+to+Make+Them%22%29+AND+creator%3A%28%22Rolfe+Cobleigh%22%29) |
+| Home Canning of Fruits and Vegetables | United States Department of Agriculture | 1924 | [EPUB](../content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.epub) · [PDF](../content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/66136) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Home+Canning+of+Fruits+and+Vegetables%22%29+AND+creator%3A%28%22%22%29) |
+| Household Emergency Plan and Supply Checklists | Ready.gov |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Household+Emergency+Plan+and+Supply+Checklists%22%29+AND+creator%3A%28%22%22%29) |
+| Make Water Safe During an Emergency | Centers for Disease Control and Prevention |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Make+Water+Safe+During+an+Emergency%22%29+AND+creator%3A%28%22%22%29) |
+| Map Reading | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Map+Reading%22%29+AND+creator%3A%28%22%22%29) |
+| Map Reading and Land Navigation | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Map+Reading+and+Land+Navigation%22%29+AND+creator%3A%28%22%22%29) |
+| Power Outage Food Safety Guidance | United States Department of Agriculture |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Power+Outage+Food+Safety+Guidance%22%29+AND+creator%3A%28%22%22%29) |
+| Preventing Diarrheal Illness After a Disaster | Centers for Disease Control and Prevention |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Preventing+Diarrheal+Illness+After+a+Disaster%22%29+AND+creator%3A%28%22%22%29) |
+| Radiological Emergency Guides | FEMA, CDC, and EPA |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Radiological+Emergency+Guides%22%29+AND+creator%3A%28%22%22%29) |
+| Ranger Handbook | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Ranger+Handbook%22%29+AND+creator%3A%28%22%22%29) |
+| Rigging Techniques, Procedures and Applications | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Rigging+Techniques%2C+Procedures+and+Applications%22%29+AND+creator%3A%28%22%22%29) |
+| Shelters, Shacks and Shanties | D. C. Beard | 1914 | [EPUB](../content/books/shelters-shacks-and-shanties/gutenberg-28255/book.epub) · [PDF](../content/books/shelters-shacks-and-shanties/gutenberg-28255/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/28255) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Shelters%2C+Shacks+and+Shanties%22%29+AND+creator%3A%28%22D.+C.+Beard%22%29) |
+| Survival | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Survival%22%29+AND+creator%3A%28%22%22%29) |
+| Survival | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Survival%22%29+AND+creator%3A%28%22%22%29) |
+| Survival at Sea | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Survival+at+Sea%22%29+AND+creator%3A%28%22%22%29) |
+| The Preservation of Food in the Home | United States Department of Agriculture | 1918 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Preservation+of+Food+in+the+Home%22%29+AND+creator%3A%28%22%22%29) |
+| Use Safe Water During an Emergency | Centers for Disease Control and Prevention |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Use+Safe+Water+During+an+Emergency%22%29+AND+creator%3A%28%22%22%29) |
+| Water Support Operations | United States Army |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Water+Support+Operations%22%29+AND+creator%3A%28%22%22%29) |
+| Wildfire Evacuation Materials | U.S. Fire Administration |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Wildfire+Evacuation+Materials%22%29+AND+creator%3A%28%22%22%29) |
+| Woodcraft and Camping | George Washington Sears | 1884 | [EPUB](../content/books/woodcraft-and-camping/gutenberg-34607/book.epub) · [PDF](../content/books/woodcraft-and-camping/gutenberg-34607/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/34607) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Woodcraft+and+Camping%22%29+AND+creator%3A%28%22George+Washington+Sears%22%29) |
 
 ## Suppressed Knowledge
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Animal Farm | George Orwell | 1945 | Source link available | Not included locally |
-| Applied Cryptography | Bruce Schneier | 1994 | Source link available | Not included locally |
-| Areopagitica | John Milton | 1644 | Source recorded | EPUB + PDF included |
-| Brave New World | Aldous Huxley | 1932 | Source link available | Not included locally |
-| Capital, Volume I | Karl Marx | 1867 | Source link available | Not included locally |
-| Civil Disobedience | Henry David Thoreau | 1849 | Source link available | Not included locally |
-| Coercive Persuasion | Edgar H. Schein and colleagues | 1961 | Source link available | Not included locally |
-| Common Sense | Thomas Paine | 1776 | Source recorded | EPUB + PDF included |
-| Content | Cory Doctorow | 2008 | Source link available | Not included locally |
-| Crime and Punishment | Fyodor Dostoevsky | 1866 | Source link available | Not included locally |
-| CryptoParty Handbook | CryptoParty contributors | 2012 | Source link available | Not included locally |
-| Cryptography Engineering | Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno | 2010 | Source link available | Not included locally |
-| Darkness at Noon | Arthur Koestler | 1940 | Source link available | Not included locally |
-| Data and Goliath | Bruce Schneier | 2015 | Source link available | Not included locally |
-| Dead Souls | Nikolai Gogol | 1842 | Source recorded | EPUB + PDF included |
-| Democracy in America | Alexis de Tocqueville | 1835 | Source link available | Not included locally |
-| Demons | Fyodor Dostoevsky | 1872 | Source link available | Not included locally |
-| Dialogues Concerning Natural Religion | David Hume | 1779 | Source recorded | EPUB + PDF included |
-| Diary of a Madman | Lu Xun | 1918 | Source link available | Not included locally |
-| El Filibusterismo | José Rizal | 1891 | Source link available | Not included locally |
-| Elementary Cryptanalysis | Helen Fouché Gaines | 1939 | Source recorded | EPUB + PDF included |
-| Elmer Gantry | Sinclair Lewis | 1927 | Source recorded | EPUB + PDF included |
-| Fathers and Sons | Ivan Turgenev | 1862 | Source recorded | EPUB + PDF included |
-| Free Culture | Lawrence Lessig | 2004 | Source link available | Not included locally |
-| Germinal | Émile Zola | 1885 | Source recorded | EPUB + PDF included |
-| Hadji Murad | Leo Tolstoy | 1912 | Source link available | Not included locally |
-| Index Librorum Prohibitorum | Catholic Church | 1564 | Source link available | Not included locally |
-| Influence | Robert Cialdini | 1984 | Source link available | Not included locally |
-| Instincts of the Herd in Peace and War | Wilfred Trotter | 1916 | Source recorded | EPUB + PDF included |
-| Les Misérables | Victor Hugo | 1862 | Source recorded | EPUB + PDF included |
-| Manual for the Solution of Military Ciphers | Parker Hitt | 1916 | Source recorded | EPUB + PDF included |
-| Manufacturing Consent | Edward S. Herman and Noam Chomsky | 1988 | Source link available | Not included locally |
-| Noli Me Tangere | José Rizal | 1887 | Source link available | Not included locally |
-| Notes from Underground | Fyodor Dostoevsky | 1864 | Source link available | Not included locally |
-| On Liberty | John Stuart Mill | 1859 | Source recorded | EPUB + PDF included |
-| On Tyranny | Timothy Snyder | 2017 | Source link available | Not included locally |
-| Permanent Record | Edward Snowden | 2019 | Source link available | Not included locally |
-| Propaganda | Edward Bernays | 1928 | Source recorded | EPUB + PDF included |
-| Public Opinion | Walter Lippmann | 1922 | Source recorded | EPUB + PDF included |
-| Resurrection | Leo Tolstoy | 1899 | Source recorded | EPUB + PDF included |
-| Rights of Man | Thomas Paine | 1791 | Source link available | Not included locally |
-| Seeing Like a State | James C. Scott | 1998 | Source link available | Not included locally |
-| Surveillance Self-Defense | Electronic Frontier Foundation |  | Source link available | Not included locally |
-| Tartuffe | Molière | 1664 | Source link available | Not included locally |
-| The Age of Reason | Thomas Paine | 1794 | Source link available | Not included locally |
-| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | Source link available | Not included locally |
-| The Castle | Franz Kafka | 1926 | Source link available | Not included locally |
-| The Crowd | Gustave Le Bon | 1895 | Source link available | Not included locally |
-| The Demon-Haunted World | Carl Sagan | 1995 | Source link available | Not included locally |
-| The Dispossessed | Ursula K. Le Guin | 1974 | Source link available | Not included locally |
-| The Essence of Christianity | Ludwig Feuerbach | 1841 | Source recorded | EPUB + PDF included |
-| The Federalist Papers | Alexander Hamilton, James Madison, and John Jay | 1787 | Source link available | Not included locally |
-| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | Source link available | Not included locally |
-| The Jungle | Upton Sinclair | 1906 | Source recorded | EPUB + PDF included |
-| The Life of Jesus Critically Examined | David Friedrich Strauss | 1835 | Source recorded | EPUB + PDF included |
-| The Mother | Maxim Gorky | 1906 | Source link available | Not included locally |
-| The Open Society and Its Enemies | Karl Popper | 1945 | Source link available | Not included locally |
-| The Origins of Totalitarianism | Hannah Arendt | 1951 | Source link available | Not included locally |
-| The Power of the Powerless | Václav Havel | 1978 | Source link available | Not included locally |
-| The Psychology of Suggestion | Boris Sidis | 1898 | Source link available | Not included locally |
-| The Republic | Plato | -380 | Source recorded | EPUB + PDF included |
-| The Social Contract | Jean-Jacques Rousseau | 1762 | Source link available | Not included locally |
-| The Subjection of Women | John Stuart Mill | 1869 | Source recorded | EPUB + PDF included |
-| The Trial | Franz Kafka | 1925 | Source recorded | EPUB + PDF included |
-| The True Believer | Eric Hoffer | 1951 | Source link available | Not included locally |
-| The True Story of Ah Q | Lu Xun | 1921 | Source link available | Not included locally |
-| The Vortex | José Eustasio Rivera | 1924 | Source link available | Not included locally |
-| Theological-Political Treatise | Baruch Spinoza | 1670 | Source link available | Not included locally |
-| Thought Reform and the Psychology of Totalism | Robert Jay Lifton | 1961 | Source link available | Not included locally |
-| Two Treatises of Government | John Locke | 1689 | Source link available | Not included locally |
-| War and Peace | Leo Tolstoy | 1869 | Source recorded | EPUB + PDF included |
-| We | Yevgeny Zamyatin | 1921 | Source link available | Not included locally |
-| Weapons of Math Destruction | Cathy O'Neil | 2016 | Source link available | Not included locally |
-| What Is Property? | Pierre-Joseph Proudhon | 1840 | Source link available | Not included locally |
-| What Is to Be Done? | Nikolai Chernyshevsky | 1863 | Source link available | Not included locally |
-| Why I Am an Agnostic | Robert G. Ingersoll | 1896 | Source link available | Not included locally |
-| Émile, or On Education | Jean-Jacques Rousseau | 1762 | Source link available | Not included locally |
+| Animal Farm | George Orwell | 1945 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Animal+Farm%22%29+AND+creator%3A%28%22George+Orwell%22%29) |
+| Applied Cryptography | Bruce Schneier | 1994 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Applied+Cryptography%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29) |
+| Areopagitica | John Milton | 1644 | [EPUB](../content/books/areopagitica/gutenberg-608/book.epub) · [PDF](../content/books/areopagitica/gutenberg-608/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/608) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Areopagitica%22%29+AND+creator%3A%28%22John+Milton%22%29) |
+| Brave New World | Aldous Huxley | 1932 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Brave+New+World%22%29+AND+creator%3A%28%22Aldous+Huxley%22%29) |
+| Capital, Volume I | Karl Marx | 1867 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Capital%2C+Volume+I%22%29+AND+creator%3A%28%22Karl+Marx%22%29) |
+| Civil Disobedience | Henry David Thoreau | 1849 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Civil+Disobedience%22%29+AND+creator%3A%28%22Henry+David+Thoreau%22%29) |
+| Coercive Persuasion | Edgar H. Schein and colleagues | 1961 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Coercive+Persuasion%22%29+AND+creator%3A%28%22Edgar+H.+Schein+and+colleagues%22%29) |
+| Common Sense | Thomas Paine | 1776 | [EPUB](../content/books/common-sense/gutenberg-147/book.epub) · [PDF](../content/books/common-sense/gutenberg-147/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/147) · [Project Gutenberg](https://www.gutenberg.org/ebooks/3755) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Common+Sense%22%29+AND+creator%3A%28%22Thomas+Paine%22%29) |
+| Content | Cory Doctorow | 2008 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Content%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Crime+and+Punishment%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| CryptoParty Handbook | CryptoParty contributors | 2012 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22CryptoParty+Handbook%22%29+AND+creator%3A%28%22%22%29) |
+| Cryptography Engineering | Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno | 2010 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Cryptography+Engineering%22%29+AND+creator%3A%28%22Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno%22%29) |
+| Darkness at Noon | Arthur Koestler | 1940 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Darkness+at+Noon%22%29+AND+creator%3A%28%22Arthur+Koestler%22%29) |
+| Data and Goliath | Bruce Schneier | 2015 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Data+and+Goliath%22%29+AND+creator%3A%28%22Bruce+Schneier%22%29) |
+| Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1081) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dead+Souls%22%29+AND+creator%3A%28%22Nikolai+Gogol%22%29) |
+| Democracy in America | Alexis de Tocqueville | 1835 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Democracy+in+America%22%29+AND+creator%3A%28%22Alexis+de+Tocqueville%22%29) |
+| Demons | Fyodor Dostoevsky | 1872 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Demons%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| Dialogues Concerning Natural Religion | David Hume | 1779 | [EPUB](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.epub) · [PDF](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/4583) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dialogues+Concerning+Natural+Religion%22%29+AND+creator%3A%28%22David+Hume%22%29) |
+| Diary of a Madman | Lu Xun | 1918 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Diary+of+a+Madman%22%29+AND+creator%3A%28%22Lu+Xun%22%29) |
+| El Filibusterismo | José Rizal | 1891 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22El+Filibusterismo%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Elementary Cryptanalysis | Helen Fouché Gaines | 1939 | [EPUB](../content/books/elementary-cryptanalysis/gutenberg-75074/book.epub) · [PDF](../content/books/elementary-cryptanalysis/gutenberg-75074/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/75074) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Elementary+Cryptanalysis%22%29+AND+creator%3A%28%22Helen+Fouch%C3%A9+Gaines%22%29) |
+| Elmer Gantry | Sinclair Lewis | 1927 | [EPUB](../content/books/elmer-gantry/gutenberg-72609/book.epub) · [PDF](../content/books/elmer-gantry/gutenberg-72609/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/72609) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Elmer+Gantry%22%29+AND+creator%3A%28%22Sinclair+Lewis%22%29) |
+| Fathers and Sons | Ivan Turgenev | 1862 | [EPUB](../content/books/fathers-and-sons/gutenberg-47935/book.epub) · [PDF](../content/books/fathers-and-sons/gutenberg-47935/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/47935) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Fathers+and+Sons%22%29+AND+creator%3A%28%22Ivan+Turgenev%22%29) |
+| Free Culture | Lawrence Lessig | 2004 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Free+Culture%22%29+AND+creator%3A%28%22Lawrence+Lessig%22%29) |
+| Germinal | Émile Zola | 1885 | [EPUB](../content/books/germinal/gutenberg-56528/book.epub) · [PDF](../content/books/germinal/gutenberg-56528/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/56528) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Germinal%22%29+AND+creator%3A%28%22%C3%89mile+Zola%22%29) |
+| Hadji Murad | Leo Tolstoy | 1912 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Hadji+Murad%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| Index Librorum Prohibitorum | Catholic Church | 1564 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Index+Librorum+Prohibitorum%22%29+AND+creator%3A%28%22%22%29) |
+| Influence | Robert Cialdini | 1984 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Influence%22%29+AND+creator%3A%28%22Robert+Cialdini%22%29) |
+| Instincts of the Herd in Peace and War | Wilfred Trotter | 1916 | [EPUB](../content/books/instincts-of-the-herd-in-peace-and-war/gutenberg-53453/book.epub) · [PDF](../content/books/instincts-of-the-herd-in-peace-and-war/gutenberg-53453/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/53453) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Instincts+of+the+Herd+in+Peace+and+War%22%29+AND+creator%3A%28%22Wilfred+Trotter%22%29) |
+| Les Misérables | Victor Hugo | 1862 | [EPUB](../content/books/les-miserables/gutenberg-135/book.epub) · [PDF](../content/books/les-miserables/gutenberg-135/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/135) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Les+Mis%C3%A9rables%22%29+AND+creator%3A%28%22Victor+Hugo%22%29) |
+| Manual for the Solution of Military Ciphers | Parker Hitt | 1916 | [EPUB](../content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.epub) · [PDF](../content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/48871) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Manual+for+the+Solution+of+Military+Ciphers%22%29+AND+creator%3A%28%22Parker+Hitt%22%29) |
+| Manufacturing Consent | Edward S. Herman and Noam Chomsky | 1988 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Manufacturing+Consent%22%29+AND+creator%3A%28%22Edward+S.+Herman+and+Noam+Chomsky%22%29) |
+| Noli Me Tangere | José Rizal | 1887 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Noli+Me+Tangere%22%29+AND+creator%3A%28%22Jos%C3%A9+Rizal%22%29) |
+| Notes from Underground | Fyodor Dostoevsky | 1864 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Notes+from+Underground%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| On Liberty | John Stuart Mill | 1859 | [EPUB](../content/books/on-liberty/gutenberg-34901/book.epub) · [PDF](../content/books/on-liberty/gutenberg-34901/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/34901) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22On+Liberty%22%29+AND+creator%3A%28%22John+Stuart+Mill%22%29) |
+| On Tyranny | Timothy Snyder | 2017 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22On+Tyranny%22%29+AND+creator%3A%28%22Timothy+Snyder%22%29) |
+| Permanent Record | Edward Snowden | 2019 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Permanent+Record%22%29+AND+creator%3A%28%22Edward+Snowden%22%29) |
+| Propaganda | Edward Bernays | 1928 | [EPUB](../content/books/propaganda/gutenberg-78634/book.epub) · [PDF](../content/books/propaganda/gutenberg-78634/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/78634) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Propaganda%22%29+AND+creator%3A%28%22Edward+Bernays%22%29) |
+| Public Opinion | Walter Lippmann | 1922 | [EPUB](../content/books/public-opinion/gutenberg-6456/book.epub) · [PDF](../content/books/public-opinion/gutenberg-6456/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/6456) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Public+Opinion%22%29+AND+creator%3A%28%22Walter+Lippmann%22%29) |
+| Resurrection | Leo Tolstoy | 1899 | [EPUB](../content/books/resurrection-tolstoy/gutenberg-1938/book.epub) · [PDF](../content/books/resurrection-tolstoy/gutenberg-1938/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1938) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Resurrection%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| Rights of Man | Thomas Paine | 1791 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Rights+of+Man%22%29+AND+creator%3A%28%22Thomas+Paine%22%29) |
+| Seeing Like a State | James C. Scott | 1998 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Seeing+Like+a+State%22%29+AND+creator%3A%28%22James+C.+Scott%22%29) |
+| Surveillance Self-Defense | Electronic Frontier Foundation |  | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Surveillance+Self-Defense%22%29+AND+creator%3A%28%22%22%29) |
+| Tartuffe | Molière | 1664 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Tartuffe%22%29+AND+creator%3A%28%22Moli%C3%A8re%22%29) |
+| The Age of Reason | Thomas Paine | 1794 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Age+of+Reason%22%29+AND+creator%3A%28%22Thomas+Paine%22%29) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Brothers+Karamazov%22%29+AND+creator%3A%28%22Fyodor+Dostoevsky%22%29) |
+| The Castle | Franz Kafka | 1926 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Castle%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The Crowd | Gustave Le Bon | 1895 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Crowd%22%29+AND+creator%3A%28%22Gustave+Le+Bon%22%29) |
+| The Demon-Haunted World | Carl Sagan | 1995 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Demon-Haunted+World%22%29+AND+creator%3A%28%22Carl+Sagan%22%29) |
+| The Dispossessed | Ursula K. Le Guin | 1974 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Dispossessed%22%29+AND+creator%3A%28%22Ursula+K.+Le+Guin%22%29) |
+| The Essence of Christianity | Ludwig Feuerbach | 1841 | [EPUB](../content/books/the-essence-of-christianity/gutenberg-47025/book.epub) · [PDF](../content/books/the-essence-of-christianity/gutenberg-47025/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/47025) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Essence+of+Christianity%22%29+AND+creator%3A%28%22Ludwig+Feuerbach%22%29) |
+| The Federalist Papers | Alexander Hamilton, James Madison, and John Jay | 1787 | — | [Project Gutenberg](https://www.gutenberg.org/ebooks/22788) · [Project Gutenberg](https://www.gutenberg.org/ebooks/1404) · [Project Gutenberg](https://www.gutenberg.org/ebooks/18) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Federalist+Papers%22%29+AND+creator%3A%28%22Alexander+Hamilton%2C+James+Madison%2C+and+John+Jay%22%29) |
+| The Gulag Archipelago | Aleksandr Solzhenitsyn | 1973 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Gulag+Archipelago%22%29+AND+creator%3A%28%22Aleksandr+Solzhenitsyn%22%29) |
+| The Jungle | Upton Sinclair | 1906 | [EPUB](../content/books/the-jungle/gutenberg-140/book.epub) · [PDF](../content/books/the-jungle/gutenberg-140/book.pdf) · [EPUB](../content/books/the-jungle/gutenberg-1400/book.epub) · [PDF](../content/books/the-jungle/gutenberg-1400/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/140) · [Project Gutenberg](https://www.gutenberg.org/ebooks/6556) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Jungle%22%29+AND+creator%3A%28%22Upton+Sinclair%22%29) |
+| The Life of Jesus Critically Examined | David Friedrich Strauss | 1835 | [EPUB](../content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.epub) · [PDF](../content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/64037) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Life+of+Jesus+Critically+Examined%22%29+AND+creator%3A%28%22David+Friedrich+Strauss%22%29) |
+| The Mother | Maxim Gorky | 1906 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Mother%22%29+AND+creator%3A%28%22Maxim+Gorky%22%29) |
+| The Open Society and Its Enemies | Karl Popper | 1945 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Open+Society+and+Its+Enemies%22%29+AND+creator%3A%28%22Karl+Popper%22%29) |
+| The Origins of Totalitarianism | Hannah Arendt | 1951 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Origins+of+Totalitarianism%22%29+AND+creator%3A%28%22Hannah+Arendt%22%29) |
+| The Power of the Powerless | Václav Havel | 1978 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Power+of+the+Powerless%22%29+AND+creator%3A%28%22V%C3%A1clav+Havel%22%29) |
+| The Psychology of Suggestion | Boris Sidis | 1898 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Psychology+of+Suggestion%22%29+AND+creator%3A%28%22Boris+Sidis%22%29) |
+| The Republic | Plato | -380 | [EPUB](../content/books/the-republic/gutenberg-1497/book.epub) · [PDF](../content/books/the-republic/gutenberg-1497/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/1497) · [Project Gutenberg](https://www.gutenberg.org/ebooks/150) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Republic%22%29+AND+creator%3A%28%22Plato%22%29) |
+| The Social Contract | Jean-Jacques Rousseau | 1762 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Social+Contract%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29) |
+| The Subjection of Women | John Stuart Mill | 1869 | [EPUB](../content/books/the-subjection-of-women/gutenberg-27083/book.epub) · [PDF](../content/books/the-subjection-of-women/gutenberg-27083/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/27083) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Subjection+of+Women%22%29+AND+creator%3A%28%22John+Stuart+Mill%22%29) |
+| The Trial | Franz Kafka | 1925 | [EPUB](../content/books/the-trial/gutenberg-7849/book.epub) · [PDF](../content/books/the-trial/gutenberg-7849/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/7849) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Trial%22%29+AND+creator%3A%28%22Franz+Kafka%22%29) |
+| The True Believer | Eric Hoffer | 1951 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+True+Believer%22%29+AND+creator%3A%28%22Eric+Hoffer%22%29) |
+| The True Story of Ah Q | Lu Xun | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+True+Story+of+Ah+Q%22%29+AND+creator%3A%28%22Lu+Xun%22%29) |
+| The Vortex | José Eustasio Rivera | 1924 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Vortex%22%29+AND+creator%3A%28%22Jos%C3%A9+Eustasio+Rivera%22%29) |
+| Theological-Political Treatise | Baruch Spinoza | 1670 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Theological-Political+Treatise%22%29+AND+creator%3A%28%22Baruch+Spinoza%22%29) |
+| Thought Reform and the Psychology of Totalism | Robert Jay Lifton | 1961 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Thought+Reform+and+the+Psychology+of+Totalism%22%29+AND+creator%3A%28%22Robert+Jay+Lifton%22%29) |
+| Two Treatises of Government | John Locke | 1689 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Two+Treatises+of+Government%22%29+AND+creator%3A%28%22John+Locke%22%29) |
+| War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/2600) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22War+and+Peace%22%29+AND+creator%3A%28%22Leo+Tolstoy%22%29) |
+| We | Yevgeny Zamyatin | 1921 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22We%22%29+AND+creator%3A%28%22Yevgeny+Zamyatin%22%29) |
+| Weapons of Math Destruction | Cathy O'Neil | 2016 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Weapons+of+Math+Destruction%22%29+AND+creator%3A%28%22Cathy+O%27Neil%22%29) |
+| What Is Property? | Pierre-Joseph Proudhon | 1840 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22What+Is+Property%3F%22%29+AND+creator%3A%28%22Pierre-Joseph+Proudhon%22%29) |
+| What Is to Be Done? | Nikolai Chernyshevsky | 1863 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22What+Is+to+Be+Done%3F%22%29+AND+creator%3A%28%22Nikolai+Chernyshevsky%22%29) |
+| Why I Am an Agnostic | Robert G. Ingersoll | 1896 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Why+I+Am+an+Agnostic%22%29+AND+creator%3A%28%22Robert+G.+Ingersoll%22%29) |
+| Émile, or On Education | Jean-Jacques Rousseau | 1762 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22%C3%89mile%2C+or+On+Education%22%29+AND+creator%3A%28%22Jean-Jacques+Rousseau%22%29) |
 
 ## open-distribution
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Content | Cory Doctorow | 2008 | Source link available | Not included locally |
-| CryptoParty Handbook | CryptoParty contributors | 2012 | Source link available | Not included locally |
-| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | Source recorded | EPUB + PDF included |
-| Free Culture | Lawrence Lessig | 2004 | Source link available | Not included locally |
+| Content | Cory Doctorow | 2008 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Content%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29) |
+| CryptoParty Handbook | CryptoParty contributors | 2012 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22CryptoParty+Handbook%22%29+AND+creator%3A%28%22%22%29) |
+| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | [EPUB](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub) · [PDF](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/8086) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Down+and+Out+in+the+Magic+Kingdom%22%29+AND+creator%3A%28%22Cory+Doctorow%22%29) |
+| Free Culture | Lawrence Lessig | 2004 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Free+Culture%22%29+AND+creator%3A%28%22Lawrence+Lessig%22%29) |
 
 ## practical-library
 
-| Title | Author / publisher | Year | Access | Library copy |
+| Title | Author / publisher | Year | Local files | Sources |
 | --- | --- | ---: | --- | --- |
-| Audel's Carpenters and Builders Guide | Theo. Audel and Company | 1923 | Source link available | Not included locally |
-| Camp-Lore and Woodcraft | D. C. Beard | 1920 | Source link available | Not included locally |
-| Dry-Farming | John A. Widtsoe | 1911 | Source link available | Not included locally |
-| Farm Mechanics | Herbert A. Shearer | 1918 | Source link available | Not included locally |
-| Handy Farm Devices and How to Make Them | Rolfe Cobleigh | 1909 | Source link available | Not included locally |
-| Henley's Twentieth Century Formulas, Recipes and Processes | Norman W. Henley | 1907 | Source link available | Not included locally |
-| Home Canning of Fruits and Vegetables | United States Department of Agriculture | 1924 | Source recorded | EPUB + PDF included |
-| Manual of Gardening | L. H. Bailey | 1910 | Source link available | Not included locally |
-| The American Woman's Home | Catharine Beecher and Harriet Beecher Stowe | 1869 | Source link available | Not included locally |
-| The Boy Mechanic, Volume 1 | Popular Mechanics | 1913 | Source link available | Not included locally |
-| The Boy Mechanic, Volume 2 | Popular Mechanics | 1915 | Source link available | Not included locally |
-| The Boy Mechanic, Volume 3 | Popular Mechanics | 1916 | Source link available | Not included locally |
-| The First Book of Farming | Charles L. Goodrich | 1905 | Source recorded | EPUB + PDF included |
-| The Preservation of Food in the Home | United States Department of Agriculture | 1918 | Source link available | Not included locally |
-| Woodcraft and Camping | George Washington Sears | 1884 | Source recorded | EPUB + PDF included |
+| Audel's Carpenters and Builders Guide | Theo. Audel and Company | 1923 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Audel%27s+Carpenters+and+Builders+Guide%22%29+AND+creator%3A%28%22%22%29) |
+| Camp-Lore and Woodcraft | D. C. Beard | 1920 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Camp-Lore+and+Woodcraft%22%29+AND+creator%3A%28%22D.+C.+Beard%22%29) |
+| Dry-Farming | John A. Widtsoe | 1911 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Dry-Farming%22%29+AND+creator%3A%28%22John+A.+Widtsoe%22%29) |
+| Farm Mechanics | Herbert A. Shearer | 1918 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Farm+Mechanics%22%29+AND+creator%3A%28%22Herbert+A.+Shearer%22%29) |
+| Handy Farm Devices and How to Make Them | Rolfe Cobleigh | 1909 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Handy+Farm+Devices+and+How+to+Make+Them%22%29+AND+creator%3A%28%22Rolfe+Cobleigh%22%29) |
+| Henley's Twentieth Century Formulas, Recipes and Processes | Norman W. Henley | 1907 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Henley%27s+Twentieth+Century+Formulas%2C+Recipes+and+Processes%22%29+AND+creator%3A%28%22%22%29) |
+| Home Canning of Fruits and Vegetables | United States Department of Agriculture | 1924 | [EPUB](../content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.epub) · [PDF](../content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/66136) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Home+Canning+of+Fruits+and+Vegetables%22%29+AND+creator%3A%28%22%22%29) |
+| Manual of Gardening | L. H. Bailey | 1910 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Manual+of+Gardening%22%29+AND+creator%3A%28%22L.+H.+Bailey%22%29) |
+| The American Woman's Home | Catharine Beecher and Harriet Beecher Stowe | 1869 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+American+Woman%27s+Home%22%29+AND+creator%3A%28%22Catharine+Beecher+and+Harriet+Beecher+Stowe%22%29) |
+| The Boy Mechanic, Volume 1 | Popular Mechanics | 1913 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+1%22%29+AND+creator%3A%28%22%22%29) |
+| The Boy Mechanic, Volume 2 | Popular Mechanics | 1915 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+2%22%29+AND+creator%3A%28%22%22%29) |
+| The Boy Mechanic, Volume 3 | Popular Mechanics | 1916 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Boy+Mechanic%2C+Volume+3%22%29+AND+creator%3A%28%22%22%29) |
+| The First Book of Farming | Charles L. Goodrich | 1905 | [EPUB](../content/books/the-first-book-of-farming/gutenberg-16900/book.epub) · [PDF](../content/books/the-first-book-of-farming/gutenberg-16900/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/16900) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+First+Book+of+Farming%22%29+AND+creator%3A%28%22Charles+L.+Goodrich%22%29) |
+| The Preservation of Food in the Home | United States Department of Agriculture | 1918 | — | [Search Internet Archive](https://archive.org/search?query=title%3A%28%22The+Preservation+of+Food+in+the+Home%22%29+AND+creator%3A%28%22%22%29) |
+| Woodcraft and Camping | George Washington Sears | 1884 | [EPUB](../content/books/woodcraft-and-camping/gutenberg-34607/book.epub) · [PDF](../content/books/woodcraft-and-camping/gutenberg-34607/book.pdf) | [Project Gutenberg](https://www.gutenberg.org/ebooks/34607) · [Search Internet Archive](https://archive.org/search?query=title%3A%28%22Woodcraft+and+Camping%22%29+AND+creator%3A%28%22George+Washington+Sears%22%29) |
 
 ## How to consume this catalog
 

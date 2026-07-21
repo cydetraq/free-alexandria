@@ -14,10 +14,9 @@ API_PATH = CATALOG / "catalog.json"
 MARKDOWN_PATH = ROOT / "docs" / "catalog.md"
 
 
-def load_published_ids() -> set[str]:
-    """Return work IDs with a committed local edition in this repository."""
-    registry = json.loads((CATALOG / "published-editions.json").read_text())
-    return {work_id for work_id, editions in registry.get("editions", {}).items() if editions}
+def load_published_editions() -> dict[str, list[dict]]:
+    """Return the committed local editions keyed by work ID."""
+    return json.loads((CATALOG / "published-editions.json").read_text()).get("editions", {})
 
 
 def reader_availability(record: dict, options: list[dict], published_ids: set[str]) -> dict[str, str]:
@@ -66,7 +65,7 @@ def render_api() -> str:
     source_documents["published-editions.json"] = (CATALOG / "published-editions.json").read_text()
     source_documents["resolved-sources.json"] = (CATALOG / "resolved-sources.json").read_text()
     source_options = load_source_options()
-    published_ids = load_published_ids()
+    published_ids = set(load_published_editions())
     records = [
         {
             **record,
@@ -96,6 +95,28 @@ def table_cell(value: object) -> str:
     return str(value or "").replace("|", "\\|").replace("\n", " ")
 
 
+def markdown_links(items: list[tuple[str, str]]) -> str:
+    return " · ".join(f"[{label}]({url})" for label, url in items) or "—"
+
+
+def local_file_links(editions: list[dict]) -> str:
+    """Render usable relative EPUB/PDF links for GitHub and an offline clone."""
+    links: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for edition in editions:
+        for file in edition.get("files", []):
+            role = str(file.get("role", "file")).upper()
+            key = (role, file["path"])
+            if key not in seen:
+                seen.add(key)
+                links.append((role, "../" + file["path"]))
+    return markdown_links(links)
+
+
+def source_links(options: list[dict]) -> str:
+    return markdown_links([(option["label"], option["url"]) for option in options])
+
+
 def render_markdown(records: list[dict]) -> str:
     grouped: dict[str, list[dict]] = defaultdict(list)
     for record in records:
@@ -110,7 +131,8 @@ def render_markdown(records: list[dict]) -> str:
         "essential-literature": "Essential Literature",
     }
     source_options = load_source_options()
-    published_ids = load_published_ids()
+    published_editions = load_published_editions()
+    published_ids = set(published_editions)
     lines = [
         "# Catalog",
         "",
@@ -123,16 +145,15 @@ def render_markdown(records: list[dict]) -> str:
         "",
     ]
     for collection in sorted(grouped, key=lambda item: labels.get(item, item)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Access | Library copy |", "| --- | --- | ---: | --- | --- |"])
+        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files | Sources |", "| --- | --- | ---: | --- | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
-            availability = reader_availability(record, source_options.get(record["id"], []), published_ids)
             lines.append(
-                "| {title} | {creator} | {year} | {access} | {library} |".format(
+                "| {title} | {creator} | {year} | {files} | {sources} |".format(
                     title=table_cell(record.get("title")),
                     creator=table_cell(record.get("author") or record.get("publisher")),
                     year=table_cell(record.get("original_year")),
-                    access=table_cell(availability["access"]),
-                    library=table_cell(availability["library"]),
+                    files=local_file_links(published_editions.get(record["id"], [])),
+                    sources=source_links(source_options.get(record["id"], [])),
                 )
             )
         lines.append("")

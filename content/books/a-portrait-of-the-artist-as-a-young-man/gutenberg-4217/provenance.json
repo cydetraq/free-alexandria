@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "a-portrait-of-the-artist-as-a-young-man",
+  "edition_id": "a-portrait-of-the-artist-as-a-young-man-en-source-1916-gutenberg-4217",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "4217",
+    "edition_page": "https://www.gutenberg.org/ebooks/4217",
+    "acquired_at": "2026-07-21T18:39:12+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub",
+      "sha256": "0258257fb62854b038ac33084d76897faf0edff2d2d9af0b9178cabbc329ac6d",
+      "bytes": 313451
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf",
+      "sha256": "26fa95ec3e43b2bfdf3e29802389a0b38b61e37e102dca9b412d7bbc782d2138",
+      "bytes": 442019
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

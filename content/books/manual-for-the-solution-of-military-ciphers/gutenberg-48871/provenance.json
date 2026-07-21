@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "manual-for-the-solution-of-military-ciphers",
+  "edition_id": "manual-for-the-solution-of-military-ciphers-en-source-1916-gutenberg-48871",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "48871",
+    "edition_page": "https://www.gutenberg.org/ebooks/48871",
+    "acquired_at": "2026-07-21T18:39:34+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.epub",
+      "sha256": "72ef561f355d8944cf0a100b2ff64d026b0ff84d3e6b5c5f05afe0837d747ffe",
+      "bytes": 197356
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/manual-for-the-solution-of-military-ciphers/gutenberg-48871/book.pdf",
+      "sha256": "728aa5ef6443960635c3f5e365e7d7dce637c645ea05966949978a05e863f9cc",
+      "bytes": 203529
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

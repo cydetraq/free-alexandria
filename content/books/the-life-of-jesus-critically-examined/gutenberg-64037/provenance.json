@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-life-of-jesus-critically-examined",
+  "edition_id": "the-life-of-jesus-critically-examined-en-source-1835-gutenberg-64037",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "64037",
+    "edition_page": "https://www.gutenberg.org/ebooks/64037",
+    "acquired_at": "2026-07-21T18:43:01+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.epub",
+      "sha256": "8068d8bd63deef1c660d001e76a7f0673f9fce8087804e158b6257d2af686ad3",
+      "bytes": 1784781
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf",
+      "sha256": "5e7c9c4c4d74606a813078cfd9a9d5ce0d4b60a1ba9b0bf5ee88c59b32f91c68",
+      "bytes": 2684750
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "resurrection-tolstoy",
+  "edition_id": "resurrection-tolstoy-en-source-1899-gutenberg-1938",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1938",
+    "edition_page": "https://www.gutenberg.org/ebooks/1938",
+    "acquired_at": "2026-07-21T18:39:58+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/resurrection-tolstoy/gutenberg-1938/book.epub",
+      "sha256": "dacb39e07091d42fced5f94bd5c9bae6f79dc92ed106ef7c0513bcab11d859c1",
+      "bytes": 493107
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/resurrection-tolstoy/gutenberg-1938/book.pdf",
+      "sha256": "2b68c2d648eaa7035395488c91bcadd2bd10ab256f1317714d0b6910ed0f015a",
+      "bytes": 866611
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

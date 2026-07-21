@@ -77,7 +77,7 @@ def load_registry(path: Path) -> dict:
 
 def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
     item_id = source["item_id"]
-    edition_dir = root / "content" / "books" / record["id"] / f"en-source-{record.get('original_year', 'undated')}--gutenberg-{item_id}"
+    edition_dir = root / "content" / "books" / record["id"] / f"gutenberg-{item_id}"
     epub = edition_dir / "book.epub"
     pdf = edition_dir / "book.pdf"
     provenance = edition_dir / "provenance.json"

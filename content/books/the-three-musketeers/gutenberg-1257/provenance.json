@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-three-musketeers",
+  "edition_id": "the-three-musketeers-en-source-1844-gutenberg-1257",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1257",
+    "edition_page": "https://www.gutenberg.org/ebooks/1257",
+    "acquired_at": "2026-07-21T18:43:24+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-three-musketeers/gutenberg-1257/book.epub",
+      "sha256": "06cc3a5124960edd40f5cb8a700bbb0fcf7cac62264186a3e4facfd5aa860d60",
+      "bytes": 841530
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-three-musketeers/gutenberg-1257/book.pdf",
+      "sha256": "1034f1d09fe6a9c11f7d4e1a0547006c475500a20e547d706cccf135c27403e5",
+      "bytes": 1244638
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

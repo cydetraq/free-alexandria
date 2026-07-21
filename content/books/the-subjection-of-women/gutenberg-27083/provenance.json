@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-subjection-of-women",
+  "edition_id": "the-subjection-of-women-en-source-1869-gutenberg-27083",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "27083",
+    "edition_page": "https://www.gutenberg.org/ebooks/27083",
+    "acquired_at": "2026-07-21T18:43:18+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-subjection-of-women/gutenberg-27083/book.epub",
+      "sha256": "ddc7ff967aa733d1986d4b7cf091f8cb14cba4b176dba348fd6363fe18033f01",
+      "bytes": 183453
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-subjection-of-women/gutenberg-27083/book.pdf",
+      "sha256": "07007b8e0980255dafb08d44c1e04ace6139ce8317f16c50d989868eb786091f",
+      "bytes": 232131
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

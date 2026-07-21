@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "steppenwolf",
+  "edition_id": "steppenwolf-en-source-1927-gutenberg-75756",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "75756",
+    "edition_page": "https://www.gutenberg.org/ebooks/75756",
+    "acquired_at": "2026-07-21T18:40:35+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/steppenwolf/gutenberg-75756/book.epub",
+      "sha256": "6ba452acb3ceafa0e0c6b7850157d5e37f1f897ee1749714eab6d31fe49ddc1e",
+      "bytes": 409524
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/steppenwolf/gutenberg-75756/book.pdf",
+      "sha256": "43007947a1adbdd0091e9a834fcff1ec5d973700c337f953956fcf2ae9adaff8",
+      "bytes": 368743
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

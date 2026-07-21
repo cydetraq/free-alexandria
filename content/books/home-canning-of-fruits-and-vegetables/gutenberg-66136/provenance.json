@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "home-canning-of-fruits-and-vegetables",
+  "edition_id": "home-canning-of-fruits-and-vegetables-en-source-1924-gutenberg-66136",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "66136",
+    "edition_page": "https://www.gutenberg.org/ebooks/66136",
+    "acquired_at": "2026-07-21T18:38:32+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.epub",
+      "sha256": "36e328267a1573cb951bab99d7b8f809be0e058094841bbddfb87bae9080de6a",
+      "bytes": 1768061
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/home-canning-of-fruits-and-vegetables/gutenberg-66136/book.pdf",
+      "sha256": "9380082897a63d315516788370304819fbf0b9540a9ea0370df2b722f762ee51",
+      "bytes": 117012
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

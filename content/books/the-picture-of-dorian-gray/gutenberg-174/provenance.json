@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-picture-of-dorian-gray",
+  "edition_id": "the-picture-of-dorian-gray-en-source-1890-gutenberg-174",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "174",
+    "edition_page": "https://www.gutenberg.org/ebooks/174",
+    "acquired_at": "2026-07-21T18:43:07+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-picture-of-dorian-gray/gutenberg-174/book.epub",
+      "sha256": "ee80e49f911268dc7314f05ca02fbd256301566c7a5b6fc072ebc8f60f63d294",
+      "bytes": 460207
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-picture-of-dorian-gray/gutenberg-174/book.pdf",
+      "sha256": "1f7be358d6a9d1f943659655c76834c6743103e9396e99b4be0cb44027e93103",
+      "bytes": 409980
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

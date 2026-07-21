@@ -1,0 +1,29 @@
+{
+  "format_version": 1,
+  "work_id": "don-quixote",
+  "edition_id": "don-quixote-en-ormsby-1885-gutenberg-996",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "996",
+    "edition_page": "https://www.gutenberg.org/ebooks/996",
+    "epub_url": "https://www.gutenberg.org/ebooks/996.epub.images",
+    "text_url_used_for_pdf": "https://www.gutenberg.org/cache/epub/996/pg996.txt",
+    "acquired_at": "2026-07-21T17:56:05+00:00"
+  },
+  "files": [
+    {
+      "path": "content/books/don-quixote/gutenberg-996/book.epub",
+      "bytes": 45972722,
+      "sha256": "dba05369ff126f8ccbeb356d7f950550eab3bf5adc6c67b8be13d7465e6d1a6e",
+      "format": "epub"
+    },
+    {
+      "path": "content/books/don-quixote/gutenberg-996/book.pdf",
+      "bytes": 1950698,
+      "sha256": "673e37538599798a026d25e6bf00ab68f73b2e7fcbbb55513f3deb8dbda04c78",
+      "format": "pdf",
+      "derived_from": "https://www.gutenberg.org/cache/epub/996/pg996.txt"
+    }
+  ],
+  "rights_note": "This acquisition tool is limited to explicitly reviewed Project Gutenberg queue records. Confirm the edition's rights statement and preserve any required source notice before publishing a distribution."
+}

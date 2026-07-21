@@ -1,19 +1,6 @@
-# Generated and large local artifacts
+# Generated deployment artifacts
 dist/
 search-index.json
-*.epub
-*.pdf
-*.mobi
-*.azw3
-*.webp
-*.jpg
-*.jpeg
-*.png
-
-# Keep directory placeholders and license/provenance records
-!**/.gitkeep
-!**/LICENSE.txt
-!**/provenance.json
 
 # Local tooling
 .venv/

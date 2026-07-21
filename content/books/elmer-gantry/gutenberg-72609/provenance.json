@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "elmer-gantry",
+  "edition_id": "elmer-gantry-en-source-1927-gutenberg-72609",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "72609",
+    "edition_page": "https://www.gutenberg.org/ebooks/72609",
+    "acquired_at": "2026-07-21T18:38:19+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/elmer-gantry/gutenberg-72609/book.epub",
+      "sha256": "0d00066ac3c4ddcc0c1779e17f9d2f897037753ed2f1c062aa07b8d301cfeaaf",
+      "bytes": 506912
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/elmer-gantry/gutenberg-72609/book.pdf",
+      "sha256": "2073ddfbae081fab9a720b738af3c639bee584b918de739a11a52e862c7d6bcd",
+      "bytes": 832651
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-essence-of-christianity",
+  "edition_id": "the-essence-of-christianity-en-source-1841-gutenberg-47025",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "47025",
+    "edition_page": "https://www.gutenberg.org/ebooks/47025",
+    "acquired_at": "2026-07-21T18:42:40+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-essence-of-christianity/gutenberg-47025/book.epub",
+      "sha256": "d3ae499ece5e817ec5e46d5248e12c995f13f9e97b7b0b48de674dee3957643e",
+      "bytes": 519839
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-essence-of-christianity/gutenberg-47025/book.pdf",
+      "sha256": "2f449297d7bccdb1cbcab9174cd923236528a1fdb407f41015ef4563d31f1a62",
+      "bytes": 698222
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

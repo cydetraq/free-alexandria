@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "lady-chatterleys-lover",
+  "edition_id": "lady-chatterleys-lover-en-source-1928-gutenberg-73144",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "73144",
+    "edition_page": "https://www.gutenberg.org/ebooks/73144",
+    "acquired_at": "2026-07-21T18:38:46+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/lady-chatterleys-lover/gutenberg-73144/book.epub",
+      "sha256": "a57fa1ca3f1ad25d3fea7ac5708a8e29cde201ca25d19b0b6e45aaa20cc82636",
+      "bytes": 424545
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf",
+      "sha256": "c5d302b8f83ebd1b93d059efbddce109323bde5ea7cdb5484507a1d0156edfc3",
+      "bytes": 618698
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}
