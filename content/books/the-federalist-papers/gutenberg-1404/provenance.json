@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-federalist-papers",
+  "edition_id": "the-federalist-papers-en-source-1787-gutenberg-1404",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1404",
+    "edition_page": "https://www.gutenberg.org/ebooks/1404",
+    "acquired_at": "2026-07-21T19:42:54+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-federalist-papers/gutenberg-1404/book.epub",
+      "sha256": "47d531178b86d69fa8449007610a4432303d0716e1d008b0e65b56a5eab87cf3",
+      "bytes": 522348
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-federalist-papers/gutenberg-1404/book.pdf",
+      "sha256": "e05f0264b50cb74fdc9524c39273d665930e8ff7967525acaf07d4dd9067253f",
+      "bytes": 923787
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

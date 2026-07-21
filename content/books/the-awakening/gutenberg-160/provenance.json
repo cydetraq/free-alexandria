@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-awakening",
+  "edition_id": "the-awakening-en-source-1899-gutenberg-160",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "160",
+    "edition_page": "https://www.gutenberg.org/ebooks/160",
+    "acquired_at": "2026-07-21T19:42:46+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-awakening/gutenberg-160/book.epub",
+      "sha256": "e7330397f6694081ebb6d1c8eccc2e04e76847c5ef749b63a846f427195bdba4",
+      "bytes": 244558
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-awakening/gutenberg-160/book.pdf",
+      "sha256": "b8b75ddc87db5e6e593549db87c6ab8f903413f9a5a5bed1c9ac80cde0938219",
+      "bytes": 352849
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "frankenstein-1818",
+  "edition_id": "frankenstein-1818-en-source-1818-gutenberg-84",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "84",
+    "edition_page": "https://www.gutenberg.org/ebooks/84",
+    "acquired_at": "2026-07-21T19:42:28+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/frankenstein-1818/gutenberg-84/book.epub",
+      "sha256": "1ac83783a4fb85a1ac54d3aeb53e1aaf2f1124ffde9e6ce5109963d01d34db95",
+      "bytes": 473790
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/frankenstein-1818/gutenberg-84/book.pdf",
+      "sha256": "e2bd0e8a3f5ed1031c06b25bb82175a993aa099711a77aaa358b763a9f5e2666",
+      "bytes": 382452
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

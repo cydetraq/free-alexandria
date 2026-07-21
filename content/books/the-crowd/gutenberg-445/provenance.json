@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-crowd",
+  "edition_id": "the-crowd-en-source-1895-gutenberg-445",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "445",
+    "edition_page": "https://www.gutenberg.org/ebooks/445",
+    "acquired_at": "2026-07-21T19:42:51+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-crowd/gutenberg-445/book.epub",
+      "sha256": "5ff252beff21cfdb4f940391f36d3f52da6e417503ab39eacc4a89b6ab43e414",
+      "bytes": 214245
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-crowd/gutenberg-445/book.pdf",
+      "sha256": "d1991a817869b7e2285562d8e323e0de2f5ad4074150334410dea279a4fbb943",
+      "bytes": 316348
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

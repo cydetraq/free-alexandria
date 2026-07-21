@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "democracy-in-america",
+  "edition_id": "democracy-in-america-en-source-1835-gutenberg-815",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "815",
+    "edition_page": "https://www.gutenberg.org/ebooks/815",
+    "acquired_at": "2026-07-21T19:42:14+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/democracy-in-america/gutenberg-815/book.epub",
+      "sha256": "a55d98f3b1074cab23a6fd7e4fa8147ca0c0f658882c44aff2df980b303331ba",
+      "bytes": 543699
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/democracy-in-america/gutenberg-815/book.pdf",
+      "sha256": "c036e79356443ab726ec2c5d1b2ceaf6753d053b23043ea4b694405e99c89594",
+      "bytes": 912290
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

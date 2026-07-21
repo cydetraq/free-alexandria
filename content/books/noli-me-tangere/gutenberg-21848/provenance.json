@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "noli-me-tangere",
+  "edition_id": "noli-me-tangere-en-source-1887-gutenberg-21848",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "21848",
+    "edition_page": "https://www.gutenberg.org/ebooks/21848",
+    "acquired_at": "2026-07-21T19:42:35+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/noli-me-tangere/gutenberg-21848/book.epub",
+      "sha256": "5f93bfb47ffd9808a9097987e854bc374816399c891377fde41b62cf2140ac0d",
+      "bytes": 522117
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/noli-me-tangere/gutenberg-21848/book.pdf",
+      "sha256": "ab215f5600b342fcf7933fc967150fc0cbe2112bb87b389a391c08f183111296",
+      "bytes": 777259
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

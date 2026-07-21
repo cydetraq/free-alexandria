@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "dry-farming",
+  "edition_id": "dry-farming-en-source-1911-gutenberg-4924",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "4924",
+    "edition_page": "https://www.gutenberg.org/ebooks/4924",
+    "acquired_at": "2026-07-21T19:42:17+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/dry-farming/gutenberg-4924/book.epub",
+      "sha256": "bfe433e99669866ad52e697fed71ae51b66d81ea46f21d97cc3bea9becf0c506",
+      "bytes": 271380
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/dry-farming/gutenberg-4924/book.pdf",
+      "sha256": "e48a4d5e012a8de64ba8298592f72a485fb10a9005b57877b6a693c06af964ed",
+      "bytes": 396409
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

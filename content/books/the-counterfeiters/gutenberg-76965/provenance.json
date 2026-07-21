@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-counterfeiters",
+  "edition_id": "the-counterfeiters-en-source-1925-gutenberg-76965",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "76965",
+    "edition_page": "https://www.gutenberg.org/ebooks/76965",
+    "acquired_at": "2026-07-21T19:42:49+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-counterfeiters/gutenberg-76965/book.epub",
+      "sha256": "53f6cc5083055e0aa68b74fbb17886b8bd1ea0e606a3ec8111bb5ca30eaf4390",
+      "bytes": 653758
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-counterfeiters/gutenberg-76965/book.pdf",
+      "sha256": "90b4262e22fe92edfdde42c702f2c256305ba4dbfc97b610336ee7051df5317c",
+      "bytes": 632056
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

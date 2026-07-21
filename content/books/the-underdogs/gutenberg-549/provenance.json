@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-underdogs",
+  "edition_id": "the-underdogs-en-source-1915-gutenberg-549",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "549",
+    "edition_page": "https://www.gutenberg.org/ebooks/549",
+    "acquired_at": "2026-07-21T19:43:18+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-underdogs/gutenberg-549/book.epub",
+      "sha256": "9acaf76e4c58755d44f697b9278c8b2835c3475de8e6246ad5339c64bf135108",
+      "bytes": 187635
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-underdogs/gutenberg-549/book.pdf",
+      "sha256": "66bac81f40f8f619030a2dc8237ae43c29f904556ab693be8f530f6079aec3b4",
+      "bytes": 241366
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

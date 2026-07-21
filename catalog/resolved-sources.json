@@ -2,7 +2,7 @@
   "format_version": 1,
   "records": {
     "adventures-of-huckleberry-finn": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -24,10 +24,73 @@
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "9007",
-          "source_url": "https://www.gutenberg.org/ebooks/9007",
+          "source_item_id": "7100",
+          "source_url": "https://www.gutenberg.org/ebooks/7100",
           "label": "Project Gutenberg",
-          "edition_title": "Adventures of Huckleberry Finn",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 01 to 05",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7106",
+          "source_url": "https://www.gutenberg.org/ebooks/7106",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 31 to 35",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7101",
+          "source_url": "https://www.gutenberg.org/ebooks/7101",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 06 to 10",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7102",
+          "source_url": "https://www.gutenberg.org/ebooks/7102",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 11 to 15",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7107",
+          "source_url": "https://www.gutenberg.org/ebooks/7107",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 36 to the Last",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7104",
+          "source_url": "https://www.gutenberg.org/ebooks/7104",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 21 to 25",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7105",
+          "source_url": "https://www.gutenberg.org/ebooks/7105",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 26 to 30",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7103",
+          "source_url": "https://www.gutenberg.org/ebooks/7103",
+          "label": "Project Gutenberg",
+          "edition_title": "Adventures of Huckleberry Finn, Chapters 16 to 20",
           "edition_creator": "Mark Twain",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -44,7 +107,7 @@
       ]
     },
     "don-quixote": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -57,11 +120,20 @@
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "7094",
-          "source_url": "https://www.gutenberg.org/ebooks/7094",
+          "source_item_id": "28842",
+          "source_url": "https://www.gutenberg.org/ebooks/28842",
           "label": "Project Gutenberg",
-          "edition_title": "Don Quixote",
+          "edition_title": "Don Quixote, Volume 1",
           "edition_creator": "Miguel de Cervantes Saavedra",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "55106",
+          "source_url": "https://www.gutenberg.org/ebooks/55106",
+          "label": "Project Gutenberg",
+          "edition_title": "Don Quixote of the Mancha, Retold by Judge Parry",
+          "edition_creator": "Miguel de Cervantes Saavedra and Sir Edward Abbott Parry",
           "resolution_method": "exact-title-and-creator-match"
         },
         {
@@ -77,7 +149,7 @@
       ]
     },
     "ulysses": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -101,21 +173,12 @@
       ]
     },
     "the-jungle": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "140",
           "source_url": "https://www.gutenberg.org/ebooks/140",
-          "label": "Project Gutenberg",
-          "edition_title": "The Jungle",
-          "edition_creator": "Upton Sinclair",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "6556",
-          "source_url": "https://www.gutenberg.org/ebooks/6556",
           "label": "Project Gutenberg",
           "edition_title": "The Jungle",
           "edition_creator": "Upton Sinclair",
@@ -134,7 +197,7 @@
       ]
     },
     "the-trial": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -158,7 +221,7 @@
       ]
     },
     "on-liberty": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -182,7 +245,7 @@
       ]
     },
     "the-great-gatsby": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -206,7 +269,7 @@
       ]
     },
     "lady-chatterleys-lover": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -230,14 +293,14 @@
       ]
     },
     "the-awakening": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "23724",
-          "source_url": "https://www.gutenberg.org/ebooks/23724",
+          "source_item_id": "160",
+          "source_url": "https://www.gutenberg.org/ebooks/160",
           "label": "Project Gutenberg",
-          "edition_title": "The Awakening",
+          "edition_title": "The Awakening, and Selected Short Stories",
           "edition_creator": "Kate Chopin",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -254,21 +317,12 @@
       ]
     },
     "leaves-of-grass": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "1322",
           "source_url": "https://www.gutenberg.org/ebooks/1322",
-          "label": "Project Gutenberg",
-          "edition_title": "Leaves of Grass",
-          "edition_creator": "Walt Whitman",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "23979",
-          "source_url": "https://www.gutenberg.org/ebooks/23979",
           "label": "Project Gutenberg",
           "edition_title": "Leaves of Grass",
           "edition_creator": "Walt Whitman",
@@ -287,7 +341,7 @@
       ]
     },
     "elmer-gantry": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -311,7 +365,7 @@
       ]
     },
     "main-street": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -335,7 +389,7 @@
       ]
     },
     "babbitt": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -359,7 +413,7 @@
       ]
     },
     "the-sun-also-rises": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -383,7 +437,7 @@
       ]
     },
     "as-i-lay-dying": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -398,7 +452,7 @@
       ]
     },
     "the-picture-of-dorian-gray": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -440,14 +494,14 @@
       ]
     },
     "winesburg-ohio": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "22949",
-          "source_url": "https://www.gutenberg.org/ebooks/22949",
+          "source_item_id": "416",
+          "source_url": "https://www.gutenberg.org/ebooks/416",
           "label": "Project Gutenberg",
-          "edition_title": "Winesburg, Ohio",
+          "edition_title": "Winesburg, Ohio: A Group of Tales of Ohio Small Town Life",
           "edition_creator": "Sherwood Anderson",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -464,7 +518,7 @@
       ]
     },
     "the-call-of-the-wild": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -485,15 +539,6 @@
           "resolution_method": "exact-title-and-creator-match"
         },
         {
-          "source_id": "project-gutenberg",
-          "source_item_id": "9115",
-          "source_url": "https://www.gutenberg.org/ebooks/9115",
-          "label": "Project Gutenberg",
-          "edition_title": "The call of the wild",
-          "edition_creator": "Jack London",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
           "source_id": "libby",
           "source_item_id": null,
           "source_url": "https://libbyapp.com/search?query=The+Call+of+the+Wild+Jack+London",
@@ -506,7 +551,7 @@
       ]
     },
     "uncle-toms-cabin": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -530,7 +575,7 @@
       ]
     },
     "the-scarlet-letter": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -563,7 +608,7 @@
       ]
     },
     "the-adventures-of-tom-sawyer": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -576,19 +621,73 @@
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "26203",
-          "source_url": "https://www.gutenberg.org/ebooks/26203",
+          "source_item_id": "7193",
+          "source_url": "https://www.gutenberg.org/ebooks/7193",
           "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_title": "The Adventures of Tom Sawyer, Part 1.",
           "edition_creator": "Mark Twain",
           "resolution_method": "exact-title-and-creator-match"
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "9038",
-          "source_url": "https://www.gutenberg.org/ebooks/9038",
+          "source_item_id": "7195",
+          "source_url": "https://www.gutenberg.org/ebooks/7195",
           "label": "Project Gutenberg",
-          "edition_title": "The Adventures of Tom Sawyer",
+          "edition_title": "The Adventures of Tom Sawyer, Part 3.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7194",
+          "source_url": "https://www.gutenberg.org/ebooks/7194",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 2.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7196",
+          "source_url": "https://www.gutenberg.org/ebooks/7196",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 4.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7200",
+          "source_url": "https://www.gutenberg.org/ebooks/7200",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 8.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7197",
+          "source_url": "https://www.gutenberg.org/ebooks/7197",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 5.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7199",
+          "source_url": "https://www.gutenberg.org/ebooks/7199",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 7.",
+          "edition_creator": "Mark Twain",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7198",
+          "source_url": "https://www.gutenberg.org/ebooks/7198",
+          "label": "Project Gutenberg",
+          "edition_title": "The Adventures of Tom Sawyer, Part 6.",
           "edition_creator": "Mark Twain",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -605,21 +704,12 @@
       ]
     },
     "dubliners": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "2814",
           "source_url": "https://www.gutenberg.org/ebooks/2814",
-          "label": "Project Gutenberg",
-          "edition_title": "Dubliners",
-          "edition_creator": "James Joyce",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "7872",
-          "source_url": "https://www.gutenberg.org/ebooks/7872",
           "label": "Project Gutenberg",
           "edition_title": "Dubliners",
           "edition_creator": "James Joyce",
@@ -638,7 +728,7 @@
       ]
     },
     "a-portrait-of-the-artist-as-a-young-man": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -662,8 +752,35 @@
       ]
     },
     "frankenstein-1818": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "84",
+          "source_url": "https://www.gutenberg.org/ebooks/84",
+          "label": "Project Gutenberg",
+          "edition_title": "Frankenstein; or, the modern prometheus",
+          "edition_creator": "Mary Wollstonecraft Shelley",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "41445",
+          "source_url": "https://www.gutenberg.org/ebooks/41445",
+          "label": "Project Gutenberg",
+          "edition_title": "Frankenstein; Or, The Modern Prometheus",
+          "edition_creator": "Mary Wollstonecraft Shelley",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "42324",
+          "source_url": "https://www.gutenberg.org/ebooks/42324",
+          "label": "Project Gutenberg",
+          "edition_title": "Frankenstein; Or, The Modern Prometheus",
+          "edition_creator": "Mary Wollstonecraft Shelley",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -677,7 +794,7 @@
       ]
     },
     "wuthering-heights": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -701,14 +818,14 @@
       ]
     },
     "jane-eyre": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "23077",
-          "source_url": "https://www.gutenberg.org/ebooks/23077",
+          "source_item_id": "1260",
+          "source_url": "https://www.gutenberg.org/ebooks/1260",
           "label": "Project Gutenberg",
-          "edition_title": "Jane Eyre",
+          "edition_title": "Jane Eyre: An Autobiography",
           "edition_creator": "Charlotte Brontë",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -725,7 +842,7 @@
       ]
     },
     "animal-farm": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -740,7 +857,7 @@
       ]
     },
     "brave-new-world": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -755,7 +872,7 @@
       ]
     },
     "fahrenheit-451": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -770,7 +887,7 @@
       ]
     },
     "the-handmaids-tale": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -785,7 +902,7 @@
       ]
     },
     "the-dispossessed": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -800,7 +917,7 @@
       ]
     },
     "darkness-at-noon": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -815,7 +932,7 @@
       ]
     },
     "origins-of-totalitarianism": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -830,7 +947,7 @@
       ]
     },
     "the-open-society-and-its-enemies": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -845,7 +962,7 @@
       ]
     },
     "the-power-of-the-powerless": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -860,7 +977,7 @@
       ]
     },
     "the-gulag-archipelago": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -875,7 +992,7 @@
       ]
     },
     "seeing-like-a-state": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -890,7 +1007,7 @@
       ]
     },
     "on-tyranny": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -905,7 +1022,7 @@
       ]
     },
     "thought-reform-and-the-psychology-of-totalism": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -920,7 +1037,7 @@
       ]
     },
     "coercive-persuasion": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -935,7 +1052,7 @@
       ]
     },
     "influence-cialdini": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -950,7 +1067,7 @@
       ]
     },
     "manufacturing-consent": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -965,7 +1082,7 @@
       ]
     },
     "the-true-believer": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -980,7 +1097,7 @@
       ]
     },
     "applied-cryptography": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -995,7 +1112,7 @@
       ]
     },
     "cryptography-engineering": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1010,7 +1127,7 @@
       ]
     },
     "permanent-record": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1025,7 +1142,7 @@
       ]
     },
     "data-and-goliath": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1040,7 +1157,7 @@
       ]
     },
     "weapons-of-math-destruction": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1055,7 +1172,7 @@
       ]
     },
     "the-demon-haunted-world": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1070,7 +1187,7 @@
       ]
     },
     "the-satanic-verses": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1085,7 +1202,7 @@
       ]
     },
     "nineteen-eighty-four": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1100,7 +1217,7 @@
       ]
     },
     "the-rape-of-the-mind": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1115,7 +1232,7 @@
       ]
     },
     "fm-21-76-survival": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1130,7 +1247,7 @@
       ]
     },
     "fm-3-25-26-map-reading-and-land-navigation": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1145,7 +1262,7 @@
       ]
     },
     "fm-5-125-rigging-techniques": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1160,7 +1277,7 @@
       ]
     },
     "fm-4-25-11-first-aid": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1175,7 +1292,7 @@
       ]
     },
     "fm-21-10-field-hygiene-and-sanitation": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1190,7 +1307,7 @@
       ]
     },
     "fm-21-11-first-aid-for-soldiers": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1205,7 +1322,7 @@
       ]
     },
     "fm-21-26-map-reading": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1220,7 +1337,7 @@
       ]
     },
     "fm-21-22-survival-at-sea": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1235,7 +1352,7 @@
       ]
     },
     "fm-21-15-clothing-and-equipment": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1250,7 +1367,7 @@
       ]
     },
     "fm-21-17-evasion-and-escape": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1265,7 +1382,7 @@
       ]
     },
     "fm-5-34-engineer-field-data": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1280,8 +1397,26 @@
       ]
     },
     "fm-5-426-carpentry": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "20763",
+          "source_url": "https://www.gutenberg.org/ebooks/20763",
+          "label": "Project Gutenberg",
+          "edition_title": "Carpentry for Boys",
+          "edition_creator": "James Slough Zerbe",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "43574",
+          "source_url": "https://www.gutenberg.org/ebooks/43574",
+          "label": "Project Gutenberg",
+          "edition_title": "Carpentry and Woodwork",
+          "edition_creator": "Edwin W. Foster",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "project-gutenberg",
           "source_item_id": "70226",
@@ -1304,7 +1439,7 @@
       ]
     },
     "fm-5-428-concrete-and-masonry": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1319,7 +1454,7 @@
       ]
     },
     "fm-21-75-survival": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1334,7 +1469,7 @@
       ]
     },
     "fm-21-40-cbrn-defense": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1349,7 +1484,7 @@
       ]
     },
     "tc-3-21-76-ranger-handbook": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1364,7 +1499,7 @@
       ]
     },
     "atp-4-44-water-support-operations": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1379,7 +1514,7 @@
       ]
     },
     "eff-surveillance-self-defense": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1394,7 +1529,7 @@
       ]
     },
     "free-culture": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1409,7 +1544,7 @@
       ]
     },
     "content-selected-essays": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1424,7 +1559,7 @@
       ]
     },
     "down-and-out-in-the-magic-kingdom": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1448,7 +1583,7 @@
       ]
     },
     "cryptoparty-handbook": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1463,14 +1598,14 @@
       ]
     },
     "the-metamorphosis": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "26298",
-          "source_url": "https://www.gutenberg.org/ebooks/26298",
+          "source_item_id": "5200",
+          "source_url": "https://www.gutenberg.org/ebooks/5200",
           "label": "Project Gutenberg",
-          "edition_title": "The Metamorphosis",
+          "edition_title": "Metamorphosis",
           "edition_creator": "Franz Kafka",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -1487,7 +1622,7 @@
       ]
     },
     "the-castle": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1502,7 +1637,7 @@
       ]
     },
     "amerika": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1517,7 +1652,7 @@
       ]
     },
     "berlin-alexanderplatz": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1532,7 +1667,7 @@
       ]
     },
     "the-magic-mountain": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1547,7 +1682,7 @@
       ]
     },
     "siddhartha": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1555,6 +1690,24 @@
           "source_url": "https://www.gutenberg.org/ebooks/2500",
           "label": "Project Gutenberg",
           "edition_title": "Siddhartha",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2499",
+          "source_url": "https://www.gutenberg.org/ebooks/2499",
+          "label": "Project Gutenberg",
+          "edition_title": "Siddhartha: eine indische Dichtung (German)",
+          "edition_creator": "Hermann Hesse",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "58344",
+          "source_url": "https://www.gutenberg.org/ebooks/58344",
+          "label": "Project Gutenberg",
+          "edition_title": "Siddhartha: A Poem of India",
           "edition_creator": "Hermann Hesse",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -1571,7 +1724,7 @@
       ]
     },
     "steppenwolf": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1595,7 +1748,7 @@
       ]
     },
     "swanns-way": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1619,8 +1772,17 @@
       ]
     },
     "the-counterfeiters": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "76965",
+          "source_url": "https://www.gutenberg.org/ebooks/76965",
+          "label": "Project Gutenberg",
+          "edition_title": "The counterfeiters :  (Les faux-monnayeurs)",
+          "edition_creator": "André Gide",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1634,7 +1796,7 @@
       ]
     },
     "the-immoralist": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1658,8 +1820,17 @@
       ]
     },
     "effi-briest": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "5323",
+          "source_url": "https://www.gutenberg.org/ebooks/5323",
+          "label": "Project Gutenberg",
+          "edition_title": "Effi Briest (German)",
+          "edition_creator": "Theodor Fontane",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1673,7 +1844,7 @@
       ]
     },
     "the-death-of-ivan-ilyich": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1688,7 +1859,7 @@
       ]
     },
     "hadji-murad": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1703,7 +1874,7 @@
       ]
     },
     "what-is-to-be-done-chernyshevsky": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1718,8 +1889,17 @@
       ]
     },
     "the-mother-gorky": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "3783",
+          "source_url": "https://www.gutenberg.org/ebooks/3783",
+          "label": "Project Gutenberg",
+          "edition_title": "Mother",
+          "edition_creator": "Maksim Gorky",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1733,7 +1913,7 @@
       ]
     },
     "resurrection-tolstoy": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1757,7 +1937,7 @@
       ]
     },
     "kokoro": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1772,7 +1952,7 @@
       ]
     },
     "i-am-a-cat": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1787,7 +1967,7 @@
       ]
     },
     "botchan": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1802,7 +1982,7 @@
       ]
     },
     "diary-of-a-madman-lu-xun": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1817,7 +1997,7 @@
       ]
     },
     "the-true-story-of-ah-q": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1832,7 +2012,7 @@
       ]
     },
     "rashomon": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1847,7 +2027,7 @@
       ]
     },
     "in-a-grove": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1862,8 +2042,26 @@
       ]
     },
     "noli-me-tangere": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "21848",
+          "source_url": "https://www.gutenberg.org/ebooks/21848",
+          "label": "Project Gutenberg",
+          "edition_title": "Noli me tangere: Filippijnsche roman (Dutch)",
+          "edition_creator": "José Rizal",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "20228",
+          "source_url": "https://www.gutenberg.org/ebooks/20228",
+          "label": "Project Gutenberg",
+          "edition_title": "Noli Me Tangere (Tagalog)",
+          "edition_creator": "José Rizal",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1877,8 +2075,17 @@
       ]
     },
     "el-filibusterismo": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "30903",
+          "source_url": "https://www.gutenberg.org/ebooks/30903",
+          "label": "Project Gutenberg",
+          "edition_title": "El Filibusterismo (Continuación del Noli me tángere) (Spanish)",
+          "edition_creator": "José Rizal",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1892,8 +2099,17 @@
       ]
     },
     "the-underdogs": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "549",
+          "source_url": "https://www.gutenberg.org/ebooks/549",
+          "label": "Project Gutenberg",
+          "edition_title": "The Underdogs: A Novel of the Mexican Revolution",
+          "edition_creator": "Mariano Azuela",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -1907,7 +2123,7 @@
       ]
     },
     "the-vortex": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1922,7 +2138,7 @@
       ]
     },
     "macunaima": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1937,7 +2153,7 @@
       ]
     },
     "woodcraft-and-camping": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -1961,7 +2177,7 @@
       ]
     },
     "camp-lore-and-woodcraft": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1976,7 +2192,7 @@
       ]
     },
     "the-boy-mechanic-volume-1": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -1991,7 +2207,7 @@
       ]
     },
     "the-boy-mechanic-volume-2": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2006,7 +2222,7 @@
       ]
     },
     "the-boy-mechanic-volume-3": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2021,7 +2237,7 @@
       ]
     },
     "handy-farm-devices-and-how-to-make-them": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2036,8 +2252,17 @@
       ]
     },
     "farm-mechanics": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "39791",
+          "source_url": "https://www.gutenberg.org/ebooks/39791",
+          "label": "Project Gutenberg",
+          "edition_title": "Farm Mechanics: Machinery and Its Use to Save Hand Labor on the Farm.",
+          "edition_creator": "Herbert A. Shearer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2051,7 +2276,7 @@
       ]
     },
     "henleys-twentieth-century-formulas": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2066,7 +2291,7 @@
       ]
     },
     "preservation-of-food-in-the-home": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2081,7 +2306,7 @@
       ]
     },
     "home-canning-of-fruits-and-vegetables": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2105,8 +2330,17 @@
       ]
     },
     "the-american-womans-home": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6598",
+          "source_url": "https://www.gutenberg.org/ebooks/6598",
+          "label": "Project Gutenberg",
+          "edition_title": "American Woman's Home: Or, Principles of Domestic Science;",
+          "edition_creator": "Harriet Beecher Stowe and Catharine Esther Beecher",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2120,7 +2354,7 @@
       ]
     },
     "the-first-book-of-farming": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2144,8 +2378,17 @@
       ]
     },
     "dry-farming": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4924",
+          "source_url": "https://www.gutenberg.org/ebooks/4924",
+          "label": "Project Gutenberg",
+          "edition_title": "Dry-Farming : A System of Agriculture for Countries under a Low Rainfall",
+          "edition_creator": "John Andreas Widtsoe",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2159,7 +2402,7 @@
       ]
     },
     "manual-of-gardening": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2174,7 +2417,7 @@
       ]
     },
     "audels-carpenters-and-builders-guide": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2189,7 +2432,7 @@
       ]
     },
     "food-and-water-in-an-emergency": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2204,7 +2447,7 @@
       ]
     },
     "make-water-safe-during-an-emergency": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2219,7 +2462,7 @@
       ]
     },
     "finding-your-way-with-map-and-compass": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2234,7 +2477,7 @@
       ]
     },
     "camping-and-woodcraft": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2249,7 +2492,7 @@
       ]
     },
     "shelters-shacks-and-shanties": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2273,7 +2516,7 @@
       ]
     },
     "emergency-financial-first-aid-kit": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2288,7 +2531,7 @@
       ]
     },
     "use-safe-water-during-an-emergency": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2303,7 +2546,7 @@
       ]
     },
     "preventing-diarrheal-illness-after-a-disaster": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2318,7 +2561,7 @@
       ]
     },
     "household-emergency-plan-and-supply-checklists": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2333,7 +2576,7 @@
       ]
     },
     "wildfire-evacuation-materials": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2348,7 +2591,7 @@
       ]
     },
     "flood-safety-and-cleanup-guides": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2363,7 +2606,7 @@
       ]
     },
     "power-outage-food-safety-guidance": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2378,7 +2621,7 @@
       ]
     },
     "generator-safety-guidance": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2393,7 +2636,7 @@
       ]
     },
     "radiological-emergency-guides": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2408,7 +2651,7 @@
       ]
     },
     "cert-basic-training": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2423,7 +2666,7 @@
       ]
     },
     "areopagitica": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2447,7 +2690,7 @@
       ]
     },
     "common-sense": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2480,7 +2723,7 @@
       ]
     },
     "rights-of-man": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2495,7 +2738,7 @@
       ]
     },
     "civil-disobedience": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2510,7 +2753,7 @@
       ]
     },
     "two-treatises-of-government": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2525,8 +2768,17 @@
       ]
     },
     "the-social-contract": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "46333",
+          "source_url": "https://www.gutenberg.org/ebooks/46333",
+          "label": "Project Gutenberg",
+          "edition_title": "The social contract & discourses",
+          "edition_creator": "Jean-Jacques Rousseau",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2540,8 +2792,17 @@
       ]
     },
     "the-republic": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "55201",
+          "source_url": "https://www.gutenberg.org/ebooks/55201",
+          "label": "Project Gutenberg",
+          "edition_title": "The Republic of Plato",
+          "edition_creator": "Plato",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "project-gutenberg",
           "source_item_id": "1497",
@@ -2573,7 +2834,7 @@
       ]
     },
     "propaganda": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2597,7 +2858,7 @@
       ]
     },
     "public-opinion": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2621,7 +2882,7 @@
       ]
     },
     "manual-for-the-solution-of-military-ciphers": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2645,7 +2906,7 @@
       ]
     },
     "elementary-cryptanalysis": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2669,17 +2930,8 @@
       ]
     },
     "the-federalist-papers": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "22788",
-          "source_url": "https://www.gutenberg.org/ebooks/22788",
-          "label": "Project Gutenberg",
-          "edition_title": "The Federalist Papers",
-          "edition_creator": "Alexander Hamilton, James Madison, and John Jay",
-          "resolution_method": "exact-title-and-creator-match"
-        },
         {
           "source_id": "project-gutenberg",
           "source_item_id": "1404",
@@ -2711,7 +2963,7 @@
       ]
     },
     "the-subjection-of-women": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2735,8 +2987,17 @@
       ]
     },
     "what-is-property": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "360",
+          "source_url": "https://www.gutenberg.org/ebooks/360",
+          "label": "Project Gutenberg",
+          "edition_title": "What is Property? An Inquiry into the Principle of Right and of Government",
+          "edition_creator": "P.-J. Proudhon",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2750,7 +3011,7 @@
       ]
     },
     "capital-volume-i": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2765,8 +3026,26 @@
       ]
     },
     "democracy-in-america": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "815",
+          "source_url": "https://www.gutenberg.org/ebooks/815",
+          "label": "Project Gutenberg",
+          "edition_title": "Democracy in America — Volume 1",
+          "edition_creator": "Alexis de Tocqueville",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "816",
+          "source_url": "https://www.gutenberg.org/ebooks/816",
+          "label": "Project Gutenberg",
+          "edition_title": "Democracy in America — Volume 2",
+          "edition_creator": "Alexis de Tocqueville",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2780,7 +3059,7 @@
       ]
     },
     "the-age-of-reason": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2795,7 +3074,7 @@
       ]
     },
     "dialogues-concerning-natural-religion": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2819,7 +3098,7 @@
       ]
     },
     "the-life-of-jesus-critically-examined": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2843,7 +3122,7 @@
       ]
     },
     "the-essence-of-christianity": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2867,7 +3146,7 @@
       ]
     },
     "why-i-am-an-agnostic": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2882,7 +3161,7 @@
       ]
     },
     "the-psychology-of-suggestion": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2897,8 +3176,17 @@
       ]
     },
     "the-crowd": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "445",
+          "source_url": "https://www.gutenberg.org/ebooks/445",
+          "label": "Project Gutenberg",
+          "edition_title": "The crowd :  A study of the popular mind",
+          "edition_creator": "Gustave Le Bon",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -2912,7 +3200,7 @@
       ]
     },
     "instincts-of-the-herd-in-peace-and-war": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2936,7 +3224,7 @@
       ]
     },
     "index-librorum-prohibitorum": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2951,14 +3239,32 @@
       ]
     },
     "madame-bovary": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "27575",
+          "source_url": "https://www.gutenberg.org/ebooks/27575",
+          "label": "Project Gutenberg",
+          "edition_title": "Madame Bovary: A Tale of Provincial Life, Vol. 1 (of 2)",
+          "edition_creator": "Gustave Flaubert",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "project-gutenberg",
           "source_item_id": "2413",
           "source_url": "https://www.gutenberg.org/ebooks/2413",
           "label": "Project Gutenberg",
           "edition_title": "Madame Bovary",
+          "edition_creator": "Gustave Flaubert",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "14155",
+          "source_url": "https://www.gutenberg.org/ebooks/14155",
+          "label": "Project Gutenberg",
+          "edition_title": "Madame Bovary (French)",
           "edition_creator": "Gustave Flaubert",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -2975,7 +3281,7 @@
       ]
     },
     "crime-and-punishment": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -2990,7 +3296,7 @@
       ]
     },
     "anna-karenina": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -2998,6 +3304,42 @@
           "source_url": "https://www.gutenberg.org/ebooks/1399",
           "label": "Project Gutenberg",
           "edition_title": "Anna Karenina",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "44956",
+          "source_url": "https://www.gutenberg.org/ebooks/44956",
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina, 1. Band (German)",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "44957",
+          "source_url": "https://www.gutenberg.org/ebooks/44957",
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina, 2. Band (German)",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "13214",
+          "source_url": "https://www.gutenberg.org/ebooks/13214",
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina (Dutch)",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "49487",
+          "source_url": "https://www.gutenberg.org/ebooks/49487",
+          "label": "Project Gutenberg",
+          "edition_title": "Anna Karenina (Finnish)",
           "edition_creator": "graf Leo Tolstoy",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3014,7 +3356,7 @@
       ]
     },
     "war-and-peace": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3022,6 +3364,15 @@
           "source_url": "https://www.gutenberg.org/ebooks/2600",
           "label": "Project Gutenberg",
           "edition_title": "War and Peace",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "28920",
+          "source_url": "https://www.gutenberg.org/ebooks/28920",
+          "label": "Project Gutenberg",
+          "edition_title": "War and Peace, Book 01: 1805",
           "edition_creator": "graf Leo Tolstoy",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3038,7 +3389,7 @@
       ]
     },
     "the-brothers-karamazov": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -3053,7 +3404,7 @@
       ]
     },
     "les-miserables": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3061,6 +3412,96 @@
           "source_url": "https://www.gutenberg.org/ebooks/135",
           "label": "Project Gutenberg",
           "edition_title": "Les Misérables",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "17519",
+          "source_url": "https://www.gutenberg.org/ebooks/17519",
+          "label": "Project Gutenberg",
+          "edition_title": "Les misérables Tome V: Jean Valjean (French)",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "17489",
+          "source_url": "https://www.gutenberg.org/ebooks/17489",
+          "label": "Project Gutenberg",
+          "edition_title": "Les misérables Tome I: Fantine (French)",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "17518",
+          "source_url": "https://www.gutenberg.org/ebooks/17518",
+          "label": "Project Gutenberg",
+          "edition_title": "Les misérables Tome IV: L'idylle rue Plumet et l'épopée rue Saint-Denis (French)",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "17494",
+          "source_url": "https://www.gutenberg.org/ebooks/17494",
+          "label": "Project Gutenberg",
+          "edition_title": "Les misérables Tome III: Marius (French)",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48731",
+          "source_url": "https://www.gutenberg.org/ebooks/48731",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables, v. 1/5: Fantine",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48735",
+          "source_url": "https://www.gutenberg.org/ebooks/48735",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables, v. 5/5: Jean Valjean",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48734",
+          "source_url": "https://www.gutenberg.org/ebooks/48734",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables, v. 4/5: The Idyll and the Epic",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48733",
+          "source_url": "https://www.gutenberg.org/ebooks/48733",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables, v. 3/5: Marius",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "17493",
+          "source_url": "https://www.gutenberg.org/ebooks/17493",
+          "label": "Project Gutenberg",
+          "edition_title": "Les misérables Tome II: Cosette (French)",
+          "edition_creator": "Victor Hugo",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "48732",
+          "source_url": "https://www.gutenberg.org/ebooks/48732",
+          "label": "Project Gutenberg",
+          "edition_title": "Les Misérables, v. 2/5: Cosette",
           "edition_creator": "Victor Hugo",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3077,14 +3518,203 @@
       ]
     },
     "the-divine-comedy": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1001",
+          "source_url": "https://www.gutenberg.org/ebooks/1001",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Longfellow's Translation, Hell",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "41537",
+          "source_url": "https://www.gutenberg.org/ebooks/41537",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy of Dante Alighieri: The Inferno",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "project-gutenberg",
           "source_item_id": "8800",
           "source_url": "https://www.gutenberg.org/ebooks/8800",
           "label": "Project Gutenberg",
           "edition_title": "The divine comedy",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1004",
+          "source_url": "https://www.gutenberg.org/ebooks/1004",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Longfellow's Translation, Complete",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1003",
+          "source_url": "https://www.gutenberg.org/ebooks/1003",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Longfellow's Translation, Paradise",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8795",
+          "source_url": "https://www.gutenberg.org/ebooks/8795",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Purgatory, Complete",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1002",
+          "source_url": "https://www.gutenberg.org/ebooks/1002",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Longfellow's Translation, Purgatory",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1008",
+          "source_url": "https://www.gutenberg.org/ebooks/1008",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Cary's Translation, Complete",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8799",
+          "source_url": "https://www.gutenberg.org/ebooks/8799",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Complete",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1996",
+          "source_url": "https://www.gutenberg.org/ebooks/1996",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy, Volume 2, Purgatory",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1995",
+          "source_url": "https://www.gutenberg.org/ebooks/1995",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy, Volume 1, Hell",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8788",
+          "source_url": "https://www.gutenberg.org/ebooks/8788",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 10",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1005",
+          "source_url": "https://www.gutenberg.org/ebooks/1005",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Cary's Translation, Hell",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1006",
+          "source_url": "https://www.gutenberg.org/ebooks/1006",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Cary's Translation, Purgatory",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8779",
+          "source_url": "https://www.gutenberg.org/ebooks/8779",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 01",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1007",
+          "source_url": "https://www.gutenberg.org/ebooks/1007",
+          "label": "Project Gutenberg",
+          "edition_title": "Divine Comedy, Cary's Translation, Paradise",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1997",
+          "source_url": "https://www.gutenberg.org/ebooks/1997",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy, Volume 3, Paradise",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8798",
+          "source_url": "https://www.gutenberg.org/ebooks/8798",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Volume 3",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8780",
+          "source_url": "https://www.gutenberg.org/ebooks/8780",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 02",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8796",
+          "source_url": "https://www.gutenberg.org/ebooks/8796",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Paradise, Volume 1",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8785",
+          "source_url": "https://www.gutenberg.org/ebooks/8785",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 07",
+          "edition_creator": "Dante Alighieri",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "8786",
+          "source_url": "https://www.gutenberg.org/ebooks/8786",
+          "label": "Project Gutenberg",
+          "edition_title": "The Divine Comedy by Dante, Illustrated, Hell, Volume 08",
           "edition_creator": "Dante Alighieri",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3101,7 +3731,7 @@
       ]
     },
     "the-iliad": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3127,6 +3757,15 @@
           "source_url": "https://www.gutenberg.org/ebooks/3059",
           "label": "Project Gutenberg",
           "edition_title": "The Iliad",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "16452",
+          "source_url": "https://www.gutenberg.org/ebooks/16452",
+          "label": "Project Gutenberg",
+          "edition_title": "The Iliad of Homer",
           "edition_creator": "Homer",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3161,7 +3800,7 @@
       ]
     },
     "the-odyssey": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3191,6 +3830,24 @@
           "resolution_method": "exact-title-and-creator-match"
         },
         {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1728",
+          "source_url": "https://www.gutenberg.org/ebooks/1728",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey of Homer",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "24269",
+          "source_url": "https://www.gutenberg.org/ebooks/24269",
+          "label": "Project Gutenberg",
+          "edition_title": "The Odyssey of Homer",
+          "edition_creator": "Homer",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
           "source_id": "libby",
           "source_item_id": null,
           "source_url": "https://libbyapp.com/search?query=The+Odyssey+Homer",
@@ -3203,7 +3860,7 @@
       ]
     },
     "fathers-and-sons": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3227,7 +3884,7 @@
       ]
     },
     "dead-souls": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3251,7 +3908,7 @@
       ]
     },
     "notes-from-underground": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -3266,7 +3923,7 @@
       ]
     },
     "demons": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -3281,7 +3938,7 @@
       ]
     },
     "the-sorrows-of-young-werther": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3305,7 +3962,7 @@
       ]
     },
     "dangerous-liaisons": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -3320,8 +3977,35 @@
       ]
     },
     "tartuffe": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "28488",
+          "source_url": "https://www.gutenberg.org/ebooks/28488",
+          "label": "Project Gutenberg",
+          "edition_title": "Tartuffe; Or, The Hypocrite",
+          "edition_creator": "Molière",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2027",
+          "source_url": "https://www.gutenberg.org/ebooks/2027",
+          "label": "Project Gutenberg",
+          "edition_title": "Tartuffe; Or, The Hypocrite",
+          "edition_creator": "Molière",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "52807",
+          "source_url": "https://www.gutenberg.org/ebooks/52807",
+          "label": "Project Gutenberg",
+          "edition_title": "Tartuffe: Viisinäytöksinen huvinäytelmä (Finnish)",
+          "edition_creator": "Molière",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -3335,7 +4019,7 @@
       ]
     },
     "emile": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",
@@ -3350,8 +4034,26 @@
       ]
     },
     "the-theological-political-treatise": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "992",
+          "source_url": "https://www.gutenberg.org/ebooks/992",
+          "label": "Project Gutenberg",
+          "edition_title": "A Theological-Political Treatise [Part IV]",
+          "edition_creator": "Benedictus de Spinoza",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "991",
+          "source_url": "https://www.gutenberg.org/ebooks/991",
+          "label": "Project Gutenberg",
+          "edition_title": "A Theological-Political Treatise [Part III]",
+          "edition_creator": "Benedictus de Spinoza",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -3365,7 +4067,7 @@
       ]
     },
     "the-count-of-monte-cristo": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3389,7 +4091,7 @@
       ]
     },
     "the-three-musketeers": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3413,21 +4115,12 @@
       ]
     },
     "middlemarch": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "145",
           "source_url": "https://www.gutenberg.org/ebooks/145",
-          "label": "Project Gutenberg",
-          "edition_title": "Middlemarch",
-          "edition_creator": "George Eliot",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "8227",
-          "source_url": "https://www.gutenberg.org/ebooks/8227",
           "label": "Project Gutenberg",
           "edition_title": "Middlemarch",
           "edition_creator": "George Eliot",
@@ -3446,7 +4139,7 @@
       ]
     },
     "germinal": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3454,6 +4147,15 @@
           "source_url": "https://www.gutenberg.org/ebooks/56528",
           "label": "Project Gutenberg",
           "edition_title": "Germinal",
+          "edition_creator": "Émile Zola",
+          "resolution_method": "exact-title-and-creator-match"
+        },
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "5711",
+          "source_url": "https://www.gutenberg.org/ebooks/5711",
+          "label": "Project Gutenberg",
+          "edition_title": "Germinal (French)",
           "edition_creator": "Émile Zola",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3470,8 +4172,17 @@
       ]
     },
     "the-kreutzer-sonata": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "689",
+          "source_url": "https://www.gutenberg.org/ebooks/689",
+          "label": "Project Gutenberg",
+          "edition_title": "The Kreutzer Sonata and Other Stories",
+          "edition_creator": "graf Leo Tolstoy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -3485,8 +4196,17 @@
       ]
     },
     "tess-of-the-durbervilles": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "110",
+          "source_url": "https://www.gutenberg.org/ebooks/110",
+          "label": "Project Gutenberg",
+          "edition_title": "Tess of the d'Urbervilles: A Pure Woman",
+          "edition_creator": "Thomas Hardy",
+          "resolution_method": "exact-title-and-creator-match"
+        },
         {
           "source_id": "libby",
           "source_item_id": null,
@@ -3500,21 +4220,12 @@
       ]
     },
     "jude-the-obscure": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "153",
           "source_url": "https://www.gutenberg.org/ebooks/153",
-          "label": "Project Gutenberg",
-          "edition_title": "Jude the Obscure",
-          "edition_creator": "Thomas Hardy",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "9421",
-          "source_url": "https://www.gutenberg.org/ebooks/9421",
           "label": "Project Gutenberg",
           "edition_title": "Jude the Obscure",
           "edition_creator": "Thomas Hardy",
@@ -3533,7 +4244,7 @@
       ]
     },
     "dracula": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
@@ -3564,10 +4275,10 @@
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "6534",
-          "source_url": "https://www.gutenberg.org/ebooks/6534",
+          "source_item_id": "10150",
+          "source_url": "https://www.gutenberg.org/ebooks/10150",
           "label": "Project Gutenberg",
-          "edition_title": "Dracula",
+          "edition_title": "Dracula's Guest",
           "edition_creator": "Bram Stoker",
           "resolution_method": "exact-title-and-creator-match"
         },
@@ -3584,21 +4295,12 @@
       ]
     },
     "the-turn-of-the-screw": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
           "source_item_id": "209",
           "source_url": "https://www.gutenberg.org/ebooks/209",
-          "label": "Project Gutenberg",
-          "edition_title": "The Turn of the Screw",
-          "edition_creator": "Henry James",
-          "resolution_method": "exact-title-and-creator-match"
-        },
-        {
-          "source_id": "project-gutenberg",
-          "source_item_id": "26285",
-          "source_url": "https://www.gutenberg.org/ebooks/26285",
           "label": "Project Gutenberg",
           "edition_title": "The Turn of the Screw",
           "edition_creator": "Henry James",
@@ -3617,21 +4319,21 @@
       ]
     },
     "the-age-of-innocence": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "541",
-          "source_url": "https://www.gutenberg.org/ebooks/541",
+          "source_item_id": "26458",
+          "source_url": "https://www.gutenberg.org/ebooks/26458",
           "label": "Project Gutenberg",
-          "edition_title": "The Age of Innocence",
+          "edition_title": "Age of Innocence",
           "edition_creator": "Edith Wharton",
           "resolution_method": "exact-title-and-creator-match"
         },
         {
           "source_id": "project-gutenberg",
-          "source_item_id": "8958",
-          "source_url": "https://www.gutenberg.org/ebooks/8958",
+          "source_item_id": "541",
+          "source_url": "https://www.gutenberg.org/ebooks/541",
           "label": "Project Gutenberg",
           "edition_title": "The Age of Innocence",
           "edition_creator": "Edith Wharton",
@@ -3650,7 +4352,7 @@
       ]
     },
     "we": {
-      "resolved_at": "2026-07-21T19:33:47+00:00",
+      "resolved_at": "2026-07-21T19:38:51+00:00",
       "source_options": [
         {
           "source_id": "libby",

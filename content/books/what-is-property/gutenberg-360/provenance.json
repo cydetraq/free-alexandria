@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "what-is-property",
+  "edition_id": "what-is-property-en-source-1840-gutenberg-360",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "360",
+    "edition_page": "https://www.gutenberg.org/ebooks/360",
+    "acquired_at": "2026-07-21T19:43:22+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/what-is-property/gutenberg-360/book.epub",
+      "sha256": "03f02f9b1f8eb11cba8878b0179334e345daf5512b3da6dfa17732bea513d1cc",
+      "bytes": 487711
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/what-is-property/gutenberg-360/book.pdf",
+      "sha256": "4147cf0684ed639d8079ebe8ec9d3e021e6fd7f14f233329ba7ebea0a65be67b",
+      "bytes": 783591
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

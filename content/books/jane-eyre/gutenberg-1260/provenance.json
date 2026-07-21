@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "jane-eyre",
+  "edition_id": "jane-eyre-en-source-1847-gutenberg-1260",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1260",
+    "edition_page": "https://www.gutenberg.org/ebooks/1260",
+    "acquired_at": "2026-07-21T19:42:32+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/jane-eyre/gutenberg-1260/book.epub",
+      "sha256": "7c2fc9d15dec2114a89d1f4d00885e59186e6d8bfcf0e22296ce274cff6ff13d",
+      "bytes": 3088518
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/jane-eyre/gutenberg-1260/book.pdf",
+      "sha256": "ac3750a79d8c72d742860dd69ad21fb022763cafbf108be355fd6c84a9ccce34",
+      "bytes": 952406
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

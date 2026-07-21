@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "winesburg-ohio",
+  "edition_id": "winesburg-ohio-en-source-1919-gutenberg-416",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "416",
+    "edition_page": "https://www.gutenberg.org/ebooks/416",
+    "acquired_at": "2026-07-21T19:43:25+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/winesburg-ohio/gutenberg-416/book.epub",
+      "sha256": "4b32fcdc06b25f1d7b2ae37174f3dc76c6a4db910963a6e208118facacb4f2ed",
+      "bytes": 279247
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/winesburg-ohio/gutenberg-416/book.pdf",
+      "sha256": "03dd8ac116e5860248686d3dd07005b9a4d5826013d275dfd4540900f1480b43",
+      "bytes": 352409
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-american-womans-home",
+  "edition_id": "the-american-womans-home-en-source-1869-gutenberg-6598",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "6598",
+    "edition_page": "https://www.gutenberg.org/ebooks/6598",
+    "acquired_at": "2026-07-21T19:42:43+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-american-womans-home/gutenberg-6598/book.epub",
+      "sha256": "9bc9a9447837524eabb711c55d3ab8f4aa6080f732a0c670df4155c38769a2ff",
+      "bytes": 462023
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-american-womans-home/gutenberg-6598/book.pdf",
+      "sha256": "cbacb09d18e13257393bfee798880f1f5f21b165590e4697a7e900b511374f13",
+      "bytes": 748558
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

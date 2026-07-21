@@ -30,7 +30,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Status
 
-The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository includes 61 retrieved works (62 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file.
+The committed catalog currently contains 186 curated records across literature, source-language works, preparedness, practical references, open-distribution works, and external essential reading. The repository includes 85 retrieved works (86 distinct source editions) as EPUB/PDF pairs. Every stored edition records its source, acquisition time, file hashes, and byte counts in its adjacent provenance file.
 
 The catalog distinguishes local EPUB/PDF files from source links. Every local edition has adjacent provenance with its source and file checksums.
 
@@ -45,11 +45,11 @@ The repository is usable as a standalone catalog after cloning—no portal build
 ## Quick start
 
 ```sh
-python3 tools/validate_catalog.py
+python3 tools/validate_catalog.py --strict
 python3 tools/build_profile.py profiles/free-alexandria-v1.json
 ```
 
-The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks.
+The second command creates `dist/free-alexandria-v1/`: a self-contained offline library containing all committed EPUB/PDF editions, search data, direct local download links, provenance, and recorded source fallbacks. `--strict` is the release check: it verifies live Project Gutenberg download endpoints, Libby fallbacks, and every committed local file.
 
 To browse the entire 186-record catalog—including works that are source-linked but not included locally—build the catalog preview:
 

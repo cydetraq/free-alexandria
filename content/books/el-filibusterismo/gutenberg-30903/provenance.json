@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "el-filibusterismo",
+  "edition_id": "el-filibusterismo-en-source-1891-gutenberg-30903",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "30903",
+    "edition_page": "https://www.gutenberg.org/ebooks/30903",
+    "acquired_at": "2026-07-21T19:42:22+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/el-filibusterismo/gutenberg-30903/book.epub",
+      "sha256": "63b7d483b4d93b573aad17dc05ac00767213dc4749ad9b6348242f5a61d9dd6d",
+      "bytes": 404059
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/el-filibusterismo/gutenberg-30903/book.pdf",
+      "sha256": "0e8c398bde953f3f4e01006dc0fd8f587bdb05e912ddbbbcd115f0016793facf",
+      "bytes": 588574
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

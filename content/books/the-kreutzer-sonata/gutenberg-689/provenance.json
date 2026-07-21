@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-kreutzer-sonata",
+  "edition_id": "the-kreutzer-sonata-en-source-1890-gutenberg-689",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "689",
+    "edition_page": "https://www.gutenberg.org/ebooks/689",
+    "acquired_at": "2026-07-21T19:43:05+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.epub",
+      "sha256": "8db0efcd8ec5a7688cb707f293f13b54b98d74981c57a25ca32567369e8b79a1",
+      "bytes": 459893
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.pdf",
+      "sha256": "e9a3da354c9dedc39ffe01284ba06e603ff6d5969de7456f8f7c8dee7977b797",
+      "bytes": 341891
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

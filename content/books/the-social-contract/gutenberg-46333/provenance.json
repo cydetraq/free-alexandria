@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-social-contract",
+  "edition_id": "the-social-contract-en-source-1762-gutenberg-46333",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "46333",
+    "edition_page": "https://www.gutenberg.org/ebooks/46333",
+    "acquired_at": "2026-07-21T19:43:14+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-social-contract/gutenberg-46333/book.epub",
+      "sha256": "0ff7fa5048a32520754104428aa8673808e4b0414b95ba2e163da651763280cc",
+      "bytes": 520354
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-social-contract/gutenberg-46333/book.pdf",
+      "sha256": "9f90ca45945415b3e383544050f53a4fd52457617b7efb1683ab0c8ef8929fda",
+      "bytes": 613103
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

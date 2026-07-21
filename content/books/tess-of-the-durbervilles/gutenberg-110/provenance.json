@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "tess-of-the-durbervilles",
+  "edition_id": "tess-of-the-durbervilles-en-source-1891-gutenberg-110",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "110",
+    "edition_page": "https://www.gutenberg.org/ebooks/110",
+    "acquired_at": "2026-07-21T19:42:40+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.epub",
+      "sha256": "e77363891689bfa6d718a3a5278b979116988dd62209faac65dfef87e519c0e5",
+      "bytes": 504034
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.pdf",
+      "sha256": "a3efcde9ba6f1ec504913c1011bbbabbe63de40940b6f4e48e502ad518ddf82e",
+      "bytes": 790400
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

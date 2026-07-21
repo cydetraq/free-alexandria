@@ -18,6 +18,7 @@ The catalog keeps direct source links and a fallback. To acquire every work with
 ```sh
 python3 tools/populate_from_gutenberg.py --all-catalog --acquire
 python3 tools/rebuild_local_registry.py
+python3 tools/validate_catalog.py --strict
 ```
 
 Then create a build profile from the retrieved files and build it:

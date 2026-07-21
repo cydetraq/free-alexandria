@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-mother-gorky",
+  "edition_id": "the-mother-gorky-en-source-1906-gutenberg-3783",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "3783",
+    "edition_page": "https://www.gutenberg.org/ebooks/3783",
+    "acquired_at": "2026-07-21T19:43:11+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-mother-gorky/gutenberg-3783/book.epub",
+      "sha256": "d667b0e6b216c8b89ae7d69604fca2b3119794c1c4962e8ed1f6fc5266d9e322",
+      "bytes": 2109745
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-mother-gorky/gutenberg-3783/book.pdf",
+      "sha256": "f42ca74cbe9873469ffba585713ba49841767489d1892dfaf7a2e616f23b4b26",
+      "bytes": 730248
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-metamorphosis",
+  "edition_id": "the-metamorphosis-en-source-1915-gutenberg-5200",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "5200",
+    "edition_page": "https://www.gutenberg.org/ebooks/5200",
+    "acquired_at": "2026-07-21T19:43:08+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-metamorphosis/gutenberg-5200/book.epub",
+      "sha256": "79c918215ea6acfb6860d48ff27134d85cae6ad467debe14c64ca709401fc5d9",
+      "bytes": 315278
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-metamorphosis/gutenberg-5200/book.pdf",
+      "sha256": "078d07bf847d24f252588c38f20bdf0988f83ac482e57a5a768cce1bb66592f1",
+      "bytes": 129549
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

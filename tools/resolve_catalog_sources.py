@@ -16,10 +16,49 @@ from build_profile import CATALOG, load_records
 OUT = CATALOG / "resolved-sources.json"
 OVERRIDES = CATALOG / "source-overrides.json"
 RESULT = re.compile(r'<li class="booklink">.*?href="/ebooks/(\d+)".*?<span class="title">(.*?)</span>.*?<span class="subtitle">(.*?)</span>.*?</li>', re.S)
+LANGUAGE_SUFFIX = re.compile(r"\(([^)]+)\)\s*$", re.I)
 
 
 def normalize(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
+
+
+def comparable_title(value: str) -> str:
+    """Normalize harmless catalog-title differences without accepting unrelated works."""
+    value = normalize(value)
+    return re.sub(r"^(the|a|an) ", "", value)
+
+
+def title_matches(record_title: str, source_title: str) -> bool:
+    """Allow an exact work title or a clearly labeled expanded edition of it."""
+    requested = comparable_title(record_title)
+    offered = comparable_title(source_title)
+    return offered == requested or offered.startswith(requested + " ")
+
+
+def language_matches(record: dict, source_title: str) -> bool:
+    """Avoid presenting a labeled foreign-language edition as an English source."""
+    suffix = LANGUAGE_SUFFIX.search(source_title)
+    if not suffix or record.get("original_language") != "English":
+        return True
+    return suffix.group(1).strip().lower() in {"english", "eng"}
+
+
+def has_downloadable_text(item_id: str) -> bool:
+    """Verify that at least one real Gutenberg EPUB or text endpoint is live."""
+    for url in (
+        f"https://www.gutenberg.org/ebooks/{item_id}.epub.images",
+        f"https://www.gutenberg.org/ebooks/{item_id}.epub.noimages",
+        f"https://www.gutenberg.org/cache/epub/{item_id}/pg{item_id}.txt",
+    ):
+        request = urllib.request.Request(url, headers={"User-Agent": "FreeAlexandria/1.0 source verifier", "Range": "bytes=0-31"})
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                if response.read(1):
+                    return True
+        except Exception:
+            continue
+    return False
 
 
 def libby_fallback(record: dict, author: str) -> dict:
@@ -44,7 +83,7 @@ def resolve(record: dict) -> tuple[str, list[dict]]:
     for item_id, title, creator in RESULT.findall(page):
         title = html.unescape(re.sub(r"<.*?>", "", title)).strip()
         creator = html.unescape(re.sub(r"<.*?>", "", creator)).strip()
-        if normalize(title) == normalize(record["title"]) and (not surname or surname[0] in normalize(creator)):
+        if title_matches(record["title"], title) and language_matches(record, title) and (not surname or surname[0] in normalize(creator)) and has_downloadable_text(item_id):
             option = {"source_id":"project-gutenberg","source_item_id":item_id,"source_url":f"https://www.gutenberg.org/ebooks/{item_id}","label":"Project Gutenberg","edition_title":title,"edition_creator":creator,"resolution_method":"exact-title-and-creator-match"}
             if not any(existing.get("source_id") == option["source_id"] and existing.get("source_item_id") == option["source_item_id"] for existing in options):
                 options.append(option)

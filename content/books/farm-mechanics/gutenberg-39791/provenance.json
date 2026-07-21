@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "farm-mechanics",
+  "edition_id": "farm-mechanics-en-source-1918-gutenberg-39791",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "39791",
+    "edition_page": "https://www.gutenberg.org/ebooks/39791",
+    "acquired_at": "2026-07-21T19:42:25+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/farm-mechanics/gutenberg-39791/book.epub",
+      "sha256": "b9a7ca0e908ffe50cc5e3041bbca886c8648aa36b9adb28887780b438bcccfbf",
+      "bytes": 2233028
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/farm-mechanics/gutenberg-39791/book.pdf",
+      "sha256": "c75c107cc79541b3faf8acfe6d07eb3df61ac2004f44935a14029f307139e5c2",
+      "bytes": 284166
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

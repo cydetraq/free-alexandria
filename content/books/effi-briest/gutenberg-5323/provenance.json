@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "effi-briest",
+  "edition_id": "effi-briest-en-source-1895-gutenberg-5323",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "5323",
+    "edition_page": "https://www.gutenberg.org/ebooks/5323",
+    "acquired_at": "2026-07-21T19:42:20+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/effi-briest/gutenberg-5323/book.epub",
+      "sha256": "1185512de51e428c8d437a5be20d203e2dcd5a953f87afb366822de31f7c43b4",
+      "bytes": 323677
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/effi-briest/gutenberg-5323/book.pdf",
+      "sha256": "f5bc144f345f6e27c562152c7be7deba0780bf87bb37e055a56f45e20e0317cb",
+      "bytes": 548977
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}
