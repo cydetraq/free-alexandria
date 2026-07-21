@@ -101,15 +101,17 @@ def acquire(record: dict, source: dict, root: Path, registry: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("selection", type=Path, help="Selection JSON exported from the offline portal")
+    parser.add_argument("selection", type=Path, nargs="?", help="Selection JSON exported from the offline portal")
+    parser.add_argument("--all-catalog", action="store_true", help="Use every record in the catalog that has a stored exact Project Gutenberg source")
     parser.add_argument("--acquire", action="store_true", help="Download exact matches into this private archive")
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--registry", type=Path, default=ROOT / "catalog" / "local-editions.json")
     args = parser.parse_args()
-    selection = json.loads(args.selection.read_text())
-    wanted = set(selection.get("selected_record_ids", []))
     records = {record["id"]: record for record in load_records()}
     resolved_sources = load_source_options()
+    if not args.all_catalog and args.selection is None:
+        parser.error("provide a selection file or use --all-catalog")
+    wanted = set(records) if args.all_catalog else set(json.loads(args.selection.read_text()).get("selected_record_ids", []))
     for work_id in sorted(wanted):
         record = records.get(work_id)
         if not record:
@@ -125,7 +127,11 @@ def main() -> int:
             print(f"PLAN {record['title']} -> Project Gutenberg {source['item_id']} ({source['url']})")
             continue
         registry = load_registry(args.registry)
-        acquire(record, source, args.root.resolve(), registry)
+        try:
+            acquire(record, source, args.root.resolve(), registry)
+        except Exception as error:
+            print(f"ERROR {record['title']}: {error}")
+            continue
         args.registry.parent.mkdir(parents=True, exist_ok=True)
         args.registry.write_text(json.dumps(registry, indent=2) + "\n")
     return 0
