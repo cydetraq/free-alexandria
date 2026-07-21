@@ -13,9 +13,12 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Crime and Punishment | Fyodor Dostoevsky | A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy. | [Search in Libby](https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky) |
 | Dangerous Liaisons | Pierre Choderlos de Laclos | Repeatedly restricted for sexual exploitation, adultery, and moral corruption. | [Search in Libby](https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos) |
 | Fahrenheit 451 | Ray Bradbury | Defining modern novel of censorship and anti-intellectualism. | [Search in Libby](https://libbyapp.com/search?query=Fahrenheit+451+Ray+Bradbury) |
+| Hadji Murad | Leo Tolstoy | Major anti-imperial and antiwar novella. | [Search in Libby](https://libbyapp.com/search?query=Hadji+Murad+Leo+Tolstoy) |
+| The Brothers Karamazov | Fyodor Dostoevsky | Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications. | [Search in Libby](https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky) |
 | The Handmaid's Tale | Margaret Atwood | Essential fiction of religious authoritarianism and bodily autonomy. | [Search in Libby](https://libbyapp.com/search?query=The+Handmaid%27s+Tale+Margaret+Atwood) |
 | The Magic Mountain | Thomas Mann | One of the central modernist novels; Mann's works were banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=The+Magic+Mountain+Thomas+Mann) |
 | The Satanic Verses | Salman Rushdie | One of the defining modern censorship controversies. | [Search in Libby](https://libbyapp.com/search?query=The+Satanic+Verses+Salman+Rushdie) |
+| What Is to Be Done? | Nikolai Chernyshevsky | Repeatedly suppressed for revolutionary ideas and clandestine political influence. | [Search in Libby](https://libbyapp.com/search?query=What+Is+to+Be+Done%3F+Nikolai+Chernyshevsky) |
 
 ## Essential Literature
 

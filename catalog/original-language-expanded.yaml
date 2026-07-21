@@ -167,7 +167,7 @@
   author: Leo Tolstoy
   original_year: 1912
   original_language: Russian
-  collections: [original-language, suppressed-knowledge]
+  collections: [original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   english_availability: edition-review-required
@@ -180,7 +180,7 @@
   author: Nikolai Chernyshevsky
   original_year: 1863
   original_language: Russian
-  collections: [original-language, suppressed-knowledge]
+  collections: [original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   english_availability: translation-review-required
@@ -193,7 +193,7 @@
   author: Maxim Gorky
   original_year: 1906
   original_language: Russian
-  collections: [original-language, suppressed-knowledge]
+  collections: [original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   english_availability: edition-review-required
@@ -206,7 +206,7 @@
   author: Leo Tolstoy
   original_year: 1899
   original_language: Russian
-  collections: [original-language, suppressed-knowledge]
+  collections: [original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   english_availability: edition-review-required

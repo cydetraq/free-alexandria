@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "gullivers-travels",
+  "edition_id": "gullivers-travels-en-source-1726-gutenberg-829",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "829",
+    "edition_page": "https://www.gutenberg.org/ebooks/829",
+    "acquired_at": "2026-07-21T21:57:21+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/gullivers-travels/gutenberg-829/book.epub",
+      "sha256": "c14f9e78fc1a4031082b230b8dcdf6f60cbe7f371fcfbebaf7035a971d431433",
+      "bytes": 739900
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/gullivers-travels/gutenberg-829/book.pdf",
+      "sha256": "4a5e7f6e678efb08d4d5518167addc6b60fde2a4290a747eb9b6aea13bd41685",
+      "bytes": 500824
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

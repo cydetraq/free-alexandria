@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "sons-and-lovers",
+  "edition_id": "sons-and-lovers-en-source-1913-gutenberg-217",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "217",
+    "edition_page": "https://www.gutenberg.org/ebooks/217",
+    "acquired_at": "2026-07-21T21:57:30+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/sons-and-lovers/gutenberg-217/book.epub",
+      "sha256": "9f4e09ecb8d1014406616c3546902129c716a652c31649bfb85e49f06960edd0",
+      "bytes": 501509
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/sons-and-lovers/gutenberg-217/book.pdf",
+      "sha256": "0f548a638d706676d6c1f4af513651db58a1f57f22b3deae787a471d3927916f",
+      "bytes": 881873
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

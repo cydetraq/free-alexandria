@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-prince",
+  "edition_id": "the-prince-en-source-1532-gutenberg-1232",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1232",
+    "edition_page": "https://www.gutenberg.org/ebooks/1232",
+    "acquired_at": "2026-07-21T21:57:40+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-prince/gutenberg-1232/book.epub",
+      "sha256": "d2abb2da201afbd3ba95a54b274012227c37851bfbd4af349869b15eec6113ac",
+      "bytes": 212464
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-prince/gutenberg-1232/book.pdf",
+      "sha256": "7d53dc212ace794c18759c76d3021d9c563543364a54c9bfa98cf0aad297e738",
+      "bytes": 261147
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-iron-heel",
+  "edition_id": "the-iron-heel-en-source-1908-gutenberg-1164",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1164",
+    "edition_page": "https://www.gutenberg.org/ebooks/1164",
+    "acquired_at": "2026-07-21T21:57:38+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-iron-heel/gutenberg-1164/book.epub",
+      "sha256": "f250cf04e28849aa9fa89c1e9f32a6ef0413ce5e2f16aeab2132c3314bfab9d4",
+      "bytes": 455476
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-iron-heel/gutenberg-1164/book.pdf",
+      "sha256": "0f3adab86e795b483c485f946b545500c9a8e13767fda5df0ed9303ea7c5dae2",
+      "bytes": 456117
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

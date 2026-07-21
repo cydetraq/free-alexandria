@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "moll-flanders",
+  "edition_id": "moll-flanders-en-source-1722-gutenberg-370",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "370",
+    "edition_page": "https://www.gutenberg.org/ebooks/370",
+    "acquired_at": "2026-07-21T21:59:10+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/moll-flanders/gutenberg-370/book.epub",
+      "sha256": "8866280023cdad27e0846d99a5f6cacd6df1f8c366387278a83d7ac64024ce94",
+      "bytes": 530835
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/moll-flanders/gutenberg-370/book.pdf",
+      "sha256": "1809e669ebbe211e519a2a49aaf88879751f5163772f056d719f402a861ed34f",
+      "bytes": 590621
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

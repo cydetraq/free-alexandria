@@ -1,0 +1,186 @@
+- id: women-in-love
+  title: Women in Love
+  author: D. H. Lawrence
+  original_year: 1920
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 4240
+  description: Two sisters confront love, class, industrial society, desire, and emotional power.
+  why_included: Prosecuted and restricted for sexuality and alleged obscenity.
+  tags: [literary-canon, sexuality, obscenity, fiction]
+
+- id: sons-and-lovers
+  title: Sons and Lovers
+  author: D. H. Lawrence
+  original_year: 1913
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 217
+  description: A young artist struggles with family attachment, class, intimacy, and independence.
+  why_included: Challenged for sexuality, family relationships, and alleged obscenity.
+  tags: [literary-canon, sexuality, family, fiction]
+
+- id: the-iron-heel
+  title: The Iron Heel
+  author: Jack London
+  original_year: 1908
+  original_language: English
+  collections: [banned-challenged, suppressed-knowledge]
+  project_gutenberg_id: 1164
+  description: A dystopian account of an oligarchy crushing democratic and socialist opposition.
+  why_included: Suppressed for revolutionary socialism and criticism of concentrated wealth.
+  tags: [dystopia, socialism, authoritarianism, fiction]
+
+- id: the-communist-manifesto
+  title: The Communist Manifesto
+  author: Karl Marx and Friedrich Engels
+  original_year: 1848
+  original_language: German
+  collections: [banned-challenged, suppressed-knowledge]
+  project_gutenberg_id: 61
+  description: A concise argument about class conflict, capitalism, and revolutionary political change.
+  why_included: Banned and restricted under anticommunist and authoritarian governments.
+  tags: [politics, class, revolution, nonfiction]
+
+- id: candide
+  title: Candide
+  author: Voltaire
+  original_year: 1759
+  original_language: French
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 19942
+  description: A philosophical satire of optimism, war, cruelty, and religious hypocrisy.
+  why_included: Banned for blasphemy, political satire, sexuality, and attacks on religious authority.
+  tags: [satire, religion, politics, literary-canon]
+
+- id: the-prince
+  title: The Prince
+  author: Niccolò Machiavelli
+  original_year: 1532
+  original_language: Italian
+  collections: [banned-challenged, suppressed-knowledge]
+  project_gutenberg_id: 1232
+  description: A pragmatic analysis of political power, leadership, force, and statecraft.
+  why_included: Prohibited by religious authorities for its treatment of morality and political power.
+  tags: [politics, power, censorship, nonfiction]
+
+- id: lysistrata
+  title: Lysistrata
+  author: Aristophanes
+  original_year: -411
+  original_language: Ancient Greek
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 7700
+  description: Women attempt to end a war through a collective sexual strike.
+  why_included: Restricted for explicit sexual comedy, gender politics, and antiwar content.
+  tags: [comedy, antiwar, sexuality, literary-canon]
+
+- id: the-decameron
+  title: The Decameron
+  author: Giovanni Boccaccio
+  original_year: 1353
+  original_language: Italian
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 23700
+  description: One hundred stories told by people sheltering from plague outside Florence.
+  why_included: Repeatedly censored for sexuality, anticlerical satire, adultery, and bawdy humor.
+  tags: [literary-canon, sexuality, religion, satire]
+
+- id: gullivers-travels
+  title: Gulliver's Travels
+  author: Jonathan Swift
+  original_year: 1726
+  original_language: English
+  collections: [banned-challenged, essential-literature, suppressed-knowledge]
+  project_gutenberg_id: 829
+  description: A traveler encounters societies that expose the absurdities of politics and human behavior.
+  why_included: Censored and challenged for political satire, sexuality, and bodily humor.
+  tags: [satire, politics, literary-canon, fiction]
+
+- id: paradise-lost
+  title: Paradise Lost
+  author: John Milton
+  original_year: 1667
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 26
+  description: An epic retelling of Satan's rebellion and humanity's fall.
+  why_included: Historically restricted for religious and political reasons.
+  tags: [poetry, religion, politics, literary-canon]
+
+- id: moby-dick
+  title: Moby-Dick
+  author: Herman Melville
+  original_year: 1851
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 2701
+  description: A captain turns a whaling voyage into a metaphysical campaign of revenge.
+  why_included: Challenged for violence, sexuality, racial language, religion, and blasphemy.
+  tags: [literary-canon, religion, violence, fiction]
+
+- id: a-tale-of-two-cities
+  title: A Tale of Two Cities
+  author: Charles Dickens
+  original_year: 1859
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 98
+  description: Private sacrifice and political violence unfold during the French Revolution.
+  why_included: Challenged for violence, revolutionary politics, executions, and social upheaval.
+  tags: [literary-canon, revolution, violence, fiction]
+
+- id: great-expectations
+  title: Great Expectations
+  author: Charles Dickens
+  original_year: 1861
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 1400
+  description: An orphan's expectations of wealth reshape his identity, loyalties, and moral judgment.
+  why_included: Challenged for crime, violence, class resentment, and morally compromised characters.
+  tags: [literary-canon, class, crime, fiction]
+
+- id: the-moonstone
+  title: The Moonstone
+  author: Wilkie Collins
+  original_year: 1868
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 155
+  description: A stolen diamond, colonial violence, addiction, and conflicting testimony shape an early detective novel.
+  why_included: Restricted for opium, theft, sexuality, colonial themes, and challenges to Victorian respectability.
+  tags: [literary-canon, addiction, colonialism, fiction]
+
+- id: robinson-crusoe
+  title: Robinson Crusoe
+  author: Daniel Defoe
+  original_year: 1719
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 521
+  description: A castaway builds a life through labor, improvisation, trade, religion, and colonial power.
+  why_included: Challenged for colonialism, race, religion, violence, and its depiction of Friday.
+  tags: [literary-canon, colonialism, religion, fiction]
+
+- id: moll-flanders
+  title: Moll Flanders
+  author: Daniel Defoe
+  original_year: 1722
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 370
+  description: A woman survives through marriage, deception, theft, sex work, crime, and transportation.
+  why_included: Frequently restricted for sexuality, prostitution, crime, illegitimacy, and moral ambiguity.
+  tags: [literary-canon, sexuality, crime, fiction]
+
+- id: tom-jones
+  title: Tom Jones
+  author: Henry Fielding
+  original_year: 1749
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 6593
+  description: A foundling's comic travels expose hypocrisy, sexuality, class, and competing ideas of virtue.
+  why_included: Condemned and restricted for sexual behavior, illegitimacy, profanity, and irreverent comedy.
+  tags: [literary-canon, sexuality, class, fiction]

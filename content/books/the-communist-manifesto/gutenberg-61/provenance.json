@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-communist-manifesto",
+  "edition_id": "the-communist-manifesto-en-source-1848-gutenberg-61",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "61",
+    "edition_page": "https://www.gutenberg.org/ebooks/61",
+    "acquired_at": "2026-07-21T21:57:31+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-communist-manifesto/gutenberg-61/book.epub",
+      "sha256": "ef97ab89f03c2bb62f3a80ca6d81f85eb8dd889ee506053de34be86ec4f39db6",
+      "bytes": 114483
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-communist-manifesto/gutenberg-61/book.pdf",
+      "sha256": "ea850851668b2c1429a5f539c192f13c981d9014841cc978364aad048acff858",
+      "bytes": 97540
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

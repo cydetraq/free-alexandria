@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "women-in-love",
+  "edition_id": "women-in-love-en-source-1920-gutenberg-4240",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "4240",
+    "edition_page": "https://www.gutenberg.org/ebooks/4240",
+    "acquired_at": "2026-07-21T21:57:44+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/women-in-love/gutenberg-4240/book.epub",
+      "sha256": "b64d2b34a6454decbb0b2eb405f4f170a5e38b9d9d6a180a9fcd806eeb38a38a",
+      "bytes": 513972
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/women-in-love/gutenberg-4240/book.pdf",
+      "sha256": "cedd2f79008f28cdd235600e2333e0e2de7b69d0f5f57d9c5da25a91c087fbd6",
+      "bytes": 969548
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-decameron",
+  "edition_id": "the-decameron-en-source-1353-gutenberg-23700",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "23700",
+    "edition_page": "https://www.gutenberg.org/ebooks/23700",
+    "acquired_at": "2026-07-21T21:57:36+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-decameron/gutenberg-23700/book.epub",
+      "sha256": "950056c80d9d83f8ffa0615b29fe0a7e48cfae1560a11340749e9f62c114cfb6",
+      "bytes": 771733
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-decameron/gutenberg-23700/book.pdf",
+      "sha256": "feb51ed1478ff8af3c9fb1110cee38def7897925d65383559d19cda0ed72d8db",
+      "bytes": 1391653
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

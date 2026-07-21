@@ -147,6 +147,9 @@ def main() -> int:
             continue
         options = resolved_sources.get(work_id, [])
         option = next((item for item in options if item["label"] == "Project Gutenberg"), None)
+        if not option and record.get("project_gutenberg_id"):
+            item_id = str(record["project_gutenberg_id"])
+            option = {"edition_id": item_id, "url": f"https://www.gutenberg.org/ebooks/{item_id}"}
         if not option:
             print(f"SKIP {record['title']}: no exact stored Project Gutenberg edition")
             continue

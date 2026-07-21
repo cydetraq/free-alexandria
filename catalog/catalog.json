@@ -100,6 +100,60 @@
       }
     },
     {
+      "id": "a-tale-of-two-cities",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "original_year": 1859,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "98",
+      "description": "Private sacrifice and political violence unfold during the French Revolution.",
+      "why_included": "Challenged for violence, revolutionary politics, executions, and social upheaval.",
+      "tags": [
+        "literary-canon",
+        "revolution",
+        "violence",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.epub",
+          "sha256": "b90c5e231a98b37d667bcc97eba72c779e297a2b9911367c018054d42bf63fb4",
+          "bytes": 7914666
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.pdf",
+          "sha256": "1c12ca3b408300cc1fb42c8cb43bfa6d37e37652b119f62adae653852596b327",
+          "bytes": 700104
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "98",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/98",
+          "edition_id": "a-tale-of-two-cities-en-source-1859-gutenberg-98",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "adventures-of-huckleberry-finn",
       "catalog_file": "books.yaml",
       "title": "Adventures of Huckleberry Finn",
@@ -318,6 +372,60 @@
       }
     },
     {
+      "id": "candide",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Candide",
+      "author": "Voltaire",
+      "original_year": 1759,
+      "original_language": "French",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "19942",
+      "description": "A philosophical satire of optimism, war, cruelty, and religious hypocrisy.",
+      "why_included": "Banned for blasphemy, political satire, sexuality, and attacks on religious authority.",
+      "tags": [
+        "satire",
+        "religion",
+        "politics",
+        "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/candide/gutenberg-19942/book.epub",
+          "sha256": "bc98656f7a10706caee08a6a0878d37096c20b1996c767bcecc186c6959bc7e1",
+          "bytes": 733422
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/candide/gutenberg-19942/book.pdf",
+          "sha256": "70becd2e7b1f8c02c970aa244b60688a216e4da75803643ec8250b6956e57cc2",
+          "bytes": 220269
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "19942",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/19942",
+          "edition_id": "candide-en-source-1759-gutenberg-19942",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "common-sense",
       "catalog_file": "suppressed-knowledge.yaml",
       "title": "Common Sense",
@@ -381,7 +489,8 @@
       "collections": [
         "essential-literature",
         "original-language",
-        "suppressed-knowledge"
+        "suppressed-knowledge",
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -1312,6 +1421,115 @@
       }
     },
     {
+      "id": "great-expectations",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "original_year": 1861,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "1400",
+      "description": "An orphan's expectations of wealth reshape his identity, loyalties, and moral judgment.",
+      "why_included": "Challenged for crime, violence, class resentment, and morally compromised characters.",
+      "tags": [
+        "literary-canon",
+        "class",
+        "crime",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/great-expectations/gutenberg-1400/book.epub",
+          "sha256": "595340bb1acc70848ab2fb32b07372c213f47a15715f8e12d0a5fa87e6237735",
+          "bytes": 14380282
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/great-expectations/gutenberg-1400/book.pdf",
+          "sha256": "6cd55a89f7e50edd3f6de1bc38a51ff25b58312f0fa15187610dac581f1ca5cd",
+          "bytes": 903196
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1400",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1400",
+          "edition_id": "great-expectations-en-source-1861-gutenberg-1400",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "gullivers-travels",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "original_year": 1726,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "829",
+      "description": "A traveler encounters societies that expose the absurdities of politics and human behavior.",
+      "why_included": "Censored and challenged for political satire, sexuality, and bodily humor.",
+      "tags": [
+        "satire",
+        "politics",
+        "literary-canon",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/gullivers-travels/gutenberg-829/book.epub",
+          "sha256": "c14f9e78fc1a4031082b230b8dcdf6f60cbe7f371fcfbebaf7035a971d431433",
+          "bytes": 739900
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/gullivers-travels/gutenberg-829/book.pdf",
+          "sha256": "4a5e7f6e678efb08d4d5518167addc6b60fde2a4290a747eb9b6aea13bd41685",
+          "bytes": 500824
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "829",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/829",
+          "edition_id": "gullivers-travels-en-source-1726-gutenberg-829",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "home-canning-of-fruits-and-vegetables",
       "catalog_file": "practical-library.yaml",
       "title": "Home Canning of Fruits and Vegetables",
@@ -1697,6 +1915,60 @@
       }
     },
     {
+      "id": "lysistrata",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Lysistrata",
+      "author": "Aristophanes",
+      "original_year": -411,
+      "original_language": "Ancient Greek",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "7700",
+      "description": "Women attempt to end a war through a collective sexual strike.",
+      "why_included": "Restricted for explicit sexual comedy, gender politics, and antiwar content.",
+      "tags": [
+        "comedy",
+        "antiwar",
+        "sexuality",
+        "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/lysistrata/gutenberg-7700/book.epub",
+          "sha256": "da30543b081fa4bfba30ccfc2ed03916eafeba083034354683669eb28f9cad2e",
+          "bytes": 1926280
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/lysistrata/gutenberg-7700/book.pdf",
+          "sha256": "7de8e2c742443172aaeff39b531a8a0cba3f395229a32350562939c7ac98d370",
+          "bytes": 142172
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "7700",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7700",
+          "edition_id": "lysistrata-en-source--411-gutenberg-7700",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "madame-bovary",
       "catalog_file": "world-literature.yaml",
       "title": "Madame Bovary",
@@ -1915,6 +2187,114 @@
       }
     },
     {
+      "id": "moby-dick",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "original_year": 1851,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "2701",
+      "description": "A captain turns a whaling voyage into a metaphysical campaign of revenge.",
+      "why_included": "Challenged for violence, sexuality, racial language, religion, and blasphemy.",
+      "tags": [
+        "literary-canon",
+        "religion",
+        "violence",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/moby-dick/gutenberg-2701/book.epub",
+          "sha256": "a36309659c26d822d7fedaa17b3d8c8ccb0bc4a0514be19196465b15208268af",
+          "bytes": 835851
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/moby-dick/gutenberg-2701/book.pdf",
+          "sha256": "4fd662aa00d543bf625961e33d1bac727faf29271c721d048cfa3f6894b560d7",
+          "bytes": 1068020
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2701",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2701",
+          "edition_id": "moby-dick-en-source-1851-gutenberg-2701",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "moll-flanders",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Moll Flanders",
+      "author": "Daniel Defoe",
+      "original_year": 1722,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "370",
+      "description": "A woman survives through marriage, deception, theft, sex work, crime, and transportation.",
+      "why_included": "Frequently restricted for sexuality, prostitution, crime, illegitimacy, and moral ambiguity.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "crime",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/moll-flanders/gutenberg-370/book.epub",
+          "sha256": "8866280023cdad27e0846d99a5f6cacd6df1f8c366387278a83d7ac64024ce94",
+          "bytes": 530835
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/moll-flanders/gutenberg-370/book.pdf",
+          "sha256": "1809e669ebbe211e519a2a49aaf88879751f5163772f056d719f402a861ed34f",
+          "bytes": 590621
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "370",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/370",
+          "edition_id": "moll-flanders-en-source-1722-gutenberg-370",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "noli-me-tangere",
       "catalog_file": "original-language-expanded.yaml",
       "title": "Noli Me Tangere",
@@ -2012,6 +2392,60 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/34901",
           "edition_id": "on-liberty-en-source-1859-gutenberg-34901",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "paradise-lost",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "original_year": 1667,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "26",
+      "description": "An epic retelling of Satan's rebellion and humanity's fall.",
+      "why_included": "Historically restricted for religious and political reasons.",
+      "tags": [
+        "poetry",
+        "religion",
+        "politics",
+        "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/paradise-lost/gutenberg-26/book.epub",
+          "sha256": "aa9986aeddcb459fb9b74b7d6bba19c7970378c901d0a0efb6074fa31be9cfc5",
+          "bytes": 282301
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/paradise-lost/gutenberg-26/book.pdf",
+          "sha256": "502709d005bfe8988990a9ce924dc4831c35a7f16c90d7f2591cbe06687dc3af",
+          "bytes": 473587
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "26",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/26",
+          "edition_id": "paradise-lost-en-source-1667-gutenberg-26",
           "primary": true
         }
       ],
@@ -2142,7 +2576,8 @@
       "original_language": "Russian",
       "collections": [
         "original-language",
-        "suppressed-knowledge"
+        "suppressed-knowledge",
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -2185,6 +2620,60 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "robinson-crusoe",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "original_year": 1719,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "521",
+      "description": "A castaway builds a life through labor, improvisation, trade, religion, and colonial power.",
+      "why_included": "Challenged for colonialism, race, religion, violence, and its depiction of Friday.",
+      "tags": [
+        "literary-canon",
+        "colonialism",
+        "religion",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/robinson-crusoe/gutenberg-521/book.epub",
+          "sha256": "dd14ae7738373b708173da2f0d76f77663262be65ac03afbafef16387350b2de",
+          "bytes": 338504
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/robinson-crusoe/gutenberg-521/book.pdf",
+          "sha256": "95df9b8048a31151fd2ed83b29ab5b242807fd209227a45695440ba3605205ac",
+          "bytes": 518083
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "521",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/521",
+          "edition_id": "robinson-crusoe-en-source-1719-gutenberg-521",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -2296,6 +2785,60 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "sons-and-lovers",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Sons and Lovers",
+      "author": "D. H. Lawrence",
+      "original_year": 1913,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "217",
+      "description": "A young artist struggles with family attachment, class, intimacy, and independence.",
+      "why_included": "Challenged for sexuality, family relationships, and alleged obscenity.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "family",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/sons-and-lovers/gutenberg-217/book.epub",
+          "sha256": "9f4e09ecb8d1014406616c3546902129c716a652c31649bfb85e49f06960edd0",
+          "bytes": 501509
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/sons-and-lovers/gutenberg-217/book.pdf",
+          "sha256": "0f548a638d706676d6c1f4af513651db58a1f57f22b3deae787a471d3927916f",
+          "bytes": 881873
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "217",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/217",
+          "edition_id": "sons-and-lovers-en-source-1913-gutenberg-217",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -2569,9 +3112,9 @@
           "primary": true
         },
         {
-          "source_id": "internet-archive",
+          "source_id": "local-source",
           "source_item_id": "adventuresoftoms00twaiuoft",
-          "label": "Internet Archive",
+          "label": "Local Source",
           "url": "https://archive.org/details/adventuresoftoms00twaiuoft",
           "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
           "primary": false
@@ -2806,6 +3349,60 @@
       }
     },
     {
+      "id": "the-communist-manifesto",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx and Friedrich Engels",
+      "original_year": 1848,
+      "original_language": "German",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "61",
+      "description": "A concise argument about class conflict, capitalism, and revolutionary political change.",
+      "why_included": "Banned and restricted under anticommunist and authoritarian governments.",
+      "tags": [
+        "politics",
+        "class",
+        "revolution",
+        "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-communist-manifesto/gutenberg-61/book.epub",
+          "sha256": "ef97ab89f03c2bb62f3a80ca6d81f85eb8dd889ee506053de34be86ec4f39db6",
+          "bytes": 114483
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-communist-manifesto/gutenberg-61/book.pdf",
+          "sha256": "ea850851668b2c1429a5f539c192f13c981d9014841cc978364aad048acff858",
+          "bytes": 97540
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "61",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/61",
+          "edition_id": "the-communist-manifesto-en-source-1848-gutenberg-61",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "the-count-of-monte-cristo",
       "catalog_file": "world-literature.yaml",
       "title": "The Count of Monte Cristo",
@@ -2960,6 +3557,60 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/445",
           "edition_id": "the-crowd-en-source-1895-gutenberg-445",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "the-decameron",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "original_year": 1353,
+      "original_language": "Italian",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "23700",
+      "description": "One hundred stories told by people sheltering from plague outside Florence.",
+      "why_included": "Repeatedly censored for sexuality, anticlerical satire, adultery, and bawdy humor.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "religion",
+        "satire"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-decameron/gutenberg-23700/book.epub",
+          "sha256": "950056c80d9d83f8ffa0615b29fe0a7e48cfae1560a11340749e9f62c114cfb6",
+          "bytes": 771733
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-decameron/gutenberg-23700/book.pdf",
+          "sha256": "feb51ed1478ff8af3c9fb1110cee38def7897925d65383559d19cda0ed72d8db",
+          "bytes": 1391653
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "23700",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/23700",
+          "edition_id": "the-decameron-en-source-1353-gutenberg-23700",
           "primary": true
         }
       ],
@@ -3361,6 +4012,60 @@
       }
     },
     {
+      "id": "the-iron-heel",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Iron Heel",
+      "author": "Jack London",
+      "original_year": 1908,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "1164",
+      "description": "A dystopian account of an oligarchy crushing democratic and socialist opposition.",
+      "why_included": "Suppressed for revolutionary socialism and criticism of concentrated wealth.",
+      "tags": [
+        "dystopia",
+        "socialism",
+        "authoritarianism",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-iron-heel/gutenberg-1164/book.epub",
+          "sha256": "f250cf04e28849aa9fa89c1e9f32a6ef0413ce5e2f16aeab2132c3314bfab9d4",
+          "bytes": 455476
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-iron-heel/gutenberg-1164/book.pdf",
+          "sha256": "0f3adab86e795b483c485f946b545500c9a8e13767fda5df0ed9303ea7c5dae2",
+          "bytes": 456117
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1164",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1164",
+          "edition_id": "the-iron-heel-en-source-1908-gutenberg-1164",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "the-jungle",
       "catalog_file": "books.yaml",
       "title": "The Jungle",
@@ -3592,6 +4297,60 @@
       }
     },
     {
+      "id": "the-moonstone",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Moonstone",
+      "author": "Wilkie Collins",
+      "original_year": 1868,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "155",
+      "description": "A stolen diamond, colonial violence, addiction, and conflicting testimony shape an early detective novel.",
+      "why_included": "Restricted for opium, theft, sexuality, colonial themes, and challenges to Victorian respectability.",
+      "tags": [
+        "literary-canon",
+        "addiction",
+        "colonialism",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-moonstone/gutenberg-155/book.epub",
+          "sha256": "b5e48ccddb84457b6212f5bdb5ad4b0086f429ac8681e5282033e61aa5069bab",
+          "bytes": 658401
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-moonstone/gutenberg-155/book.pdf",
+          "sha256": "0a2ef40a69c8318e751768cb63679dac2babfec9d357d3a82f8f0c35b46ee2b0",
+          "bytes": 952630
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "155",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/155",
+          "edition_id": "the-moonstone-en-source-1868-gutenberg-155",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "the-mother-gorky",
       "catalog_file": "original-language-expanded.yaml",
       "title": "The Mother",
@@ -3600,7 +4359,8 @@
       "original_language": "Russian",
       "collections": [
         "original-language",
-        "suppressed-knowledge"
+        "suppressed-knowledge",
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3754,6 +4514,60 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "the-prince",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "original_year": 1532,
+      "original_language": "Italian",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "1232",
+      "description": "A pragmatic analysis of political power, leadership, force, and statecraft.",
+      "why_included": "Prohibited by religious authorities for its treatment of morality and political power.",
+      "tags": [
+        "politics",
+        "power",
+        "censorship",
+        "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-prince/gutenberg-1232/book.epub",
+          "sha256": "d2abb2da201afbd3ba95a54b274012227c37851bfbd4af349869b15eec6113ac",
+          "bytes": 212464
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-prince/gutenberg-1232/book.pdf",
+          "sha256": "7d53dc212ace794c18759c76d3021d9c563543364a54c9bfa98cf0aad297e738",
+          "bytes": 261147
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1232",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1232",
+          "edition_id": "the-prince-en-source-1532-gutenberg-1232",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -4211,7 +5025,8 @@
       "collections": [
         "suppressed-knowledge",
         "original-language",
-        "essential-literature"
+        "essential-literature",
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "english_translation_included": false,
@@ -4370,6 +5185,60 @@
       }
     },
     {
+      "id": "tom-jones",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Tom Jones",
+      "author": "Henry Fielding",
+      "original_year": 1749,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "6593",
+      "description": "A foundling's comic travels expose hypocrisy, sexuality, class, and competing ideas of virtue.",
+      "why_included": "Condemned and restricted for sexual behavior, illegitimacy, profanity, and irreverent comedy.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "class",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/tom-jones/gutenberg-6593/book.epub",
+          "sha256": "03df8ce464d4beab09fddb59837728c5d85e3f5607c73bf10f2a0be42761602f",
+          "bytes": 1103990
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/tom-jones/gutenberg-6593/book.pdf",
+          "sha256": "88b9e4919eaa9e976b88b387eeb2623248e65ff538ab64c668e9b53406ffcff3",
+          "bytes": 1649060
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "6593",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/6593",
+          "edition_id": "tom-jones-en-source-1749-gutenberg-6593",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "ulysses",
       "catalog_file": "books.yaml",
       "title": "Ulysses",
@@ -4488,7 +5357,8 @@
       "collections": [
         "essential-literature",
         "original-language",
-        "suppressed-knowledge"
+        "suppressed-knowledge",
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4630,6 +5500,60 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/416",
           "edition_id": "winesburg-ohio-en-source-1919-gutenberg-416",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "women-in-love",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Women in Love",
+      "author": "D. H. Lawrence",
+      "original_year": 1920,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "4240",
+      "description": "Two sisters confront love, class, industrial society, desire, and emotional power.",
+      "why_included": "Prosecuted and restricted for sexuality and alleged obscenity.",
+      "tags": [
+        "literary-canon",
+        "sexuality",
+        "obscenity",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/women-in-love/gutenberg-4240/book.epub",
+          "sha256": "b64d2b34a6454decbb0b2eb405f4f170a5e38b9d9d6a180a9fcd806eeb38a38a",
+          "bytes": 513972
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/women-in-love/gutenberg-4240/book.pdf",
+          "sha256": "cedd2f79008f28cdd235600e2333e0e2de7b69d0f5f57d9c5da25a91c087fbd6",
+          "bytes": 969548
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "4240",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/4240",
+          "edition_id": "women-in-love-en-source-1920-gutenberg-4240",
           "primary": true
         }
       ],
@@ -4786,6 +5710,35 @@
           ]
         }
       ],
+      "a-tale-of-two-cities": [
+        {
+          "edition_id": "a-tale-of-two-cities-en-source-1859-gutenberg-98",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "98",
+          "provenance_path": "content/books/a-tale-of-two-cities/gutenberg-98/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/98"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.epub",
+              "sha256": "b90c5e231a98b37d667bcc97eba72c779e297a2b9911367c018054d42bf63fb4",
+              "bytes": 7914666
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.pdf",
+              "sha256": "1c12ca3b408300cc1fb42c8cb43bfa6d37e37652b119f62adae653852596b327",
+              "bytes": 700104
+            }
+          ]
+        }
+      ],
       "adventures-of-huckleberry-finn": [
         {
           "edition_id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
@@ -4902,6 +5855,35 @@
           ]
         }
       ],
+      "candide": [
+        {
+          "edition_id": "candide-en-source-1759-gutenberg-19942",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "19942",
+          "provenance_path": "content/books/candide/gutenberg-19942/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/19942"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/candide/gutenberg-19942/book.epub",
+              "sha256": "bc98656f7a10706caee08a6a0878d37096c20b1996c767bcecc186c6959bc7e1",
+              "bytes": 733422
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/candide/gutenberg-19942/book.pdf",
+              "sha256": "70becd2e7b1f8c02c970aa244b60688a216e4da75803643ec8250b6956e57cc2",
+              "bytes": 220269
+            }
+          ]
+        }
+      ],
       "common-sense": [
         {
           "edition_id": "common-sense-en-source-1776-gutenberg-147",
@@ -4956,6 +5938,35 @@
               "path": "content/books/dead-souls/gutenberg-1081/book.pdf",
               "sha256": "574cef5e49902fefe7c69f20bd78d82838a1f1cc57462858b3de6ce582641299",
               "bytes": 710667
+            }
+          ]
+        }
+      ],
+      "democracy-in-america": [
+        {
+          "edition_id": "democracy-in-america-en-source-1835-gutenberg-815",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "815",
+          "provenance_path": "content/books/democracy-in-america/gutenberg-815/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/815"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/democracy-in-america/gutenberg-815/book.epub",
+              "sha256": "a55d98f3b1074cab23a6fd7e4fa8147ca0c0f658882c44aff2df980b303331ba",
+              "bytes": 543699
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/democracy-in-america/gutenberg-815/book.pdf",
+              "sha256": "c036e79356443ab726ec2c5d1b2ceaf6753d053b23043ea4b694405e99c89594",
+              "bytes": 912290
             }
           ]
         }
@@ -5026,8 +6037,8 @@
           "source_item_id": "8086",
           "provenance_path": "content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/provenance.json",
           "rights_review": {
-            "status": "explicit-open-license",
-            "basis": "The stored edition identifies Cory Doctorow's CC BY-NC-ND 1.0 license. It permits unchanged, attributed, noncommercial redistribution; its copyright and license notices remain inside the supplied edition.",
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
             "reviewed_at": "2026-07-21",
             "evidence_url": "https://www.gutenberg.org/ebooks/8086"
           },
@@ -5076,6 +6087,35 @@
           ]
         }
       ],
+      "dry-farming": [
+        {
+          "edition_id": "dry-farming-en-source-1911-gutenberg-4924",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "4924",
+          "provenance_path": "content/books/dry-farming/gutenberg-4924/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/4924"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/dry-farming/gutenberg-4924/book.epub",
+              "sha256": "bfe433e99669866ad52e697fed71ae51b66d81ea46f21d97cc3bea9becf0c506",
+              "bytes": 271380
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/dry-farming/gutenberg-4924/book.pdf",
+              "sha256": "e48a4d5e012a8de64ba8298592f72a485fb10a9005b57877b6a693c06af964ed",
+              "bytes": 396409
+            }
+          ]
+        }
+      ],
       "dubliners": [
         {
           "edition_id": "dubliners-en-source-1914-gutenberg-2814",
@@ -5101,6 +6141,64 @@
               "path": "content/books/dubliners/gutenberg-2814/book.pdf",
               "sha256": "aff26eb5e1af2a40ed403e214d8017ed2112933d54ae30bec946784c767969ef",
               "bytes": 365252
+            }
+          ]
+        }
+      ],
+      "effi-briest": [
+        {
+          "edition_id": "effi-briest-en-source-1895-gutenberg-5323",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "5323",
+          "provenance_path": "content/books/effi-briest/gutenberg-5323/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/5323"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/effi-briest/gutenberg-5323/book.epub",
+              "sha256": "1185512de51e428c8d437a5be20d203e2dcd5a953f87afb366822de31f7c43b4",
+              "bytes": 323677
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/effi-briest/gutenberg-5323/book.pdf",
+              "sha256": "f5bc144f345f6e27c562152c7be7deba0780bf87bb37e055a56f45e20e0317cb",
+              "bytes": 548977
+            }
+          ]
+        }
+      ],
+      "el-filibusterismo": [
+        {
+          "edition_id": "el-filibusterismo-en-source-1891-gutenberg-30903",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "30903",
+          "provenance_path": "content/books/el-filibusterismo/gutenberg-30903/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/30903"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/el-filibusterismo/gutenberg-30903/book.epub",
+              "sha256": "63b7d483b4d93b573aad17dc05ac00767213dc4749ad9b6348242f5a61d9dd6d",
+              "bytes": 404059
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/el-filibusterismo/gutenberg-30903/book.pdf",
+              "sha256": "0e8c398bde953f3f4e01006dc0fd8f587bdb05e912ddbbbcd115f0016793facf",
+              "bytes": 588574
             }
           ]
         }
@@ -5163,6 +6261,35 @@
           ]
         }
       ],
+      "farm-mechanics": [
+        {
+          "edition_id": "farm-mechanics-en-source-1918-gutenberg-39791",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "39791",
+          "provenance_path": "content/books/farm-mechanics/gutenberg-39791/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/39791"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/farm-mechanics/gutenberg-39791/book.epub",
+              "sha256": "b9a7ca0e908ffe50cc5e3041bbca886c8648aa36b9adb28887780b438bcccfbf",
+              "bytes": 2233028
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/farm-mechanics/gutenberg-39791/book.pdf",
+              "sha256": "c75c107cc79541b3faf8acfe6d07eb3df61ac2004f44935a14029f307139e5c2",
+              "bytes": 284166
+            }
+          ]
+        }
+      ],
       "fathers-and-sons": [
         {
           "edition_id": "fathers-and-sons-en-source-1862-gutenberg-47935",
@@ -5221,6 +6348,35 @@
           ]
         }
       ],
+      "frankenstein-1818": [
+        {
+          "edition_id": "frankenstein-1818-en-source-1818-gutenberg-84",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "84",
+          "provenance_path": "content/books/frankenstein-1818/gutenberg-84/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/84"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/frankenstein-1818/gutenberg-84/book.epub",
+              "sha256": "1ac83783a4fb85a1ac54d3aeb53e1aaf2f1124ffde9e6ce5109963d01d34db95",
+              "bytes": 473790
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/frankenstein-1818/gutenberg-84/book.pdf",
+              "sha256": "e2bd0e8a3f5ed1031c06b25bb82175a993aa099711a77aaa358b763a9f5e2666",
+              "bytes": 382452
+            }
+          ]
+        }
+      ],
       "germinal": [
         {
           "edition_id": "germinal-en-source-1885-gutenberg-56528",
@@ -5246,6 +6402,64 @@
               "path": "content/books/germinal/gutenberg-56528/book.pdf",
               "sha256": "a0b0c05358072d746701c05a7a9d28c916c92a9d71b68415064e0ab093acb381",
               "bytes": 899577
+            }
+          ]
+        }
+      ],
+      "great-expectations": [
+        {
+          "edition_id": "great-expectations-en-source-1861-gutenberg-1400",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1400",
+          "provenance_path": "content/books/great-expectations/gutenberg-1400/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1400"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/great-expectations/gutenberg-1400/book.epub",
+              "sha256": "595340bb1acc70848ab2fb32b07372c213f47a15715f8e12d0a5fa87e6237735",
+              "bytes": 14380282
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/great-expectations/gutenberg-1400/book.pdf",
+              "sha256": "6cd55a89f7e50edd3f6de1bc38a51ff25b58312f0fa15187610dac581f1ca5cd",
+              "bytes": 903196
+            }
+          ]
+        }
+      ],
+      "gullivers-travels": [
+        {
+          "edition_id": "gullivers-travels-en-source-1726-gutenberg-829",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "829",
+          "provenance_path": "content/books/gullivers-travels/gutenberg-829/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/829"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/gullivers-travels/gutenberg-829/book.epub",
+              "sha256": "c14f9e78fc1a4031082b230b8dcdf6f60cbe7f371fcfbebaf7035a971d431433",
+              "bytes": 739900
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/gullivers-travels/gutenberg-829/book.pdf",
+              "sha256": "4a5e7f6e678efb08d4d5518167addc6b60fde2a4290a747eb9b6aea13bd41685",
+              "bytes": 500824
             }
           ]
         }
@@ -5304,6 +6518,35 @@
               "path": "content/books/instincts-of-the-herd-in-peace-and-war/gutenberg-53453/book.pdf",
               "sha256": "aaef8348355798c45700125de04373c0d029c3e5b7a1d645c0aa7c82d0b8d230",
               "bytes": 420263
+            }
+          ]
+        }
+      ],
+      "jane-eyre": [
+        {
+          "edition_id": "jane-eyre-en-source-1847-gutenberg-1260",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1260",
+          "provenance_path": "content/books/jane-eyre/gutenberg-1260/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1260"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/jane-eyre/gutenberg-1260/book.epub",
+              "sha256": "7c2fc9d15dec2114a89d1f4d00885e59186e6d8bfcf0e22296ce274cff6ff13d",
+              "bytes": 3088518
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/jane-eyre/gutenberg-1260/book.pdf",
+              "sha256": "ac3750a79d8c72d742860dd69ad21fb022763cafbf108be355fd6c84a9ccce34",
+              "bytes": 952406
             }
           ]
         }
@@ -5424,6 +6667,35 @@
           ]
         }
       ],
+      "lysistrata": [
+        {
+          "edition_id": "lysistrata-en-source--411-gutenberg-7700",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "7700",
+          "provenance_path": "content/books/lysistrata/gutenberg-7700/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/7700"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/lysistrata/gutenberg-7700/book.epub",
+              "sha256": "da30543b081fa4bfba30ccfc2ed03916eafeba083034354683669eb28f9cad2e",
+              "bytes": 1926280
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/lysistrata/gutenberg-7700/book.pdf",
+              "sha256": "7de8e2c742443172aaeff39b531a8a0cba3f395229a32350562939c7ac98d370",
+              "bytes": 142172
+            }
+          ]
+        }
+      ],
       "madame-bovary": [
         {
           "edition_id": "madame-bovary-en-source-1857-gutenberg-2413",
@@ -5540,6 +6812,93 @@
           ]
         }
       ],
+      "moby-dick": [
+        {
+          "edition_id": "moby-dick-en-source-1851-gutenberg-2701",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "2701",
+          "provenance_path": "content/books/moby-dick/gutenberg-2701/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/2701"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/moby-dick/gutenberg-2701/book.epub",
+              "sha256": "a36309659c26d822d7fedaa17b3d8c8ccb0bc4a0514be19196465b15208268af",
+              "bytes": 835851
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/moby-dick/gutenberg-2701/book.pdf",
+              "sha256": "4fd662aa00d543bf625961e33d1bac727faf29271c721d048cfa3f6894b560d7",
+              "bytes": 1068020
+            }
+          ]
+        }
+      ],
+      "moll-flanders": [
+        {
+          "edition_id": "moll-flanders-en-source-1722-gutenberg-370",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "370",
+          "provenance_path": "content/books/moll-flanders/gutenberg-370/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/370"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/moll-flanders/gutenberg-370/book.epub",
+              "sha256": "8866280023cdad27e0846d99a5f6cacd6df1f8c366387278a83d7ac64024ce94",
+              "bytes": 530835
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/moll-flanders/gutenberg-370/book.pdf",
+              "sha256": "1809e669ebbe211e519a2a49aaf88879751f5163772f056d719f402a861ed34f",
+              "bytes": 590621
+            }
+          ]
+        }
+      ],
+      "noli-me-tangere": [
+        {
+          "edition_id": "noli-me-tangere-en-source-1887-gutenberg-21848",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "21848",
+          "provenance_path": "content/books/noli-me-tangere/gutenberg-21848/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/21848"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/noli-me-tangere/gutenberg-21848/book.epub",
+              "sha256": "5f93bfb47ffd9808a9097987e854bc374816399c891377fde41b62cf2140ac0d",
+              "bytes": 522117
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/noli-me-tangere/gutenberg-21848/book.pdf",
+              "sha256": "ab215f5600b342fcf7933fc967150fc0cbe2112bb87b389a391c08f183111296",
+              "bytes": 777259
+            }
+          ]
+        }
+      ],
       "on-liberty": [
         {
           "edition_id": "on-liberty-en-source-1859-gutenberg-34901",
@@ -5565,6 +6924,35 @@
               "path": "content/books/on-liberty/gutenberg-34901/book.pdf",
               "sha256": "a30da7d86470e611449edeb9f937eaf69d342d299ebbf782524e4539b1cb130e",
               "bytes": 271019
+            }
+          ]
+        }
+      ],
+      "paradise-lost": [
+        {
+          "edition_id": "paradise-lost-en-source-1667-gutenberg-26",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "26",
+          "provenance_path": "content/books/paradise-lost/gutenberg-26/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/26"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/paradise-lost/gutenberg-26/book.epub",
+              "sha256": "aa9986aeddcb459fb9b74b7d6bba19c7970378c901d0a0efb6074fa31be9cfc5",
+              "bytes": 282301
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/paradise-lost/gutenberg-26/book.pdf",
+              "sha256": "502709d005bfe8988990a9ce924dc4831c35a7f16c90d7f2591cbe06687dc3af",
+              "bytes": 473587
             }
           ]
         }
@@ -5656,6 +7044,35 @@
           ]
         }
       ],
+      "robinson-crusoe": [
+        {
+          "edition_id": "robinson-crusoe-en-source-1719-gutenberg-521",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "521",
+          "provenance_path": "content/books/robinson-crusoe/gutenberg-521/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/521"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/robinson-crusoe/gutenberg-521/book.epub",
+              "sha256": "dd14ae7738373b708173da2f0d76f77663262be65ac03afbafef16387350b2de",
+              "bytes": 338504
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/robinson-crusoe/gutenberg-521/book.pdf",
+              "sha256": "95df9b8048a31151fd2ed83b29ab5b242807fd209227a45695440ba3605205ac",
+              "bytes": 518083
+            }
+          ]
+        }
+      ],
       "shelters-shacks-and-shanties": [
         {
           "edition_id": "shelters-shacks-and-shanties-en-source-1914-gutenberg-28255",
@@ -5710,6 +7127,35 @@
               "path": "content/books/siddhartha/gutenberg-2500/book.pdf",
               "sha256": "db283f23b0ec671c0443eb99a65c9a03d644e63e2f89d61426a85c0d4a1b3af6",
               "bytes": 210664
+            }
+          ]
+        }
+      ],
+      "sons-and-lovers": [
+        {
+          "edition_id": "sons-and-lovers-en-source-1913-gutenberg-217",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "217",
+          "provenance_path": "content/books/sons-and-lovers/gutenberg-217/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/217"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/sons-and-lovers/gutenberg-217/book.epub",
+              "sha256": "9f4e09ecb8d1014406616c3546902129c716a652c31649bfb85e49f06960edd0",
+              "bytes": 501509
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/sons-and-lovers/gutenberg-217/book.pdf",
+              "sha256": "0f548a638d706676d6c1f4af513651db58a1f57f22b3deae787a471d3927916f",
+              "bytes": 881873
             }
           ]
         }
@@ -5772,6 +7218,114 @@
           ]
         }
       ],
+      "tartuffe": [
+        {
+          "edition_id": "tartuffe-en-source-1664-gutenberg-28488",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "28488",
+          "provenance_path": "content/books/tartuffe/gutenberg-28488/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/28488"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/tartuffe/gutenberg-28488/book.epub",
+              "sha256": "3c1029f0168d3fe7ee3ad337f89c1b0aa7b74a3ec09d82979583124d08cbb500",
+              "bytes": 112190
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/tartuffe/gutenberg-28488/book.pdf",
+              "sha256": "dcdf1c1c7f2e97f63c6341e5bcfed89f5e3948789c47ad49f9c984fceb2e4f7d",
+              "bytes": 131595
+            }
+          ]
+        }
+      ],
+      "tess-of-the-durbervilles": [
+        {
+          "edition_id": "tess-of-the-durbervilles-en-source-1891-gutenberg-110",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "110",
+          "provenance_path": "content/books/tess-of-the-durbervilles/gutenberg-110/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/110"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.epub",
+              "sha256": "e77363891689bfa6d718a3a5278b979116988dd62209faac65dfef87e519c0e5",
+              "bytes": 504034
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.pdf",
+              "sha256": "a3efcde9ba6f1ec504913c1011bbbabbe63de40940b6f4e48e502ad518ddf82e",
+              "bytes": 790400
+            }
+          ]
+        }
+      ],
+      "the-adventures-of-tom-sawyer": [
+        {
+          "edition_id": "the-adventures-of-tom-sawyer-en-source-1876-gutenberg-74",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "74",
+          "provenance_path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/74"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub",
+              "sha256": "8ac09cc08a0845ff5c314c6b560b7dcb27752db2765a8d75906263f6fd7802e5",
+              "bytes": 16672328
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.pdf",
+              "sha256": "b5cde11c0b2f4d8a1f9514a7364a77e9509754a53d619abdff2d3879be045937",
+              "bytes": 397627
+            }
+          ]
+        },
+        {
+          "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
+          "language": "English",
+          "source_id": "local-source",
+          "source_item_id": "adventuresoftoms00twaiuoft",
+          "provenance_path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://archive.org/details/adventuresoftoms00twaiuoft"
+          },
+          "files": [
+            {
+              "role": "facsimile-pdf",
+              "path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf",
+              "sha256": "b2bd91968268a5553dd80b7777052ae8f897f31cbd34076f0bd5164704ecd1da",
+              "bytes": 18610004
+            }
+          ]
+        }
+      ],
       "the-age-of-innocence": [
         {
           "edition_id": "the-age-of-innocence-en-source-1920-gutenberg-541",
@@ -5797,6 +7351,64 @@
               "path": "content/books/the-age-of-innocence/gutenberg-541/book.pdf",
               "sha256": "2c873a2a32630a07c803cd5b32f316016390bb7809500c3faa90a861746d91ec",
               "bytes": 545668
+            }
+          ]
+        }
+      ],
+      "the-american-womans-home": [
+        {
+          "edition_id": "the-american-womans-home-en-source-1869-gutenberg-6598",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "6598",
+          "provenance_path": "content/books/the-american-womans-home/gutenberg-6598/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/6598"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-american-womans-home/gutenberg-6598/book.epub",
+              "sha256": "9bc9a9447837524eabb711c55d3ab8f4aa6080f732a0c670df4155c38769a2ff",
+              "bytes": 462023
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-american-womans-home/gutenberg-6598/book.pdf",
+              "sha256": "cbacb09d18e13257393bfee798880f1f5f21b165590e4697a7e900b511374f13",
+              "bytes": 748558
+            }
+          ]
+        }
+      ],
+      "the-awakening": [
+        {
+          "edition_id": "the-awakening-en-source-1899-gutenberg-160",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "160",
+          "provenance_path": "content/books/the-awakening/gutenberg-160/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/160"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-awakening/gutenberg-160/book.epub",
+              "sha256": "e7330397f6694081ebb6d1c8eccc2e04e76847c5ef749b63a846f427195bdba4",
+              "bytes": 244558
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-awakening/gutenberg-160/book.pdf",
+              "sha256": "b8b75ddc87db5e6e593549db87c6ab8f903413f9a5a5bed1c9ac80cde0938219",
+              "bytes": 352849
             }
           ]
         }
@@ -5830,6 +7442,35 @@
           ]
         }
       ],
+      "the-communist-manifesto": [
+        {
+          "edition_id": "the-communist-manifesto-en-source-1848-gutenberg-61",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "61",
+          "provenance_path": "content/books/the-communist-manifesto/gutenberg-61/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/61"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-communist-manifesto/gutenberg-61/book.epub",
+              "sha256": "ef97ab89f03c2bb62f3a80ca6d81f85eb8dd889ee506053de34be86ec4f39db6",
+              "bytes": 114483
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-communist-manifesto/gutenberg-61/book.pdf",
+              "sha256": "ea850851668b2c1429a5f539c192f13c981d9014841cc978364aad048acff858",
+              "bytes": 97540
+            }
+          ]
+        }
+      ],
       "the-count-of-monte-cristo": [
         {
           "edition_id": "the-count-of-monte-cristo-en-source-1844-gutenberg-1184",
@@ -5855,6 +7496,93 @@
               "path": "content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf",
               "sha256": "29773ed626dff8f817d4b2394e76cc2fae9d04b6c28fb49e5a4989fd52a793fb",
               "bytes": 2485138
+            }
+          ]
+        }
+      ],
+      "the-counterfeiters": [
+        {
+          "edition_id": "the-counterfeiters-en-source-1925-gutenberg-76965",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "76965",
+          "provenance_path": "content/books/the-counterfeiters/gutenberg-76965/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/76965"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-counterfeiters/gutenberg-76965/book.epub",
+              "sha256": "53f6cc5083055e0aa68b74fbb17886b8bd1ea0e606a3ec8111bb5ca30eaf4390",
+              "bytes": 653758
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-counterfeiters/gutenberg-76965/book.pdf",
+              "sha256": "90b4262e22fe92edfdde42c702f2c256305ba4dbfc97b610336ee7051df5317c",
+              "bytes": 632056
+            }
+          ]
+        }
+      ],
+      "the-crowd": [
+        {
+          "edition_id": "the-crowd-en-source-1895-gutenberg-445",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "445",
+          "provenance_path": "content/books/the-crowd/gutenberg-445/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/445"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-crowd/gutenberg-445/book.epub",
+              "sha256": "5ff252beff21cfdb4f940391f36d3f52da6e417503ab39eacc4a89b6ab43e414",
+              "bytes": 214245
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-crowd/gutenberg-445/book.pdf",
+              "sha256": "d1991a817869b7e2285562d8e323e0de2f5ad4074150334410dea279a4fbb943",
+              "bytes": 316348
+            }
+          ]
+        }
+      ],
+      "the-decameron": [
+        {
+          "edition_id": "the-decameron-en-source-1353-gutenberg-23700",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "23700",
+          "provenance_path": "content/books/the-decameron/gutenberg-23700/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/23700"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-decameron/gutenberg-23700/book.epub",
+              "sha256": "950056c80d9d83f8ffa0615b29fe0a7e48cfae1560a11340749e9f62c114cfb6",
+              "bytes": 771733
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-decameron/gutenberg-23700/book.pdf",
+              "sha256": "feb51ed1478ff8af3c9fb1110cee38def7897925d65383559d19cda0ed72d8db",
+              "bytes": 1391653
             }
           ]
         }
@@ -5913,6 +7641,35 @@
               "path": "content/books/the-essence-of-christianity/gutenberg-47025/book.pdf",
               "sha256": "2f449297d7bccdb1cbcab9174cd923236528a1fdb407f41015ef4563d31f1a62",
               "bytes": 698222
+            }
+          ]
+        }
+      ],
+      "the-federalist-papers": [
+        {
+          "edition_id": "the-federalist-papers-en-source-1787-gutenberg-1404",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1404",
+          "provenance_path": "content/books/the-federalist-papers/gutenberg-1404/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1404"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-federalist-papers/gutenberg-1404/book.epub",
+              "sha256": "47d531178b86d69fa8449007610a4432303d0716e1d008b0e65b56a5eab87cf3",
+              "bytes": 522348
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-federalist-papers/gutenberg-1404/book.pdf",
+              "sha256": "e05f0264b50cb74fdc9524c39273d665930e8ff7967525acaf07d4dd9067253f",
+              "bytes": 923787
             }
           ]
         }
@@ -6033,6 +7790,35 @@
           ]
         }
       ],
+      "the-iron-heel": [
+        {
+          "edition_id": "the-iron-heel-en-source-1908-gutenberg-1164",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1164",
+          "provenance_path": "content/books/the-iron-heel/gutenberg-1164/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1164"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-iron-heel/gutenberg-1164/book.epub",
+              "sha256": "f250cf04e28849aa9fa89c1e9f32a6ef0413ce5e2f16aeab2132c3314bfab9d4",
+              "bytes": 455476
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-iron-heel/gutenberg-1164/book.pdf",
+              "sha256": "0f3adab86e795b483c485f946b545500c9a8e13767fda5df0ed9303ea7c5dae2",
+              "bytes": 456117
+            }
+          ]
+        }
+      ],
       "the-jungle": [
         {
           "edition_id": "the-jungle-en-source-1906-gutenberg-140",
@@ -6089,6 +7875,35 @@
           ]
         }
       ],
+      "the-kreutzer-sonata": [
+        {
+          "edition_id": "the-kreutzer-sonata-en-source-1890-gutenberg-689",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "689",
+          "provenance_path": "content/books/the-kreutzer-sonata/gutenberg-689/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/689"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.epub",
+              "sha256": "8db0efcd8ec5a7688cb707f293f13b54b98d74981c57a25ca32567369e8b79a1",
+              "bytes": 459893
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.pdf",
+              "sha256": "e9a3da354c9dedc39ffe01284ba06e603ff6d5969de7456f8f7c8dee7977b797",
+              "bytes": 341891
+            }
+          ]
+        }
+      ],
       "the-life-of-jesus-critically-examined": [
         {
           "edition_id": "the-life-of-jesus-critically-examined-en-source-1835-gutenberg-64037",
@@ -6114,6 +7929,93 @@
               "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf",
               "sha256": "5e7c9c4c4d74606a813078cfd9a9d5ce0d4b60a1ba9b0bf5ee88c59b32f91c68",
               "bytes": 2684750
+            }
+          ]
+        }
+      ],
+      "the-metamorphosis": [
+        {
+          "edition_id": "the-metamorphosis-en-source-1915-gutenberg-5200",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "5200",
+          "provenance_path": "content/books/the-metamorphosis/gutenberg-5200/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/5200"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-metamorphosis/gutenberg-5200/book.epub",
+              "sha256": "79c918215ea6acfb6860d48ff27134d85cae6ad467debe14c64ca709401fc5d9",
+              "bytes": 315278
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-metamorphosis/gutenberg-5200/book.pdf",
+              "sha256": "078d07bf847d24f252588c38f20bdf0988f83ac482e57a5a768cce1bb66592f1",
+              "bytes": 129549
+            }
+          ]
+        }
+      ],
+      "the-moonstone": [
+        {
+          "edition_id": "the-moonstone-en-source-1868-gutenberg-155",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "155",
+          "provenance_path": "content/books/the-moonstone/gutenberg-155/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/155"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-moonstone/gutenberg-155/book.epub",
+              "sha256": "b5e48ccddb84457b6212f5bdb5ad4b0086f429ac8681e5282033e61aa5069bab",
+              "bytes": 658401
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-moonstone/gutenberg-155/book.pdf",
+              "sha256": "0a2ef40a69c8318e751768cb63679dac2babfec9d357d3a82f8f0c35b46ee2b0",
+              "bytes": 952630
+            }
+          ]
+        }
+      ],
+      "the-mother-gorky": [
+        {
+          "edition_id": "the-mother-gorky-en-source-1906-gutenberg-3783",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "3783",
+          "provenance_path": "content/books/the-mother-gorky/gutenberg-3783/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/3783"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-mother-gorky/gutenberg-3783/book.epub",
+              "sha256": "d667b0e6b216c8b89ae7d69604fca2b3119794c1c4962e8ed1f6fc5266d9e322",
+              "bytes": 2109745
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-mother-gorky/gutenberg-3783/book.pdf",
+              "sha256": "f42ca74cbe9873469ffba585713ba49841767489d1892dfaf7a2e616f23b4b26",
+              "bytes": 730248
             }
           ]
         }
@@ -6176,6 +8078,35 @@
           ]
         }
       ],
+      "the-prince": [
+        {
+          "edition_id": "the-prince-en-source-1532-gutenberg-1232",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1232",
+          "provenance_path": "content/books/the-prince/gutenberg-1232/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1232"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-prince/gutenberg-1232/book.epub",
+              "sha256": "d2abb2da201afbd3ba95a54b274012227c37851bfbd4af349869b15eec6113ac",
+              "bytes": 212464
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-prince/gutenberg-1232/book.pdf",
+              "sha256": "7d53dc212ace794c18759c76d3021d9c563543364a54c9bfa98cf0aad297e738",
+              "bytes": 261147
+            }
+          ]
+        }
+      ],
       "the-republic": [
         {
           "edition_id": "the-republic-en-source--380-gutenberg-1497",
@@ -6230,6 +8161,35 @@
               "path": "content/books/the-scarlet-letter/gutenberg-25344/book.pdf",
               "sha256": "b0a32162a840eabe2fd7851a16423373c8077773da5de5beed1257e3a7c6ecdc",
               "bytes": 446964
+            }
+          ]
+        }
+      ],
+      "the-social-contract": [
+        {
+          "edition_id": "the-social-contract-en-source-1762-gutenberg-46333",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "46333",
+          "provenance_path": "content/books/the-social-contract/gutenberg-46333/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/46333"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-social-contract/gutenberg-46333/book.epub",
+              "sha256": "0ff7fa5048a32520754104428aa8673808e4b0414b95ba2e163da651763280cc",
+              "bytes": 520354
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-social-contract/gutenberg-46333/book.pdf",
+              "sha256": "9f90ca45945415b3e383544050f53a4fd52457617b7efb1683ab0c8ef8929fda",
+              "bytes": 613103
             }
           ]
         }
@@ -6321,6 +8281,35 @@
           ]
         }
       ],
+      "the-theological-political-treatise": [
+        {
+          "edition_id": "the-theological-political-treatise-en-source-1670-gutenberg-992",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "992",
+          "provenance_path": "content/books/the-theological-political-treatise/gutenberg-992/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/992"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-theological-political-treatise/gutenberg-992/book.epub",
+              "sha256": "2bd3630e0a8af367b5ca994cdf7e65eb2d6ee98ea2793dadcb51aa1be0695cc7",
+              "bytes": 149760
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-theological-political-treatise/gutenberg-992/book.pdf",
+              "sha256": "344d0d50350d241ba54301811be93327e9b68a5535b5ce923890c03ee55c8a0d",
+              "bytes": 162794
+            }
+          ]
+        }
+      ],
       "the-three-musketeers": [
         {
           "edition_id": "the-three-musketeers-en-source-1844-gutenberg-1257",
@@ -6404,6 +8393,64 @@
               "path": "content/books/the-turn-of-the-screw/gutenberg-209/book.pdf",
               "sha256": "a1a393e2add4a33a61105e27fd1c54c63ced41865c0e5293aed539cd56716802",
               "bytes": 237802
+            }
+          ]
+        }
+      ],
+      "the-underdogs": [
+        {
+          "edition_id": "the-underdogs-en-source-1915-gutenberg-549",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "549",
+          "provenance_path": "content/books/the-underdogs/gutenberg-549/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/549"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-underdogs/gutenberg-549/book.epub",
+              "sha256": "9acaf76e4c58755d44f697b9278c8b2835c3475de8e6246ad5339c64bf135108",
+              "bytes": 187635
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-underdogs/gutenberg-549/book.pdf",
+              "sha256": "66bac81f40f8f619030a2dc8237ae43c29f904556ab693be8f530f6079aec3b4",
+              "bytes": 241366
+            }
+          ]
+        }
+      ],
+      "tom-jones": [
+        {
+          "edition_id": "tom-jones-en-source-1749-gutenberg-6593",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "6593",
+          "provenance_path": "content/books/tom-jones/gutenberg-6593/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/6593"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/tom-jones/gutenberg-6593/book.epub",
+              "sha256": "03df8ce464d4beab09fddb59837728c5d85e3f5607c73bf10f2a0be42761602f",
+              "bytes": 1103990
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/tom-jones/gutenberg-6593/book.pdf",
+              "sha256": "88b9e4919eaa9e976b88b387eeb2623248e65ff538ab64c668e9b53406ffcff3",
+              "bytes": 1649060
             }
           ]
         }
@@ -6495,6 +8542,93 @@
           ]
         }
       ],
+      "what-is-property": [
+        {
+          "edition_id": "what-is-property-en-source-1840-gutenberg-360",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "360",
+          "provenance_path": "content/books/what-is-property/gutenberg-360/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/360"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/what-is-property/gutenberg-360/book.epub",
+              "sha256": "03f02f9b1f8eb11cba8878b0179334e345daf5512b3da6dfa17732bea513d1cc",
+              "bytes": 487711
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/what-is-property/gutenberg-360/book.pdf",
+              "sha256": "4147cf0684ed639d8079ebe8ec9d3e021e6fd7f14f233329ba7ebea0a65be67b",
+              "bytes": 783591
+            }
+          ]
+        }
+      ],
+      "winesburg-ohio": [
+        {
+          "edition_id": "winesburg-ohio-en-source-1919-gutenberg-416",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "416",
+          "provenance_path": "content/books/winesburg-ohio/gutenberg-416/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/416"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/winesburg-ohio/gutenberg-416/book.epub",
+              "sha256": "4b32fcdc06b25f1d7b2ae37174f3dc76c6a4db910963a6e208118facacb4f2ed",
+              "bytes": 279247
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/winesburg-ohio/gutenberg-416/book.pdf",
+              "sha256": "03dd8ac116e5860248686d3dd07005b9a4d5826013d275dfd4540900f1480b43",
+              "bytes": 352409
+            }
+          ]
+        }
+      ],
+      "women-in-love": [
+        {
+          "edition_id": "women-in-love-en-source-1920-gutenberg-4240",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "4240",
+          "provenance_path": "content/books/women-in-love/gutenberg-4240/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/4240"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/women-in-love/gutenberg-4240/book.epub",
+              "sha256": "b64d2b34a6454decbb0b2eb405f4f170a5e38b9d9d6a180a9fcd806eeb38a38a",
+              "bytes": 513972
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/women-in-love/gutenberg-4240/book.pdf",
+              "sha256": "cedd2f79008f28cdd235600e2333e0e2de7b69d0f5f57d9c5da25a91c087fbd6",
+              "bytes": 969548
+            }
+          ]
+        }
+      ],
       "woodcraft-and-camping": [
         {
           "edition_id": "woodcraft-and-camping-en-source-1884-gutenberg-34607",
@@ -6549,723 +8683,6 @@
               "path": "content/books/wuthering-heights/gutenberg-768/book.pdf",
               "sha256": "40eda6ea2655ac04dcdbde385a1da4184d3cc101cc1db79c726867bb8eefb005",
               "bytes": 604208
-            }
-          ]
-        }
-      ],
-      "the-adventures-of-tom-sawyer": [
-        {
-          "edition_id": "the-adventures-of-tom-sawyer-en-source-1876-gutenberg-74",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "74",
-          "provenance_path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/74"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub",
-              "sha256": "8ac09cc08a0845ff5c314c6b560b7dcb27752db2765a8d75906263f6fd7802e5",
-              "bytes": 16672328
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.pdf",
-              "sha256": "b5cde11c0b2f4d8a1f9514a7364a77e9509754a53d619abdff2d3879be045937",
-              "bytes": 397627
-            }
-          ]
-        },
-        {
-          "edition_id": "the-adventures-of-tom-sawyer-english-facsimile-internet-archive-adventuresoftoms00twaiuoft",
-          "language": "English",
-          "source_id": "internet-archive",
-          "source_item_id": "adventuresoftoms00twaiuoft",
-          "provenance_path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected source-faithful scan; source page and local provenance retained.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://archive.org/details/adventuresoftoms00twaiuoft"
-          },
-          "files": [
-            {
-              "role": "facsimile-pdf",
-              "path": "content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf",
-              "sha256": "b2bd91968268a5553dd80b7777052ae8f897f31cbd34076f0bd5164704ecd1da",
-              "bytes": 18610004
-            }
-          ]
-        }
-      ],
-      "democracy-in-america": [
-        {
-          "edition_id": "democracy-in-america-en-source-1835-gutenberg-815",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "815",
-          "provenance_path": "content/books/democracy-in-america/gutenberg-815/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/815"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/democracy-in-america/gutenberg-815/book.epub",
-              "sha256": "a55d98f3b1074cab23a6fd7e4fa8147ca0c0f658882c44aff2df980b303331ba",
-              "bytes": 543699
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/democracy-in-america/gutenberg-815/book.pdf",
-              "sha256": "c036e79356443ab726ec2c5d1b2ceaf6753d053b23043ea4b694405e99c89594",
-              "bytes": 912290
-            }
-          ]
-        }
-      ],
-      "dry-farming": [
-        {
-          "edition_id": "dry-farming-en-source-1911-gutenberg-4924",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "4924",
-          "provenance_path": "content/books/dry-farming/gutenberg-4924/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/4924"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/dry-farming/gutenberg-4924/book.epub",
-              "sha256": "bfe433e99669866ad52e697fed71ae51b66d81ea46f21d97cc3bea9becf0c506",
-              "bytes": 271380
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/dry-farming/gutenberg-4924/book.pdf",
-              "sha256": "e48a4d5e012a8de64ba8298592f72a485fb10a9005b57877b6a693c06af964ed",
-              "bytes": 396409
-            }
-          ]
-        }
-      ],
-      "effi-briest": [
-        {
-          "edition_id": "effi-briest-en-source-1895-gutenberg-5323",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "5323",
-          "provenance_path": "content/books/effi-briest/gutenberg-5323/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/5323"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/effi-briest/gutenberg-5323/book.epub",
-              "sha256": "1185512de51e428c8d437a5be20d203e2dcd5a953f87afb366822de31f7c43b4",
-              "bytes": 323677
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/effi-briest/gutenberg-5323/book.pdf",
-              "sha256": "f5bc144f345f6e27c562152c7be7deba0780bf87bb37e055a56f45e20e0317cb",
-              "bytes": 548977
-            }
-          ]
-        }
-      ],
-      "el-filibusterismo": [
-        {
-          "edition_id": "el-filibusterismo-en-source-1891-gutenberg-30903",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "30903",
-          "provenance_path": "content/books/el-filibusterismo/gutenberg-30903/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/30903"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/el-filibusterismo/gutenberg-30903/book.epub",
-              "sha256": "63b7d483b4d93b573aad17dc05ac00767213dc4749ad9b6348242f5a61d9dd6d",
-              "bytes": 404059
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/el-filibusterismo/gutenberg-30903/book.pdf",
-              "sha256": "0e8c398bde953f3f4e01006dc0fd8f587bdb05e912ddbbbcd115f0016793facf",
-              "bytes": 588574
-            }
-          ]
-        }
-      ],
-      "farm-mechanics": [
-        {
-          "edition_id": "farm-mechanics-en-source-1918-gutenberg-39791",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "39791",
-          "provenance_path": "content/books/farm-mechanics/gutenberg-39791/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/39791"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/farm-mechanics/gutenberg-39791/book.epub",
-              "sha256": "b9a7ca0e908ffe50cc5e3041bbca886c8648aa36b9adb28887780b438bcccfbf",
-              "bytes": 2233028
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/farm-mechanics/gutenberg-39791/book.pdf",
-              "sha256": "c75c107cc79541b3faf8acfe6d07eb3df61ac2004f44935a14029f307139e5c2",
-              "bytes": 284166
-            }
-          ]
-        }
-      ],
-      "frankenstein-1818": [
-        {
-          "edition_id": "frankenstein-1818-en-source-1818-gutenberg-84",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "84",
-          "provenance_path": "content/books/frankenstein-1818/gutenberg-84/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/84"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/frankenstein-1818/gutenberg-84/book.epub",
-              "sha256": "1ac83783a4fb85a1ac54d3aeb53e1aaf2f1124ffde9e6ce5109963d01d34db95",
-              "bytes": 473790
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/frankenstein-1818/gutenberg-84/book.pdf",
-              "sha256": "e2bd0e8a3f5ed1031c06b25bb82175a993aa099711a77aaa358b763a9f5e2666",
-              "bytes": 382452
-            }
-          ]
-        }
-      ],
-      "jane-eyre": [
-        {
-          "edition_id": "jane-eyre-en-source-1847-gutenberg-1260",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "1260",
-          "provenance_path": "content/books/jane-eyre/gutenberg-1260/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/1260"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/jane-eyre/gutenberg-1260/book.epub",
-              "sha256": "7c2fc9d15dec2114a89d1f4d00885e59186e6d8bfcf0e22296ce274cff6ff13d",
-              "bytes": 3088518
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/jane-eyre/gutenberg-1260/book.pdf",
-              "sha256": "ac3750a79d8c72d742860dd69ad21fb022763cafbf108be355fd6c84a9ccce34",
-              "bytes": 952406
-            }
-          ]
-        }
-      ],
-      "noli-me-tangere": [
-        {
-          "edition_id": "noli-me-tangere-en-source-1887-gutenberg-21848",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "21848",
-          "provenance_path": "content/books/noli-me-tangere/gutenberg-21848/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/21848"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/noli-me-tangere/gutenberg-21848/book.epub",
-              "sha256": "5f93bfb47ffd9808a9097987e854bc374816399c891377fde41b62cf2140ac0d",
-              "bytes": 522117
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/noli-me-tangere/gutenberg-21848/book.pdf",
-              "sha256": "ab215f5600b342fcf7933fc967150fc0cbe2112bb87b389a391c08f183111296",
-              "bytes": 777259
-            }
-          ]
-        }
-      ],
-      "tartuffe": [
-        {
-          "edition_id": "tartuffe-en-source-1664-gutenberg-28488",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "28488",
-          "provenance_path": "content/books/tartuffe/gutenberg-28488/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/28488"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/tartuffe/gutenberg-28488/book.epub",
-              "sha256": "3c1029f0168d3fe7ee3ad337f89c1b0aa7b74a3ec09d82979583124d08cbb500",
-              "bytes": 112190
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/tartuffe/gutenberg-28488/book.pdf",
-              "sha256": "dcdf1c1c7f2e97f63c6341e5bcfed89f5e3948789c47ad49f9c984fceb2e4f7d",
-              "bytes": 131595
-            }
-          ]
-        }
-      ],
-      "tess-of-the-durbervilles": [
-        {
-          "edition_id": "tess-of-the-durbervilles-en-source-1891-gutenberg-110",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "110",
-          "provenance_path": "content/books/tess-of-the-durbervilles/gutenberg-110/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/110"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.epub",
-              "sha256": "e77363891689bfa6d718a3a5278b979116988dd62209faac65dfef87e519c0e5",
-              "bytes": 504034
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/tess-of-the-durbervilles/gutenberg-110/book.pdf",
-              "sha256": "a3efcde9ba6f1ec504913c1011bbbabbe63de40940b6f4e48e502ad518ddf82e",
-              "bytes": 790400
-            }
-          ]
-        }
-      ],
-      "the-american-womans-home": [
-        {
-          "edition_id": "the-american-womans-home-en-source-1869-gutenberg-6598",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "6598",
-          "provenance_path": "content/books/the-american-womans-home/gutenberg-6598/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/6598"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-american-womans-home/gutenberg-6598/book.epub",
-              "sha256": "9bc9a9447837524eabb711c55d3ab8f4aa6080f732a0c670df4155c38769a2ff",
-              "bytes": 462023
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-american-womans-home/gutenberg-6598/book.pdf",
-              "sha256": "cbacb09d18e13257393bfee798880f1f5f21b165590e4697a7e900b511374f13",
-              "bytes": 748558
-            }
-          ]
-        }
-      ],
-      "the-awakening": [
-        {
-          "edition_id": "the-awakening-en-source-1899-gutenberg-160",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "160",
-          "provenance_path": "content/books/the-awakening/gutenberg-160/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/160"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-awakening/gutenberg-160/book.epub",
-              "sha256": "e7330397f6694081ebb6d1c8eccc2e04e76847c5ef749b63a846f427195bdba4",
-              "bytes": 244558
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-awakening/gutenberg-160/book.pdf",
-              "sha256": "b8b75ddc87db5e6e593549db87c6ab8f903413f9a5a5bed1c9ac80cde0938219",
-              "bytes": 352849
-            }
-          ]
-        }
-      ],
-      "the-counterfeiters": [
-        {
-          "edition_id": "the-counterfeiters-en-source-1925-gutenberg-76965",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "76965",
-          "provenance_path": "content/books/the-counterfeiters/gutenberg-76965/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/76965"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-counterfeiters/gutenberg-76965/book.epub",
-              "sha256": "53f6cc5083055e0aa68b74fbb17886b8bd1ea0e606a3ec8111bb5ca30eaf4390",
-              "bytes": 653758
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-counterfeiters/gutenberg-76965/book.pdf",
-              "sha256": "90b4262e22fe92edfdde42c702f2c256305ba4dbfc97b610336ee7051df5317c",
-              "bytes": 632056
-            }
-          ]
-        }
-      ],
-      "the-crowd": [
-        {
-          "edition_id": "the-crowd-en-source-1895-gutenberg-445",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "445",
-          "provenance_path": "content/books/the-crowd/gutenberg-445/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/445"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-crowd/gutenberg-445/book.epub",
-              "sha256": "5ff252beff21cfdb4f940391f36d3f52da6e417503ab39eacc4a89b6ab43e414",
-              "bytes": 214245
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-crowd/gutenberg-445/book.pdf",
-              "sha256": "d1991a817869b7e2285562d8e323e0de2f5ad4074150334410dea279a4fbb943",
-              "bytes": 316348
-            }
-          ]
-        }
-      ],
-      "the-federalist-papers": [
-        {
-          "edition_id": "the-federalist-papers-en-source-1787-gutenberg-1404",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "1404",
-          "provenance_path": "content/books/the-federalist-papers/gutenberg-1404/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/1404"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-federalist-papers/gutenberg-1404/book.epub",
-              "sha256": "47d531178b86d69fa8449007610a4432303d0716e1d008b0e65b56a5eab87cf3",
-              "bytes": 522348
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-federalist-papers/gutenberg-1404/book.pdf",
-              "sha256": "e05f0264b50cb74fdc9524c39273d665930e8ff7967525acaf07d4dd9067253f",
-              "bytes": 923787
-            }
-          ]
-        }
-      ],
-      "the-kreutzer-sonata": [
-        {
-          "edition_id": "the-kreutzer-sonata-en-source-1890-gutenberg-689",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "689",
-          "provenance_path": "content/books/the-kreutzer-sonata/gutenberg-689/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/689"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.epub",
-              "sha256": "8db0efcd8ec5a7688cb707f293f13b54b98d74981c57a25ca32567369e8b79a1",
-              "bytes": 459893
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-kreutzer-sonata/gutenberg-689/book.pdf",
-              "sha256": "e9a3da354c9dedc39ffe01284ba06e603ff6d5969de7456f8f7c8dee7977b797",
-              "bytes": 341891
-            }
-          ]
-        }
-      ],
-      "the-metamorphosis": [
-        {
-          "edition_id": "the-metamorphosis-en-source-1915-gutenberg-5200",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "5200",
-          "provenance_path": "content/books/the-metamorphosis/gutenberg-5200/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/5200"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-metamorphosis/gutenberg-5200/book.epub",
-              "sha256": "79c918215ea6acfb6860d48ff27134d85cae6ad467debe14c64ca709401fc5d9",
-              "bytes": 315278
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-metamorphosis/gutenberg-5200/book.pdf",
-              "sha256": "078d07bf847d24f252588c38f20bdf0988f83ac482e57a5a768cce1bb66592f1",
-              "bytes": 129549
-            }
-          ]
-        }
-      ],
-      "the-mother-gorky": [
-        {
-          "edition_id": "the-mother-gorky-en-source-1906-gutenberg-3783",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "3783",
-          "provenance_path": "content/books/the-mother-gorky/gutenberg-3783/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/3783"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-mother-gorky/gutenberg-3783/book.epub",
-              "sha256": "d667b0e6b216c8b89ae7d69604fca2b3119794c1c4962e8ed1f6fc5266d9e322",
-              "bytes": 2109745
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-mother-gorky/gutenberg-3783/book.pdf",
-              "sha256": "f42ca74cbe9873469ffba585713ba49841767489d1892dfaf7a2e616f23b4b26",
-              "bytes": 730248
-            }
-          ]
-        }
-      ],
-      "the-social-contract": [
-        {
-          "edition_id": "the-social-contract-en-source-1762-gutenberg-46333",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "46333",
-          "provenance_path": "content/books/the-social-contract/gutenberg-46333/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/46333"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-social-contract/gutenberg-46333/book.epub",
-              "sha256": "0ff7fa5048a32520754104428aa8673808e4b0414b95ba2e163da651763280cc",
-              "bytes": 520354
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-social-contract/gutenberg-46333/book.pdf",
-              "sha256": "9f90ca45945415b3e383544050f53a4fd52457617b7efb1683ab0c8ef8929fda",
-              "bytes": 613103
-            }
-          ]
-        }
-      ],
-      "the-theological-political-treatise": [
-        {
-          "edition_id": "the-theological-political-treatise-en-source-1670-gutenberg-992",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "992",
-          "provenance_path": "content/books/the-theological-political-treatise/gutenberg-992/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/992"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-theological-political-treatise/gutenberg-992/book.epub",
-              "sha256": "2bd3630e0a8af367b5ca994cdf7e65eb2d6ee98ea2793dadcb51aa1be0695cc7",
-              "bytes": 149760
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-theological-political-treatise/gutenberg-992/book.pdf",
-              "sha256": "344d0d50350d241ba54301811be93327e9b68a5535b5ce923890c03ee55c8a0d",
-              "bytes": 162794
-            }
-          ]
-        }
-      ],
-      "the-underdogs": [
-        {
-          "edition_id": "the-underdogs-en-source-1915-gutenberg-549",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "549",
-          "provenance_path": "content/books/the-underdogs/gutenberg-549/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/549"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/the-underdogs/gutenberg-549/book.epub",
-              "sha256": "9acaf76e4c58755d44f697b9278c8b2835c3475de8e6246ad5339c64bf135108",
-              "bytes": 187635
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/the-underdogs/gutenberg-549/book.pdf",
-              "sha256": "66bac81f40f8f619030a2dc8237ae43c29f904556ab693be8f530f6079aec3b4",
-              "bytes": 241366
-            }
-          ]
-        }
-      ],
-      "what-is-property": [
-        {
-          "edition_id": "what-is-property-en-source-1840-gutenberg-360",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "360",
-          "provenance_path": "content/books/what-is-property/gutenberg-360/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/360"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/what-is-property/gutenberg-360/book.epub",
-              "sha256": "03f02f9b1f8eb11cba8878b0179334e345daf5512b3da6dfa17732bea513d1cc",
-              "bytes": 487711
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/what-is-property/gutenberg-360/book.pdf",
-              "sha256": "4147cf0684ed639d8079ebe8ec9d3e021e6fd7f14f233329ba7ebea0a65be67b",
-              "bytes": 783591
-            }
-          ]
-        }
-      ],
-      "winesburg-ohio": [
-        {
-          "edition_id": "winesburg-ohio-en-source-1919-gutenberg-416",
-          "language": "English",
-          "source_id": "project-gutenberg",
-          "source_item_id": "416",
-          "provenance_path": "content/books/winesburg-ohio/gutenberg-416/provenance.json",
-          "rights_review": {
-            "status": "operator-selected",
-            "basis": "Operator-selected exact Project Gutenberg source; source and edition evidence retained locally.",
-            "reviewed_at": "2026-07-21",
-            "evidence_url": "https://www.gutenberg.org/ebooks/416"
-          },
-          "files": [
-            {
-              "role": "epub",
-              "path": "content/books/winesburg-ohio/gutenberg-416/book.epub",
-              "sha256": "4b32fcdc06b25f1d7b2ae37174f3dc76c6a4db910963a6e208118facacb4f2ed",
-              "bytes": 279247
-            },
-            {
-              "role": "pdf",
-              "path": "content/books/winesburg-ohio/gutenberg-416/book.pdf",
-              "sha256": "03dd8ac116e5860248686d3dd07005b9a4d5826013d275dfd4540900f1480b43",
-              "bytes": 352409
             }
           ]
         }

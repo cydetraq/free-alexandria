@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "candide",
+  "edition_id": "candide-en-source-1759-gutenberg-19942",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "19942",
+    "edition_page": "https://www.gutenberg.org/ebooks/19942",
+    "acquired_at": "2026-07-21T21:57:19+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/candide/gutenberg-19942/book.epub",
+      "sha256": "bc98656f7a10706caee08a6a0878d37096c20b1996c767bcecc186c6959bc7e1",
+      "bytes": 733422
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/candide/gutenberg-19942/book.pdf",
+      "sha256": "70becd2e7b1f8c02c970aa244b60688a216e4da75803643ec8250b6956e57cc2",
+      "bytes": 220269
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

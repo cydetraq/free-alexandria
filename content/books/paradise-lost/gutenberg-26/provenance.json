@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "paradise-lost",
+  "edition_id": "paradise-lost-en-source-1667-gutenberg-26",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "26",
+    "edition_page": "https://www.gutenberg.org/ebooks/26",
+    "acquired_at": "2026-07-21T21:57:26+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/paradise-lost/gutenberg-26/book.epub",
+      "sha256": "aa9986aeddcb459fb9b74b7d6bba19c7970378c901d0a0efb6074fa31be9cfc5",
+      "bytes": 282301
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/paradise-lost/gutenberg-26/book.pdf",
+      "sha256": "502709d005bfe8988990a9ce924dc4831c35a7f16c90d7f2591cbe06687dc3af",
+      "bytes": 473587
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

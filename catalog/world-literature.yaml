@@ -42,7 +42,7 @@
   author: Leo Tolstoy
   original_year: 1869
   original_language: Russian
-  collections: [essential-literature, original-language, suppressed-knowledge]
+  collections: [essential-literature, original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   description: Families experience love, war, social upheaval, and historical change during the Napoleonic invasion of Russia.
@@ -54,7 +54,7 @@
   author: Fyodor Dostoevsky
   original_year: 1880
   original_language: Russian
-  collections: [essential-literature, original-language, suppressed-knowledge]
+  collections: [essential-literature, original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   description: A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.
@@ -126,7 +126,7 @@
   author: Nikolai Gogol
   original_year: 1842
   original_language: Russian
-  collections: [essential-literature, original-language, suppressed-knowledge]
+  collections: [essential-literature, original-language, suppressed-knowledge, banned-challenged]
   rights_status: historical-work
   catalog_status: source-linked
   description: A confidence man purchases the legal identities of dead serfs in a satire of bureaucracy and corruption.

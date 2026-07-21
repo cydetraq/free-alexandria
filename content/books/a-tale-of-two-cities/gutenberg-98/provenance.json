@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "a-tale-of-two-cities",
+  "edition_id": "a-tale-of-two-cities-en-source-1859-gutenberg-98",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "98",
+    "edition_page": "https://www.gutenberg.org/ebooks/98",
+    "acquired_at": "2026-07-21T21:58:59+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.epub",
+      "sha256": "b90c5e231a98b37d667bcc97eba72c779e297a2b9911367c018054d42bf63fb4",
+      "bytes": 7914666
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/a-tale-of-two-cities/gutenberg-98/book.pdf",
+      "sha256": "1c12ca3b408300cc1fb42c8cb43bfa6d37e37652b119f62adae653852596b327",
+      "bytes": 700104
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "tom-jones",
+  "edition_id": "tom-jones-en-source-1749-gutenberg-6593",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "6593",
+    "edition_page": "https://www.gutenberg.org/ebooks/6593",
+    "acquired_at": "2026-07-21T21:59:20+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/tom-jones/gutenberg-6593/book.epub",
+      "sha256": "03df8ce464d4beab09fddb59837728c5d85e3f5607c73bf10f2a0be42761602f",
+      "bytes": 1103990
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/tom-jones/gutenberg-6593/book.pdf",
+      "sha256": "88b9e4919eaa9e976b88b387eeb2623248e65ff538ab64c668e9b53406ffcff3",
+      "bytes": 1649060
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

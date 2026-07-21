@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-moonstone",
+  "edition_id": "the-moonstone-en-source-1868-gutenberg-155",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "155",
+    "edition_page": "https://www.gutenberg.org/ebooks/155",
+    "acquired_at": "2026-07-21T21:59:16+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-moonstone/gutenberg-155/book.epub",
+      "sha256": "b5e48ccddb84457b6212f5bdb5ad4b0086f429ac8681e5282033e61aa5069bab",
+      "bytes": 658401
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-moonstone/gutenberg-155/book.pdf",
+      "sha256": "0a2ef40a69c8318e751768cb63679dac2babfec9d357d3a82f8f0c35b46ee2b0",
+      "bytes": 952630
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

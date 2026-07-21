@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "moby-dick",
+  "edition_id": "moby-dick-en-source-1851-gutenberg-2701",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2701",
+    "edition_page": "https://www.gutenberg.org/ebooks/2701",
+    "acquired_at": "2026-07-21T21:59:07+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/moby-dick/gutenberg-2701/book.epub",
+      "sha256": "a36309659c26d822d7fedaa17b3d8c8ccb0bc4a0514be19196465b15208268af",
+      "bytes": 835851
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/moby-dick/gutenberg-2701/book.pdf",
+      "sha256": "4fd662aa00d543bf625961e33d1bac727faf29271c721d048cfa3f6894b560d7",
+      "bytes": 1068020
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

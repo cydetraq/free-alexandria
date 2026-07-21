@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "lysistrata",
+  "edition_id": "lysistrata-en-source--411-gutenberg-7700",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "7700",
+    "edition_page": "https://www.gutenberg.org/ebooks/7700",
+    "acquired_at": "2026-07-21T21:57:24+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/lysistrata/gutenberg-7700/book.epub",
+      "sha256": "da30543b081fa4bfba30ccfc2ed03916eafeba083034354683669eb28f9cad2e",
+      "bytes": 1926280
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/lysistrata/gutenberg-7700/book.pdf",
+      "sha256": "7de8e2c742443172aaeff39b531a8a0cba3f395229a32350562939c7ac98d370",
+      "bytes": 142172
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

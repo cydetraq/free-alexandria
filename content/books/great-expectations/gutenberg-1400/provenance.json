@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "great-expectations",
+  "edition_id": "great-expectations-en-source-1861-gutenberg-1400",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1400",
+    "edition_page": "https://www.gutenberg.org/ebooks/1400",
+    "acquired_at": "2026-07-21T21:59:04+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/great-expectations/gutenberg-1400/book.epub",
+      "sha256": "595340bb1acc70848ab2fb32b07372c213f47a15715f8e12d0a5fa87e6237735",
+      "bytes": 14380282
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/great-expectations/gutenberg-1400/book.pdf",
+      "sha256": "6cd55a89f7e50edd3f6de1bc38a51ff25b58312f0fa15187610dac581f1ca5cd",
+      "bytes": 903196
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "robinson-crusoe",
+  "edition_id": "robinson-crusoe-en-source-1719-gutenberg-521",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "521",
+    "edition_page": "https://www.gutenberg.org/ebooks/521",
+    "acquired_at": "2026-07-21T21:59:13+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/robinson-crusoe/gutenberg-521/book.epub",
+      "sha256": "dd14ae7738373b708173da2f0d76f77663262be65ac03afbafef16387350b2de",
+      "bytes": 338504
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/robinson-crusoe/gutenberg-521/book.pdf",
+      "sha256": "95df9b8048a31151fd2ed83b29ab5b242807fd209227a45695440ba3605205ac",
+      "bytes": 518083
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}
