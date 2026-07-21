@@ -4,6 +4,8 @@ These are recommendations retained for their relevance. They are not part of the
 
 ## Banned & Challenged Literature
 
+Literature with a documented history of suppression, prohibition, removal, or challenge.
+
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
 | As I Lay Dying | William Faulkner | Challenged for language, sexuality, abortion, death, religion, and family dysfunction. | [Search in Libby](https://libbyapp.com/search?query=As+I+Lay+Dying+William+Faulkner) |
@@ -16,6 +18,8 @@ These are recommendations retained for their relevance. They are not part of the
 | The Satanic Verses | Salman Rushdie | One of the defining modern censorship controversies. | [Search in Libby](https://libbyapp.com/search?query=The+Satanic+Verses+Salman+Rushdie) |
 
 ## Essential Literature
+
+High-impact works selected for literary and historical importance.
 
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
@@ -38,6 +42,8 @@ These are recommendations retained for their relevance. They are not part of the
 | We | Yevgeny Zamyatin | Banned in the Soviet Union and foundational to dystopian fiction. | [Search in Libby](https://libbyapp.com/search?query=We+Yevgeny+Zamyatin) |
 
 ## Suppressed Knowledge
+
+Material likely to be restricted or controlled by an authoritarian regime because it supports independent thought, private communication, resistance to coercion, critique of authority, media literacy, or preservation of disfavored history.
 
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
@@ -89,6 +95,8 @@ These are recommendations retained for their relevance. They are not part of the
 
 ## Preparedness & Field Manuals
 
+Fieldcraft, repair, food, shelter, navigation, and other practical continuity references.
+
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
 | Camp-Lore and Woodcraft | D. C. Beard | Broad practical source for fieldcraft and simple construction. | [Search in Libby](https://libbyapp.com/search?query=Camp-Lore+and+Woodcraft+D.+C.+Beard) |
@@ -127,6 +135,8 @@ These are recommendations retained for their relevance. They are not part of the
 
 ## Practical Library
 
+Public-domain practical references for household, workshop, farm, and outdoor use.
+
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
 | Audel's Carpenters and Builders Guide | Theo. Audel and Company | Strong practical reference when an eligible early edition is selected. | [Search in Libby](https://libbyapp.com/search?query=Audel%27s+Carpenters+and+Builders+Guide) |
@@ -140,6 +150,8 @@ These are recommendations retained for their relevance. They are not part of the
 | The Preservation of Food in the Home | United States Department of Agriculture | Useful historical context only; current USDA processing guidance takes precedence. | [Search in Libby](https://libbyapp.com/search?query=The+Preservation+of+Food+in+the+Home) |
 
 ## Original-Language Library
+
+Works retained with their source-language editions alongside available translations.
 
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
@@ -174,6 +186,8 @@ These are recommendations retained for their relevance. They are not part of the
 
 ## Open-Distribution Library
 
+Copyrighted works included under an explicit redistribution license or permission.
+
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |
 | Content | Cory Doctorow | Strong companion to the archive's free-knowledge mission. | [Search in Libby](https://libbyapp.com/search?query=Content+Cory+Doctorow) |
@@ -181,6 +195,8 @@ These are recommendations retained for their relevance. They are not part of the
 | Free Culture | Lawrence Lessig | Directly relevant to preserving and sharing culture lawfully. | [Search in Libby](https://libbyapp.com/search?query=Free+Culture+Lawrence+Lessig) |
 
 ## Essential Reading
+
+A thematic reading list. A work may also be locally included under a compatible distribution basis.
 
 | Title | Author / publisher | Why it is on this list | Find / borrow |
 | --- | --- | --- | --- |

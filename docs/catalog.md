@@ -9,6 +9,8 @@ A work can appear in more than one collection because the collections are separa
 
 ## Banned & Challenged Literature
 
+Literature with a documented history of suppression, prohibition, removal, or challenge.
+
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
@@ -59,6 +61,8 @@ A work can appear in more than one collection because the collections are separa
 
 ## Essential Literature
 
+High-impact works selected for literary and historical importance.
+
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
@@ -108,6 +112,8 @@ A work can appear in more than one collection because the collections are separa
 
 ## Suppressed Knowledge
 
+Material likely to be restricted or controlled by an authoritarian regime because it supports independent thought, private communication, resistance to coercion, critique of authority, media literacy, or preservation of disfavored history.
+
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | Areopagitica | John Milton | 1644 | [EPUB](../content/books/areopagitica/gutenberg-608/book.epub) · [Text PDF](../content/books/areopagitica/gutenberg-608/book.pdf) |
@@ -145,6 +151,8 @@ A work can appear in more than one collection because the collections are separa
 
 ## Preparedness & Field Manuals
 
+Fieldcraft, repair, food, shelter, navigation, and other practical continuity references.
+
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | Carpentry | United States Army |  | [EPUB](../content/books/fm-5-426-carpentry/gutenberg-70226/book.epub) · [Text PDF](../content/books/fm-5-426-carpentry/gutenberg-70226/book.pdf) |
@@ -154,6 +162,8 @@ A work can appear in more than one collection because the collections are separa
 | Woodcraft and Camping | George Washington Sears | 1884 | [EPUB](../content/books/woodcraft-and-camping/gutenberg-34607/book.epub) · [Text PDF](../content/books/woodcraft-and-camping/gutenberg-34607/book.pdf) |
 
 ## Practical Library
+
+Public-domain practical references for household, workshop, farm, and outdoor use.
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
@@ -165,6 +175,8 @@ A work can appear in more than one collection because the collections are separa
 | Woodcraft and Camping | George Washington Sears | 1884 | [EPUB](../content/books/woodcraft-and-camping/gutenberg-34607/book.epub) · [Text PDF](../content/books/woodcraft-and-camping/gutenberg-34607/book.pdf) |
 
 ## Original-Language Library
+
+Works retained with their source-language editions alongside available translations.
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
@@ -207,6 +219,8 @@ A work can appear in more than one collection because the collections are separa
 | What Is Property? | Pierre-Joseph Proudhon | 1840 | [EPUB](../content/books/what-is-property/gutenberg-360/book.epub) · [Text PDF](../content/books/what-is-property/gutenberg-360/book.pdf) |
 
 ## Open-Distribution Library
+
+Copyrighted works included under an explicit redistribution license or permission.
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |

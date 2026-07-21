@@ -74,6 +74,7 @@ def render_markdown(records: list[dict]) -> str:
             grouped[collection].append(record)
     collection_defs = load_collections()
     labels = {item["id"]: item["name"] for item in collection_defs}
+    descriptions = {item["id"]: item.get("description", "") for item in collection_defs}
     collection_order = [item["id"] for item in collection_defs]
     published_editions = load_published_editions()
     lines = [
@@ -88,7 +89,7 @@ def render_markdown(records: list[dict]) -> str:
         "",
     ]
     for collection in [item for item in collection_order if item in grouped] + sorted(set(grouped) - set(collection_order)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Year | Local files |", "| --- | --- | ---: | --- |"])
+        lines.extend([f"## {labels.get(collection, collection)}", "", descriptions.get(collection, ""), "", "| Title | Author / publisher | Year | Local files |", "| --- | --- | ---: | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
             lines.append(
                 "| {title} | {creator} | {year} | {files} |".format(
@@ -133,11 +134,12 @@ def render_curated_markdown(records: list[dict]) -> str:
             grouped[collection].append(record)
     collection_defs = load_collections()
     labels = {item["id"]: item["name"] for item in collection_defs}
+    descriptions = {item["id"]: item.get("description", "") for item in collection_defs}
     collection_order = [item["id"] for item in collection_defs]
     source_options = load_source_options()
     lines = ["# Curated reading lists", "", "These are recommendations retained for their relevance. They are not part of the downloadable Free Alexandria catalog because this repository does not currently supply their EPUB/PDF editions.", ""]
     for collection in [item for item in collection_order if item in grouped] + sorted(set(grouped) - set(collection_order)):
-        lines.extend([f"## {labels.get(collection, collection)}", "", "| Title | Author / publisher | Why it is on this list | Find / borrow |", "| --- | --- | --- | --- |"])
+        lines.extend([f"## {labels.get(collection, collection)}", "", descriptions.get(collection, ""), "", "| Title | Author / publisher | Why it is on this list | Find / borrow |", "| --- | --- | --- | --- |"])
         for record in sorted(grouped[collection], key=lambda item: item.get("title", item["id"])):
             library_url = next((option["url"] for option in source_options.get(record["id"], []) if option.get("source_id") == "libby"), None)
             access = markdown_links([("Search in Libby", library_url)]) if library_url else "—"

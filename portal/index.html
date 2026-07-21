@@ -61,6 +61,7 @@
       <p class="notice"><span class="offline">Your library, your list.</span> Every card in this offline catalog has exactly one selected EPUB and one selected PDF. Where a source-faithful scan is available it is the PDF; otherwise the compact fallback is labeled <strong>Text PDF</strong>.</p>
       <noscript><p class="notice">This catalog needs JavaScript enabled to search and filter the local manifest.</p></noscript>
       <nav id="collection-nav" class="collection-nav" aria-label="Browse collections"></nav>
+      <p id="collection-description" class="notice">Browse every locally supplied work, or choose a collection to see its purpose and contents.</p>
       <section class="controls" aria-label="Catalog filters">
         <label>Search<input id="search" type="search" placeholder="Title, author, topic, or reason" autocomplete="off"></label>
         <label>Collection<select id="collection"><option value="">All collections</option></select></label>
@@ -87,11 +88,13 @@
         const language = document.querySelector('#language');
         const availability = document.querySelector('#availability');
         const collectionNav = document.querySelector('#collection-nav');
+        const collectionDescription = document.querySelector('#collection-description');
         const selected = new Set();
         let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const fileLabel = role => role === 'text-pdf' ? 'Text PDF' : String(role || 'file').toUpperCase();
         let labels = {};
+        let descriptions = {};
         const availabilityLabel = edition => edition && edition.files.some(file => file.role === 'text-pdf') ? 'EPUB + Text PDF included' : 'EPUB + PDF included';
         const card = (record, edition) => {
           const creator = record.author || record.publisher;
@@ -109,6 +112,7 @@
           .then(manifest => {
             const records = manifest.records || [];
             labels = Object.fromEntries((manifest.collections || []).map(item => [item.id, item.name]));
+            descriptions = Object.fromEntries((manifest.collections || []).map(item => [item.id, item.description]));
             document.title = `${manifest.profile.name} — Free Alexandria`;
             fill(collection, [...new Set(records.flatMap(record => record.collections || []))], value => labels[value] || value);
             fill(language, [...new Set(records.map(record => record.original_language).filter(Boolean))]);
@@ -126,9 +130,10 @@
               document.querySelector('#selection-count').textContent = `${selected.size} selected`;
               summary.textContent = `${filtered.length} of ${records.length} catalog records available offline in ${manifest.profile.name}.`;
               library.innerHTML = filtered.length ? filtered.map(record => card(record, manifest.editions && manifest.editions[record.id])).join('') : '<p class="empty">No records match these filters.</p>';
+              collectionDescription.textContent = collection.value ? descriptions[collection.value] : 'Browse every locally supplied work, or choose a collection to see its purpose and contents.';
               collectionNav.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.collection === collection.value));
             };
-            collectionNav.innerHTML = ['<button type="button" class="active" data-collection="">All collections</button>', ...(manifest.collections || []).map(item => `<button type="button" data-collection="${esc(item.id)}">${esc(item.name)}</button>`)].join('');
+            collectionNav.innerHTML = ['<button type="button" class="active" data-collection="">All collections</button>', ...(manifest.collections || []).map(item => `<button type="button" data-collection="${esc(item.id)}" title="${esc(item.description)}">${esc(item.name)}</button>`)].join('');
             collectionNav.addEventListener('click', event => {
               const button = event.target.closest('button[data-collection]');
               if (!button) return;
