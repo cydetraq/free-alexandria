@@ -184,3 +184,69 @@
   description: A foundling's comic travels expose hypocrisy, sexuality, class, and competing ideas of virtue.
   why_included: Condemned and restricted for sexual behavior, illegitimacy, profanity, and irreverent comedy.
   tags: [literary-canon, sexuality, class, fiction]
+
+- id: the-canterbury-tales
+  title: The Canterbury Tales
+  author: Geoffrey Chaucer
+  original_year: 1400
+  original_language: Middle English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 2383
+  description: Pilgrims exchange stories ranging from devotional narratives to crude comedy.
+  why_included: Challenged for sexual humor, profanity, religious satire, and offensive language.
+  tags: [literary-canon, religion, sexuality, satire]
+
+- id: utopia
+  title: Utopia
+  author: Thomas More
+  original_year: 1516
+  original_language: Latin
+  collections: [banned-challenged, suppressed-knowledge]
+  project_gutenberg_id: 2130
+  description: A traveler describes an imaginary society organized around common property and unusual political institutions.
+  why_included: Politically suspect for communal property, religious pluralism, and criticism of European government.
+  tags: [politics, religion, utopia, nonfiction]
+
+- id: a-vindication-of-the-rights-of-woman
+  title: A Vindication of the Rights of Woman
+  author: Mary Wollstonecraft
+  original_year: 1792
+  original_language: English
+  collections: [banned-challenged, suppressed-knowledge]
+  project_gutenberg_id: 3420
+  description: An argument for women's rational education, independence, and equal moral standing.
+  why_included: Condemned and suppressed socially for feminism, gender equality, and criticism of patriarchal education.
+  tags: [feminism, equality, politics, nonfiction]
+
+- id: the-merchant-of-venice
+  title: The Merchant of Venice
+  author: William Shakespeare
+  original_year: 1600
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 2243
+  description: A merchant, a moneylender, and a group of lovers collide over debt, law, mercy, and prejudice.
+  why_included: Challenged for antisemitism and ethnic stereotyping.
+  tags: [drama, antisemitism, literary-canon, fiction]
+
+- id: romeo-and-juliet
+  title: Romeo and Juliet
+  author: William Shakespeare
+  original_year: 1597
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 1513
+  description: Two young people from feuding families pursue a forbidden relationship with tragic consequences.
+  why_included: Frequently challenged for sexuality, suicide, violence, and age-related objections.
+  tags: [drama, sexuality, suicide, literary-canon]
+
+- id: hamlet
+  title: Hamlet
+  author: William Shakespeare
+  original_year: 1603
+  original_language: English
+  collections: [banned-challenged, essential-literature]
+  project_gutenberg_id: 1524
+  description: A prince confronts murder, grief, revenge, conscience, and political corruption.
+  why_included: Challenged for suicide, violence, sexuality, mental illness, and occult content.
+  tags: [drama, suicide, violence, literary-canon]

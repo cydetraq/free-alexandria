@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "crime-and-punishment",
+  "edition_id": "crime-and-punishment-en-source-1866-gutenberg-2554",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2554",
+    "edition_page": "https://www.gutenberg.org/ebooks/2554",
+    "acquired_at": "2026-07-21T22:01:04+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/crime-and-punishment/gutenberg-2554/book.epub",
+      "sha256": "211f61e15d64cb1bb28059e17c24b17fc1648ca773757fb91cac954ca68da1b0",
+      "bytes": 783549
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/crime-and-punishment/gutenberg-2554/book.pdf",
+      "sha256": "0032f54f9efddf597e141fa883e85a4d4ee10f38e629ffd7c0b681b5ef8e6c24",
+      "bytes": 999902
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

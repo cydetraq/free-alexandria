@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "a-vindication-of-the-rights-of-woman",
+  "edition_id": "a-vindication-of-the-rights-of-woman-en-source-1792-gutenberg-3420",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "3420",
+    "edition_page": "https://www.gutenberg.org/ebooks/3420",
+    "acquired_at": "2026-07-21T22:01:00+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub",
+      "sha256": "b1389e1330551dd638742c142b2cd076521a04361925ea971a8da6ed91379e73",
+      "bytes": 309208
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
+      "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
+      "bytes": 460309
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

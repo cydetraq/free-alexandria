@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "we",
+  "edition_id": "we-en-source-1921-gutenberg-61963",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "61963",
+    "edition_page": "https://www.gutenberg.org/ebooks/61963",
+    "acquired_at": "2026-07-21T22:01:24+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/we/gutenberg-61963/book.epub",
+      "sha256": "39a86cf2d8b86be08dcdbd4b2c76f2b2ade736461d3496d2d7316ab240b08dae",
+      "bytes": 303336
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/we/gutenberg-61963/book.pdf",
+      "sha256": "8934f3a3cd465d5556985a2c237095dd26d1cb615bbc608af87a9e75ea94de8c",
+      "bytes": 364565
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

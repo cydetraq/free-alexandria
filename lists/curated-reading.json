@@ -1187,36 +1187,6 @@
       "library_link": "https://libbyapp.com/search?query=Index+Librorum+Prohibitorum"
     },
     {
-      "id": "crime-and-punishment",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "original_year": 1866,
-      "collections": [
-        "banned-challenged",
-        "essential-literature",
-        "original-language",
-        "suppressed-knowledge"
-      ],
-      "description": "An impoverished student commits murder while testing whether he stands beyond ordinary morality.",
-      "why_included": "A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy.",
-      "library_link": "https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky"
-    },
-    {
-      "id": "the-brothers-karamazov",
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "original_year": 1880,
-      "collections": [
-        "essential-literature",
-        "original-language",
-        "suppressed-knowledge",
-        "banned-challenged"
-      ],
-      "description": "A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.",
-      "why_included": "Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications.",
-      "library_link": "https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky"
-    },
-    {
       "id": "notes-from-underground",
       "title": "Notes from Underground",
       "author": "Fyodor Dostoevsky",
@@ -1270,20 +1240,6 @@
       "description": "A philosophical account of education, human development, nature, society, and belief.",
       "why_included": "Burned and banned for its religious arguments and challenge to established authority.",
       "library_link": "https://libbyapp.com/search?query=%C3%89mile%2C+or+On+Education+Jean-Jacques+Rousseau"
-    },
-    {
-      "id": "we",
-      "title": "We",
-      "author": "Yevgeny Zamyatin",
-      "original_year": 1921,
-      "collections": [
-        "suppressed-knowledge",
-        "essential-literature",
-        "original-language"
-      ],
-      "description": "A mathematician in a totalitarian glass city develops imagination, desire, and rebellion.",
-      "why_included": "Banned in the Soviet Union and foundational to dystopian fiction.",
-      "library_link": "https://libbyapp.com/search?query=We+Yevgeny+Zamyatin"
     }
   ]
 }

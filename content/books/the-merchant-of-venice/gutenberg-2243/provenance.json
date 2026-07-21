@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-merchant-of-venice",
+  "edition_id": "the-merchant-of-venice-en-source-1600-gutenberg-2243",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2243",
+    "edition_page": "https://www.gutenberg.org/ebooks/2243",
+    "acquired_at": "2026-07-21T22:01:19+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.epub",
+      "sha256": "840749e2f375afd48728ae3a800035f132532206daba4080fda52e85e2369cb2",
+      "bytes": 321164
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.pdf",
+      "sha256": "b729e956759e4f2c2c5321d95a7d037a390ff4904f2ed5777c6ce38be3e71fb0",
+      "bytes": 161306
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

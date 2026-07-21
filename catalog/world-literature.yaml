@@ -19,6 +19,7 @@
   original_year: 1866
   original_language: Russian
   collections: [banned-challenged, essential-literature, original-language, suppressed-knowledge]
+  project_gutenberg_id: 2554
   rights_status: historical-work
   catalog_status: source-linked
   description: An impoverished student commits murder while testing whether he stands beyond ordinary morality.
@@ -55,6 +56,7 @@
   original_year: 1880
   original_language: Russian
   collections: [essential-literature, original-language, suppressed-knowledge, banned-challenged]
+  project_gutenberg_id: 28054
   rights_status: historical-work
   catalog_status: source-linked
   description: A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.
@@ -344,7 +346,8 @@
   author: Yevgeny Zamyatin
   original_year: 1921
   original_language: Russian
-  collections: [suppressed-knowledge, essential-literature, original-language]
+  collections: [suppressed-knowledge, essential-literature, original-language, banned-challenged]
+  project_gutenberg_id: 61963
   rights_status: historical-work
   catalog_status: source-linked
   description: A mathematician in a totalitarian glass city develops imagination, desire, and rebellion.

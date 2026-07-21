@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "utopia",
+  "edition_id": "utopia-en-source-1516-gutenberg-2130",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2130",
+    "edition_page": "https://www.gutenberg.org/ebooks/2130",
+    "acquired_at": "2026-07-21T22:01:21+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/utopia/gutenberg-2130/book.epub",
+      "sha256": "558e32e0345825f149cb6c7afa6a0a20517db15742944f92325ab1b3e632e384",
+      "bytes": 170076
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/utopia/gutenberg-2130/book.pdf",
+      "sha256": "f62ac45ee1c65e14a77b0e69dd2b307482ecaea41fa7cdd6acdcfa2d64e61b3b",
+      "bytes": 218106
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

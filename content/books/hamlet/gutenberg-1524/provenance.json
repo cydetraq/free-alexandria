@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "hamlet",
+  "edition_id": "hamlet-en-source-1603-gutenberg-1524",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1524",
+    "edition_page": "https://www.gutenberg.org/ebooks/1524",
+    "acquired_at": "2026-07-21T22:01:06+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/hamlet/gutenberg-1524/book.epub",
+      "sha256": "34dd2c22e46e4e0b65cd6a912bbed57698ed87a0dddd9bf78b6117c26cebfe58",
+      "bytes": 352743
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/hamlet/gutenberg-1524/book.pdf",
+      "sha256": "f2ad3b063097362696c56a37719d4467725432e2903ad5028ff49933a3e371b0",
+      "bytes": 248185
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

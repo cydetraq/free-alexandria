@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "romeo-and-juliet",
+  "edition_id": "romeo-and-juliet-en-source-1597-gutenberg-1513",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "1513",
+    "edition_page": "https://www.gutenberg.org/ebooks/1513",
+    "acquired_at": "2026-07-21T22:01:09+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/romeo-and-juliet/gutenberg-1513/book.epub",
+      "sha256": "d52c21bc2caefb5dd3e8c15abb1be5788fde6464a31c05c79e7943b822ac82c3",
+      "bytes": 338784
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/romeo-and-juliet/gutenberg-1513/book.pdf",
+      "sha256": "052b560e1609deca1041ee4faf414ac78742f6be72e412646de9ec06ee2e4682",
+      "bytes": 203700
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}

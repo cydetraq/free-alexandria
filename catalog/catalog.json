@@ -154,6 +154,60 @@
       }
     },
     {
+      "id": "a-vindication-of-the-rights-of-woman",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "A Vindication of the Rights of Woman",
+      "author": "Mary Wollstonecraft",
+      "original_year": 1792,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "3420",
+      "description": "An argument for women's rational education, independence, and equal moral standing.",
+      "why_included": "Condemned and suppressed socially for feminism, gender equality, and criticism of patriarchal education.",
+      "tags": [
+        "feminism",
+        "equality",
+        "politics",
+        "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub",
+          "sha256": "b1389e1330551dd638742c142b2cd076521a04361925ea971a8da6ed91379e73",
+          "bytes": 309208
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
+          "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
+          "bytes": 460309
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "3420",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3420",
+          "edition_id": "a-vindication-of-the-rights-of-woman-en-source-1792-gutenberg-3420",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "adventures-of-huckleberry-finn",
       "catalog_file": "books.yaml",
       "title": "Adventures of Huckleberry Finn",
@@ -475,6 +529,65 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "crime-and-punishment",
+      "catalog_file": "world-literature.yaml",
+      "title": "Crime and Punishment",
+      "original_title": "Prestupleniye i nakazaniye",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1866,
+      "original_language": "Russian",
+      "collections": [
+        "banned-challenged",
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "2554",
+      "rights_status": "historical-work",
+      "catalog_status": "source-linked",
+      "description": "An impoverished student commits murder while testing whether he stands beyond ordinary morality.",
+      "why_included": "A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy.",
+      "tags": [
+        "literary-canon",
+        "crime",
+        "philosophy",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/crime-and-punishment/gutenberg-2554/book.epub",
+          "sha256": "211f61e15d64cb1bb28059e17c24b17fc1648ca773757fb91cac954ca68da1b0",
+          "bytes": 783549
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/crime-and-punishment/gutenberg-2554/book.pdf",
+          "sha256": "0032f54f9efddf597e141fa883e85a4d4ee10f38e629ffd7c0b681b5ef8e6c24",
+          "bytes": 999902
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2554",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2554",
+          "edition_id": "crime-and-punishment-en-source-1866-gutenberg-2554",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -1516,6 +1629,60 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/829",
           "edition_id": "gullivers-travels-en-source-1726-gutenberg-829",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "hamlet",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "original_year": 1603,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "1524",
+      "description": "A prince confronts murder, grief, revenge, conscience, and political corruption.",
+      "why_included": "Challenged for suicide, violence, sexuality, mental illness, and occult content.",
+      "tags": [
+        "drama",
+        "suicide",
+        "violence",
+        "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/hamlet/gutenberg-1524/book.epub",
+          "sha256": "34dd2c22e46e4e0b65cd6a912bbed57698ed87a0dddd9bf78b6117c26cebfe58",
+          "bytes": 352743
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/hamlet/gutenberg-1524/book.pdf",
+          "sha256": "f2ad3b063097362696c56a37719d4467725432e2903ad5028ff49933a3e371b0",
+          "bytes": 248185
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1524",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1524",
+          "edition_id": "hamlet-en-source-1603-gutenberg-1524",
           "primary": true
         }
       ],
@@ -2679,6 +2846,60 @@
       }
     },
     {
+      "id": "romeo-and-juliet",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "original_year": 1597,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "1513",
+      "description": "Two young people from feuding families pursue a forbidden relationship with tragic consequences.",
+      "why_included": "Frequently challenged for sexuality, suicide, violence, and age-related objections.",
+      "tags": [
+        "drama",
+        "sexuality",
+        "suicide",
+        "literary-canon"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/romeo-and-juliet/gutenberg-1513/book.epub",
+          "sha256": "d52c21bc2caefb5dd3e8c15abb1be5788fde6464a31c05c79e7943b822ac82c3",
+          "bytes": 338784
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/romeo-and-juliet/gutenberg-1513/book.pdf",
+          "sha256": "052b560e1609deca1041ee4faf414ac78742f6be72e412646de9ec06ee2e4682",
+          "bytes": 203700
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "1513",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1513",
+          "edition_id": "romeo-and-juliet-en-source-1597-gutenberg-1513",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "shelters-shacks-and-shanties",
       "catalog_file": "preparedness.yaml",
       "title": "Shelters, Shacks and Shanties",
@@ -3295,6 +3516,64 @@
       }
     },
     {
+      "id": "the-brothers-karamazov",
+      "catalog_file": "world-literature.yaml",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "original_year": 1880,
+      "original_language": "Russian",
+      "collections": [
+        "essential-literature",
+        "original-language",
+        "suppressed-knowledge",
+        "banned-challenged"
+      ],
+      "project_gutenberg_id": "28054",
+      "rights_status": "historical-work",
+      "catalog_status": "source-linked",
+      "description": "A family drama of patricide, faith, doubt, freedom, guilt, and moral responsibility.",
+      "why_included": "Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications.",
+      "tags": [
+        "literary-canon",
+        "religion",
+        "philosophy",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-brothers-karamazov/gutenberg-28054/book.epub",
+          "sha256": "ed66c54629002208c7444d937dc11d0ef68e8270e87f49ac9241d493ef0159d0",
+          "bytes": 962740
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-brothers-karamazov/gutenberg-28054/book.pdf",
+          "sha256": "db99acbda6a2646bcadb16a92c4a7abefff9a2931dc28dc23c8a90a17dad6608",
+          "bytes": 1663795
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "28054",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/28054",
+          "edition_id": "the-brothers-karamazov-en-source-1880-gutenberg-28054",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "the-call-of-the-wild",
       "catalog_file": "core-literature.yaml",
       "title": "The Call of the Wild",
@@ -3344,6 +3623,60 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "the-canterbury-tales",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "original_year": 1400,
+      "original_language": "Middle English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "2383",
+      "description": "Pilgrims exchange stories ranging from devotional narratives to crude comedy.",
+      "why_included": "Challenged for sexual humor, profanity, religious satire, and offensive language.",
+      "tags": [
+        "literary-canon",
+        "religion",
+        "sexuality",
+        "satire"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-canterbury-tales/gutenberg-2383/book.epub",
+          "sha256": "dbc330435278e106edffd0897ebec32c4921023c44d0e5335831ff25ccec37d7",
+          "bytes": 821674
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-canterbury-tales/gutenberg-2383/book.pdf",
+          "sha256": "223807252b2265ffe1b295544b41982c1663303b06ddd67c06b7ba1a4da1004c",
+          "bytes": 1490815
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2383",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2383",
+          "edition_id": "the-canterbury-tales-en-source-1400-gutenberg-2383",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -4234,6 +4567,60 @@
         "evidence_notes": [
           "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
           "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "the-merchant-of-venice",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "The Merchant of Venice",
+      "author": "William Shakespeare",
+      "original_year": 1600,
+      "original_language": "English",
+      "collections": [
+        "banned-challenged",
+        "essential-literature"
+      ],
+      "project_gutenberg_id": "2243",
+      "description": "A merchant, a moneylender, and a group of lovers collide over debt, law, mercy, and prejudice.",
+      "why_included": "Challenged for antisemitism and ethnic stereotyping.",
+      "tags": [
+        "drama",
+        "antisemitism",
+        "literary-canon",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.epub",
+          "sha256": "840749e2f375afd48728ae3a800035f132532206daba4080fda52e85e2369cb2",
+          "bytes": 321164
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.pdf",
+          "sha256": "b729e956759e4f2c2c5321d95a7d037a390ff4904f2ed5777c6ce38be3e71fb0",
+          "bytes": 161306
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2243",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2243",
+          "edition_id": "the-merchant-of-venice-en-source-1600-gutenberg-2243",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "strong-us-public-domain-signal",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The underlying English-language work predates the current U.S. public-domain cutoff, but later additions in a specific file can differ."
         ],
         "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
       }
@@ -5348,6 +5735,60 @@
       }
     },
     {
+      "id": "utopia",
+      "catalog_file": "banned-expansion.yaml",
+      "title": "Utopia",
+      "author": "Thomas More",
+      "original_year": 1516,
+      "original_language": "Latin",
+      "collections": [
+        "banned-challenged",
+        "suppressed-knowledge"
+      ],
+      "project_gutenberg_id": "2130",
+      "description": "A traveler describes an imaginary society organized around common property and unusual political institutions.",
+      "why_included": "Politically suspect for communal property, religious pluralism, and criticism of European government.",
+      "tags": [
+        "politics",
+        "religion",
+        "utopia",
+        "nonfiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/utopia/gutenberg-2130/book.epub",
+          "sha256": "558e32e0345825f149cb6c7afa6a0a20517db15742944f92325ab1b3e632e384",
+          "bytes": 170076
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/utopia/gutenberg-2130/book.pdf",
+          "sha256": "f62ac45ee1c65e14a77b0e69dd2b307482ecaea41fa7cdd6acdcfa2d64e61b3b",
+          "bytes": 218106
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "2130",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2130",
+          "edition_id": "utopia-en-source-1516-gutenberg-2130",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
       "id": "war-and-peace",
       "catalog_file": "world-literature.yaml",
       "title": "War and Peace",
@@ -5391,6 +5832,65 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/2600",
           "edition_id": "war-and-peace-en-source-1869-gutenberg-2600",
+          "primary": true
+        }
+      ],
+      "rights_guidance": {
+        "not_a_legal_ruling": true,
+        "signal": "translation-and-jurisdiction-review-needed",
+        "evidence_notes": [
+          "The source for the included edition is recorded with this archive; inspect that source's own rights statement before use.",
+          "The original work and any English translation are separate editions; jurisdiction and translator details matter."
+        ],
+        "operator_question": "May I download, keep, share, or publish this specific edition where and how I intend to use it?"
+      }
+    },
+    {
+      "id": "we",
+      "catalog_file": "world-literature.yaml",
+      "title": "We",
+      "original_title": "My",
+      "author": "Yevgeny Zamyatin",
+      "original_year": 1921,
+      "original_language": "Russian",
+      "collections": [
+        "suppressed-knowledge",
+        "essential-literature",
+        "original-language",
+        "banned-challenged"
+      ],
+      "project_gutenberg_id": "61963",
+      "rights_status": "historical-work",
+      "catalog_status": "source-linked",
+      "description": "A mathematician in a totalitarian glass city develops imagination, desire, and rebellion.",
+      "why_included": "Banned in the Soviet Union and foundational to dystopian fiction.",
+      "tags": [
+        "authoritarianism",
+        "dystopia",
+        "surveillance",
+        "fiction"
+      ],
+      "download_files": [
+        {
+          "role": "epub",
+          "path": "content/books/we/gutenberg-61963/book.epub",
+          "sha256": "39a86cf2d8b86be08dcdbd4b2c76f2b2ade736461d3496d2d7316ab240b08dae",
+          "bytes": 303336
+        },
+        {
+          "role": "text-pdf",
+          "path": "content/books/we/gutenberg-61963/book.pdf",
+          "sha256": "8934f3a3cd465d5556985a2c237095dd26d1cb615bbc608af87a9e75ea94de8c",
+          "bytes": 364565
+        }
+      ],
+      "edition_sources": [
+        {
+          "source_id": "project-gutenberg",
+          "source_item_id": "61963",
+          "label": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/61963",
+          "edition_id": "we-en-source-1921-gutenberg-61963",
           "primary": true
         }
       ],
@@ -5739,6 +6239,35 @@
           ]
         }
       ],
+      "a-vindication-of-the-rights-of-woman": [
+        {
+          "edition_id": "a-vindication-of-the-rights-of-woman-en-source-1792-gutenberg-3420",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "3420",
+          "provenance_path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/3420"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub",
+              "sha256": "b1389e1330551dd638742c142b2cd076521a04361925ea971a8da6ed91379e73",
+              "bytes": 309208
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
+              "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
+              "bytes": 460309
+            }
+          ]
+        }
+      ],
       "adventures-of-huckleberry-finn": [
         {
           "edition_id": "adventures-of-huckleberry-finn-en-original-1884-gutenberg-76",
@@ -5909,6 +6438,35 @@
               "path": "content/books/common-sense/gutenberg-147/book.pdf",
               "sha256": "1827cfc84679e980e55643acd9f879dc9465425712c5647bb198d04c2b30787a",
               "bytes": 147069
+            }
+          ]
+        }
+      ],
+      "crime-and-punishment": [
+        {
+          "edition_id": "crime-and-punishment-en-source-1866-gutenberg-2554",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "2554",
+          "provenance_path": "content/books/crime-and-punishment/gutenberg-2554/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/2554"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/crime-and-punishment/gutenberg-2554/book.epub",
+              "sha256": "211f61e15d64cb1bb28059e17c24b17fc1648ca773757fb91cac954ca68da1b0",
+              "bytes": 783549
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/crime-and-punishment/gutenberg-2554/book.pdf",
+              "sha256": "0032f54f9efddf597e141fa883e85a4d4ee10f38e629ffd7c0b681b5ef8e6c24",
+              "bytes": 999902
             }
           ]
         }
@@ -6460,6 +7018,35 @@
               "path": "content/books/gullivers-travels/gutenberg-829/book.pdf",
               "sha256": "4a5e7f6e678efb08d4d5518167addc6b60fde2a4290a747eb9b6aea13bd41685",
               "bytes": 500824
+            }
+          ]
+        }
+      ],
+      "hamlet": [
+        {
+          "edition_id": "hamlet-en-source-1603-gutenberg-1524",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1524",
+          "provenance_path": "content/books/hamlet/gutenberg-1524/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1524"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/hamlet/gutenberg-1524/book.epub",
+              "sha256": "34dd2c22e46e4e0b65cd6a912bbed57698ed87a0dddd9bf78b6117c26cebfe58",
+              "bytes": 352743
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/hamlet/gutenberg-1524/book.pdf",
+              "sha256": "f2ad3b063097362696c56a37719d4467725432e2903ad5028ff49933a3e371b0",
+              "bytes": 248185
             }
           ]
         }
@@ -7073,6 +7660,35 @@
           ]
         }
       ],
+      "romeo-and-juliet": [
+        {
+          "edition_id": "romeo-and-juliet-en-source-1597-gutenberg-1513",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "1513",
+          "provenance_path": "content/books/romeo-and-juliet/gutenberg-1513/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/1513"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/romeo-and-juliet/gutenberg-1513/book.epub",
+              "sha256": "d52c21bc2caefb5dd3e8c15abb1be5788fde6464a31c05c79e7943b822ac82c3",
+              "bytes": 338784
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/romeo-and-juliet/gutenberg-1513/book.pdf",
+              "sha256": "052b560e1609deca1041ee4faf414ac78742f6be72e412646de9ec06ee2e4682",
+              "bytes": 203700
+            }
+          ]
+        }
+      ],
       "shelters-shacks-and-shanties": [
         {
           "edition_id": "shelters-shacks-and-shanties-en-source-1914-gutenberg-28255",
@@ -7413,6 +8029,35 @@
           ]
         }
       ],
+      "the-brothers-karamazov": [
+        {
+          "edition_id": "the-brothers-karamazov-en-source-1880-gutenberg-28054",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "28054",
+          "provenance_path": "content/books/the-brothers-karamazov/gutenberg-28054/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/28054"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-brothers-karamazov/gutenberg-28054/book.epub",
+              "sha256": "ed66c54629002208c7444d937dc11d0ef68e8270e87f49ac9241d493ef0159d0",
+              "bytes": 962740
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-brothers-karamazov/gutenberg-28054/book.pdf",
+              "sha256": "db99acbda6a2646bcadb16a92c4a7abefff9a2931dc28dc23c8a90a17dad6608",
+              "bytes": 1663795
+            }
+          ]
+        }
+      ],
       "the-call-of-the-wild": [
         {
           "edition_id": "the-call-of-the-wild-en-source-1903-gutenberg-215",
@@ -7438,6 +8083,35 @@
               "path": "content/books/the-call-of-the-wild/gutenberg-215/book.pdf",
               "sha256": "24cd30ab7cf7ab8a2dfc659e9c18ae732cf7f8764f01d233dadfcc936468579a",
               "bytes": 181723
+            }
+          ]
+        }
+      ],
+      "the-canterbury-tales": [
+        {
+          "edition_id": "the-canterbury-tales-en-source-1400-gutenberg-2383",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "2383",
+          "provenance_path": "content/books/the-canterbury-tales/gutenberg-2383/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/2383"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-canterbury-tales/gutenberg-2383/book.epub",
+              "sha256": "dbc330435278e106edffd0897ebec32c4921023c44d0e5335831ff25ccec37d7",
+              "bytes": 821674
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-canterbury-tales/gutenberg-2383/book.pdf",
+              "sha256": "223807252b2265ffe1b295544b41982c1663303b06ddd67c06b7ba1a4da1004c",
+              "bytes": 1490815
             }
           ]
         }
@@ -7929,6 +8603,35 @@
               "path": "content/books/the-life-of-jesus-critically-examined/gutenberg-64037/book.pdf",
               "sha256": "5e7c9c4c4d74606a813078cfd9a9d5ce0d4b60a1ba9b0bf5ee88c59b32f91c68",
               "bytes": 2684750
+            }
+          ]
+        }
+      ],
+      "the-merchant-of-venice": [
+        {
+          "edition_id": "the-merchant-of-venice-en-source-1600-gutenberg-2243",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "2243",
+          "provenance_path": "content/books/the-merchant-of-venice/gutenberg-2243/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/2243"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.epub",
+              "sha256": "840749e2f375afd48728ae3a800035f132532206daba4080fda52e85e2369cb2",
+              "bytes": 321164
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/the-merchant-of-venice/gutenberg-2243/book.pdf",
+              "sha256": "b729e956759e4f2c2c5321d95a7d037a390ff4904f2ed5777c6ce38be3e71fb0",
+              "bytes": 161306
             }
           ]
         }
@@ -8513,6 +9216,35 @@
           ]
         }
       ],
+      "utopia": [
+        {
+          "edition_id": "utopia-en-source-1516-gutenberg-2130",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "2130",
+          "provenance_path": "content/books/utopia/gutenberg-2130/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/2130"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/utopia/gutenberg-2130/book.epub",
+              "sha256": "558e32e0345825f149cb6c7afa6a0a20517db15742944f92325ab1b3e632e384",
+              "bytes": 170076
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/utopia/gutenberg-2130/book.pdf",
+              "sha256": "f62ac45ee1c65e14a77b0e69dd2b307482ecaea41fa7cdd6acdcfa2d64e61b3b",
+              "bytes": 218106
+            }
+          ]
+        }
+      ],
       "war-and-peace": [
         {
           "edition_id": "war-and-peace-en-source-1869-gutenberg-2600",
@@ -8538,6 +9270,35 @@
               "path": "content/books/war-and-peace/gutenberg-2600/book.pdf",
               "sha256": "b9a7e6bc9efd8d4fdafccf43bb0b9e97d25fc892bd5e73178f7f757a2441f83c",
               "bytes": 2818500
+            }
+          ]
+        }
+      ],
+      "we": [
+        {
+          "edition_id": "we-en-source-1921-gutenberg-61963",
+          "language": "English",
+          "source_id": "project-gutenberg",
+          "source_item_id": "61963",
+          "provenance_path": "content/books/we/gutenberg-61963/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Rebuilt from locally downloaded provenance; the archive operator selected this stored source edition.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://www.gutenberg.org/ebooks/61963"
+          },
+          "files": [
+            {
+              "role": "epub",
+              "path": "content/books/we/gutenberg-61963/book.epub",
+              "sha256": "39a86cf2d8b86be08dcdbd4b2c76f2b2ade736461d3496d2d7316ab240b08dae",
+              "bytes": 303336
+            },
+            {
+              "role": "pdf",
+              "path": "content/books/we/gutenberg-61963/book.pdf",
+              "sha256": "8934f3a3cd465d5556985a2c237095dd26d1cb615bbc608af87a9e75ea94de8c",
+              "bytes": 364565
             }
           ]
         }

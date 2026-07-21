@@ -10,11 +10,9 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | --- | --- | --- | --- |
 | As I Lay Dying | William Faulkner | Challenged for language, sexuality, abortion, death, religion, and family dysfunction. | [Search in Libby](https://libbyapp.com/search?query=As+I+Lay+Dying+William+Faulkner) |
 | Berlin Alexanderplatz | Alfred Döblin | Landmark city novel banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=Berlin+Alexanderplatz+Alfred+D%C3%B6blin) |
-| Crime and Punishment | Fyodor Dostoevsky | A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy. | [Search in Libby](https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky) |
 | Dangerous Liaisons | Pierre Choderlos de Laclos | Repeatedly restricted for sexual exploitation, adultery, and moral corruption. | [Search in Libby](https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos) |
 | Fahrenheit 451 | Ray Bradbury | Defining modern novel of censorship and anti-intellectualism. | [Search in Libby](https://libbyapp.com/search?query=Fahrenheit+451+Ray+Bradbury) |
 | Hadji Murad | Leo Tolstoy | Major anti-imperial and antiwar novella. | [Search in Libby](https://libbyapp.com/search?query=Hadji+Murad+Leo+Tolstoy) |
-| The Brothers Karamazov | Fyodor Dostoevsky | Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications. | [Search in Libby](https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky) |
 | The Handmaid's Tale | Margaret Atwood | Essential fiction of religious authoritarianism and bodily autonomy. | [Search in Libby](https://libbyapp.com/search?query=The+Handmaid%27s+Tale+Margaret+Atwood) |
 | The Magic Mountain | Thomas Mann | One of the central modernist novels; Mann's works were banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=The+Magic+Mountain+Thomas+Mann) |
 | The Satanic Verses | Salman Rushdie | One of the defining modern censorship controversies. | [Search in Libby](https://libbyapp.com/search?query=The+Satanic+Verses+Salman+Rushdie) |
@@ -29,20 +27,17 @@ High-impact works selected for literary and historical importance.
 | Amerika | Franz Kafka | A major Kafka novel about migration, exploitation, absurd institutions, and modern alienation. | [Search in Libby](https://libbyapp.com/search?query=Amerika+Franz+Kafka) |
 | As I Lay Dying | William Faulkner | Challenged for language, sexuality, abortion, death, religion, and family dysfunction. | [Search in Libby](https://libbyapp.com/search?query=As+I+Lay+Dying+William+Faulkner) |
 | Berlin Alexanderplatz | Alfred Döblin | Landmark city novel banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=Berlin+Alexanderplatz+Alfred+D%C3%B6blin) |
-| Crime and Punishment | Fyodor Dostoevsky | A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy. | [Search in Libby](https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky) |
 | Dangerous Liaisons | Pierre Choderlos de Laclos | Repeatedly restricted for sexual exploitation, adultery, and moral corruption. | [Search in Libby](https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos) |
 | Demons | Fyodor Dostoevsky | Important for revolutionary politics, terrorism, atheism, religion, and extremism. | [Search in Libby](https://libbyapp.com/search?query=Demons+Fyodor+Dostoevsky) |
 | I Am a Cat | Natsume Sōseki | Canonical social satire with enduring cultural value. | [Search in Libby](https://libbyapp.com/search?query=I+Am+a+Cat+Natsume+S%C5%8Dseki) |
 | Kokoro | Natsume Sōseki | One of Japan's central modern novels. | [Search in Libby](https://libbyapp.com/search?query=Kokoro+Natsume+S%C5%8Dseki) |
 | Macunaíma | Mário de Andrade | Foundational Brazilian modernist novel with challenging cultural and political themes. | [Search in Libby](https://libbyapp.com/search?query=Macuna%C3%ADma+M%C3%A1rio+de+Andrade) |
 | Notes from Underground | Fyodor Dostoevsky | A foundational existential work with political, religious, and anti-utopian significance. | [Search in Libby](https://libbyapp.com/search?query=Notes+from+Underground+Fyodor+Dostoevsky) |
-| The Brothers Karamazov | Fyodor Dostoevsky | Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications. | [Search in Libby](https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky) |
 | The Castle | Franz Kafka | A major novel of bureaucracy, exclusion, and opaque power. | [Search in Libby](https://libbyapp.com/search?query=The+Castle+Franz+Kafka) |
 | The Death of Ivan Ilyich | Leo Tolstoy | Canonical novella about death, meaning, and social conformity. | [Search in Libby](https://libbyapp.com/search?query=The+Death+of+Ivan+Ilyich+Leo+Tolstoy) |
 | The Magic Mountain | Thomas Mann | One of the central modernist novels; Mann's works were banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=The+Magic+Mountain+Thomas+Mann) |
 | The True Story of Ah Q | Lu Xun | Foundational political and social satire in modern Chinese literature. | [Search in Libby](https://libbyapp.com/search?query=The+True+Story+of+Ah+Q+Lu+Xun) |
 | The Vortex | José Eustasio Rivera | Major Latin American indictment of colonial and labor abuse. | [Search in Libby](https://libbyapp.com/search?query=The+Vortex+Jos%C3%A9+Eustasio+Rivera) |
-| We | Yevgeny Zamyatin | Banned in the Soviet Union and foundational to dystopian fiction. | [Search in Libby](https://libbyapp.com/search?query=We+Yevgeny+Zamyatin) |
 
 ## Suppressed Knowledge
 
@@ -57,7 +52,6 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 | Civil Disobedience | Henry David Thoreau | Defends individual conscience against coercive state power. | [Search in Libby](https://libbyapp.com/search?query=Civil+Disobedience+Henry+David+Thoreau) |
 | Coercive Persuasion | Edgar H. Schein and colleagues | Important companion to practical propaganda and coercion material. | [Search in Libby](https://libbyapp.com/search?query=Coercive+Persuasion+Edgar+H.+Schein+and+colleagues) |
 | Content | Cory Doctorow | Strong companion to the archive's free-knowledge mission. | [Search in Libby](https://libbyapp.com/search?query=Content+Cory+Doctorow) |
-| Crime and Punishment | Fyodor Dostoevsky | A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy. | [Search in Libby](https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky) |
 | CryptoParty Handbook | CryptoParty contributors | A practical introduction to privacy, encryption, and safer everyday computer use. | [Search in Libby](https://libbyapp.com/search?query=CryptoParty+Handbook) |
 | Cryptography Engineering | Niels Ferguson, Bruce Schneier, and Tadayoshi Kohno | Strong bridge from historical ciphers to modern security concepts. | [Search in Libby](https://libbyapp.com/search?query=Cryptography+Engineering+Niels+Ferguson%2C+Bruce+Schneier%2C+and+Tadayoshi+Kohno) |
 | Darkness at Noon | Arthur Koestler | Essential novel of totalitarian confession and destruction of conscience. | [Search in Libby](https://libbyapp.com/search?query=Darkness+at+Noon+Arthur+Koestler) |
@@ -76,7 +70,6 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 | Seeing Like a State | James C. Scott | Essential critique of high-modernist administrative power. | [Search in Libby](https://libbyapp.com/search?query=Seeing+Like+a+State+James+C.+Scott) |
 | Surveillance Self-Defense | Electronic Frontier Foundation | A practical starting point for understanding privacy, safer communications, and surveillance-aware digital habits. | [Search in Libby](https://libbyapp.com/search?query=Surveillance+Self-Defense) |
 | The Age of Reason | Thomas Paine | Essential freethought text frequently condemned for its challenge to religious power. | [Search in Libby](https://libbyapp.com/search?query=The+Age+of+Reason+Thomas+Paine) |
-| The Brothers Karamazov | Fyodor Dostoevsky | Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications. | [Search in Libby](https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky) |
 | The Castle | Franz Kafka | A major novel of bureaucracy, exclusion, and opaque power. | [Search in Libby](https://libbyapp.com/search?query=The+Castle+Franz+Kafka) |
 | The Demon-Haunted World | Carl Sagan | Essential companion to propaganda analysis and evidence literacy. | [Search in Libby](https://libbyapp.com/search?query=The+Demon-Haunted+World+Carl+Sagan) |
 | The Dispossessed | Ursula K. Le Guin | Nuanced exploration of freedom, bureaucracy, solidarity, and political systems. | [Search in Libby](https://libbyapp.com/search?query=The+Dispossessed+Ursula+K.+Le+Guin) |
@@ -90,7 +83,6 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 | The Vortex | José Eustasio Rivera | Major Latin American indictment of colonial and labor abuse. | [Search in Libby](https://libbyapp.com/search?query=The+Vortex+Jos%C3%A9+Eustasio+Rivera) |
 | Thought Reform and the Psychology of Totalism | Robert Jay Lifton | Foundational analysis of coercive persuasion. | [Search in Libby](https://libbyapp.com/search?query=Thought+Reform+and+the+Psychology+of+Totalism+Robert+Jay+Lifton) |
 | Two Treatises of Government | John Locke | Supplies an enduring argument for removing governments that violate public trust. | [Search in Libby](https://libbyapp.com/search?query=Two+Treatises+of+Government+John+Locke) |
-| We | Yevgeny Zamyatin | Banned in the Soviet Union and foundational to dystopian fiction. | [Search in Libby](https://libbyapp.com/search?query=We+Yevgeny+Zamyatin) |
 | Weapons of Math Destruction | Cathy O'Neil | Important for understanding automated power and data literacy. | [Search in Libby](https://libbyapp.com/search?query=Weapons+of+Math+Destruction+Cathy+O%27Neil) |
 | What Is to Be Done? | Nikolai Chernyshevsky | Repeatedly suppressed for revolutionary ideas and clandestine political influence. | [Search in Libby](https://libbyapp.com/search?query=What+Is+to+Be+Done%3F+Nikolai+Chernyshevsky) |
 | Why I Am an Agnostic | Robert G. Ingersoll | Representative American freethought writing challenging clerical authority. | [Search in Libby](https://libbyapp.com/search?query=Why+I+Am+an+Agnostic+Robert+G.+Ingersoll) |
@@ -162,7 +154,6 @@ Works retained with their source-language editions alongside available translati
 | Berlin Alexanderplatz | Alfred Döblin | Landmark city novel banned and burned by the Nazis. | [Search in Libby](https://libbyapp.com/search?query=Berlin+Alexanderplatz+Alfred+D%C3%B6blin) |
 | Botchan | Natsume Sōseki | Widely read Japanese classic about institutional authority. | [Search in Libby](https://libbyapp.com/search?query=Botchan+Natsume+S%C5%8Dseki) |
 | Capital, Volume I | Karl Marx | Repeatedly banned or restricted under anticommunist and authoritarian governments. | [Search in Libby](https://libbyapp.com/search?query=Capital%2C+Volume+I+Karl+Marx) |
-| Crime and Punishment | Fyodor Dostoevsky | A central world novel about ideology, poverty, conscience, policing, religion, and moral autonomy. | [Search in Libby](https://libbyapp.com/search?query=Crime+and+Punishment+Fyodor+Dostoevsky) |
 | Dangerous Liaisons | Pierre Choderlos de Laclos | Repeatedly restricted for sexual exploitation, adultery, and moral corruption. | [Search in Libby](https://libbyapp.com/search?query=Dangerous+Liaisons+Pierre+Choderlos+de+Laclos) |
 | Darkness at Noon | Arthur Koestler | Essential novel of totalitarian confession and destruction of conscience. | [Search in Libby](https://libbyapp.com/search?query=Darkness+at+Noon+Arthur+Koestler) |
 | Demons | Fyodor Dostoevsky | Important for revolutionary politics, terrorism, atheism, religion, and extremism. | [Search in Libby](https://libbyapp.com/search?query=Demons+Fyodor+Dostoevsky) |
@@ -175,7 +166,6 @@ Works retained with their source-language editions alongside available translati
 | Macunaíma | Mário de Andrade | Foundational Brazilian modernist novel with challenging cultural and political themes. | [Search in Libby](https://libbyapp.com/search?query=Macuna%C3%ADma+M%C3%A1rio+de+Andrade) |
 | Notes from Underground | Fyodor Dostoevsky | A foundational existential work with political, religious, and anti-utopian significance. | [Search in Libby](https://libbyapp.com/search?query=Notes+from+Underground+Fyodor+Dostoevsky) |
 | Rashōmon | Ryūnosuke Akutagawa | Canonical short story of social disorder and ethical ambiguity. | [Search in Libby](https://libbyapp.com/search?query=Rash%C5%8Dmon+Ry%C5%ABnosuke+Akutagawa) |
-| The Brothers Karamazov | Fyodor Dostoevsky | Commonly ranked among the greatest novels and repeatedly controversial for theology and political implications. | [Search in Libby](https://libbyapp.com/search?query=The+Brothers+Karamazov+Fyodor+Dostoevsky) |
 | The Castle | Franz Kafka | A major novel of bureaucracy, exclusion, and opaque power. | [Search in Libby](https://libbyapp.com/search?query=The+Castle+Franz+Kafka) |
 | The Death of Ivan Ilyich | Leo Tolstoy | Canonical novella about death, meaning, and social conformity. | [Search in Libby](https://libbyapp.com/search?query=The+Death+of+Ivan+Ilyich+Leo+Tolstoy) |
 | The Gulag Archipelago | Aleksandr Solzhenitsyn | Landmark testimony about state terror and institutional denial. | [Search in Libby](https://libbyapp.com/search?query=The+Gulag+Archipelago+Aleksandr+Solzhenitsyn) |
@@ -183,7 +173,6 @@ Works retained with their source-language editions alongside available translati
 | The Power of the Powerless | Václav Havel | Practical and humane account of resistance within authoritarian systems. | [Search in Libby](https://libbyapp.com/search?query=The+Power+of+the+Powerless+V%C3%A1clav+Havel) |
 | The True Story of Ah Q | Lu Xun | Foundational political and social satire in modern Chinese literature. | [Search in Libby](https://libbyapp.com/search?query=The+True+Story+of+Ah+Q+Lu+Xun) |
 | The Vortex | José Eustasio Rivera | Major Latin American indictment of colonial and labor abuse. | [Search in Libby](https://libbyapp.com/search?query=The+Vortex+Jos%C3%A9+Eustasio+Rivera) |
-| We | Yevgeny Zamyatin | Banned in the Soviet Union and foundational to dystopian fiction. | [Search in Libby](https://libbyapp.com/search?query=We+Yevgeny+Zamyatin) |
 | What Is to Be Done? | Nikolai Chernyshevsky | Repeatedly suppressed for revolutionary ideas and clandestine political influence. | [Search in Libby](https://libbyapp.com/search?query=What+Is+to+Be+Done%3F+Nikolai+Chernyshevsky) |
 | Émile, or On Education | Jean-Jacques Rousseau | Burned and banned for its religious arguments and challenge to established authority. | [Search in Libby](https://libbyapp.com/search?query=%C3%89mile%2C+or+On+Education+Jean-Jacques+Rousseau) |
 

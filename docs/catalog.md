@@ -3,7 +3,7 @@
 This is the committed, readable Free Alexandria catalog. Every listed work is included locally and remains usable offline after cloning the repository. A supplied scan is used for the PDF whenever available; **Text PDF** means a compact generated fallback.
 A work can appear in more than one collection because the collections are separate ways to browse the same local edition, not duplicate files.
 
-**Included works:** 102<br>
+**Included works:** 111<br>
 **Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>
 **Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)
 
@@ -15,10 +15,12 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | --- | --- | ---: | --- |
 | A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
 | A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [Text PDF](../content/books/a-tale-of-two-cities/gutenberg-98/book.pdf) |
+| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [Text PDF](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf) |
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
 | Babbitt | Sinclair Lewis | 1922 | [EPUB](../content/books/babbitt/gutenberg-1156/book.epub) · [Text PDF](../content/books/babbitt/gutenberg-1156/book.pdf) |
 | Candide | Voltaire | 1759 | [EPUB](../content/books/candide/gutenberg-19942/book.epub) · [Text PDF](../content/books/candide/gutenberg-19942/book.pdf) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | [EPUB](../content/books/crime-and-punishment/gutenberg-2554/book.epub) · [Text PDF](../content/books/crime-and-punishment/gutenberg-2554/book.pdf) |
 | Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [Text PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) |
 | Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [Text PDF](../content/books/don-quixote/gutenberg-996/book.pdf) |
 | Dracula | Bram Stoker | 1897 | [EPUB](../content/books/dracula/gutenberg-345/book.epub) · [Text PDF](../content/books/dracula/gutenberg-345/book.pdf) |
@@ -29,6 +31,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Germinal | Émile Zola | 1885 | [EPUB](../content/books/germinal/gutenberg-56528/book.epub) · [Text PDF](../content/books/germinal/gutenberg-56528/book.pdf) |
 | Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [Text PDF](../content/books/great-expectations/gutenberg-1400/book.pdf) |
 | Gulliver's Travels | Jonathan Swift | 1726 | [EPUB](../content/books/gullivers-travels/gutenberg-829/book.epub) · [Text PDF](../content/books/gullivers-travels/gutenberg-829/book.pdf) |
+| Hamlet | William Shakespeare | 1603 | [EPUB](../content/books/hamlet/gutenberg-1524/book.epub) · [Text PDF](../content/books/hamlet/gutenberg-1524/book.pdf) |
 | Jane Eyre | Charlotte Brontë | 1847 | [EPUB](../content/books/jane-eyre/gutenberg-1260/book.epub) · [Text PDF](../content/books/jane-eyre/gutenberg-1260/book.pdf) |
 | Jude the Obscure | Thomas Hardy | 1895 | [EPUB](../content/books/jude-the-obscure/gutenberg-153/book.epub) · [Text PDF](../content/books/jude-the-obscure/gutenberg-153/book.pdf) |
 | Lady Chatterley's Lover | D. H. Lawrence | 1928 | [EPUB](../content/books/lady-chatterleys-lover/gutenberg-73144/book.epub) · [Text PDF](../content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf) |
@@ -43,6 +46,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Paradise Lost | John Milton | 1667 | [EPUB](../content/books/paradise-lost/gutenberg-26/book.epub) · [Text PDF](../content/books/paradise-lost/gutenberg-26/book.pdf) |
 | Resurrection | Leo Tolstoy | 1899 | [EPUB](../content/books/resurrection-tolstoy/gutenberg-1938/book.epub) · [Text PDF](../content/books/resurrection-tolstoy/gutenberg-1938/book.pdf) |
 | Robinson Crusoe | Daniel Defoe | 1719 | [EPUB](../content/books/robinson-crusoe/gutenberg-521/book.epub) · [Text PDF](../content/books/robinson-crusoe/gutenberg-521/book.pdf) |
+| Romeo and Juliet | William Shakespeare | 1597 | [EPUB](../content/books/romeo-and-juliet/gutenberg-1513/book.epub) · [Text PDF](../content/books/romeo-and-juliet/gutenberg-1513/book.pdf) |
 | Siddhartha | Hermann Hesse | 1922 | [EPUB](../content/books/siddhartha/gutenberg-2500/book.epub) · [Text PDF](../content/books/siddhartha/gutenberg-2500/book.pdf) |
 | Sons and Lovers | D. H. Lawrence | 1913 | [EPUB](../content/books/sons-and-lovers/gutenberg-217/book.epub) · [Text PDF](../content/books/sons-and-lovers/gutenberg-217/book.pdf) |
 | Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [Text PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) |
@@ -51,7 +55,9 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | The Adventures of Tom Sawyer | Mark Twain | 1876 | [EPUB](../content/books/the-adventures-of-tom-sawyer/gutenberg-74/book.epub) · [PDF](../content/books/the-adventures-of-tom-sawyer/internet-archive-adventuresoftoms00twaiuoft/facsimile.pdf) |
 | The Age of Innocence | Edith Wharton | 1920 | [EPUB](../content/books/the-age-of-innocence/gutenberg-541/book.epub) · [Text PDF](../content/books/the-age-of-innocence/gutenberg-541/book.pdf) |
 | The Awakening | Kate Chopin | 1899 | [EPUB](../content/books/the-awakening/gutenberg-160/book.epub) · [Text PDF](../content/books/the-awakening/gutenberg-160/book.pdf) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | [EPUB](../content/books/the-brothers-karamazov/gutenberg-28054/book.epub) · [Text PDF](../content/books/the-brothers-karamazov/gutenberg-28054/book.pdf) |
 | The Call of the Wild | Jack London | 1903 | [EPUB](../content/books/the-call-of-the-wild/gutenberg-215/book.epub) · [Text PDF](../content/books/the-call-of-the-wild/gutenberg-215/book.pdf) |
+| The Canterbury Tales | Geoffrey Chaucer | 1400 | [EPUB](../content/books/the-canterbury-tales/gutenberg-2383/book.epub) · [Text PDF](../content/books/the-canterbury-tales/gutenberg-2383/book.pdf) |
 | The Communist Manifesto | Karl Marx and Friedrich Engels | 1848 | [EPUB](../content/books/the-communist-manifesto/gutenberg-61/book.epub) · [Text PDF](../content/books/the-communist-manifesto/gutenberg-61/book.pdf) |
 | The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [Text PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) |
 | The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [Text PDF](../content/books/the-decameron/gutenberg-23700/book.pdf) |
@@ -62,6 +68,7 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | The Iron Heel | Jack London | 1908 | [EPUB](../content/books/the-iron-heel/gutenberg-1164/book.epub) · [Text PDF](../content/books/the-iron-heel/gutenberg-1164/book.pdf) |
 | The Jungle | Upton Sinclair | 1906 | [EPUB](../content/books/the-jungle/gutenberg-140/book.epub) · [Text PDF](../content/books/the-jungle/gutenberg-140/book.pdf) |
 | The Kreutzer Sonata | Leo Tolstoy | 1890 | [EPUB](../content/books/the-kreutzer-sonata/gutenberg-689/book.epub) · [Text PDF](../content/books/the-kreutzer-sonata/gutenberg-689/book.pdf) |
+| The Merchant of Venice | William Shakespeare | 1600 | [EPUB](../content/books/the-merchant-of-venice/gutenberg-2243/book.epub) · [Text PDF](../content/books/the-merchant-of-venice/gutenberg-2243/book.pdf) |
 | The Metamorphosis | Franz Kafka | 1915 | [EPUB](../content/books/the-metamorphosis/gutenberg-5200/book.epub) · [Text PDF](../content/books/the-metamorphosis/gutenberg-5200/book.pdf) |
 | The Moonstone | Wilkie Collins | 1868 | [EPUB](../content/books/the-moonstone/gutenberg-155/book.epub) · [Text PDF](../content/books/the-moonstone/gutenberg-155/book.pdf) |
 | The Mother | Maxim Gorky | 1906 | [EPUB](../content/books/the-mother-gorky/gutenberg-3783/book.epub) · [Text PDF](../content/books/the-mother-gorky/gutenberg-3783/book.pdf) |
@@ -76,7 +83,9 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 | Tom Jones | Henry Fielding | 1749 | [EPUB](../content/books/tom-jones/gutenberg-6593/book.epub) · [Text PDF](../content/books/tom-jones/gutenberg-6593/book.pdf) |
 | Ulysses | James Joyce | 1922 | [EPUB](../content/books/ulysses/gutenberg-4300/book.epub) · [Text PDF](../content/books/ulysses/gutenberg-4300/book.pdf) |
 | Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | [EPUB](../content/books/uncle-toms-cabin/gutenberg-203/book.epub) · [Text PDF](../content/books/uncle-toms-cabin/gutenberg-203/book.pdf) |
+| Utopia | Thomas More | 1516 | [EPUB](../content/books/utopia/gutenberg-2130/book.epub) · [Text PDF](../content/books/utopia/gutenberg-2130/book.pdf) |
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
+| We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
 | Winesburg, Ohio | Sherwood Anderson | 1919 | [EPUB](../content/books/winesburg-ohio/gutenberg-416/book.epub) · [Text PDF](../content/books/winesburg-ohio/gutenberg-416/book.pdf) |
 | Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [Text PDF](../content/books/women-in-love/gutenberg-4240/book.pdf) |
 | Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [Text PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) |
@@ -92,6 +101,7 @@ High-impact works selected for literary and historical importance.
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
 | Candide | Voltaire | 1759 | [EPUB](../content/books/candide/gutenberg-19942/book.epub) · [Text PDF](../content/books/candide/gutenberg-19942/book.pdf) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | [EPUB](../content/books/crime-and-punishment/gutenberg-2554/book.epub) · [Text PDF](../content/books/crime-and-punishment/gutenberg-2554/book.pdf) |
 | Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [Text PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) |
 | Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [Text PDF](../content/books/don-quixote/gutenberg-996/book.pdf) |
 | Dracula | Bram Stoker | 1897 | [EPUB](../content/books/dracula/gutenberg-345/book.epub) · [Text PDF](../content/books/dracula/gutenberg-345/book.pdf) |
@@ -101,6 +111,7 @@ High-impact works selected for literary and historical importance.
 | Frankenstein | Mary Shelley | 1818 | [EPUB](../content/books/frankenstein-1818/gutenberg-84/book.epub) · [Text PDF](../content/books/frankenstein-1818/gutenberg-84/book.pdf) |
 | Great Expectations | Charles Dickens | 1861 | [EPUB](../content/books/great-expectations/gutenberg-1400/book.epub) · [Text PDF](../content/books/great-expectations/gutenberg-1400/book.pdf) |
 | Gulliver's Travels | Jonathan Swift | 1726 | [EPUB](../content/books/gullivers-travels/gutenberg-829/book.epub) · [Text PDF](../content/books/gullivers-travels/gutenberg-829/book.pdf) |
+| Hamlet | William Shakespeare | 1603 | [EPUB](../content/books/hamlet/gutenberg-1524/book.epub) · [Text PDF](../content/books/hamlet/gutenberg-1524/book.pdf) |
 | Jane Eyre | Charlotte Brontë | 1847 | [EPUB](../content/books/jane-eyre/gutenberg-1260/book.epub) · [Text PDF](../content/books/jane-eyre/gutenberg-1260/book.pdf) |
 | Jude the Obscure | Thomas Hardy | 1895 | [EPUB](../content/books/jude-the-obscure/gutenberg-153/book.epub) · [Text PDF](../content/books/jude-the-obscure/gutenberg-153/book.pdf) |
 | Lady Chatterley's Lover | D. H. Lawrence | 1928 | [EPUB](../content/books/lady-chatterleys-lover/gutenberg-73144/book.epub) · [Text PDF](../content/books/lady-chatterleys-lover/gutenberg-73144/book.pdf) |
@@ -114,6 +125,7 @@ High-impact works selected for literary and historical importance.
 | Noli Me Tangere | José Rizal | 1887 | [EPUB](../content/books/noli-me-tangere/gutenberg-21848/book.epub) · [Text PDF](../content/books/noli-me-tangere/gutenberg-21848/book.pdf) |
 | Paradise Lost | John Milton | 1667 | [EPUB](../content/books/paradise-lost/gutenberg-26/book.epub) · [Text PDF](../content/books/paradise-lost/gutenberg-26/book.pdf) |
 | Robinson Crusoe | Daniel Defoe | 1719 | [EPUB](../content/books/robinson-crusoe/gutenberg-521/book.epub) · [Text PDF](../content/books/robinson-crusoe/gutenberg-521/book.pdf) |
+| Romeo and Juliet | William Shakespeare | 1597 | [EPUB](../content/books/romeo-and-juliet/gutenberg-1513/book.epub) · [Text PDF](../content/books/romeo-and-juliet/gutenberg-1513/book.pdf) |
 | Siddhartha | Hermann Hesse | 1922 | [EPUB](../content/books/siddhartha/gutenberg-2500/book.epub) · [Text PDF](../content/books/siddhartha/gutenberg-2500/book.pdf) |
 | Sons and Lovers | D. H. Lawrence | 1913 | [EPUB](../content/books/sons-and-lovers/gutenberg-217/book.epub) · [Text PDF](../content/books/sons-and-lovers/gutenberg-217/book.pdf) |
 | Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [Text PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) |
@@ -122,13 +134,16 @@ High-impact works selected for literary and historical importance.
 | Tess of the d'Urbervilles | Thomas Hardy | 1891 | [EPUB](../content/books/tess-of-the-durbervilles/gutenberg-110/book.epub) · [Text PDF](../content/books/tess-of-the-durbervilles/gutenberg-110/book.pdf) |
 | The Age of Innocence | Edith Wharton | 1920 | [EPUB](../content/books/the-age-of-innocence/gutenberg-541/book.epub) · [Text PDF](../content/books/the-age-of-innocence/gutenberg-541/book.pdf) |
 | The Awakening | Kate Chopin | 1899 | [EPUB](../content/books/the-awakening/gutenberg-160/book.epub) · [Text PDF](../content/books/the-awakening/gutenberg-160/book.pdf) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | [EPUB](../content/books/the-brothers-karamazov/gutenberg-28054/book.epub) · [Text PDF](../content/books/the-brothers-karamazov/gutenberg-28054/book.pdf) |
 | The Call of the Wild | Jack London | 1903 | [EPUB](../content/books/the-call-of-the-wild/gutenberg-215/book.epub) · [Text PDF](../content/books/the-call-of-the-wild/gutenberg-215/book.pdf) |
+| The Canterbury Tales | Geoffrey Chaucer | 1400 | [EPUB](../content/books/the-canterbury-tales/gutenberg-2383/book.epub) · [Text PDF](../content/books/the-canterbury-tales/gutenberg-2383/book.pdf) |
 | The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [Text PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) |
 | The Counterfeiters | André Gide | 1925 | [EPUB](../content/books/the-counterfeiters/gutenberg-76965/book.epub) · [Text PDF](../content/books/the-counterfeiters/gutenberg-76965/book.pdf) |
 | The Decameron | Giovanni Boccaccio | 1353 | [EPUB](../content/books/the-decameron/gutenberg-23700/book.epub) · [Text PDF](../content/books/the-decameron/gutenberg-23700/book.pdf) |
 | The Divine Comedy | Dante Alighieri | 1321 | [EPUB](../content/books/the-divine-comedy/gutenberg-8800/book.epub) · [Text PDF](../content/books/the-divine-comedy/gutenberg-8800/book.pdf) |
 | The Great Gatsby | F. Scott Fitzgerald | 1925 | [EPUB](../content/books/the-great-gatsby/gutenberg-64317/book.epub) · [Text PDF](../content/books/the-great-gatsby/gutenberg-64317/book.pdf) |
 | The Iliad | Homer | -750 | [EPUB](../content/books/the-iliad/gutenberg-6130/book.epub) · [Text PDF](../content/books/the-iliad/gutenberg-6130/book.pdf) |
+| The Merchant of Venice | William Shakespeare | 1600 | [EPUB](../content/books/the-merchant-of-venice/gutenberg-2243/book.epub) · [Text PDF](../content/books/the-merchant-of-venice/gutenberg-2243/book.pdf) |
 | The Metamorphosis | Franz Kafka | 1915 | [EPUB](../content/books/the-metamorphosis/gutenberg-5200/book.epub) · [Text PDF](../content/books/the-metamorphosis/gutenberg-5200/book.pdf) |
 | The Moonstone | Wilkie Collins | 1868 | [EPUB](../content/books/the-moonstone/gutenberg-155/book.epub) · [Text PDF](../content/books/the-moonstone/gutenberg-155/book.pdf) |
 | The Odyssey | Homer | -700 | [EPUB](../content/books/the-odyssey/gutenberg-1727/book.epub) · [Text PDF](../content/books/the-odyssey/gutenberg-1727/book.pdf) |
@@ -143,6 +158,7 @@ High-impact works selected for literary and historical importance.
 | Ulysses | James Joyce | 1922 | [EPUB](../content/books/ulysses/gutenberg-4300/book.epub) · [Text PDF](../content/books/ulysses/gutenberg-4300/book.pdf) |
 | Uncle Tom's Cabin | Harriet Beecher Stowe | 1852 | [EPUB](../content/books/uncle-toms-cabin/gutenberg-203/book.epub) · [Text PDF](../content/books/uncle-toms-cabin/gutenberg-203/book.pdf) |
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
+| We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
 | Women in Love | D. H. Lawrence | 1920 | [EPUB](../content/books/women-in-love/gutenberg-4240/book.epub) · [Text PDF](../content/books/women-in-love/gutenberg-4240/book.pdf) |
 | Wuthering Heights | Emily Brontë | 1847 | [EPUB](../content/books/wuthering-heights/gutenberg-768/book.epub) · [Text PDF](../content/books/wuthering-heights/gutenberg-768/book.pdf) |
 
@@ -152,8 +168,10 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
+| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [Text PDF](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf) |
 | Areopagitica | John Milton | 1644 | [EPUB](../content/books/areopagitica/gutenberg-608/book.epub) · [Text PDF](../content/books/areopagitica/gutenberg-608/book.pdf) |
 | Common Sense | Thomas Paine | 1776 | [EPUB](../content/books/common-sense/gutenberg-147/book.epub) · [Text PDF](../content/books/common-sense/gutenberg-147/book.pdf) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | [EPUB](../content/books/crime-and-punishment/gutenberg-2554/book.epub) · [Text PDF](../content/books/crime-and-punishment/gutenberg-2554/book.pdf) |
 | Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [Text PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) |
 | Democracy in America | Alexis de Tocqueville | 1835 | [EPUB](../content/books/democracy-in-america/gutenberg-815/book.epub) · [Text PDF](../content/books/democracy-in-america/gutenberg-815/book.pdf) |
 | Dialogues Concerning Natural Religion | David Hume | 1779 | [EPUB](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.epub) · [Text PDF](../content/books/dialogues-concerning-natural-religion/gutenberg-4583/book.pdf) |
@@ -172,6 +190,7 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 | Public Opinion | Walter Lippmann | 1922 | [EPUB](../content/books/public-opinion/gutenberg-6456/book.epub) · [Text PDF](../content/books/public-opinion/gutenberg-6456/book.pdf) |
 | Resurrection | Leo Tolstoy | 1899 | [EPUB](../content/books/resurrection-tolstoy/gutenberg-1938/book.epub) · [Text PDF](../content/books/resurrection-tolstoy/gutenberg-1938/book.pdf) |
 | Tartuffe | Molière | 1664 | [EPUB](../content/books/tartuffe/gutenberg-28488/book.epub) · [Text PDF](../content/books/tartuffe/gutenberg-28488/book.pdf) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | [EPUB](../content/books/the-brothers-karamazov/gutenberg-28054/book.epub) · [Text PDF](../content/books/the-brothers-karamazov/gutenberg-28054/book.pdf) |
 | The Communist Manifesto | Karl Marx and Friedrich Engels | 1848 | [EPUB](../content/books/the-communist-manifesto/gutenberg-61/book.epub) · [Text PDF](../content/books/the-communist-manifesto/gutenberg-61/book.pdf) |
 | The Crowd | Gustave Le Bon | 1895 | [EPUB](../content/books/the-crowd/gutenberg-445/book.epub) · [Text PDF](../content/books/the-crowd/gutenberg-445/book.pdf) |
 | The Essence of Christianity | Ludwig Feuerbach | 1841 | [EPUB](../content/books/the-essence-of-christianity/gutenberg-47025/book.epub) · [Text PDF](../content/books/the-essence-of-christianity/gutenberg-47025/book.pdf) |
@@ -186,7 +205,9 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 | The Subjection of Women | John Stuart Mill | 1869 | [EPUB](../content/books/the-subjection-of-women/gutenberg-27083/book.epub) · [Text PDF](../content/books/the-subjection-of-women/gutenberg-27083/book.pdf) |
 | The Trial | Franz Kafka | 1925 | [EPUB](../content/books/the-trial/gutenberg-7849/book.epub) · [Text PDF](../content/books/the-trial/gutenberg-7849/book.pdf) |
 | Theological-Political Treatise | Baruch Spinoza | 1670 | [EPUB](../content/books/the-theological-political-treatise/gutenberg-992/book.epub) · [Text PDF](../content/books/the-theological-political-treatise/gutenberg-992/book.pdf) |
+| Utopia | Thomas More | 1516 | [EPUB](../content/books/utopia/gutenberg-2130/book.epub) · [Text PDF](../content/books/utopia/gutenberg-2130/book.pdf) |
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
+| We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
 | What Is Property? | Pierre-Joseph Proudhon | 1840 | [EPUB](../content/books/what-is-property/gutenberg-360/book.epub) · [Text PDF](../content/books/what-is-property/gutenberg-360/book.pdf) |
 
 ## Preparedness & Field Manuals
@@ -221,6 +242,7 @@ Works retained with their source-language editions alongside available translati
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
+| Crime and Punishment | Fyodor Dostoevsky | 1866 | [EPUB](../content/books/crime-and-punishment/gutenberg-2554/book.epub) · [Text PDF](../content/books/crime-and-punishment/gutenberg-2554/book.pdf) |
 | Dead Souls | Nikolai Gogol | 1842 | [EPUB](../content/books/dead-souls/gutenberg-1081/book.epub) · [Text PDF](../content/books/dead-souls/gutenberg-1081/book.pdf) |
 | Democracy in America | Alexis de Tocqueville | 1835 | [EPUB](../content/books/democracy-in-america/gutenberg-815/book.epub) · [Text PDF](../content/books/democracy-in-america/gutenberg-815/book.pdf) |
 | Don Quixote | Miguel de Cervantes | 1605 | [EPUB](../content/books/don-quixote/gutenberg-996/book.epub) · [Text PDF](../content/books/don-quixote/gutenberg-996/book.pdf) |
@@ -236,6 +258,7 @@ Works retained with their source-language editions alongside available translati
 | Steppenwolf | Hermann Hesse | 1927 | [EPUB](../content/books/steppenwolf/gutenberg-75756/book.epub) · [Text PDF](../content/books/steppenwolf/gutenberg-75756/book.pdf) |
 | Swann's Way | Marcel Proust | 1913 | [EPUB](../content/books/swanns-way/gutenberg-7178/book.epub) · [Text PDF](../content/books/swanns-way/gutenberg-7178/book.pdf) |
 | Tartuffe | Molière | 1664 | [EPUB](../content/books/tartuffe/gutenberg-28488/book.epub) · [Text PDF](../content/books/tartuffe/gutenberg-28488/book.pdf) |
+| The Brothers Karamazov | Fyodor Dostoevsky | 1880 | [EPUB](../content/books/the-brothers-karamazov/gutenberg-28054/book.epub) · [Text PDF](../content/books/the-brothers-karamazov/gutenberg-28054/book.pdf) |
 | The Count of Monte Cristo | Alexandre Dumas | 1844 | [EPUB](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.epub) · [Text PDF](../content/books/the-count-of-monte-cristo/gutenberg-1184/book.pdf) |
 | The Counterfeiters | André Gide | 1925 | [EPUB](../content/books/the-counterfeiters/gutenberg-76965/book.epub) · [Text PDF](../content/books/the-counterfeiters/gutenberg-76965/book.pdf) |
 | The Crowd | Gustave Le Bon | 1895 | [EPUB](../content/books/the-crowd/gutenberg-445/book.epub) · [Text PDF](../content/books/the-crowd/gutenberg-445/book.pdf) |
@@ -256,6 +279,7 @@ Works retained with their source-language editions alongside available translati
 | The Underdogs | Mariano Azuela | 1915 | [EPUB](../content/books/the-underdogs/gutenberg-549/book.epub) · [Text PDF](../content/books/the-underdogs/gutenberg-549/book.pdf) |
 | Theological-Political Treatise | Baruch Spinoza | 1670 | [EPUB](../content/books/the-theological-political-treatise/gutenberg-992/book.epub) · [Text PDF](../content/books/the-theological-political-treatise/gutenberg-992/book.pdf) |
 | War and Peace | Leo Tolstoy | 1869 | [EPUB](../content/books/war-and-peace/gutenberg-2600/book.epub) · [Text PDF](../content/books/war-and-peace/gutenberg-2600/book.pdf) |
+| We | Yevgeny Zamyatin | 1921 | [EPUB](../content/books/we/gutenberg-61963/book.epub) · [Text PDF](../content/books/we/gutenberg-61963/book.pdf) |
 | What Is Property? | Pierre-Joseph Proudhon | 1840 | [EPUB](../content/books/what-is-property/gutenberg-360/book.epub) · [Text PDF](../content/books/what-is-property/gutenberg-360/book.pdf) |
 
 ## Open-Distribution Library

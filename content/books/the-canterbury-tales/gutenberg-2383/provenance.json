@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "work_id": "the-canterbury-tales",
+  "edition_id": "the-canterbury-tales-en-source-1400-gutenberg-2383",
+  "source": {
+    "name": "Project Gutenberg",
+    "item_id": "2383",
+    "edition_page": "https://www.gutenberg.org/ebooks/2383",
+    "acquired_at": "2026-07-21T22:01:17+00:00"
+  },
+  "files": [
+    {
+      "role": "epub",
+      "path": "content/books/the-canterbury-tales/gutenberg-2383/book.epub",
+      "sha256": "dbc330435278e106edffd0897ebec32c4921023c44d0e5335831ff25ccec37d7",
+      "bytes": 821674
+    },
+    {
+      "role": "pdf",
+      "path": "content/books/the-canterbury-tales/gutenberg-2383/book.pdf",
+      "sha256": "223807252b2265ffe1b295544b41982c1663303b06ddd67c06b7ba1a4da1004c",
+      "bytes": 1490815
+    }
+  ],
+  "operator_note": "Created by the private archive population tool from an exact-title Project Gutenberg result selected by the operator."
+}
