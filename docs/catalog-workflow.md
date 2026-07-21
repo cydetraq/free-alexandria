@@ -4,7 +4,7 @@
 
 | State | Meaning |
 | --- | --- |
-| `candidate` | Worth including; no source edition has been approved yet. |
+| `candidate` | Worth including; no source edition has been identified yet. |
 | `edition-identified` | A specific source edition is known but not downloaded. |
 | `acquired` | File has been downloaded and hashed, pending review. |
 | `verified` | Rights, edition, completeness, and metadata have been reviewed. |

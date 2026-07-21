@@ -2,10 +2,11 @@
 """Acquire approved Project Gutenberg editions into an offline Free Alexandria workspace.
 
 This intentionally small importer is for the explicit Gutenberg records in
-catalog/edition-queue.yaml.  It downloads the canonical EPUB, derives a simple
+catalog/edition-queue.yaml. It downloads the canonical EPUB, derives a simple
 searchable PDF from Gutenberg's UTF-8 text, and writes offline provenance with
-hashes and an acquisition timestamp.  It does not publish anything to Git and
-does not decide copyright law: the queue entry must already be edition-identified.
+hashes and an acquisition timestamp. It does not publish anything to Git and
+does not decide copyright law. Operators choose which source editions to acquire
+for their own archive.
 """
 from __future__ import annotations
 
@@ -67,9 +68,8 @@ def fetch(url: str, destination: Path) -> None:
         shutil.copyfileobj(response, output)
 
 
-def approved(record: dict) -> bool:
-    # Queue membership is editorial review. Gutenberg records are allowed here only when they
-    # are a pre-1931 candidate or the queue contains source-specific rights evidence.
+def selectable(record: dict) -> bool:
+    # Queue membership identifies a source edition; it is not a legal conclusion.
     return record.get("source_id") == "project-gutenberg" and record.get("acquisition_status") == "edition-identified"
 
 
@@ -116,7 +116,7 @@ def acquire(record: dict, root: Path) -> dict:
             {"path": str(epub.relative_to(root)), "bytes": epub.stat().st_size, "sha256": sha256(epub), "format": "epub"},
             {"path": str(pdf.relative_to(root)), "bytes": pdf.stat().st_size, "sha256": sha256(pdf), "format": "pdf", "derived_from": text_url},
         ],
-        "rights_note": "This acquisition tool is limited to explicitly reviewed Project Gutenberg queue records. Confirm the edition's rights statement and preserve any required source notice before publishing a distribution.",
+        "rights_note": "Source and edition evidence retained for the local operator. This record is not legal advice or a distribution authorization.",
     }
     provenance.write_text(json.dumps(payload, indent=2) + "\n")
     return payload
@@ -125,27 +125,27 @@ def acquire(record: dict, root: Path) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--edition", action="append", help="Queue edition ID; may be supplied more than once.")
-    parser.add_argument("--all-approved", action="store_true", help="Select every approved Project Gutenberg queue record.")
+    parser.add_argument("--all-identified", "--all-approved", dest="all_identified", action="store_true", help="Select every edition-identified Project Gutenberg queue record.")
     parser.add_argument("--acquire", action="store_true", help="Perform downloads. Without this flag, print an offline-safe plan only.")
     parser.add_argument("--root", type=Path, default=ROOT, help="Workspace root receiving content (default: repository root).")
     args = parser.parse_args()
-    if not args.edition and not args.all_approved:
-        parser.error("select --edition ID or --all-approved")
+    if not args.edition and not args.all_identified:
+        parser.error("select --edition ID or --all-identified")
     records = parse_queue()
     requested = set(args.edition or [])
-    selected = [record for record in records if (args.all_approved and approved(record)) or record["id"] in requested]
+    selected = [record for record in records if (args.all_identified and selectable(record)) or record["id"] in requested]
     unknown = requested - {record["id"] for record in records}
     if unknown:
         parser.error("unknown queue ID: " + ", ".join(sorted(unknown)))
-    rejected = [record["id"] for record in selected if not approved(record)]
+    rejected = [record["id"] for record in selected if not selectable(record)]
     if rejected:
-        parser.error("not an approved Project Gutenberg acquisition: " + ", ".join(rejected))
+        parser.error("not an edition-identified Project Gutenberg acquisition: " + ", ".join(rejected))
     if not selected:
-        parser.error("no approved Project Gutenberg editions selected")
+        parser.error("no edition-identified Project Gutenberg editions selected")
     if not args.acquire:
         for record in selected:
             print(f"PLAN {record['id']} -> {record['intended_paths'].get('epub')}")
-        print("No files downloaded. Re-run with --acquire after confirming local legal eligibility.")
+        print("No files downloaded. Re-run with --acquire to add these selected editions to this local archive.")
         return 0
     for record in selected:
         payload = acquire(record, args.root.resolve())

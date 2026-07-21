@@ -33,6 +33,11 @@
       summary { cursor:pointer; color:var(--link); }
       .empty { grid-column:1/-1; border:1px dashed var(--line); color:var(--muted); padding:2rem; text-align:center; }
       .offline { color:var(--accent); font-weight:600; }
+      .selection { display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; margin:1rem 0; }
+      .selection button { width:auto; }
+      .selection-count { color:var(--accent); font-weight:600; }
+      .pick { display:flex; gap:.45rem; align-items:center; color:var(--muted); font-size:.85rem; }
+      .pick input { width:1.1rem; min-height:1.1rem; accent-color:#75b77d; }
       @media (max-width: 720px) { .controls { grid-template-columns:1fr; } header { padding:1.75rem 1.25rem; } }
       @media print { body { background:white; color:black; } header, article { background:white; } .controls, .notice { display:none; } #library { display:block; } article { break-inside:avoid; margin:0 0 1rem; border-color:#aaa; } }
     </style>
@@ -52,6 +57,13 @@
         <label>Availability<select id="availability"><option value="">All availability</option><option value="candidate">Candidate / review</option><option value="link-only">Find or borrow</option><option value="published">Local file available</option></select></label>
       </section>
       <button id="clear" type="button">Clear filters</button>
+      <section class="selection" aria-label="Build a local selection">
+        <span id="selection-count" class="selection-count">0 selected</span>
+        <button id="select-visible" type="button">Select filtered</button>
+        <button id="select-all" type="button">Select all</button>
+        <button id="select-none" type="button">Select none</button>
+        <button id="export-selection" type="button">Download selection</button>
+      </section>
       <p id="result-summary" role="status">Loading the local catalog…</p>
       <section id="library" aria-live="polite"></section>
     </main>
@@ -63,6 +75,8 @@
         const collection = document.querySelector('#collection');
         const language = document.querySelector('#language');
         const availability = document.querySelector('#availability');
+        const selected = new Set();
+        let visible = [];
         const esc = value => String(value || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
         const labels = { 'banned-challenged':'Banned & Challenged', 'essential-literature':'Essential Literature', 'essential-reading':'Essential Reading', 'open-distribution':'Open Distribution', 'original-language':'Original Language', 'practical-library':'Practical Library', 'preparedness':'Preparedness', 'suppressed-knowledge':'Suppressed Knowledge' };
         const availabilityLabel = (record, edition) => edition ? 'Local file available' : record.catalog_status === 'link-only' ? 'Find or borrow' : 'Edition / rights review';
@@ -72,7 +86,7 @@
           const statusClass = edition ? 'available' : record.catalog_status === 'link-only' ? 'link' : '';
           const original = record.original_title && record.original_title !== record.title ? ` · <i>${esc(record.original_title)}</i>` : '';
           const downloads = edition ? `<p class="downloads">${edition.files.map(file => `<a class="badge available" download href="${encodeURI(file.path)}">Download ${esc(file.role.toUpperCase())}</a>`).join(' ')}</p>` : '';
-          return `<article><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record, edition)}</span>${collections}</div><p>${esc(record.description || 'Description pending editorial review.')}</p>${downloads}<details><summary>Why this belongs here</summary><p>${esc(record.why_included || 'Editorial rationale pending.')}</p><p class="meta">Rights / acquisition status: ${esc(record.rights_status || 'review required')}</p></details></article>`;
+          return `<article data-id="${esc(record.id)}"><label class="pick"><input class="pick-record" type="checkbox" ${selected.has(record.id) ? 'checked' : ''}> Include in my local selection</label><h2>${esc(record.title)}${original}</h2><p class="creator">${esc(creator)}</p><p class="meta">${esc(record.original_language || 'Language not yet recorded')}${record.original_year !== undefined ? ` · ${esc(record.original_year)}` : ''}</p><div class="badges"><span class="badge ${statusClass}">${availabilityLabel(record, edition)}</span>${collections}</div><p>${esc(record.description || 'Description pending editorial review.')}</p>${downloads}<details><summary>Why this belongs here</summary><p>${esc(record.why_included || 'Editorial rationale pending.')}</p><p class="meta">Rights / acquisition status: ${esc(record.rights_status || 'research note')}</p></details></article>`;
         };
         const fill = (select, values, formatter = value => value) => values.sort((a,b) => formatter(a).localeCompare(formatter(b))).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(formatter(value))}</option>`));
         fetch('./manifest.json')
@@ -92,11 +106,28 @@
                   (!language.value || record.original_language === language.value) &&
                   (!availability.value || (availability.value === 'published' && edition) || record.catalog_status === availability.value || (availability.value === 'candidate' && !edition && !['link-only','published'].includes(record.catalog_status)));
               }).sort((a,b) => a.title.localeCompare(b.title));
+              visible = filtered;
+              document.querySelector('#selection-count').textContent = `${selected.size} selected`;
               summary.textContent = `${filtered.length} of ${records.length} catalog records available offline in ${manifest.profile.name}.`;
               library.innerHTML = filtered.length ? filtered.map(record => card(record, manifest.editions && manifest.editions[record.id])).join('') : '<p class="empty">No records match these filters.</p>';
             };
             [search, collection, language, availability].forEach(control => control.addEventListener(control === search ? 'input' : 'change', render));
             document.querySelector('#clear').addEventListener('click', () => { search.value = ''; collection.value = ''; language.value = ''; availability.value = ''; render(); });
+            library.addEventListener('change', event => {
+              if (!event.target.matches('.pick-record')) return;
+              const id = event.target.closest('article').dataset.id;
+              event.target.checked ? selected.add(id) : selected.delete(id);
+              document.querySelector('#selection-count').textContent = `${selected.size} selected`;
+            });
+            document.querySelector('#select-visible').addEventListener('click', () => { visible.forEach(record => selected.add(record.id)); render(); });
+            document.querySelector('#select-all').addEventListener('click', () => { records.forEach(record => selected.add(record.id)); render(); });
+            document.querySelector('#select-none').addEventListener('click', () => { selected.clear(); render(); });
+            document.querySelector('#export-selection').addEventListener('click', () => {
+              const payload = {format_version: 1, created_by: 'Free Alexandria offline portal', selected_record_ids: [...selected].sort()};
+              const blob = new Blob([JSON.stringify(payload, null, 2) + '\n'], {type:'application/json'});
+              const link = Object.assign(document.createElement('a'), {href: URL.createObjectURL(blob), download:'free-alexandria-selection.json'});
+              link.click(); URL.revokeObjectURL(link.href);
+            });
             render();
           })
           .catch(() => { summary.textContent = 'No local manifest was found. Build or copy an offline profile into this folder.'; });

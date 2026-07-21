@@ -20,19 +20,19 @@ After verification, add the edition to `catalog/published-editions.json`. A dist
 
 ## Initial Project Gutenberg importer
 
-For the explicitly reviewed Project Gutenberg records in the queue, run a local plan first:
+For the edition-identified Project Gutenberg records in the queue, run a local plan first:
 
 ```sh
-python3 tools/acquire_project_gutenberg.py --all-approved
+python3 tools/acquire_project_gutenberg.py --all-identified
 ```
 
-When the operator has confirmed that download and local archival are lawful in their jurisdiction, use:
+To acquire the selected source editions into an archive, use:
 
 ```sh
-python3 tools/acquire_project_gutenberg.py --all-approved --acquire
+python3 tools/acquire_project_gutenberg.py --all-identified --acquire
 ```
 
-The importer writes a human-readable edition directory, a canonical Gutenberg EPUB, a searchable PDF derived from Gutenberg's UTF-8 text, and a sibling `provenance.json` that records source URLs, the retrieval time, hashes, and byte counts. It never publishes files to Git or silently changes `published-editions.json`; an editorial rights review is still required before adding a file to a distribution profile.
+The importer writes a human-readable edition directory, a canonical Gutenberg EPUB, a searchable PDF derived from Gutenberg's UTF-8 text, and a sibling `provenance.json` that records source URLs, the retrieval time, hashes, and byte counts. It never publishes files to Git or silently changes `published-editions.json`. The source and rights notes are evidence for the operator, not a repository-wide authorization.
 
 ## Do not acquire
 

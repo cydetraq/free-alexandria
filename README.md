@@ -18,6 +18,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 - Link to important copyrighted works rather than copying them.
 - Preserve original-language texts alongside eligible English translations where possible.
 - Label historical medical, safety, and technical information clearly when current guidance should take precedence.
+- Separate this archive's jurisdiction-specific published collection from the portable catalog/build tool used by other people to make their own selections. See [local use and jurisdiction](docs/local-use-and-jurisdiction.md).
 
 ## Repository layout
 
@@ -55,11 +56,20 @@ python3 tools/build_profile.py profiles/core-v1.json
 The second command creates a self-contained full-catalog preview at `dist/core-v1/`. To acquire and build the first actual local distribution, run:
 
 ```sh
-python3 tools/acquire_project_gutenberg.py --all-approved --acquire
+python3 tools/acquire_project_gutenberg.py --all-identified --acquire
 python3 tools/build_profile.py profiles/us-reviewed-sampler.json
 ```
 
-That sampler contains five locally acquired, source-provenanced EPUB/PDF editions. A larger distribution is assembled only from editions that have been locally acquired, rights-reviewed, and hash-verified.
+That sampler contains five locally acquired, source-provenanced EPUB/PDF editions. A larger distribution is assembled from editions that have been locally acquired, documented, and hash-verified.
+
+To make a personal, selectable catalog view, open a built catalog preview, choose individual records (or select all/none), and download its selection file. Convert it into a private profile with:
+
+```sh
+python3 tools/create_profile_from_selection.py profiles/local-selection.example.json --output profiles/local/my-selection.json
+python3 tools/build_profile.py profiles/local/my-selection.json
+```
+
+The profile is a wish list and build input, not a forced download list. See [local use and jurisdiction](docs/local-use-and-jurisdiction.md).
 
 ## Collections
 

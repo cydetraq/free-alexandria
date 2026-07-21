@@ -21,4 +21,4 @@ After a lawful acquisition, the user still adds the exact file, hash, local prov
 
 Sources: [Project Gutenberg Canada](https://gutenberg.ca/ebooks/orwellg-nineteeneightyfour/orwellg-nineteeneightyfour-00-e.html), [Government of Canada copyright guide](https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/guide-copyright), [UK IPO guidance](https://www.gov.uk/copyright/how-long-copyright-lasts), and [Mexico's Federal Law on Copyright via WIPO Lex](https://www.wipo.int/wipolex/en/legislation/details/11495).
 
-This is jurisdictional metadata, not legal advice. A profile may use it to guide acquisition, but a local release still requires the edition-level review gate.
+This is jurisdictional metadata, not legal advice. A profile may use it to guide acquisition, but the local operator remains responsible for selecting and attesting to their own edition and use.

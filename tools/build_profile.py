@@ -111,10 +111,8 @@ def resolve_editions(profile: dict, records: list[dict]) -> dict[str, dict]:
             missing.append(record["id"])
             continue
         rights_review = candidate.get("rights_review", {})
-        if rights_review.get("status") not in {
-            "public-domain-us", "open-license", "permission-granted", "government-work-us"
-        }:
-            raise ValueError(f"unapproved rights status for {record['id']}")
+        if not rights_review.get("basis") or not rights_review.get("reviewed_at"):
+            raise ValueError(f"missing local eligibility evidence for {record['id']}")
         provenance_path = ROOT / candidate.get("provenance_path", "")
         if not provenance_path.is_file():
             raise ValueError(f"missing local provenance record for {record['id']}: {candidate.get('provenance_path')}")

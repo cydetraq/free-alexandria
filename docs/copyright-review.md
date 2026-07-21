@@ -1,22 +1,19 @@
-# Copyright review policy (United States)
+# Source-evidence policy
 
-This project distributes only editions that have a documented, edition-specific U.S. rights review. It does not treat a work title, an author death date, a repository download button, or a pre-1978 publication date as sufficient permission by itself.
+Free Alexandria records source and edition evidence for a local operator; it does not make a global legal decision. A work title, author death date, repository download button, or pre-1978 publication date is not a universal permission statement.
 
-## Practical rules for this catalog
+## Research prompts for a local operator
 
-1. **Works first published in the United States before January 1, 1931:** the Copyright Office currently identifies these as public domain. That supports an eligibility lead for the underlying text, but the selected file must still be reviewed for later translation, introduction, illustrations, annotations, restoration, or other protected additions.
-2. **Works first secured from 1931 through 1963:** do not exclude these as automatically copyrighted. A timely renewal was required; if it did not occur, the copyright expired. Add each uncertain title to `catalog/rights-review-queue.yaml` and investigate the exact publication and renewal record.
-3. **Works first secured from 1964 through 1977:** renewal became automatic, although notice, publication, foreign-work, and edition facts can still matter. Do not mirror without an edition-specific review.
-4. **Unpublished pre-1978 material:** do not use the publication-year shortcut. Current law generally applies a life-plus-70-years analysis, with statutory minimum terms for some previously unpublished works.
-5. **Foreign works and translations:** review the specific English translation or source-language edition. Foreign-status restoration rules and the independent copyright in translations make a title-level conclusion unsafe.
-6. **U.S. government material:** a work created by a U.S. Government officer or employee as part of official duties generally is not protected by U.S. copyright, but a hosted file may contain contractor, third-party, or restricted material. Review the actual publication and distribution statement.
-7. **Open-licensed material:** retain the exact license, version, attribution, and modification/redistribution terms; being free to read is not a license to mirror.
+1. **Underlying work versus file:** note later translation, introduction, illustrations, annotations, restoration, or other additions that may matter to the operator.
+2. **Publication facts:** preserve exact edition, publication, source, and translator details rather than treating a title as a single legal object.
+3. **Foreign and translated works:** record the selected language and translation; rules may vary by jurisdiction and by edition.
+4. **Government and open material:** preserve the actual distribution statement, license, attribution, and version from the source.
 
 An unresolved rights question is not an exclusion. Keep the work in the catalog and review queue, provide a legitimate external link if available, and promote it to a local edition if the review establishes a lawful distribution basis.
 
-## Publication gate
+## Local-build gate
 
-Only `catalog/published-editions.json` can authorize a distribution build. Each entry must identify its source-native ID, a local `provenance.json`, hashes and sizes, and a `rights_review` with an approved basis. The build verifies the local provenance file and hashes before copying an edition to a release.
+Only `catalog/published-editions.json` can select a file for a local distribution build. Each entry must identify its source-native ID, a local `provenance.json`, hashes and sizes, and a dated source/eligibility note recorded by the local operator. The build verifies the local provenance file and hashes before copying an edition to a release; it does not decide whether the operator's use is lawful.
 
 Completed determinations live in `catalog/rights-determinations.yaml`; unresolved but potentially eligible works stay in `catalog/rights-review-queue.yaml`. The latter is an acquisition opportunity list, not an exclusion list.
 
@@ -29,4 +26,4 @@ Completed determinations live in `catalog/rights-determinations.yaml`; unresolve
 - U.S. Copyright Office, [17 U.S.C. section 105](https://www.copyright.gov/title17/92chap1.html) — U.S. Government works.
 - U.S. Copyright Office, [Circular 38b](https://www.copyright.gov/circs/circ38b.pdf) — copyright restoration under the URAA.
 
-This is a project-control policy, not legal advice. Escalate borderline or commercially important cases for qualified legal review.
+This is a source-preservation policy, not legal advice. See [local use and jurisdiction](local-use-and-jurisdiction.md) for the project's operating boundary.
