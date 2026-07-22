@@ -2,6 +2,8 @@
 
 > A portable archive of human knowledge.
 
+## [Open the catalog](CATALOG.md)
+
 Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or a simple local web server.
 
 ## Offline-first requirement
@@ -21,6 +23,7 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 ## Repository layout
 
+- `CATALOG.md` — obvious entry point to the readable catalog.
 - `catalog/` — catalog records, collection definitions, tags, and published-edition registry.
 - `metadata/` — curation and metadata contracts.
 - `content/` — committed EPUB/PDF editions and their provenance.
@@ -41,7 +44,7 @@ The authoritative release contract is [`docs/original-requirements.md`](docs/ori
 
 Clone the repository to get an offline collection of the books and documents that Free Alexandria is legally able to distribute. You can read the included files directly or browse them through the catalog without building the portal or connecting to an outside service.
 
-- Open the [catalog](docs/catalog.md) to see what is included and where each local file is stored.
+- Open the [catalog](CATALOG.md) to see what is included and where each local file is stored.
 - Read the included EPUB and PDF files from [`content/`](content/).
 - Review [`docs/curated-reading.md`](docs/curated-reading.md) for recommended works that are not distributed with the archive.
 - Use [`catalog/catalog.json`](catalog/catalog.json) when another program needs the catalog in machine-readable form.
