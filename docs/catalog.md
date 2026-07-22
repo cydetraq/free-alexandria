@@ -13,9 +13,9 @@ Literature with a documented history of suppression, prohibition, removal, or ch
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
-| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
+| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf) |
 | A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [PDF](../content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf) |
-| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [Text PDF](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf) |
+| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [PDF](../content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf) |
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
 | Babbitt | Sinclair Lewis | 1922 | [EPUB](../content/books/babbitt/gutenberg-1156/book.epub) · [Text PDF](../content/books/babbitt/gutenberg-1156/book.pdf) |
@@ -96,7 +96,7 @@ High-impact works selected for literary and historical importance.
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
-| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [Text PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf) |
+| A Portrait of the Artist as a Young Man | James Joyce | 1916 | [EPUB](../content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.epub) · [PDF](../content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf) |
 | A Tale of Two Cities | Charles Dickens | 1859 | [EPUB](../content/books/a-tale-of-two-cities/gutenberg-98/book.epub) · [PDF](../content/books/a-tale-of-two-cities/internet-archive-in.ernet.dli.2015.225252/facsimile.pdf) |
 | Adventures of Huckleberry Finn | Mark Twain | 1884 | [EPUB](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.epub) · [Text PDF](../content/books/adventures-of-huckleberry-finn/gutenberg-76/book.pdf) |
 | Anna Karenina | Leo Tolstoy | 1877 | [EPUB](../content/books/anna-karenina/gutenberg-1399/book.epub) · [Text PDF](../content/books/anna-karenina/gutenberg-1399/book.pdf) |
@@ -168,7 +168,7 @@ Material likely to be restricted or controlled by an authoritarian regime becaus
 
 | Title | Author / publisher | Year | Local files |
 | --- | --- | ---: | --- |
-| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [Text PDF](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf) |
+| A Vindication of the Rights of Woman | Mary Wollstonecraft | 1792 | [EPUB](../content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.epub) · [PDF](../content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf) |
 | Areopagitica | John Milton | 1644 | [EPUB](../content/books/areopagitica/gutenberg-608/book.epub) · [Text PDF](../content/books/areopagitica/gutenberg-608/book.pdf) |
 | Common Sense | Thomas Paine | 1776 | [EPUB](../content/books/common-sense/gutenberg-147/book.epub) · [Text PDF](../content/books/common-sense/gutenberg-147/book.pdf) |
 | Crime and Punishment | Fyodor Dostoevsky | 1866 | [EPUB](../content/books/crime-and-punishment/gutenberg-2554/book.epub) · [Text PDF](../content/books/crime-and-punishment/gutenberg-2554/book.pdf) |

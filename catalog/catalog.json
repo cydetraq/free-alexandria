@@ -73,10 +73,10 @@
           "bytes": 313451
         },
         {
-          "role": "text-pdf",
-          "path": "content/books/a-portrait-of-the-artist-as-a-young-man/gutenberg-4217/book.pdf",
-          "sha256": "26fa95ec3e43b2bfdf3e29802389a0b38b61e37e102dca9b412d7bbc782d2138",
-          "bytes": 442019
+          "role": "facsimile-pdf",
+          "path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf",
+          "sha256": "cea14d4caea280526cec6f4d3c74d3c9f17b2b9cabdf3677f7dfd8f7b8f2b08a",
+          "bytes": 6357275
         }
       ],
       "edition_sources": [
@@ -86,6 +86,14 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/4217",
           "edition_id": "a-portrait-of-the-artist-as-a-young-man-en-source-1916-gutenberg-4217",
+          "primary": false
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": "cu31924060276882",
+          "label": "Internet Archive facsimile",
+          "url": "https://archive.org/details/cu31924060276882",
+          "edition_id": "a-portrait-of-the-artist-as-a-young-man-english-facsimile-internet-archive-cu31924060276882",
           "primary": true
         }
       ],
@@ -189,10 +197,10 @@
           "bytes": 309208
         },
         {
-          "role": "text-pdf",
-          "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
-          "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
-          "bytes": 460309
+          "role": "facsimile-pdf",
+          "path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf",
+          "sha256": "0308a366593e7ea781155a2b7def47b19343f2dfb4e4d936ebd4a9dfad292cd9",
+          "bytes": 9720579
         }
       ],
       "edition_sources": [
@@ -202,6 +210,14 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/3420",
           "edition_id": "a-vindication-of-the-rights-of-woman-en-source-1792-gutenberg-3420",
+          "primary": false
+        },
+        {
+          "source_id": "internet-archive",
+          "source_item_id": "wollrichvindicationofrig00",
+          "label": "Internet Archive facsimile",
+          "url": "https://archive.org/details/wollrichvindicationofrig00",
+          "edition_id": "a-vindication-of-the-rights-of-woman-english-facsimile-internet-archive-wollrichvindicationofrig00",
           "primary": true
         }
       ],

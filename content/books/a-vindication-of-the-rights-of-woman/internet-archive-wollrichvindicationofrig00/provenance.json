@@ -1,0 +1,28 @@
+{
+  "format_version": 1,
+  "work_id": "a-vindication-of-the-rights-of-woman",
+  "title": "A Vindication of the Rights of Woman",
+  "edition": {
+    "language": "English",
+    "publication_year": 1892,
+    "publisher": "W. Scott",
+    "source_id": "internet-archive",
+    "source_item_id": "wollrichvindicationofrig00",
+    "source_url": "https://archive.org/details/wollrichvindicationofrig00",
+    "download_url": "https://archive.org/download/wollrichvindicationofrig00/wollrichvindicationofrig00.pdf"
+  },
+  "rights_review": {
+    "status": "operator-selected",
+    "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+    "reviewed_at": "2026-07-21",
+    "evidence_url": "https://archive.org/details/wollrichvindicationofrig00"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf",
+      "sha256": "0308a366593e7ea781155a2b7def47b19343f2dfb4e4d936ebd4a9dfad292cd9",
+      "bytes": 9720579
+    }
+  ]
+}
