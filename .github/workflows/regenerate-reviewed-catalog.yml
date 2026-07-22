@@ -3,7 +3,7 @@ name: Regenerate reviewed catalog
 on:
   push:
     branches:
-      - regenerate-merged-practical-catalog
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,8 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: regenerate-merged-practical-catalog
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
