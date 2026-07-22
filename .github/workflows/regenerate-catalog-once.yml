@@ -1,0 +1,42 @@
+name: Regenerate catalog exports once
+
+on:
+  push:
+    branches:
+      - regenerate-merged-practical-catalog
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: regenerate-merged-practical-catalog
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerate committed catalog exports
+        run: |
+          python3 tools/export_catalog.py
+          if grep -q '^## Preparedness & Field Manuals$' docs/catalog.md; then
+            echo 'stale Preparedness heading remains' >&2
+            exit 1
+          fi
+          if grep -q '^## Practical Library$' docs/catalog.md; then
+            echo 'stale Practical heading remains' >&2
+            exit 1
+          fi
+          grep -q '^## Practical Skills & Preparedness$' docs/catalog.md
+          python3 tools/export_catalog.py --check
+      - name: Commit regenerated outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/catalog.json docs/catalog.md lists/curated-reading.json docs/curated-reading.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Regenerate catalog with merged practical collection'
+            git push origin HEAD:regenerate-merged-practical-catalog
+          fi
