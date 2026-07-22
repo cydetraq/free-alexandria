@@ -5,7 +5,7 @@ A work can appear in more than one collection because the collections are separa
 
 **Collection rules:** Practical and preparedness material is one collection. Original-Language Editions contains only works for which the archive actually stores a non-English edition matching the work's original language.
 
-**Included works:** 110<br>
+**Included works:** 111<br>
 **Machine-readable export:** [`catalog/catalog.json`](../catalog/catalog.json)<br>
 **Stored editions:** [`catalog/published-editions.json`](../catalog/published-editions.json)
 
@@ -226,6 +226,14 @@ Locally stored references for emergency readiness, fieldcraft, first aid, sanita
 | The American Woman's Home | Catharine Beecher and Harriet Beecher Stowe | 1869 | [EPUB](../content/books/the-american-womans-home/gutenberg-6598/book.epub) · [Text PDF](../content/books/the-american-womans-home/gutenberg-6598/book.pdf) |
 | The First Book of Farming | Charles L. Goodrich | 1905 | [EPUB](../content/books/the-first-book-of-farming/gutenberg-16900/book.epub) · [Text PDF](../content/books/the-first-book-of-farming/gutenberg-16900/book.pdf) |
 | Woodcraft and Camping | George Washington Sears | 1884 | [EPUB](../content/books/woodcraft-and-camping/gutenberg-34607/book.epub) · [Text PDF](../content/books/woodcraft-and-camping/gutenberg-34607/book.pdf) |
+
+## Open-Distribution Library
+
+Copyrighted works included under an explicit redistribution license or permission.
+
+| Title | Author / publisher | Year | Local files |
+| --- | --- | ---: | --- |
+| Down and Out in the Magic Kingdom | Cory Doctorow | 2003 | [EPUB](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.epub) · [Text PDF](../content/books/down-and-out-in-the-magic-kingdom/gutenberg-8086/book.pdf) |
 
 ## How to consume this catalog
 
