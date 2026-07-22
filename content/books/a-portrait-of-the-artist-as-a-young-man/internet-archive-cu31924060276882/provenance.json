@@ -1,0 +1,28 @@
+{
+  "format_version": 1,
+  "work_id": "a-portrait-of-the-artist-as-a-young-man",
+  "title": "A Portrait of the Artist as a Young Man",
+  "edition": {
+    "language": "English",
+    "publication_year": 1922,
+    "publisher": "B. W. Huebsch, Inc.",
+    "source_id": "internet-archive",
+    "source_item_id": "cu31924060276882",
+    "source_url": "https://archive.org/details/cu31924060276882",
+    "download_url": "https://archive.org/download/cu31924060276882/cu31924060276882.pdf"
+  },
+  "rights_review": {
+    "status": "operator-selected",
+    "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+    "reviewed_at": "2026-07-21",
+    "evidence_url": "https://archive.org/details/cu31924060276882"
+  },
+  "files": [
+    {
+      "role": "facsimile-pdf",
+      "path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf",
+      "sha256": "cea14d4caea280526cec6f4d3c74d3c9f17b2b9cabdf3677f7dfd8f7b8f2b08a",
+      "bytes": 6357275
+    }
+  ]
+}

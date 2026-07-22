@@ -28,6 +28,27 @@
             "bytes": 442019
           }
         ]
+      },
+      {
+        "edition_id": "a-portrait-of-the-artist-as-a-young-man-english-facsimile-internet-archive-cu31924060276882",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "cu31924060276882",
+        "provenance_path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/cu31924060276882"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf",
+            "sha256": "cea14d4caea280526cec6f4d3c74d3c9f17b2b9cabdf3677f7dfd8f7b8f2b08a",
+            "bytes": 6357275
+          }
+        ]
       }
     ],
     "a-tale-of-two-cities": [
@@ -105,6 +126,27 @@
             "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
             "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
             "bytes": 460309
+          }
+        ]
+      },
+      {
+        "edition_id": "a-vindication-of-the-rights-of-woman-english-facsimile-internet-archive-wollrichvindicationofrig00",
+        "language": "English",
+        "source_id": "internet-archive",
+        "source_item_id": "wollrichvindicationofrig00",
+        "provenance_path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/provenance.json",
+        "rights_review": {
+          "status": "operator-selected",
+          "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+          "reviewed_at": "2026-07-21",
+          "evidence_url": "https://archive.org/details/wollrichvindicationofrig00"
+        },
+        "files": [
+          {
+            "role": "facsimile-pdf",
+            "path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf",
+            "sha256": "0308a366593e7ea781155a2b7def47b19343f2dfb4e4d936ebd4a9dfad292cd9",
+            "bytes": 9720579
           }
         ]
       }
