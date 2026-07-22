@@ -4,7 +4,7 @@
 
 ## [Open the catalog](CATALOG.md)
 
-Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical references, emergency-preparedness material, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or a simple local web server.
+Free Alexandria is a catalog-first offline library for public-domain and openly distributable literature, practical and emergency-preparedness references, and works that help people evaluate authority, propaganda, and censorship. It builds a static offline library that can be served from removable storage or a simple local web server.
 
 ## Offline-first requirement
 
@@ -14,29 +14,30 @@ The finished distribution must work without the internet, DNS, a library catalog
 
 - Preserve source and edition clarity alongside cultural and practical value.
 - Treat offline usefulness as the primary product requirement; no core feature may depend on a live service.
-- Keep the catalog as the source of truth; generate the portal and distribution manifest from it.
+- Keep the canonical collection lock as the editorial source of truth; generate the portal and distribution manifest from it.
 - Prefer established bibliographic and source-native identifiers over title-derived names; local slugs are join keys, not canonical IDs.
 - Keep acquisition sources and provenance beside every stored edition; external URLs are audit metadata, not substitutes for required local content.
-- Preserve original-language texts alongside eligible English translations where possible.
+- Put a work in **Original-Language Editions** only when a non-English edition matching the work's declared original language is actually stored. An English translation does not qualify by itself.
+- Treat practical skills and emergency preparedness as one browsing collection.
 - Label historical medical, safety, and technical information clearly when current guidance should take precedence.
 - Keep the catalog usable for people making their own selections and local archives.
 
 ## Repository layout
 
 - `CATALOG.md` — obvious entry point to the readable catalog.
-- `catalog/` — catalog records, collection definitions, tags, and published-edition registry.
+- `catalog/` — catalog records, collection definitions, tags, published-edition registry, and canonical lock.
 - `metadata/` — curation and metadata contracts.
 - `content/` — committed EPUB/PDF editions and their provenance.
 - `portal/` — static offline site source.
 - `profiles/` — build selections and capacity policy.
 - `tools/` — validation, acquisition, audit, and build tooling.
-- `docs/` — readable catalogs plus build, content, curation, and device guidance.
+- `docs/` — readable catalogs plus build, content, curation, device, and facsimile-audit guidance.
 
 ## Current status
 
 This repository is a **bootstrap archive**, not yet a completed Pocket Alexandria device edition.
 
-The generated local catalog currently reports **111 included works**. The corpus has strong public-domain literary coverage, stored EPUB/PDF editions, provenance, checksums, local search, and profile-driven builds. It does not yet satisfy the full original requirements because the locally mirrored preparedness corpus, verified open-distribution corpus, stored cover thumbnails, multilingual reader presentation, and ESP32 captive-portal device implementation remain incomplete.
+The generated local catalog currently reports **111 included works**. The corpus has strong public-domain literary coverage, stored EPUB/PDF editions, provenance, checksums, local search, and profile-driven builds. It does not yet satisfy the full original requirements because the locally mirrored practical/preparedness corpus, verified open-distribution corpus, stored cover thumbnails, multilingual reader presentation, comprehensive facsimile audit, and ESP32 captive-portal device implementation remain incomplete.
 
 The authoritative release contract is [`docs/original-requirements.md`](docs/original-requirements.md). A release must not be described or tagged as a completed device edition until the original-requirements audit passes.
 
@@ -47,6 +48,7 @@ Clone the repository to get an offline collection of the books and documents tha
 - Open the [catalog](CATALOG.md) to see what is included and where each local file is stored.
 - Read the included EPUB and PDF files from [`content/`](content/).
 - Review [`docs/curated-reading.md`](docs/curated-reading.md) for recommended works that are not distributed with the archive.
+- Read [`docs/facsimile-audit.md`](docs/facsimile-audit.md) for the corrected definition of facsimile availability and the remaining audit gap.
 - Use [`catalog/catalog.json`](catalog/catalog.json) when another program needs the catalog in machine-readable form.
 - Check [`catalog/`](catalog/) for edition details, rights information, provenance, and checksums.
 
@@ -92,11 +94,10 @@ See [adding content](docs/adding-content.md) for the acquisition workflow.
 1. Banned & Challenged Literature
 2. Essential Literature
 3. Suppressed Knowledge
-4. Preparedness & Field Manuals
-5. Practical Library
-6. Original-Language Library
-7. Open-Distribution Library
-8. Essential Reading
+4. Practical Skills & Preparedness
+5. Original-Language Editions
+6. Open-Distribution Library
+7. Essential Reading
 
 ## Curation-ready V1
 

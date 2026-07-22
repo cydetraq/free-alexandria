@@ -1,5 +1,5 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "collections": [
     {
       "id": "banned-challenged",
@@ -17,19 +17,14 @@
       "description": "Material likely to be restricted or controlled by an authoritarian regime because it supports independent thought, private communication, resistance to coercion, critique of authority, media literacy, or preservation of disfavored history."
     },
     {
-      "id": "preparedness",
-      "name": "Preparedness & Field Manuals",
-      "description": "Fieldcraft, repair, food, shelter, navigation, and other practical continuity references."
-    },
-    {
-      "id": "practical-library",
-      "name": "Practical Library",
-      "description": "Public-domain practical references for household, workshop, farm, and outdoor use."
+      "id": "practical-preparedness",
+      "name": "Practical Skills & Preparedness",
+      "description": "Locally stored references for emergency readiness, fieldcraft, first aid, sanitation, navigation, communications, household work, repair, construction, agriculture, food preservation, and other practical continuity skills."
     },
     {
       "id": "original-language",
-      "name": "Original-Language Library",
-      "description": "Works retained with their source-language editions alongside available translations."
+      "name": "Original-Language Editions",
+      "description": "Non-English works for which this archive actually stores an edition in the work's original language. An English translation by itself does not qualify a work for this collection."
     },
     {
       "id": "open-distribution",
@@ -41,5 +36,9 @@
       "name": "Essential Reading",
       "description": "A thematic reading list. A work may also be locally included under a compatible distribution basis."
     }
-  ]
+  ],
+  "legacy_collection_aliases": {
+    "preparedness": "practical-preparedness",
+    "practical-library": "practical-preparedness"
+  }
 }

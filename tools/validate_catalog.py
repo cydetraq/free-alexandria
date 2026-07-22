@@ -44,12 +44,13 @@ if canonical_result.returncode:
     raise SystemExit(canonical_result.returncode)
 
 if args.strict:
-    checks = [
-        ROOT / "tools" / "validate_curated_reading.py",
-        ROOT / "tools" / "lint_sources.py",
-        ROOT / "tools" / "audit_original_requirements.py",
+    commands = [
+        [sys.executable, str(ROOT / "tools" / "export_catalog.py"), "--check"],
+        [sys.executable, str(ROOT / "tools" / "validate_curated_reading.py")],
+        [sys.executable, str(ROOT / "tools" / "lint_sources.py")],
+        [sys.executable, str(ROOT / "tools" / "audit_original_requirements.py")],
     ]
-    for check in checks:
-        result = subprocess.run([sys.executable, str(check)], cwd=ROOT)
+    for command in commands:
+        result = subprocess.run(command, cwd=ROOT)
         if result.returncode:
             raise SystemExit(result.returncode)
