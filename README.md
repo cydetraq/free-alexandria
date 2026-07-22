@@ -37,23 +37,26 @@ The generated local catalog currently reports **111 included works**. The corpus
 
 The authoritative release contract is [`docs/original-requirements.md`](docs/original-requirements.md). A release must not be described or tagged as a completed device edition until the original-requirements audit passes.
 
-## Browse or consume the archive
+## Use the archive
 
-The repository is usable as a standalone literary bootstrap after cloning—no portal build, online service, or external catalog is required for the locally supplied editions.
+Clone the repository to get an offline collection of the books and documents that Free Alexandria is legally able to distribute. You can read the included files directly or browse them through the catalog without building the portal or connecting to an outside service.
 
-- Browse the [downloadable catalog](docs/catalog.md) on GitHub or offline.
-- Browse [curated reading lists](docs/curated-reading.md) separately; those titles are recommendations, not supplied files.
-- Consume the committed [V1 JSON export](catalog/catalog.json) from scripts or other catalog tools.
-- Inspect source records and stored editions in [`catalog/`](catalog/) and [`content/`](content/).
+- Open the [catalog](docs/catalog.md) to see what is included and where each local file is stored.
+- Read the included EPUB and PDF files from [`content/`](content/).
+- Review [`docs/curated-reading.md`](docs/curated-reading.md) for recommended works that are not distributed with the archive.
+- Use [`catalog/catalog.json`](catalog/catalog.json) when another program needs the catalog in machine-readable form.
+- Check [`catalog/`](catalog/) for edition details, rights information, provenance, and checksums.
 
-## Validation and release audit
+## Check the repository
+
+Before publishing a release or accepting catalog changes, run:
 
 ```sh
 python3 tools/validate_catalog.py --strict
 python3 tools/audit_original_requirements.py
 ```
 
-The first command validates current catalog integrity. The second is intentionally stricter: it checks the repository against the original requested outcome and must fail while any required section is missing.
+`validate_catalog.py` checks the current catalog, local files, metadata, canonical collection, and linked-reading list for internal consistency. `audit_original_requirements.py` checks the repository against the complete project requirements and reports anything still missing. A release is not complete unless both commands pass.
 
 ## Build the current bootstrap
 
