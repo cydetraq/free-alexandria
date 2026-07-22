@@ -41,3 +41,5 @@ jobs:
             git commit -m "Replace remaining generated PDFs with facsimile scans"
             git push origin HEAD:main
           fi
+
+# Triggered after the workflow existed on the default branch.
