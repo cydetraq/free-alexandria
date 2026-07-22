@@ -1,0 +1,71 @@
+name: One-time facsimile replacement
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/one-time-facsimile-replacement.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download and register facsimiles
+        run: |
+          mkdir -p content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882
+          mkdir -p content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00
+          curl -L --fail --retry 4 --retry-delay 5 https://archive.org/download/cu31924060276882/cu31924060276882.pdf -o content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf
+          curl -L --fail --retry 4 --retry-delay 5 https://archive.org/download/wollrichvindicationofrig00/wollrichvindicationofrig00.pdf -o content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          items = [
+            ('a-portrait-of-the-artist-as-a-young-man','A Portrait of the Artist as a Young Man','cu31924060276882',1922,'B. W. Huebsch, Inc.'),
+            ('a-vindication-of-the-rights-of-woman','A Vindication of the Rights of Woman','wollrichvindicationofrig00',1892,'W. Scott'),
+          ]
+          pp=Path('catalog/published-editions.json'); published=json.loads(pp.read_text())
+          cp=Path('catalog/catalog.json'); catalog=json.loads(cp.read_text())
+          dp=Path('docs/catalog.md'); docs=dp.read_text()
+          for wid,title,item,year,publisher in items:
+            rel=f'content/books/{wid}/internet-archive-{item}/facsimile.pdf'; p=Path(rel)
+            data=p.read_bytes(); sha=hashlib.sha256(data).hexdigest(); size=len(data)
+            source=f'https://archive.org/details/{item}'
+            prov={
+              'format_version':1,'work_id':wid,'title':title,
+              'edition':{'language':'English','publication_year':year,'publisher':publisher,'source_id':'internet-archive','source_item_id':item,'source_url':source,'download_url':f'https://archive.org/download/{item}/{item}.pdf'},
+              'rights_review':{'status':'operator-selected','basis':'Operator-selected source-faithful public-domain scan; source page and local provenance retained.','reviewed_at':'2026-07-21','evidence_url':source},
+              'files':[{'role':'facsimile-pdf','path':rel,'sha256':sha,'bytes':size}]}
+            prov_path=p.parent/'provenance.json'; prov_path.write_text(json.dumps(prov,indent=2,ensure_ascii=False)+'\n')
+            ed={'edition_id':f'{wid}-english-facsimile-internet-archive-{item}','language':'English','source_id':'internet-archive','source_item_id':item,'provenance_path':str(prov_path),'rights_review':prov['rights_review'],'files':prov['files']}
+            arr=published['editions'].setdefault(wid,[]); arr[:]=[e for e in arr if not(e.get('source_id')=='internet-archive' and e.get('source_item_id')==item)]; arr.append(ed)
+            rec=next(r for r in catalog['records'] if r['id']==wid)
+            rec['download_files']=[f for f in rec.get('download_files',[]) if f.get('role')!='text-pdf']+[{'role':'facsimile-pdf','path':rel,'sha256':sha,'bytes':size}]
+            for s in rec.get('edition_sources',[]): s['primary']=False
+            rec.setdefault('edition_sources',[]).append({'source_id':'internet-archive','source_item_id':item,'label':'Internet Archive facsimile','url':source,'edition_id':ed['edition_id'],'primary':True})
+            out=[]
+            for line in docs.splitlines():
+              if f'| {title} |' in line and 'Text PDF' in line:
+                line=line.split(' · [Text PDF]')[0]+f' · [PDF](../{rel}) |'
+              out.append(line)
+            docs='\n'.join(out)+('\n' if docs.endswith('\n') else '')
+          pp.write_text(json.dumps(published,indent=2,ensure_ascii=False)+'\n')
+          cp.write_text(json.dumps(catalog,indent=2,ensure_ascii=False)+'\n')
+          dp.write_text(docs)
+          PY
+          test -s content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf
+          test -s content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf
+          python -m json.tool catalog/published-editions.json >/dev/null
+          python -m json.tool catalog/catalog.json >/dev/null
+          rm .github/workflows/one-time-facsimile-replacement.yml
+      - name: Commit replacements
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m "Replace two generated PDFs with scanned facsimiles"
+          git push
