@@ -1,6 +1,10 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "offline_notice": "This file contains only works supplied by this repository as local EPUB/PDF editions. It has no runtime dependency on external catalogs or URLs.",
+  "collection_policy": {
+    "practical_preparedness": "Legacy preparedness and practical-library memberships are merged into practical-preparedness.",
+    "original_language": "Membership requires a stored non-English edition whose language matches the work's declared original language; an English translation alone does not qualify."
+  },
   "collections": [
     {
       "id": "banned-challenged",
@@ -18,19 +22,14 @@
       "description": "Material likely to be restricted or controlled by an authoritarian regime because it supports independent thought, private communication, resistance to coercion, critique of authority, media literacy, or preservation of disfavored history."
     },
     {
-      "id": "preparedness",
-      "name": "Preparedness & Field Manuals",
-      "description": "Fieldcraft, repair, food, shelter, navigation, and other practical continuity references."
-    },
-    {
-      "id": "practical-library",
-      "name": "Practical Library",
-      "description": "Public-domain practical references for household, workshop, farm, and outdoor use."
+      "id": "practical-preparedness",
+      "name": "Practical Skills & Preparedness",
+      "description": "Locally stored references for emergency readiness, fieldcraft, first aid, sanitation, navigation, communications, household work, repair, construction, agriculture, food preservation, and other practical continuity skills."
     },
     {
       "id": "original-language",
-      "name": "Original-Language Library",
-      "description": "Works retained with their source-language editions alongside available translations."
+      "name": "Original-Language Editions",
+      "description": "Non-English works for which this archive actually stores an edition in the work's original language. An English translation by itself does not qualify a work for this collection."
     },
     {
       "id": "open-distribution",
@@ -73,7 +72,7 @@
           "bytes": 313451
         },
         {
-          "role": "facsimile-pdf",
+          "role": "pdf",
           "path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf",
           "sha256": "cea14d4caea280526cec6f4d3c74d3c9f17b2b9cabdf3677f7dfd8f7b8f2b08a",
           "bytes": 6357275
@@ -86,15 +85,15 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/4217",
           "edition_id": "a-portrait-of-the-artist-as-a-young-man-en-source-1916-gutenberg-4217",
-          "primary": false
+          "primary": true
         },
         {
           "source_id": "internet-archive",
           "source_item_id": "cu31924060276882",
-          "label": "Internet Archive facsimile",
+          "label": "Internet Archive",
           "url": "https://archive.org/details/cu31924060276882",
           "edition_id": "a-portrait-of-the-artist-as-a-young-man-english-facsimile-internet-archive-cu31924060276882",
-          "primary": true
+          "primary": false
         }
       ],
       "rights_guidance": {
@@ -197,7 +196,7 @@
           "bytes": 309208
         },
         {
-          "role": "facsimile-pdf",
+          "role": "pdf",
           "path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf",
           "sha256": "0308a366593e7ea781155a2b7def47b19343f2dfb4e4d936ebd4a9dfad292cd9",
           "bytes": 9720579
@@ -210,15 +209,15 @@
           "label": "Project Gutenberg",
           "url": "https://www.gutenberg.org/ebooks/3420",
           "edition_id": "a-vindication-of-the-rights-of-woman-en-source-1792-gutenberg-3420",
-          "primary": false
+          "primary": true
         },
         {
           "source_id": "internet-archive",
           "source_item_id": "wollrichvindicationofrig00",
-          "label": "Internet Archive facsimile",
+          "label": "Internet Archive",
           "url": "https://archive.org/details/wollrichvindicationofrig00",
           "edition_id": "a-vindication-of-the-rights-of-woman-english-facsimile-internet-archive-wollrichvindicationofrig00",
-          "primary": true
+          "primary": false
         }
       ],
       "rights_guidance": {
@@ -294,8 +293,7 @@
       "original_language": "Russian",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -568,7 +566,6 @@
       "collections": [
         "banned-challenged",
         "essential-literature",
-        "original-language",
         "suppressed-knowledge"
       ],
       "project_gutenberg_id": "2554",
@@ -625,7 +622,6 @@
       "original_language": "Russian",
       "collections": [
         "essential-literature",
-        "original-language",
         "suppressed-knowledge",
         "banned-challenged"
       ],
@@ -681,8 +677,7 @@
       "original_year": 1835,
       "original_language": "French",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -792,8 +787,7 @@
       "original_language": "Spanish",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "translations": "",
@@ -958,8 +952,7 @@
       "original_year": 1911,
       "original_language": "English",
       "collections": [
-        "preparedness",
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -1068,8 +1061,7 @@
       "original_year": 1895,
       "original_language": "German",
       "collections": [
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -1124,7 +1116,6 @@
       "original_year": 1891,
       "original_language": "Spanish",
       "collections": [
-        "original-language",
         "banned-challenged",
         "suppressed-knowledge"
       ],
@@ -1291,7 +1282,7 @@
       "original_year": 1918,
       "original_language": "English",
       "collections": [
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -1346,7 +1337,6 @@
       "original_language": "Russian",
       "collections": [
         "essential-literature",
-        "original-language",
         "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
@@ -1400,7 +1390,7 @@
       "publication_number": "FM 5-426",
       "publisher": "United States Army",
       "collections": [
-        "preparedness"
+        "practical-preparedness"
       ],
       "distribution_status": "verify-edition",
       "civilian_relevance": "Tools, framing, roofing, and field construction.",
@@ -1510,7 +1500,6 @@
       "original_language": "French",
       "collections": [
         "banned-challenged",
-        "original-language",
         "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
@@ -1736,8 +1725,7 @@
       "original_year": 1924,
       "original_language": "English",
       "collections": [
-        "preparedness",
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -2066,7 +2054,6 @@
       "original_language": "French",
       "collections": [
         "essential-literature",
-        "original-language",
         "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
@@ -2176,8 +2163,7 @@
       "original_language": "French",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -2510,7 +2496,6 @@
       "original_language": "Spanish",
       "collections": [
         "essential-literature",
-        "original-language",
         "banned-challenged",
         "suppressed-knowledge"
       ],
@@ -2782,7 +2767,6 @@
       "original_year": 1899,
       "original_language": "Russian",
       "collections": [
-        "original-language",
         "suppressed-knowledge",
         "banned-challenged"
       ],
@@ -2947,7 +2931,7 @@
       "original_year": 1914,
       "original_language": "English",
       "collections": [
-        "preparedness"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3002,7 +2986,6 @@
       "original_language": "German",
       "collections": [
         "essential-literature",
-        "original-language",
         "banned-challenged"
       ],
       "rights_status": "historical-work",
@@ -3113,7 +3096,6 @@
       "original_language": "German",
       "collections": [
         "essential-literature",
-        "original-language",
         "banned-challenged"
       ],
       "rights_status": "historical-work",
@@ -3170,8 +3152,7 @@
       "original_year": 1913,
       "original_language": "French",
       "collections": [
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3228,7 +3209,6 @@
       "collections": [
         "banned-challenged",
         "essential-literature",
-        "original-language",
         "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
@@ -3454,7 +3434,7 @@
       "original_year": 1869,
       "original_language": "English",
       "collections": [
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3564,7 +3544,6 @@
       "original_language": "Russian",
       "collections": [
         "essential-literature",
-        "original-language",
         "suppressed-knowledge",
         "banned-challenged"
       ],
@@ -3784,8 +3763,7 @@
       "original_language": "French",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3840,8 +3818,7 @@
       "original_year": 1925,
       "original_language": "French",
       "collections": [
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -3896,8 +3873,7 @@
       "original_year": 1895,
       "original_language": "French",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4014,8 +3990,7 @@
       "original_language": "Italian",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4069,8 +4044,7 @@
       "original_year": 1841,
       "original_language": "German",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4178,7 +4152,7 @@
       "original_year": 1905,
       "original_language": "English",
       "collections": [
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4288,8 +4262,7 @@
       "original_language": "Ancient Greek",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4344,7 +4317,6 @@
       "original_year": 1902,
       "original_language": "French",
       "collections": [
-        "original-language",
         "banned-challenged"
       ],
       "rights_status": "historical-work",
@@ -4516,8 +4488,7 @@
       "original_year": 1890,
       "original_language": "Russian",
       "collections": [
-        "banned-challenged",
-        "original-language"
+        "banned-challenged"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4571,8 +4542,7 @@
       "original_year": 1835,
       "original_language": "German",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -4683,7 +4653,6 @@
       "original_language": "German",
       "collections": [
         "essential-literature",
-        "original-language",
         "banned-challenged"
       ],
       "rights_status": "historical-work",
@@ -4793,7 +4762,6 @@
       "original_year": 1906,
       "original_language": "Russian",
       "collections": [
-        "original-language",
         "suppressed-knowledge",
         "banned-challenged"
       ],
@@ -4851,8 +4819,7 @@
       "original_language": "Ancient Greek",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5016,8 +4983,7 @@
       "original_year": -380,
       "original_language": "Ancient Greek",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5126,8 +5092,7 @@
       "original_year": 1762,
       "original_language": "French",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5183,8 +5148,7 @@
       "original_language": "German",
       "collections": [
         "banned-challenged",
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5347,8 +5311,7 @@
       "original_year": 1670,
       "original_language": "Latin",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5402,8 +5365,7 @@
       "original_year": 1844,
       "original_language": "French",
       "collections": [
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5459,7 +5421,6 @@
       "original_language": "German",
       "collections": [
         "suppressed-knowledge",
-        "original-language",
         "essential-literature",
         "banned-challenged"
       ],
@@ -5571,8 +5532,7 @@
       "original_year": 1915,
       "original_language": "Spanish",
       "collections": [
-        "essential-literature",
-        "original-language"
+        "essential-literature"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -5845,7 +5805,6 @@
       "original_language": "Russian",
       "collections": [
         "essential-literature",
-        "original-language",
         "suppressed-knowledge",
         "banned-challenged"
       ],
@@ -5904,7 +5863,6 @@
       "collections": [
         "suppressed-knowledge",
         "essential-literature",
-        "original-language",
         "banned-challenged"
       ],
       "project_gutenberg_id": "61963",
@@ -5961,8 +5919,7 @@
       "original_year": 1840,
       "original_language": "French",
       "collections": [
-        "suppressed-knowledge",
-        "original-language"
+        "suppressed-knowledge"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -6131,8 +6088,7 @@
       "original_year": 1884,
       "original_language": "English",
       "collections": [
-        "preparedness",
-        "practical-library"
+        "practical-preparedness"
       ],
       "rights_status": "historical-work",
       "catalog_status": "source-linked",
@@ -6264,6 +6220,27 @@
               "bytes": 442019
             }
           ]
+        },
+        {
+          "edition_id": "a-portrait-of-the-artist-as-a-young-man-english-facsimile-internet-archive-cu31924060276882",
+          "language": "English",
+          "source_id": "internet-archive",
+          "source_item_id": "cu31924060276882",
+          "provenance_path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://archive.org/details/cu31924060276882"
+          },
+          "files": [
+            {
+              "role": "facsimile-pdf",
+              "path": "content/books/a-portrait-of-the-artist-as-a-young-man/internet-archive-cu31924060276882/facsimile.pdf",
+              "sha256": "cea14d4caea280526cec6f4d3c74d3c9f17b2b9cabdf3677f7dfd8f7b8f2b08a",
+              "bytes": 6357275
+            }
+          ]
         }
       ],
       "a-tale-of-two-cities": [
@@ -6341,6 +6318,27 @@
               "path": "content/books/a-vindication-of-the-rights-of-woman/gutenberg-3420/book.pdf",
               "sha256": "b19957dc26538819ebcbce53e478bb986f38831d9c7313eb62da70dd5844bba6",
               "bytes": 460309
+            }
+          ]
+        },
+        {
+          "edition_id": "a-vindication-of-the-rights-of-woman-english-facsimile-internet-archive-wollrichvindicationofrig00",
+          "language": "English",
+          "source_id": "internet-archive",
+          "source_item_id": "wollrichvindicationofrig00",
+          "provenance_path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/provenance.json",
+          "rights_review": {
+            "status": "operator-selected",
+            "basis": "Operator-selected source-faithful public-domain scan; source page and local provenance retained.",
+            "reviewed_at": "2026-07-21",
+            "evidence_url": "https://archive.org/details/wollrichvindicationofrig00"
+          },
+          "files": [
+            {
+              "role": "facsimile-pdf",
+              "path": "content/books/a-vindication-of-the-rights-of-woman/internet-archive-wollrichvindicationofrig00/facsimile.pdf",
+              "sha256": "0308a366593e7ea781155a2b7def47b19343f2dfb4e4d936ebd4a9dfad292cd9",
+              "bytes": 9720579
             }
           ]
         }
